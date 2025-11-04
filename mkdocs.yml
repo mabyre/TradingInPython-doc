@@ -1,3 +1,41 @@
 site_name: TradingInPython Documentation
 theme:
   name: material
+  language: fr
+
+nav:
+  - Accueil: index.md
+  - Présentation:
+      - Vue d'ensemble: presentation/index.md
+      - Pourquoi TradingInPython ?: presentation/pourquoi.md
+      - Licence gratuite: presentation/licence.md
+      - Téléchargement: presentation/telechargement.md
+  - Démarrage rapide:
+      - Installation: demarrage/installation.md
+      - Configuration: demarrage/configuration.md
+      - Routine de trading: demarrage/routine.md
+  - Fonctionnalités:
+      - Screener: fonctionnalites/screener.md
+      - Heatmap Performance: fonctionnalites/heatmap.md
+      - Monitoring & Alertes: fonctionnalites/monitoring.md
+      - Gestionnaire de Portefeuilles: fonctionnalites/portefeuille.md
+  - Stratégies de trading:
+      - Vue d'ensemble: strategies/index.md
+      - Ichimoku Kinko Hyo: strategies/ichimoku.md
+      - Moyennes mobiles: strategies/moyennes.md
+      - Bollinger Bands: strategies/bollinger.md
+      - VWAP + STOCH: strategies/vwap.md
+      - Fractales Bill Williams: strategies/fractales.md
+      - Kalman Filter: strategies/kalman.md
+      - Prédiction Keras: strategies/prediction.md
+  - Indicateurs techniques:
+      - Liste des indicateurs: indicateurs/index.md
+      - Codes sources Python: indicateurs/code.md
+  - Intégration personnalisée:
+      - Ajouter une stratégie: integration/ajouter-strategie.md
+      - Open software: integration/open-software.md
+  - Ressources:
+      - Documentation utilisateur: ressources/documentation.md
+      - Chaîne YouTube: ressources/youtube.md
+      - Glossaire boursier: ressources/glossaire.md
+  - À propos: about.md
