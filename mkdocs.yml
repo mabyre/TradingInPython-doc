@@ -3,8 +3,8 @@ site_description: Documentation officielle de la plateforme TradingInPython
 site_author: Bruno Raby
 site_url: https://www.trading-et-data-analyses.com
 
-repo_name: sodevlog/TradingInPython
-repo_url: https://github.com/sodevlog/TradingInPython
+repo_name: TradingInPython
+repo_url: https://github.com/SoDevLog/PyTrading/
 edit_uri: edit/main/docs/
 
 theme:
@@ -27,10 +27,8 @@ theme:
 nav:
   - Accueil: index.md
   - Récupération des données: data_retrieval.md
+  - Sélectionner une action: select_stock.md
   - Routine de trading: trading_routine.md
-  - Heatmap & Screener: heatmap_screener.md
-  - Monitor & Alertes: monitor_alerts.md
-  - Gestionnaire de Portefeuilles: portfolio_manager.md
   - Stratégies intégrées:
       - Vue d’ensemble: strategies.md
       - Ichimoku & Deep Learning: strategies/ichimoku_dl.md
@@ -39,6 +37,9 @@ nav:
       - Fractals & Gator: strategies/fractals_gator.md
       - Filtre de Kalman: strategies/kalman.md
       - Prédiction IA (Keras / JAX): strategies/prediction_ai.md
+  - Heatmap & Screener: heatmap_screener.md
+  - Monitor & Alertes: monitor_alerts.md
+  - Gestionnaire de Portefeuilles: portfolio_manager.md
   - Interface & Configuration: ui_configuration.md
   - Extensions & Open Software: extension_open.md
   - FAQ: faq.md

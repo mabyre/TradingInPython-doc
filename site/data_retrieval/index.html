@@ -18,7 +18,7 @@
         <link rel="prev" href="..">
       
       
-        <link rel="next" href="../trading_routine/">
+        <link rel="next" href="../select_stock/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#data-retrieval" class="md-skip">
+        <a href="#recuperation-des-donnees-du-cours-de-bourse" class="md-skip">
           Aller au contenu
         </a>
       
@@ -170,13 +170,13 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/sodevlog/TradingInPython" title="Aller au dépôt" class="md-source" data-md-component="source">
+        <a href="https://github.com/SoDevLog/PyTrading/" title="Aller au dépôt" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
-    sodevlog/TradingInPython
+    TradingInPython
   </div>
 </a>
       </div>
@@ -216,13 +216,13 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/sodevlog/TradingInPython" title="Aller au dépôt" class="md-source" data-md-component="source">
+      <a href="https://github.com/SoDevLog/PyTrading/" title="Aller au dépôt" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
   </div>
   <div class="md-source__repository">
-    sodevlog/TradingInPython
+    TradingInPython
   </div>
 </a>
     </div>
@@ -267,6 +267,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Récupération des données
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -279,6 +292,116 @@
 
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-selection-de-laction-a-trader" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Sélection de l'action à trader
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-choisir-lintervalle-et-la-periode" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Choisir l’intervalle et la période
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Choisir l’intervalle et la période">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametres-supportes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paramètres supportés
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recuperation-des-datas-sur-une-periode-de-temps-donnee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Récupération des datas sur une période de temps donnée
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-recuperation-des-donnees-en-temps-reel" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Récupération des données en temps réel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-remarques-pratiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Remarques pratiques
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-exemple-de-code-avec-la-librairie-yfinance" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Exemple de code avec la librairie yfinance
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../select_stock/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sélectionner une action
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -311,72 +434,6 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../heatmap_screener/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Heatmap & Screener
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../monitor_alerts/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Monitor & Alertes
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../portfolio_manager/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Gestionnaire de Portefeuilles
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
     
     
     
@@ -388,10 +445,10 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   
@@ -404,8 +461,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Stratégies intégrées
           </label>
@@ -586,6 +643,72 @@
   
   
     <li class="md-nav__item">
+      <a href="../heatmap_screener/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heatmap & Screener
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../monitor_alerts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Monitor & Alertes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portfolio_manager/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gestionnaire de Portefeuilles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../ui_configuration/" class="md-nav__link">
         
   
@@ -687,6 +810,83 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-selection-de-laction-a-trader" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Sélection de l'action à trader
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-choisir-lintervalle-et-la-periode" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Choisir l’intervalle et la période
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Choisir l’intervalle et la période">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametres-supportes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paramètres supportés
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recuperation-des-datas-sur-une-periode-de-temps-donnee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Récupération des datas sur une période de temps donnée
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-recuperation-des-donnees-en-temps-reel" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Récupération des données en temps réel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-remarques-pratiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Remarques pratiques
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-exemple-de-code-avec-la-librairie-yfinance" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Exemple de code avec la librairie yfinance
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -704,8 +904,106 @@
   
 
 
-<h1 id="data-retrieval">Data retrieval<a class="headerlink" href="#data-retrieval" title="Permanent link">&para;</a></h1>
-<p><em>Contenu à compléter.</em></p>
+<h1 id="recuperation-des-donnees-du-cours-de-bourse">Récupération des données du cours de bourse<a class="headerlink" href="#recuperation-des-donnees-du-cours-de-bourse" title="Permanent link">&para;</a></h1>
+<h2 id="1-selection-de-laction-a-trader">1. Sélection de l'action à trader<a class="headerlink" href="#1-selection-de-laction-a-trader" title="Permanent link">&para;</a></h2>
+<p>L’application s’ouvre sur la dernière action que vous aviez sélectionnée pour trader.</p>
+<p>Exemple : Si vous étiez sur l’action BMW (secteur automobile), vous pouvez passer votre souris sur l’indication "secteur de la stock", l'indication vous demande de choisir le menu 'Stocks" pour choisir un autre secteur :</p>
+<div style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEg6CQtDn1RWe8qASBzDC9f-8cfbKpNhgIywNwwuN7iNhy_ZXXAO1V5i48f-f80ua_kFjWiShurUUBX5D9V5C5UiGXEET6VWP_BmuYZwqMAjqGoIGE4S1Nb4XMYIZ7XUWFxdYHFqTwb8LxvVDmXUNvSgteK4VGSm1a_2q8R6dLDCwD_e-o5sqx_1Nz_XJmnf"><img alt="Choisir le secteur de la stock à trader" data-original-height="458" data-original-width="272" src="https://blogger.googleusercontent.com/img/a/AVvXsEg6CQtDn1RWe8qASBzDC9f-8cfbKpNhgIywNwwuN7iNhy_ZXXAO1V5i48f-f80ua_kFjWiShurUUBX5D9V5C5UiGXEET6VWP_BmuYZwqMAjqGoIGE4S1Nb4XMYIZ7XUWFxdYHFqTwb8LxvVDmXUNvSgteK4VGSm1a_2q8R6dLDCwD_e-o5sqx_1Nz_XJmnf=s16000" title="Choisir le secteur de la stock à trader" /></a></div>
+
+<p>Cliquez sur le menu "Stocks" pour changer le secteur ou le portefeuille de l'action à trader :</p>
+<div style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiRVq8JuPbCGeJqImrtt0uGAfxMLROV3cKQXEd8xrBE-MEpe31rUGTZcvlcVUDj1GWjWOtZJboLY249XRFG3noWPIm-q8-5CDJcGwuULlx4hXr2QkV4Kq1q-IhemXFl5eSFRymNUIj5hNoR-YfbULoQZUdjx2EVARhD1J4zI6PPsufl715tWEXTTrYLn2be"><img alt="Secteur de la stock à trader" data-original-height="490" data-original-width="322" src="https://blogger.googleusercontent.com/img/a/AVvXsEiRVq8JuPbCGeJqImrtt0uGAfxMLROV3cKQXEd8xrBE-MEpe31rUGTZcvlcVUDj1GWjWOtZJboLY249XRFG3noWPIm-q8-5CDJcGwuULlx4hXr2QkV4Kq1q-IhemXFl5eSFRymNUIj5hNoR-YfbULoQZUdjx2EVARhD1J4zI6PPsufl715tWEXTTrYLn2be=s16000" title="Secteur de la stock à trader" /></a></div>
+
+<p>Vous vous retrouvez avec les actions (stocks) du secteur de l'aérospatial-défense :</p>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjj668LfHhpnLKH2g6eTHU4waF_RIPZPle6JZEHxH6ildI3gSIvopGutHZQeziIBO-fQ99g8iC-xuIaEVQcQfzGimmRatMkcg2U2rTykcls01W-v1-wq_GCyYkDpk6jwivXFhWCQcrLuxaskYXtQwBYncX5JwzXqzLvaEc3stpyk5RMgqnP7IFdoEIx4s1N" style="margin-left: 1em; margin-right: 1em;"><img alt="" data-original-height="493" data-original-width="424" src="https://blogger.googleusercontent.com/img/a/AVvXsEjj668LfHhpnLKH2g6eTHU4waF_RIPZPle6JZEHxH6ildI3gSIvopGutHZQeziIBO-fQ99g8iC-xuIaEVQcQfzGimmRatMkcg2U2rTykcls01W-v1-wq_GCyYkDpk6jwivXFhWCQcrLuxaskYXtQwBYncX5JwzXqzLvaEc3stpyk5RMgqnP7IFdoEIx4s1N=s16000" /></a></div>
+
+<p>Vous choisissez l'action que vous souhaitez trader parmi ce secteur.</p>
+<h2 id="2-choisir-lintervalle-et-la-periode">2. Choisir l’intervalle et la période<a class="headerlink" href="#2-choisir-lintervalle-et-la-periode" title="Permanent link">&para;</a></h2>
+<p>Vous observez le cours des actions qui vous intéressent en sélectionnant un intervalle de temps et une  période sur laquelle vous souhaitez analyser le cours de ces actions.</p>
+<p>Le choix de l'intervalle et de la période se fait parmi les valeurs suivantes :</p>
+<ul>
+<li>L’<strong>intervalle de temps</strong> (Interval) pour l’échantillonnage (1 m, 2 m, 5 m, 15 m, 30 m, 60 m, 1h, 4h, 1d, …)</li>
+<li>La <strong>période d’analyse</strong> (Period) ou bien des dates de début et de fin.</li>
+</ul>
+<p>Grâce à l'interface :</p>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD_7q2X-Ee4TwywyhcC0AFeh90036CqVw6KCfA-h0UXc7DnIMwr8TV3okxiyRhNSYclOd82vUXRs1FWtAHKnzJ_OalUXr3oqOmWsl58eShURV7kuRfFY8M0xjbqMlh_79q-zAvMh8XBKAYzn6BZNdzt9uzWX9sjPIRgg5ct4UXFczMcOzeRsSogsX_XgiS/s458/2025-01-27_15h08_47.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="458" data-original-width="272" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD_7q2X-Ee4TwywyhcC0AFeh90036CqVw6KCfA-h0UXc7DnIMwr8TV3okxiyRhNSYclOd82vUXRs1FWtAHKnzJ_OalUXr3oqOmWsl58eShURV7kuRfFY8M0xjbqMlh_79q-zAvMh8XBKAYzn6BZNdzt9uzWX9sjPIRgg5ct4UXFczMcOzeRsSogsX_XgiS/s16000/2025-01-27_15h08_47.png" title="TradingInPython" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Sélection de l'action et de la période d'analyse</td></tr></tbody></table>
+
+<h3 id="parametres-supportes">Paramètres supportés<a class="headerlink" href="#parametres-supportes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>period : 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max</code>.</li>
+<li><code>interval : 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 4h, 1d, 5d, 1wk, 1mo, 3mo</code>.</li>
+</ul>
+<blockquote>
+<p>Note : Les données intraday (ex : 1 m, 2 m) ne peuvent pas s’étendre sur une période trop ancienne.
+Vous risquez alors de voir un message <strong>NO DATA</strong> afficher sur l'interface.</p>
+</blockquote>
+<p>Vous choisissez ensuite parmi les stratégies d'analyses proposées par la plateforme de trading.</p>
+<h2 id="recuperation-des-datas-sur-une-periode-de-temps-donnee">Récupération des datas sur une période de temps donnée<a class="headerlink" href="#recuperation-des-datas-sur-une-periode-de-temps-donnee" title="Permanent link">&para;</a></h2>
+<p>Vous avez <strong>trois façons</strong> de récupérer des données :</p>
+<ul>
+<li>La première c'est avec <strong>"Interval"</strong> et <strong>"Period"</strong> mais cette méthode est limitée et vous ne pouvez pas retourner dans le passé.</li>
+</ul>
+<p>De toutes les façons, sélectionnez un "Interval" d'échantillonnage et en suite,</p>
+<ul>
+<li>Pour utiliser <strong>"Jours dans le passé"</strong> et <strong>"Jours avant la fin"</strong> sélectionnez "none" (tout en bas de la liste) dans "Period".</li>
+</ul>
+<p>Vous pouvez alors remonter dans le passé sur une période de temps égale à "Jours avant la fin" moins "Jours dans le passé".</p>
+<ul>
+<li>
+<p>Pour utiliser les deux dates <strong>"Date de début"</strong> et <strong>"Date de fin"</strong>, il vous faut mettre :</p>
+</li>
+<li>
+<p><strong>"Period"</strong> à "none"</p>
+</li>
+<li><strong>"Jours dans le passé"</strong> à 0</li>
+<li><strong>"Jours avant la fin"</strong> à 0</li>
+</ul>
+<p>Dans ce cas, les données sont récupérées entre <strong>"Date de début"</strong> et <strong>"Date de fin"</strong>.</p>
+<p>Le bouton <strong>"Now"</strong> vous permet de remplir automatiquement <strong>"Date de fin"</strong> avec la date d'aujourd'hui.</p>
+<p>Voici une page pour vous expliquer en détails comment faire :</p>
+<ul>
+<li><a href="https://www.trading-et-data-analyses.com/p/voyager-dans-le-temps.html">Voyagez dans le temps</a></li>
+</ul>
+<h2 id="3-recuperation-des-donnees-en-temps-reel">3. Récupération des données en temps réel<a class="headerlink" href="#3-recuperation-des-donnees-en-temps-reel" title="Permanent link">&para;</a></h2>
+<p>Vous avez la possibilité de suivre le cours de l’action minute par minute :  </p>
+<ul>
+<li>Cochez la case <strong>AUTO</strong> (ou mode automatique) pour que les données soient récupérées en continu.</li>
+<li>Une thread dédiée démarre pour récupérer les données en temps réel, et les graphiques se mettent à jour dynamiquement.</li>
+</ul>
+<h2 id="4-remarques-pratiques">4. Remarques pratiques<a class="headerlink" href="#4-remarques-pratiques" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Veillez à choisir l’<strong>intervalle</strong> en fonction de votre horizon de trading : <code>intraday, swing, ou long terme</code>.  </li>
+<li>Prenez garde à la <strong>granularité</strong> : par exemple, un intervalle de 1 m sur une période de plusieurs mois peut être lourd en données.  </li>
+<li>Si vous utilisez les dates de début/fin plutôt que <strong>period</strong>, vous avez plus de flexibilité pour remonter dans les archives.  </li>
+<li>Pour un suivi réel (minute par minute), vous avez l’option "Auto".</li>
+</ul>
+<h2 id="5-exemple-de-code-avec-la-librairie-yfinance">5. Exemple de code avec la librairie yfinance<a class="headerlink" href="#5-exemple-de-code-avec-la-librairie-yfinance" title="Permanent link">&para;</a></h2>
+<p>Si vous souhaitez, voici un le code Python illustrant la récupération des données :</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">yfinance</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">yf</span>
+
+<span class="n">ticker</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">Ticker</span><span class="p">(</span><span class="s2">&quot;BMW.DE&quot;</span><span class="p">)</span>  <span class="c1"># Symbole de l’action</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">history</span><span class="p">(</span>
+    <span class="n">interval</span><span class="o">=</span><span class="s2">&quot;1h&quot;</span><span class="p">,</span>
+    <span class="n">period</span><span class="o">=</span><span class="s2">&quot;6mo&quot;</span><span class="p">,</span>            <span class="c1"># exemple pour les 6 derniers mois</span>
+    <span class="n">prepost</span><span class="o">=</span><span class="kc">True</span>             <span class="c1"># si disponible, inclure pré- et post-marché</span>
+<span class="p">)</span>
+
+<span class="c1"># Différentes façons d&#39;appeler la fonction de récupération des donnée</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">history</span><span class="p">(</span> 
+    <span class="n">period</span><span class="o">=</span><span class="n">period_select</span><span class="p">,</span> 
+    <span class="n">interval</span><span class="o">=</span><span class="n">interval_fecth</span><span class="p">,</span> 
+    <span class="n">prepost</span><span class="o">=</span><span class="n">prepost</span><span class="p">,</span> 
+    <span class="n">auto_adjust</span><span class="o">=</span><span class="n">auto_adjust</span>
+<span class="p">)</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">history</span><span class="p">(</span> 
+    <span class="n">start</span><span class="o">=</span><span class="n">_date_start</span><span class="p">,</span> 
+    <span class="n">end</span><span class="o">=</span><span class="n">_date_end</span><span class="p">,</span> 
+    <span class="n">interval</span><span class="o">=</span><span class="n">interval_fecth</span><span class="p">,</span> 
+    <span class="n">prepost</span><span class="o">=</span><span class="n">prepost</span><span class="p">,</span> 
+    <span class="n">auto_adjust</span><span class="o">=</span><span class="n">auto_adjust</span>
+<span class="p">)</span>
+</code></pre></div>
 
 
 
@@ -726,7 +1024,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="4 novembre 2025 14:11:32 UTC"><span class="timeago" datetime="2025-11-04T14:11:32+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="4 novembre 2025 14:11:32 UTC">2025-11-04</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="4 novembre 2025 14:12:18 UTC"><span class="timeago" datetime="2025-11-04T14:12:18+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="4 novembre 2025 14:12:18 UTC">2025-11-04</span>
   </span>
 
     
