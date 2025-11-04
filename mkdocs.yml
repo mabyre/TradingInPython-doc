@@ -1,41 +1,82 @@
-site_name: TradingInPython Documentation
+site_name: TradingInPython
+site_description: Documentation officielle de la plateforme TradingInPython
+site_author: Bruno Raby
+site_url: https://www.trading-et-data-analyses.com
+
+repo_name: sodevlog/TradingInPython
+repo_url: https://github.com/sodevlog/TradingInPython
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   language: fr
+  palette:
+    primary: blue grey
+    accent: indigo
+  features:
+    - navigation.expand
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+  icon:
+    logo: material/chart-line
+    repo: fontawesome/brands/github
 
 nav:
   - Accueil: index.md
-  - Présentation:
-      - Vue d'ensemble: presentation/index.md
-      - Pourquoi TradingInPython ?: presentation/pourquoi.md
-      - Licence gratuite: presentation/licence.md
-      - Téléchargement: presentation/telechargement.md
-  - Démarrage rapide:
-      - Installation: demarrage/installation.md
-      - Configuration: demarrage/configuration.md
-      - Routine de trading: demarrage/routine.md
-  - Fonctionnalités:
-      - Screener: fonctionnalites/screener.md
-      - Heatmap Performance: fonctionnalites/heatmap.md
-      - Monitoring & Alertes: fonctionnalites/monitoring.md
-      - Gestionnaire de Portefeuilles: fonctionnalites/portefeuille.md
-  - Stratégies de trading:
-      - Vue d'ensemble: strategies/index.md
-      - Ichimoku Kinko Hyo: strategies/ichimoku.md
-      - Moyennes mobiles: strategies/moyennes.md
-      - Bollinger Bands: strategies/bollinger.md
-      - VWAP + STOCH: strategies/vwap.md
-      - Fractales Bill Williams: strategies/fractales.md
-      - Kalman Filter: strategies/kalman.md
-      - Prédiction Keras: strategies/prediction.md
-  - Indicateurs techniques:
-      - Liste des indicateurs: indicateurs/index.md
-      - Codes sources Python: indicateurs/code.md
-  - Intégration personnalisée:
-      - Ajouter une stratégie: integration/ajouter-strategie.md
-      - Open software: integration/open-software.md
-  - Ressources:
-      - Documentation utilisateur: ressources/documentation.md
-      - Chaîne YouTube: ressources/youtube.md
-      - Glossaire boursier: ressources/glossaire.md
-  - À propos: about.md
+  - Récupération des données: data_retrieval.md
+  - Routine de trading: trading_routine.md
+  - Heatmap & Screener: heatmap_screener.md
+  - Monitor & Alertes: monitor_alerts.md
+  - Gestionnaire de Portefeuilles: portfolio_manager.md
+  - Stratégies intégrées:
+      - Vue d’ensemble: strategies.md
+      - Ichimoku & Deep Learning: strategies/ichimoku_dl.md
+      - Bandes de Bollinger (multiframe): strategies/bollinger.md
+      - Oscillateurs & Volumes: strategies/oscillators.md
+      - Fractals & Gator: strategies/fractals_gator.md
+      - Filtre de Kalman: strategies/kalman.md
+      - Prédiction IA (Keras / JAX): strategies/prediction_ai.md
+  - Interface & Configuration: ui_configuration.md
+  - Extensions & Open Software: extension_open.md
+  - FAQ: faq.md
+  - Glossaire: glossary.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      type: timeago
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sodevlog
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bruno-raby
+    - icon: fontawesome/brands/webflow
+      link: https://www.trading-et-data-analyses.com
+
+copyright: >
+  © 2025 <a href="https://www.trading-et-data-analyses.com">Trading et Data Analyses</a> – 
+  Propulsé par <a href="https://www.mkdocs.org">MkDocs</a> et <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>.
