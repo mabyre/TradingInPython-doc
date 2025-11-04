@@ -1,6 +1,6 @@
 # Votre routine de trading au quotidien
 
-Sur cette page, nous allons aborder très rapidement chacune des stratégies de la plateforme et leur mise en oeuvre dans un l'ensemble global qu'est la routnie de trading.
+Sur cette page, nous allons aborder très rapidement chacune des stratégies de la plateforme et leur mise en oeuvre dans un l'ensemble global qu'est la **routine de trading**.
 
 Avoir une routine bien rodée, c'est la clef d'un bon trader. Pour trader correctement et avoir une chance de gagner, vous devez avoir une démarche proactive et régulière vis à vis des marchés.
 
