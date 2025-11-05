@@ -12,13 +12,13 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://www.trading-et-data-analyses.com/data_retrieval/">
+        <link rel="canonical" href="https://www.trading-et-data-analyses.com/tour-rapide/">
       
       
         <link rel="prev" href="..">
       
       
-        <link rel="next" href="../select_stock/">
+        <link rel="next" href="../recuperation-des-data/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Récupération des données - TradingInPython</title>
+        <title>Tour rapide - TradingInPython</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#recuperation-des-donnees-du-cours-de-bourse" class="md-skip">
+        <a href="#tour-rapide" class="md-skip">
           Aller au contenu
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Récupération des données
+              Tour rapide
             
           </span>
         </div>
@@ -272,7 +272,7 @@
   
   
   <span class="md-ellipsis">
-    Récupération des données
+    Tour rapide
     
   </span>
   
@@ -285,7 +285,7 @@
   
   
   <span class="md-ellipsis">
-    Récupération des données
+    Tour rapide
     
   </span>
   
@@ -308,28 +308,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-selection-de-laction-a-trader" class="md-nav__link">
+  <a href="#1-strategies-de-trading-technique" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Sélection de l'action à trader
+      1. Stratégies de trading technique
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-choisir-lintervalle-et-la-periode" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Choisir l’intervalle et la période
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="2. Choisir l’intervalle et la période">
+    <nav class="md-nav" aria-label="1. Stratégies de trading technique">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#parametres-supportes" class="md-nav__link">
+  <a href="#11-presentation-de-la-strategie-ichimoku-kinko-hyo" class="md-nav__link">
     <span class="md-ellipsis">
-      Paramètres supportés
+      1.1. Présentation de la Stratégie Ichimoku Kinko Hyo
     </span>
   </a>
   
@@ -341,36 +332,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#recuperation-des-datas-sur-une-periode-de-temps-donnee" class="md-nav__link">
+  <a href="#2-mode-screener" class="md-nav__link">
     <span class="md-ellipsis">
-      Récupération des datas sur une période de temps donnée
+      2. Mode Screener
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-recuperation-des-donnees-en-temps-reel" class="md-nav__link">
+  <a href="#3-screener-heatmap-performance" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Récupération des données en temps réel
+      3. Screener Heatmap Performance
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-remarques-pratiques" class="md-nav__link">
+  <a href="#4-monitoring-stock-market-alertes" class="md-nav__link">
     <span class="md-ellipsis">
-      4. Remarques pratiques
+      4. Monitoring Stock Market Alertes
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-exemple-de-code-avec-la-librairie-yfinance" class="md-nav__link">
+  <a href="#5-votre-gestionnaire-de-portefeuilles" class="md-nav__link">
     <span class="md-ellipsis">
-      5. Exemple de code avec la librairie yfinance
+      5. Votre Gestionnaire de Portefeuilles
     </span>
   </a>
   
@@ -380,6 +371,28 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recuperation-des-data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Récupération des données
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -445,10 +458,10 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
@@ -461,8 +474,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Stratégies intégrées
           </label>
@@ -498,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/ichimoku_dl/" class="md-nav__link">
+      <a href="../strategies/ichimoku_kinko_hyo/" class="md-nav__link">
         
   
   
@@ -665,7 +678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor_alerts/" class="md-nav__link">
+      <a href="../monitor_stock_market/" class="md-nav__link">
         
   
   
@@ -753,6 +766,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../tests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tests
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../faq/" class="md-nav__link">
         
   
@@ -817,28 +852,19 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-selection-de-laction-a-trader" class="md-nav__link">
+  <a href="#1-strategies-de-trading-technique" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Sélection de l'action à trader
+      1. Stratégies de trading technique
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-choisir-lintervalle-et-la-periode" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Choisir l’intervalle et la période
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="2. Choisir l’intervalle et la période">
+    <nav class="md-nav" aria-label="1. Stratégies de trading technique">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#parametres-supportes" class="md-nav__link">
+  <a href="#11-presentation-de-la-strategie-ichimoku-kinko-hyo" class="md-nav__link">
     <span class="md-ellipsis">
-      Paramètres supportés
+      1.1. Présentation de la Stratégie Ichimoku Kinko Hyo
     </span>
   </a>
   
@@ -850,36 +876,36 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#recuperation-des-datas-sur-une-periode-de-temps-donnee" class="md-nav__link">
+  <a href="#2-mode-screener" class="md-nav__link">
     <span class="md-ellipsis">
-      Récupération des datas sur une période de temps donnée
+      2. Mode Screener
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-recuperation-des-donnees-en-temps-reel" class="md-nav__link">
+  <a href="#3-screener-heatmap-performance" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Récupération des données en temps réel
+      3. Screener Heatmap Performance
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-remarques-pratiques" class="md-nav__link">
+  <a href="#4-monitoring-stock-market-alertes" class="md-nav__link">
     <span class="md-ellipsis">
-      4. Remarques pratiques
+      4. Monitoring Stock Market Alertes
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-exemple-de-code-avec-la-librairie-yfinance" class="md-nav__link">
+  <a href="#5-votre-gestionnaire-de-portefeuilles" class="md-nav__link">
     <span class="md-ellipsis">
-      5. Exemple de code avec la librairie yfinance
+      5. Votre Gestionnaire de Portefeuilles
     </span>
   </a>
   
@@ -904,106 +930,78 @@
   
 
 
-<h1 id="recuperation-des-donnees-du-cours-de-bourse">Récupération des données du cours de bourse<a class="headerlink" href="#recuperation-des-donnees-du-cours-de-bourse" title="Permanent link">&para;</a></h1>
-<h2 id="1-selection-de-laction-a-trader">1. Sélection de l'action à trader<a class="headerlink" href="#1-selection-de-laction-a-trader" title="Permanent link">&para;</a></h2>
-<p>L’application s’ouvre sur la dernière action que vous aviez sélectionnée pour trader.</p>
-<p>Exemple : Si vous étiez sur l’action BMW (secteur automobile), vous pouvez passer votre souris sur l’indication "secteur de la stock", l'indication vous demande de choisir le menu 'Stocks" pour choisir un autre secteur :</p>
-<div style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEg6CQtDn1RWe8qASBzDC9f-8cfbKpNhgIywNwwuN7iNhy_ZXXAO1V5i48f-f80ua_kFjWiShurUUBX5D9V5C5UiGXEET6VWP_BmuYZwqMAjqGoIGE4S1Nb4XMYIZ7XUWFxdYHFqTwb8LxvVDmXUNvSgteK4VGSm1a_2q8R6dLDCwD_e-o5sqx_1Nz_XJmnf"><img alt="Choisir le secteur de la stock à trader" data-original-height="458" data-original-width="272" src="https://blogger.googleusercontent.com/img/a/AVvXsEg6CQtDn1RWe8qASBzDC9f-8cfbKpNhgIywNwwuN7iNhy_ZXXAO1V5i48f-f80ua_kFjWiShurUUBX5D9V5C5UiGXEET6VWP_BmuYZwqMAjqGoIGE4S1Nb4XMYIZ7XUWFxdYHFqTwb8LxvVDmXUNvSgteK4VGSm1a_2q8R6dLDCwD_e-o5sqx_1Nz_XJmnf=s16000" title="Choisir le secteur de la stock à trader" /></a></div>
-
-<p>Cliquez sur le menu "Stocks" pour changer le secteur ou le portefeuille de l'action à trader :</p>
-<div style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiRVq8JuPbCGeJqImrtt0uGAfxMLROV3cKQXEd8xrBE-MEpe31rUGTZcvlcVUDj1GWjWOtZJboLY249XRFG3noWPIm-q8-5CDJcGwuULlx4hXr2QkV4Kq1q-IhemXFl5eSFRymNUIj5hNoR-YfbULoQZUdjx2EVARhD1J4zI6PPsufl715tWEXTTrYLn2be"><img alt="Secteur de la stock à trader" data-original-height="490" data-original-width="322" src="https://blogger.googleusercontent.com/img/a/AVvXsEiRVq8JuPbCGeJqImrtt0uGAfxMLROV3cKQXEd8xrBE-MEpe31rUGTZcvlcVUDj1GWjWOtZJboLY249XRFG3noWPIm-q8-5CDJcGwuULlx4hXr2QkV4Kq1q-IhemXFl5eSFRymNUIj5hNoR-YfbULoQZUdjx2EVARhD1J4zI6PPsufl715tWEXTTrYLn2be=s16000" title="Secteur de la stock à trader" /></a></div>
-
-<p>Vous vous retrouvez avec les actions (stocks) du secteur de l'aérospatial-défense :</p>
-<div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjj668LfHhpnLKH2g6eTHU4waF_RIPZPle6JZEHxH6ildI3gSIvopGutHZQeziIBO-fQ99g8iC-xuIaEVQcQfzGimmRatMkcg2U2rTykcls01W-v1-wq_GCyYkDpk6jwivXFhWCQcrLuxaskYXtQwBYncX5JwzXqzLvaEc3stpyk5RMgqnP7IFdoEIx4s1N" style="margin-left: 1em; margin-right: 1em;"><img alt="" data-original-height="493" data-original-width="424" src="https://blogger.googleusercontent.com/img/a/AVvXsEjj668LfHhpnLKH2g6eTHU4waF_RIPZPle6JZEHxH6ildI3gSIvopGutHZQeziIBO-fQ99g8iC-xuIaEVQcQfzGimmRatMkcg2U2rTykcls01W-v1-wq_GCyYkDpk6jwivXFhWCQcrLuxaskYXtQwBYncX5JwzXqzLvaEc3stpyk5RMgqnP7IFdoEIx4s1N=s16000" /></a></div>
-
-<p>Vous choisissez l'action que vous souhaitez trader parmi ce secteur.</p>
-<h2 id="2-choisir-lintervalle-et-la-periode">2. Choisir l’intervalle et la période<a class="headerlink" href="#2-choisir-lintervalle-et-la-periode" title="Permanent link">&para;</a></h2>
-<p>Vous observez le cours des actions qui vous intéressent en sélectionnant un intervalle de temps et une  période sur laquelle vous souhaitez analyser le cours de ces actions.</p>
-<p>Le choix de l'intervalle et de la période se fait parmi les valeurs suivantes :</p>
+<h1 id="tour-rapide">Tour rapide<a class="headerlink" href="#tour-rapide" title="Permanent link">&para;</a></h1>
+<p>Voici un tour rapide des grands modules que vous pourrez utiliser dans <strong>TradingInPython</strong>.</p>
+<h2 id="1-strategies-de-trading-technique">1. Stratégies de trading technique<a class="headerlink" href="#1-strategies-de-trading-technique" title="Permanent link">&para;</a></h2>
+<p>Voici les stratégies que vous pouvez utiliser et qui sont intégrées dans la plateforme mais vous pouvez facilement de développer d'autres stratégies d'analyse technique que vous pourrez intégrer dans le menu des stratégies d'analyse.</p>
+<p>Vous avez actuellement le choix entre les stratégies suivantes pour analyser vos données :</p>
 <ul>
-<li>L’<strong>intervalle de temps</strong> (Interval) pour l’échantillonnage (1 m, 2 m, 5 m, 15 m, 30 m, 60 m, 1h, 4h, 1d, …)</li>
-<li>La <strong>période d’analyse</strong> (Period) ou bien des dates de début et de fin.</li>
+    <li><span style="color: #38761d;">Ichimoku Kinko Hyo Modernised</span> + prédiction grâce à keras et tensorflow</li>
+    <li><span style="color: #38761d;">Moyennes mobiles et Exponetielle</span> - Simple Mobile Average 1 et 2 and Exponential</li>
+    <li>Volume Buy/Sell - Analyse de la pression volumique des flux d'achats et de ventes</li>
+    <li>Bollinger bands - Les bandes de Bollinger, appliquées à plusieurs horizons temporels différents.</li>
+    <li>Double Bandes de Bollinger - Une stratégie puissante pour trader les momentums haussiers.</li>
+    <li>Bollinger bands multiframes + histogrammes - détecteur de changement de tendance</li>
+    <li>VWAP + STOCH - Volume Weighted Average Price - Intraday follows thanks to VWAP</li>
+    <li>Fractales Bill Williams - Le fameux Bill Williams pour des signaux automatiques de Trading</li>
+    <li>Gator Alligator S from Bill Williams</li>
+    <li>Filtre de Kalman - Le fameux filtre pour la détection des tendance et de la volatilité</li>
+    <li>Prédiction Keras - utilisation du réseau de neurones keras deeplearning avec Jax</li>
 </ul>
-<p>Grâce à l'interface :</p>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD_7q2X-Ee4TwywyhcC0AFeh90036CqVw6KCfA-h0UXc7DnIMwr8TV3okxiyRhNSYclOd82vUXRs1FWtAHKnzJ_OalUXr3oqOmWsl58eShURV7kuRfFY8M0xjbqMlh_79q-zAvMh8XBKAYzn6BZNdzt9uzWX9sjPIRgg5ct4UXFczMcOzeRsSogsX_XgiS/s458/2025-01-27_15h08_47.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="458" data-original-width="272" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD_7q2X-Ee4TwywyhcC0AFeh90036CqVw6KCfA-h0UXc7DnIMwr8TV3okxiyRhNSYclOd82vUXRs1FWtAHKnzJ_OalUXr3oqOmWsl58eShURV7kuRfFY8M0xjbqMlh_79q-zAvMh8XBKAYzn6BZNdzt9uzWX9sjPIRgg5ct4UXFczMcOzeRsSogsX_XgiS/s16000/2025-01-27_15h08_47.png" title="TradingInPython" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Sélection de l'action et de la période d'analyse</td></tr></tbody></table>
 
-<h3 id="parametres-supportes">Paramètres supportés<a class="headerlink" href="#parametres-supportes" title="Permanent link">&para;</a></h3>
+<p>Quand vous installez la plateforme <strong>les stratégies en <span style="color: #38761d;">vert</span> sont gratuites</strong>.</p>
 <ul>
-<li><code>period : 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max</code>.</li>
-<li><code>interval : 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 4h, 1d, 5d, 1wk, 1mo, 3mo</code>.</li>
+<li><a href="https://www.trading-et-data-analyses.com/p/abonnement.html">Abonnez-vous</a> pour découvrir comment utiliser ces stratégies pour élaborer votre <strong>routine de trading</strong>.</li>
 </ul>
-<blockquote>
-<p>Note : Les données intraday (ex : 1 m, 2 m) ne peuvent pas s’étendre sur une période trop ancienne.
-Vous risquez alors de voir un message <strong>NO DATA</strong> afficher sur l'interface.</p>
-</blockquote>
-<p>Vous choisissez ensuite parmi les stratégies d'analyses proposées par la plateforme de trading.</p>
-<h2 id="recuperation-des-datas-sur-une-periode-de-temps-donnee">Récupération des datas sur une période de temps donnée<a class="headerlink" href="#recuperation-des-datas-sur-une-periode-de-temps-donnee" title="Permanent link">&para;</a></h2>
-<p>Vous avez <strong>trois façons</strong> de récupérer des données :</p>
-<ul>
-<li>La première c'est avec <strong>"Interval"</strong> et <strong>"Period"</strong> mais cette méthode est limitée et vous ne pouvez pas retourner dans le passé.</li>
-</ul>
-<p>De toutes les façons, sélectionnez un "Interval" d'échantillonnage et en suite,</p>
-<ul>
-<li>Pour utiliser <strong>"Jours dans le passé"</strong> et <strong>"Jours avant la fin"</strong> sélectionnez "none" (tout en bas de la liste) dans "Period".</li>
-</ul>
-<p>Vous pouvez alors remonter dans le passé sur une période de temps égale à "Jours avant la fin" moins "Jours dans le passé".</p>
-<ul>
-<li>
-<p>Pour utiliser les deux dates <strong>"Date de début"</strong> et <strong>"Date de fin"</strong>, il vous faut mettre :</p>
-</li>
-<li>
-<p><strong>"Period"</strong> à "none"</p>
-</li>
-<li><strong>"Jours dans le passé"</strong> à 0</li>
-<li><strong>"Jours avant la fin"</strong> à 0</li>
-</ul>
-<p>Dans ce cas, les données sont récupérées entre <strong>"Date de début"</strong> et <strong>"Date de fin"</strong>.</p>
-<p>Le bouton <strong>"Now"</strong> vous permet de remplir automatiquement <strong>"Date de fin"</strong> avec la date d'aujourd'hui.</p>
-<p>Voici une page pour vous expliquer en détails comment faire :</p>
-<ul>
-<li><a href="https://www.trading-et-data-analyses.com/p/voyager-dans-le-temps.html">Voyagez dans le temps</a></li>
-</ul>
-<h2 id="3-recuperation-des-donnees-en-temps-reel">3. Récupération des données en temps réel<a class="headerlink" href="#3-recuperation-des-donnees-en-temps-reel" title="Permanent link">&para;</a></h2>
-<p>Vous avez la possibilité de suivre le cours de l’action minute par minute :  </p>
-<ul>
-<li>Cochez la case <strong>AUTO</strong> (ou mode automatique) pour que les données soient récupérées en continu.</li>
-<li>Une thread dédiée démarre pour récupérer les données en temps réel, et les graphiques se mettent à jour dynamiquement.</li>
-</ul>
-<h2 id="4-remarques-pratiques">4. Remarques pratiques<a class="headerlink" href="#4-remarques-pratiques" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Veillez à choisir l’<strong>intervalle</strong> en fonction de votre horizon de trading : <code>intraday, swing, ou long terme</code>.  </li>
-<li>Prenez garde à la <strong>granularité</strong> : par exemple, un intervalle de 1 m sur une période de plusieurs mois peut être lourd en données.  </li>
-<li>Si vous utilisez les dates de début/fin plutôt que <strong>period</strong>, vous avez plus de flexibilité pour remonter dans les archives.  </li>
-<li>Pour un suivi réel (minute par minute), vous avez l’option "Auto".</li>
-</ul>
-<h2 id="5-exemple-de-code-avec-la-librairie-yfinance">5. Exemple de code avec la librairie yfinance<a class="headerlink" href="#5-exemple-de-code-avec-la-librairie-yfinance" title="Permanent link">&para;</a></h2>
-<p>Si vous souhaitez, voici un le code Python illustrant la récupération des données :</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">yfinance</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">yf</span>
+<h3 id="11-presentation-de-la-strategie-ichimoku-kinko-hyo">1.1. Présentation de la Stratégie Ichimoku Kinko Hyo<a class="headerlink" href="#11-presentation-de-la-strategie-ichimoku-kinko-hyo" title="Permanent link">&para;</a></h3>
+<p>Dans cet exemple, on récupère les données du cours de TRIGANO pour la période des six derniers mois <code>6mo</code> par intervalle de 1 jour <code>1d</code>.</p>
+<p>La stratégie de trading technique choisie est <strong>Ichimoku Kynko Hyo :</strong></p>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQX2QWPYA7PgjADA7_QG1wdUGsr4-ngWaFFyeeOQ5zk29iUNOhYxXrCIC9KPWQVTqQ2Dc1pkhu_cJmHvnQ4Rlt9WQCdT4V1hB8CgX0ZZ3rK_pdWJafCZpbFRaURM3eYZFQZ_ZM32V45bfmxZUggzNtS1vbho9C3PUiUCn0YV-qBYzcCXkO7vfojOBOx3l0/s640/2025-06-13_16h31_08.png" style="margin-left: auto; margin-right: auto;"><img alt="Plateforme de trading technique gratuite - TradingInPython" border="0" data-original-height="452" data-original-width="640" height="452" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQX2QWPYA7PgjADA7_QG1wdUGsr4-ngWaFFyeeOQ5zk29iUNOhYxXrCIC9KPWQVTqQ2Dc1pkhu_cJmHvnQ4Rlt9WQCdT4V1hB8CgX0ZZ3rK_pdWJafCZpbFRaURM3eYZFQZ_ZM32V45bfmxZUggzNtS1vbho9C3PUiUCn0YV-qBYzcCXkO7vfojOBOx3l0/w640-h452/2025-06-13_16h31_08.png" title="Plateforme de trading technique gratuite - TradingInPython" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Plateforme de trading technique gratuite - TradingInPython</td></tr></tbody></table>
 
-<span class="n">ticker</span> <span class="o">=</span> <span class="n">yf</span><span class="o">.</span><span class="n">Ticker</span><span class="p">(</span><span class="s2">&quot;BMW.DE&quot;</span><span class="p">)</span>  <span class="c1"># Symbole de l’action</span>
+<p>Un fois ces éléments renseignés, vous cliquez sur le bouton <strong>Graphique</strong> pour afficher l'analyse technique de l'action (Stock).</p>
+<p>Pour ce tour rapide de la Plateforme de Trading Technique, voici une analyse avec <strong>Ichimoku Kinko Hyo</strong>, pour l'action TRIGANO :</p>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3GNfq2pdW70XQ1WJ3maEW4cN_bt38teRC6fbPGeOMQBH6_EAJNMbPmaIny0h7yvRg4vJijnOBWhUOsRK3-QYL-jK67rDiRwvEIX1Du4NZnE4jJ9p5sHTASB2lRi_pxJC60vuclb0fucZTymzgNy6n8pu_7Glkr9U3sGlmRdgZgZMuTLG-dgzBvuSVhQGB/s639/2024-12-11_10h36_08.png" style="margin-left: auto; margin-right: auto;"><img alt="Plateforme de Trading and Data Analyse" border="0" data-original-height="398" data-original-width="639" height="398" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3GNfq2pdW70XQ1WJ3maEW4cN_bt38teRC6fbPGeOMQBH6_EAJNMbPmaIny0h7yvRg4vJijnOBWhUOsRK3-QYL-jK67rDiRwvEIX1Du4NZnE4jJ9p5sHTASB2lRi_pxJC60vuclb0fucZTymzgNy6n8pu_7Glkr9U3sGlmRdgZgZMuTLG-dgzBvuSVhQGB/w640-h398/2024-12-11_10h36_08.png" title="Plateforme de Trading and Data Analyse" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Plateforme de Trading and Data Analyse</td></tr></tbody></table>
 
-<span class="n">data</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">history</span><span class="p">(</span>
-    <span class="n">interval</span><span class="o">=</span><span class="s2">&quot;1h&quot;</span><span class="p">,</span>
-    <span class="n">period</span><span class="o">=</span><span class="s2">&quot;6mo&quot;</span><span class="p">,</span>            <span class="c1"># exemple pour les 6 derniers mois</span>
-    <span class="n">prepost</span><span class="o">=</span><span class="kc">True</span>             <span class="c1"># si disponible, inclure pré- et post-marché</span>
-<span class="p">)</span>
+<p>(1) - Vous reconnaissez l'Interface de <a href="../recuperation-des-data/">récupération des données</a>.</p>
+<p>(2) - C'est l'interface de configuration spécifique de la Stratégie choisie par l'utilisateur</p>
+<p>(3) - C'est la possibilité d'afficher un graphe secondaire avec l'indicateur de votre choix :</p>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO4UTZBRSw6k-kGKl4oqOSUzUJx29qUh51o9iNo70akXvoqBN3lks98kIKESkAZx5xRLhv0Ni5yNIKWgVZJhCYVMDKR10d2nXyCXmdPgv8NUgbIKqe4gnoSKxw01VvgIZYmM8QwoVn5iWz9HfKvvqT2T-NhwGihOFy8zGPanXHo5r8TZaQYClXxbqC8rz8/s640/2024-12-11_11h09_55.png" style="margin-left: auto; margin-right: auto;"><img alt="Afficher un graphique secondaire" border="0" data-original-height="397" data-original-width="640" height="398" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO4UTZBRSw6k-kGKl4oqOSUzUJx29qUh51o9iNo70akXvoqBN3lks98kIKESkAZx5xRLhv0Ni5yNIKWgVZJhCYVMDKR10d2nXyCXmdPgv8NUgbIKqe4gnoSKxw01VvgIZYmM8QwoVn5iWz9HfKvvqT2T-NhwGihOFy8zGPanXHo5r8TZaQYClXxbqC8rz8/w640-h398/2024-12-11_11h09_55.png" title="Afficher un graphique secondaire" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Afficher un graphique secondaire</td></tr></tbody></table>
 
-<span class="c1"># Différentes façons d&#39;appeler la fonction de récupération des donnée</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">history</span><span class="p">(</span> 
-    <span class="n">period</span><span class="o">=</span><span class="n">period_select</span><span class="p">,</span> 
-    <span class="n">interval</span><span class="o">=</span><span class="n">interval_fecth</span><span class="p">,</span> 
-    <span class="n">prepost</span><span class="o">=</span><span class="n">prepost</span><span class="p">,</span> 
-    <span class="n">auto_adjust</span><span class="o">=</span><span class="n">auto_adjust</span>
-<span class="p">)</span>
+<p>Ici j'ai cliqué sur l'indicateur <a href="https://www.trading-et-data-analyses.com/2024/03/Indicateurs-Boursiers.html#MACD">MACD</a>, il apparaît dans un graphe secondaire sous le graphe de la Stratégie pour venir la confirmer. Vous pouvez afficher sous le graphe de stratégie un second, un troisième, indicateur et ainsi de suite.</p>
+<p>(4) - C'est le Graphique Ichimoku pour l'action TRIGANO</p>
+<p>Vous remarquerez une série de case à cocher également spécifique à la Stratégie Ichimoku. Pour chacune des stratégies, il y a des éléments spécifiques qui viendront s'afficher à cet endroit, des paramètres que vous pourrez manipuler.</p>
+<p>Vous pourrez cliquer sur la case <strong>Forcast</strong> (prédiction) pour faire une prédiction du signal d'achat/vente calculée par le réseau de neurones <strong>Keras et Jax</strong> (équivalent de Tensorflow) entraîné sur les données.</p>
+<p>Retrouvez les analyses faites de l'action <a href="https://www.trading-et-data-analyses.com/2024/10/trigano.html#Ichikomu_Kinko_Hyo" target="_blank">TRIGANO</a>.</p>
+<h2 id="2-mode-screener">2. Mode Screener<a class="headerlink" href="#2-mode-screener" title="Permanent link">&para;</a></h2>
+<p>En mode screen, vous pouvez parcourir toutes vos actions avec, par exemple, la stratégie des <a href="/2024/11/formation-indicateur-fractales-bill-williams.html" target="_blank">Fractales de Bill Williams</a>, pour découvrir les signaux d'achat ou de vente de cette stratégie automatique de trading :</p>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOU2vtN3bb4zkLAUH7PsYs8kFG5xuGyMtbj8eTt4ttBO9QrRvWnSBMv3KxSP7nHrTFPiUmnUYkQnsgsAHbrKCGzl49SBMAVrlefMOkMxqAV4oR2IFs-Yu9MhvGvLmOzIpLdNmZF_Y5VajgnzIXYxcsqgjlc5WgYBKsbbEjsqKr5i53dKcCPCmDOTtZmt9z/s639/2025-04-04_11h28_59.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="338" data-original-width="639" height="338" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOU2vtN3bb4zkLAUH7PsYs8kFG5xuGyMtbj8eTt4ttBO9QrRvWnSBMv3KxSP7nHrTFPiUmnUYkQnsgsAHbrKCGzl49SBMAVrlefMOkMxqAV4oR2IFs-Yu9MhvGvLmOzIpLdNmZF_Y5VajgnzIXYxcsqgjlc5WgYBKsbbEjsqKr5i53dKcCPCmDOTtZmt9z/w640-h338/2025-04-04_11h28_59.png" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">TradingInPython - Mode Screener</td></tr></tbody></table>
 
-<span class="n">data</span> <span class="o">=</span> <span class="n">ticker</span><span class="o">.</span><span class="n">history</span><span class="p">(</span> 
-    <span class="n">start</span><span class="o">=</span><span class="n">_date_start</span><span class="p">,</span> 
-    <span class="n">end</span><span class="o">=</span><span class="n">_date_end</span><span class="p">,</span> 
-    <span class="n">interval</span><span class="o">=</span><span class="n">interval_fecth</span><span class="p">,</span> 
-    <span class="n">prepost</span><span class="o">=</span><span class="n">prepost</span><span class="p">,</span> 
-    <span class="n">auto_adjust</span><span class="o">=</span><span class="n">auto_adjust</span>
-<span class="p">)</span>
-</code></pre></div>
+<h2 id="3-screener-heatmap-performance">3. Screener Heatmap Performance<a class="headerlink" href="#3-screener-heatmap-performance" title="Permanent link">&para;</a></h2>
+<p>Découvrez le moyen de surveiller des dizaines d'actions d'un seul coup d'œil avec la Heatmap Performance ou "Carte de chaleur" et ses couleurs pour vous permettre de détecter, les actions qui croissent et sont à la hausse ou qui décroissent et sont à la baisse, par leurs performances :</p>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgGMa7viI6SHcPulcBO5xbLHWvsaDYorTdmAxVIuFR4LHHFDkiq-Y_MNp_CQFC5A-Ma937nQwhfATgK7VuC64TIylBJ7FbFAvnp29sNj2hVKlCQ0_JVT2hMgW_plBfKd528xBZq3jVYlNMYbP6xKikYMjkBD-KabkvQwdNtUkCH1q1UIF-Vwvf5x2NzcQ30" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython - Heatmap Performance surveiller des dizaines d'actions" data-original-height="679" data-original-width="1048" height="414" src="https://blogger.googleusercontent.com/img/a/AVvXsEgGMa7viI6SHcPulcBO5xbLHWvsaDYorTdmAxVIuFR4LHHFDkiq-Y_MNp_CQFC5A-Ma937nQwhfATgK7VuC64TIylBJ7FbFAvnp29sNj2hVKlCQ0_JVT2hMgW_plBfKd528xBZq3jVYlNMYbP6xKikYMjkBD-KabkvQwdNtUkCH1q1UIF-Vwvf5x2NzcQ30=w640-h414" title="TradingInPython - Heatmap Performance surveiller des dizaines d'actions" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">TradingInPython - Heatmap Performance surveiller des dizaines d'actions</td></tr></tbody></table>
+
+<p>Pour chaque actions tous les indicateurs techniques sont calculés et présentés dans une fenêtre de détails pour vous permettre de prendre les bonnes décisions de trading.</p>
+<ul>
+<li><a href="../heatmap_screener/">Heatmap cartes de chaleur - Découvrir</a></li>
+</ul>
+<h2 id="4-monitoring-stock-market-alertes">4. Monitoring Stock Market Alertes<a class="headerlink" href="#4-monitoring-stock-market-alertes" title="Permanent link">&para;</a></h2>
+<p>Mettez le marché sous surveillance grâce au Monitoring Stock qui vous permet de placer des alertes sur le cours des actions et d'être prévenu par email :</p>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizsUwUGRQGgi7MIEHDF2HL4JtUBiGeVJhdu9TGhVdsskXTcyQETSPFbmjyhMzZ56qg6I5obhbaGyhAism4dka8rItT62go7Z-vxsV0bb8FDIPwlxdbGhPdIGPCEGzTuNgJAaHeeA94aDKi37gNnYrNHW6YOjH-3tSgCkwfOv-EtV2kN6CPVxRBBSdbsZgI/s639/2025-07-17_17h26_01%20(1).png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython - Monitoring stock market alertes" border="0" data-original-height="382" data-original-width="639" height="382" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizsUwUGRQGgi7MIEHDF2HL4JtUBiGeVJhdu9TGhVdsskXTcyQETSPFbmjyhMzZ56qg6I5obhbaGyhAism4dka8rItT62go7Z-vxsV0bb8FDIPwlxdbGhPdIGPCEGzTuNgJAaHeeA94aDKi37gNnYrNHW6YOjH-3tSgCkwfOv-EtV2kN6CPVxRBBSdbsZgI/w640-h382/2025-07-17_17h26_01%20(1).png" title="TradingInPython - Monitoring stock market alertes" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">TradingInPython - Monitoring stock market alertes</td></tr></tbody></table>
+
+<p>Un système d'alertes efficace pour être prévenu lorsqu'un cours franchit une résistance ou un support, ou encore, que le marché dépasse un certain volume de transactions et pouvoir ainsi agir et maîtriser totalement votre trading.</p>
+<p>Les alertes avancées vous permettent de mettre des alertes sur les indicateurs techniques RSI, MACD, STOCH, Bollinger bands, etc</p>
+<p>Par exemple, vous réalisez vos analyses techniques le matin vous positionnez vos alertes et vous être prévenu dans la journée lorsque quelque chose se passe ...</p>
+<ul>
+<li><a href="../monitor_stock_market/">Mise sous surveillance du Marché - Découvrir</a></li>
+</ul>
+<h2 id="5-votre-gestionnaire-de-portefeuilles">5. Votre Gestionnaire de Portefeuilles<a class="headerlink" href="#5-votre-gestionnaire-de-portefeuilles" title="Permanent link">&para;</a></h2>
+<p>Le portfolio ou gestionnaire de portefeuille est l'outil indispensable du trader efficace. Il vous permet de centraliser tous vos achats/ventes et de les consolider dans un tableau de bord afin de connaitre le rendement réel de vos trades sur les Cryptos, Actions, <a href="/2024/01/termes-boursiers.html#ETF">ETF</a>, <a href="/2024/01/termes-boursiers.html#Futures">Futures</a>, <a href="/2024/01/termes-boursiers.html#FOREX">Forex</a>, etc.</p>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgLpg24TmZDv7Q61OtbkNECtSck3c91UHE9naH1K62BJF4kQZLm8vq9sfBY198SBWOlBSpeFNGbfTkB7ND2oXIA0825oNkCVc_VD2XNCsA2JxH8Lbesw8yhHdX09JMYgvQ3YetID-t1YTTAmceXzVw2t8T5HTpIecPhGOXztGbLxK0acD_bTuusnJyZEsTF" style="margin-left: auto; margin-right: auto;"><img alt="" data-original-height="745" data-original-width="1037" height="460" src="https://blogger.googleusercontent.com/img/a/AVvXsEgLpg24TmZDv7Q61OtbkNECtSck3c91UHE9naH1K62BJF4kQZLm8vq9sfBY198SBWOlBSpeFNGbfTkB7ND2oXIA0825oNkCVc_VD2XNCsA2JxH8Lbesw8yhHdX09JMYgvQ3YetID-t1YTTAmceXzVw2t8T5HTpIecPhGOXztGbLxK0acD_bTuusnJyZEsTF=w640-h460" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">TradingInPython - Le portfolio ou Gestionnaire de Portefeuilles</td></tr></tbody></table>
+
+<p>La plateforme TradingInPython vous permet de gérer autant de portefeuilles que vous le souhaitez et de calculer ainsi l'efficacité réelle de vos trades.</p>
+<ul>
+<li><a href="../portfolio_manager/">Gestionnaire de portefeuilles - Découvrir</a></li>
+</ul>
 
 
 
@@ -1024,7 +1022,7 @@ Vous risquez alors de voir un message <strong>NO DATA</strong> afficher sur l'in
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="4 novembre 2025 17:41:10 UTC"><span class="timeago" datetime="2025-11-04T17:41:10+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="4 novembre 2025 17:41:10 UTC">2025-11-04</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="5 novembre 2025 14:04:10 UTC"><span class="timeago" datetime="2025-11-05T14:04:10+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="5 novembre 2025 14:04:10 UTC">2025-11-05</span>
   </span>
 
     
