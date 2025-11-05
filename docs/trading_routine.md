@@ -8,7 +8,7 @@ Voici une routine de trading que vous pouvez suivre en <a href="https://www.trad
 
 Vous allez chercher les informations sur les actions que vous souhaitez analyser sur les grandes plateformes d'informations boursières comme Boursorama, Yahoo, Investing.com, etc.
 
-Vous avez choisi l'intervalle et la période de temps de votre analyse, pour une première analyse choisissez une échelle grande de temps Interval: `1d` un jour et analysez sur les 6 dernier mois Period: `6mo`. Encore mieux avec une échelle de temps `1w` et la période à `max`
+Vous avez choisi l'intervalle et la période de temps de votre analyse, pour une première analyse choisissez une échelle grande de temps Interval: `1d` un jour et analysez sur les 6 dernier mois Period: `6mo`. Encore mieux avec une échelle de temps `1w` et la période à `max`.
 
 Vous avez maintenant le choix entre toutes les stratégies proposées par la Plateforme :
 

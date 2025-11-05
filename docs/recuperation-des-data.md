@@ -1,10 +1,14 @@
 # Récupération des données du cours de bourse
 
+Il s'agit de récupérer des données au près des plateformes open data reliées aux grandes bourses du monde entier. Ces plateformes donne accès aux cours de la bourse par des API que nous utilisons grâce au langage Python.
+
+La plateforme  **TradingInPython** se connecte à n'importe qu'elle source de data, ici nous sommes avec YahooFinance mais vous pouvez tout aussi bien vous connecter à d'autres sources comme IBKR et d'autres.
+
 ## 1. Sélection de l'action à trader  
 
 L’application s’ouvre sur la dernière action que vous aviez sélectionnée pour trader.
 
-Exemple : Si vous étiez sur l’action BMW (secteur automobile), vous pouvez passer votre souris sur l’indication "secteur de la stock", l'indication vous demande de choisir le menu 'Stocks" pour choisir un autre secteur :
+Exemple : Si vous étiez sur l’action BMW (secteur automobile), vous pouvez passer votre souris sur l’indication "secteur de la stock", l'indication vous demande de choisir le menu "Stocks" pour choisir un autre secteur :
 
 <div style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEg6CQtDn1RWe8qASBzDC9f-8cfbKpNhgIywNwwuN7iNhy_ZXXAO1V5i48f-f80ua_kFjWiShurUUBX5D9V5C5UiGXEET6VWP_BmuYZwqMAjqGoIGE4S1Nb4XMYIZ7XUWFxdYHFqTwb8LxvVDmXUNvSgteK4VGSm1a_2q8R6dLDCwD_e-o5sqx_1Nz_XJmnf"><img alt="Choisir le secteur de la stock à trader" data-original-height="458" data-original-width="272" src="https://blogger.googleusercontent.com/img/a/AVvXsEg6CQtDn1RWe8qASBzDC9f-8cfbKpNhgIywNwwuN7iNhy_ZXXAO1V5i48f-f80ua_kFjWiShurUUBX5D9V5C5UiGXEET6VWP_BmuYZwqMAjqGoIGE4S1Nb4XMYIZ7XUWFxdYHFqTwb8LxvVDmXUNvSgteK4VGSm1a_2q8R6dLDCwD_e-o5sqx_1Nz_XJmnf=s16000" title="Choisir le secteur de la stock à trader" /></a></div>
 

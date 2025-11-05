@@ -20,28 +20,33 @@ theme:
     - search.suggest
     - content.code.copy
     - content.tabs.link
+    #- toc.integrate # intègre la table des matières dans la page c'est pas joli !!!
+    #- toc.follow # fait défiler la table des matières avec le contenu
+    # ne fonctionne pas !!! - toc.number # active la numérotation automatique des titres
   icon:
     logo: material/chart-line
     repo: fontawesome/brands/github
 
 nav:
   - Accueil: index.md
-  - Récupération des données: data_retrieval.md
+  - Tour rapide: tour-rapide.md
+  - Récupération des données: recuperation-des-data.md
   - Sélectionner une action: select_stock.md
   - Routine de trading: trading_routine.md
   - Stratégies intégrées:
       - Vue d’ensemble: strategies.md
-      - Ichimoku & Deep Learning: strategies/ichimoku_dl.md
+      - Ichimoku & Deep Learning: strategies/ichimoku_kinko_hyo.md
       - Bandes de Bollinger (multiframe): strategies/bollinger.md
       - Oscillateurs & Volumes: strategies/oscillators.md
       - Fractals & Gator: strategies/fractals_gator.md
       - Filtre de Kalman: strategies/kalman.md
       - Prédiction IA (Keras / JAX): strategies/prediction_ai.md
   - Heatmap & Screener: heatmap_screener.md
-  - Monitor & Alertes: monitor_alerts.md
+  - Monitor & Alertes: monitor_stock_market.md
   - Gestionnaire de Portefeuilles: portfolio_manager.md
   - Interface & Configuration: ui_configuration.md
   - Extensions & Open Software: extension_open.md
+  - Tests: tests.md
   - FAQ: faq.md
   - Glossaire: glossary.md
 

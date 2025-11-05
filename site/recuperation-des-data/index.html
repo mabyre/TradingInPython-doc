@@ -12,10 +12,10 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://www.trading-et-data-analyses.com/data_retrieval/">
+        <link rel="canonical" href="https://www.trading-et-data-analyses.com/recuperation-des-data/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../tour-rapide/">
       
       
         <link rel="next" href="../select_stock/">
@@ -255,6 +255,28 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../tour-rapide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tour rapide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -445,10 +467,10 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   
@@ -461,8 +483,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Stratégies intégrées
           </label>
@@ -498,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/ichimoku_dl/" class="md-nav__link">
+      <a href="../strategies/ichimoku_kinko_hyo/" class="md-nav__link">
         
   
   
@@ -665,7 +687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor_alerts/" class="md-nav__link">
+      <a href="../monitor_stock_market/" class="md-nav__link">
         
   
   
@@ -737,6 +759,28 @@
   
   <span class="md-ellipsis">
     Extensions & Open Software
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tests
     
   </span>
   
@@ -905,9 +949,11 @@
 
 
 <h1 id="recuperation-des-donnees-du-cours-de-bourse">Récupération des données du cours de bourse<a class="headerlink" href="#recuperation-des-donnees-du-cours-de-bourse" title="Permanent link">&para;</a></h1>
+<p>Il s'agit de récupérer des données au près des plateformes open data reliées aux grandes bourses du monde entier. Ces plateformes donne accès aux cours de la bourse par des API que nous utilisons grâce au langage Python.</p>
+<p>La plateforme  <strong>TradingInPython</strong> se connecte à n'importe qu'elle source de data, ici nous sommes avec YahooFinance mais vous pouvez tout aussi bien vous connecter à d'autres sources comme IBKR et d'autres.</p>
 <h2 id="1-selection-de-laction-a-trader">1. Sélection de l'action à trader<a class="headerlink" href="#1-selection-de-laction-a-trader" title="Permanent link">&para;</a></h2>
 <p>L’application s’ouvre sur la dernière action que vous aviez sélectionnée pour trader.</p>
-<p>Exemple : Si vous étiez sur l’action BMW (secteur automobile), vous pouvez passer votre souris sur l’indication "secteur de la stock", l'indication vous demande de choisir le menu 'Stocks" pour choisir un autre secteur :</p>
+<p>Exemple : Si vous étiez sur l’action BMW (secteur automobile), vous pouvez passer votre souris sur l’indication "secteur de la stock", l'indication vous demande de choisir le menu "Stocks" pour choisir un autre secteur :</p>
 <div style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEg6CQtDn1RWe8qASBzDC9f-8cfbKpNhgIywNwwuN7iNhy_ZXXAO1V5i48f-f80ua_kFjWiShurUUBX5D9V5C5UiGXEET6VWP_BmuYZwqMAjqGoIGE4S1Nb4XMYIZ7XUWFxdYHFqTwb8LxvVDmXUNvSgteK4VGSm1a_2q8R6dLDCwD_e-o5sqx_1Nz_XJmnf"><img alt="Choisir le secteur de la stock à trader" data-original-height="458" data-original-width="272" src="https://blogger.googleusercontent.com/img/a/AVvXsEg6CQtDn1RWe8qASBzDC9f-8cfbKpNhgIywNwwuN7iNhy_ZXXAO1V5i48f-f80ua_kFjWiShurUUBX5D9V5C5UiGXEET6VWP_BmuYZwqMAjqGoIGE4S1Nb4XMYIZ7XUWFxdYHFqTwb8LxvVDmXUNvSgteK4VGSm1a_2q8R6dLDCwD_e-o5sqx_1Nz_XJmnf=s16000" title="Choisir le secteur de la stock à trader" /></a></div>
 
 <p>Cliquez sur le menu "Stocks" pour changer le secteur ou le portefeuille de l'action à trader :</p>
