@@ -1,3 +1,5 @@
+/* images centrées sans bordures */
+
 img.centered {
     display: block;
     margin: 2em auto;
@@ -13,4 +15,15 @@ img.noborder {
     border: none;
     box-shadow: none;
     border-radius: 0;
+}
+
+article h1 .headerlink::before,
+article h1::before {
+    content: none !important;
+    display: none !important;
+}
+
+/* Ou cibler plus précisément */
+.md-content h1::before {
+    content: none !important;
 }

@@ -2,11 +2,11 @@
 
 Découvrez la puissance de notre plateforme de trading technique et de ses stratégies automatisées en Python. **TradingInPython** intègre toutes les stratégies d'analyse technique, nécessaires et suffisantes pour effectuer votre trading au quotidien et sécuriser vos investissements.
 
-- [Téléchargement du logiciel](https://github.com/SoDevLog/PyTrading/releases/download/v1.7.0/tradinginpython_setup.zip)
+- Téléchargez le logiciel de la plateforme - [Téléchargement](https://github.com/SoDevLog/PyTrading/releases/download/v1.7.0/tradinginpython_setup.zip)
 - Vous avez des problèmes pour déziper ou intaller - <a href="https://github.com/SoDevLog/PyTrading/wiki/Installation" target="_blank">Installation</a>
 - Vous souhaitez nous rejoindre - <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">Abonnement</a>
 
-L'important pour le trader c'est de se forger une conviction et de valider cette conviction par l'analyse technique pour être certain de gagner de l'argent, c'est l'objectif de notre Plateforme de Trading Technique.
+L'important pour le trader c'est de **se forger une conviction** et de **valider cette conviction par l'analyse technique** pour être certain de gagner de l'argent, c'est l'objectif de notre Plateforme de Trading Technique.
 
 **Inutile de savoir coder en Python**, tout est déjà prêt, il vous suffit de télécharger gratuitement la plateforme de trading technique TradingInPython.
 
