@@ -27,14 +27,23 @@ theme:
     logo: material/chart-line
     repo: fontawesome/brands/github
 
+extra_javascript:
+  - js/glightbox.min.js
+  - js/init.js
+
+extra_css:
+  - css/glightbox.min.css
+  - css/extra.css
+
 nav:
   - Accueil: index.md
   - Tour rapide: tour-rapide.md
   - Récupération des données: recuperation-des-data.md
+  - Voyager dans le temps: voyage-dans-le-temps.md
   - Sélectionner une action: select_stock.md
   - Routine de trading: trading_routine.md
   - Stratégies intégrées:
-      - Vue d’ensemble: strategies.md
+      - Vue d'ensemble: strategies.md
       - Ichimoku & Deep Learning: strategies/ichimoku_kinko_hyo.md
       - Bandes de Bollinger (multiframe): strategies/bollinger.md
       - Oscillateurs & Volumes: strategies/oscillators.md

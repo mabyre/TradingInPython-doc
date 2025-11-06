@@ -1,6 +1,6 @@
 # Récupération des données du cours de bourse
 
-Il s'agit de récupérer des données au près des plateformes open data reliées aux grandes bourses du monde entier. Ces plateformes donne accès aux cours de la bourse par des API que nous utilisons grâce au langage Python.
+Il s'agit de récupérer des données au près des plateformes **open data** reliées aux grandes bourses du monde entier. Ces plateformes donne accès aux cours de la bourse par des API que nous utilisons grâce au langage Python.
 
 La plateforme  **TradingInPython** se connecte à n'importe qu'elle source de data, ici nous sommes avec YahooFinance mais vous pouvez tout aussi bien vous connecter à d'autres sources comme IBKR et d'autres.
 
