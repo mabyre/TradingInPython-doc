@@ -36,6 +36,7 @@ extra_javascript:
 extra_css:
   - css/glightbox.min.css
   - css/extra.css
+  - css/summary.css
 
 nav:
   - Accueil: index.md
@@ -81,6 +82,7 @@ markdown_extensions:
 plugins:
   - search
   - tags
+  - macros
   - git-revision-date-localized:
       fallback_to_build_date: true
       type: timeago
