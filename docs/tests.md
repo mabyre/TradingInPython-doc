@@ -1,5 +1,7 @@
 # Premiers tests
 
+On va chercher l'image chez Googlg User Content
+
 <https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiODEvTzbXj7c-ktOe-d3F0GOqrJlw1LrNt8vUZWihYKb1eKK8oxYmfJgFsKh83DtJMIhYc3n-oc8s7LA1-aQNhOI-_i_w-zKovaI9LP1NYi6brVSpAr3VGDTH8hHmq43iR1GuZCK0u3mKoZL3O6-T1w_7w86awVn3mEzoyOlHgXgPFKY28dt67QGFxZ1fi/w640-h336/2025-04-18_10h43_0811.png>
 
 - Image
@@ -19,7 +21,11 @@
 - css style **img.centered**
 
 <p align="center">
-  <img src="/images/trading_in_python.png" alt="Trading In Python" class="centered"/>
+  <img src="../images/trading_in_python.png" alt="Trading In Python" class="centered"/>
+</p>
+
+<p align="center">
+  <img src="images/trading_in_python.png" alt="Trading In Python" class="centered"/>
 </p>
 
 - css class **noborder**
@@ -36,6 +42,8 @@ img.noborder dans :
 
 ## Exemple avec sous-titre
 
+**Noter le chemin relatif !!!!**
+
 <figure style="text-align: center;">
   <img src="../images/trading_in_python.png" class="centered" width="600" />
   <figcaption><em>Figure 1 – Interface principale de l'application</em></figcaption>
@@ -43,9 +51,29 @@ img.noborder dans :
 
 ## Image cliquable
 
+Chemin en relatif
+
+<figure style="text-align: center;">
+  <a href="../images/trading_in_python.png" target="_blank" title="Titre de l'image">
+    <img src="../images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
+  </a>
+  <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
+</figure>
+
+Chemin en absolu
+
 <figure style="text-align: center;">
   <a href="/images/trading_in_python.png" target="_blank" title="Titre de l'image">
     <img src="/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
+  </a>
+  <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
+</figure>
+
+Noter le chemin utilise **{{ base_url }}**
+
+<figure style="text-align: center;">
+  <a href="{{ base_url }}/images/trading_in_python.png" target="_blank" title="Titre de l'image">
+    <img src="{{ base_url }}/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
   </a>
   <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>

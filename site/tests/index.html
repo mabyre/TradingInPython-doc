@@ -939,6 +939,7 @@
 
 
 <h1 id="premiers-tests">Premiers tests<a class="headerlink" href="#premiers-tests" title="Permanent link">&para;</a></h1>
+<p>On va chercher l'image chez Googlg User Content</p>
 <p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiODEvTzbXj7c-ktOe-d3F0GOqrJlw1LrNt8vUZWihYKb1eKK8oxYmfJgFsKh83DtJMIhYc3n-oc8s7LA1-aQNhOI-_i_w-zKovaI9LP1NYi6brVSpAr3VGDTH8hHmq43iR1GuZCK0u3mKoZL3O6-T1w_7w86awVn3mEzoyOlHgXgPFKY28dt67QGFxZ1fi/w640-h336/2025-04-18_10h43_0811.png">https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiODEvTzbXj7c-ktOe-d3F0GOqrJlw1LrNt8vUZWihYKb1eKK8oxYmfJgFsKh83DtJMIhYc3n-oc8s7LA1-aQNhOI-_i_w-zKovaI9LP1NYi6brVSpAr3VGDTH8hHmq43iR1GuZCK0u3mKoZL3O6-T1w_7w86awVn3mEzoyOlHgXgPFKY28dt67QGFxZ1fi/w640-h336/2025-04-18_10h43_0811.png</a></p>
 <ul>
 <li>Image</li>
@@ -958,7 +959,11 @@
 <li>css style <strong>img.centered</strong></li>
 </ul>
 <p align="center">
-  <img src="/images/trading_in_python.png" alt="Trading In Python" class="centered"/>
+  <img src="../images/trading_in_python.png" alt="Trading In Python" class="centered"/>
+</p>
+
+<p align="center">
+  <img src="images/trading_in_python.png" alt="Trading In Python" class="centered"/>
 </p>
 
 <ul>
@@ -974,15 +979,33 @@
 <li>\docs\css\extra.css</li>
 </ul>
 <h2 id="exemple-avec-sous-titre">Exemple avec sous-titre<a class="headerlink" href="#exemple-avec-sous-titre" title="Permanent link">&para;</a></h2>
+<p><strong>Noter le chemin relatif !!!!</strong></p>
 <figure style="text-align: center;">
   <img src="../images/trading_in_python.png" class="centered" width="600" />
   <figcaption><em>Figure 1 – Interface principale de l'application</em></figcaption>
 </figure>
 
 <h2 id="image-cliquable">Image cliquable<a class="headerlink" href="#image-cliquable" title="Permanent link">&para;</a></h2>
+<p>Chemin en relatif</p>
+<figure style="text-align: center;">
+  <a href="../images/trading_in_python.png" target="_blank" title="Titre de l'image">
+    <img src="../images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
+  </a>
+  <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
+</figure>
+
+<p>Chemin en absolu</p>
 <figure style="text-align: center;">
   <a href="/images/trading_in_python.png" target="_blank" title="Titre de l'image">
     <img src="/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
+  </a>
+  <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
+</figure>
+
+<p>Noter le chemin utilise <strong>{{ base_url }}</strong></p>
+<figure style="text-align: center;">
+  <a href="{{ base_url }}/images/trading_in_python.png" target="_blank" title="Titre de l'image">
+    <img src="{{ base_url }}/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
   </a>
   <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>

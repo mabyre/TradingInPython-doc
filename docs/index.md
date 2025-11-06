@@ -12,7 +12,7 @@ L'important pour le trader c'est de se forger une conviction et de valider cette
 
 <figure style="text-align: center;">
   <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique">
-    <img src="/images/trading_in_python.png" class="noborder" width="450" />
+    <img src="images/trading_in_python.png" class="noborder" width="450" />
   </a>
 </figure>
 
