@@ -1,0 +1,69 @@
+/* Réinitialiser les compteurs pour le contenu principal */
+.md-content {
+    counter-reset: h2counter;
+}
+
+.md-content h2 {
+    counter-reset: h3counter;
+}
+
+.md-content h3 {
+    counter-reset: h4counter;
+}
+
+/* Numérotation des titres dans le contenu */
+.md-content h2::before {
+    counter-increment: h2counter;
+    content: counter(h2counter) ". ";
+    margin-right: 0.5em;
+}
+
+.md-content h3::before {
+    counter-increment: h3counter;
+    content: counter(h2counter) "." counter(h3counter) ". ";
+    margin-right: 0.5em;
+}
+
+.md-content h4::before {
+    counter-increment: h4counter;
+    content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) ". ";
+    margin-right: 0.5em;
+}
+
+/* === Numérotation de la table des matières === */
+
+/* Réinitialisation globale */
+.md-nav--secondary {
+    counter-reset: toc-h2;
+}
+
+/* Premier niveau (h2) */
+.md-nav--secondary>.md-nav__list>.md-nav__item {
+    counter-increment: toc-h2;
+    counter-reset: toc-h3;
+}
+
+.md-nav--secondary>.md-nav__list>.md-nav__item>.md-nav__link::before {
+    content: counter(toc-h2) ". ";
+    margin-right: 0.5em;
+}
+
+/* Deuxième niveau (h3) */
+.md-nav--secondary .md-nav__item .md-nav__list>.md-nav__item {
+    counter-increment: toc-h3;
+}
+
+.md-nav--secondary .md-nav__item .md-nav__list>.md-nav__item>.md-nav__link::before {
+    content: counter(toc-h2) "." counter(toc-h3) ". ";
+    margin-right: 0.5em;
+}
+
+/* Troisième niveau (h4) – optionnel */
+.md-nav--secondary .md-nav__item .md-nav__item .md-nav__list>.md-nav__item {
+    counter-increment: toc-h4;
+}
+
+.md-nav--secondary .md-nav__item .md-nav__item .md-nav__list>.md-nav__item>.md-nav__link::before {
+    content: counter(toc-h2) "." counter(toc-h3) "." counter(toc-h4) ". ";
+    margin-right: 0.5em;
+}
