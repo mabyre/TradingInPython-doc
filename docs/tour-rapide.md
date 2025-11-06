@@ -2,9 +2,9 @@
 
 Découvrez rapidement les grands modules que vous pourrez utiliser dans **TradingInPython** la plateforme dédiée au trading technique.
 
-## 1. Présentation des stratégies de trading technique
+## Présentation des stratégies de trading technique
 
-### 1.1 Ichimoku Kinko Hyo
+### Ichimoku Kinko Hyo
 
 Dans cet exemple, on récupère les données du cours de TRIGANO pour la période des six derniers mois `6mo` par intervalle de 1 jour `1d`.
 
@@ -36,7 +36,7 @@ Vous pourrez cliquer sur la case **Forcast** (prédiction) pour faire une prédi
 
 Retrouvez les analyses faites de l'action <a href="https://www.trading-et-data-analyses.com/2024/10/trigano.html#Ichikomu_Kinko_Hyo" target="_blank">TRIGANO</a>.
 
-### 1.2. Les stratégies de trading technique
+### Les stratégies de trading technique
 
 Vous venez de découvrir l'une des nombreuses stratégies de trading technique de la plateforme.
 
@@ -62,7 +62,7 @@ Quand vous installez la plateforme **les stratégies en <span style="color: #387
 
 - [Abonnez-vous](https://www.trading-et-data-analyses.com/p/abonnement.html) pour découvrir comment utiliser ces stratégies pour élaborer votre **routine de trading**.
 
-## 2. Mode Screener
+## Mode Screener
 
 En mode screen, vous pouvez parcourir toutes vos actions avec, par exemple, la stratégie des <a href="https://www.trading-et-data-analyses.com/2024/11/formation-indicateur-fractales-bill-williams.html" target="_blank">Fractales de Bill Williams</a>, pour découvrir les signaux d'achat ou de vente de cette stratégie automatique de trading :
 
@@ -70,7 +70,7 @@ En mode screen, vous pouvez parcourir toutes vos actions avec, par exemple, la s
 
 Ce chapître pour montrer la facilité avec laquelle vous aurez le loisir de parcourir vos actions (stocks) et de réaliser des analyses techniques.
 
-## 3. Screener Heatmap Performance
+## Screener Heatmap Performance
 
 Découvrez le moyen de surveiller des dizaines d'actions d'un seul coup d'œil avec la Heatmap Performance ou "Carte de chaleur" et ses couleurs pour vous permettre de détecter, les actions qui croissent et sont à la hausse ou qui décroissent et sont à la baisse, par leurs performances :
 
@@ -80,7 +80,7 @@ Pour chaque actions tous les indicateurs techniques sont calculés et présenté
 
 - [Heatmap cartes de chaleur - Découvrir](./heatmap_screener.md)
 
-## 4. Monitoring Stock Market Alertes
+## Monitoring Stock Market Alertes
 
 Mettez le marché sous surveillance grâce au Monitoring Stock qui vous permet de placer des alertes sur le cours des actions et d'être prévenu par email :
 
@@ -94,7 +94,7 @@ Par exemple, vous réalisez vos analyses techniques le matin vous positionnez vo
 
 - [Mise sous surveillance du Marché - Découvrir](./monitor_stock_market.md)
 
-## 5. Votre Gestionnaire de Portefeuilles
+## Votre Gestionnaire de Portefeuilles
 
 Le portfolio ou gestionnaire de portefeuille est l'outil indispensable du trader efficace. Il vous permet de centraliser tous vos achats/ventes et de les consolider dans un tableau de bord afin de connaitre le rendement réel de vos trades sur les Cryptos, Actions, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#ETF"  target="_blank">ETF</a>, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#Futures" target="_blank">Futures</a>, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#FOREX" target="_blank">Forex</a>, etc.
 

@@ -4,7 +4,7 @@ Il s'agit de récupérer des données au près des plateformes **open data** rel
 
 La plateforme  **TradingInPython** se connecte à n'importe qu'elle source de data, ici nous sommes avec YahooFinance mais vous pouvez tout aussi bien vous connecter à d'autres sources comme IBKR et d'autres.
 
-## 1. Sélection de l'action à trader  
+## Sélection de l'action à trader  
 
 L’application s’ouvre sur la dernière action que vous aviez sélectionnée pour trader.
 
@@ -22,7 +22,7 @@ Vous vous retrouvez avec les actions (stocks) du secteur de l'aérospatial-défe
 
 Vous choisissez l'action que vous souhaitez trader parmi ce secteur.
 
-## 2. Choisir l’intervalle et la période  
+## Choisir l’intervalle et la période  
 
 Vous observez le cours des actions qui vous intéressent en sélectionnant un intervalle de temps et une  période sur laquelle vous souhaitez analyser le cours de ces actions.
 
@@ -71,21 +71,21 @@ Voici une page pour vous expliquer en détails comment faire :
 
 - [Voyagez dans le temps](https://www.trading-et-data-analyses.com/p/voyager-dans-le-temps.html)
 
-## 3. Récupération des données en temps réel  
+## Récupération des données en temps réel  
 
 Vous avez la possibilité de suivre le cours de l’action minute par minute :  
 
 - Cochez la case **AUTO** (ou mode automatique) pour que les données soient récupérées en continu.
 - Une thread dédiée démarre pour récupérer les données en temps réel, et les graphiques se mettent à jour dynamiquement.
 
-## 4. Remarques pratiques  
+## Remarques pratiques  
 
 - Veillez à choisir l’**intervalle** en fonction de votre horizon de trading : `intraday, swing, ou long terme`.  
 - Prenez garde à la **granularité** : par exemple, un intervalle de 1 m sur une période de plusieurs mois peut être lourd en données.  
 - Si vous utilisez les dates de début/fin plutôt que **period**, vous avez plus de flexibilité pour remonter dans les archives.  
 - Pour un suivi réel (minute par minute), vous avez l’option "Auto".
 
-## 5. Exemple de code avec la librairie yfinance
+## Exemple de code avec la librairie yfinance
 
 Si vous souhaitez, voici un le code Python illustrant la récupération des données :
 

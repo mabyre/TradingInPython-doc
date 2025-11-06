@@ -8,7 +8,6 @@ repo_name: TradingInPython
 repo_url: https://github.com/SoDevLog/PyTrading/
 edit_uri: edit/main/docs/
 
-
 theme:
   name: material
   language: fr
@@ -22,9 +21,9 @@ theme:
     - search.suggest
     - content.code.copy
     - content.tabs.link
-    #- toc.integrate # intègre la table des matières dans la page c'est pas joli !!!
+    #- toc.integrate # intègre la table des matières dans la page -> c'est pas joli !!!
     #- toc.follow # fait défiler la table des matières avec le contenu
-    # ne fonctionne pas !!! - toc.number # active la numérotation automatique des titres
+    #- toc.number # active la numérotation automatique des titres ne fonctionne pas !!!
   icon:
     logo: material/chart-line
     repo: fontawesome/brands/github
@@ -58,12 +57,16 @@ nav:
   - Gestionnaire de Portefeuilles: portfolio_manager.md
   - Interface & Configuration: ui_configuration.md
   - Extensions & Open Software: extension_open.md
-  - Tests: tests.md
+  - Notes: 
+      - Images: tests/images.md
+      - Titres: tests/titres.md 
+      - Notes: tests/notes.md 
   - FAQ: faq.md
   - Glossaire: glossary.md
 
 markdown_extensions:
   - toc:
+      toc_depth: 3
       permalink: true
   - admonition
   - codehilite
@@ -88,6 +91,7 @@ plugins:
       type: timeago
 
 extra:
+  base_url: /TradingInPython-doc   # utiliser {{ base_url }} dans <img src="{{ base_url }}/images/..." 
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/sodevlog
