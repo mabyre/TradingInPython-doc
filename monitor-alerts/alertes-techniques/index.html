@@ -12,28 +12,28 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/select_stock/">
+        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/monitor-alerts/alertes-techniques/">
       
       
-        <link rel="prev" href="../voyage-dans-le-temps/">
+        <link rel="prev" href="../monitor-stock-market/">
       
       
-        <link rel="next" href="../trading-routine/">
+        <link rel="next" href="../../portfolio_manager/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
-        <title>Sélectionner une action - TradingInPython</title>
+        <title>Alertes techniques - TradingInPython</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,15 +52,15 @@
       
     
     
-      <link rel="stylesheet" href="../css/timeago.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
     
-      <link rel="stylesheet" href="../css/glightbox.min.css">
+      <link rel="stylesheet" href="../../css/glightbox.min.css">
     
-      <link rel="stylesheet" href="../css/extra.css">
+      <link rel="stylesheet" href="../../css/extra.css">
     
-      <link rel="stylesheet" href="../css/summary.css">
+      <link rel="stylesheet" href="../../css/summary.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#selectionnez-une-actions-a-trader" class="md-skip">
+        <a href="#alertes-techniques" class="md-skip">
           Aller au contenu
         </a>
       
@@ -100,7 +100,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href=".." title="TradingInPython" class="md-header__button md-logo" aria-label="TradingInPython" data-md-component="logo">
+    <a href="../.." title="TradingInPython" class="md-header__button md-logo" aria-label="TradingInPython" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sélectionner une action
+              Alertes techniques
             
           </span>
         </div>
@@ -212,7 +212,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="TradingInPython" class="md-nav__button md-logo" aria-label="TradingInPython" data-md-component="logo">
+    <a href="../.." title="TradingInPython" class="md-nav__button md-logo" aria-label="TradingInPython" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -242,7 +242,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -264,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tour-rapide/" class="md-nav__link">
+      <a href="../../tour-rapide/" class="md-nav__link">
         
   
   
@@ -286,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../recuperation-des-data/" class="md-nav__link">
+      <a href="../../recuperation-des-data/" class="md-nav__link">
         
   
   
@@ -308,7 +308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../voyage-dans-le-temps/" class="md-nav__link">
+      <a href="../../voyage-dans-le-temps/" class="md-nav__link">
         
   
   
@@ -327,19 +327,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../select_stock/" class="md-nav__link">
         
   
   
@@ -350,7 +341,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -362,7 +352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trading-routine/" class="md-nav__link">
+      <a href="../../trading-routine/" class="md-nav__link">
         
   
   
@@ -422,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/" class="md-nav__link">
+      <a href="../../strategies/" class="md-nav__link">
         
   
   
@@ -445,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/ichimoku_kinko_hyo/" class="md-nav__link">
+      <a href="../../strategies/ichimoku_kinko_hyo/" class="md-nav__link">
         
   
   
@@ -468,7 +458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/bollinger/" class="md-nav__link">
+      <a href="../../strategies/bollinger/" class="md-nav__link">
         
   
   
@@ -491,7 +481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/oscillators/" class="md-nav__link">
+      <a href="../../strategies/oscillators/" class="md-nav__link">
         
   
   
@@ -514,7 +504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/fractals_gator/" class="md-nav__link">
+      <a href="../../strategies/fractals_gator/" class="md-nav__link">
         
   
   
@@ -537,7 +527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/kalman/" class="md-nav__link">
+      <a href="../../strategies/kalman/" class="md-nav__link">
         
   
   
@@ -560,7 +550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/prediction_ai/" class="md-nav__link">
+      <a href="../../strategies/prediction_ai/" class="md-nav__link">
         
   
   
@@ -628,7 +618,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../heatmap-screener/screeners/" class="md-nav__link">
+      <a href="../../heatmap-screener/screeners/" class="md-nav__link">
         
   
   
@@ -651,7 +641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../heatmap-screener/heatmaps/" class="md-nav__link">
+      <a href="../../heatmap-screener/heatmaps/" class="md-nav__link">
         
   
   
@@ -678,18 +668,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
         
           
           <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
@@ -705,7 +697,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             Monitor & Alertes
@@ -719,7 +711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-alerts/monitor-stock-market/" class="md-nav__link">
+      <a href="../monitor-stock-market/" class="md-nav__link">
         
   
   
@@ -739,10 +731,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../monitor-alerts/alertes-techniques/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -753,6 +754,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -772,7 +774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../portfolio_manager/" class="md-nav__link">
+      <a href="../../portfolio_manager/" class="md-nav__link">
         
   
   
@@ -832,7 +834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/ui-configuration/" class="md-nav__link">
+      <a href="../../interface-configuration/ui-configuration/" class="md-nav__link">
         
   
   
@@ -855,7 +857,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/windows-management/" class="md-nav__link">
+      <a href="../../interface-configuration/windows-management/" class="md-nav__link">
         
   
   
@@ -878,7 +880,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/dark-mode/" class="md-nav__link">
+      <a href="../../interface-configuration/dark-mode/" class="md-nav__link">
         
   
   
@@ -901,7 +903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/console-bottom-right/" class="md-nav__link">
+      <a href="../../interface-configuration/console-bottom-right/" class="md-nav__link">
         
   
   
@@ -931,7 +933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../extension_open/" class="md-nav__link">
+      <a href="../../extension_open/" class="md-nav__link">
         
   
   
@@ -991,7 +993,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/images/" class="md-nav__link">
+      <a href="../../tests/images/" class="md-nav__link">
         
   
   
@@ -1014,7 +1016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/titres/" class="md-nav__link">
+      <a href="../../tests/titres/" class="md-nav__link">
         
   
   
@@ -1037,7 +1039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/notes/" class="md-nav__link">
+      <a href="../../tests/notes/" class="md-nav__link">
         
   
   
@@ -1067,7 +1069,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../../faq/" class="md-nav__link">
         
   
   
@@ -1089,7 +1091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../glossary/" class="md-nav__link">
+      <a href="../../glossary/" class="md-nav__link">
         
   
   
@@ -1141,23 +1143,9 @@
   
 
 
-<h1 id="selectionnez-une-actions-a-trader">Sélectionnez une actions à trader<a class="headerlink" href="#selectionnez-une-actions-a-trader" title="Permanent link">&para;</a></h1>
-<p>Il y a déjà des centaines d'actions référencées dans la plateforme mais peut être pas celle que vous souhaitez analyser.</p>
-<p>Pour ajouter une action, vous devez vous enquérir du <strong>Nom</strong> et du <strong>Symbole</strong> de l'action que vous souhaitez analyser.</p>
-<p>Et vous pouvez alors j'ajouter, vous cliquez dans :</p>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6hRkcOulGUuIcmV_0wyYIXICqFLBZmLXqpAu9aDIUxwRYM8gzejE-Jsj2p5NT6QWYxABJoOZ4T49oQhdszNBpJ93ba50JdjkD5NvEBeuCHcDN69EIeoOdw33g8PHIMnwLmTvcMZ2TknhZ7xVUztgsxHCa_6BXLgwE7ItyPAuhFGVWXVlJEpPzyHj45K8_/s458/2025-01-24_12h23_32.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="458" data-original-width="272" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6hRkcOulGUuIcmV_0wyYIXICqFLBZmLXqpAu9aDIUxwRYM8gzejE-Jsj2p5NT6QWYxABJoOZ4T49oQhdszNBpJ93ba50JdjkD5NvEBeuCHcDN69EIeoOdw33g8PHIMnwLmTvcMZ2TknhZ7xVUztgsxHCa_6BXLgwE7ItyPAuhFGVWXVlJEpPzyHj45K8_/s16000/2025-01-24_12h23_32.png" title="TradingInPython" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Listes des stocks -&gt; Gestion des stocks</td></tr></tbody></table>
-
-<p>Vous obtenez la fenêtre de <strong>Gestion des stocks</strong> suivante :</p>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixk1HiHg4RLdd1OqgyuDGvqn0FxdoFuQMBUbYHxrAwbQA4llsFnWhdZY2g5mX02q5IkqbWS-E_GURQbYW83_l4O6nP6oLn1bAju1vEFleRi-zuGdpjKc-FJCzUjB5JCR-0V0j_QCveOkqbX4NO5cSheftUR5MJnjA8nxRzG1nUMYH1MqBKH76zLa61rKgk/s605/2025-01-24_12h25_26.png" style="margin-left: auto; margin-right: auto;"><img alt="Gestion de la Liste des Actions à analyser" border="0" data-original-height="285" data-original-width="605" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixk1HiHg4RLdd1OqgyuDGvqn0FxdoFuQMBUbYHxrAwbQA4llsFnWhdZY2g5mX02q5IkqbWS-E_GURQbYW83_l4O6nP6oLn1bAju1vEFleRi-zuGdpjKc-FJCzUjB5JCR-0V0j_QCveOkqbX4NO5cSheftUR5MJnjA8nxRzG1nUMYH1MqBKH76zLa61rKgk/s16000/2025-01-24_12h25_26.png" title="Gestion de la Liste des Actions à analyser" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Gestion de la Liste des Actions à analyser</td></tr></tbody></table>
-
-<p>Vous souhaitez par exemple modifier l'action AIR LIQUIDE cliquez sur Modifier :</p>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNDkHCmRqigm00DPprmdwrlGfb-cbAcxJcPont8GanbxBH8XpCSE-kqcylQzwtWGQ8VTRZB1h7Ab1C-TaBDF2wDfrH7fBFM3K3T36hb4zoeRr813YofFrjg3AX_1nGjgqSnqQ9xKBgJb195c_XLUzLle4RBqvIVO_dLqHNKxG1N0VhhKejrh_sXQBVmqKA/s259/2025-01-24_12h26_52.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="201" data-original-width="259" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNDkHCmRqigm00DPprmdwrlGfb-cbAcxJcPont8GanbxBH8XpCSE-kqcylQzwtWGQ8VTRZB1h7Ab1C-TaBDF2wDfrH7fBFM3K3T36hb4zoeRr813YofFrjg3AX_1nGjgqSnqQ9xKBgJb195c_XLUzLle4RBqvIVO_dLqHNKxG1N0VhhKejrh_sXQBVmqKA/s16000/2025-01-24_12h26_52.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Modification de AIR LIQUIDE</td></tr></tbody></table>
-
-<p>Si vous laissez <strong>Menu:</strong> vide, l'action AIR LIQUIDE se retrouvera dans la liste des actions <strong>Non classées</strong>, sinon remplissez ce champ avec <strong>A</strong> pour retrouver l'action dans la liste des <strong>A</strong>.</p>
-<p>Vous pouvez également mettre par exemple : <strong>Mes nouvelles actions à analyser</strong>, AIR LIQUIDE se retrouvera dans une nouvelle liste nommée : <strong>Mes nouvelles actions à analyser</strong>.</p>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s466/2025-01-24_12h34_38.png" style="margin-left: auto; margin-right: auto;"><img alt="Liste crée &quot;Mes nouvelles actions à analyser&quot;" border="0" data-original-height="466" data-original-width="356" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s16000/2025-01-24_12h34_38.png" title="Liste crée &quot;Mes nouvelles actions à analyser&quot;" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Liste crée "Mes nouvelles actions à analyser"</td></tr></tbody></table>
-
-<p>Vous pouvez ainsi créer autant de liste dans le menu en choisissant le libellé que vous souhaitez.</p><p>Vous ne savez plus où vous avez rangé l'action, il vous suffit de cliquer sur le menu <strong>Gestion des stocks</strong> d'ouvrir la fenêtre en grand pour retrouver dans quel menu vous l'avez rangé.</p>
+<h1 id="alertes-techniques">Alertes techniques<a class="headerlink" href="#alertes-techniques" title="Permanent link">&para;</a></h1>
+<p>Alertes avancées sur les indicateurs techniques.</p>
+<p><em>Contenu à compléter.</em></p>
 
 
 
@@ -1178,7 +1166,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="4 novembre 2025 17:41:10 UTC"><span class="timeago" datetime="2025-11-04T17:41:10+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="4 novembre 2025 17:41:10 UTC">2025-11-04</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="7 novembre 2025 11:37:58 UTC"><span class="timeago" datetime="2025-11-07T11:37:58+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="7 novembre 2025 11:37:58 UTC">2025-11-07</span>
   </span>
 
     
@@ -1278,18 +1266,18 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.top", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
-        <script src="../js/timeago.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="../js/timeago_mkdocs_material.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../js/glightbox.min.js"></script>
+        <script src="../../js/glightbox.min.js"></script>
       
-        <script src="../js/init.js"></script>
+        <script src="../../js/init.js"></script>
       
     
   </body>
