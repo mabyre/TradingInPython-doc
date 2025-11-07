@@ -1,6 +1,6 @@
 # Ichimoku & Deeplearning
 
-La graphe Ichimoku et sa prédiction.
+La graphe de l'indicateur technique **Ichimoku-Kinko-Hyo** et sa prédiction **Keras**.
 
 ## Interface
 

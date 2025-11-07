@@ -15,8 +15,9 @@ theme:
     primary: blue grey
     accent: indigo
   features:
-    - navigation.expand
+    #- navigation.expand # tout déplié au départ
     - navigation.instant
+    #- navigation.sections
     - navigation.top
     - search.suggest
     - content.code.copy
@@ -43,7 +44,7 @@ nav:
   - Récupération des données: recuperation-des-data.md
   - Voyager dans le temps: voyage-dans-le-temps.md
   - Sélectionner une action: select_stock.md
-  - Routine de trading: trading_routine.md
+  - Routine de trading: trading-routine.md
   - Stratégies intégrées:
       - Vue d'ensemble: strategies.md
       - Ichimoku & Deep Learning: strategies/ichimoku_kinko_hyo.md
