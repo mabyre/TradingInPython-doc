@@ -78,7 +78,7 @@ Découvrez le moyen de surveiller des dizaines d'actions d'un seul coup d'œil a
 
 Pour chaque actions tous les indicateurs techniques sont calculés et présentés dans une fenêtre de détails pour vous permettre de prendre les bonnes décisions de trading.
 
-- [Heatmap cartes de chaleur - Découvrir](./heatmap_screener.md)
+- [Heatmap cartes de chaleur - Découvrir](./heatmap-screener/heatmaps.md)
 
 ## Monitoring Stock Market Alertes
 
@@ -92,7 +92,7 @@ Les alertes avancées vous permettent de mettre des alertes sur les indicateurs 
 
 Par exemple, vous réalisez vos analyses techniques le matin vous positionnez vos alertes et vous être prévenu dans la journée lorsque quelque chose se passe ...
 
-- [Mise sous surveillance du Marché - Découvrir](./monitor_stock_market.md)
+- [Mise sous surveillance du Marché - Découvrir](./monitor-alerts/monitor-stock-market.md)
 
 ## Votre Gestionnaire de Portefeuilles
 

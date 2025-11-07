@@ -71,19 +71,35 @@ Voici une page pour vous expliquer en détails comment faire :
 
 - [Voyagez dans le temps](https://www.trading-et-data-analyses.com/p/voyager-dans-le-temps.html)
 
-## Récupération des données en temps réel  
+## Récupération des données en temps réel
+
+Pour chacune des stratégies vous avez la case AUTO dans la fenêtre **Indicateurs secondaires**
+
+<figure style="text-align: center;" title="Récupération des datas en temps réel">
+  <img src="{{ base_url }}/images/recuperation-des-data/mode-auto.png" class="noborder"/>
+  <figcaption><em>Récupération des data en temps réel</em></figcaption>
+</figure>
 
 Vous avez la possibilité de suivre le cours de l’action minute par minute :  
 
 - Cochez la case **AUTO** (ou mode automatique) pour que les données soient récupérées en continu.
 - Une thread dédiée démarre pour récupérer les données en temps réel, et les graphiques se mettent à jour dynamiquement.
 
+La console vous prévient que le mode Automatique a démarré :
+
+<figure style="text-align: center;" title="Console indication mode AUTO">
+  <img src="{{ base_url }}/images/recuperation-des-data/console-mode-auto.png" class="noborder"/>
+  <figcaption><em>Console indication mode AUTO</em></figcaption>
+</figure>
+
+La console affiche le message "Auto started ...".
+
 ## Remarques pratiques  
 
 - Veillez à choisir l’**intervalle** en fonction de votre horizon de trading : `intraday, swing, ou long terme`.  
 - Prenez garde à la **granularité** : par exemple, un intervalle de 1 m sur une période de plusieurs mois peut être lourd en données.  
 - Si vous utilisez les dates de début/fin plutôt que **period**, vous avez plus de flexibilité pour remonter dans les archives.  
-- Pour un suivi réel (minute par minute), vous avez l’option "Auto".
+- Pour un suivi réel (minute par minute), vous avez l’option [AUTO](#recuperation-des-donnees-en-temps-reel).
 
 ## Exemple de code avec la librairie yfinance
 

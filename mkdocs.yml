@@ -53,10 +53,18 @@ nav:
       - Fractals & Gator: strategies/fractals_gator.md
       - Filtre de Kalman: strategies/kalman.md
       - Prédiction IA (Keras / JAX): strategies/prediction_ai.md
-  - Heatmap & Screener: heatmap_screener.md
-  - Monitor & Alertes: monitor_stock_market.md
+  - Heatmap & Screeners: 
+      - Création des Screeners: heatmap-screener/screeners.md
+      - Cartes de Chaleurs & Performances: heatmap-screener/heatmaps.md
+  - Monitor & Alertes: 
+      - Monitorer le marché: monitor-alerts/monitor-stock-market.md
+      - Alertes techniques: monitor-alerts/alertes-techniques.md
   - Gestionnaire de Portefeuilles: portfolio_manager.md
-  - Interface & Configuration: ui_configuration.md
+  - Interface & Configuration: 
+      - Configuration: interface-configuration/ui-configuration.md
+      - Gestion automatisée des fenêtres: interface-configuration/windows-management.md
+      - Mode sombre: interface-configuration/dark-mode.md
+      - Console en bas à droite: interface-configuration/console-bottom-right.md
   - Extensions & Open Software: extension_open.md
   - Notes: 
       - Images: tests/images.md
