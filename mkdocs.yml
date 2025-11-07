@@ -59,7 +59,7 @@ nav:
   - Monitor & Alertes: 
       - Monitorer le marché: monitor-alerts/monitor-stock-market.md
       - Alertes techniques: monitor-alerts/alertes-techniques.md
-  - Gestionnaire de Portefeuilles: portfolio_manager.md
+  - Gestionnaire de Portefeuilles: portfolio-manager.md
   - Interface & Configuration: 
       - Configuration: interface-configuration/ui-configuration.md
       - Gestion automatisée des fenêtres: interface-configuration/windows-management.md

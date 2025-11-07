@@ -102,7 +102,7 @@ Le portfolio ou gestionnaire de portefeuille est l'outil indispensable du trader
 
 La plateforme TradingInPython vous permet de gérer autant de portefeuilles que vous le souhaitez et de calculer ainsi l'efficacité réelle de vos trades.
 
-- [Gestionnaire de portefeuilles - Découvrir](./portfolio_manager.md)
+- [Gestionnaire de portefeuilles - Découvrir](./portfolio-manager.md)
 
 ## Conclusion
 
