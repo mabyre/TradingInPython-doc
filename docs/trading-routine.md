@@ -32,9 +32,9 @@ Avec cette stratégie vous avez la possibilité de vous faire aider par l'IA, un
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfzaBJjLU9YoBlK-18DLrwiqZKw_qc7wbJqmHklW02Vkbfnfpwjryq2MKnA_ehGQLk5jh3tfNXX2IH90BvsNyLutXkJYb3BQ_CixGeBqIW-GTFFiNXZzIW3gwTqs7MESMUTQ4MON79ykCHwS7HlMOTvkL-M-oXxozEmSA7nRr7ApvSjkOA-s-b0JwVZ7PA/s960/2025-02-03_11h32_30.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="655" data-original-width="960" height="436" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfzaBJjLU9YoBlK-18DLrwiqZKw_qc7wbJqmHklW02Vkbfnfpwjryq2MKnA_ehGQLk5jh3tfNXX2IH90BvsNyLutXkJYb3BQ_CixGeBqIW-GTFFiNXZzIW3gwTqs7MESMUTQ4MON79ykCHwS7HlMOTvkL-M-oXxozEmSA7nRr7ApvSjkOA-s-b0JwVZ7PA/w640-h436/2025-02-03_11h32_30.png" title="TradingInPython" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Ichimoku - Prédiction grâce au réseau de neurones Keras et Tensorflow</td></tr></tbody></table>
 
-1. Cliquez sur Forcasting (Prévision)
-2. Un signal à trois états, achat de vente et neutre, est généré grâce à la stratégie.
-3. Un réseau de neurones Keras est entrainé sur les données du passé pour délivrer sa prédiction.
+- **(1)** Cliquez sur Forcasting (Prévision)
+- **(2)** Un signal à trois états, achat de vente et neutre, est généré grâce à la stratégie.
+- **(3)** Un réseau de neurones Keras est entrainé sur les données du passé pour délivrer sa prédiction.
 
 Ici AIR LIQUIDE est à l'achat.
 

@@ -73,7 +73,8 @@ Voici une page pour vous expliquer en détails comment faire :
 
 ## Récupération des données en temps réel
 
-Pour chacune des stratégies vous avez la case AUTO dans la fenêtre **Indicateurs secondaires**
+Pour chacune des stratégies, vous avez la case **AUTO** dans la fenêtre **Indicateurs secondaires** pour récupérer les données en **temps réel**, à intervalle de temps régulier,
+ainsi vous pouvez voir les graphiques du cours de l'action se dessiner au fil du temps.
 
 <figure style="text-align: center;" title="Récupération des datas en temps réel">
   <img src="{{ base_url }}/images/recuperation-des-data/mode-auto.png" class="noborder"/>

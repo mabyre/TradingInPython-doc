@@ -66,11 +66,12 @@ nav:
       - Gestion automatisée des fenêtres: interface-configuration/windows-management.md
       - Mode sombre: interface-configuration/dark-mode.md
       - Console en bas à droite: interface-configuration/console-bottom-right.md
-  - Extensions & Open Software: extension_open.md
+  - Open Software & Logiciel: open-software.md
   - Notes: 
       - Images: tests/images.md
       - Titres: tests/titres.md 
-      - Notes: tests/notes.md 
+      - Notes: tests/notes.md
+      - Syntaxe: tests/syntaxe.md
   - FAQ: faq.md
   - Glossaire: glossary.md
 

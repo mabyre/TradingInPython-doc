@@ -1,4 +1,4 @@
-# Mode sombre
+# Mode sombre (dark mode)
 
 Mise en mode sombre de plateforme ou en mode dark pour ceux qui préfèrent les écrans sombres.
 

@@ -22,7 +22,7 @@ Si vous êtes positionné dans les Screeners remontez vers le répertoire **"_in
 
 <figure style="text-align: center;" title="Portfolio - Gestionnaire de Portefeuilles">
   <img src="{{ base_url }}/images/portfolio/trouver.png" class="noborder"/>
-  <figcaption><em>Trouvez le répertoire **portfolios**</em></figcaption>
+  <figcaption><em>Trouvez le répertoire <b>portfolios</b></em></figcaption>
 </figure>
 
 Sélectionnez ce répertoire, cliquez sur le bouton **"Enregistrer"** :

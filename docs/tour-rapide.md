@@ -1,8 +1,17 @@
 # Tour rapide
 
-Découvrez rapidement les grands modules que vous pourrez utiliser dans **TradingInPython** la plateforme dédiée au trading technique.
+Découvrez rapidement les grands modules que vous trouverez dans **TradingInPython**, la plateforme dédiée au trading technique.
+
+La plateforme **TradingInPython** est un ensemble complet de trading avec :
+
+- des analyses techniques,
+- des cartes chaleurs et de performance pour surveiller des marchés,
+- des alertes techniques pour mettre les marchés sous surveillance,
+- le gestionnaire de portefeuille pour vos donner en temps réel la performance de votre trading.
 
 ## Présentation des stratégies de trading technique
+
+Ce tour rapide vous présente rapidement les stratégies automatiques de trading technique de la plateforme.
 
 ### Ichimoku Kinko Hyo
 
@@ -64,13 +73,13 @@ Quand vous installez la plateforme **les stratégies en <span style="color: #387
 
 ## Mode Screener
 
-En mode screen, vous pouvez parcourir toutes vos actions avec, par exemple, la stratégie des <a href="https://www.trading-et-data-analyses.com/2024/11/formation-indicateur-fractales-bill-williams.html" target="_blank">Fractales de Bill Williams</a>, pour découvrir les signaux d'achat ou de vente de cette stratégie automatique de trading :
+En mode screen, vous pouvez parcourir toutes vos actions, avec par exemple la stratégie des <a href="https://www.trading-et-data-analyses.com/2024/11/formation-indicateur-fractales-bill-williams.html" target="_blank">Fractales de Bill Williams</a>, pour découvrir les signaux d'achat ou de vente de cette stratégie automatique de trading :
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOU2vtN3bb4zkLAUH7PsYs8kFG5xuGyMtbj8eTt4ttBO9QrRvWnSBMv3KxSP7nHrTFPiUmnUYkQnsgsAHbrKCGzl49SBMAVrlefMOkMxqAV4oR2IFs-Yu9MhvGvLmOzIpLdNmZF_Y5VajgnzIXYxcsqgjlc5WgYBKsbbEjsqKr5i53dKcCPCmDOTtZmt9z/s639/2025-04-04_11h28_59.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="338" data-original-width="639" height="338" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOU2vtN3bb4zkLAUH7PsYs8kFG5xuGyMtbj8eTt4ttBO9QrRvWnSBMv3KxSP7nHrTFPiUmnUYkQnsgsAHbrKCGzl49SBMAVrlefMOkMxqAV4oR2IFs-Yu9MhvGvLmOzIpLdNmZF_Y5VajgnzIXYxcsqgjlc5WgYBKsbbEjsqKr5i53dKcCPCmDOTtZmt9z/w640-h338/2025-04-04_11h28_59.png" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">TradingInPython - Mode Screener</td></tr></tbody></table>
 
 Ce chapître pour montrer la facilité avec laquelle vous aurez le loisir de parcourir vos actions (stocks) et de réaliser des analyses techniques.
 
-## Screener Heatmap Performance
+## Cartes de chaleur (heatmap) & Performance
 
 Découvrez le moyen de surveiller des dizaines d'actions d'un seul coup d'œil avec la Heatmap Performance ou "Carte de chaleur" et ses couleurs pour vous permettre de détecter, les actions qui croissent et sont à la hausse ou qui décroissent et sont à la baisse, par leurs performances :
 
