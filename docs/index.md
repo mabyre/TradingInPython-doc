@@ -20,7 +20,7 @@ TradingInPython utilise un réseau de neurones et le **deep learning** des modul
 
 En vous abonnant **vous bénéficiez des mises à jour du logiciel**. Vous pouvez vous former facilement avec les articles et les formations du blog. Vous avez des exemples d'utilisation des stratégies de trading en situation réelle et tout un tas d'analyses techniques gratuites.
 
-# Licence gratuite
+## Licence gratuite
 
 Les stratégies **Ichimoku + deep learning** et **Moyennes mobiles** sont gratuites, pour débloquer toutes les stratégies et toutes les fonctionnalités de la plateforme, afin de les essayer sans contraintes :
 

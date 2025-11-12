@@ -46,12 +46,13 @@ nav:
   - Sélectionner une action: select_stock.md
   - Routine de trading: trading-routine.md
   - Stratégies intégrées:
-      - Vue d'ensemble: strategies.md
+      - Vue d'ensemble: strategies/index.md
       - Ichimoku & Deep Learning: strategies/ichimoku_kinko_hyo.md
-      - Bandes de Bollinger (multiframe): strategies/bollinger.md
+      - Moyennes Mobiles: strategies/moyennes-mobiles.md
+      - Bandes de Bollinger (multiframe): strategies/bollinger-bands.md
       - Oscillateurs & Volumes: strategies/oscillators.md
       - Fractals & Gator: strategies/fractals_gator.md
-      - Filtre de Kalman: strategies/kalman.md
+      - Filtre de Kalman: strategies/kalman-filter.md
       - Prédiction IA (Keras / JAX): strategies/prediction_ai.md
   - Heatmap & Screeners: 
       - Création des Screeners: heatmap-screener/screeners.md

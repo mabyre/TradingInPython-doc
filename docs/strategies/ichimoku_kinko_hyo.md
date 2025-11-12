@@ -1,4 +1,4 @@
-# Ichimoku & Deeplearning
+# Ichimoku Kinko Hyo & Deeplearning
 
 La graphe de l'indicateur technique **Ichimoku-Kinko-Hyo** et sa prédiction **Keras**.
 
