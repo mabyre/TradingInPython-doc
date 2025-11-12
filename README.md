@@ -1,5 +1,5 @@
 # Trading Technical Plateform
 
-- [TradingInPtyhon Documentation](https://mabyre.github.io/TradingInPython-doc/)
+- [TradingInPtyhon Documentation (Publication url)](https://mabyre.github.io/TradingInPython-doc/)
 
-- [TradingInPython Software](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html)
+- [TradingInPython Software (Plateforme)](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html)
