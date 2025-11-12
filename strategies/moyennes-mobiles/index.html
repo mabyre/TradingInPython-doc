@@ -12,13 +12,13 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/strategies/kalman/">
+        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/strategies/moyennes-mobiles/">
       
       
-        <link rel="prev" href="../fractals_gator/">
+        <link rel="prev" href="../ichimoku_kinko_hyo/">
       
       
-        <link rel="next" href="../prediction_ai/">
+        <link rel="next" href="../bollinger-bands/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Filtre de Kalman - TradingInPython</title>
+        <title>Moyennes Mobiles - TradingInPython</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kalman" class="md-skip">
+        <a href="#moyennes-mobiles" class="md-skip">
           Aller au contenu
         </a>
       
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Filtre de Kalman
+              Moyennes Mobiles
             
           </span>
         </div>
@@ -457,10 +457,150 @@
                 
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Moyennes Mobiles
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Moyennes Mobiles
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Avantages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limites" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Limites
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      👨‍💻 Implémentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👨‍💻 Implémentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Configuration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strategie-en-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stratégie en action
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="../bollinger/" class="md-nav__link">
+      <a href="../bollinger-bands/" class="md-nav__link">
         
   
   
@@ -526,19 +666,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../kalman-filter/" class="md-nav__link">
         
   
   
@@ -549,7 +680,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1126,6 +1256,89 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avantages" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Avantages
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limites" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Limites
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      👨‍💻 Implémentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👨‍💻 Implémentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Configuration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strategie-en-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stratégie en action
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1143,8 +1356,88 @@
   
 
 
-<h1 id="kalman">Kalman<a class="headerlink" href="#kalman" title="Permanent link">&para;</a></h1>
-<p><em>Contenu à compléter.</em></p>
+<h1 id="moyennes-mobiles">Moyennes Mobiles<a class="headerlink" href="#moyennes-mobiles" title="Permanent link">&para;</a></h1>
+<p>C'est une stratégie des plus simples mais pas simpliste car elle permet d'appréhender le début de ce que sont les stratégies automatiques de trading, des algorithmes qui délivrent des signaux d'achats et de ventes sur les cours de bourse.</p>
+<p>Nous allons détailler la stratégie des moyennes mobiles à l'aide de deux SMA (Simple Mobile Average) et d'une EMA (Esponential Moving Average).</p>
+<p>La stratégie automatique de trading avec 2 SMA et 1 EMA repose sur la détection des croisements des moyennes pour générer des signaux d’achat ou de vente. Elle est simple à implémenter et efficace pour capter les tendances.</p>
+<h2 id="principes">Principes<a class="headerlink" href="#principes" title="Permanent link">&para;</a></h2>
+<p>Deux SMA de longueur différentes vont se croiser et sont lentes à réagir aux changements rapides.</p>
+<p>La EMA donne plus de poids aux prix récents, elle est donc plus réactive aux retournements de tendance.</p>
+<ul>
+<li>Signaux achats/vente :</li>
+<li>Achat : la SMA courte, croise au-dessus de la SMA longue, ET que le prix est au-dessus de l’EMA.</li>
+<li>Vente : la SMA courte, croise en dessous de la SMA longue, ET que le prix est en dessous de l’EMA.</li>
+</ul>
+<h3 id="avantages">✅ Avantages<a class="headerlink" href="#avantages" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Facile à comprendre et à implémenter</li>
+<li>Fonctionne bien en tendance marquée</li>
+<li>Paramétrable selon l’actif et l’horizon de temps</li>
+</ul>
+<h3 id="limites">⚠️ Limites<a class="headerlink" href="#limites" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Moins efficace en marché sans tendance (en range)</li>
+<li>Sensible aux faux signaux en période de forte volatilité</li>
+</ul>
+<h2 id="implementation">👨‍💻 Implémentation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
+<p>Une fois implémentée et tracer dans le plateforme nous obtenons le graphique suivant :</p>
+<figure style="text-align: center;">
+  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/interface.png" target="_blank" title="Stratégie automatique de trading des Moyennes Mobiles">
+    <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/interface.png" alt="Capture d'écran" class="centered"/>
+  </a>
+  <figcaption><em>Stratégie automatique de trading des Moyennes Mobiles</em></figcaption>
+</figure>
+
+<p>Nous sommes avec l'action Air Liquide à l'échelle de temps 1 jour sur une période de 6 mois. On à le cours de l'action sous forme de bougies (candle). Les moyennes mobiles sont tracées et les surfaces entre, sont matérialisées par des couleurs verte et rouge.</p>
+<h3 id="configuration">⚙️ Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h3>
+<ul>
+<li>SMA 1 = 10</li>
+<li>SMA 2 = 15</li>
+<li>EMA = 15</li>
+</ul>
+<p>Grâce à l'algorithme en Python :</p>
+<ul>
+<li><a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategy_sma12e.py">Stratégie automatique des Moyennes Mobiles</a></li>
+</ul>
+<p>La détection des croisements est marquée par les signaux d'achat triangles verts et les signaux de ventes triangles rouges.</p>
+<p>Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorithme calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :</p>
+<figure style="text-align: center;">
+  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/console.png" target="_blank" title="Les spread de l'algorithme des moyennes mobiles">
+    <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/console.png" alt="Capture d'écran" class="centered"/>
+  </a>
+  <figcaption><em>Les spread de l'algorithme des moyennes mobiles</em></figcaption>
+</figure>
+
+<p>On obtient ainsi pour l'action Air Liquide un <strong>Spread</strong> affiché dans le Titre de : <strong>5,180</strong>.</p>
+<p>Cela signifie que si vous aviez suivi tous ces signaux d'achat et de ventre vous auriez gagné : 5,18.</p>
+<p>Dans le Graph de la stratégie des moyennes mobiles, vous allez pouvoir ajuster SMA 1, SMA 2, et EMA pour optimiser ce spread.</p>
+<p>Par exemple avec les réglages suivants :</p>
+<ul>
+<li>SMA 1 = 10</li>
+<li>SMA 2 = 18</li>
+<li>EMA = 18</li>
+</ul>
+<p>Vous obtenez un Spread de : 9,50</p>
+<figure style="text-align: center;">
+  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/spread.png" target="_blank" title="Optimisation du Spread par les Moyennes Mobiles">
+    <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/spread.png" alt="Capture d'écran" class="centered"/>
+  </a>
+  <figcaption><em>Optimisation du Spread par les Moyennes Mobiles</em></figcaption>
+</figure>
+
+<p>Vous avez à votre disposition un outil d'optimisation de votre stratégie automatique par les moyennes mobiles qui vous permet de choisir les meilleures valeurs pour les moyennes mobiles SMA1 et 2 et EMA afin d'obtenir le meilleur Spread (le meilleur gain).</p>
+<h2 id="strategie-en-action">Stratégie en action<a class="headerlink" href="#strategie-en-action" title="Permanent link">&para;</a></h2>
+<p>Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :</p>
+<figure style="text-align: center;">
+  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" target="_blank" title="Optimisation du Spread par les Moyennes Mobiles">
+    <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" alt="Capture d'écran" class="centered"/>
+  </a>
+  <figcaption><em>Stratégie automatique des Moyennes Mobiles</em></figcaption>
+</figure>
+
+<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
+<p>Cette stratégie est primodiale pour caractériser une action (stock) afin de déterminer s'il est intéressant de la trader. Elle vous donne une indication sur combien vous pourriez gagner si vous effectuez tous les trades sur cette action.</p>
+<p>N'hésitez plus venez faire vos analyses techniques avec la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html">TradingInPython</a>.</p>
 
 
 
@@ -1165,7 +1458,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="4 novembre 2025 14:12:18 UTC"><span class="timeago" datetime="2025-11-04T14:12:18+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="4 novembre 2025 14:12:18 UTC">2025-11-04</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="12 novembre 2025 10:48:29 UTC"><span class="timeago" datetime="2025-11-12T10:48:29+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="12 novembre 2025 10:48:29 UTC">2025-11-12</span>
   </span>
 
     
