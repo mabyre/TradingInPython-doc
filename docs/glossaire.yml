@@ -1,6 +1,22 @@
 Action: |
   Titre représentant une part du capital d'une entreprise.
 
+MACD: |
+  Moving Average Convergence Divergence
+
+  C'est un indicateur simple qui combine deux moyennes glissantes exponentielles, une courte, une longue et un signal qui est également une moyenne glissante exponentielle entre les deux autres.
+
+  Cet indicateur ne "travaille" que sur le prix de clôture.
+
+  ```
+  Algorithme
+  short_window = 12, long_window = 26, signal_window = 9
+  short_ema = data['Close'].moyenne_mobile_exponentielle( short_window )
+  long_ema = data['Close'].moyenne_mobile_exponentielle( long_window )
+  macd = short_ema - long_ema
+  signal_line = macd.moyenne_mobile_exponentielle( signal_window )
+  ```
+
 RSI: |
   Relative Strength Index : mesure la force du mouvement d'un actif.
 

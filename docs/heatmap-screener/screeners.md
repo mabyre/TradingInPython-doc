@@ -16,7 +16,7 @@ En cliquant sur le Menu Monitoring -> Gestion des scrreners vous ouvrez la fenê
   <figcaption><em>Création des screeners</em></figcaption>
 </figure>
 
-- (1) Indique simplement que l'action Air Liquide est sélectionnée dans le screener **mon-portefeuille.json**
+- **(1)** Indique simplement que l'action Air Liquide est sélectionnée dans le screener **mon-portefeuille.json**
 
 Vous pouvez cocher ou décocher des stocks pour les ajouter ou les retirer du screener.
 

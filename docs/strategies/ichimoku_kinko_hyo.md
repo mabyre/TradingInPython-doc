@@ -24,9 +24,9 @@ Remarquez l'interface de configuration avec trois parties :
   <figcaption><em>Configuration - Stratégie Ichimoku-Kinko-Hyo</em></figcaption>
 </figure>
 
-- (1) Longueur des moyennes mobiles de la Tenken, Kijun et Senkou
-- (2) Configuration du nombre de jours prédiction
-- (3) Choix prédéfinis des longueurs pour les signaux Tenken, Kijun et Senkou
+- **(1)** Longueur des moyennes mobiles de la Tenken, Kijun et Senkou
+- **(2)** Configuration du nombre de jours prédiction
+- **(3)** Choix prédéfinis des longueurs pour les signaux Tenken, Kijun et Senkou
 
 ## Prédiction keras et tensorflow
 
@@ -39,8 +39,8 @@ Remarquez l'interface de configuration avec trois parties :
   <figcaption><em>Ichimoku-Kinko-Hyo Calculer la prédiction</em></figcaption>
 </figure>
 
-- (1) Cochez la case **Forcasting** pour afficher le signal de prédiction
-- (2) Le signal de prédiction calculer par l'entrainement du réseau de neurones
+- **(1)** Cochez la case **Forcasting** pour afficher le signal de prédiction
+- **(2)** Le signal de prédiction calculer par l'entrainement du réseau de neurones
 
 ### Lire le signal de prédiction
 
@@ -51,8 +51,8 @@ Remarquez l'interface de configuration avec trois parties :
   <figcaption><em>Ichimoku-Kinko-Hyo Lire le signal de prédiction</em></figcaption>
 </figure>
 
-- (1) - L'outil Zoom de Matplotlib
-- (2) - Le signal de prédiction
+- **(1)** - L'outil Zoom de Matplotlib
+- **(2)** - Le signal de prédiction
 
 Avec l'outil zoom je fais un zoom sur la fin du graphe, je peux lire le signal de prédiction qui possède trois états.
 
@@ -65,8 +65,8 @@ Avec l'outil zoom je fais un zoom sur la fin du graphe, je peux lire le signal d
   <figcaption><em>Ichimoku-Kinko-Hyo Lire le signal de prédiction</em></figcaption>
 </figure>
 
-- (1) Vente
-- (2) Neutre
-- (3) Achat
+- **(1)** Vente
+- **(2)** Neutre
+- **(3)** Achat
 
 Bien sûr avec Safran en ce moment ce signal est à l'achat.

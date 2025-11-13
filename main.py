@@ -37,7 +37,7 @@ def define_env( env ):
         anchor = term.lower().replace(" ", "-")  # pour les ancres typiques Markdown
         href = f"{base_url}/glossaire/#{anchor}"
         html = f'<a href="{href}">{term}</a>'
-        return html
+        return Markup(html)
 
     # --- Macro : génère la section Markdown complète ---
     @env.macro
@@ -53,7 +53,7 @@ def define_env( env ):
         lines = []
         for term, definition in glossary.items():
             lines.append( f"## {escape(term)}\n" )
-            lines.append( f"{escape(definition)}\n" )
+            lines.append( f"{definition}\n" )
 
         return Markup("\n".join(lines))
     

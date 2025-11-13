@@ -11,6 +11,6 @@ Lorsque vous avez positionné un raccourci sur votre bureau pour accéder à Tra
   <figcaption><em>Mettre la console en bas à droite</em></figcaption>
 </figure>
 
-- (1) Clique droit sur le raccourcis puis Propriétés pour accéder aux propriétés du raccourci.
-- (2) Dans l'onglet Raccourcis -> cliquer sur Avancé
-- (3) Cochez la case "Exécuter en tant qu'administrateur"
+- **(1)** Clique droit sur le raccourcis puis Propriétés pour accéder aux propriétés du raccourci.
+- **(2)** Dans l'onglet Raccourcis -> cliquer sur Avancé
+- **(3)** Cochez la case "Exécuter en tant qu'administrateur"

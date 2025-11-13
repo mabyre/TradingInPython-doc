@@ -7,9 +7,9 @@ Mise en mode sombre de plateforme ou en mode dark pour ceux qui préfèrent les 
   <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
 </figure>
 
-- (1) Menu Aide -> Paramètres
-- (2) Dans MODE cocher dark
-- (3) Sauver
+- **(1)** Menu Aide -> Paramètres
+- **(2)** Dans MODE cocher dark
+- **(3)** Sauver
 
 Et vous passé votre la graphe du cours de l'action en mode sombre.
 

@@ -48,9 +48,9 @@ Remplissez une Nouvelle transaction
   <figcaption><em>Enregistrez une transaction</em></figcaption>
 </figure>
 
-- (1) Type : cliquez Achat en vert et Vente en rouge selon que vous enregistrez un achat ou une vente
-- (2) Ticker : exemple Air Liquide le ticker est AI.PA vous le trouvez à de nombreux endroit dans la plateforme
-- (3) Quantité, Prix, Frais, ...
+- **(1)** Type : cliquez Achat en vert et Vente en rouge selon que vous enregistrez un achat ou une vente
+- **(2)** Ticker : exemple Air Liquide le ticker est AI.PA vous le trouvez à de nombreux endroit dans la plateforme
+- **(3)** Quantité, Prix, Frais, ...
 
 Cliquez sur Ajouter la transaction elle apparait dans **"Historique des transaction"**
 

@@ -27,17 +27,15 @@ Pour ce tour rapide de la Plateforme de Trading Technique, voici une analyse ave
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3GNfq2pdW70XQ1WJ3maEW4cN_bt38teRC6fbPGeOMQBH6_EAJNMbPmaIny0h7yvRg4vJijnOBWhUOsRK3-QYL-jK67rDiRwvEIX1Du4NZnE4jJ9p5sHTASB2lRi_pxJC60vuclb0fucZTymzgNy6n8pu_7Glkr9U3sGlmRdgZgZMuTLG-dgzBvuSVhQGB/s639/2024-12-11_10h36_08.png" style="margin-left: auto; margin-right: auto;"><img alt="Plateforme de Trading and Data Analyse" border="0" data-original-height="398" data-original-width="639" height="398" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3GNfq2pdW70XQ1WJ3maEW4cN_bt38teRC6fbPGeOMQBH6_EAJNMbPmaIny0h7yvRg4vJijnOBWhUOsRK3-QYL-jK67rDiRwvEIX1Du4NZnE4jJ9p5sHTASB2lRi_pxJC60vuclb0fucZTymzgNy6n8pu_7Glkr9U3sGlmRdgZgZMuTLG-dgzBvuSVhQGB/w640-h398/2024-12-11_10h36_08.png" title="Plateforme de Trading and Data Analyse" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Plateforme de Trading and Data Analyse</td></tr></tbody></table>
 
-(1) - Vous reconnaissez l'Interface de [récupération des données](./recuperation-des-data.md).
-
-(2) - C'est l'interface de configuration spécifique de la Stratégie choisie par l'utilisateur
-
-(3) - C'est la possibilité d'afficher un graphe secondaire avec l'indicateur de votre choix :
+- **(1)** Vous reconnaissez l'Interface de [récupération des données](recuperation-des-data.md).
+- **(2)** C'est l'interface de configuration spécifique de la Stratégie choisie par l'utilisateur
+- **(3)** C'est la possibilité d'afficher un graphe secondaire avec l'indicateur de votre choix :
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO4UTZBRSw6k-kGKl4oqOSUzUJx29qUh51o9iNo70akXvoqBN3lks98kIKESkAZx5xRLhv0Ni5yNIKWgVZJhCYVMDKR10d2nXyCXmdPgv8NUgbIKqe4gnoSKxw01VvgIZYmM8QwoVn5iWz9HfKvvqT2T-NhwGihOFy8zGPanXHo5r8TZaQYClXxbqC8rz8/s640/2024-12-11_11h09_55.png" style="margin-left: auto; margin-right: auto;"><img alt="Afficher un graphique secondaire" border="0" data-original-height="397" data-original-width="640" height="398" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO4UTZBRSw6k-kGKl4oqOSUzUJx29qUh51o9iNo70akXvoqBN3lks98kIKESkAZx5xRLhv0Ni5yNIKWgVZJhCYVMDKR10d2nXyCXmdPgv8NUgbIKqe4gnoSKxw01VvgIZYmM8QwoVn5iWz9HfKvvqT2T-NhwGihOFy8zGPanXHo5r8TZaQYClXxbqC8rz8/w640-h398/2024-12-11_11h09_55.png" title="Afficher un graphique secondaire" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Afficher un graphique secondaire</td></tr></tbody></table>
 
-Ici j'ai cliqué sur l'indicateur <a href="https://www.trading-et-data-analyses.com/2024/03/Indicateurs-Boursiers.html#MACD" target="_blank">MACD</a>, il apparaît dans un graphe secondaire sous le graphe de la Stratégie pour venir la confirmer. Vous pouvez afficher sous le graphe de stratégie un second, un troisième, indicateur et ainsi de suite.
+Ici j'ai cliqué sur l'indicateur {{ glink("MACD") }}, il apparaît dans un graphe secondaire sous le graphe de la Stratégie pour venir la confirmer. Vous pouvez afficher sous le graphe de stratégie un second, un troisième, indicateur et ainsi de suite.
 
-(4) - C'est le Graphique Ichimoku pour l'action TRIGANO
+- **(4)** C'est le Graphique Ichimoku pour l'action TRIGANO
 
 Vous remarquerez une série de case à cocher également spécifique à la Stratégie Ichimoku. Pour chacune des stratégies, il y a des éléments spécifiques qui viendront s'afficher à cet endroit, des paramètres que vous pourrez manipuler.
 
