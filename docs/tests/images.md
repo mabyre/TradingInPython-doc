@@ -136,7 +136,7 @@ Avec son lien elle devient cliquable :
 </figure>
 ```
 
-# Test ultime
+## Test ultime
 
 <figure style="text-align: center;">
   <a href="{{ base_url }}/images/trading_in_python.png" target="_blank" title="Titre de l'image">
