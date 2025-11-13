@@ -1,0 +1,3 @@
+# Glossaire
+
+{{ generate_glossary() }}

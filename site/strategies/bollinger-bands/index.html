@@ -26,7 +26,7 @@
     
     
       
-        <title>Bandes de Bollinger (multiframe) - TradingInPython</title>
+        <title>Bandes de Bollinger - TradingInPython</title>
       
     
     
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Bandes de Bollinger (multiframe)
+              Bandes de Bollinger
             
           </span>
         </div>
@@ -497,7 +497,7 @@
   
   
   <span class="md-ellipsis">
-    Bandes de Bollinger (multiframe)
+    Bandes de Bollinger
     
   </span>
   
@@ -1101,6 +1101,52 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tests/exemple-glossaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossaire
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tests/tooltips/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tooltips
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1137,7 +1183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../glossary/" class="md-nav__link">
+      <a href="../../glossaire/" class="md-nav__link">
         
   
   
@@ -1190,7 +1236,38 @@
 
 
 <h1 id="bandes-de-bollinger">Bandes de Bollinger<a class="headerlink" href="#bandes-de-bollinger" title="Permanent link">&para;</a></h1>
-<p><em>Contenu à compléter.</em></p>
+<p>Voici la stratégie des <strong>Bandes de Bollinger</strong> sur quatre horizons de temps différents :</p>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/strategies/bollinger-bands/interface.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger">
+        <img src="/TradingInPython-doc/images/strategies/bollinger-bands/interface.png"/>
+    </a>
+    <figcaption><em>Bandes de Bollinger</em></figcaption>
+</figure>
+
+<p>L'interface de Configuration permet de modifier horizons des Four Times Mobile Average (FTA) les moyennes mobiles des Bandes de Bollinger.</p>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/strategies/bollinger-bands/config.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger - Configuration">
+        <img src="/TradingInPython-doc/images/strategies/bollinger-bands/config.png"/>
+    </a>
+    <figcaption><em>Bandes de Bollinger - Configuration</em></figcaption>
+</figure>
+
+<p>Le bouton <strong>Double Bandes de Bollinger</strong> permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :</p>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="/TradingInPython-doc/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
+    </a>
+    <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
+</figure>
+
+<ul>
+<li><strong>1 σ</strong> pour la première bande <strong>StdDev DBB1</strong></li>
+<li><strong>2 σ</strong> pour la deuxièmes bande <strong>StdDev DBB2</strong></li>
+</ul>
+<p>L'avantage de cette stratégie c'est qu'elle donne des entrées et des sorties claires.</p>
+<p>Exemple : Vous pouvez entrer lors que le cours sort de la bande 1 sigma (flêches vertes) et sortir (flêche rouges) lorsque le cours passe la Moyenne Mobile par le haut.</p>
+<p>Vous pouvez également ajuster votre <strong>StopLoss</strong> sur la moyenne mobile.</p>
+<p>ATTENTION : Uniquement en tendance haussière</p>
 
 
 
