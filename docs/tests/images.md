@@ -113,6 +113,13 @@ Avec son lien elle devient cliquable :
   <img src="{{ base_url }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
 </a>
 
+
+```html
+<a href="{{ '{{ base_url }}' }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie">
+  <img src="{{ '{{ base_url }}' }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
+</a>
+```
+
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
         <img src="{{ base_url }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
@@ -122,8 +129,8 @@ Avec son lien elle devient cliquable :
 
 ```html
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
-        <img src="{{ base_url }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
+    <a href="{{ '{{ base_url }}' }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
+        <img src="{{ '{{ base_url }}' }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
     </a>
     <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>
