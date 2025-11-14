@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#monitorer-le-marche-grace-aux-alertes-techniques" class="md-skip">
+        <a href="#monitor-stock-market" class="md-skip">
           Aller au contenu
         </a>
       
@@ -743,6 +743,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Monitorer le marché
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -754,6 +767,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#alertes-simples-en-prix-et-en-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alertes simples en prix et en volume
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tableau-de-bord-les-colonnes-du-monitor-stocks-market-alertes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableau de bord les colonnes du Monitor Stocks Market Alertes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1218,6 +1268,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#alertes-simples-en-prix-et-en-volume" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alertes simples en prix et en volume
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tableau-de-bord-les-colonnes-du-monitor-stocks-market-alertes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableau de bord les colonnes du Monitor Stocks Market Alertes
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1235,10 +1311,62 @@
   
 
 
-<h1 id="monitorer-le-marche-grace-aux-alertes-techniques">Monitorer le marché grâce aux alertes techniques<a class="headerlink" href="#monitorer-le-marche-grace-aux-alertes-techniques" title="Permanent link">&para;</a></h1>
-<p>Mettez le marché sous surveillance.</p>
-<p><a href="https://www.trading-et-data-analyses.com/p/documentation-plateforme-de-trading.html#Monitor_Stock_Market_Alertes">Ancienne documentation - Monitor Stock Market Alertes</a></p>
-<p><em>Contenu à compléter.</em></p>
+<h1 id="monitor-stock-market">Monitor Stock Market<a class="headerlink" href="#monitor-stock-market" title="Permanent link">&para;</a></h1>
+<p>Monitorer le marché grâce aux alertes techniques.</p>
+<p>Vous avez créé vos screeners en utilisant le <strong>Sélecteur de stocks</strong> Menu <strong>Screeners</strong> -&gt; <a href="/TradingInPython-doc/heatmap-screener/screeners/">Gestion des screeners</a>, vous pouvez configurer des Alertes sur les cours de bourse.</p>
+<p>C'est l'<strong>aboutissement de votre analyse technique</strong>, vous avez déterminé que l'objectif de cours à atteindre est de tant, vous allez pouvoir positionner une alerte pour être prévenu lorsque le cours atteindra cette valeur.</p>
+<p>Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre événement qui peut se produire sur la stock c'est l'objet du Monitor Stock Market : mettre le marché sous surveillance.</p>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/monitor-stock-market/interface.png" class="glightbox" data-gallery="galerie" title="Monitor Stock Market Alertes">
+        <img src="/TradingInPython-doc/images/monitor-stock-market/interface.png" />
+    </a>
+    <figcaption><em>Monitor Stock Market Alertes</em></figcaption>
+</figure>
+
+<p>L'onglet <strong>Monitoring</strong> vous permet de visualiser les alertes qui ont été déclenchées.</p>
+<p>Vous allez pouvoir recevoir un email avec l'ensemble des alertes que vous avez positionné et qui se sont déclenchées.</p>
+<h2 id="alertes-simples-en-prix-et-en-volume">Alertes simples en prix et en volume<a class="headerlink" href="#alertes-simples-en-prix-et-en-volume" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>(1)</strong> Double cliquez sur l'une de ligne représentant une action que vous souhaitez monitorer</li>
+</ul>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/monitor-stock-market/edition-alerte.png" class="glightbox" data-gallery="galerie" title="Positionnez une alerte simple">
+        <img src="/TradingInPython-doc/images/monitor-stock-market/edition-alerte.png" />
+    </a>
+    <figcaption><em>Monitor Stock Market - Positionnez une alerte simple</em></figcaption>
+</figure>
+
+<ul>
+<li><strong>(2)</strong> Fenêtre pour éditer les alertes de l'action</li>
+</ul>
+<p>Temps de réarmement (minutes) : pour ne pas avoir cette chaque minute dans le compte rendu des alertes déclenchée vous spécifiez un temps au bout duquel l'alerte sera réarmée.</p>
+<h2 id="tableau-de-bord-les-colonnes-du-monitor-stocks-market-alertes">Tableau de bord les colonnes du Monitor Stocks Market Alertes<a class="headerlink" href="#tableau-de-bord-les-colonnes-du-monitor-stocks-market-alertes" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>(1)</strong> L'indication du Prix Achat ou PRU (prix de revient unitaire) vous permet de savoir où vous en êtes à la hausse ou à la baisse.</li>
+<li><strong>(2)</strong> Prix courant récupéré en temps réel.</li>
+</ul>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/monitor-stock-market/tableau-de-bord.png" class="glightbox" data-gallery="galerie" title="Tableau de bord du Monitor Stock Market">
+        <img src="/TradingInPython-doc/images/monitor-stock-market/tableau-de-bord.png" />
+    </a>
+    <figcaption><em>Tableau de bord du Monitor Stock Market</em></figcaption>
+</figure>
+
+<ul>
+<li><strong>(3) Prix %</strong> : l'écart calculé avec la dernière valeur du cours et la première valeur de la séquence de données ici : période 5d donc le Prix % est l'écart entre la dernière valeur du cours et le cours il y a 5 jours.</li>
+</ul>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/monitor-stock-market/valeur-prix.png" class="glightbox" data-gallery="galerie" title="Valeur du Prix % sur les cinq derniers jours">
+        <img src="/TradingInPython-doc/images/monitor-stock-market/valeur-prix.png" />
+    </a>
+    <figcaption><em>Valeur du Prix % sur les cinq derniers jours</em></figcaption>
+</figure>
+
+<ul>
+<li><strong>Tr</strong> : Temps de réarmement</li>
+</ul>
+<p>La période est calculé en fonction de l'Intervalle choisi pour avoir assez de données. Le choix de l'intervalle est important pour les alertes en volume.</p>
+<p>Pour positionner une alerte en volume les colonnes Vol, Vol Tot, et Vol Max sont calculées en utilisant cet intervalle.</p>
 
 
 
