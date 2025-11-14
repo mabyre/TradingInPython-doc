@@ -224,25 +224,29 @@ Elle représente les fluctuations à court-moyen terme de la série temporelle, 
 
 Elle capture :
 
-Les cycles économiques ou saisonniers
-Les variations autour de la tendance de long terme
-Les écarts temporaires par rapport à la trajectoire principale
+- Les cycles économiques ou saisonniers
+- Les variations autour de la tendance de long terme
+- Les écarts temporaires par rapport à la trajectoire principale
+
 Des valeurs positives du signal indiquent que la série est au-dessus de sa tendance, des valeurs négatives qu'elle est en-dessous.
 
-L'incertitude de Kalman (bandes de confiance)
+**L'incertitude de Kalman (bandes de confiance)**
+
 Les bandes autour de la composante cyclique représentent l'incertitude de l'estimation. Elles sont généralement tracées à ±2 écarts-types et indiquent :
 
 Largeur des bandes :
 
-Des bandes étroites = estimation précise, le filtre est confiant
-Des bandes larges = estimation incertaine, plus de volatilité dans les données
+- Des bandes étroites = estimation précise, le filtre est confiant
+- Des bandes larges = estimation incertaine, plus de volatilité dans les données
+
 Évolution temporelle :
 
 Les bandes se resserrent généralement au fil du temps à mesure que le filtre accumule des observations et "apprend".
 
 Un élargissement soudain peut signaler un changement de régime ou un choc structurel.
 
-Interprétation pratique
+#### Interprétation pratique
+
 Identification des cycles : Repérez les oscillations régulières pour détecter des patterns récurrents
 
 Détection d'anomalies : Si la composante cyclique sort des bandes d'incertitude, cela suggère un événement inhabituel
