@@ -1,21 +1,21 @@
 # Bandes de Bollinger
 
-La domentation sur les Bandes de Bollinger est plétorique, voici leur mise en oeuvre dans la plateforme.
+Sur le Net, la documentation sur les **Bandes de Bollinger** est plétorique, voici leur mise en oeuvre dans la plateforme.
 
 Voici la stratégie des **Bandes de Bollinger** sur quatre horizons de temps différents :
 
 <figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/strategies/bollinger-bands/interface.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger">
-        <img src="/TradingInPython-doc/images/strategies/bollinger-bands/interface.png"/>
+    <a href="{{ base_url }}/images/strategies/bollinger-bands/interface.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger">
+        <img src="{{ base_url }}/images/strategies/bollinger-bands/interface.png"/>
     </a>
     <figcaption><em>Bandes de Bollinger</em></figcaption>
 </figure>
 
-L'interface de Configuration permet de modifier horizons des Four Times Mobile Average (FTA) les moyennes mobiles des Bandes de Bollinger.
+L'interface de Configuration vous permet de modifier les horizons des Four Times Mobile Average (FTA) les moyennes mobiles des Bandes de Bollinger.
 
 <figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/strategies/bollinger-bands/config.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger - Configuration">
-        <img src="/TradingInPython-doc/images/strategies/bollinger-bands/config.png"/>
+    <a href="{{ base_url }}/images/strategies/bollinger-bands/config.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger - Configuration">
+        <img src="{{ base_url }}/images/strategies/bollinger-bands/config.png"/>
     </a>
     <figcaption><em>Bandes de Bollinger - Configuration</em></figcaption>
 </figure>
@@ -25,8 +25,8 @@ L'interface de Configuration permet de modifier horizons des Four Times Mobile A
 Le bouton **Double Bandes de Bollinger** permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :
 
 <figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
-        <img src="/TradingInPython-doc/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
+    <a href="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
     </a>
     <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
 </figure>
@@ -43,5 +43,32 @@ Vous pouvez également ajuster votre **StopLoss** sur la moyenne mobile.
 
 ATTENTION : Uniquement en tendance haussière
  
+## Bollinger Bandes Multiframes + histogramme
+
+Stratégie FTMA Bolls Multiframes (For Timeframes Mobile Average), les FTMA Bolls sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.
+
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/strategies/bollinger-bands/multiframes.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="{{ base_url }}/images/strategies/bollinger-bands/multiframes.png"/>
+    </a>
+    <figcaption><em>Bandes de Bollinger Multiframes + Histogramme</em></figcaption>
+</figure>
+
+Les histogrammes vous permettent de visualiser très finement les resserrements des FTMA Bolls qui sont les prémices d'un changement tendance.
+
+## Formation
+
+- [Formation - FTMA Bollinger bands +  histogrammes](https://www.trading-et-data-analyses.com/2025/03/formation-ftma-bolls-histogrammes.html)
+
+## Vidéo sur YouTube
+
+Vous avez raté quelque chose :
+
+<div align="center" class="md-video">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/zvqHRx_JoUU?si=RJ9WItXxYI_wzOUy" title="YouTube video player" width="560"></iframe>
+</div>
+
+Voilà vous savez tout sur les stratégies à base de Bandes de Bollinger.
+
 
 

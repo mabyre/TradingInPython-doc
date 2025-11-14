@@ -50,6 +50,7 @@ nav:
       - Ichimoku & Deep Learning: strategies/ichimoku_kinko_hyo.md
       - Moyennes Mobiles: strategies/moyennes-mobiles.md
       - Bandes de Bollinger: strategies/bollinger-bands.md
+      - Intraday VWAP + Stoch: strategies/intraday-vwap-stoch.md
       - Oscillateurs & Volumes: strategies/oscillators.md
       - Fractals & Gator: strategies/fractals_gator.md
       - Filtre de Kalman: strategies/kalman-filter.md

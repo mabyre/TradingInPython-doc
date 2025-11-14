@@ -18,7 +18,7 @@
         <link rel="prev" href="../moyennes-mobiles/">
       
       
-        <link rel="next" href="../oscillators/">
+        <link rel="next" href="../intraday-vwap-stoch/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -541,10 +541,60 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#bollinger-bandes-multiframes-histogramme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bollinger Bandes Multiframes + histogramme
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-sur-youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo sur YouTube
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intraday-vwap-stoch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Intraday VWAP + Stoch
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1274,6 +1324,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#bollinger-bandes-multiframes-histogramme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bollinger Bandes Multiframes + histogramme
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-sur-youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo sur YouTube
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1294,7 +1371,7 @@
 
 
 <h1 id="bandes-de-bollinger">Bandes de Bollinger<a class="headerlink" href="#bandes-de-bollinger" title="Permanent link">&para;</a></h1>
-<p>La domentation sur les Bandes de Bollinger est plétorique, voici leur mise en oeuvre dans la plateforme.</p>
+<p>Sur le Net, la documentation sur les <strong>Bandes de Bollinger</strong> est plétorique, voici leur mise en oeuvre dans la plateforme.</p>
 <p>Voici la stratégie des <strong>Bandes de Bollinger</strong> sur quatre horizons de temps différents :</p>
 <figure style="text-align: center;">
     <a href="/TradingInPython-doc/images/strategies/bollinger-bands/interface.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger">
@@ -1303,7 +1380,7 @@
     <figcaption><em>Bandes de Bollinger</em></figcaption>
 </figure>
 
-<p>L'interface de Configuration permet de modifier horizons des Four Times Mobile Average (FTA) les moyennes mobiles des Bandes de Bollinger.</p>
+<p>L'interface de Configuration vous permet de modifier les horizons des Four Times Mobile Average (FTA) les moyennes mobiles des Bandes de Bollinger.</p>
 <figure style="text-align: center;">
     <a href="/TradingInPython-doc/images/strategies/bollinger-bands/config.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger - Configuration">
         <img src="/TradingInPython-doc/images/strategies/bollinger-bands/config.png"/>
@@ -1328,6 +1405,27 @@
 <p>Exemple : Vous pouvez entrer lors que le cours sort de la bande 1 sigma (flêches vertes) et sortir (flêche rouges) lorsque le cours passe la Moyenne Mobile par le haut.</p>
 <p>Vous pouvez également ajuster votre <strong>StopLoss</strong> sur la moyenne mobile.</p>
 <p>ATTENTION : Uniquement en tendance haussière</p>
+<h2 id="bollinger-bandes-multiframes-histogramme">Bollinger Bandes Multiframes + histogramme<a class="headerlink" href="#bollinger-bandes-multiframes-histogramme" title="Permanent link">&para;</a></h2>
+<p>Stratégie FTMA Bolls Multiframes (For Timeframes Mobile Average), les FTMA Bolls sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.</p>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/strategies/bollinger-bands/multiframes.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="/TradingInPython-doc/images/strategies/bollinger-bands/multiframes.png"/>
+    </a>
+    <figcaption><em>Bandes de Bollinger Multiframes + Histogramme</em></figcaption>
+</figure>
+
+<p>Les histogrammes vous permettent de visualiser très finement les resserrements des FTMA Bolls qui sont les prémices d'un changement tendance.</p>
+<h2 id="formation">Formation<a class="headerlink" href="#formation" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.trading-et-data-analyses.com/2025/03/formation-ftma-bolls-histogrammes.html">Formation - FTMA Bollinger bands +  histogrammes</a></li>
+</ul>
+<h2 id="video-sur-youtube">Vidéo sur YouTube<a class="headerlink" href="#video-sur-youtube" title="Permanent link">&para;</a></h2>
+<p>Vous avez raté quelque chose :</p>
+<div align="center" class="md-video">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/zvqHRx_JoUU?si=RJ9WItXxYI_wzOUy" title="YouTube video player" width="560"></iframe>
+</div>
+
+<p>Voilà vous savez tout sur les stratégies à base de Bandes de Bollinger.</p>
 
 
 
@@ -1348,7 +1446,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="14 novembre 2025 09:46:26 UTC"><span class="timeago" datetime="2025-11-14T09:46:26+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="14 novembre 2025 09:46:26 UTC">2025-11-14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="14 novembre 2025 16:51:57 UTC"><span class="timeago" datetime="2025-11-14T16:51:57+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="14 novembre 2025 16:51:57 UTC">2025-11-14</span>
   </span>
 
     
