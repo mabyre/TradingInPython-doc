@@ -1745,20 +1745,24 @@
 <p>Composante cyclique
 Elle représente les fluctuations à court-moyen terme de la série temporelle, une fois la tendance retirée.</p>
 <p>Elle capture :</p>
-<p>Les cycles économiques ou saisonniers
-Les variations autour de la tendance de long terme
-Les écarts temporaires par rapport à la trajectoire principale
-Des valeurs positives du signal indiquent que la série est au-dessus de sa tendance, des valeurs négatives qu'elle est en-dessous.</p>
-<p>L'incertitude de Kalman (bandes de confiance)
-Les bandes autour de la composante cyclique représentent l'incertitude de l'estimation. Elles sont généralement tracées à ±2 écarts-types et indiquent :</p>
+<ul>
+<li>Les cycles économiques ou saisonniers</li>
+<li>Les variations autour de la tendance de long terme</li>
+<li>Les écarts temporaires par rapport à la trajectoire principale</li>
+</ul>
+<p>Des valeurs positives du signal indiquent que la série est au-dessus de sa tendance, des valeurs négatives qu'elle est en-dessous.</p>
+<p><strong>L'incertitude de Kalman (bandes de confiance)</strong></p>
+<p>Les bandes autour de la composante cyclique représentent l'incertitude de l'estimation. Elles sont généralement tracées à ±2 écarts-types et indiquent :</p>
 <p>Largeur des bandes :</p>
-<p>Des bandes étroites = estimation précise, le filtre est confiant
-Des bandes larges = estimation incertaine, plus de volatilité dans les données
-Évolution temporelle :</p>
+<ul>
+<li>Des bandes étroites = estimation précise, le filtre est confiant</li>
+<li>Des bandes larges = estimation incertaine, plus de volatilité dans les données</li>
+</ul>
+<p>Évolution temporelle :</p>
 <p>Les bandes se resserrent généralement au fil du temps à mesure que le filtre accumule des observations et "apprend".</p>
 <p>Un élargissement soudain peut signaler un changement de régime ou un choc structurel.</p>
-<p>Interprétation pratique
-Identification des cycles : Repérez les oscillations régulières pour détecter des patterns récurrents</p>
+<h4 id="interpretation-pratique">Interprétation pratique<a class="headerlink" href="#interpretation-pratique" title="Permanent link">&para;</a></h4>
+<p>Identification des cycles : Repérez les oscillations régulières pour détecter des patterns récurrents</p>
 <p>Détection d'anomalies : Si la composante cyclique sort des bandes d'incertitude, cela suggère un événement inhabituel</p>
 <p>Qualité du modèle : Des bandes très larges peuvent indiquer que le modèle a du mal à capturer la dynamique des données</p>
 <p>Prévision : L'incertitude croissante dans le futur reflète la dégradation naturelle de la précision des prévisions</p>
