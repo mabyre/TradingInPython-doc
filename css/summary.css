@@ -67,3 +67,23 @@
     content: counter(toc-h2) "." counter(toc-h3) "." counter(toc-h4) ". ";
     margin-right: 0.5em;
 }
+
+/* ==========================================
+   Désactivation totale de la numérotation
+   pour les pages dont le H1 possède :
+   {.no-numbering}
+   ========================================== */
+
+/* --- Désactivation compteur titres dans le contenu --- */
+.md-content h1.no-numbering~h2::before,
+.md-content h1.no-numbering~h3::before,
+.md-content h1.no-numbering~h4::before {
+    margin-right: 0 !important;
+    content: "" !important;
+    counter-increment: none !important;
+}
+
+/* Annule les compteurs du contenu */
+.md-content h1.no-numbering {
+    counter-reset: none !important;
+}

@@ -504,6 +504,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../strategies/intraday-vwap-stoch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Intraday VWAP + Stoch
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../strategies/oscillators/" class="md-nav__link">
         
   
@@ -1208,6 +1231,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#atr" class="md-nav__link">
+    <span class="md-ellipsis">
+      ATR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#macd" class="md-nav__link">
     <span class="md-ellipsis">
       MACD
@@ -1226,6 +1258,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#stoch" class="md-nav__link">
+    <span class="md-ellipsis">
+      STOCH
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#stock" class="md-nav__link">
     <span class="md-ellipsis">
       Stock
@@ -1238,6 +1279,15 @@
   <a href="#volatilite" class="md-nav__link">
     <span class="md-ellipsis">
       Volatilité
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vwap" class="md-nav__link">
+    <span class="md-ellipsis">
+      VWAP
     </span>
   </a>
   
@@ -1309,6 +1359,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#atr" class="md-nav__link">
+    <span class="md-ellipsis">
+      ATR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#macd" class="md-nav__link">
     <span class="md-ellipsis">
       MACD
@@ -1327,6 +1386,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#stoch" class="md-nav__link">
+    <span class="md-ellipsis">
+      STOCH
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#stock" class="md-nav__link">
     <span class="md-ellipsis">
       Stock
@@ -1339,6 +1407,15 @@
   <a href="#volatilite" class="md-nav__link">
     <span class="md-ellipsis">
       Volatilité
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vwap" class="md-nav__link">
+    <span class="md-ellipsis">
+      VWAP
     </span>
   </a>
   
@@ -1363,9 +1440,19 @@
   
 
 
-<h1 id="glossaire">Glossaire<a class="headerlink" href="#glossaire" title="Permanent link">&para;</a></h1>
+<h1 class="no-numbering" id="glossaire">Glossaire<a class="headerlink" href="#glossaire" title="Permanent link">&para;</a></h1>
 <h2 id="action">Action<a class="headerlink" href="#action" title="Permanent link">&para;</a></h2>
 <p>Titre représentant une part du capital d'une entreprise.</p>
+<h2 id="atr">ATR<a class="headerlink" href="#atr" title="Permanent link">&para;</a></h2>
+<p>Average True Range, Moyenne de la Vraie Amplitude.</p>
+<p>C'est un indicateur de volatilité développé par J. Welles Wilder qui ne travaille que sur les prix. Il mesure l'amplitude moyenne des mouvements de prix sur une période donnée, sans indiquer la direction du mouvement à la baisse ou à la hausse. </p>
+<p>Plus l'ATR est élevé, plus le marché est volatile au contraire si l'ATR est bas le cours peut évoluer dans un range étroit.</p>
+<p>L'ATR est une mesure de l'intérêt pour un mouvement à la hausse ou à la baisse. Il mesure donc la force du mouvement.</p>
+<p>Une hausse de l'ATR signale une augmentation de la volatilité, souvent associée à un breakout.</p>
+<p>Une baisse de l'ATR indique une phase de consolidation ou de faible volatilité.</p>
+<p>Placement de stop-loss : utilisation l'ATR pour ajuster leurs stops dynamiquement. </p>
+<p>Par exemple :</p>
+<p>StopLoss à X*ATR en dessous (ou au-dessus) du prix d'entrée.  </p>
 <h2 id="macd">MACD<a class="headerlink" href="#macd" title="Permanent link">&para;</a></h2>
 <p>Moving Average Convergence Divergence</p>
 <p>C'est un indicateur simple qui combine deux moyennes glissantes exponentielles, une courte, une longue et un signal qui est également une moyenne glissante exponentielle entre les deux autres.</p>
@@ -1384,11 +1471,43 @@ signal_line = macd.moyenne_mobile_exponentielle( signal_window )
 <li>au-dessus de 70 : surachat</li>
 <li>en dessous de 30 : survente</li>
 </ul>
+<h2 id="stoch">STOCH<a class="headerlink" href="#stoch" title="Permanent link">&para;</a></h2>
+<p>Stochastic Oscillator - Oscillateur stochastique. Ne travaille que sur le prix.</p>
+<p>Le Stochastic Oscillator est un indicateur d'élan qui compare le prix de clôture actuel d'un actif à sa fourchette de prix (plus haut et plus bas) sur une période donnée, généralement 14 périodes. Il oscille entre 0 et 100 et est utilisé pour identifier les conditions de surachat et de survente, ainsi que pour anticiper des retournements potentiels de tendance du coup plus évolué que le RSI.</p>
+<p>%K : La ligne rapide, représentant le pourcentage de la position actuelle du prix par rapport à la fourchette de prix sur une période donnée (généralement 14 périodes).</p>
+<p>%D : La ligne lente, qui est une moyenne mobile (généralement 3 périodes) de %K, servant à lisser le signal pour éviter les faux retournements.</p>
+<p>Signification
+Surachat : Lorsque le Stochastic est au-dessus de 80, l'actif est considéré comme suracheté. Cela signifie que le prix a fortement augmenté par rapport à sa fourchette récente, et un renversement ou une correction pourrait être imminent.</p>
+<p>Survente : Lorsque le Stochastic est en dessous de 20, l'actif est considéré comme survendu. Cela signifie que le prix a fortement baissé par rapport à sa fourchette récente, et un rebond pourrait se produire.</p>
+<p>Croisement
+Haussier : Lorsque la ligne %K (rapide) croise au-dessus de la ligne %D (lente), cela peut indiquer un signal d'achat, car cela suggère que la dynamique à la hausse est en train de se renforcer.</p>
+<p>Baissier : Lorsque %K croise en dessous de %D, cela peut indiquer un signal de vente, suggérant que la dynamique baissière est en train de prendre le dessus.</p>
+<p>Divergences
+Haussière : Si le prix fait un nouveau plus bas, mais que le Stochastic fait un plus bas plus haut (donc une divergence entre le prix et l'oscillateur), cela peut indiquer une perte de momentum baissier et signaler une opportunité d'achat.</p>
+<p>Baissière : Si le prix fait un nouveau plus haut, mais que le Stochastic fait un plus haut plus bas, cela peut signaler un affaiblissement du momentum haussier et une opportunité de vente.</p>
+<p>Indicateurs sur le volume
+On comprends rapidement que le volume des transactions est d'une importance capitale par exemple en début de séance si une énorme quantité de titres est vendue vous vous douté bien que le cours va chuter.</p>
+<p>Il faut donc utiliser des indicateurs travaillant sur le volume.</p>
 <h2 id="stock">Stock<a class="headerlink" href="#stock" title="Permanent link">&para;</a></h2>
 <p>Terme anglais pour "action", représentant une part du capital d'une entreprise.</p>
 <h2 id="volatilite">Volatilité<a class="headerlink" href="#volatilite" title="Permanent link">&para;</a></h2>
 <p>Instabilité des prix d'un actif financier sur une période donnée.</p>
 <p>Une forte volatilité indique des variations de prix importantes, tandis qu'une faible volatilité suggère des mouvements de prix plus stables.</p>
+<h2 id="vwap">VWAP<a class="headerlink" href="#vwap" title="Permanent link">&para;</a></h2>
+<p>Volume Weighted Average Price - Prix moyen pondéré par les volumes.</p>
+<p>Le VWAP est un indicateur de trading qui calcule le prix moyen d'un actif en tenant compte à la fois du prix et du volume des transactions sur une période donnée, 
+généralement intrajournalière.</p>
+<p>Principalement utilisé pour évaluer si un actif est acheté ou vendu à un prix juste par rapport à son prix moyen pondéré.</p>
+<div class="highlight"><pre><span></span><code>Algorithme
+# Calcul du VWAP
+data[&#39;VWAP&#39;] = (data[&#39;Close&#39;] * data[&#39;Volume&#39;]).cumsum() / data[&#39;Volume&#39;].cumsum()
+</code></pre></div>
+<p>Signification :</p>
+<p>Si le prix est au-dessus du VWAP, cela signifie que l'actif est potentiellement surévalué (souvent un signal pour vendre).</p>
+<p>Si le prix est en dessous du VWAP, cela peut signifier qu'il est sous-évalué (souvent un signal pour acheter).</p>
+<p>Le VWAP est aussi utile pour déterminer des niveaux de support et de résistance intrajournaliers, et il est souvent utilisé dans des stratégies de trading intra-journalier pour évaluer la tendance d'un actif au cours de la journée.</p>
+<p>C'est donc un indicateur intraday pour les day traders.</p>
+<p>"Et de toutes les façon en bourse, l'analyse des volumes n'est pas importante, la hausse des volumes n'est qu'une conséquence."</p>
 
 
 

@@ -12,13 +12,13 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/strategies/kalman-filter/">
+        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/strategies/intraday-vwap-stoch/">
       
       
-        <link rel="prev" href="../fractals_gator/">
+        <link rel="prev" href="../bollinger-bands/">
       
       
-        <link rel="next" href="../prediction_ai/">
+        <link rel="next" href="../oscillators/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Filtre de Kalman - TradingInPython</title>
+        <title>Intraday VWAP + Stoch - TradingInPython</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#indicateur-technique-boursier-filtre-de-kalman" class="md-skip">
+        <a href="#intraday-vwap-stoch" class="md-skip">
           Aller au contenu
         </a>
       
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Filtre de Kalman
+              Intraday VWAP + Stoch
             
           </span>
         </div>
@@ -503,10 +503,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../intraday-vwap-stoch/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -517,6 +526,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -572,32 +582,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Filtre de Kalman
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../kalman-filter/" class="md-nav__link">
         
   
   
@@ -608,164 +596,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#definition-generale" class="md-nav__link">
-    <span class="md-ellipsis">
-      Définition générale
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#une-intuition-simple" class="md-nav__link">
-    <span class="md-ellipsis">
-      Une intuition simple
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#en-finance-et-en-trading" class="md-nav__link">
-    <span class="md-ellipsis">
-      En finance et en trading
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#parametrage" class="md-nav__link">
-    <span class="md-ellipsis">
-      Paramétrage
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Paramétrage">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#les-parametres-les-plus-importants-variances-q-et-r" class="md-nav__link">
-    <span class="md-ellipsis">
-      Les paramètres les plus importants Variances Q et R
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#parametrage-de-la-volatilite" class="md-nav__link">
-    <span class="md-ellipsis">
-      Paramétrage de la volatilité
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#strategie-automatique-de-trading-grace-au-filtre-de-kalman" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stratégie automatique de trading grâce au filtre de Kalman
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interpretation-des-graphes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Interprétation des graphes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Interprétation des graphes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#signaux-dachat-et-de-vente" class="md-nav__link">
-    <span class="md-ellipsis">
-      Signaux d'achat et de vente
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#composante-cyclique-et" class="md-nav__link">
-    <span class="md-ellipsis">
-      Composante Cyclique et ...
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#velocite-et-acceleration-de-la-tendance" class="md-nav__link">
-    <span class="md-ellipsis">
-      Vélocité et Accélération de la Tendance
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#volatilite-du-marche-et-confiance-des-signaux" class="md-nav__link">
-    <span class="md-ellipsis">
-      Volatilité du marché et Confiance des Signaux
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      Code Source
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1411,152 +1241,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#definition-generale" class="md-nav__link">
-    <span class="md-ellipsis">
-      Définition générale
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#une-intuition-simple" class="md-nav__link">
-    <span class="md-ellipsis">
-      Une intuition simple
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#en-finance-et-en-trading" class="md-nav__link">
-    <span class="md-ellipsis">
-      En finance et en trading
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#parametrage" class="md-nav__link">
-    <span class="md-ellipsis">
-      Paramétrage
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Paramétrage">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#les-parametres-les-plus-importants-variances-q-et-r" class="md-nav__link">
-    <span class="md-ellipsis">
-      Les paramètres les plus importants Variances Q et R
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#parametrage-de-la-volatilite" class="md-nav__link">
-    <span class="md-ellipsis">
-      Paramétrage de la volatilité
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#strategie-automatique-de-trading-grace-au-filtre-de-kalman" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stratégie automatique de trading grâce au filtre de Kalman
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interpretation-des-graphes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Interprétation des graphes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Interprétation des graphes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#signaux-dachat-et-de-vente" class="md-nav__link">
-    <span class="md-ellipsis">
-      Signaux d'achat et de vente
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#composante-cyclique-et" class="md-nav__link">
-    <span class="md-ellipsis">
-      Composante Cyclique et ...
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#velocite-et-acceleration-de-la-tendance" class="md-nav__link">
-    <span class="md-ellipsis">
-      Vélocité et Accélération de la Tendance
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#volatilite-du-marche-et-confiance-des-signaux" class="md-nav__link">
-    <span class="md-ellipsis">
-      Volatilité du marché et Confiance des Signaux
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      Code Source
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1574,289 +1258,25 @@
   
 
 
-<h1 id="indicateur-technique-boursier-filtre-de-kalman">Indicateur technique boursier filtre de Kalman<a class="headerlink" href="#indicateur-technique-boursier-filtre-de-kalman" title="Permanent link">&para;</a></h1>
-<p>En traitement numérique du signal le filtre de Kalman est un <strong>"must have"</strong>, un outil mathématique à essayer.</p>
-<p>Rudolf E. Kalman, un ingénieur hongrois-américain, publie en 1960 son article fondateur : "A New Approach to Linear Filtering and Prediction Problems".</p>
-<p>L'innovation majeure : Kalman reformule le problème en termes d'espace d'état (<strong>variables d'état</strong> du système) plutôt qu'en termes de <strong>fonctions de transfert</strong>.</p>
-<p>Cela permet :</p>
-<ul>
-<li>De traiter des systèmes non-stationnaires (qui évoluent dans le temps)</li>
-<li>Une implémentation récursive très efficace</li>
-<li>Une solution optimale au sens des moindres carrés pour les systèmes linéaires</li>
-</ul>
-<p>Le filtre de Kalman résout élégamment ce problème : comment estimer l'état d'un système dynamique à partir de mesures bruitées ?</p>
-<h2 id="definition-generale">Définition générale<a class="headerlink" href="#definition-generale" title="Permanent link">&para;</a></h2>
-<p>Le filtre de Kalman est un algorithme récursif d’estimation qui permet de prédire et de corriger la valeur d’un système dynamique bruité (incertain), à partir de mesures elles-mêmes bruitées.</p>
-<p>Autrement dit, il cherche à extraire le "signal réel" d’une série de données bruitées — par exemple, un prix boursier soumis aux fluctuations aléatoires du marché.</p>
-<p>C’est une méthode de filtrage optimal au sens de la minimisation de la variance : elle minimise l’erreur quadratique moyenne entre l’état estimé et l’état réel.</p>
-<p>Faisons nous grâce des équations, alors pourquoi utiliser le filtrage de Kalman ?</p>
-<h2 id="une-intuition-simple">Une intuition simple<a class="headerlink" href="#une-intuition-simple" title="Permanent link">&para;</a></h2>
-<p>Imaginons de suivre le prix d’une action avec beaucoup de bruit (variations aléatoires).</p>
-<p>Le filtre de Kalman agit comme un “observateur intelligent” :</p>
-<ul>
-<li>il prédit la prochaine valeur en supposant une continuité (tendance du marché),</li>
-<li>puis il corrige cette prédiction avec la nouvelle observation réelle,</li>
-<li>en pondérant les deux selon la confiance qu’il accorde à chacun (le bruit).</li>
-</ul>
-<p>Résultat : un signal lissé mais réactif, contrairement à une simple moyenne mobile.</p>
-<h2 id="en-finance-et-en-trading">En finance et en trading<a class="headerlink" href="#en-finance-et-en-trading" title="Permanent link">&para;</a></h2>
-<p>Le filtre de Kalman est utilisé pour :</p>
-<p><strong>Filtrage de tendance :</strong></p>
-<p>Lissage intelligent des prix sans le retard typique des moyennes mobiles.</p>
-<p><strong>Prévision à court terme :</strong></p>
-<p>En prolongeant la phase de prédiction, on peut anticiper légèrement les mouvements.</p>
-<p><strong>Arbitrage et pairs trading :</strong></p>
-<p>Utilisé pour estimer le “spread réel” entre deux actifs corrélés.</p>
-<p><strong>Estimation du momentum ou de la volatilité cachée :</strong></p>
-<p>Kalman peut estimer des variables non observables du marché.</p>
-<h2 id="parametrage">Paramétrage<a class="headerlink" href="#parametrage" title="Permanent link">&para;</a></h2>
-<h3 id="les-parametres-les-plus-importants-variances-q-et-r">Les paramètres les plus importants Variances Q et R<a class="headerlink" href="#les-parametres-les-plus-importants-variances-q-et-r" title="Permanent link">&para;</a></h3>
-<p>Q : covariance du "process noise" (bruit du système ou processus), contrôle la réactivité du filtre</p>
-<p>Q = diff_var <em>process_noise_factor</em> vol_factor</p>
-<p>augmentation du process_noise_factor =&gt; filtre plus réactif
-diminution du process_noise_factor =&gt; filtre plus lisse
-par défaut process_noise_factor = 0.01 valeurs à tester : 0.005, 0.02, 0.05</p>
-<p>R : covariance du bruit de mesure du processus, contrôle de la confiance dans les observations</p>
-<p>R = np.var( prix ) * measurement_noise_factor / vol_factor</p>
-<p>augmentation de measurement_noise_factor moins de confiance dans les prix plus de lissage
-diminution de measurement_noise_factor plus de confiance filtre plus nerveux
-Paramètres de bruit du filtre de Kalman :</p>
-<p>process_noise_factor (Q scaling) :
-Contrôle la réactivité du filtre aux changements de tendance</p>
-<p>0.001 - 0.005 : Très lisse, pour tendances long terme
-0.01 : Valeur par défaut équilibrée
-0.02 - 0.05 : Réactif, pour day trading</p>
-<blockquote>
-<p>0.1 : Très réactif, risque de sur-ajustement
-measurement_noise_factor (R scaling) :
-Contrôle la confiance accordée aux observations (prix)</p>
-</blockquote>
-<p>0.01 - 0.02 : Forte confiance aux prix
-0.05 : Valeur par défaut équilibrée
-0.1 - 0.2 : Faible confiance, plus de lissage</p>
-<h4 id="recommandations-pratiques">Recommandations Pratiques<a class="headerlink" href="#recommandations-pratiques" title="Permanent link">&para;</a></h4>
-<p>Pour trader <strong>intraday</strong> échelle de temps &lt; 30m</p>
-<ul>
-<li>Q plus élevé : process_noise_factor = 0.05</li>
-<li>R plus faible : measurement_noise_factor = 0.02</li>
-<li>Lookback court : 20-30</li>
-</ul>
-<p>Pour <strong>swing trading</strong> (daily)</p>
-<ul>
-<li>Q modéré : process_noise_factor = 0.01</li>
-<li>R modéré : measurement_noise_factor  = 0.05</li>
-<li>Lookback moyen : 40-60</li>
-</ul>
-<p>Pour <strong>investissement</strong> (weekly+)</p>
-<ul>
-<li>Q faible : process_noise_factor = 0.005</li>
-<li>R élevé : measurement_noise_factor = 0.1</li>
-<li>Lookback long : 80-100</li>
-</ul>
-<h3 id="parametrage-de-la-volatilite">Paramétrage de la volatilité<a class="headerlink" href="#parametrage-de-la-volatilite" title="Permanent link">&para;</a></h3>
-<p>La fenêtre de volatilité est un paramètre de régularisation temporelle, ce paramètre est crucial et souvent sous-estimé :</p>
-<p>Calcule de l'écart-type glissant des rendements logarithmiques sur N périodes.</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Calcul volatilité</span>
-
-<span class="n">log_returns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span> <span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span> <span class="n">np</span><span class="o">.</span><span class="n">maximum</span><span class="p">(</span> <span class="n">prix</span><span class="p">,</span> <span class="mf">1e-10</span> <span class="p">)</span> <span class="p">)</span> <span class="p">)</span>
-<span class="n">returns_series</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span> <span class="n">log_returns</span> <span class="p">)</span>
-<span class="n">volatility_series</span> <span class="o">=</span> <span class="n">returns_series</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span>
-    <span class="n">window</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">volatility_window</span><span class="p">,</span>
-    <span class="n">min_periods</span><span class="o">=</span><span class="mi">1</span>
-<span class="p">)</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
-
-<span class="n">volatility</span> <span class="o">=</span> <span class="n">volatility_series</span><span class="o">.</span><span class="n">bfill</span><span class="p">()</span><span class="o">.</span><span class="n">values</span>
-<span class="n">volatility</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">([[</span><span class="n">volatility</span><span class="p">[</span><span class="mi">0</span><span class="p">]],</span> <span class="n">volatility</span><span class="p">])</span>
-</code></pre></div>
-<p>Paramétrage de <strong>volatility_window</strong></p>
-<ul>
-<li>Court = Réactif mais bruyant</li>
-<li>Long = Stable mais lent</li>
-</ul>
-<p>Dans le cas d'un interval_dates = '30m'</p>
-<ul>
-<li>Une journée de trading = ~13 périodes de 30min (9h30-17h)</li>
-<li>Une semaine = ~65 périodes</li>
-</ul>
-<p><strong>volatility_window</strong> recommandé:</p>
-<ul>
-<li>Scalping (1-5min) : 10-20 périodes (10-100 min)</li>
-<li>Intraday (30min) : 15-25 périodes (7h-12h)</li>
-<li>Swing (1h-4h) : 30-50 périodes (1-2 jours)</li>
-<li>Position (daily) : 20-30 jours</li>
-</ul>
-<p>Relation entre les paramètres volatility_window et look_back et l'interval de temps :</p>
-<p><strong>volatility_window</strong> à peu près égal à  <strong>look_back</strong> / 2</p>
-<p>look_back à peu près égal à 2 * (durée moyenne d'un trade / intervalle)</p>
-<p>Exemple pour un interval de 30min et un trade de 2-3 jours :</p>
-<p><strong>lookback</strong> = 2.5 jours * 13 périodes/jour = 32-40 périodes</p>
-<p><strong>volatility_window</strong> = 40 / 2 = 20 périodes</p>
-<h2 id="strategie-automatique-de-trading-grace-au-filtre-de-kalman">Stratégie automatique de trading grâce au filtre de Kalman<a class="headerlink" href="#strategie-automatique-de-trading-grace-au-filtre-de-kalman" title="Permanent link">&para;</a></h2>
-<p>En implémentant cette stratégie dans la plateforme, j'obtiens les graphes suivants :</p>
+<h1 id="intraday-vwap-stoch">Intraday VWAP + STOCH<a class="headerlink" href="#intraday-vwap-stoch" title="Permanent link">&para;</a></h1>
+<p>Maintenant, passons à l'Intraday, le trading au sein de la journée.</p>
+<p>Vous souhaitez suivre le cours de votre action durant la journée pour savoir quels sont les meilleurs moments d'entrée et de sortie, la stratégie <a href="https://mabyre.github.io/TradingInPython-doc//glossaire/#vwap">VWAP</a> + <a href="https://mabyre.github.io/TradingInPython-doc//glossaire/#stoch">STOCH</a> Intraday, est adaptée à cette analyse du cours dans la journée :</p>
 <figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/strategies/kalman-filter/interface.png" class="glightbox" data-gallery="galerie" title="Calcul de la tendance par le filtre de Kalman">
-        <img src="/TradingInPython-doc/images/strategies/kalman-filter/interface.png"/>
+    <a href="/TradingInPython-doc/images/strategies/intraday-vwap-stoch/interface.png" class="glightbox" data-gallery="galerie" title="Intraday VWAP + STOCH">
+        <img src="/TradingInPython-doc/images/strategies/intraday-vwap-stoch/interface.png"/>
     </a>
-    <figcaption><em>Calcul de la tendance par le filtre de Kalman</em></figcaption>
+    <figcaption><em>Intraday VWAP + STOCH</em></figcaption>
 </figure>
 
-<p>Notez l'interface de Configuration qui vous permet de configurer les paramètres évoqués plus haut.</p>
-<p>Avec les calculs complémentaires affichés dans la console :</p>
-<figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/strategies/kalman-filter/console.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="/TradingInPython-doc/images/strategies/kalman-filter/console.png"/>
-    </a>
-    <figcaption><em>Statistiques calculées par le filtre de Kalman</em></figcaption>
-</figure>
-
-<h2 id="interpretation-des-graphes">Interprétation des graphes<a class="headerlink" href="#interpretation-des-graphes" title="Permanent link">&para;</a></h2>
-<h3 id="signaux-dachat-et-de-vente">Signaux d'achat et de vente<a class="headerlink" href="#signaux-dachat-et-de-vente" title="Permanent link">&para;</a></h3>
-<p>Ils ont calculés à l'aide de :</p>
+<p>Les boutons de la Configuration :</p>
 <ul>
-<li>la velocity et la tendance calculée par le Filtre de Kalman,</li>
-<li>de l'accélération filtrée acceleration_smooth,</li>
-<li>la position relative : composante cyclique</li>
-<li>et l'incertitude normalisée</li>
+<li>Default Long</li>
+<li>Default short</li>
+<li>Default </li>
 </ul>
-<figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/strategies/kalman-filter/signaux-achat-vente.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="/TradingInPython-doc/images/strategies/kalman-filter/signaux-achat-vente.png"/>
-    </a>
-    <figcaption><em>Filtre de Kalman - signaux d'achat et de vente</em></figcaption>
-</figure>
-
-<p>La vélocité calculée par le Filtre de Kalman varie beaucoup en fonction du signal (du cours) aussi on affiche dans la console des statistiques sur cette vélocité pour permettre le réglage du seuil de détection des signaux d'achat/vente.</p>
-<p>On implémentera deux façons de régler le seuil de vélocité qui indique un signal d'achat/vente soit manuel 0.03 soit adaptatif.</p>
-<h3 id="composante-cyclique-et">Composante Cyclique et ...<a class="headerlink" href="#composante-cyclique-et" title="Permanent link">&para;</a></h3>
-<p>L'incertitude de Kalman converge très vite vers une valeur et faire graphe avec, ce n'est pas très utile. Vous retrouverez intégré dans la plateforme sans doute le RSI (momentum) du Cycle pour montrer le momentum cyclique.</p>
-<figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/strategies/kalman-filter/incertitude-kalman.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="/TradingInPython-doc/images/strategies/kalman-filter/incertitude-kalman.png"/>
-    </a>
-    <figcaption><em>Filtre de Kalman - signaux d'achat et de vente</em></figcaption>
-</figure>
-
-<p>Composante cyclique
-Elle représente les fluctuations à court-moyen terme de la série temporelle, une fois la tendance retirée.</p>
-<p>Elle capture :</p>
-<p>Les cycles économiques ou saisonniers
-Les variations autour de la tendance de long terme
-Les écarts temporaires par rapport à la trajectoire principale
-Des valeurs positives du signal indiquent que la série est au-dessus de sa tendance, des valeurs négatives qu'elle est en-dessous.</p>
-<p>L'incertitude de Kalman (bandes de confiance)
-Les bandes autour de la composante cyclique représentent l'incertitude de l'estimation. Elles sont généralement tracées à ±2 écarts-types et indiquent :</p>
-<p>Largeur des bandes :</p>
-<p>Des bandes étroites = estimation précise, le filtre est confiant
-Des bandes larges = estimation incertaine, plus de volatilité dans les données
-Évolution temporelle :</p>
-<p>Les bandes se resserrent généralement au fil du temps à mesure que le filtre accumule des observations et "apprend".</p>
-<p>Un élargissement soudain peut signaler un changement de régime ou un choc structurel.</p>
-<p>Interprétation pratique
-Identification des cycles : Repérez les oscillations régulières pour détecter des patterns récurrents</p>
-<p>Détection d'anomalies : Si la composante cyclique sort des bandes d'incertitude, cela suggère un événement inhabituel</p>
-<p>Qualité du modèle : Des bandes très larges peuvent indiquer que le modèle a du mal à capturer la dynamique des données</p>
-<p>Prévision : L'incertitude croissante dans le futur reflète la dégradation naturelle de la précision des prévisions</p>
-<p>Cette analyse est particulièrement utile pour décomposer une série en ses éléments structurels (tendance + cycle) tout en quantifiant l'incertitude associée.</p>
-<h3 id="velocite-et-acceleration-de-la-tendance">Vélocité et Accélération de la Tendance<a class="headerlink" href="#velocite-et-acceleration-de-la-tendance" title="Permanent link">&para;</a></h3>
-<figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/strategies/kalman-filter/velocite-acceleration-tendance.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="/TradingInPython-doc/images/strategies/kalman-filter/velocite-acceleration-tendance.png"/>
-    </a>
-    <figcaption><em>Vélocité et Accélération de la Tendance</em></figcaption>
-</figure>
-
-<p>Informations cruciales sur la dynamique de la tendance d'une série temporelle. Voici comment l'interpréter :</p>
-<h4 id="velocite-vitesse-de-la-tendance">Vélocité (Vitesse) de la Tendance<a class="headerlink" href="#velocite-vitesse-de-la-tendance" title="Permanent link">&para;</a></h4>
-<p>La vélocité représente le taux de changement de la tendance, c'est-à-dire sa pente ou sa dérivée première :</p>
-<ul>
-<li>Vélocité positive : la tendance est croissante (hausse)</li>
-<li>Vélocité négative : la tendance est décroissante (baisse)</li>
-<li>Magnitude de la vélocité : indique l'intensité du mouvement (rapide vs lent)</li>
-<li>Vélocité proche de zéro : la tendance est stable, en plateau</li>
-</ul>
-<h4 id="acceleration-de-la-tendance">Accélération de la Tendance<a class="headerlink" href="#acceleration-de-la-tendance" title="Permanent link">&para;</a></h4>
-<p>L'accélération mesure le changement de la vélocité, donc la dérivée seconde :</p>
-<p>Accélération positive : la tendance s'accélère (momentum croissant)</p>
-<ul>
-<li>Si vélocité &gt; 0 : la hausse s'intensifie</li>
-<li>Si vélocité &lt; 0 : la baisse ralentit (possibilité de retournement)</li>
-</ul>
-<p>Accélération négative : la tendance décélère (momentum décroissant)</p>
-<ul>
-<li>Si vélocité &gt; 0 : la hausse ralentit</li>
-<li>Si vélocité &lt; 0 : la baisse s'intensifie</li>
-</ul>
-<p>Accélération nulle : la vélocité est constante (mouvement uniforme)</p>
-<h4 id="interpretations-pratiques">Interprétations Pratiques<a class="headerlink" href="#interpretations-pratiques" title="Permanent link">&para;</a></h4>
-<p>Points de retournement :</p>
-<ul>
-<li>Quand la vélocité traverse zéro : changement de direction de la tendance</li>
-<li>Quand l'accélération traverse zéro : point d'inflexion, changement de momentum</li>
-</ul>
-<p>Signaux combinés :</p>
-<ul>
-<li>Vélocité et accélération positives : tendance haussière forte et croissante</li>
-<li>Vélocité positive, accélération négative : tendance haussière mais qui s'essouffle</li>
-<li>Vélocité et accélération négatives : tendance baissière forte et croissante</li>
-<li>Vélocité négative, accélération positive : tendance baissière qui s'affaiblit (potentiel rebond)</li>
-</ul>
-<p>Applications :</p>
-<ul>
-<li>Trading : anticiper les retournements de tendance</li>
-<li>Prévision : évaluer la dynamique future</li>
-<li>Détection d'anomalies : identifier les changements brusques de comportement</li>
-</ul>
-<p>Ce type d'analyse permet d'aller au-delà de la simple observation de la tendance en capturant sa dynamique interne, offrant ainsi des signaux plus précoces sur les évolutions futures.</p>
-<h3 id="volatilite-du-marche-et-confiance-des-signaux">Volatilité du marché et Confiance des Signaux<a class="headerlink" href="#volatilite-du-marche-et-confiance-des-signaux" title="Permanent link">&para;</a></h3>
-<figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/strategies/kalman-filter/velocite-confiance.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="/TradingInPython-doc/images/strategies/kalman-filter/velocite-confiance.png"/>
-    </a>
-    <figcaption><em>Vélocité et Accélération de la Tendance</em></figcaption>
-</figure>
-
-<h4 id="volatilite-du-marche">Volatilité du marché<a class="headerlink" href="#volatilite-du-marche" title="Permanent link">&para;</a></h4>
-<p>Représente l'incertitude ou la variance des observations du prix</p>
-<p>Calculée souvent via l'écart-type mobile ou la variance des innovations du filtre :</p>
-<ul>
-<li>Pics de volatilité = périodes turbulentes, changements brusques, incertitude élevée</li>
-<li>Faible volatilité = marché calme, tendance stable</li>
-</ul>
-<h4 id="confiance-des-signaux">Confiance des signaux<a class="headerlink" href="#confiance-des-signaux" title="Permanent link">&para;</a></h4>
-<p>Dérivée de la variance de l'estimation (P dans l'équation du filtre de Kalman), représente la fiabilité de l'estimation de la tendance.</p>
-<ul>
-<li>Confiance élevée = le filtre est sûr de son estimation, signaux fiables</li>
-<li>Confiance faible = incertitude sur la tendance réelle, prudence nécessaire</li>
-</ul>
-<p>Relations clés à observer, relation inverse typique :</p>
-<ul>
-<li>Volatilité augmente implique que la Confiance diminue</li>
-<li>Volatilité diminue implique que la Confiance augmente</li>
-</ul>
-<p>Parce que quand le marché est volatil, le filtre devient moins certain de ce qu'est la vraie tendance sous-jacente.</p>
-<h4 id="utilisation-pratique">Utilisation pratique<a class="headerlink" href="#utilisation-pratique" title="Permanent link">&para;</a></h4>
-<p>Filtrage des signaux : N'agir que lorsque la confiance dépasse un seuil (ex: &gt;70%)</p>
-<p>Ajustement du risque : Réduire la taille de position quand volatilité ↑ et confiance ↓</p>
-<p>Détection de régimes : Les changements de volatilité peuvent signaler des transitions de marché</p>
-<p>Validation croisée : Combiner avec d'autres indicateurs lors de périodes de faible confiance</p>
-<p>Ce graphe est essentiellement un indicateur de qualité qui vous aide à distinguer les signaux fiables des signaux bruités dans votre stratégie de trading basée sur le filtre de Kalman.</p>
-<h2 id="code-source">Code Source<a class="headerlink" href="#code-source" title="Permanent link">&para;</a></h2>
-<p>Retrouvez les codes source de ces travaux sur le Filtre de Kalman comme indicateur technique boursier pour la stratégie automatique trading Kalman sur le GitHub de la plateforme TradingInPython :</p>
-<ul>
-<li><a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategies/kalman_filter_forcast.py">SoDevLog PyTrading TradingInPython - kalman_filter_forcast.py</a></li>
-</ul>
-<p>Retrouvez les algorithmes en python de la plateforme téléchargez et installez le logiciel.</p>
-<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
-<p>Nous avons là, un véritable système de trading complet avec des notions que nous connaissons déjà bien comme la tendance, le momentum et les retournements.</p>
-<p>Cette stratégie automatique affiche ses performances pour vous permettre d'ajuster les paramètres du Filtre de Kalman pour une plus grande efficacité.</p>
-<p>Ce système de traing peut être utiliser quelque soit le style de trading intraday, swing ou investissements long terme.</p>
-<p>Il doit bien sûr être utilisé avec des indicateurs techniques complémentaires pour venir corroborer les informations données par le filtre de Kalman.</p>
-<p>A l'utilisation nous verrons par exemple que les signaux d'achats et de vente sont plutôt fantaisistes et à ne pas prendre au pied de la lettre. Le filtre de Kalman est surtout un détecteur de tendance.</p>
-<p>Venez faire vos analyses techniques avec la plateforme de trading technique TradingInPython :</p>
-<ul>
-<li><a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html">Plateforme de Trading Technique - Téléchargez</a></li>
-</ul>
-<p>Cet article vous a plu n'hésitez pas à commenter à partager ...</p>
+<p>sont là pour donner des valeurs aux moyennes mobiles de l'indicateur STOCH.</p>
+<p>Dans cette stratégie vous avez également deux autres indicateurs l'ATR et le OBV.</p>
+<p>Si le prix est au dessus du <span title="Volume Weighted Average Price - Prix moyen pondéré par les volumes." style="border-bottom:1px dotted;cursor:help">VWAP</span> alors il est surestimé et une correction vers le bas pourrait se produire, si au contraire le prix est en dessous, une correction à la hausse pourrait se produire.</p>
 
 
 
@@ -1877,7 +1297,7 @@ Identification des cycles : Repérez les oscillations régulières pour détecte
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="4 novembre 2025 14:12:18 UTC"><span class="timeago" datetime="2025-11-04T14:12:18+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="4 novembre 2025 14:12:18 UTC">2025-11-04</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="14 novembre 2025 16:50:19 UTC"><span class="timeago" datetime="2025-11-14T16:50:19+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="14 novembre 2025 16:50:19 UTC">2025-11-14</span>
   </span>
 
     
