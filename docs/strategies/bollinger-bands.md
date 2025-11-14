@@ -1,5 +1,7 @@
 # Bandes de Bollinger
 
+La domentation sur les Bandes de Bollinger est plétorique, voici leur mise en oeuvre dans la plateforme.
+
 Voici la stratégie des **Bandes de Bollinger** sur quatre horizons de temps différents :
 
 <figure style="text-align: center;">
@@ -17,6 +19,8 @@ L'interface de Configuration permet de modifier horizons des Four Times Mobile A
     </a>
     <figcaption><em>Bandes de Bollinger - Configuration</em></figcaption>
 </figure>
+
+## Double Bandes de Bollinger
 
 Le bouton **Double Bandes de Bollinger** permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :
 

@@ -24,4 +24,4 @@ Vous pouvez cocher ou décocher des stocks pour les ajouter ou les retirer du sc
 - **Sauver** vous permet de sauver les modifications que vous avez faites.
 - **Supprimer** vous supprimer un fichier de screener.
 
-Un fois vos fichiers de screeners configurer avec les actions que vous souhaitez surveiller vous utilisez ces fichiers dans les [**Cartes de Chaleur**](./heatmaps.md) et le [**Monitor Stock Market**](../monitor-alerts/monitor-stock-market.md).
+Un fois vos fichiers de screeners configurés avec les actions que vous souhaitez surveiller, vous pouvez utiliser ces fichiers dans les [**Cartes de Chaleur**](./heatmaps.md) et le [**Monitor Stock Market**](../monitor-alerts/monitor-stock-market.md).

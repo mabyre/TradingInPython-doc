@@ -1,7 +1,49 @@
-# Alertes techniques
+# Monitor Stock Market - Alertes techniques avancées
 
-Alertes avancées sur les indicateurs techniques.
+Il s'agit de placer des alertes sur les cours des actions, en utilisant les indicateurs techniques. 
 
-[Acienne documentation - Alertes technique avancées](https://www.trading-et-data-analyses.com/p/monitor-stock-market-alertes-techniques.html)
+Les indicateurs techniques sont calculés à intervalle régulier et les alertes sont vérifiées pour prévenir l'utilisateur.
 
-_Contenu à compléter._
+On sait que quand l'indicateur RSI (Relative Strength Index, Indice de force relative) est inférieur à 30, il indique que la stock est survendue ce qui peut entrainer une baisse de son cours et l'action peut devenir une opportunité d'achat.
+
+Dans le Monitor Stock Market Alertes, je vais pouvoir positionner une alerte RSI survendu (30) pour surveiller la stock FORTINET et déclencher une alerte lorsque le calcul de son RSI donne un résultat < 30 :
+
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/monitor-stock-market/alertes-avancees.png" class="glightbox" data-gallery="galerie" title="Stock Monitor Alertes - RSI survendu">
+        <img src="{{ base_url }}/images/monitor-stock-market/alertes-avancees.png" />
+    </a>
+    <figcaption><em>Stock Monitor Alertes - RSI survendu</em></figcaption>
+</figure>
+
+Le bouton "Test" me permet de tester tout de suite mon alerte sans attendre le déclenchement par le Monitor.
+
+Je vais ainsi pouvoir placer plusieurs alertes techniques sur les stocks de mon screener.
+
+- Cassure résistance en volume
+- RSI survendu (30)
+- RSI suracheté (70)
+- Croisement des MA haussier
+- Pic de volume x2
+- Gap haussier de 3 %
+- Bollinger Squeeze
+
+Je vais pouvoir les combiner, sur le modèle de ces alertes génériques, je vais pouvoir ajouter des alertes personnalisées :
+
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/monitor-stock-market/alertes-techniques-personnalisees.png" class="glightbox" data-gallery="galerie" title="Alertes techniques personnalisées">
+        <img src="{{ base_url }}/images/monitor-stock-market/alertes-techniques-personnalisees.png" />
+    </a>
+    <figcaption><em>Alertes techniques personnalisées</em></figcaption>
+</figure>
+
+Par exemple en abaissant le seuil de déclenchement du RSI survendu à 25.
+
+Maintenant ma stock FORTINET ne pleut plus échapper à mes alertes. Ainsi alerté je vais pouvoir prendre les décisions de trading qui s'imposent.
+
+## Vous avez raté quelque chose ?
+
+Voici la une vidéo rapide pour vous présenter les Alertes avancées sur les indicateurs techniques de la plateforme :
+
+<div class="separator" style="clear: both; text-align: center;"><object class="BLOG_video_class" contentid="7659d8ec920abf7b" height="420" id="BLOG_video-7659d8ec920abf7b" width="650"></object></div>
+
+Découvrez rapidement comment vous allez pouvoir placer une alerte technique sur le seuil RSI à 30 afin de détecter sir une action est survendue. Comment vous allez pouvoir tester cette alerte afin de la déclencher dans le Monitor Stock Market.

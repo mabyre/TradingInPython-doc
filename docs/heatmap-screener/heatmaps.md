@@ -1,6 +1,16 @@
 # Cartes de chaleur & Performance
 
-Un moyen de surveiller le marché avec des cartes de chaleurs graphiques qui affichent les performances des actions misent sous surveillance.
+Vous avez créé vos screeners en utilisant le **Sélecteur de stocks** Menu **Screeners** -> [Gestion des screeners]({{ base_url }}/heatmap-screener/screeners/), vous pouvez afficher des cartes de chaleur.
+
+Surveillez facilement et rapidement des dizaines d'actions, grâce aux indicateurs techniques dans carte graphique de couleurs.
+
+Une Carte de chaleur (heatmap) vous permet de **visualiser les performances d'actions**. Elle est pleine de couleurs vertes claires à vertes foncées pour les cours qui montent et rouges à rouges foncées pour les cours qui baissent, elle permet donc de surveiller la tendance d'un marché sur des dizaines d'actions d'un seul coup d'œil.
+
+La Carte de chaleur calcule des **indicateurs techniques** pour chaque actions afin de délivrer un **Signal d'achat** ou **de vente**.
+
+## Ouvrir une carte de chaleur
+
+Dans le menu **Monitoring** choisissez **Performace Heatmap** (Carte de chaleur et de performances).
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/heatmap/menu-gestion-screeners.png" class="glightbox" data-gallery="galerie" title="Menu Monitoring">
@@ -9,11 +19,10 @@ Un moyen de surveiller le marché avec des cartes de chaleurs graphiques qui aff
     <figcaption><em>Menu Monitoring -> Performance heatmap</em></figcaption>
 </figure>
 
-Dans le menu **Monitoring** choisissez **Performace Heatmap** (Carte de chaleur et de performances).
-
-Surveillez facilement et rapidement des dizaines d'actions, grâce aux indicateurs techniques dans une Heatmap Performance de la plateforme.
 
 Une Heatmap ou carte de chaleur représente les performances des actions sous forme de couleurs avec des couleurs plus ou moins vertes pour les actions à tendance haussière et plus ou moins rouge pour les actions à tendance baissière.
+
+## Choisir un fichier
 
 Créez vos screeners en sélectionnant les actions que vous souhaitez mettre sous surveillance, ouvrez le [Sélecteur de Stocks](screeners.md), choisissez dans la liste des actions de la plateforme celle que vous souhaitez voir dans la Heatmap (Carte de chaleur) :
 
@@ -28,6 +37,10 @@ Cliquez sur le bouton **Ouvrir** pour choisir un fichier screeners .json. Ici on
 
 - Stocks chargées: 5 - QBTS, IONQ, PLTR, QUBT, RGTI
 
+## Exécuter la Carte de chaleur
+
+Lancez l'exécution des calculs pour les actions sélectionnées.
+
 Cliquez sur le bouton **Exécuter** pour afficher la carte de Performance :
 
 <figure style="text-align: center;">
@@ -37,10 +50,12 @@ Cliquez sur le bouton **Exécuter** pour afficher la carte de Performance :
     <figcaption><em>Carte de chaleur du marché de l'informatique quantique</em></figcaption>
 </figure>
 
-- Intervalle : pour la récupération des données ici '1d' 1 jour
+- Intervalle : pour la récupération des données ici `1d` 1 jour
 - Sampling : -3 -5 -7 signifie que les calculs vont se faire -3 -5 et -7 jours en arrière
 
-Pour comprendre les couleurs de la carte vous ouvrez la fiche technique de l'action par exemple 
+## Interpréter la Carte
+
+Pour comprendre les couleurs de la carte, ouvrez la fiche technique de l'action, par exemple pour D-Wave Quantum (QBTS), en maintenant la touche Ctrl+ Clique sur la Case de couleur :
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/heatmap/fiche-technique.png" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
@@ -48,3 +63,11 @@ Pour comprendre les couleurs de la carte vous ouvrez la fiche technique de l'act
     </a>
     <figcaption><em>Fiche technique de l'action</em></figcaption>
 </figure>
+
+Vous obtenez les performances de l'action, le Signal est **VENTE**. Les indicateurs techniques sont mauvais pour QBTS, la couleur de la carte est Rouge.
+
+Dans la fiche technique d'une action, vous retrouvez les indicateurs techniques calculés pour cette action sous surveillance :
+
+SMA , RSI, MACD, ADX, ATR, Bolls, OBV sont calculés et interprétés pour vous dans ce résumé des signaux techniques.
+
+Ces Screeners alertes vous permettent de mettre des dizaines d'actions sous surveillance. La case `AUTO 1m` vous permet de recalculer les indicateurs techniques pour la nouvelle période de temps et de rafraîchir la heatmap.
