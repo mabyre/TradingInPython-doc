@@ -74,8 +74,8 @@ nav:
       - Syntaxe: tests/syntaxe.md
       - Glossaire: tests/exemple-glossaire.md
       - Tooltips: tests/tooltips.md
-  - FAQ: faq.md
   - Glossaire: glossaire.md
+  - FAQ & Support: faq.md
 
 markdown_extensions:
   - toc:

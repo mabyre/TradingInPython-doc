@@ -67,7 +67,9 @@ Vous avez actuellement le choix entre les stratégies suivantes pour analyser vo
 
 Quand vous installez la plateforme **les stratégies en <span style="color: #38761d;">vert</span> sont gratuites**.
 
-- [Abonnez-vous](https://www.trading-et-data-analyses.com/p/abonnement.html) pour découvrir comment utiliser ces stratégies pour élaborer votre **routine de trading**.
+Pour découvrir comment utiliser ces stratégies pour élaborer votre **routine de trading** :
+
+- [Abonnez-vous](https://www.trading-et-data-analyses.com/p/abonnement.html)
 
 ## Mode Screener
 

@@ -11,7 +11,7 @@ L'important pour le trader c'est de **se forger une conviction** et de **valider
 **Inutile de savoir coder en Python**, tout est déjà prêt, il vous suffit de télécharger gratuitement la plateforme de trading technique TradingInPython.
 
 <figure style="text-align: center;">
-  <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique">
+  <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
     <img src="images/trading_in_python.png" class="noborder" width="450" />
   </a>
 </figure>
