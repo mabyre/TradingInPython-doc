@@ -7,27 +7,39 @@ def define_env( env ):
     with open("docs/glossaire.yml", "r", encoding="utf-8") as f:
         glossary = yaml.safe_load(f)
 
-    @env.macro
-    def gtooltip( term ):
+    @env.filter
+    def g_tooltip( term ):
+        """
+        Crée un span HTML avec tooltip.
+        
+        Exemple d'utilisation dans un fichier Markdown :
+            {{ "RSI" | g_tooltip }}
+        Le tooltip n'affiche que la première ligne de la définition du glossaire.
+        """
         definition = glossary.get( term )
         if definition:
-            return tooltip( term, definition ) 
-        return f'{term} (not in glossary)'
+            term_escaped = escape( term )
+            first_line = definition.strip().split("\n", 1)[0]
+            html = f'<span title="{first_line}" style="border-bottom:1px dotted;cursor:help">{term_escaped}</span>'
+            return Markup( html )  # Markup = ne pas échapper à l'affichage
+
+        return f'{term} not in glossary'
+    
+    @env.macro
+    def gtooltip( term ):
+        """       
+        Utilise g_tooltip pour en faire une macro.
+        
+        Exemple :
+            {{ gtooltip("RSI") }}
+        """       
+        return g_tooltip( term ) 
 
     @env.filter
-    def tooltip( term, definition ):
-        """
-        Crée un span HTML avec un tooltip.
-        """
-        term_escaped = escape(term)
-        def_escaped = escape(definition.replace("\n", " ").strip())
-        html = f'<span title="{def_escaped}" style="border-bottom:1px dotted;cursor:help">{term_escaped}</span>'
-        return Markup(html)  # Markup = ne pas échapper à l'affichage
-
-    @env.macro
-    def glink( term ):
+    def g_link( term ):
         """
         Génère un lien Markdown/HTML vers le glossaire.
+        
         Exemple :
             {{ gl("RSI") }}
         Résultat :
@@ -37,13 +49,14 @@ def define_env( env ):
         anchor = term.lower().replace(" ", "-")  # pour les ancres typiques Markdown
         href = f"{base_url}/glossaire/#{anchor}"
         html = f'<a href="{href}">{term}</a>'
-        return Markup(html)
+        return Markup( html )
 
     # --- Macro : génère la section Markdown complète ---
     @env.macro
     def generate_glossary():
         """
-        Retourne un texte Markdown contenant toutes les définitions du glossaire.
+        Genère le Glossaire dans une page Markdown.
+        
         Exemple d'utilisation dans glossaire.md :
             {{ generate_glossary() }}
         """

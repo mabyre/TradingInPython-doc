@@ -4,32 +4,43 @@
 
 - **glossaire.yml** : le glossaire proprement dit
 
-- main.py script python de génération des link et tooltip et du glossaire.md
+- main.py script python, fonctions de génération des link et tooltip et du glossaire.md
 
 ## Fonction du script main.py
 
-
-Utilisation de **glink** {{ glink("RSI") }}
-
-```
-{% raw %}
-{{ glink("RSI") }}
-{% endraw %}
-```
-
-
-Utilisation de **glink** {{ glink("Action") }}
-
-Utilisation de **gtooltip** {{ gtooltip("Action") }} c'est caca
+Utilisation du filter **g_tooltip** {{ "MACD" | g_tooltip }}
 
 ```
 {% raw %}
-{{ gtooltip("Action") }}
+{{ "MACD" | g_tooltip }}
 {% endraw %}
 ```
 
-Utilisation de **gtooltip** {{ gtooltip("RSI") }} c'est caca
+Utilisation du filter **g_link** {{ "MACD" | g_link }}
 
+```
+{% raw %}
+{{ "MACD" | g_link }}
+{% endraw %}
+```
+
+Utilisation du filter **g_tooltip** {{ "RSI" | g_tooltip }}
+
+Utilisation du filter **g_link** {{ "RSI" | g_link }}
+
+```
+{% raw %}
+{{ "RSI" | g_link }}
+{% endraw %}
+```
+
+Utilisation de la macro **gtooltip** {{ gtooltip("RSI") }}
+
+```
+{% raw %}
+{{ gtooltip("RSI") }}
+{% endraw %}
+```
 
 ## A la main
 

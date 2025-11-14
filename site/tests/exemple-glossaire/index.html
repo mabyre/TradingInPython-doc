@@ -1320,18 +1320,23 @@
 <p><strong>glossaire.yml</strong> : le glossaire proprement dit</p>
 </li>
 <li>
-<p>main.py script python de génération des link et tooltip et du glossaire.md</p>
+<p>main.py script python, fonctions de génération des link et tooltip et du glossaire.md</p>
 </li>
 </ul>
 <h2 id="fonction-du-script-mainpy">Fonction du script main.py<a class="headerlink" href="#fonction-du-script-mainpy" title="Permanent link">&para;</a></h2>
-<p>Utilisation de <strong>glink</strong> <a href="https://mabyre.github.io/TradingInPython-doc//glossaire/#rsi">RSI</a></p>
-<div class="highlight"><pre><span></span><code>{{ glink(&quot;RSI&quot;) }}
+<p>Utilisation du filter <strong>g_tooltip</strong> <span title="Moving Average Convergence Divergence" style="border-bottom:1px dotted;cursor:help">MACD</span></p>
+<div class="highlight"><pre><span></span><code>{{ &quot;MACD&quot; | g_tooltip }}
 </code></pre></div>
-<p>Utilisation de <strong>glink</strong> <a href="https://mabyre.github.io/TradingInPython-doc//glossaire/#action">Action</a></p>
-<p>Utilisation de <strong>gtooltip</strong> <span title="Titre représentant une part du capital d&#39;une entreprise." style="border-bottom:1px dotted;cursor:help">Action</span> c'est caca</p>
-<div class="highlight"><pre><span></span><code>{{ gtooltip(&quot;Action&quot;) }}
+<p>Utilisation du filter <strong>g_link</strong> <a href="https://mabyre.github.io/TradingInPython-doc//glossaire/#macd">MACD</a></p>
+<div class="highlight"><pre><span></span><code>{{ &quot;MACD&quot; | g_link }}
 </code></pre></div>
-<p>Utilisation de <strong>gtooltip</strong> <span title="Relative Strength Index : mesure la force du mouvement d&#39;un actif.  Valeurs extrêmes :  - au-dessus de 70 : surachat - en dessous de 30 : survente" style="border-bottom:1px dotted;cursor:help">RSI</span> c'est caca</p>
+<p>Utilisation du filter <strong>g_tooltip</strong> <span title="Relative Strength Index : mesure la force du mouvement d'un actif." style="border-bottom:1px dotted;cursor:help">RSI</span></p>
+<p>Utilisation du filter <strong>g_link</strong> <a href="https://mabyre.github.io/TradingInPython-doc//glossaire/#rsi">RSI</a></p>
+<div class="highlight"><pre><span></span><code>{{ &quot;RSI&quot; | g_link }}
+</code></pre></div>
+<p>Utilisation de la macro <strong>gtooltip</strong> <span title="Relative Strength Index : mesure la force du mouvement d'un actif." style="border-bottom:1px dotted;cursor:help">RSI</span></p>
+<div class="highlight"><pre><span></span><code>{{ gtooltip(&quot;RSI&quot;) }}
+</code></pre></div>
 <h2 id="a-la-main">A la main<a class="headerlink" href="#a-la-main" title="Permanent link">&para;</a></h2>
 <p>Création de Tooltip "à la main" <a href="/TradingInPython-doc/glossaire/#rsi">RSI</a>.</p>
 <p>Voir la définition de <a href="/TradingInPython-doc/glossaire/#ici">ICI</a>.</p>
