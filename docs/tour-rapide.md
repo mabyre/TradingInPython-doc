@@ -7,11 +7,11 @@ La plateforme **TradingInPython** est un ensemble complet de trading avec :
 - des analyses techniques,
 - des cartes chaleurs et de performance pour surveiller des marchés,
 - des alertes techniques pour mettre les marchés sous surveillance,
-- le gestionnaire de portefeuille pour vos donner en temps réel la performance de votre trading.
+- le gestionnaire de portefeuille vous donne en temps réel la performance de votre trading.
 
 ## Présentation des stratégies de trading technique
 
-Ce tour rapide vous présente rapidement les stratégies automatiques de trading technique de la plateforme.
+Ce tour rapide vous présente rapidement les stratégies automatiques de trading technique et les grands modules de la plateforme.
 
 ### Ichimoku Kinko Hyo
 
@@ -70,6 +70,12 @@ Quand vous installez la plateforme **les stratégies en <span style="color: #387
 Pour découvrir comment utiliser ces stratégies pour élaborer votre **routine de trading** :
 
 - [Abonnez-vous](https://www.trading-et-data-analyses.com/p/abonnement.html)
+
+### Votre routine de trading
+
+Pour découvrir la routine de trading que vous pouvez réaliser avec la plateforme :
+
+- [Routine de trading](trading-routine.md)
 
 ## Mode Screener
 
