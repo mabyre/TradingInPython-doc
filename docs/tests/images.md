@@ -120,6 +120,8 @@ Avec son lien elle devient cliquable :
 </a>
 ```
 
+### Lightbox la plus utilisée
+
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
         <img src="{{ base_url }}/images/trading_in_python_2.png" alt="Image 2" width="200" />

@@ -6,46 +6,58 @@ Le gestionnaire de portefeuilles est l'outil indispensable du trader afin de cen
 
 Ouvrir le gestionnaire de portefeuilles dans le **Menu Monitoring** -> **Portefeuilles**
 
-<figure style="text-align: center;" title="Portfolio - Gestionnaire de Portefeuilles">
-  <img src="{{ base_url }}/images/portfolio/menu.png" class="noborder"/>
-  <figcaption><em>Portfolio - Gestionnaire de Portefeuilles</em></figcaption>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/portfolio/menu.png" class="glightbox" data-gallery="galerie" title="Portfolio - Gestionnaire de Portefeuilles">
+        <img src="{{ base_url }}/images/portfolio/menu.png" alt="Image 2"/>
+    </a>
+    <figcaption><em>Portfolio - Gestionnaire de Portefeuilles</em></figcaption>
 </figure>
 
 Créer votre premier portefeuille :
 
-<figure style="text-align: center;" title="Portfolio - Gestionnaire de Portefeuilles">
-  <img src="{{ base_url }}/images/portfolio/creer.png" class="noborder"/>
-  <figcaption><em>Créer votre premier portefeuille</em></figcaption>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/portfolio/creer.png" class="glightbox" data-gallery="galerie" title="Portfolio - Gestionnaire de Portefeuilles">
+        <img src="{{ base_url }}/images/portfolio/creer.png" alt="Image 2"/>
+    </a>
+    <figcaption><em>Créer votre premier portefeuille</em></figcaption>
 </figure>
 
 Si vous êtes positionné dans les Screeners remontez vers le répertoire **"_internal"** pour choisir le répertoire "portfolios" :
 
-<figure style="text-align: center;" title="Portfolio - Gestionnaire de Portefeuilles">
-  <img src="{{ base_url }}/images/portfolio/trouver.png" class="noborder"/>
-  <figcaption><em>Trouvez le répertoire <b>portfolios</b></em></figcaption>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/portfolio/trouver.png" class="glightbox" data-gallery="galerie" title="Portfolio - Gestionnaire de Portefeuilles">
+        <img src="{{ base_url }}/images/portfolio/trouver.png" alt="Image 2"/>
+    </a>
+    <figcaption><em>Trouvez le répertoire <b>portfolios</b></em></figcaption>
 </figure>
 
 Sélectionnez ce répertoire, cliquez sur le bouton **"Enregistrer"** :
 
-<figure style="text-align: center;" title="Portfolio - Gestionnaire de Portefeuilles">
-  <img src="{{ base_url }}/images/portfolio/enregistrer.png" class="noborder"/>
-  <figcaption><em>Enregistrez votre premier portefeuille</em></figcaption>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/portfolio/enregistrer.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
+        <img src="{{ base_url }}/images/portfolio/enregistrer.png" alt="Image 2"/>
+    </a>
+    <figcaption><em>Enregistrez votre premier portefeuille</em></figcaption>
 </figure>
 
 La création de votre portefeuille est un succès :
 
-<figure style="text-align: center;" title="Portfolio - Gestionnaire de Portefeuilles">
-  <img src="{{ base_url }}/images/portfolio/creation-succes.png" class="noborder"/>
-  <figcaption><em>Enregistrez votre premier portefeuille</em></figcaption>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/portfolio/creation-succes.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
+        <img src="{{ base_url }}/images/portfolio/creation-succes.png" alt="Image 2"/>
+    </a>
+    <figcaption><em>Création succès</em></figcaption>
 </figure>
 
 ## Enregistrer une transaction
 
-Remplissez une Nouvelle transaction
+Remplissez une Nouvelle transaction :
 
-<figure style="text-align: center;" title="Portfolio - Gestionnaire de Portefeuilles">
-  <img src="{{ base_url }}/images/portfolio/transaction.png" class="noborder"/>
-  <figcaption><em>Enregistrez une transaction</em></figcaption>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/portfolio/transaction.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
+        <img src="{{ base_url }}/images/portfolio/transaction.png" alt="Image 2"/>
+    </a>
+    <figcaption><em>Transaction</em></figcaption>
 </figure>
 
 - **(1)** Type : cliquez Achat en vert et Vente en rouge selon que vous enregistrez un achat ou une vente
@@ -56,7 +68,7 @@ Cliquez sur Ajouter la transaction elle apparait dans **"Historique des transact
 
 N'oubliez pas les frais c'est très important pour connaitre la performance réelle de votre Portefeuille.
 
-## Le tableau de bord
+## Tableau de bord
 
 Le Gestionnaire de Portefeuilles, vous permet de consolider votre trading par la gestion rigoureuse de tous vos actes d'achats/ventes dans un Portefeuille qui centralise tous vos achats, vos ventes et calcule l'efficacité de vos trades.
 
@@ -68,9 +80,11 @@ Sans lui vous êtes perdu.
 
 Je consolide tous mes achats/ventes dans le Volet Transactions :
 
-<figure style="text-align: center;" title="Portfolio - Gestionnaire de Portefeuilles">
-  <img src="{{ base_url }}/images/portfolio/tableau-de-bord.png" class="noborder"/>
-  <figcaption><em>Le tableau de bord</em></figcaption>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/portfolio/tableau-de-bord.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
+        <img src="{{ base_url }}/images/portfolio/tableau-de-bord.png" alt="Image 2"/>
+    </a>
+    <figcaption><em>Le tableau de bord</em></figcaption>
 </figure>
 
 Avec de grandes indications :
