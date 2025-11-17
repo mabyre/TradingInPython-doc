@@ -54,7 +54,7 @@ nav:
       - Analyse Volumique: strategies/analyse-pression-volumique.md
       - Fractals & Gator: strategies/fractals_gator.md
       - Filtre de Kalman: strategies/kalman-filter.md
-      - Prédiction IA (Keras / JAX): strategies/prediction_ai.md
+      - Prédiction IA (Keras/Tensorflow/JAX): strategies/prediction_ai.md
   - Heatmap & Screeners: 
       - Création des Screeners: heatmap-screener/screeners.md
       - Cartes de Chaleurs & Performances: heatmap-screener/heatmaps.md

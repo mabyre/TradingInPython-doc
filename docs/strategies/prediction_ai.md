@@ -1,3 +1,38 @@
-# Prediction ai
+# Prediction IA
 
-_Contenu à compléter._
+Utilisation des réseaux de neurones Keras avec Tensorflow pour la prédition des signaux 2D.
+
+## Implémentation
+
+Notez l'interface de configuration avec les paramètres évoqués dans la [Formation](#formation)
+
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/strategies/prediction-keras/keras-tensorflow.png" class="glightbox" data-gallery="galerie" title="Prédiction avec Keras et TensorFlow">
+        <img src="{{ base_url }}/images/strategies/prediction-keras/keras-tensorflow.png"/>
+    </a>
+    <figcaption><em>Prédiction avec Keras et TensorFlow</em></figcaption>
+</figure>
+
+- Days in past
+- Days in futur
+- EPOCHS
+- LSMT UNITS
+- Drop Out
+
+## Formation
+
+Retrouvez les articles du blog sur la formation à Tensorflow :
+
+- <a href="https://www.trading-et-data-analyses.com/search/label/TensorFlow" target="_blank">Trading et Data Analyses - Tensorflow</a>
+
+## Abonnement
+
+Pour utiliser pleinement cette stratégie au sein de la plateforme, il vous faut vous abonner.
+
+- <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">TradingInPython - Abonnement</a>
+
+## Questions
+
+Vous avez des questions n'hésitez pas, nous sommes là pour tout vous expliquer.
+
+- [Support & FAQ](../support-faq.md)
