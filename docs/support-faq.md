@@ -2,9 +2,11 @@
 
 Pour toutes vos demandes, vos questions :
 
-- [Le Blog - Formulaire de contact](https://www.trading-et-data-analyses.com/)
+- [Le Blog - Formulaire de contact](https://www.trading-et-data-analyses.com/p/formulaire-de-contact.html)
 
 Un problème, un bug, une question avec la plateforme :
+
+_Pour envoyez un message vous devez avoir un compte GitHub ..._
 
 - [GitHub - TradingInPython remarques](https://github.com/SoDevLog/PyTrading/issues)
 
