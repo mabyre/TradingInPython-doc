@@ -69,7 +69,7 @@ Le bouton **"Now"** vous permet de remplir automatiquement **"Date de fin"** ave
 
 Voici une page pour vous expliquer en détails comment faire :
 
-- [Voyagez dans le temps](https://www.trading-et-data-analyses.com/p/voyager-dans-le-temps.html)
+- [Voyagez dans le temps](./voyage-dans-le-temps.md)
 
 ## Récupération des données en temps réel
 
