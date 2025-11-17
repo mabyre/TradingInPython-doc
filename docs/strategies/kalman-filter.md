@@ -164,7 +164,9 @@ Exemple pour un interval de 30min et un trade de 2-3 jours :
 
 **volatility_window** = 40 / 2 = 20 périodes
 
-## Stratégie automatique de trading grâce au filtre de Kalman
+## Implémentaion du filtre de Kalman
+
+Stratégie automatique de trading grâce au filtre de Kalman, implémenté dans la plateforme.
 
 En implémentant cette stratégie dans la plateforme, j'obtiens les graphes suivants :
 
@@ -208,9 +210,9 @@ La vélocité calculée par le Filtre de Kalman varie beaucoup en fonction du si
 
 On implémentera deux façons de régler le seuil de vélocité qui indique un signal d'achat/vente soit manuel 0.03 soit adaptatif.
 
-### Composante Cyclique et ...
+### Composante Cyclique et RSI
 
-L'incertitude de Kalman converge très vite vers une valeur et faire graphe avec, ce n'est pas très utile. Vous retrouverez intégré dans la plateforme sans doute le RSI (momentum) du Cycle pour montrer le momentum cyclique.
+L'incertitude de Kalman converge très vite vers une valeur et faire graphe avec, ce n'est pas très utile. Vous retrouverez, dans l'implémentation au sein de la plateforme sans doute le RSI (momentum) du Cycle.
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/strategies/kalman-filter/incertitude-kalman.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
@@ -219,7 +221,8 @@ L'incertitude de Kalman converge très vite vers une valeur et faire graphe avec
     <figcaption><em>Filtre de Kalman - signaux d'achat et de vente</em></figcaption>
 </figure>
 
-Composante cyclique
+#### Composante cyclique
+
 Elle représente les fluctuations à court-moyen terme de la série temporelle, une fois la tendance retirée.
 
 Elle capture :
