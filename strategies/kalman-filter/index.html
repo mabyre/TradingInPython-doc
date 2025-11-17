@@ -685,9 +685,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#strategie-automatique-de-trading-grace-au-filtre-de-kalman" class="md-nav__link">
+  <a href="#implementaion-du-filtre-de-kalman" class="md-nav__link">
     <span class="md-ellipsis">
-      Stratégie automatique de trading grâce au filtre de Kalman
+      Implémentaion du filtre de Kalman
     </span>
   </a>
   
@@ -713,9 +713,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#composante-cyclique-et" class="md-nav__link">
+  <a href="#composante-cyclique-et-rsi" class="md-nav__link">
     <span class="md-ellipsis">
-      Composante Cyclique et ...
+      Composante Cyclique et RSI
     </span>
   </a>
   
@@ -1478,9 +1478,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#strategie-automatique-de-trading-grace-au-filtre-de-kalman" class="md-nav__link">
+  <a href="#implementaion-du-filtre-de-kalman" class="md-nav__link">
     <span class="md-ellipsis">
-      Stratégie automatique de trading grâce au filtre de Kalman
+      Implémentaion du filtre de Kalman
     </span>
   </a>
   
@@ -1506,9 +1506,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#composante-cyclique-et" class="md-nav__link">
+  <a href="#composante-cyclique-et-rsi" class="md-nav__link">
     <span class="md-ellipsis">
-      Composante Cyclique et ...
+      Composante Cyclique et RSI
     </span>
   </a>
   
@@ -1697,7 +1697,8 @@
 <p>Exemple pour un interval de 30min et un trade de 2-3 jours :</p>
 <p><strong>lookback</strong> = 2.5 jours * 13 périodes/jour = 32-40 périodes</p>
 <p><strong>volatility_window</strong> = 40 / 2 = 20 périodes</p>
-<h2 id="strategie-automatique-de-trading-grace-au-filtre-de-kalman">Stratégie automatique de trading grâce au filtre de Kalman<a class="headerlink" href="#strategie-automatique-de-trading-grace-au-filtre-de-kalman" title="Permanent link">&para;</a></h2>
+<h2 id="implementaion-du-filtre-de-kalman">Implémentaion du filtre de Kalman<a class="headerlink" href="#implementaion-du-filtre-de-kalman" title="Permanent link">&para;</a></h2>
+<p>Stratégie automatique de trading grâce au filtre de Kalman, implémenté dans la plateforme.</p>
 <p>En implémentant cette stratégie dans la plateforme, j'obtiens les graphes suivants :</p>
 <figure style="text-align: center;">
     <a href="/TradingInPython-doc/images/strategies/kalman-filter/interface.png" class="glightbox" data-gallery="galerie" title="Calcul de la tendance par le filtre de Kalman">
@@ -1733,8 +1734,8 @@
 
 <p>La vélocité calculée par le Filtre de Kalman varie beaucoup en fonction du signal (du cours) aussi on affiche dans la console des statistiques sur cette vélocité pour permettre le réglage du seuil de détection des signaux d'achat/vente.</p>
 <p>On implémentera deux façons de régler le seuil de vélocité qui indique un signal d'achat/vente soit manuel 0.03 soit adaptatif.</p>
-<h3 id="composante-cyclique-et">Composante Cyclique et ...<a class="headerlink" href="#composante-cyclique-et" title="Permanent link">&para;</a></h3>
-<p>L'incertitude de Kalman converge très vite vers une valeur et faire graphe avec, ce n'est pas très utile. Vous retrouverez intégré dans la plateforme sans doute le RSI (momentum) du Cycle pour montrer le momentum cyclique.</p>
+<h3 id="composante-cyclique-et-rsi">Composante Cyclique et RSI<a class="headerlink" href="#composante-cyclique-et-rsi" title="Permanent link">&para;</a></h3>
+<p>L'incertitude de Kalman converge très vite vers une valeur et faire graphe avec, ce n'est pas très utile. Vous retrouverez, dans l'implémentation au sein de la plateforme sans doute le RSI (momentum) du Cycle.</p>
 <figure style="text-align: center;">
     <a href="/TradingInPython-doc/images/strategies/kalman-filter/incertitude-kalman.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
         <img src="/TradingInPython-doc/images/strategies/kalman-filter/incertitude-kalman.png"/>
@@ -1742,8 +1743,8 @@
     <figcaption><em>Filtre de Kalman - signaux d'achat et de vente</em></figcaption>
 </figure>
 
-<p>Composante cyclique
-Elle représente les fluctuations à court-moyen terme de la série temporelle, une fois la tendance retirée.</p>
+<h4 id="composante-cyclique">Composante cyclique<a class="headerlink" href="#composante-cyclique" title="Permanent link">&para;</a></h4>
+<p>Elle représente les fluctuations à court-moyen terme de la série temporelle, une fois la tendance retirée.</p>
 <p>Elle capture :</p>
 <ul>
 <li>Les cycles économiques ou saisonniers</li>
