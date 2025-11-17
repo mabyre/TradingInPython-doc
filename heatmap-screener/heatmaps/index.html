@@ -774,6 +774,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#synchronisation-avec-lanalyse-technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synchronisation avec l'analyse technique
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1351,6 +1360,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#synchronisation-avec-lanalyse-technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synchronisation avec l'analyse technique
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1371,9 +1389,9 @@
 
 
 <h1 id="cartes-de-chaleur-performance">Cartes de chaleur &amp; Performance<a class="headerlink" href="#cartes-de-chaleur-performance" title="Permanent link">&para;</a></h1>
-<p>Vous avez créé vos screeners en utilisant le <strong>Sélecteur de stocks</strong> Menu <strong>Screeners</strong> -&gt; <a href="/TradingInPython-doc/heatmap-screener/screeners/">Gestion des screeners</a>, vous pouvez afficher des cartes de chaleur.</p>
-<p>Surveillez facilement et rapidement des dizaines d'actions, grâce aux indicateurs techniques dans carte graphique de couleurs.</p>
-<p>Une Carte de chaleur (heatmap) vous permet de <strong>visualiser les performances d'actions</strong>. Elle est pleine de couleurs vertes claires à vertes foncées pour les cours qui montent et rouges à rouges foncées pour les cours qui baissent, elle permet donc de surveiller la tendance d'un marché sur des dizaines d'actions d'un seul coup d'œil.</p>
+<p>Vous avez créé vos screeners en utilisant le <strong>Sélecteur de stocks</strong> Menu <strong>Screeners</strong> -&gt; <a href="/TradingInPython-doc/heatmap-screener/screeners/">Gestion des screeners</a>, vous pouvez afficher des Cartes de chaleur.</p>
+<p>Surveillez facilement et rapidement <strong>des dizaines d'actions</strong>, grâce aux indicateurs techniques dans une Carte graphique de couleurs (chaleur).</p>
+<p>La Carte de chaleur (heatmap) vous permet de <strong>visualiser les performances d'actions</strong>. Elle est pleine de couleurs vertes claires à vertes foncées pour les cours qui montent et rouges à rouges foncées pour les cours qui baissent, elle permet donc de surveiller la tendance d'un marché sur des dizaines d'actions d'un seul coup d'œil.</p>
 <p>La Carte de chaleur calcule des <strong>indicateurs techniques</strong> pour chaque actions afin de délivrer un <strong>Signal d'achat</strong> ou <strong>de vente</strong>.</p>
 <h2 id="ouvrir-une-carte-de-chaleur">Ouvrir une carte de chaleur<a class="headerlink" href="#ouvrir-une-carte-de-chaleur" title="Permanent link">&para;</a></h2>
 <p>Dans le menu <strong>Monitoring</strong> choisissez <strong>Performace Heatmap</strong> (Carte de chaleur et de performances).</p>
@@ -1413,7 +1431,8 @@
 <li>Sampling : -3 -5 -7 signifie que les calculs vont se faire -3 -5 et -7 jours en arrière</li>
 </ul>
 <h2 id="interpreter-la-carte">Interpréter la Carte<a class="headerlink" href="#interpreter-la-carte" title="Permanent link">&para;</a></h2>
-<p>Pour comprendre les couleurs de la carte, ouvrez la fiche technique de l'action, par exemple pour D-Wave Quantum (QBTS), en maintenant la touche Ctrl+ Clique sur la Case de couleur :</p>
+<p>Pour comprendre les couleurs de la carte, ouvrez la fiche technique de l'action.</p>
+<p>Par exemple pour D-Wave Quantum (QBTS), en maintenant la touche <strong>Ctrl+ Clique</strong> sur la Case de couleur de QBTS :</p>
 <figure style="text-align: center;">
     <a href="/TradingInPython-doc/images/heatmap/fiche-technique.png" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
         <img src="/TradingInPython-doc/images/heatmap/fiche-technique.png"/>
@@ -1421,10 +1440,25 @@
     <figcaption><em>Fiche technique de l'action</em></figcaption>
 </figure>
 
-<p>Vous obtenez les performances de l'action, le Signal est <strong>VENTE</strong>. Les indicateurs techniques sont mauvais pour QBTS, la couleur de la carte est Rouge.</p>
+<p>Vous obtenez la fiche technique de l'action avec ses performances, le Signal est <strong>VENTE</strong>. </p>
+<p>Les indicateurs techniques sont mauvais pour QBTS, la couleur de la carte est Rouge.</p>
 <p>Dans la fiche technique d'une action, vous retrouvez les indicateurs techniques calculés pour cette action sous surveillance :</p>
-<p>SMA , RSI, MACD, ADX, ATR, Bolls, OBV sont calculés et interprétés pour vous dans ce résumé des signaux techniques.</p>
+<p><span title="Simple Moving Average - Moyenne Mobile Simple." style="border-bottom:1px dotted;cursor:help">SMA</span>, <span title="Relative Strength Index : mesure la force du mouvement d'un actif." style="border-bottom:1px dotted;cursor:help">RSI</span>, <span title="Moving Average Convergence Divergence" style="border-bottom:1px dotted;cursor:help">MACD</span>, <span title="Average Directional Index - Indice Directionnel Moyen." style="border-bottom:1px dotted;cursor:help">ADX</span>, <span title="Average True Range, Moyenne de la Vraie Amplitude." style="border-bottom:1px dotted;cursor:help">ATR</span>, <span title="Bandes de Bollinger." style="border-bottom:1px dotted;cursor:help">Bolls</span>, <span title="On-Balance Volume - Volume en Balance." style="border-bottom:1px dotted;cursor:help">OBV</span> sont calculés et interprétés pour vous dans ce résumé des signaux techniques.</p>
 <p>Ces Screeners alertes vous permettent de mettre des dizaines d'actions sous surveillance. La case <code>AUTO 1m</code> vous permet de recalculer les indicateurs techniques pour la nouvelle période de temps et de rafraîchir la heatmap.</p>
+<h2 id="synchronisation-avec-lanalyse-technique">Synchronisation avec l'analyse technique<a class="headerlink" href="#synchronisation-avec-lanalyse-technique" title="Permanent link">&para;</a></h2>
+<p>Le côté pratique de la Carte de Performance, notez deux choses dans l'animation suivante :</p>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/heatmap/synchro-analyse-technique.gif" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
+        <img src="/TradingInPython-doc/images/heatmap/synchro-analyse-technique.gif"/>
+    </a>
+    <figcaption><em>Fiche technique de l'action</em></figcaption>
+</figure>
+
+<ol>
+<li>Passez la souris sur les boutons de cartes, vous avez le nom de l'action qui d'affiche</li>
+<li>Sur la partie droite l'action est modifiée quand vous cliquez sur le bouton de la carte</li>
+</ol>
+<p>C'est pratique pour lancer une analyse technique de l'action que vous avez dans votre carte.</p>
 
 
 
