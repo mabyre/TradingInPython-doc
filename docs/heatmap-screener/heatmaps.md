@@ -1,10 +1,10 @@
 # Cartes de chaleur & Performance
 
-Vous avez créé vos screeners en utilisant le **Sélecteur de stocks** Menu **Screeners** -> [Gestion des screeners]({{ base_url }}/heatmap-screener/screeners/), vous pouvez afficher des cartes de chaleur.
+Vous avez créé vos screeners en utilisant le **Sélecteur de stocks** Menu **Screeners** -> [Gestion des screeners]({{ base_url }}/heatmap-screener/screeners/), vous pouvez afficher des Cartes de chaleur.
 
-Surveillez facilement et rapidement des dizaines d'actions, grâce aux indicateurs techniques dans carte graphique de couleurs.
+Surveillez facilement et rapidement **des dizaines d'actions**, grâce aux indicateurs techniques dans une Carte graphique de couleurs (chaleur).
 
-Une Carte de chaleur (heatmap) vous permet de **visualiser les performances d'actions**. Elle est pleine de couleurs vertes claires à vertes foncées pour les cours qui montent et rouges à rouges foncées pour les cours qui baissent, elle permet donc de surveiller la tendance d'un marché sur des dizaines d'actions d'un seul coup d'œil.
+La Carte de chaleur (heatmap) vous permet de **visualiser les performances d'actions**. Elle est pleine de couleurs vertes claires à vertes foncées pour les cours qui montent et rouges à rouges foncées pour les cours qui baissent, elle permet donc de surveiller la tendance d'un marché sur des dizaines d'actions d'un seul coup d'œil.
 
 La Carte de chaleur calcule des **indicateurs techniques** pour chaque actions afin de délivrer un **Signal d'achat** ou **de vente**.
 
@@ -55,7 +55,9 @@ Cliquez sur le bouton **Exécuter** pour afficher la carte de Performance :
 
 ## Interpréter la Carte
 
-Pour comprendre les couleurs de la carte, ouvrez la fiche technique de l'action, par exemple pour D-Wave Quantum (QBTS), en maintenant la touche Ctrl+ Clique sur la Case de couleur :
+Pour comprendre les couleurs de la carte, ouvrez la fiche technique de l'action.
+
+Par exemple pour D-Wave Quantum (QBTS), en maintenant la touche **Ctrl+ Clique** sur la Case de couleur de QBTS :
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/heatmap/fiche-technique.png" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
@@ -64,10 +66,28 @@ Pour comprendre les couleurs de la carte, ouvrez la fiche technique de l'action,
     <figcaption><em>Fiche technique de l'action</em></figcaption>
 </figure>
 
-Vous obtenez les performances de l'action, le Signal est **VENTE**. Les indicateurs techniques sont mauvais pour QBTS, la couleur de la carte est Rouge.
+Vous obtenez la fiche technique de l'action avec ses performances, le Signal est **VENTE**. 
+
+Les indicateurs techniques sont mauvais pour QBTS, la couleur de la carte est Rouge.
 
 Dans la fiche technique d'une action, vous retrouvez les indicateurs techniques calculés pour cette action sous surveillance :
 
-SMA , RSI, MACD, ADX, ATR, Bolls, OBV sont calculés et interprétés pour vous dans ce résumé des signaux techniques.
+{{ "SMA" |  g_tooltip }}, {{ "RSI" | g_tooltip }}, {{ "MACD" | g_tooltip }}, {{ "ADX" | g_tooltip }}, {{ "ATR" | g_tooltip }}, {{ "Bolls" | g_tooltip }}, {{ "OBV" | g_tooltip }} sont calculés et interprétés pour vous dans ce résumé des signaux techniques.
 
 Ces Screeners alertes vous permettent de mettre des dizaines d'actions sous surveillance. La case `AUTO 1m` vous permet de recalculer les indicateurs techniques pour la nouvelle période de temps et de rafraîchir la heatmap.
+
+## Synchronisation avec l'analyse technique
+
+Le côté pratique de la Carte de Performance, notez deux choses dans l'animation suivante :
+
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/heatmap/synchro-analyse-technique.gif" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
+        <img src="{{ base_url }}/images/heatmap/synchro-analyse-technique.gif"/>
+    </a>
+    <figcaption><em>Fiche technique de l'action</em></figcaption>
+</figure>
+
+1. Passez la souris sur les boutons de cartes, vous avez le nom de l'action qui d'affiche
+2. Sur la partie droite l'action est modifiée quand vous cliquez sur le bouton de la carte
+
+C'est pratique pour lancer une analyse technique de l'action que vous avez dans votre carte.
