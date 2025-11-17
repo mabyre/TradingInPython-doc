@@ -39,7 +39,7 @@ L'avantage de cette stratégie c'est qu'elle donne des entrées et des sorties c
 
 Exemple : Vous pouvez entrer lors que le cours sort de la bande 1 sigma (flêches vertes) et sortir (flêche rouges) lorsque le cours passe la Moyenne Mobile par le haut.
 
-Vous pouvez également ajuster votre **StopLoss** sur la moyenne mobile.
+Vous pouvez également ajuster votre {{ "StopLoss" | g_tooltip }} sur la moyenne mobile.
 
 ATTENTION : Uniquement en tendance haussière
  
@@ -65,7 +65,7 @@ Les histogrammes vous permettent de visualiser très finement les resserrements 
 Vous avez raté quelque chose :
 
 <div align="center" class="md-video">
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="1" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/zvqHRx_JoUU?si=RJ9WItXxYI_wzOUy" title="YouTube video player" width="560"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vyCHZOKIokg?si=73ddSsx-bJKCydbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 Voilà vous savez tout sur les stratégies à base de Bandes de Bollinger.

@@ -91,3 +91,11 @@ Le côté pratique de la Carte de Performance, notez deux choses dans l'animatio
 2. Sur la partie droite l'action est modifiée quand vous cliquez sur le bouton de la carte
 
 C'est pratique pour lancer une analyse technique de l'action que vous avez dans votre carte.
+
+## Vidéo YouTube
+
+Voici une vidéo : comment surveiller des dizaines d'actions avec les Carte de chaleur et de Performances :
+
+<div align="center" class="md-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jTwOgR3HhXE?si=PQ32fBVekfk1MpWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

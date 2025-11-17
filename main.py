@@ -20,7 +20,7 @@ def define_env( env ):
         if definition:
             term_escaped = escape( term )
             first_line = definition.strip().split("\n", 1)[0]
-            html = f'<span title="{first_line}" style="border-bottom:1px dotted;cursor:help">{term_escaped}</span>'
+            html = f'<span title="{first_line}" style="border-bottom:1px dotted;cursor:help"><b>{term_escaped}</b></span>'
             return Markup( html )  # Markup = ne pas échapper à l'affichage
 
         return f'{term} not in glossary'

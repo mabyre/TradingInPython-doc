@@ -46,7 +46,7 @@ img.noborder dans :
 
 ## Type d'image le plus employé
 
-Noter le sous-titre, pas cliquable ça sert à rien
+Noter le sous-titre, pas cliquable si cela ne sert à rien
 
 <figure style="text-align: center;" title="Ici le tooltip">
   <img src="{{ base_url }}/images/trading_in_python.png" class="noborder" width="600" />
@@ -57,6 +57,26 @@ Noter le sous-titre, pas cliquable ça sert à rien
 <figure style="text-align: center;" title="Ici le tooltip">
   <img src="{{ '{{ base_url }}' }}/images/trading_in_python.png" class="noborder" width="600" />
   <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
+</figure>
+```
+
+### Image Bouton
+
+On clique et il y a un lien :
+
+<figure style="text-align: center;">
+  <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
+    <img src="{{ base_url }}/images/trading_in_python.png" class="noborder" width="450" />
+    <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
+  </a>
+</figure>
+
+```html
+<figure style="text-align: center;">
+  <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
+    <img src="{{ '{{ base_url }}' }}/images/trading_in_python.png" class="noborder" width="450" />
+    <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
+  </a>
 </figure>
 ```
 

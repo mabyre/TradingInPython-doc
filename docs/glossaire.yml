@@ -62,6 +62,9 @@ MACD: |
   signal_line = macd.moyenne_mobile_exponentielle( signal_window )
   ```
 
+MatPlotLib: |
+  Bibliothèque de visualisation de données en Python, utilisée pour créer des graphiques et des visualisations statiques, animées et interactives.
+
 OBV: |
   On-Balance Volume - Volume en Balance.
 
@@ -119,6 +122,13 @@ SMA: |
 
   - Signaux de trading : Les croisements entre différentes SMA (par exemple, une SMA courte croisant au-dessus d'une SMA longue) peuvent générer des signaux d'achat ou de vente.
 
+Slope: |
+  Ce terme est utilisé pour désigner la pente de la droite 'a' dans l'équation: y = a.x + b. 
+
+  Le Slope indique la croissance ou la décroissance en pourcent de l'action c'est à dire le gain ou la perte que vous pouvez faire pour 100 unités de temps.
+
+  Il est inutile de trader des actions avec un Slope trop faible.
+
 STOCH: |
   Stochastic Oscillator - Oscillateur stochastique. Ne travaille que sur le prix.
 
@@ -153,6 +163,11 @@ STOCH: |
 
 Stock: |
   Terme anglais pour "action", représentant une part du capital d'une entreprise.
+
+StopLoss: |
+  Ordre de vente automatique placé pour limiter les pertes sur une position ouverte.
+
+  Lorsqu'un actif atteint un certain prix prédéterminé, l'ordre de stop-loss est déclenché, vendant ainsi l'actif pour éviter des pertes supplémentaires.
 
 Volatilité: |
   Instabilité des prix d'un actif financier sur une période donnée.

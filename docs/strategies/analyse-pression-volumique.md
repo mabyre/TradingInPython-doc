@@ -12,6 +12,6 @@ Je vous laisse pour l'instant avec la formation sur le Blog :
 
 - <a href="https://www.trading-et-data-analyses.com/2025/02/formation-analyse-pression-volumiques-des-flux.html" target="_blank">Analyse de la Pression Volumique</a>
 
-Vous avez des questions n'hésitez pas à contacter le [Support](../faq.md)
+Vous avez des questions n'hésitez pas à contacter le [Support](../support-faq.md)
 
 _Contenu à compléter._
