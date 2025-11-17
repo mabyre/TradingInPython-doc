@@ -1,6 +1,8 @@
 # Ichimoku Kinko Hyo & Deeplearning
 
-La graphe de l'indicateur technique **Ichimoku-Kinko-Hyo** et sa prédiction **Keras**.
+L'indicateur technique Ichimoku Kinko Hyo est une stratégie à lui tout seul. C'est une analyse technique extrêment graphique qui permet en un coup d'oeil de détecter les grandes tendances du cours de l'action.
+
+Voici le graphe de l'indicateur technique **Ichimoku-Kinko-Hyo** et sa prédiction **Keras**.
 
 ## Interface
 
@@ -70,3 +72,14 @@ Avec l'outil zoom je fais un zoom sur la fin du graphe, je peux lire le signal d
 - **(3)** Achat
 
 Bien sûr avec Safran en ce moment ce signal est à l'achat.
+
+## Formation
+
+- <a href="https://www.trading-et-data-analyses.com/2024/10/formation-ichimoku-kinko-hyo.html" target="_blank">Formation à l'Ichimoky Kinko Hyo</a>
+
+
+## Algorithme
+
+Découvrez l'implémentation {{ "Python" | g_tooltip }} de cet indicateur technique au sein de la plateforme :
+
+- <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/digitsignalprocessing/ichimoku_kinko_hyo.py" target="_blank">GitHub - Digital Signal Processing - Ichimoku Kinko Hyo</a>

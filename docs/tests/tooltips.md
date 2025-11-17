@@ -11,6 +11,7 @@
 {% endraw %}
 ```
 
+**Ne fonctionne pas :**
 
 :material-information-outline:{ title="Important information" }
 
@@ -22,3 +23,7 @@ The HTML specification is maintained by the W3C.
 
 
 [Subscribe to our newsletter](#){ .md-button .md-button--primary }
+
+## Tooltip & Glossaire
+
+[Tooltip](./exemple-glossaire.md)

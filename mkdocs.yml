@@ -51,7 +51,7 @@ nav:
       - Moyennes Mobiles: strategies/moyennes-mobiles.md
       - Bandes de Bollinger: strategies/bollinger-bands.md
       - Intraday VWAP + Stoch: strategies/intraday-vwap-stoch.md
-      - Oscillateurs & Volumes: strategies/oscillators.md
+      - Analyse Volumique: strategies/analyse-pression-volumique.md
       - Fractals & Gator: strategies/fractals_gator.md
       - Filtre de Kalman: strategies/kalman-filter.md
       - Prédiction IA (Keras / JAX): strategies/prediction_ai.md
@@ -72,11 +72,11 @@ nav:
       - Images: tests/images.md
       - Titres: tests/titres.md 
       - Notes: tests/notes.md
-      - Syntaxe: tests/syntaxe.md
+      - Syntaxe & Links: tests/syntaxe.md
       - Glossaire: tests/exemple-glossaire.md
       - Tooltips: tests/tooltips.md
   - Glossaire: glossaire.md
-  - FAQ & Support: faq.md
+  - Support & FAQ: support-faq.md
 
 markdown_extensions:
   - toc:

@@ -46,11 +46,7 @@ Nous sommes avec l'action Air Liquide à l'échelle de temps 1 jour sur une pér
 - SMA 2 = 15
 - EMA = 15
 
-Grâce à l'algorithme en Python :
-
-- [Stratégie automatique des Moyennes Mobiles](https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategy_sma12e.py)
-
-La détection des croisements est marquée par les signaux d'achat triangles verts et les signaux de ventes triangles rouges.
+Grâce à l'[algorithme en Python](#algorithme), la détection des croisements est marquée par les signaux d'achat triangles verts et les signaux de ventes triangles rouges.
 
 Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorithme calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :
 
@@ -95,8 +91,19 @@ Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :
   <figcaption><em>Stratégie automatique des Moyennes Mobiles</em></figcaption>
 </figure>
 
+## Algorithme
+
+Open Software, d'écouvrez l'implémentation de la stratégie des moyennes mobiles au sein de la plateforme :
+
+- <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategy_sma12e.py" target="_blank">Stratégie automatique des Moyennes Mobiles</a>
+
+
+
+
 ## Conclusion
 
-Cette stratégie est primodiale pour caractériser une action (stock) afin de déterminer s'il est intéressant de la trader. Elle vous donne une indication sur combien vous pourriez gagner si vous effectuez tous les trades sur cette action.
+Cette stratégie est primodiale pour caractériser une action (stock) afin de déterminer s'il est intéressant de la trader. 
+
+Elle vous donne une indication sur combien vous pourriez gagner, si vous effectuez tous les trades indiqués par la stratégie sur cette action.
 
 N'hésitez plus venez faire vos analyses techniques avec la plateforme [TradingInPython](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html).

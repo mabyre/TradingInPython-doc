@@ -88,6 +88,9 @@ OBV: |
 
   - Les divergences entre l'OBV et le prix peuvent signaler des retournements potentiels du marché.
 
+Python: |
+  Langage de programmation utilisé pour le développement de la plateforme TradingInPython.
+
 RSI: |
   Relative Strength Index : mesure la force du mouvement d'un actif.
 

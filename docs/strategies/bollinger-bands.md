@@ -1,6 +1,6 @@
 # Bandes de Bollinger
 
-Sur le Net, la documentation sur les **Bandes de Bollinger** est plétorique, voici leur mise en oeuvre dans la plateforme.
+Sur le Net, la documentation sur les **Bandes de Bollinger** est plétorique, voici la mise en oeuvre des {{ "Bolls" | g_link }} dans la plateforme.
 
 Voici la stratégie des **Bandes de Bollinger** sur quatre horizons de temps différents :
 
