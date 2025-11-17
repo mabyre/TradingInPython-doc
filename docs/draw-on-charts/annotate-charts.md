@@ -24,7 +24,7 @@ La deuxième en cliquant sur **"CROSS"** annotation en croix, projette le cours 
 
 - **(2)** La barre verticale se poursuit dans les graphes secondaires.
 
-En utilisant la **touche 'V'** comme dans [Annoter les prix/dates](./annote-price-date.md.md) vous pouvez marquer les résistances et les support du cours de l'action.
+En utilisant la **touche 'V'** comme dans [Annoter les prix/dates](./annote-price-date.md) vous pouvez marquer les résistances et les support du cours de l'action.
 
 Pour stopper les annotations, **décochez** simplement les cases à cocher.
 
