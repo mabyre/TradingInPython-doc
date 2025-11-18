@@ -27,3 +27,19 @@ article h1::before {
 .md-content h1::before {
     content: none !important;
 }
+
+/* couleurs de texte */
+.text-red {
+    color: red;
+    font-weight: bold;
+}
+
+.text-green {
+    color: green;
+    font-weight: bold;
+}
+
+.text-keyword {
+    color: #546D78;
+    font-weight: bold;
+}

@@ -1,20 +1,26 @@
+""" 
+    Define the function to add glossary terms as link & tooltips
+    - Filters_for_glossary_tooltips_and_links
+    
+    Define the function to add indicators terms as link & tooltips
+    - Filters_for_Indicators
+"""
 import yaml
 from markupsafe import Markup, escape
 
-# Define the function to add glossary terms as link & tooltips
-#
-# Define the function to add indicators terms as link & tooltips
-#
 def define_env( env ):
-    with open("docs/glossaire.yml", "r", encoding="utf-8") as f:
-        glossary = yaml.safe_load(f)
-
-    with open("docs/indicators.yml", "r", encoding="utf-8") as f:
-        indicators = yaml.safe_load(f)
+    
+    # Text color filters
+    
+    @env.filter
+    def keyword(text):
+        return f'<span class="text-keyword">{text}</span>'
     
     #
-    # Filters for glossary tooltips and links
+    # Filters_for_glossary_tooltips_and_links
     #
+    with open("docs/glossaire.yml", "r", encoding="utf-8") as f:
+        glossary = yaml.safe_load(f)
     
     @env.filter
     def g_tooltip( term ):
@@ -80,8 +86,10 @@ def define_env( env ):
         return Markup("\n".join(lines))
 
     #
-    # Filters for Indicators
+    # Filters_for_Indicators
     #
+    with open("docs/indicators.yml", "r", encoding="utf-8") as f:
+        indicators = yaml.safe_load(f)
     
     @env.filter
     def i_tooltip( term ):

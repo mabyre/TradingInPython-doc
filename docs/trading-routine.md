@@ -1,6 +1,6 @@
 # Votre routine de trading au quotidien
 
-Nous allons aborder rapidement chacune des stratégies de la plateforme et leur mise en oeuvre dans un l'ensemble global qu'est la **routine de trading**.
+Nous allons aborder rapidement chacune des stratégies de la plateforme et leur mise en oeuvre dans un l'ensemble global qu'est la {{ "routine de trading" | keyword }}.
 
 Avoir une routine bien rodée, c'est la clef d'un bon trader. Pour trader correctement et avoir une chance de gagner, vous devez avoir une démarche proactive et régulière vis à vis des marchés.
 
@@ -18,7 +18,8 @@ Les stratégies de la plateforme sont là pour déterminer la tendance et faire 
 
 ## Première analyse avec Ichimoku Kinko Hyo
 
-Disons que si vous souhaitez <b>faire une première analyse</b> de l'action que vous venez de trouver, pour dégager des tendances globales, l'<b><span style="color: #0b5394;">Ichimoku Kinko Hyo</span></b> est une stratégie idéale pour dégager de grandes tendances fortes :
+Disons que si vous souhaitez {{ "faire une première analyse" | keyword }} de l'action que vous venez de trouver, pour dégager des tendances globales, l'
+{{ "Ichimoku Kinko Hyo" | keyword }} est une stratégie idéale pour dégager de grandes tendances fortes :
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeJJFyyN-gXmjxgiyN1cnEZNYagH16t4JDJkBJ3LO5RkH3Npyv5zhmCQEAApZttoZZzv71cf2GtacGmFUVDIs900l_mm3k_Mqfw7orf3qkW7zP1fy0tyNYwsWBvkfL-gK44AX63rSXxFxLuwr3kKGz70JnZ1pkgLWTgrF_hYbhaEDlqoj5ssz-c2y7nYAV/s960/2025-01-23_09h55_04.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="600" data-original-width="960" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeJJFyyN-gXmjxgiyN1cnEZNYagH16t4JDJkBJ3LO5RkH3Npyv5zhmCQEAApZttoZZzv71cf2GtacGmFUVDIs900l_mm3k_Mqfw7orf3qkW7zP1fy0tyNYwsWBvkfL-gK44AX63rSXxFxLuwr3kKGz70JnZ1pkgLWTgrF_hYbhaEDlqoj5ssz-c2y7nYAV/w640-h400/2025-01-23_09h55_04.png" title="TradingInPython" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie de l'Ichoku Kinko Hyo</td></tr></tbody></table>
 
@@ -28,7 +29,7 @@ Vous trouverez de la formation et des exemples sur cette stratégie sur ce site 
 
 ## Bollinger Bands Multiframes
 
-En complément de l'analyse Ichimoku Kinko Hyo, pour une première analyse, vous pouvez utiliser la stratégie **FTMA Bolls Multiframes (For Timeframes Mobile Average)**, les FTMA Bolls&nbsp;sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.
+En complément de l'analyse Ichimoku Kinko Hyo, pour une première analyse, vous pouvez utiliser la stratégie {{ "FTMA Bolls Multiframes (For Timeframes Mobile Average)" | keyword }}, les FTMA Bolls sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhfkrgEgwiId9bNdZHWqlQ0hf8jVqGcsyYgPNOkEmbcwvUPodjZ3PEwoMiObTxBP28q3HhPL0bNEEznlR0pPnzv4Ai0R-2x6MDyNvjUbWq1QcnsdlIj3j1tidp0gdHJg97PSLDvRC_P3CvQBjs9ksq4qBB-NjJ532lgF9v0MWuipBtfxVX2oCIsNedolEI/s1272/2025-05-07_10h34_58.png" style="margin-left: auto; margin-right: auto;"><img alt="Stratégie des FTABolls Multiframes" border="0" data-original-height="741" data-original-width="1272" height="372" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhfkrgEgwiId9bNdZHWqlQ0hf8jVqGcsyYgPNOkEmbcwvUPodjZ3PEwoMiObTxBP28q3HhPL0bNEEznlR0pPnzv4Ai0R-2x6MDyNvjUbWq1QcnsdlIj3j1tidp0gdHJg97PSLDvRC_P3CvQBjs9ksq4qBB-NjJ532lgF9v0MWuipBtfxVX2oCIsNedolEI/w640-h372/2025-05-07_10h34_58.png" title="Stratégie des FTABolls Multiframes" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie des FTMA Bollinger bands Multiframes</td></tr></tbody></table>
 

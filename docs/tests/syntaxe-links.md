@@ -1,5 +1,31 @@
 # Syntaxe Markdown
 
+## Colors
+
+Du texte en <span class="text-red">rouge et en bold</span>
+
+```html
+<span class="text-red">rouge et en bold</span>
+```
+
+Du texte en <span class="text-green">vert et en bold</span>
+
+Du texte en <span class="text-keyword">couleur keyword bold</span>
+
+```html
+<span class="text-keyword">vert et en keyword bold</span>
+```
+
+Grâce au @env.filter dans main.py :
+
+{{ "Ce texte est en couleur 'keyword'" | keyword }}
+
+```markdown
+{% raw %}
+{{ "Ce texte est en couleur 'keyword'" | keyword }}
+{% endraw %}
+```
+
 
 ## Décalage des listes à puces 
 
