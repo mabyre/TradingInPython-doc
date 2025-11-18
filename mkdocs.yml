@@ -53,6 +53,7 @@ nav:
       - Intraday VWAP + Stoch: strategies/intraday-vwap-stoch.md
       - Analyse Volumique: strategies/analyse-pression-volumique.md
       - Fractals de Bill Williams: strategies/fractals-bill-williams.md
+      - Gator Alligator S: strategies/gator-alligator-s.md
       - Filtre de Kalman: strategies/kalman-filter.md
       - Prédiction IA (Keras/Tensorflow/JAX): strategies/prediction_ai.md
   - Heatmap & Screeners: 
