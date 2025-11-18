@@ -1,12 +1,42 @@
 Action: |
   Titre représentant une part du capital d'une entreprise. Souvent appelé "stock" en anglais.
 
+Breakout: |
+  Un breakout (cassure) est un mouvement de prix où l'actif sort d'une zone clé.
+
+  Généralement :
+
+    - une résistance (vers le haut)
+
+    - un support (vers le bas)
+
+    - une figure chartiste (triangle, range, canal, etc.)
+
+  Lors d'un breakout :
+
+    - Le prix traverse et clôture au-delà de ce niveau clé.
+
+    - L'idée est que cela indique un changement de dynamique ou un début de nouvelle tendance.
+
+  Les traders recherchent un breakout accompagné de volume, gage de validité afin de profiter d'un départ de tendance avant tout le monde.
+
 MatPlotLib: |
   Bibliothèque de visualisation de données en Python, utilisée pour créer des graphiques et des visualisations statiques, animées et interactives.
 
+Pullback: | 
+  Un pullback (retour sur cassure) est un mouvement où, après un breakout :
+
+  Le prix revient tester la résistance cassée (devenue support) ou revient tester le support cassé (devenu résistance).
+
+  C'est un mécanisme technique classique :
+  Le prix revient respirer, valider la cassure, puis reprend la tendance initiée par le breakout.
+
+  Objectif d'un pullback :
+
+  - Entrer à un meilleur prix après le breakout, avec un risque plus faible et une validation de marché.
+
 Python: |
   Langage de programmation utilisé pour le développement de la plateforme TradingInPython.
-
 
 Slope: |
   Ce terme est utilisé pour désigner la pente de la droite 'a' dans l'équation: y = a.x + b. 
@@ -14,6 +44,9 @@ Slope: |
   Le Slope indique la croissance ou la décroissance en pourcent de l'action c'est à dire le gain ou la perte que vous pouvez faire pour 100 unités de temps.
 
   Il est inutile de trader des actions avec un Slope trop faible.
+
+Spread: |
+  Désigne la fourchette entre le prix d'achat (offre/bid) pour entrer sur le marché et le prix de vente (demande/ask) pour sortir de position sur le marché d'une action.  
 
 Stock: |
   Terme anglais pour 'action', représentant une part du capital d'une entreprise.

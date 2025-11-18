@@ -3,22 +3,36 @@
     - Filters_for_glossary_tooltips_and_links
     
     Define the function to add indicators terms as link & tooltips
-    - Filters_for_Indicators
+    - Filters_for_indicators
+    
+    - Text_color_filters
 """
+from email.mime import text
 import yaml
 from markupsafe import Markup, escape
 
 def define_env( env ):
     
-    # Text color filters
+    #
+    # Text_color_filters
+    #
     
     @env.filter
-    def keyword(text):
+    def keyword( text ):
         return f'<span class="text-keyword">{text}</span>'
+
+    @env.filter
+    def green( text ):
+        return f'<span class="text-green">{text}</span>'
     
+    @env.filter
+    def red( text ):
+        return f'<span class="text-red">{text}</span>'
+        
     #
     # Filters_for_glossary_tooltips_and_links
     #
+    
     with open("docs/glossaire.yml", "r", encoding="utf-8") as f:
         glossary = yaml.safe_load(f)
     
@@ -87,8 +101,9 @@ def define_env( env ):
         return Markup("\n".join(lines))
 
     #
-    # Filters_for_Indicators
+    # Filters_for_indicators
     #
+    
     with open("docs/indicators.yml", "r", encoding="utf-8") as f:
         indicators = yaml.safe_load(f)
     

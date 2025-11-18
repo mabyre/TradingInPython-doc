@@ -57,9 +57,9 @@ Ici avec une échelle de temps de "1h" je positionne mes FTMA Bolls à 8 12 16 2
 
 Après une analyse globale et rapide du titre grâce à l'[Ichimoku Kinko Hyo](./strategies/ichimoku_kinko_hyo.md), vous souhaitez peaufiner votre analyse par exemple en découvrant si en ce moment les acheteurs sont à la manœuvre ou si ce sont plutôt les vendeurs qui manœuvrent.
 
-L'analyse des flux volumiques par la stratégie <b><span style="color: #0b5394;">Volume Buy/Sell</span></b> est idéale pour ce genre d'analyse.
+L'analyse des flux volumiques par la stratégie {{ "Volume Buy/Sell" | keyword }} est idéale pour ce genre d'analyse.
 
-C'est une stratégie exclusive sur la plateforme <b>TradingInPython</b> et que vous ne trouverez pas sur d'autre plateforme.
+C'est une stratégie exclusive sur la plateforme {{ "TradingInPython" | keyword }} et que vous ne trouverez pas sur d'autre plateforme.
 
 En vous abonnant vous aurez accès à la formation complète sur cette stratégie.
 
@@ -70,7 +70,7 @@ Ici la pression de vente qui s'exerce sur LEGRAND est de 0.53 %. La pression du 
 - <a href="https://www.trading-et-data-analyses.com/2025/02/formation-analyse-pression-volumiques-des-flux.html" target="_blank">Formation - Analyse de la pression volumique</a>
 - <a href="https://www.trading-et-data-analyses.com/2025/04/analyse-de-pression-volumique.html" target="_blank">Vidéo de démo - Analyse de la pression volumique</a>
 
-Maintenant si vous décidez d'entrer ou de sortir de position, les deux stratégies **Moyennes Mobiles 1/2/E** et les **Fractales Bill Williams** sont indiquées pour lire dans les signaux automatiques d'achat et de vente. Là encore vous trouverez de la formation et des exemples sur ce site et ailleurs.
+Maintenant si vous décidez d'entrer ou de sortir de position, les deux stratégies {{ "Moyennes Mobiles 1/2/E" | keyword }} et les {{ "Fractales Bill Williams" | keyword }} sont indiquées pour lire dans les signaux automatiques d'achat et de vente. Là encore vous trouverez de la formation et des exemples sur ce site et ailleurs.
 
 ## Moyennes Mobiles 1/2/E
 
@@ -78,14 +78,15 @@ C'est la fameuse stratégie automatique par les deux moyennes mobiles et la moye
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfVM99yyWNGvwdgPSQEoj08vSzbmgPNvgfEIq3EN6LK45TN-Gc-XEaKm1arhNLmJdnQ_evX0yOAfhm2Zyf9lOlSxB2RuHJZjG9-dhJ7cCLOdAf1Klvtfk-smsgkhiMrLBiFBTZSLS9hbh2JkyMZu_MICYOUmvPfM3bNXNFacfIaMBflfnqhzJ5KXDGYl0q/s1194/2025-04-30_11h38_17.png" style="margin-left: auto; margin-right: auto;"><img alt="Stratégie automatique de trading par les moyennes mobiles" border="0" data-original-height="752" data-original-width="1194" height="404" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfVM99yyWNGvwdgPSQEoj08vSzbmgPNvgfEIq3EN6LK45TN-Gc-XEaKm1arhNLmJdnQ_evX0yOAfhm2Zyf9lOlSxB2RuHJZjG9-dhJ7cCLOdAf1Klvtfk-smsgkhiMrLBiFBTZSLS9hbh2JkyMZu_MICYOUmvPfM3bNXNFacfIaMBflfnqhzJ5KXDGYl0q/w640-h404/2025-04-30_11h38_17.png" title="Stratégie automatique de trading par les moyennes mobiles" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie automatique de trading par les moyennes mobiles</td></tr></tbody></table>
 
-Lorsque la moyenne mobile <b><span style="color: #0b5394;">ma1</span></b> passe au dessous de <b><span style="color: #0b5394;">ma2</span></b> et que l'exponentielle est au dessus des deux moyennes mobiles c'est un signal d'achat (<b><span style="color: #38761d;">triangle vert</span></b>) une tendance haussière débute.
+Lorsque la moyenne mobile {{ "ma1" | keyword }} passe au dessous de {{ "ma2" | keyword }} et que l'exponentielle est au dessus des deux moyennes mobiles c'est un signal d'achat {{ "(triangle vert)" | green }} une tendance haussière débute.
 
-Inversement, lorsque&nbsp; <span style="color: #0b5394;"><b>ma1</b></span> passe en dessous <span style="color: #0b5394;"><b>ma2</b></span> et que l'exponentielle est en dessous de ma1 et ma2 c'est un signal de vente (<span style="color: red;"><b>triangle rouge</b></span>) une tendance baissière débute.
+Inversement, lorsque  {{ "ma1" | keyword }} passe en dessous {{ "ma2" | keyword }} et que l'exponentielle est en dessous de ma1 et ma2 c'est un signal de vente {{ "(triangle rouge)" | red }} une tendance baissière débute.
 
-L'intérêt de cette stratégie c'est qu'elle permet de calculer la rentabilité d'une action, le <a href="/2024/01/termes-boursiers.html#Le_Spread" target="_blank">Spread</a> qui est ici pour DASSAULT AVIATION est de 126,50. Cela signifie que si vous aviez suivi tous les signaux d'achat et de vente de cette stratégie, vous auriez gagné le Spread.
+L'intérêt de cette stratégie c'est qu'elle permet de calculer la rentabilité d'une action, le {{ "Spread" | g_link }} qui est ici pour DASSAULT AVIATION est de 126,50. Cela signifie que si vous aviez suivi tous les signaux d'achat et de vente de cette stratégie, vous auriez gagné le Spread.
 
-Le Spread est un indicateur intéressant car il permet de se rendre compte du rendement de l'action, il est en général, peu intéressant de trader des actions avec peu de Spread.
-En ajustant les valeurs de ma1, ma2 et mae (exponentielle) vous augmentez ou diminuez le <a href="/2024/01/termes-boursiers.html#Le_Spread" target="_blank">Spread</a> ce qui vous permet d'ajuster votre stratégie.
+Le {{ "Spread" | g_tooltip }} est un indicateur intéressant car il permet de se rendre compte du rendement de l'action, il est en général, peu intéressant de trader des actions avec peu de Spread.
+
+En ajustant les valeurs de ma1, ma2 et mae (exponentielle) vous augmentez ou diminuez le Spread ce qui vous permet d'ajuster votre stratégie.
 
 Vous avez raté quelque chose, vous pouvez visionner la vidéo de la chaîne YouTube :
 
@@ -95,7 +96,7 @@ Vous avez raté quelque chose, vous pouvez visionner la vidéo de la chaîne You
 
 N'hésitez pas à vous abonner pour ne rien rater des évolutions de la plateforme.Autre vidéo sur les moyennes mobiles avec les graphes dynamiques :
 
-<ul style="text-align: left;"><li><a href="/2025/04/graphes-dynamiques-strategie-des.html">Vidéo de démo - Stratégie des moyennes mobiles</a></li></ul>
+<ul style="text-align: left;"><li><a href="https://www.trading-et-data-analyses.com/2025/04/graphes-dynamiques-strategie-des.html">Vidéo de démo - Stratégie des moyennes mobiles</a></li></ul>
 
 ## Fractales de Bill Williams + SAR
 
