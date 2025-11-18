@@ -1,8 +1,8 @@
 # Tour rapide
 
-Découvrez rapidement les grands modules que vous trouverez dans **TradingInPython**, la plateforme dédiée au trading technique.
+Découvrez rapidement les grands modules que vous trouverez dans {{ "TradingInPython" | keyword }}, la plateforme dédiée au trading technique.
 
-La plateforme **TradingInPython** est un ensemble complet de trading avec :
+La plateforme {{ "TradingInPython" | keyword }} est un ensemble complet de trading avec :
 
 - des analyses techniques,
 - des cartes chaleurs et de performance pour surveiller des marchés,
@@ -17,13 +17,13 @@ Ce tour rapide vous présente rapidement les stratégies automatiques de trading
 
 Dans cet exemple, on récupère les données du cours de TRIGANO pour la période des six derniers mois `6mo` par intervalle de 1 jour `1d`.
 
-La stratégie de trading technique choisie est **Ichimoku Kynko Hyo :**
+La stratégie de trading technique choisie est {{ "Ichimoku Kynko Hyo" | keyword }} :
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQX2QWPYA7PgjADA7_QG1wdUGsr4-ngWaFFyeeOQ5zk29iUNOhYxXrCIC9KPWQVTqQ2Dc1pkhu_cJmHvnQ4Rlt9WQCdT4V1hB8CgX0ZZ3rK_pdWJafCZpbFRaURM3eYZFQZ_ZM32V45bfmxZUggzNtS1vbho9C3PUiUCn0YV-qBYzcCXkO7vfojOBOx3l0/s640/2025-06-13_16h31_08.png" style="margin-left: auto; margin-right: auto;"><img alt="Plateforme de trading technique gratuite - TradingInPython" border="0" data-original-height="452" data-original-width="640" height="452" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQX2QWPYA7PgjADA7_QG1wdUGsr4-ngWaFFyeeOQ5zk29iUNOhYxXrCIC9KPWQVTqQ2Dc1pkhu_cJmHvnQ4Rlt9WQCdT4V1hB8CgX0ZZ3rK_pdWJafCZpbFRaURM3eYZFQZ_ZM32V45bfmxZUggzNtS1vbho9C3PUiUCn0YV-qBYzcCXkO7vfojOBOx3l0/w640-h452/2025-06-13_16h31_08.png" title="Plateforme de trading technique gratuite - TradingInPython" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Plateforme de trading technique gratuite - TradingInPython</td></tr></tbody></table>
 
-Un fois ces éléments renseignés, vous cliquez sur le bouton **Graphique** pour afficher l'analyse technique de l'action ({{ "Stock" | g_tooltip }}).
+Un fois ces éléments renseignés, vous cliquez sur le bouton {{ "Graphique" | keyword }} pour afficher l'analyse technique de l'action ({{ "Stock" | g_tooltip }}).
 
-Pour ce tour rapide de la Plateforme de Trading Technique, voici une analyse avec **Ichimoku Kinko Hyo**, pour l'action TRIGANO :
+Pour ce tour rapide de la Plateforme de Trading Technique, voici une analyse avec {{ "Ichimoku Kynko Hyo" | keyword }}, pour l'action TRIGANO :
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3GNfq2pdW70XQ1WJ3maEW4cN_bt38teRC6fbPGeOMQBH6_EAJNMbPmaIny0h7yvRg4vJijnOBWhUOsRK3-QYL-jK67rDiRwvEIX1Du4NZnE4jJ9p5sHTASB2lRi_pxJC60vuclb0fucZTymzgNy6n8pu_7Glkr9U3sGlmRdgZgZMuTLG-dgzBvuSVhQGB/s639/2024-12-11_10h36_08.png" style="margin-left: auto; margin-right: auto;"><img alt="Plateforme de Trading and Data Analyse" border="0" data-original-height="398" data-original-width="639" height="398" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3GNfq2pdW70XQ1WJ3maEW4cN_bt38teRC6fbPGeOMQBH6_EAJNMbPmaIny0h7yvRg4vJijnOBWhUOsRK3-QYL-jK67rDiRwvEIX1Du4NZnE4jJ9p5sHTASB2lRi_pxJC60vuclb0fucZTymzgNy6n8pu_7Glkr9U3sGlmRdgZgZMuTLG-dgzBvuSVhQGB/w640-h398/2024-12-11_10h36_08.png" title="Plateforme de Trading and Data Analyse" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Plateforme de Trading and Data Analyse</td></tr></tbody></table>
 
@@ -33,13 +33,13 @@ Pour ce tour rapide de la Plateforme de Trading Technique, voici une analyse ave
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO4UTZBRSw6k-kGKl4oqOSUzUJx29qUh51o9iNo70akXvoqBN3lks98kIKESkAZx5xRLhv0Ni5yNIKWgVZJhCYVMDKR10d2nXyCXmdPgv8NUgbIKqe4gnoSKxw01VvgIZYmM8QwoVn5iWz9HfKvvqT2T-NhwGihOFy8zGPanXHo5r8TZaQYClXxbqC8rz8/s640/2024-12-11_11h09_55.png" style="margin-left: auto; margin-right: auto;"><img alt="Afficher un graphique secondaire" border="0" data-original-height="397" data-original-width="640" height="398" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO4UTZBRSw6k-kGKl4oqOSUzUJx29qUh51o9iNo70akXvoqBN3lks98kIKESkAZx5xRLhv0Ni5yNIKWgVZJhCYVMDKR10d2nXyCXmdPgv8NUgbIKqe4gnoSKxw01VvgIZYmM8QwoVn5iWz9HfKvvqT2T-NhwGihOFy8zGPanXHo5r8TZaQYClXxbqC8rz8/w640-h398/2024-12-11_11h09_55.png" title="Afficher un graphique secondaire" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Afficher un graphique secondaire</td></tr></tbody></table>
 
-Ici j'ai cliqué sur l'indicateur {{ "MACD" | g_link }}, il apparaît dans un graphe secondaire sous le graphe de la Stratégie pour venir la confirmer. Vous pouvez afficher sous le graphe de stratégie un second, un troisième, indicateur et ainsi de suite.
+Ici j'ai cliqué sur l'indicateur {{ "MACD" | i_link }}, il apparaît dans un graphe secondaire sous le graphe de la Stratégie pour venir la confirmer. Vous pouvez afficher sous le graphe de stratégie un second, un troisième, indicateur et ainsi de suite.
 
 - **(4)** C'est le Graphique Ichimoku pour l'action TRIGANO
 
 Vous remarquerez une série de case à cocher également spécifique à la Stratégie Ichimoku. Pour chacune des stratégies, il y a des éléments spécifiques qui viendront s'afficher à cet endroit, des paramètres que vous pourrez manipuler.
 
-Vous pourrez cliquer sur la case **Forcast** (prédiction) pour faire une prédiction du signal d'achat/vente calculée par le réseau de neurones **Keras et Jax** (équivalent de Tensorflow) entraîné sur les données.
+Vous pourrez cliquer sur la case {{ "Forcast" | keyword }} (prédiction) pour faire une prédiction du signal d'achat/vente calculée par le réseau de neurones {{ "Keras et Jax" | keyword }} (équivalent de Tensorflow) entraîné sur les données.
 
 Retrouvez les analyses faites de l'action <a href="https://www.trading-et-data-analyses.com/2024/10/trigano.html#Ichikomu_Kinko_Hyo" target="_blank">TRIGANO</a>.
 
@@ -121,7 +121,7 @@ La plateforme TradingInPython vous permet de gérer autant de portefeuilles que 
 
 ## Conclusion
 
-Vous venez de faire un Tour rapide des fonctionnalités de la plateforme **TradingInPython**.
+Vous venez de faire un Tour rapide des fonctionnalités de la plateforme {{ "TradingInPython" | keyword }}.
 
 Téléchargez le logiciel, abonnez vous :
 

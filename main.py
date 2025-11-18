@@ -60,7 +60,8 @@ def define_env( env ):
         Résultat :
             <a href="{{ base_url }}/glossaire/#rsi">RSI</a>
         """
-        base_url = env.conf['site_url'] if env.conf.get('site_url') else env.variables.get('base_url', '')
+        #base_url = env.conf['site_url'] if env.conf.get('site_url') else env.variables.get('base_url', '')
+        base_url = env.variables.get('base_url', '')
         anchor = term.lower().replace(" ", "-")  # pour les ancres typiques Markdown
         href = f'{base_url}/glossaire/#{anchor}'
         html = f'<a href="{href}">{term}</a>'
@@ -104,7 +105,7 @@ def define_env( env ):
 
     @env.filter
     def i_link( term ):
-        base_url = env.conf['site_url'] if env.conf.get('site_url') else env.variables.get('base_url', '')
+        base_url = env.variables.get('base_url')
         anchor = term.lower().replace(" ", "-")  # pour les ancres typiques Markdown
         href = f'{base_url}/indicators/#{anchor}'
         html = f'<a href="{href}">{term}</a>'
