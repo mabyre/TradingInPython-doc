@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/tests/exemple-glossaire/">
       
       
-        <link rel="prev" href="../syntaxe/">
+        <link rel="prev" href="../syntaxe-links/">
       
       
         <link rel="next" href="../tooltips/">
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#utilisation-du-glosssaire" class="md-skip">
+        <a href="#utilisation-du-glosssaire-et-de-indicators" class="md-skip">
           Aller au contenu
         </a>
       
@@ -550,12 +550,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../strategies/fractals_gator/" class="md-nav__link">
+      <a href="../../strategies/fractals-bill-williams/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Fractals & Gator
+    Fractals de Bill Williams
     
   </span>
   
@@ -1235,7 +1235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../syntaxe/" class="md-nav__link">
+      <a href="../syntaxe-links/" class="md-nav__link">
         
   
   
@@ -1314,12 +1314,45 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Fonction du script main.py">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#glossaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glossaire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#a-la-main" class="md-nav__link">
     <span class="md-ellipsis">
       A la main
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indicators_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicators
     </span>
   </a>
   
@@ -1360,6 +1393,28 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../indicators/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Indicateurs Techniques
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1441,12 +1496,45 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Fonction du script main.py">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#glossaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glossaire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#a-la-main" class="md-nav__link">
     <span class="md-ellipsis">
       A la main
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indicators_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicators
     </span>
   </a>
   
@@ -1471,7 +1559,7 @@
   
 
 
-<h1 id="utilisation-du-glosssaire">Utilisation du Glosssaire<a class="headerlink" href="#utilisation-du-glosssaire" title="Permanent link">&para;</a></h1>
+<h1 id="utilisation-du-glosssaire-et-de-indicators">Utilisation du Glosssaire et de Indicators<a class="headerlink" href="#utilisation-du-glosssaire-et-de-indicators" title="Permanent link">&para;</a></h1>
 <ul>
 <li>
 <p><strong>glossaire.md</strong> : markdown page générée automatiquement avec le contenu du fichier glossaire</p>
@@ -1484,24 +1572,29 @@
 </li>
 </ul>
 <h2 id="fonction-du-script-mainpy">Fonction du script main.py<a class="headerlink" href="#fonction-du-script-mainpy" title="Permanent link">&para;</a></h2>
-<p>Utilisation du filter <strong>g_tooltip</strong> <span title="Moving Average Convergence Divergence" style="border-bottom:1px dotted;cursor:help"><b>MACD</b></span></p>
-<div class="highlight"><pre><span></span><code>{{ &quot;MACD&quot; | g_tooltip }}
+<h3 id="glossaire">Glossaire<a class="headerlink" href="#glossaire" title="Permanent link">&para;</a></h3>
+<p>Utilisation du filter <strong>g_tooltip</strong> <span title="Titre représentant une part du capital d'une entreprise. Souvent appelé "stock" en anglais." style="border-bottom:1px dotted;cursor:help"><b>Action</b></span></p>
+<div class="highlight"><pre><span></span><code>{{ &quot;Action&quot; | g_tooltip }}
 </code></pre></div>
-<p>Utilisation du filter <strong>g_link</strong> <a href="https://mabyre.github.io/TradingInPython-doc//glossaire/#macd">MACD</a></p>
-<div class="highlight"><pre><span></span><code>{{ &quot;MACD&quot; | g_link }}
+<p>Utilisation de la macro <strong>gtooltip</strong> <span title="Bibliothèque de visualisation de données en Python, utilisée pour créer des graphiques et des visualisations statiques, animées et interactives." style="border-bottom:1px dotted;cursor:help"><b>MatPlotLib</b></span></p>
+<div class="highlight"><pre><span></span><code>{{ gtooltip(&quot;MatPlotLib&quot;) }}
 </code></pre></div>
-<p>Utilisation du filter <strong>g_tooltip</strong> <span title="Relative Strength Index : mesure la force du mouvement d'un actif." style="border-bottom:1px dotted;cursor:help"><b>RSI</b></span></p>
-<p>Utilisation du filter <strong>g_link</strong> <a href="https://mabyre.github.io/TradingInPython-doc//glossaire/#rsi">RSI</a></p>
-<div class="highlight"><pre><span></span><code>{{ &quot;RSI&quot; | g_link }}
+<p>Utilisation du filter <strong>g_link</strong> <a href="https://mabyre.github.io/TradingInPython-doc//glossaire/#matplotlib">MatPlotLib</a></p>
+<div class="highlight"><pre><span></span><code>{{ &quot;MatPlotLib&quot; | g_link }}
 </code></pre></div>
-<p>Utilisation de la macro <strong>gtooltip</strong> <span title="Relative Strength Index : mesure la force du mouvement d'un actif." style="border-bottom:1px dotted;cursor:help"><b>RSI</b></span></p>
-<div class="highlight"><pre><span></span><code>{{ gtooltip(&quot;RSI&quot;) }}
+<h3 id="indicators">Indicators<a class="headerlink" href="#indicators" title="Permanent link">&para;</a></h3>
+<p>Utilisation du filter <strong>i_tooltip</strong> <span title="Relative Strength Index : mesure la force du mouvement d'un actif." style="border-bottom:1px dotted;cursor:help"><b>RSI</b></span></p>
+<div class="highlight"><pre><span></span><code>{{ &quot;RSI&quot; | i_link }}
+</code></pre></div>
+<p>Utilisation du filter <strong>i_link</strong> <a href="https://mabyre.github.io/TradingInPython-doc//indicators/#rsi">RSI</a></p>
+<div class="highlight"><pre><span></span><code>{{ &quot;RSI&quot; | i_link }}
 </code></pre></div>
 <h2 id="a-la-main">A la main<a class="headerlink" href="#a-la-main" title="Permanent link">&para;</a></h2>
 <p>Création de Tooltip "à la main" <a href="/TradingInPython-doc/glossaire/#rsi">RSI</a>.</p>
 <p>Voir la définition de <a href="/TradingInPython-doc/glossaire/#ici">ICI</a>.</p>
 <p>Voir la définition de <a href="/TradingInPython-doc/glossaire/#ICI">ICI</a>.</p>
 <p>Voir la définition de <a href="/TradingInPython-doc/glossaire/#ici-cest-la">Ici c'est là</a>.</p>
+<h2 id="indicators_1">Indicators<a class="headerlink" href="#indicators_1" title="Permanent link">&para;</a></h2>
 
 
 
