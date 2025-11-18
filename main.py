@@ -1,12 +1,21 @@
 import yaml
 from markupsafe import Markup, escape
 
-# Define the function to add glossary terms as tooltips
+# Define the function to add glossary terms as link & tooltips
+#
+# Define the function to add indicators terms as link & tooltips
 #
 def define_env( env ):
     with open("docs/glossaire.yml", "r", encoding="utf-8") as f:
         glossary = yaml.safe_load(f)
 
+    with open("docs/indicators.yml", "r", encoding="utf-8") as f:
+        indicators = yaml.safe_load(f)
+    
+    #
+    # Filters for glossary tooltips and links
+    #
+    
     @env.filter
     def g_tooltip( term ):
         """
@@ -47,7 +56,7 @@ def define_env( env ):
         """
         base_url = env.conf['site_url'] if env.conf.get('site_url') else env.variables.get('base_url', '')
         anchor = term.lower().replace(" ", "-")  # pour les ancres typiques Markdown
-        href = f"{base_url}/glossaire/#{anchor}"
+        href = f'{base_url}/glossaire/#{anchor}'
         html = f'<a href="{href}">{term}</a>'
         return Markup( html )
 
@@ -69,4 +78,45 @@ def define_env( env ):
             lines.append( f"{definition}\n" )
 
         return Markup("\n".join(lines))
+
+    #
+    # Filters for Indicators
+    #
     
+    @env.filter
+    def i_tooltip( term ):
+        definition = indicators.get( term )
+        if definition:
+            term_escaped = escape( term )
+            first_line = definition.strip().split("\n", 1)[0]
+            html = f'<span title="{first_line}" style="border-bottom:1px dotted;cursor:help"><b>{term_escaped}</b></span>'
+            return Markup( html )  # Markup = ne pas échapper à l'affichage
+
+        return f'{term} not in indicators'
+
+    @env.filter
+    def i_link( term ):
+        base_url = env.conf['site_url'] if env.conf.get('site_url') else env.variables.get('base_url', '')
+        anchor = term.lower().replace(" ", "-")  # pour les ancres typiques Markdown
+        href = f'{base_url}/indicators/#{anchor}'
+        html = f'<a href="{href}">{term}</a>'
+        return Markup( html )
+
+    # --- Macro : génère la section Markdown complète ---
+    @env.macro
+    def generate_indicators():
+        """
+        Genère le Glossaire dans une page Markdown.
+        
+        Exemple d'utilisation dans glossaire.md :
+            {{ generate_glossary() }}
+        """
+        if not indicators:
+            return Markup("_Aucune entrée dans le glossaire._")
+
+        lines = []
+        for term, definition in indicators.items():
+            lines.append( f"## {escape(term)}\n" )
+            lines.append( f"{definition}\n" )
+
+        return Markup("\n".join(lines))    

@@ -515,6 +515,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#configuration-du-modele-de-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration du modèle de prédiction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#calculer-la-prediction" class="md-nav__link">
     <span class="md-ellipsis">
       Calculer la Prédiction
@@ -672,12 +681,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../fractals_gator/" class="md-nav__link">
+      <a href="../fractals-bill-williams/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Fractals & Gator
+    Fractals de Bill Williams
     
   </span>
   
@@ -1355,7 +1364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/syntaxe/" class="md-nav__link">
+      <a href="../../tests/syntaxe-links/" class="md-nav__link">
         
   
   
@@ -1420,6 +1429,28 @@
           </ul>
         </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../indicators/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Indicateurs Techniques
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1523,6 +1554,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#configuration-du-modele-de-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration du modèle de prédiction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#calculer-la-prediction" class="md-nav__link">
     <span class="md-ellipsis">
       Calculer la Prédiction
@@ -1618,6 +1658,14 @@
 <li><strong>(3)</strong> Choix prédéfinis des longueurs pour les signaux Tenken, Kijun et Senkou</li>
 </ul>
 <h2 id="prediction-keras-et-tensorflow">Prédiction keras et tensorflow<a class="headerlink" href="#prediction-keras-et-tensorflow" title="Permanent link">&para;</a></h2>
+<p>Avec cette stratégie vous avez la possibilité de vous faire aider par l'IA, un signal automatique d'achat et de vente est alors affiché sur le graphique.</p>
+<h3 id="configuration-du-modele-de-prediction">Configuration du modèle de prédiction<a class="headerlink" href="#configuration-du-modele-de-prediction" title="Permanent link">&para;</a></h3>
+<p>Le modèle de prédiction <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html" target="_blank">LogisticRegression de sci-learn</a> est utile pour prédire les signaux d'une stratégie binaire comme à l'achat (1) ou bien à la vente (0)</p>
+<p>Avec notre implémentation ce modèle possède deux paramètres vus au point <strong>(2)</strong> :</p>
+<ul>
+<li>Nombre de jours de la prédiction</li>
+<li>Nombre de jours la fenêtre de prédiction (largeur de la fenêtre mobile)</li>
+</ul>
 <h3 id="calculer-la-prediction">Calculer la Prédiction<a class="headerlink" href="#calculer-la-prediction" title="Permanent link">&para;</a></h3>
 <figure style="text-align: center;"  title="Ichimoku-Kinko-Hyo signal prédiction">
   <a href="/TradingInPython-doc/images/strategies/ichimoku/ichimoky-prediction.png" class="glightbox" data-gallery="galerie">
@@ -1627,9 +1675,11 @@
 </figure>
 
 <ul>
-<li><strong>(1)</strong> Cochez la case <strong>Forcasting</strong> pour afficher le signal de prédiction</li>
-<li><strong>(2)</strong> Le signal de prédiction calculer par l'entrainement du réseau de neurones</li>
+<li><strong>(1)</strong> Cochez la case <strong>Forcasting</strong> pour afficher le signal de prédiction.</li>
+<li><strong>(2)</strong> Un signal à trois états, achat de vente et neutre, est généré par l'entrainement de l'IA.</li>
+<li><strong>(3)</strong> Un réseau de neurones <strong>Keras</strong> est entrainé sur les données du passé pour délivrer sa prédiction.</li>
 </ul>
+<p>Ici AIR LIQUIDE est à l'achat.</p>
 <h3 id="lire-le-signal-de-prediction">Lire le signal de prédiction<a class="headerlink" href="#lire-le-signal-de-prediction" title="Permanent link">&para;</a></h3>
 <figure style="text-align: center;">
   <a href="/TradingInPython-doc/images/strategies/ichimoku/ichimoky-prediction-signal.png" title="Ichimoku-Kinko-Hyo prédiction" target="_blank">

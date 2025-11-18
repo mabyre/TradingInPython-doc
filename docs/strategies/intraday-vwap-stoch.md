@@ -21,4 +21,4 @@ sont là pour donner des valeurs aux moyennes mobiles de l'indicateur STOCH.
 
 Dans cette stratégie vous avez également deux autres indicateurs l'ATR et le OBV.
 
-Si le prix est au dessus du {{ "VWAP" | g_tooltip }} alors il est surestimé et une correction vers le bas pourrait se produire, si au contraire le prix est en dessous, une correction à la hausse pourrait se produire.
+Si le prix est au dessus du {{ "VWAP" | i_tooltip }} alors il est surestimé et une correction vers le bas pourrait se produire, si au contraire le prix est en dessous, une correction à la hausse pourrait se produire.

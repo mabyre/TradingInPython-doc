@@ -32,6 +32,17 @@ Remarquez l'interface de configuration avec trois parties :
 
 ## Prédiction keras et tensorflow
 
+Avec cette stratégie vous avez la possibilité de vous faire aider par l'IA, un signal automatique d'achat et de vente est alors affiché sur le graphique.
+
+### Configuration du modèle de prédiction
+
+Le modèle de prédiction <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html" target="_blank">LogisticRegression de sci-learn</a> est utile pour prédire les signaux d'une stratégie binaire comme à l'achat (1) ou bien à la vente (0)
+
+Avec notre implémentation ce modèle possède deux paramètres vus au point **(2)** :
+
+- Nombre de jours de la prédiction
+- Nombre de jours la fenêtre de prédiction (largeur de la fenêtre mobile)
+
 ### Calculer la Prédiction
 
 <figure style="text-align: center;"  title="Ichimoku-Kinko-Hyo signal prédiction">
@@ -41,8 +52,11 @@ Remarquez l'interface de configuration avec trois parties :
   <figcaption><em>Ichimoku-Kinko-Hyo Calculer la prédiction</em></figcaption>
 </figure>
 
-- **(1)** Cochez la case **Forcasting** pour afficher le signal de prédiction
-- **(2)** Le signal de prédiction calculer par l'entrainement du réseau de neurones
+- **(1)** Cochez la case **Forcasting** pour afficher le signal de prédiction.
+- **(2)** Un signal à trois états, achat de vente et neutre, est généré par l'entrainement de l'IA.
+- **(3)** Un réseau de neurones **Keras** est entrainé sur les données du passé pour délivrer sa prédiction.
+
+Ici AIR LIQUIDE est à l'achat.
 
 ### Lire le signal de prédiction
 

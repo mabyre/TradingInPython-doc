@@ -1,4 +1,4 @@
-# Utilisation du Glosssaire
+# Utilisation du Glosssaire et de Indicators
 
 - **glossaire.md** : markdown page générée automatiquement avec le contenu du fichier glossaire
 
@@ -8,39 +8,51 @@
 
 ## Fonction du script main.py
 
-Utilisation du filter **g_tooltip** {{ "MACD" | g_tooltip }}
+### Glossaire
+
+Utilisation du filter **g_tooltip** {{ "Action" | g_tooltip }}
 
 ```
 {% raw %}
-{{ "MACD" | g_tooltip }}
+{{ "Action" | g_tooltip }}
 {% endraw %}
 ```
 
-Utilisation du filter **g_link** {{ "MACD" | g_link }}
+Utilisation de la macro **gtooltip** {{ gtooltip("MatPlotLib") }}
 
 ```
 {% raw %}
-{{ "MACD" | g_link }}
+{{ gtooltip("MatPlotLib") }}
 {% endraw %}
 ```
 
-Utilisation du filter **g_tooltip** {{ "RSI" | g_tooltip }}
 
-Utilisation du filter **g_link** {{ "RSI" | g_link }}
+Utilisation du filter **g_link** {{ "MatPlotLib" | g_link }}
 
 ```
 {% raw %}
-{{ "RSI" | g_link }}
+{{ "MatPlotLib" | g_link }}
 {% endraw %}
 ```
 
-Utilisation de la macro **gtooltip** {{ gtooltip("RSI") }}
+### Indicators
+
+Utilisation du filter **i_tooltip** {{ "RSI" | i_tooltip }}
 
 ```
 {% raw %}
-{{ gtooltip("RSI") }}
+{{ "RSI" | i_link }}
 {% endraw %}
 ```
+
+Utilisation du filter **i_link** {{ "RSI" | i_link }}
+
+```
+{% raw %}
+{{ "RSI" | i_link }}
+{% endraw %}
+```
+
 
 ## A la main
 
@@ -51,3 +63,5 @@ Voir la définition de [ICI]({{ base_url }}/glossaire/#ici).
 Voir la définition de [ICI]({{ base_url }}/glossaire/#ICI).
 
 Voir la définition de [Ici c'est là]({{ base_url }}/glossaire/#ici-cest-la).
+
+## Indicators

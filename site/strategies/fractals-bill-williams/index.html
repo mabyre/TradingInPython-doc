@@ -12,26 +12,28 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/support-faq/">
+        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/strategies/fractals-bill-williams/">
       
       
-        <link rel="prev" href="../glossaire/">
+        <link rel="prev" href="../analyse-pression-volumique/">
       
       
+        <link rel="next" href="../kalman-filter/">
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
-        <title>Support & FAQ - TradingInPython</title>
+        <title>Fractals de Bill Williams - TradingInPython</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -50,15 +52,15 @@
       
     
     
-      <link rel="stylesheet" href="../css/timeago.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
     
-      <link rel="stylesheet" href="../css/glightbox.min.css">
+      <link rel="stylesheet" href="../../css/glightbox.min.css">
     
-      <link rel="stylesheet" href="../css/extra.css">
+      <link rel="stylesheet" href="../../css/extra.css">
     
-      <link rel="stylesheet" href="../css/summary.css">
+      <link rel="stylesheet" href="../../css/summary.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -82,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#faq" class="md-skip">
+        <a href="#fractals-de-bill-williams" class="md-skip">
           Aller au contenu
         </a>
       
@@ -98,7 +100,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href=".." title="TradingInPython" class="md-header__button md-logo" aria-label="TradingInPython" data-md-component="logo">
+    <a href="../.." title="TradingInPython" class="md-header__button md-logo" aria-label="TradingInPython" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -118,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Support & FAQ
+              Fractals de Bill Williams
             
           </span>
         </div>
@@ -210,7 +212,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="TradingInPython" class="md-nav__button md-logo" aria-label="TradingInPython" data-md-component="logo">
+    <a href="../.." title="TradingInPython" class="md-nav__button md-logo" aria-label="TradingInPython" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -240,7 +242,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -262,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tour-rapide/" class="md-nav__link">
+      <a href="../../tour-rapide/" class="md-nav__link">
         
   
   
@@ -284,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../recuperation-des-data/" class="md-nav__link">
+      <a href="../../recuperation-des-data/" class="md-nav__link">
         
   
   
@@ -306,7 +308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../voyage-dans-le-temps/" class="md-nav__link">
+      <a href="../../voyage-dans-le-temps/" class="md-nav__link">
         
   
   
@@ -328,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../select_stock/" class="md-nav__link">
+      <a href="../../select_stock/" class="md-nav__link">
         
   
   
@@ -350,7 +352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trading-routine/" class="md-nav__link">
+      <a href="../../trading-routine/" class="md-nav__link">
         
   
   
@@ -369,18 +371,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -396,7 +400,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Stratégies intégrées
@@ -410,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -433,7 +437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/ichimoku_kinko_hyo/" class="md-nav__link">
+      <a href="../ichimoku_kinko_hyo/" class="md-nav__link">
         
   
   
@@ -456,7 +460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/moyennes-mobiles/" class="md-nav__link">
+      <a href="../moyennes-mobiles/" class="md-nav__link">
         
   
   
@@ -479,7 +483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/bollinger-bands/" class="md-nav__link">
+      <a href="../bollinger-bands/" class="md-nav__link">
         
   
   
@@ -502,7 +506,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/intraday-vwap-stoch/" class="md-nav__link">
+      <a href="../intraday-vwap-stoch/" class="md-nav__link">
         
   
   
@@ -525,7 +529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/analyse-pression-volumique/" class="md-nav__link">
+      <a href="../analyse-pression-volumique/" class="md-nav__link">
         
   
   
@@ -545,10 +549,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../strategies/fractals-bill-williams/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Fractals de Bill Williams
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -559,6 +585,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ojectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ojectifs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implémentation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -571,7 +635,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/kalman-filter/" class="md-nav__link">
+      <a href="../kalman-filter/" class="md-nav__link">
         
   
   
@@ -594,7 +658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/prediction_ai/" class="md-nav__link">
+      <a href="../prediction_ai/" class="md-nav__link">
         
   
   
@@ -662,7 +726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../heatmap-screener/screeners/" class="md-nav__link">
+      <a href="../../heatmap-screener/screeners/" class="md-nav__link">
         
   
   
@@ -685,7 +749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../heatmap-screener/heatmaps/" class="md-nav__link">
+      <a href="../../heatmap-screener/heatmaps/" class="md-nav__link">
         
   
   
@@ -753,7 +817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-alerts/monitor-stock-market/" class="md-nav__link">
+      <a href="../../monitor-alerts/monitor-stock-market/" class="md-nav__link">
         
   
   
@@ -776,7 +840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-alerts/alertes-techniques/" class="md-nav__link">
+      <a href="../../monitor-alerts/alertes-techniques/" class="md-nav__link">
         
   
   
@@ -806,7 +870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../portfolio-manager/" class="md-nav__link">
+      <a href="../../portfolio-manager/" class="md-nav__link">
         
   
   
@@ -866,7 +930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/navigate-on-charts/" class="md-nav__link">
+      <a href="../../draw-on-charts/navigate-on-charts/" class="md-nav__link">
         
   
   
@@ -889,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/draw-trend-lines/" class="md-nav__link">
+      <a href="../../draw-on-charts/draw-trend-lines/" class="md-nav__link">
         
   
   
@@ -912,7 +976,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/annote-price-date/" class="md-nav__link">
+      <a href="../../draw-on-charts/annote-price-date/" class="md-nav__link">
         
   
   
@@ -935,7 +999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/annotate-charts/" class="md-nav__link">
+      <a href="../../draw-on-charts/annotate-charts/" class="md-nav__link">
         
   
   
@@ -1003,7 +1067,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/ui-configuration/" class="md-nav__link">
+      <a href="../../interface-configuration/ui-configuration/" class="md-nav__link">
         
   
   
@@ -1026,7 +1090,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/windows-management/" class="md-nav__link">
+      <a href="../../interface-configuration/windows-management/" class="md-nav__link">
         
   
   
@@ -1049,7 +1113,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/dark-mode/" class="md-nav__link">
+      <a href="../../interface-configuration/dark-mode/" class="md-nav__link">
         
   
   
@@ -1072,7 +1136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/console-bottom-right/" class="md-nav__link">
+      <a href="../../interface-configuration/console-bottom-right/" class="md-nav__link">
         
   
   
@@ -1102,7 +1166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../open-software/" class="md-nav__link">
+      <a href="../../open-software/" class="md-nav__link">
         
   
   
@@ -1162,7 +1226,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/images/" class="md-nav__link">
+      <a href="../../tests/images/" class="md-nav__link">
         
   
   
@@ -1185,7 +1249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/titres/" class="md-nav__link">
+      <a href="../../tests/titres/" class="md-nav__link">
         
   
   
@@ -1208,7 +1272,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/notes/" class="md-nav__link">
+      <a href="../../tests/notes/" class="md-nav__link">
         
   
   
@@ -1231,7 +1295,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/syntaxe-links/" class="md-nav__link">
+      <a href="../../tests/syntaxe-links/" class="md-nav__link">
         
   
   
@@ -1254,7 +1318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/exemple-glossaire/" class="md-nav__link">
+      <a href="../../tests/exemple-glossaire/" class="md-nav__link">
         
   
   
@@ -1277,7 +1341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/tooltips/" class="md-nav__link">
+      <a href="../../tests/tooltips/" class="md-nav__link">
         
   
   
@@ -1307,7 +1371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../indicators/" class="md-nav__link">
+      <a href="../../indicators/" class="md-nav__link">
         
   
   
@@ -1329,7 +1393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../glossaire/" class="md-nav__link">
+      <a href="../../glossaire/" class="md-nav__link">
         
   
   
@@ -1348,19 +1412,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../support-faq/" class="md-nav__link">
         
   
   
@@ -1371,7 +1426,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1396,6 +1450,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ojectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ojectifs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implémentation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1413,21 +1493,19 @@
   
 
 
-<h1 id="faq">Faq<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h1>
-<p>Pour toutes vos demandes, vos questions :</p>
-<ul>
-<li><a href="https://www.trading-et-data-analyses.com/p/formulaire-de-contact.html">Le Blog - Formulaire de contact</a></li>
-</ul>
-<p>Un problème, un bug, une question avec la plateforme :</p>
-<p><em>Pour envoyez un message vous devez avoir un compte GitHub ...</em></p>
-<ul>
-<li><a href="https://github.com/SoDevLog/PyTrading/issues">GitHub - TradingInPython remarques</a></li>
-</ul>
-<p>Vous pouvez également écrire directement au support :</p>
-<ul>
-<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#108;&#97;&#116;&#101;&#102;&#111;&#114;&#109;&#101;&#64;&#115;&#111;&#100;&#101;&#118;&#108;&#111;&#103;&#46;&#99;&#111;&#109;">&#112;&#108;&#97;&#116;&#101;&#102;&#111;&#114;&#109;&#101;&#64;&#115;&#111;&#100;&#101;&#118;&#108;&#111;&#103;&#46;&#99;&#111;&#109;</a></li>
-</ul>
-<p><em>On vous promet une réponse rapide.</em></p>
+<h1 id="fractals-de-bill-williams">Fractals de Bill Williams<a class="headerlink" href="#fractals-de-bill-williams" title="Permanent link">&para;</a></h1>
+<p>L'indicateur technique des fractales de Bill Williams est utilisé pour identifier des points potentiels de retournement du marché. Il sert à repérer des zones clés sur le graphique : sommets locaux résistances et creux locaux supports.</p>
+<h2 id="ojectifs">Ojectifs<a class="headerlink" href="#ojectifs" title="Permanent link">&para;</a></h2>
+<p>Identifier des points de retournement possibles.</p>
+<p>Mettre en évidence la structure du marché.</p>
+<p>Fournir des niveaux d'entrée potentiels pour des stratégies de breakout ou de pullback.</p>
+<h2 id="implementation">Implémentation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/strategies/fractale-bill-williams/interface.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
+        <img src="/TradingInPython-doc/images/strategies/fractale-bill-williams/interface.png"/>
+    </a>
+    <figcaption><em>Interface</em></figcaption>
+</figure>
 
 
 
@@ -1448,7 +1526,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="17 novembre 2025 17:41:18 UTC"><span class="timeago" datetime="2025-11-17T17:41:18+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="17 novembre 2025 17:41:18 UTC">2025-11-17</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="18 novembre 2025 09:17:03 UTC"><span class="timeago" datetime="2025-11-18T09:17:03+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="18 novembre 2025 09:17:03 UTC">2025-11-18</span>
   </span>
 
     
@@ -1548,18 +1626,18 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.top", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
-        <script src="../js/timeago.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="../js/timeago_mkdocs_material.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../js/glightbox.min.js"></script>
+        <script src="../../js/glightbox.min.js"></script>
       
-        <script src="../js/init.js"></script>
+        <script src="../../js/init.js"></script>
       
     
   </body>

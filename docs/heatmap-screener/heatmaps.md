@@ -72,7 +72,7 @@ Les indicateurs techniques sont mauvais pour QBTS, la couleur de la carte est Ro
 
 Dans la fiche technique d'une action, vous retrouvez les indicateurs techniques calculés pour cette action sous surveillance :
 
-{{ "SMA" |  g_tooltip }}, {{ "RSI" | g_tooltip }}, {{ "MACD" | g_tooltip }}, {{ "ADX" | g_tooltip }}, {{ "ATR" | g_tooltip }}, {{ "Bolls" | g_tooltip }}, {{ "OBV" | g_tooltip }} sont calculés et interprétés pour vous dans ce résumé des signaux techniques.
+{{ "SMA" |  i_tooltip }}, {{ "RSI" | i_tooltip }}, {{ "MACD" | i_tooltip }}, {{ "ADX" | i_tooltip }}, {{ "ATR" | i_tooltip }}, {{ "Bolls" | i_tooltip }}, {{ "OBV" | i_tooltip }} sont calculés et interprétés pour vous dans ce résumé des signaux techniques.
 
 Ces Screeners alertes vous permettent de mettre des dizaines d'actions sous surveillance. La case `AUTO 1m` vous permet de recalculer les indicateurs techniques pour la nouvelle période de temps et de rafraîchir la heatmap.
 

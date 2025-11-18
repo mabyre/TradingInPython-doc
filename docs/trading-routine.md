@@ -24,46 +24,18 @@ Disons que si vous souhaitez <b>faire une première analyse</b> de l'action que 
 
 Vous trouverez de la formation et des exemples sur cette stratégie sur ce site même :
 
-<ul style="text-align: left;"><li><a href="https://www.trading-et-data-analyses.com/2024/10/formation-ichimoku-kinko-hyo.html" target="_blank">Formation - Ichimoku</a></li></ul>
-
-### Prédictions avec la stratégie de l'Ichimoku
-
-Avec cette stratégie vous avez la possibilité de vous faire aider par l'IA, un signal automatique d'achat et de vente est alors affiché sur le graphique :
-
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfzaBJjLU9YoBlK-18DLrwiqZKw_qc7wbJqmHklW02Vkbfnfpwjryq2MKnA_ehGQLk5jh3tfNXX2IH90BvsNyLutXkJYb3BQ_CixGeBqIW-GTFFiNXZzIW3gwTqs7MESMUTQ4MON79ykCHwS7HlMOTvkL-M-oXxozEmSA7nRr7ApvSjkOA-s-b0JwVZ7PA/s960/2025-02-03_11h32_30.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="655" data-original-width="960" height="436" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfzaBJjLU9YoBlK-18DLrwiqZKw_qc7wbJqmHklW02Vkbfnfpwjryq2MKnA_ehGQLk5jh3tfNXX2IH90BvsNyLutXkJYb3BQ_CixGeBqIW-GTFFiNXZzIW3gwTqs7MESMUTQ4MON79ykCHwS7HlMOTvkL-M-oXxozEmSA7nRr7ApvSjkOA-s-b0JwVZ7PA/w640-h436/2025-02-03_11h32_30.png" title="TradingInPython" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Ichimoku - Prédiction grâce au réseau de neurones Keras et Tensorflow</td></tr></tbody></table>
-
-- **(1)** Cliquez sur Forcasting (Prévision)
-- **(2)** Un signal à trois états, achat de vente et neutre, est généré grâce à la stratégie.
-- **(3)** Un réseau de neurones Keras est entrainé sur les données du passé pour délivrer sa prédiction.
-
-Ici AIR LIQUIDE est à l'achat.
-
-### Configuration du modèle de prédiction
-
-Le modèle de prédiction <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html" target="_blank">LogisticRegression de sci-learn</a> est utile pour prédire les signaux d'une stratégie binaire comme à l'achat (1) ou bien à la vente (0)
-
-Avec notre implémentation ce modèle possède deux paramètres :
-
-<ul style="text-align: left;"><li>Nombre de jours de la prédiction</li><li>Nombre de&nbsp; jours la fenêtre de prédiction (largeur de la fenêtre mobile)</li></ul>
-Fenêtre de configuration des paramètres de la stratégie Ichimoku Kinko Hyo :
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqzmAStKYINyhUEz9Ngv1LKNz5r3PGWTOL77xwvqzQMw0XZKOLX6vrA0xXRayvWL08D-Il4LePNkw59NE9qBeLhWNyUxf_71GvlAHB_2eyHXZs5a_SWjUtnbsendYgVaki7HX-ii-13-TB44x9Pqa7aZ57ULU9AyerwSU6_1yfQlPM-IMLOe0MJybZGZax/s406/2025-03-10_10h40_36.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="406" data-original-width="272" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqzmAStKYINyhUEz9Ngv1LKNz5r3PGWTOL77xwvqzQMw0XZKOLX6vrA0xXRayvWL08D-Il4LePNkw59NE9qBeLhWNyUxf_71GvlAHB_2eyHXZs5a_SWjUtnbsendYgVaki7HX-ii-13-TB44x9Pqa7aZ57ULU9AyerwSU6_1yfQlPM-IMLOe0MJybZGZax/s320/2025-03-10_10h40_36.png" width="214" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Configuration de la prédiction avec Ichimoku</td></tr></tbody></table>
-Les autres paramètres sont ceux de l'Ichimoku.
-## Plonger au cœur de l'algorithme de prédiction avec Ichimoku
-<div>Vous avez quelques connaissances en langage python, vous avez envie de savoir comment cette stratégie est mise en oeuvre au sein de la plateforme :</div>
-<ul style="text-align: left;"><li><a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/digitsignalprocessing/ichimoku_kinko_hyo.py" target="_blank">Ichimoku Kinko Hyo Modernized</a></li></ul>
+- <a href="https://www.trading-et-data-analyses.com/2024/10/formation-ichimoku-kinko-hyo.html" target="_blank">Formation - Ichimoku</a>
 
 ## Bollinger Bands Multiframes
 
-En complément de l'analyse Ichimoku Kinko Hyo, vous pouvez utiliser la stratégie&nbsp;<b><span style="color: #0b5394;">FTMA Bolls Multiframes (For Timeframes Mobile Average)</span></b>, les FTMA Bolls&nbsp;sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.
+En complément de l'analyse Ichimoku Kinko Hyo, pour une première analyse, vous pouvez utiliser la stratégie **FTMA Bolls Multiframes (For Timeframes Mobile Average)**, les FTMA Bolls&nbsp;sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhfkrgEgwiId9bNdZHWqlQ0hf8jVqGcsyYgPNOkEmbcwvUPodjZ3PEwoMiObTxBP28q3HhPL0bNEEznlR0pPnzv4Ai0R-2x6MDyNvjUbWq1QcnsdlIj3j1tidp0gdHJg97PSLDvRC_P3CvQBjs9ksq4qBB-NjJ532lgF9v0MWuipBtfxVX2oCIsNedolEI/s1272/2025-05-07_10h34_58.png" style="margin-left: auto; margin-right: auto;"><img alt="Stratégie des FTABolls Multiframes" border="0" data-original-height="741" data-original-width="1272" height="372" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhfkrgEgwiId9bNdZHWqlQ0hf8jVqGcsyYgPNOkEmbcwvUPodjZ3PEwoMiObTxBP28q3HhPL0bNEEznlR0pPnzv4Ai0R-2x6MDyNvjUbWq1QcnsdlIj3j1tidp0gdHJg97PSLDvRC_P3CvQBjs9ksq4qBB-NjJ532lgF9v0MWuipBtfxVX2oCIsNedolEI/w640-h372/2025-05-07_10h34_58.png" title="Stratégie des FTABolls Multiframes" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie des FTMA Bollinger bands Multiframes</td></tr></tbody></table>
 
 Les histogramme vous permettent de visualiser très finement les resserrements des FTMA Bolls qui sont les prémices d'un changement tendance.
 Vous trouverez la Formation aux FTMA Bollinger bands sur ce site :
 
-<ul style="text-align: left;">
- <li><a href="https://www.trading-et-data-analyses.com/2025/03/formation-ftma-bolls-histogrammes.html" target="_blank">Formation - FTMA Bollinger bands +&nbsp; histogrammes</a></li>
-</ul>
+- <a href="https://www.trading-et-data-analyses.com/2025/03/formation-ftma-bolls-histogrammes.html" target="_blank">Formation - FTMA Bollinger bands +&nbsp; histogrammes</a>
 
 Vous avez raté quelque chose, visionnez la vidéo de notre chaîne YouTube :
 
@@ -78,11 +50,11 @@ Comment configurer les valeurs des FTMA Bolls en fonction de l'échelle de Temps
 
 Ici avec une échelle de temps de "1h" je positionne mes FTMA Bolls à 8 12 16 24 ainsi la bleu me montre ce qu'il se passe à l'échelle de la journée, la bleu ciel me montre un jour et demi, la rouge à 16 me montre deux jours et la plus grande orange me montre l'évolution sur 3 jours.
 
-<ul style="text-align: left;"><li><a href="/2024/10/formation-ftma-bollinger-bands.html" target="_blank">Formation - FTMA Bollinger bands</a></li></ul>
+- <a href="https://www.trading-et-data-analyses.com/2024/10/formation-ftma-bollinger-bands.html" target="_blank">Formation - FTMA Bollinger bands</a>
 
 ## Analyse de la pression du flux volumique
 
-Après une analyse globale et rapide du titre grâce à l'<a href="/p/documentation-plateforme-de-trading.html#Prédictions_avec_Ichimoku">Ichimoku Kinko Hyo</a>, vous souhaitez peaufiner votre analyse par exemple en découvrant si en ce moment les acheteurs sont à la manœuvre ou si ce sont plutôt les vendeurs qui manœuvrent.
+Après une analyse globale et rapide du titre grâce à l'[Ichimoku Kinko Hyo](./strategies/ichimoku_kinko_hyo.md), vous souhaitez peaufiner votre analyse par exemple en découvrant si en ce moment les acheteurs sont à la manœuvre ou si ce sont plutôt les vendeurs qui manœuvrent.
 
 L'analyse des flux volumiques par la stratégie <b><span style="color: #0b5394;">Volume Buy/Sell</span></b> est idéale pour ce genre d'analyse.
 
@@ -94,12 +66,10 @@ En vous abonnant vous aurez accès à la formation complète sur cette stratégi
 
 Ici la pression de vente qui s'exerce sur LEGRAND est de 0.53 %. La pression du flux volumique est à la vente mais le prix monte c'est probablement le moment d'entrer en position.
 
-<ul style="text-align: left;">
- <li><a href="/2025/02/formation-analyse-pression-volumiques-des-flux.html" target="_blank">Formation - Analyse de la pression volumique</a></li>
- <li><a href="https://www.trading-et-data-analyses.com/2025/04/analyse-de-pression-volumique.html" target="_blank">Vidéo de démo - Analyse de la pression volumique</a></li>
-</ul>
+- <a href="https://www.trading-et-data-analyses.com/2025/02/formation-analyse-pression-volumiques-des-flux.html" target="_blank">Formation - Analyse de la pression volumique</a>
+- <a href="https://www.trading-et-data-analyses.com/2025/04/analyse-de-pression-volumique.html" target="_blank">Vidéo de démo - Analyse de la pression volumique</a>
 
-Maintenant si vous décidez d'entrer ou de sortir de position, les deux stratégies <b><span style="color: #0b5394;">Moyennes Mobiles 1/2/E</span></b> et les <b><span style="color: #0b5394;">Fractales Bill Williams</span></b> sont indiquées pour lire dans les signaux automatiques d'achat et de vente. Là encore vous trouverez de la formation et des exemples sur ce site et ailleurs.
+Maintenant si vous décidez d'entrer ou de sortir de position, les deux stratégies **Moyennes Mobiles 1/2/E** et les **Fractales Bill Williams** sont indiquées pour lire dans les signaux automatiques d'achat et de vente. Là encore vous trouverez de la formation et des exemples sur ce site et ailleurs.
 
 ## Moyennes Mobiles 1/2/E
 
@@ -170,3 +140,11 @@ Selon la métaphore de l'alligator de Bill Williams le marché évolue en quatre
 </ul>
 
 <ul style="text-align: left;"><li><a href="/2024/10/formation-bill-williams-alligator-gator.html" target="_blank">Formation - Alligator Gator</a></li></ul>
+
+## Vidéo YouTube
+
+Vous avez raté quelque chose :
+
+<div align="center" class="md-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z4gIwwcPSW4?si=X_mP1gMcAAO3n87s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
