@@ -3,7 +3,7 @@
 L'indicateur technique des Fractales de Bill Williams est utilisé pour identifier des points potentiels de {{ "retournement du marché" | keyword }}.
 Une fractale up marque une résistance locale. Une fractale down marque un support local.
 
-## Alorithme de démonstration
+## Algorithme de démonstration
 
 - {{ "Fractale Up" | keyword }} Sommet local PERIOD = 2 -> Retournement Baissier
 
@@ -48,19 +48,8 @@ Un paramètre dans la fenêtre de configuration : PERIOD
 
 - **(1)** L'algorithme travaille sur les prix Haut (High) et Bas (Low) qui sont affichés
 - **(2)** Choix de la PERIOD des fractales = 2
-- **(3)** {{ "Fractale Down" | keyword }} les croix montrent des prix plus haut à deux de distance -> retournement haussier
-- **(4)** {{ "Fractale Up" | keyword }} les croix montrent des prix plus bas à deux de distance -> retournement baissier
-
-## Fractale Down
-
-<figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" class="glightbox" data-gallery="galerie" title="Fractale Down">
-        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" alt="Fractale Down"/>
-    </a>
-    <figcaption><em>Fractale Down</em></figcaption>
-</figure>
-
-La Fractale Down nous indique un retournement du marché à la Hausse
+- **(3)** {{ "Fractale Up" | keyword }} les croix montrent des prix plus haut à deux de distance -> retournement haussier
+- **(4)** {{ "Fractale Down" | keyword }} les croix montrent des prix plus bas à deux de distance -> retournement baissier
 
 ## Fractale Up
 
@@ -74,6 +63,17 @@ La Fractale Down nous indique un retournement du marché à la Hausse
 La Fractale Up nous indique un retournement du marché à la Baisse
 
 Fractale Down PERIODE: 3
+
+## Fractale Down
+
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" class="glightbox" data-gallery="galerie" title="Fractale Down">
+        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" alt="Fractale Down"/>
+    </a>
+    <figcaption><em>Fractale Down</em></figcaption>
+</figure>
+
+La Fractale Down nous indique un retournement du marché à la Hausse
 
 ## Fractale PERIOD 5
 
