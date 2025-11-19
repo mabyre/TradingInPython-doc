@@ -520,9 +520,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#signaux-achatsvente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Signaux achats/vente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#avantages" class="md-nav__link">
     <span class="md-ellipsis">
-      ✅ Avantages
+      Avantages
     </span>
   </a>
   
@@ -531,7 +540,7 @@
           <li class="md-nav__item">
   <a href="#limites" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚠️ Limites
+      Limites
     </span>
   </a>
   
@@ -545,17 +554,17 @@
         <li class="md-nav__item">
   <a href="#implementation" class="md-nav__link">
     <span class="md-ellipsis">
-      👨‍💻 Implémentation
+      Implémentation
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="👨‍💻 Implémentation">
+    <nav class="md-nav" aria-label="Implémentation">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#configuration" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚙️ Configuration
+      Configuration
     </span>
   </a>
   
@@ -1556,9 +1565,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#signaux-achatsvente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Signaux achats/vente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#avantages" class="md-nav__link">
     <span class="md-ellipsis">
-      ✅ Avantages
+      Avantages
     </span>
   </a>
   
@@ -1567,7 +1585,7 @@
           <li class="md-nav__item">
   <a href="#limites" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚠️ Limites
+      Limites
     </span>
   </a>
   
@@ -1581,17 +1599,17 @@
         <li class="md-nav__item">
   <a href="#implementation" class="md-nav__link">
     <span class="md-ellipsis">
-      👨‍💻 Implémentation
+      Implémentation
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="👨‍💻 Implémentation">
+    <nav class="md-nav" aria-label="Implémentation">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#configuration" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚙️ Configuration
+      Configuration
     </span>
   </a>
   
@@ -1649,54 +1667,55 @@
 
 
 <h1 id="moyennes-mobiles">Moyennes Mobiles<a class="headerlink" href="#moyennes-mobiles" title="Permanent link">&para;</a></h1>
-<p>C'est une stratégie des plus simples mais pas simpliste car elle permet d'appréhender le début de ce que sont les stratégies automatiques de trading, des algorithmes qui délivrent des signaux d'achats et de ventes sur les cours de bourse.</p>
+<p>C'est une stratégie des plus <span class="text-keyword">simples mais pas simpliste</span> car elle permet d'appréhender ce que sont les stratégies automatiques de trading, des algorithmes qui délivrent des signaux d'achats et de ventes sur les cours de bourse. La stratégie des moyennes mobiles calcule le <span title="Désigne la fourchette entre le prix d'achat (offre/bid) pour entrer sur le marché et le prix de vente (demande/ask) pour sortir de position sur le marché d'une action." style="border-bottom:1px dotted;cursor:help"><b>Spread</b></span></p>
 <p>Nous allons détailler la stratégie des moyennes mobiles à l'aide de deux SMA (Simple Mobile Average) et d'une EMA (Esponential Moving Average).</p>
 <p>La stratégie automatique de trading avec 2 SMA et 1 EMA repose sur la détection des croisements des moyennes pour générer des signaux d’achat ou de vente. Elle est simple à implémenter et efficace pour capter les tendances.</p>
 <h2 id="principes">Principes<a class="headerlink" href="#principes" title="Permanent link">&para;</a></h2>
 <p>Deux SMA de longueur différentes vont se croiser et sont lentes à réagir aux changements rapides.</p>
 <p>La EMA donne plus de poids aux prix récents, elle est donc plus réactive aux retournements de tendance.</p>
+<h3 id="signaux-achatsvente">Signaux achats/vente<a class="headerlink" href="#signaux-achatsvente" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Signaux achats/vente :</li>
-<li>Achat : la SMA courte, croise au-dessus de la SMA longue, ET que le prix est au-dessus de l’EMA.</li>
-<li>Vente : la SMA courte, croise en dessous de la SMA longue, ET que le prix est en dessous de l’EMA.</li>
+<li><span class="text-keyword">Achat</span> : la SMA courte passe au-dessus de la SMA longue <strong>ET</strong> que le prix est au-dessus de l’EMA.</li>
+<li><span class="text-keyword">Vente</span>: la SMA courte passe en dessous de la SMA longue <strong>ET</strong> que le prix est en dessous de l’EMA.</li>
 </ul>
-<h3 id="avantages">✅ Avantages<a class="headerlink" href="#avantages" title="Permanent link">&para;</a></h3>
+<h3 id="avantages">Avantages<a class="headerlink" href="#avantages" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Facile à comprendre et à implémenter</li>
-<li>Fonctionne bien en tendance marquée</li>
+<li>C'est une stratégie Facile à comprendre et à implémenter</li>
+<li>Elle fonctionne bien en tendance marquée</li>
 <li>Paramétrable selon l’actif et l’horizon de temps</li>
 </ul>
-<h3 id="limites">⚠️ Limites<a class="headerlink" href="#limites" title="Permanent link">&para;</a></h3>
+<h3 id="limites">Limites<a class="headerlink" href="#limites" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Moins efficace en marché sans tendance (en range)</li>
 <li>Sensible aux faux signaux en période de forte volatilité</li>
 </ul>
-<h2 id="implementation">👨‍💻 Implémentation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
+<h2 id="implementation">Implémentation<a class="headerlink" href="#implementation" title="Permanent link">&para;</a></h2>
 <p>Une fois implémentée et tracer dans le plateforme nous obtenons le graphique suivant :</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/interface.png" target="_blank" title="Stratégie automatique de trading des Moyennes Mobiles">
+  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie automatique de trading des Moyennes Mobiles">
     <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/interface.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Stratégie automatique de trading des Moyennes Mobiles</em></figcaption>
 </figure>
 
 <p>Nous sommes avec l'action Air Liquide à l'échelle de temps 1 jour sur une période de 6 mois. On à le cours de l'action sous forme de bougies (candle). Les moyennes mobiles sont tracées et les surfaces entre, sont matérialisées par des couleurs verte et rouge.</p>
-<h3 id="configuration">⚙️ Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h3>
+<h3 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h3>
+<p>Des Sliders vous permettent de configurer les moyennes mobiles :</p>
 <ul>
 <li>SMA 1 = 10</li>
 <li>SMA 2 = 15</li>
 <li>EMA = 15</li>
 </ul>
-<p>Grâce à l'<a href="#algorithme">algorithme en Python</a>, la détection des croisements est marquée par les signaux d'achat triangles verts et les signaux de ventes triangles rouges.</p>
+<p>Grâce à l'<a href="#algorithme">algorithme en Python</a>, la détection des croisements est marquée par les signaux d'achat <span class="text-green">triangles verts</span> et les signaux de ventes <span class="text-red">triangles rouges</span>.</p>
 <p>Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorithme calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/console.png" target="_blank" title="Les spread de l'algorithme des moyennes mobiles">
+  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/console.png" class="glightbox" data-gallery="galerie" title="Les spread de l'algorithme des moyennes mobiles">
     <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/console.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Les spread de l'algorithme des moyennes mobiles</em></figcaption>
 </figure>
 
-<p>On obtient ainsi pour l'action Air Liquide un <strong>Spread</strong> affiché dans le Titre de : <strong>5,180</strong>.</p>
+<p>On obtient ainsi pour l'action Air Liquide un <a href="/TradingInPython-doc/glossaire/#spread">Spread</a> affiché dans le Titre de : <strong>5,180</strong>.</p>
 <p>Cela signifie que si vous aviez suivi tous ces signaux d'achat et de ventre vous auriez gagné : 5,18.</p>
 <p>Dans le Graph de la stratégie des moyennes mobiles, vous allez pouvoir ajuster SMA 1, SMA 2, et EMA pour optimiser ce spread.</p>
 <p>Par exemple avec les réglages suivants :</p>
@@ -1705,19 +1724,19 @@
 <li>SMA 2 = 18</li>
 <li>EMA = 18</li>
 </ul>
-<p>Vous obtenez un Spread de : 9,50</p>
+<p>Vous obtenez un {{ Spread }} not in glossary de : 9,50</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/spread.png" target="_blank" title="Optimisation du Spread par les Moyennes Mobiles">
+  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/spread.png" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
     <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/spread.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Optimisation du Spread par les Moyennes Mobiles</em></figcaption>
 </figure>
 
-<p>Vous avez à votre disposition un outil d'optimisation de votre stratégie automatique par les moyennes mobiles qui vous permet de choisir les meilleures valeurs pour les moyennes mobiles SMA1 et 2 et EMA afin d'obtenir le meilleur Spread (le meilleur gain).</p>
+<p>Vous avez à votre disposition un outil d'optimisation de votre stratégie automatique par les moyennes mobiles qui vous permet de choisir les meilleures valeurs pour les moyennes mobiles SMA1 et 2 et EMA afin d'obtenir le meilleur <span title="Désigne la fourchette entre le prix d'achat (offre/bid) pour entrer sur le marché et le prix de vente (demande/ask) pour sortir de position sur le marché d'une action." style="border-bottom:1px dotted;cursor:help"><b>Spread</b></span> (le meilleur gain).</p>
 <h2 id="strategie-en-action">Stratégie en action<a class="headerlink" href="#strategie-en-action" title="Permanent link">&para;</a></h2>
 <p>Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" target="_blank" title="Optimisation du Spread par les Moyennes Mobiles">
+  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
     <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Stratégie automatique des Moyennes Mobiles</em></figcaption>

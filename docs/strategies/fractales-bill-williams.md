@@ -47,33 +47,35 @@ Un paramètre dans la fenêtre de configuration : PERIOD
 </figure>
 
 - **(1)** L'algorithme travaille sur les prix Haut (High) et Bas (Low) qui sont affichés
-- **(2)** Choix de la PERIOD des fractales = 2
-- **(3)** {{ "Fractale Up" | keyword }} les croix montrent des prix plus haut à deux de distance -> retournement haussier
-- **(4)** {{ "Fractale Down" | keyword }} les croix montrent des prix plus bas à deux de distance -> retournement baissier
+- **(2)** Choix de la PERIOD des fractales = 5
+- **(3)** {{ "Fractale Up" | keyword }} les croix montrent des prix plus haut à cinq de distance -> retournement baissier
+- **(4)** {{ "Fractale Down" | keyword }} les croix montrent des prix plus bas à cinq de distance -> retournement haussier
 
 ## Fractale Up
 
+Choix de la période : 2
+
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe3.png" class="glightbox" data-gallery="galerie" title="Fractale Up">
-        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe3.png" alt="Fractale Up"/>
+    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" class="glightbox" data-gallery="galerie" title="Fractale Up">
+        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" alt="Fractale Up"/>
     </a>
     <figcaption><em>Fractale Up</em></figcaption>
 </figure>
 
-La Fractale Up nous indique un retournement du marché à la Baisse
-
-Fractale Down PERIODE: 3
+La {{ "Fractale Up" | keyword }} nous indique un retournement du marché à la Baisse
 
 ## Fractale Down
 
+Choix de la période : 5
+
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" class="glightbox" data-gallery="galerie" title="Fractale Down">
-        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" alt="Fractale Down"/>
+    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe3.png" class="glightbox" data-gallery="galerie" title="Fractale Down">
+        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe3.png" alt="Fractale Down"/>
     </a>
     <figcaption><em>Fractale Down</em></figcaption>
 </figure>
 
-La Fractale Down nous indique un retournement du marché à la Hausse
+La {{ "Fractale Down" | keyword }} nous indique un retournement du marché à la Hausse
 
 ## Fractale PERIOD 5
 
@@ -84,7 +86,7 @@ La Fractale Down nous indique un retournement du marché à la Hausse
     <figcaption><em>Fractale PERIOD 5</em></figcaption>
 </figure>
 
-Avec une période égale à 5 vous voyez les fractales consolider les supports et les résitances du cours. 
+Avec une période égale à 5 vous voyez les fractales {{ "consolider les supports" | keyword }} et {{ "les résitances" | keyword }} du cours.
 
 ## Combinaison avec l'Alligator
 
