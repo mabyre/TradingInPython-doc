@@ -1,10 +1,14 @@
-# Site MkDocs
+# TradingInPtyhon Trading Technical Plateforme
 
-- [Trading Technical Plateform Documentation](#trading-technical-plateform-documentation)
+## Documentation
 
-## Ref
+- [TradingInPtyhon Documentation (Publication url)](https://mabyre.github.io/TradingInPython-doc/)
+- [TradingInPython Software (Plateforme)](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html)
 
-<https://website.vincent-roger.fr/fr/blog/2020/11-20-create-a-documentation-with-sphinx-on-github/>
+## Site MkDocs
+
+- [Tester sur serveur local](#tester-sur-le-serveur-local)
+- [Déployer sur le GitHub](#déployer-sur-le-github)
 
 ## Install
 
@@ -60,9 +64,7 @@ Site accessible à l'adresse :
 
 <https://mabyre.github.io/TradingInPython-doc/>
 
-------------------------------
 ## Tester sur le serveur Local
-------------------------------
 
 ```
 > cd .\TradingInPython-doc\
@@ -85,18 +87,11 @@ INFO    -  [18:02:25] Reloading browsers
 INFO    -  [18:02:33] Browser connected: http://127.0.0.1:8000/
 INFO    -  [18:02:52] Detected file changes
 
--------------------------
+
 ## Déployer sur le GitHub
--------------------------
 
 ```
 > mkdocs gh-deploy --remote-branch=gh-pages --remote-name=origine
 ```
 
 Avec Fork pousser sur le GitHub ce qui a changé de la branch "gh-pages"
-
-## Trading Technical Plateform Documentation
-
-- [TradingInPtyhon Documentation (Publication url)](https://mabyre.github.io/TradingInPython-doc/)
-
-- [TradingInPython Software (Plateforme)](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html)
