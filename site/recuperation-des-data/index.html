@@ -1617,8 +1617,8 @@
 
 
 <h1 id="recuperation-des-donnees-du-cours-de-bourse">Récupération des données du cours de bourse<a class="headerlink" href="#recuperation-des-donnees-du-cours-de-bourse" title="Permanent link">&para;</a></h1>
-<p>Il s'agit de récupérer des données au près des plateformes <strong>open data</strong> reliées aux grandes bourses du monde entier. Ces plateformes donne accès aux cours de la bourse par des API que nous utilisons grâce au langage Python.</p>
-<p>La plateforme  <strong>TradingInPython</strong> se connecte à n'importe qu'elle source de data, ici nous sommes avec YahooFinance mais vous pouvez tout aussi bien vous connecter à d'autres sources comme IBKR et d'autres.</p>
+<p>Il s'agit de récupérer des données au près des plateformes <span class="text-keyword">open data</span> reliées aux grandes bourses du monde entier. Ces plateformes donne accès aux cours de la bourse par des API que nous utilisons grâce au langage Python.</p>
+<p>La plateforme  <span class="text-keyword">TradingInPython</span> se connecte à n'importe qu'elle source de data, ici nous sommes avec YahooFinance mais vous pouvez tout aussi bien vous connecter à d'autres sources comme IBKR et d'autres.</p>
 <h2 id="selection-de-laction-a-trader">Sélection de l'action à trader<a class="headerlink" href="#selection-de-laction-a-trader" title="Permanent link">&para;</a></h2>
 <p>L’application s’ouvre sur la dernière action que vous aviez sélectionnée pour trader.</p>
 <p>Exemple : Si vous étiez sur l’action BMW (secteur automobile), vous pouvez passer votre souris sur l’indication "secteur de la stock", l'indication vous demande de choisir le menu "Stocks" pour choisir un autre secteur :</p>
@@ -1635,8 +1635,8 @@
 <p>Vous observez le cours des actions qui vous intéressent en sélectionnant un intervalle de temps et une  période sur laquelle vous souhaitez analyser le cours de ces actions.</p>
 <p>Le choix de l'intervalle et de la période se fait parmi les valeurs suivantes :</p>
 <ul>
-<li>L’<strong>intervalle de temps</strong> (Interval) pour l’échantillonnage (1 m, 2 m, 5 m, 15 m, 30 m, 60 m, 1h, 4h, 1d, …)</li>
-<li>La <strong>période d’analyse</strong> (Period) ou bien des dates de début et de fin.</li>
+<li>L’<span class="text-keyword">intervalle de temps</span> (Interval) pour l’échantillonnage (1 m, 2 m, 5 m, 15 m, 30 m, 60 m, 1h, 4h, 1d, …)</li>
+<li>La <span class="text-keyword">période d’analyse</span> (Period) ou bien des dates de début et de fin.</li>
 </ul>
 <p>Grâce à l'interface :</p>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD_7q2X-Ee4TwywyhcC0AFeh90036CqVw6KCfA-h0UXc7DnIMwr8TV3okxiyRhNSYclOd82vUXRs1FWtAHKnzJ_OalUXr3oqOmWsl58eShURV7kuRfFY8M0xjbqMlh_79q-zAvMh8XBKAYzn6BZNdzt9uzWX9sjPIRgg5ct4UXFczMcOzeRsSogsX_XgiS/s458/2025-01-27_15h08_47.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="458" data-original-width="272" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD_7q2X-Ee4TwywyhcC0AFeh90036CqVw6KCfA-h0UXc7DnIMwr8TV3okxiyRhNSYclOd82vUXRs1FWtAHKnzJ_OalUXr3oqOmWsl58eShURV7kuRfFY8M0xjbqMlh_79q-zAvMh8XBKAYzn6BZNdzt9uzWX9sjPIRgg5ct4UXFczMcOzeRsSogsX_XgiS/s16000/2025-01-27_15h08_47.png" title="TradingInPython" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Sélection de l'action et de la période d'analyse</td></tr></tbody></table>
@@ -1648,37 +1648,38 @@
 </ul>
 <blockquote>
 <p>Note : Les données intraday (ex : 1 m, 2 m) ne peuvent pas s’étendre sur une période trop ancienne.
-Vous risquez alors de voir un message <strong>NO DATA</strong> afficher sur l'interface.</p>
+Vous risquez alors de voir un message <span class="text-keyword">NO DATA</span> afficher sur l'interface.</p>
 </blockquote>
 <p>Vous choisissez ensuite parmi les stratégies d'analyses proposées par la plateforme de trading.</p>
 <h2 id="recuperation-des-datas-sur-une-periode-de-temps-donnee">Récupération des datas sur une période de temps donnée<a class="headerlink" href="#recuperation-des-datas-sur-une-periode-de-temps-donnee" title="Permanent link">&para;</a></h2>
-<p>Vous avez <strong>trois façons</strong> de récupérer des données :</p>
+<p>Vous avez <span class="text-keyword">trois façons</span> de récupérer des données :</p>
 <ul>
-<li>La première c'est avec <strong>"Interval"</strong> et <strong>"Period"</strong> mais cette méthode est limitée et vous ne pouvez pas retourner dans le passé.</li>
+<li>La première c'est avec <span class="text-keyword">"Interval"</span> et <span class="text-keyword">"Period"</span> mais cette méthode est limitée et vous ne pouvez pas retourner dans le passé.</li>
 </ul>
 <p>De toutes les façons, sélectionnez un "Interval" d'échantillonnage et en suite,</p>
 <ul>
-<li>Pour utiliser <strong>"Jours dans le passé"</strong> et <strong>"Jours avant la fin"</strong> sélectionnez "none" (tout en bas de la liste) dans "Period".</li>
+<li>Pour utiliser <span class="text-keyword">"Jours dans le passé"</span> et <span class="text-keyword">"Jours avant la fin"</span> sélectionnez "none" (tout en bas de la liste) dans "Period".</li>
 </ul>
 <p>Vous pouvez alors remonter dans le passé sur une période de temps égale à "Jours avant la fin" moins "Jours dans le passé".</p>
 <ul>
 <li>
-<p>Pour utiliser les deux dates <strong>"Date de début"</strong> et <strong>"Date de fin"</strong>, il vous faut mettre :</p>
+<p>Pour utiliser les deux dates <span class="text-keyword">"Date de début"</span> et <span class="text-keyword">"Date de fin"</span>, il vous faut mettre :</p>
 </li>
 <li>
-<p><strong>"Period"</strong> à "none"</p>
+<p><span class="text-keyword">"Period"</span> à "none"</p>
 </li>
-<li><strong>"Jours dans le passé"</strong> à 0</li>
-<li><strong>"Jours avant la fin"</strong> à 0</li>
+<li><span class="text-keyword">"Jours dans le passé"</span> à 0</li>
+<li><span class="text-keyword">"Jours avant la fin"</span> à 0</li>
 </ul>
-<p>Dans ce cas, les données sont récupérées entre <strong>"Date de début"</strong> et <strong>"Date de fin"</strong>.</p>
-<p>Le bouton <strong>"Now"</strong> vous permet de remplir automatiquement <strong>"Date de fin"</strong> avec la date d'aujourd'hui.</p>
+<p>Dans ce cas, les données sont récupérées entre <span class="text-keyword">"Date de début"</span> et <span class="text-keyword">"Date de fin"</span>.</p>
+<p>Le bouton <span class="text-keyword">"Now"</span> vous permet de remplir automatiquement <span class="text-keyword">"Date de fin"</span> avec la date d'aujourd'hui.</p>
 <p>Voici une page pour vous expliquer en détails comment faire :</p>
 <ul>
 <li><a href="../voyage-dans-le-temps/">Voyagez dans le temps</a></li>
 </ul>
 <h2 id="recuperation-des-donnees-en-temps-reel">Récupération des données en temps réel<a class="headerlink" href="#recuperation-des-donnees-en-temps-reel" title="Permanent link">&para;</a></h2>
-<p>Pour chacune des stratégies, vous avez la case <strong>AUTO</strong> dans la fenêtre <strong>Indicateurs secondaires</strong> pour récupérer les données en <strong>temps réel</strong>, à intervalle de temps régulier,
+<p>Pour chacune des stratégies, vous avez la case <span class="text-keyword">"AUTO"</span> dans la fenêtre <span class="text-keyword">"Indicateurs secondaires"</span>
+pour récupérer les données en <span class="text-keyword">temps réel</span>, à intervalle de temps régulier,
 ainsi vous pouvez voir les graphiques du cours de l'action se dessiner au fil du temps.</p>
 <figure style="text-align: center;" title="Récupération des datas en temps réel">
   <img src="/TradingInPython-doc/images/recuperation-des-data/mode-auto.png" class="noborder"/>
@@ -1687,7 +1688,7 @@ ainsi vous pouvez voir les graphiques du cours de l'action se dessiner au fil du
 
 <p>Vous avez la possibilité de suivre le cours de l’action minute par minute :  </p>
 <ul>
-<li>Cochez la case <strong>AUTO</strong> (ou mode automatique) pour que les données soient récupérées en continu.</li>
+<li>Cochez la case <span class="text-keyword">"AUTO"</span> (ou mode automatique) pour que les données soient récupérées en continu.</li>
 <li>Une thread dédiée démarre pour récupérer les données en temps réel, et les graphiques se mettent à jour dynamiquement.</li>
 </ul>
 <p>La console vous prévient que le mode Automatique a démarré :</p>
@@ -1699,9 +1700,9 @@ ainsi vous pouvez voir les graphiques du cours de l'action se dessiner au fil du
 <p>La console affiche le message "Auto started ...".</p>
 <h2 id="remarques-pratiques">Remarques pratiques<a class="headerlink" href="#remarques-pratiques" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Veillez à choisir l’<strong>intervalle</strong> en fonction de votre horizon de trading : <code>intraday, swing, ou long terme</code>.  </li>
-<li>Prenez garde à la <strong>granularité</strong> : par exemple, un intervalle de 1 m sur une période de plusieurs mois peut être lourd en données.  </li>
-<li>Si vous utilisez les dates de début/fin plutôt que <strong>period</strong>, vous avez plus de flexibilité pour remonter dans les archives.  </li>
+<li>Veillez à choisir l’<span class="text-keyword">intervalle</span> en fonction de votre horizon de trading : <code>intraday, swing, ou long terme</code>.  </li>
+<li>Prenez garde à la <span class="text-keyword">granularité</span> : par exemple, un intervalle de 1 m sur une période de plusieurs mois peut être lourd en données.  </li>
+<li>Si vous utilisez les dates de début/fin plutôt que <span class="text-keyword">period</span>, vous avez plus de flexibilité pour remonter dans les archives.  </li>
 <li>Pour un suivi réel (minute par minute), vous avez l’option <a href="#recuperation-des-donnees-en-temps-reel">AUTO</a>.</li>
 </ul>
 <h2 id="exemple-de-code-avec-la-librairie-yfinance">Exemple de code avec la librairie yfinance<a class="headerlink" href="#exemple-de-code-avec-la-librairie-yfinance" title="Permanent link">&para;</a></h2>

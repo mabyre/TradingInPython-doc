@@ -1,8 +1,8 @@
 # Récupération des données du cours de bourse
 
-Il s'agit de récupérer des données au près des plateformes **open data** reliées aux grandes bourses du monde entier. Ces plateformes donne accès aux cours de la bourse par des API que nous utilisons grâce au langage Python.
+Il s'agit de récupérer des données au près des plateformes {{ "open data" | keyword }} reliées aux grandes bourses du monde entier. Ces plateformes donne accès aux cours de la bourse par des API que nous utilisons grâce au langage Python.
 
-La plateforme  **TradingInPython** se connecte à n'importe qu'elle source de data, ici nous sommes avec YahooFinance mais vous pouvez tout aussi bien vous connecter à d'autres sources comme IBKR et d'autres.
+La plateforme  {{ "TradingInPython" | keyword }} se connecte à n'importe qu'elle source de data, ici nous sommes avec YahooFinance mais vous pouvez tout aussi bien vous connecter à d'autres sources comme IBKR et d'autres.
 
 ## Sélection de l'action à trader  
 
@@ -28,8 +28,8 @@ Vous observez le cours des actions qui vous intéressent en sélectionnant un in
 
 Le choix de l'intervalle et de la période se fait parmi les valeurs suivantes :
 
-- L’**intervalle de temps** (Interval) pour l’échantillonnage (1 m, 2 m, 5 m, 15 m, 30 m, 60 m, 1h, 4h, 1d, …)
-- La **période d’analyse** (Period) ou bien des dates de début et de fin.
+- L’{{ "intervalle de temps" | keyword }} (Interval) pour l’échantillonnage (1 m, 2 m, 5 m, 15 m, 30 m, 60 m, 1h, 4h, 1d, …)
+- La {{ "période d’analyse" | keyword }} (Period) ou bien des dates de début et de fin.
 
 Grâce à l'interface :
 
@@ -41,31 +41,31 @@ Grâce à l'interface :
 - `interval : 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 4h, 1d, 5d, 1wk, 1mo, 3mo`.
 
 > Note : Les données intraday (ex : 1 m, 2 m) ne peuvent pas s’étendre sur une période trop ancienne.
-> Vous risquez alors de voir un message **NO DATA** afficher sur l'interface.
+> Vous risquez alors de voir un message {{ "NO DATA" | keyword }} afficher sur l'interface.
 
 Vous choisissez ensuite parmi les stratégies d'analyses proposées par la plateforme de trading.
 
 ## Récupération des datas sur une période de temps donnée
 
-Vous avez **trois façons** de récupérer des données :
+Vous avez {{ "trois façons" | keyword }} de récupérer des données :
 
-- La première c'est avec **"Interval"** et **"Period"** mais cette méthode est limitée et vous ne pouvez pas retourner dans le passé.
+- La première c'est avec {{ "Interval" | keywordi }} et {{ "Period" | keywordi }} mais cette méthode est limitée et vous ne pouvez pas retourner dans le passé.
 
 De toutes les façons, sélectionnez un "Interval" d'échantillonnage et en suite,
 
-- Pour utiliser **"Jours dans le passé"** et **"Jours avant la fin"** sélectionnez "none" (tout en bas de la liste) dans "Period".
+- Pour utiliser {{ "Jours dans le passé" | keywordi }} et {{ "Jours avant la fin" | keywordi }} sélectionnez "none" (tout en bas de la liste) dans "Period".
 
 Vous pouvez alors remonter dans le passé sur une période de temps égale à "Jours avant la fin" moins "Jours dans le passé".
 
-- Pour utiliser les deux dates **"Date de début"** et **"Date de fin"**, il vous faut mettre :
+- Pour utiliser les deux dates {{ "Date de début" | keywordi }} et {{ "Date de fin" | keywordi }}, il vous faut mettre :
 
-  - **"Period"** à "none"
-  - **"Jours dans le passé"** à 0
-  - **"Jours avant la fin"** à 0
+  - {{ "Period" | keywordi }} à "none"
+  - {{ "Jours dans le passé" | keywordi }} à 0
+  - {{ "Jours avant la fin" | keywordi }} à 0
 
-Dans ce cas, les données sont récupérées entre **"Date de début"** et **"Date de fin"**.
+Dans ce cas, les données sont récupérées entre {{ "Date de début" | keywordi }} et {{ "Date de fin" | keywordi }}.
 
-Le bouton **"Now"** vous permet de remplir automatiquement **"Date de fin"** avec la date d'aujourd'hui.
+Le bouton {{ "Now" | keywordi }} vous permet de remplir automatiquement {{ "Date de fin" | keywordi }} avec la date d'aujourd'hui.
 
 Voici une page pour vous expliquer en détails comment faire :
 
@@ -73,7 +73,8 @@ Voici une page pour vous expliquer en détails comment faire :
 
 ## Récupération des données en temps réel
 
-Pour chacune des stratégies, vous avez la case **AUTO** dans la fenêtre **Indicateurs secondaires** pour récupérer les données en **temps réel**, à intervalle de temps régulier,
+Pour chacune des stratégies, vous avez la case {{ "AUTO" | keywordi }} dans la fenêtre {{ "Indicateurs secondaires" | keywordi }}
+pour récupérer les données en {{ "temps réel" | keyword }}, à intervalle de temps régulier,
 ainsi vous pouvez voir les graphiques du cours de l'action se dessiner au fil du temps.
 
 <figure style="text-align: center;" title="Récupération des datas en temps réel">
@@ -83,7 +84,7 @@ ainsi vous pouvez voir les graphiques du cours de l'action se dessiner au fil du
 
 Vous avez la possibilité de suivre le cours de l’action minute par minute :  
 
-- Cochez la case **AUTO** (ou mode automatique) pour que les données soient récupérées en continu.
+- Cochez la case {{ "AUTO" | keywordi }} (ou mode automatique) pour que les données soient récupérées en continu.
 - Une thread dédiée démarre pour récupérer les données en temps réel, et les graphiques se mettent à jour dynamiquement.
 
 La console vous prévient que le mode Automatique a démarré :
@@ -97,9 +98,9 @@ La console affiche le message "Auto started ...".
 
 ## Remarques pratiques  
 
-- Veillez à choisir l’**intervalle** en fonction de votre horizon de trading : `intraday, swing, ou long terme`.  
-- Prenez garde à la **granularité** : par exemple, un intervalle de 1 m sur une période de plusieurs mois peut être lourd en données.  
-- Si vous utilisez les dates de début/fin plutôt que **period**, vous avez plus de flexibilité pour remonter dans les archives.  
+- Veillez à choisir l’{{ "intervalle" | keyword }} en fonction de votre horizon de trading : `intraday, swing, ou long terme`.  
+- Prenez garde à la {{ "granularité" | keyword }} : par exemple, un intervalle de 1 m sur une période de plusieurs mois peut être lourd en données.  
+- Si vous utilisez les dates de début/fin plutôt que {{ "period" | keyword }}, vous avez plus de flexibilité pour remonter dans les archives.  
 - Pour un suivi réel (minute par minute), vous avez l’option [AUTO](#recuperation-des-donnees-en-temps-reel).
 
 ## Exemple de code avec la librairie yfinance

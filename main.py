@@ -21,6 +21,11 @@ def define_env( env ):
     def keyword( text ):
         return f'<span class="text-keyword">{text}</span>'
 
+    # keywordi : keyword dans les interfaces
+    @env.filter
+    def keywordi( text ):
+        return f'<span class="text-keyword">"{text}"</span>'    
+
     @env.filter
     def green( text ):
         return f'<span class="text-green">{text}</span>'
