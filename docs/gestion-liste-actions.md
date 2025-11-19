@@ -1,10 +1,6 @@
-# Sélectionnez une actions à trader
-
-Vous trouverez dans le Menu :
+Pour gérer la liste des {{ "Actions" | g_tooltip }} vous trouverez le Menu :
 
 - {{ "Stocks" | keywordi }} -> {{ "Gestion des stocks" | keywordi }}
-
-la liste des actions à trader.
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/menu-stocks.png" class="glightbox" data-gallery="galerie" title="Menu Stocks -> Gestion des Stocks">
@@ -13,24 +9,39 @@ la liste des actions à trader.
     <figcaption><em>Menu Stocks -> Gestion des Stocks</em></figcaption>
 </figure>
 
-Liste des Actions à trader :
+Avec la Liste des Actions à trader :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/gestion-des-stocks.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks">
-        <img src="{{ base_url }}/images/gestion-des-stocks.png" alt="" />
+    <a href="{{ base_url }}/images/gestion-stocks.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks">
+        <img src="{{ base_url }}/images/gestion-stocks.png" alt="" width="550"/>
     </a>
     <figcaption><em>Gestion des Stocks - Listes des Actions à analyser</em></figcaption>
 </figure>
 
 Sélectionnez une Actions, choisissez une Stratégie, cliquez sur {{ "Graphique" | keywordi }} le graphique de l'action s'affiche.
 
-## Gérer la liste des Actions à trader
+Notez les trois boutons Ajouter, Modifier, Supprimer.
+
+## Ajouter
 
 Il y a déjà des centaines d'actions référencées dans la plateforme mais peut être pas celle que vous souhaitez analyser.
 
 Pour ajouter une action, vous devez vous enquérir du {{ "Nom" | keyword }} et du {{ "Symbole" | keyword }} de l'action que vous souhaitez analyser.
 
-### Modifier
+Cliquez sur Ajouter :
+
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/gestion-stocks-add.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Ajouter">
+        <img src="{{ base_url }}/images/gestion-stocks-add.png" alt="" />
+    </a>
+    <figcaption><em>Gestion des Stocks - Ajouter une Stock</em></figcaption>
+</figure>
+
+Notez le {{ "Menu:" | keywordi }} avec {{ "autocomplétion" | keyword }}, tapez un seul 'a' et vous avez la liste de tous les menu commançants par un 'a'.
+
+Vous sélectionnez un Menu préexisant par les touches {{ "flêche haut" | keyword }}, {{ "flêche bas" | keyword }} puis {{ "entrer" | keyword }}.
+
+## Modifier
 
 Vous souhaitez par exemple modifier l'action AIR LIQUIDE cliquez sur Modifier :
 
@@ -42,7 +53,7 @@ Vous pouvez également mettre par exemple : {{ "Mes nouvelles actions à analyse
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s466/2025-01-24_12h34_38.png" style="margin-left: auto; margin-right: auto;"><img alt="Liste crée &quot;Mes nouvelles actions à analyser&quot;" border="0" data-original-height="466" data-original-width="356" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s16000/2025-01-24_12h34_38.png" title="Liste crée &quot;Mes nouvelles actions à analyser&quot;" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Liste crée "Mes nouvelles actions à analyser"</td></tr></tbody></table>
 
-Vous pouvez ainsi créer autant de liste dans le menu en choisissant le libellé que vous souhaitez.
+Vous pouvez ainsi créer autant de listes dans le Menu en choisissant le libellé que vous souhaitez.
 
 ### Filtrer
 
@@ -51,3 +62,12 @@ Vous ne savez plus où vous avez rangé l'action, il vous suffit de cliquer sur 
 - {{ "Stocks" | keywordi }} -> {{ "Gestion des stocks" | keywordi }}
 
 et de vous servir de la partie {{ "Filter:" | keywordi }} qui filtre aussi bien par {{ "Nom" | keyword }} par {{ "Symbol" | keyword }} ou par {{ "Menu" | keyword }}.
+
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/gestion-stocks-filter.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Filtrer">
+        <img src="{{ base_url }}/images/gestion-stocks-filter.png" alt="" />
+    </a>
+    <figcaption><em>Gestion des Stocks - Filtrer</em></figcaption>
+</figure>
+
+Avec "Aero" je filtre tous les Stocks du domaine de Aerospace-defense.

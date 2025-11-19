@@ -14,7 +14,7 @@
 
 Création du répertoire avec ce qu'il faut dedans :
 
-```
+```text
 > pip install mkdocs
 > pip install mkdocs-material
 > mkdocs new TradingInPython-doc 
@@ -22,7 +22,7 @@ Création du répertoire avec ce qu'il faut dedans :
 
 ## Numéroter les headers automatiquement
 
-```
+```text
 > pip install mkdocs-enumerate-headings-plugin
 > pip uninstall mkdocs-enumerate-headings-plugin
 > pip install mkdocs-macros-plugin
@@ -30,7 +30,7 @@ Création du répertoire avec ce qu'il faut dedans :
 
 ## Servir le site MkDocs en local
 
-```
+```text
 Set-Location -LiteralPath "c:\Users\Bruno\Documents\GitHub\TradingInPython-doc\TradingInPython-doc"; python -m mkdocs serve --dev-addr=127.0.0.1:8000
 ```
 
@@ -48,13 +48,13 @@ INFO    -  [16:31:24] Browser connected: <http://127.0.0.1:8000/>
 
 Création de tout un tas de JS
 
-```
+```text
 > mkdocs gh-deploy
 ```
 
 Publier le tout avec Fork
 
-```
+```text
 > git remote add origin <https://github.com/mabyre/TradingInPython-doc.git>
 > git branch -M main
 > git push -u origin main
@@ -66,7 +66,7 @@ Site accessible à l'adresse :
 
 ## Tester sur le serveur Local
 
-```
+```text
 > cd .\TradingInPython-doc\
 > mkdocs serve
 ```
@@ -79,18 +79,17 @@ Et que je fais Save :
 
 >INFO    -  Documentation built in 0.20 seconds
 INFO    -  [18:01:30] Watching paths for changes: 'docs', 'mkdocs.yml'
-INFO    -  [18:01:30] Serving on http://127.0.0.1:8000/
-INFO    -  [18:01:34] Browser connected: http://127.0.0.1:8000/
+INFO    -  [18:01:30] Serving on <http://127.0.0.1:8000/>
+INFO    -  [18:01:34] Browser connected: <http://127.0.0.1:8000/>
 INFO    -  [18:02:25] Detected file changes
 INFO    -  Building documentation...
 INFO    -  [18:02:25] Reloading browsers
-INFO    -  [18:02:33] Browser connected: http://127.0.0.1:8000/
+INFO    -  [18:02:33] Browser connected: <http://127.0.0.1:8000/>
 INFO    -  [18:02:52] Detected file changes
-
 
 ## Déployer sur le GitHub
 
-```
+```text
 > mkdocs gh-deploy --remote-branch=gh-pages --remote-name=origine
 ```
 

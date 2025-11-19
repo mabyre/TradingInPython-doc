@@ -43,7 +43,7 @@ nav:
   - Tour rapide: tour-rapide.md
   - Récupération des données: recuperation-des-data.md
   - Voyager dans le temps: voyage-dans-le-temps.md
-  - Sélectionner une action: select_stock.md
+  - Gérer la liste des actions: gestion-liste-actions.md
   - Routine de trading: trading-routine.md
   - Stratégies intégrées:
       - Vue d'ensemble: strategies/index.md

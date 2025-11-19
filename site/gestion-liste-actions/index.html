@@ -12,7 +12,7 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/select_stock/">
+        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/gestion-liste-actions/">
       
       
         <link rel="prev" href="../voyage-dans-le-temps/">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Sélectionner une action - TradingInPython</title>
+        <title>Gérer la liste des actions - TradingInPython</title>
       
     
     
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#selectionnez-une-actions-a-trader" class="md-skip">
+        <a href="#ajouter" class="md-skip">
           Aller au contenu
         </a>
       
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sélectionner une action
+              Gérer la liste des actions
             
           </span>
         </div>
@@ -336,15 +336,13 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   
   <span class="md-ellipsis">
-    Sélectionner une action
+    Gérer la liste des actions
     
   </span>
   
@@ -357,7 +355,7 @@
   
   
   <span class="md-ellipsis">
-    Sélectionner une action
+    Gérer la liste des actions
     
   </span>
   
@@ -370,8 +368,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -380,23 +376,23 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#gerer-la-liste-des-actions-a-trader" class="md-nav__link">
+  <a href="#ajouter" class="md-nav__link">
     <span class="md-ellipsis">
-      Gérer la liste des Actions à trader
+      Ajouter
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Gérer la liste des Actions à trader">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#modifier" class="md-nav__link">
     <span class="md-ellipsis">
       Modifier
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Modifier">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#filtrer" class="md-nav__link">
@@ -1483,8 +1479,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1493,23 +1487,23 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#gerer-la-liste-des-actions-a-trader" class="md-nav__link">
+  <a href="#ajouter" class="md-nav__link">
     <span class="md-ellipsis">
-      Gérer la liste des Actions à trader
+      Ajouter
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Gérer la liste des Actions à trader">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#modifier" class="md-nav__link">
     <span class="md-ellipsis">
       Modifier
     </span>
   </a>
   
-</li>
+    <nav class="md-nav" aria-label="Modifier">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#filtrer" class="md-nav__link">
@@ -1544,12 +1538,12 @@
   
 
 
-<h1 id="selectionnez-une-actions-a-trader">Sélectionnez une actions à trader<a class="headerlink" href="#selectionnez-une-actions-a-trader" title="Permanent link">&para;</a></h1>
-<p>Vous trouverez dans le Menu :</p>
+  <h1>Gérer la liste des actions</h1>
+
+<p>Pour gérer la liste des <span title="Titre représentant une part du capital d'une entreprise. Souvent appelé 'stock' en anglais." style="border-bottom:1px dotted;cursor:help"><b>Actions</b></span> vous trouverez le Menu :</p>
 <ul>
 <li><span class="text-keyword">"Stocks"</span> -&gt; <span class="text-keyword">"Gestion des stocks"</span></li>
 </ul>
-<p>la liste des actions à trader.</p>
 <figure style="text-align: center;">
     <a href="/TradingInPython-doc/images/menu-stocks.png" class="glightbox" data-gallery="galerie" title="Menu Stocks -> Gestion des Stocks">
         <img src="/TradingInPython-doc/images/menu-stocks.png" alt="" />
@@ -1557,19 +1551,30 @@
     <figcaption><em>Menu Stocks -> Gestion des Stocks</em></figcaption>
 </figure>
 
-<p>Liste des Actions à trader :</p>
+<p>Avec la Liste des Actions à trader :</p>
 <figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/gestion-des-stocks.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks">
-        <img src="/TradingInPython-doc/images/gestion-des-stocks.png" alt="" />
+    <a href="/TradingInPython-doc/images/gestion-stocks.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks">
+        <img src="/TradingInPython-doc/images/gestion-stocks.png" alt="" width="550"/>
     </a>
     <figcaption><em>Gestion des Stocks - Listes des Actions à analyser</em></figcaption>
 </figure>
 
 <p>Sélectionnez une Actions, choisissez une Stratégie, cliquez sur <span class="text-keyword">"Graphique"</span> le graphique de l'action s'affiche.</p>
-<h2 id="gerer-la-liste-des-actions-a-trader">Gérer la liste des Actions à trader<a class="headerlink" href="#gerer-la-liste-des-actions-a-trader" title="Permanent link">&para;</a></h2>
+<p>Notez les trois boutons Ajouter, Modifier, Supprimer.</p>
+<h2 id="ajouter">Ajouter<a class="headerlink" href="#ajouter" title="Permanent link">&para;</a></h2>
 <p>Il y a déjà des centaines d'actions référencées dans la plateforme mais peut être pas celle que vous souhaitez analyser.</p>
 <p>Pour ajouter une action, vous devez vous enquérir du <span class="text-keyword">Nom</span> et du <span class="text-keyword">Symbole</span> de l'action que vous souhaitez analyser.</p>
-<h3 id="modifier">Modifier<a class="headerlink" href="#modifier" title="Permanent link">&para;</a></h3>
+<p>Cliquez sur Ajouter :</p>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/gestion-stocks-add.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Ajouter">
+        <img src="/TradingInPython-doc/images/gestion-stocks-add.png" alt="" />
+    </a>
+    <figcaption><em>Gestion des Stocks - Ajouter une Stock</em></figcaption>
+</figure>
+
+<p>Notez le <span class="text-keyword">"Menu:"</span> avec <span class="text-keyword">autocomplétion</span>, tapez un seul 'a' et vous avez la liste de tous les menu commançants par un 'a'.</p>
+<p>Vous sélectionnez un Menu préexisant par les touches <span class="text-keyword">flêche haut</span>, <span class="text-keyword">flêche bas</span> puis <span class="text-keyword">entrer</span>.</p>
+<h2 id="modifier">Modifier<a class="headerlink" href="#modifier" title="Permanent link">&para;</a></h2>
 <p>Vous souhaitez par exemple modifier l'action AIR LIQUIDE cliquez sur Modifier :</p>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNDkHCmRqigm00DPprmdwrlGfb-cbAcxJcPont8GanbxBH8XpCSE-kqcylQzwtWGQ8VTRZB1h7Ab1C-TaBDF2wDfrH7fBFM3K3T36hb4zoeRr813YofFrjg3AX_1nGjgqSnqQ9xKBgJb195c_XLUzLle4RBqvIVO_dLqHNKxG1N0VhhKejrh_sXQBVmqKA/s259/2025-01-24_12h26_52.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="201" data-original-width="259" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNDkHCmRqigm00DPprmdwrlGfb-cbAcxJcPont8GanbxBH8XpCSE-kqcylQzwtWGQ8VTRZB1h7Ab1C-TaBDF2wDfrH7fBFM3K3T36hb4zoeRr813YofFrjg3AX_1nGjgqSnqQ9xKBgJb195c_XLUzLle4RBqvIVO_dLqHNKxG1N0VhhKejrh_sXQBVmqKA/s16000/2025-01-24_12h26_52.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Modification de AIR LIQUIDE</td></tr></tbody></table>
 
@@ -1577,13 +1582,21 @@
 <p>Vous pouvez également mettre par exemple : <span class="text-keyword">Mes nouvelles actions à analyser</span>, AIR LIQUIDE se retrouvera dans une nouvelle liste nommée : <span class="text-keyword">Mes nouvelles actions à analyser</span>.</p>
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s466/2025-01-24_12h34_38.png" style="margin-left: auto; margin-right: auto;"><img alt="Liste crée &quot;Mes nouvelles actions à analyser&quot;" border="0" data-original-height="466" data-original-width="356" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s16000/2025-01-24_12h34_38.png" title="Liste crée &quot;Mes nouvelles actions à analyser&quot;" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Liste crée "Mes nouvelles actions à analyser"</td></tr></tbody></table>
 
-<p>Vous pouvez ainsi créer autant de liste dans le menu en choisissant le libellé que vous souhaitez.</p>
+<p>Vous pouvez ainsi créer autant de listes dans le Menu en choisissant le libellé que vous souhaitez.</p>
 <h3 id="filtrer">Filtrer<a class="headerlink" href="#filtrer" title="Permanent link">&para;</a></h3>
 <p>Vous ne savez plus où vous avez rangé l'action, il vous suffit de cliquer sur le menu :</p>
 <ul>
 <li><span class="text-keyword">"Stocks"</span> -&gt; <span class="text-keyword">"Gestion des stocks"</span></li>
 </ul>
 <p>et de vous servir de la partie <span class="text-keyword">"Filter:"</span> qui filtre aussi bien par <span class="text-keyword">Nom</span> par <span class="text-keyword">Symbol</span> ou par <span class="text-keyword">Menu</span>.</p>
+<figure style="text-align: center;">
+    <a href="/TradingInPython-doc/images/gestion-stocks-filter.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Filtrer">
+        <img src="/TradingInPython-doc/images/gestion-stocks-filter.png" alt="" />
+    </a>
+    <figcaption><em>Gestion des Stocks - Filtrer</em></figcaption>
+</figure>
+
+<p>Avec "Aero" je filtre tous les Stocks du domaine de Aerospace-defense.</p>
 
 
 
@@ -1604,7 +1617,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="4 novembre 2025 17:41:10 UTC"><span class="timeago" datetime="2025-11-04T17:41:10+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="4 novembre 2025 17:41:10 UTC">2025-11-04</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="19 novembre 2025 16:04:03 UTC"><span class="timeago" datetime="2025-11-19T16:04:03+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="19 novembre 2025 16:04:03 UTC">2025-11-19</span>
   </span>
 
     
