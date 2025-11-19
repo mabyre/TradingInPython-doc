@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "MkDocs Serve",
+            "type": "shell",
+            "command": "mkdocs serve",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "MkDocs Deploy",
+            "type": "shell",
+            "command": "mkdocs gh-deploy --remote-branch=gh-pages --remote-name=origine",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
