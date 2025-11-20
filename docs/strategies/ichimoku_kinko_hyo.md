@@ -2,11 +2,11 @@
 
 L'indicateur technique Ichimoku Kinko Hyo est une stratégie à lui tout seul. C'est une analyse technique extrêment graphique qui permet en un coup d'oeil de détecter les grandes tendances du cours de l'action.
 
-Voici le graphe de l'indicateur technique **Ichimoku-Kinko-Hyo** et sa prédiction **Keras**.
+Voici le graphe de l'indicateur technique {{ "Ichimoku-Kinko-Hyo" | keyword }} et sa prédiction {{ "Keras" | keyword }}.
 
 ## Interface
 
-Dans le Menu **Stratégie** choisissez **Ichimoku-Kinko-Hyo** :
+Dans le Menu {{ "Stratégie" | keyword }} choisissez {{ "Ichimoku-Kinko-Hyo" | keyword }} :
 
 <figure style="text-align: center;" title="Interface de l'Ichimoku-Kinko-Hyo">
   <a href="{{ base_url }}/images/strategies/ichimoku/ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie">
@@ -52,9 +52,9 @@ Avec notre implémentation ce modèle possède deux paramètres vus au point **(
   <figcaption><em>Ichimoku-Kinko-Hyo Calculer la prédiction</em></figcaption>
 </figure>
 
-- **(1)** Cochez la case **Forcasting** pour afficher le signal de prédiction.
+- **(1)** Cochez la case {{ "Forcasting" | keyword }} pour afficher le signal de prédiction.
 - **(2)** Un signal à trois états, achat de vente et neutre, est généré par l'entrainement de l'IA.
-- **(3)** Un réseau de neurones **Keras** est entrainé sur les données du passé pour délivrer sa prédiction.
+- **(3)** Un réseau de neurones {{ "Keras" | keyword }} est entrainé sur les données du passé pour délivrer sa prédiction.
 
 Ici AIR LIQUIDE est à l'achat.
 
