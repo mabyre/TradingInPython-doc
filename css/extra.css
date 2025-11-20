@@ -39,6 +39,11 @@ article h1::before {
     font-weight: bold;
 }
 
+.text-blue {
+    color: blue;
+    font-weight: bold;
+}
+
 .text-keyword {
     color: #5a8091;
     font-weight: bold;

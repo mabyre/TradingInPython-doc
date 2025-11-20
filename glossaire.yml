@@ -1,25 +1,20 @@
 Action: |
   Titre représentant une part du capital d'une entreprise. Souvent appelé 'stock' en anglais.
 
-Actions: |
-  Titre représentant une part du capital d'une entreprise. Souvent appelé 'stock' en anglais.
-
 Breakout: |
   Un breakout (cassure) est un mouvement de prix où l'actif sort d'une zone clé.
 
   Généralement :
 
     - une résistance (vers le haut)
-
-    - un support (vers le bas)
-
+    - un support (vers le bas) c'est un **breakdown**
     - une figure chartiste (triangle, range, canal, etc.)
 
   Lors d'un breakout :
 
     - Le prix traverse et clôture au-delà de ce niveau clé.
-
-    - L'idée est que cela indique un changement de dynamique ou un début de nouvelle tendance.
+    - Cela indique un changement de dynamique ou un début de nouvelle tendance.
+    - Profiter d'un mouvement de prix significatif initié par la cassure.
 
   Les traders recherchent un breakout accompagné de volume, gage de validité afin de profiter d'un départ de tendance avant tout le monde.
 
@@ -35,12 +30,13 @@ Buy Stop: |
 MatPlotLib: |
   Bibliothèque de visualisation de données en Python, utilisée pour créer des graphiques et des visualisations statiques, animées et interactives.
 
-Pullback: | 
+Pullback: |
   Un pullback (retour sur cassure) est un mouvement où, après un breakout :
 
   Le prix revient tester la résistance cassée (devenue support) ou revient tester le support cassé (devenu résistance).
 
   C'est un mécanisme technique classique :
+
   Le prix revient respirer, valider la cassure, puis reprend la tendance initiée par le breakout.
 
   Objectif d'un pullback :

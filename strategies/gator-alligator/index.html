@@ -645,7 +645,7 @@
         <li class="md-nav__item">
   <a href="#principe-fondamental" class="md-nav__link">
     <span class="md-ellipsis">
-      principe fondamental
+      Principe fondamental
     </span>
   </a>
   
@@ -681,6 +681,21 @@
       Signal de vente
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Signal de vente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-graphique-vente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple graphique vente
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1369,12 +1384,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/syntaxe-links/" class="md-nav__link">
+      <a href="../../tests/colors/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Syntaxe & Links
+    Colors
     
   </span>
   
@@ -1392,7 +1407,30 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/exemple-glossaire/" class="md-nav__link">
+      <a href="../../tests/syntaxe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Syntaxe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tests/glossaire/" class="md-nav__link">
         
   
   
@@ -1551,7 +1589,7 @@
         <li class="md-nav__item">
   <a href="#principe-fondamental" class="md-nav__link">
     <span class="md-ellipsis">
-      principe fondamental
+      Principe fondamental
     </span>
   </a>
   
@@ -1587,6 +1625,21 @@
       Signal de vente
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Signal de vente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-graphique-vente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple graphique vente
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1631,7 +1684,7 @@
 <p>Il permettet de visualiser rapidement les phases d'expansion et de contraction de la tendance.</p>
 <p>Cet indicateur est particulièrement apprécié pour sa <span class="text-keyword">simplicité visuelle</span> et son efficacité à identifier les périodes de trading favorables.</p>
 <h2 id="interface">Interface<a class="headerlink" href="#interface" title="Permanent link">&para;</a></h2>
-<p>Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Williams pour une stratégie complète de trading sur les pullback et les breakout.</p>
+<p>Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Williams pour une stratégie complète de trading sur les <a href="/TradingInPython-doc/glossaire/#pullback">pullback</a> et les <a href="/TradingInPython-doc/glossaire/#breakout">breakout</a>.</p>
 <figure style="text-align: center;">
   <a href="/TradingInPython-doc/images/strategies/gator-alligator/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie du Gator Alligator de Bill Williams">
     <img src="/TradingInPython-doc/images/strategies/gator-alligator/interface.png" alt="Capture d'écran" class="centered"/>
@@ -1661,7 +1714,7 @@
 </li>
 </ul>
 <p>La mâchoire (Jaw) est la plus lente, elle représente la tendance principale.</p>
-<h2 id="principe-fondamental">principe fondamental<a class="headerlink" href="#principe-fondamental" title="Permanent link">&para;</a></h2>
+<h2 id="principe-fondamental">Principe fondamental<a class="headerlink" href="#principe-fondamental" title="Permanent link">&para;</a></h2>
 <p>Bill Williams dit :</p>
 <ul>
 <li>On ne doit acheter que si la fractale haussière est au-dessus de la Jaw.</li>
@@ -1683,7 +1736,7 @@ Si un breakout se produit du bon côté de cette ligne, il est dans le sens de l
 <p>L’entrée n’est déclenchée que si la tendance continue réellement.</p>
 <p>Cela évite les achats quand le prix est dans un range ou sous l’Alligator.</p>
 <h3 id="exemple-graphique">Exemple graphique<a class="headerlink" href="#exemple-graphique" title="Permanent link">&para;</a></h3>
-<p>Voici un magnifique breakout haussier sur Air Liquide le 07/01/2025</p>
+<p>Voici un magnifique breakout suivi d'un pullback haussier sur Air Liquide le 07/01/2025 :</p>
 <figure style="text-align: center;">
   <a href="/TradingInPython-doc/images/strategies/gator-alligator/signal-achat.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
     <img src="/TradingInPython-doc/images/strategies/gator-alligator/signal-achat.png" alt="Capture d'écran" class="centered"/>
@@ -1710,6 +1763,20 @@ Si un breakout se produit du bon côté de cette ligne, il est dans le sens de l
 <p>Si la cassure se produit, la dynamique baissière continue.</p>
 <p>On place un ordr <span title="Un ordre Sell Stop est un ordre de vente conditionnel qui s'active uniquement si le prix descend jusqu'à un niveau prédéfini." style="border-bottom:1px dotted;cursor:help"><b>Sell Stop</b></span> sous le plus bas de la fractale.</p>
 <p>L’ordre n'est exécuté que si la tendance se prolonge vraiment.</p>
+<h3 id="exemple-graphique-vente">Exemple graphique vente<a class="headerlink" href="#exemple-graphique-vente" title="Permanent link">&para;</a></h3>
+<p>Voici un magnifique breakdown suivi d'un pullback baissier sur Air Liquide :</p>
+<figure style="text-align: center;">
+  <a href="/TradingInPython-doc/images/strategies/gator-alligator/signal-vente.png" class="glightbox" data-gallery="galerie" title="Signal de vente selon le Gator Alligator de Bill Williams">
+    <img src="/TradingInPython-doc/images/strategies/gator-alligator/signal-vente.png" alt="Capture d'écran" class="centered"/>
+  </a>
+  <figcaption><em>Signal de vente confirmation selon le Gator Alligator de Bill Williams</em></figcaption>
+</figure>
+
+<ul>
+<li><strong>(1)</strong> La fractale est dessous de la Jaw</li>
+<li><strong>(2)</strong> Confirmation par les deux barres rouge du Gator</li>
+</ul>
+<p>L'ordre de Sell Stop placé en dessous de la valeur la plus basse de la fractale.</p>
 <h2 id="resume">Résumé<a class="headerlink" href="#resume" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -1757,7 +1824,7 @@ Si un breakout se produit du bon côté de cette ligne, il est dans le sens de l
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="20 novembre 2025 10:47:54 UTC"><span class="timeago" datetime="2025-11-20T10:47:54+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="20 novembre 2025 10:47:54 UTC">2025-11-20</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="20 novembre 2025 12:33:35 UTC"><span class="timeago" datetime="2025-11-20T12:33:35+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="20 novembre 2025 12:33:35 UTC">2025-11-20</span>
   </span>
 
     
