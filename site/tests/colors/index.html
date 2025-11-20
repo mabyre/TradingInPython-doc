@@ -12,28 +12,28 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/gestion-liste-actions/">
+        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/tests/colors/">
       
       
-        <link rel="prev" href="../voyage-dans-le-temps/">
+        <link rel="prev" href="../notes/">
       
       
-        <link rel="next" href="../trading-routine/">
+        <link rel="next" href="../syntaxe/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
-        <title>Gérer la liste des actions - TradingInPython</title>
+        <title>Colors - TradingInPython</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,15 +52,15 @@
       
     
     
-      <link rel="stylesheet" href="../css/timeago.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
     
-      <link rel="stylesheet" href="../css/glightbox.min.css">
+      <link rel="stylesheet" href="../../css/glightbox.min.css">
     
-      <link rel="stylesheet" href="../css/extra.css">
+      <link rel="stylesheet" href="../../css/extra.css">
     
-      <link rel="stylesheet" href="../css/summary.css">
+      <link rel="stylesheet" href="../../css/summary.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -84,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ajouter" class="md-skip">
+        <a href="#filtres-de-couleur" class="md-skip">
           Aller au contenu
         </a>
       
@@ -100,7 +100,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href=".." title="TradingInPython" class="md-header__button md-logo" aria-label="TradingInPython" data-md-component="logo">
+    <a href="../.." title="TradingInPython" class="md-header__button md-logo" aria-label="TradingInPython" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Gérer la liste des actions
+              Colors
             
           </span>
         </div>
@@ -212,7 +212,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="TradingInPython" class="md-nav__button md-logo" aria-label="TradingInPython" data-md-component="logo">
+    <a href="../.." title="TradingInPython" class="md-nav__button md-logo" aria-label="TradingInPython" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -242,7 +242,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -264,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tour-rapide/" class="md-nav__link">
+      <a href="../../tour-rapide/" class="md-nav__link">
         
   
   
@@ -286,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../recuperation-des-data/" class="md-nav__link">
+      <a href="../../recuperation-des-data/" class="md-nav__link">
         
   
   
@@ -308,7 +308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../voyage-dans-le-temps/" class="md-nav__link">
+      <a href="../../voyage-dans-le-temps/" class="md-nav__link">
         
   
   
@@ -327,30 +327,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Gérer la liste des actions
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../gestion-liste-actions/" class="md-nav__link">
         
   
   
@@ -361,57 +341,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#ajouter" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ajouter
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modifier" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modifier
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Modifier">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#filtrer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Filtrer
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -423,7 +352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trading-routine/" class="md-nav__link">
+      <a href="../../trading-routine/" class="md-nav__link">
         
   
   
@@ -483,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/" class="md-nav__link">
+      <a href="../../strategies/" class="md-nav__link">
         
   
   
@@ -506,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/ichimoku_kinko_hyo/" class="md-nav__link">
+      <a href="../../strategies/ichimoku_kinko_hyo/" class="md-nav__link">
         
   
   
@@ -529,7 +458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/moyennes-mobiles/" class="md-nav__link">
+      <a href="../../strategies/moyennes-mobiles/" class="md-nav__link">
         
   
   
@@ -552,7 +481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/bollinger-bands/" class="md-nav__link">
+      <a href="../../strategies/bollinger-bands/" class="md-nav__link">
         
   
   
@@ -575,7 +504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/intraday-vwap-stoch/" class="md-nav__link">
+      <a href="../../strategies/intraday-vwap-stoch/" class="md-nav__link">
         
   
   
@@ -598,7 +527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/analyse-pression-volumique/" class="md-nav__link">
+      <a href="../../strategies/analyse-pression-volumique/" class="md-nav__link">
         
   
   
@@ -621,7 +550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/fractales-bill-williams/" class="md-nav__link">
+      <a href="../../strategies/fractales-bill-williams/" class="md-nav__link">
         
   
   
@@ -644,7 +573,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/gator-alligator/" class="md-nav__link">
+      <a href="../../strategies/gator-alligator/" class="md-nav__link">
         
   
   
@@ -667,7 +596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/kalman-filter/" class="md-nav__link">
+      <a href="../../strategies/kalman-filter/" class="md-nav__link">
         
   
   
@@ -690,7 +619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/prediction_ai/" class="md-nav__link">
+      <a href="../../strategies/prediction_ai/" class="md-nav__link">
         
   
   
@@ -758,7 +687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../heatmap-screener/screeners/" class="md-nav__link">
+      <a href="../../heatmap-screener/screeners/" class="md-nav__link">
         
   
   
@@ -781,7 +710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../heatmap-screener/heatmaps/" class="md-nav__link">
+      <a href="../../heatmap-screener/heatmaps/" class="md-nav__link">
         
   
   
@@ -849,7 +778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-alerts/monitor-stock-market/" class="md-nav__link">
+      <a href="../../monitor-alerts/monitor-stock-market/" class="md-nav__link">
         
   
   
@@ -872,7 +801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-alerts/alertes-techniques/" class="md-nav__link">
+      <a href="../../monitor-alerts/alertes-techniques/" class="md-nav__link">
         
   
   
@@ -902,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../portfolio-manager/" class="md-nav__link">
+      <a href="../../portfolio-manager/" class="md-nav__link">
         
   
   
@@ -962,7 +891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/navigate-on-charts/" class="md-nav__link">
+      <a href="../../draw-on-charts/navigate-on-charts/" class="md-nav__link">
         
   
   
@@ -985,7 +914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/draw-trend-lines/" class="md-nav__link">
+      <a href="../../draw-on-charts/draw-trend-lines/" class="md-nav__link">
         
   
   
@@ -1008,7 +937,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/annote-price-date/" class="md-nav__link">
+      <a href="../../draw-on-charts/annote-price-date/" class="md-nav__link">
         
   
   
@@ -1031,7 +960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/annotate-charts/" class="md-nav__link">
+      <a href="../../draw-on-charts/annotate-charts/" class="md-nav__link">
         
   
   
@@ -1099,7 +1028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/ui-configuration/" class="md-nav__link">
+      <a href="../../interface-configuration/ui-configuration/" class="md-nav__link">
         
   
   
@@ -1122,7 +1051,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/windows-management/" class="md-nav__link">
+      <a href="../../interface-configuration/windows-management/" class="md-nav__link">
         
   
   
@@ -1145,7 +1074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/dark-mode/" class="md-nav__link">
+      <a href="../../interface-configuration/dark-mode/" class="md-nav__link">
         
   
   
@@ -1168,7 +1097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/console-bottom-right/" class="md-nav__link">
+      <a href="../../interface-configuration/console-bottom-right/" class="md-nav__link">
         
   
   
@@ -1198,7 +1127,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../open-software/" class="md-nav__link">
+      <a href="../../open-software/" class="md-nav__link">
         
   
   
@@ -1217,18 +1146,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" checked>
         
           
           <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
@@ -1244,7 +1175,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_14">
             <span class="md-nav__icon md-icon"></span>
             Notes
@@ -1258,7 +1189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/images/" class="md-nav__link">
+      <a href="../images/" class="md-nav__link">
         
   
   
@@ -1281,7 +1212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/titres/" class="md-nav__link">
+      <a href="../titres/" class="md-nav__link">
         
   
   
@@ -1304,7 +1235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/notes/" class="md-nav__link">
+      <a href="../notes/" class="md-nav__link">
         
   
   
@@ -1324,10 +1255,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../tests/colors/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Colors
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1338,6 +1289,33 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#filtres-de-couleur" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtres de Couleur
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1350,7 +1328,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/syntaxe/" class="md-nav__link">
+      <a href="../syntaxe/" class="md-nav__link">
         
   
   
@@ -1373,7 +1351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/glossaire/" class="md-nav__link">
+      <a href="../glossaire/" class="md-nav__link">
         
   
   
@@ -1396,7 +1374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/tooltips/" class="md-nav__link">
+      <a href="../tooltips/" class="md-nav__link">
         
   
   
@@ -1426,7 +1404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../indicators/" class="md-nav__link">
+      <a href="../../indicators/" class="md-nav__link">
         
   
   
@@ -1448,7 +1426,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../glossaire/" class="md-nav__link">
+      <a href="../../glossaire/" class="md-nav__link">
         
   
   
@@ -1470,7 +1448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../support-faq/" class="md-nav__link">
+      <a href="../../support-faq/" class="md-nav__link">
         
   
   
@@ -1510,35 +1488,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ajouter" class="md-nav__link">
+  <a href="#filtres-de-couleur" class="md-nav__link">
     <span class="md-ellipsis">
-      Ajouter
+      Filtres de Couleur
     </span>
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#modifier" class="md-nav__link">
-    <span class="md-ellipsis">
-      Modifier
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Modifier">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#filtrer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Filtrer
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1561,65 +1515,25 @@
   
 
 
-  <h1>Gérer la liste des actions</h1>
+  <h1>Colors</h1>
 
-<p>Pour gérer la liste des <span title="Titre représentant une part du capital d'une entreprise. Souvent appelé 'stock' en anglais." style="border-bottom:1px dotted;cursor:help"><b>actions</b></span> vous trouverez le Menu :</p>
-<ul>
-<li><span class="text-keyword">"Stocks"</span> -&gt; <span class="text-keyword">"Gestion des stocks"</span></li>
-</ul>
-<figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/menu-stocks.png" class="glightbox" data-gallery="galerie" title="Menu Stocks -> Gestion des Stocks">
-        <img src="/TradingInPython-doc/images/menu-stocks.png" alt="" />
-    </a>
-    <figcaption><em>Menu Stocks -> Gestion des Stocks</em></figcaption>
-</figure>
-
-<p>Avec la Liste des Actions à trader :</p>
-<figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/gestion-stocks.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks">
-        <img src="/TradingInPython-doc/images/gestion-stocks.png" alt="" width="550"/>
-    </a>
-    <figcaption><em>Gestion des Stocks - Listes des Actions à analyser</em></figcaption>
-</figure>
-
-<p>Sélectionnez une Actions, choisissez une Stratégie, cliquez sur <span class="text-keyword">"Graphique"</span> le graphique de l'action s'affiche.</p>
-<p>Notez les trois boutons Ajouter, Modifier, Supprimer.</p>
-<h2 id="ajouter">Ajouter<a class="headerlink" href="#ajouter" title="Permanent link">&para;</a></h2>
-<p>Il y a déjà des centaines d'actions référencées dans la plateforme mais peut être pas celle que vous souhaitez analyser.</p>
-<p>Pour ajouter une action, vous devez vous enquérir du <span class="text-keyword">Nom</span> et du <span class="text-keyword">Symbole</span> de l'action que vous souhaitez analyser.</p>
-<p>Cliquez sur Ajouter :</p>
-<figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/gestion-stocks-add.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Ajouter">
-        <img src="/TradingInPython-doc/images/gestion-stocks-add.png" alt="" />
-    </a>
-    <figcaption><em>Gestion des Stocks - Ajouter une Stock</em></figcaption>
-</figure>
-
-<p>Notez le <span class="text-keyword">"Menu:"</span> avec <span class="text-keyword">autocomplétion</span>, tapez un seul 'a' et vous avez la liste de tous les menu commançants par un 'a'.</p>
-<p>Vous sélectionnez un Menu préexisant par les touches <span class="text-keyword">flêche haut</span>, <span class="text-keyword">flêche bas</span> puis <span class="text-keyword">entrer</span>.</p>
-<h2 id="modifier">Modifier<a class="headerlink" href="#modifier" title="Permanent link">&para;</a></h2>
-<p>Vous souhaitez par exemple modifier l'action AIR LIQUIDE cliquez sur Modifier :</p>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNDkHCmRqigm00DPprmdwrlGfb-cbAcxJcPont8GanbxBH8XpCSE-kqcylQzwtWGQ8VTRZB1h7Ab1C-TaBDF2wDfrH7fBFM3K3T36hb4zoeRr813YofFrjg3AX_1nGjgqSnqQ9xKBgJb195c_XLUzLle4RBqvIVO_dLqHNKxG1N0VhhKejrh_sXQBVmqKA/s259/2025-01-24_12h26_52.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="201" data-original-width="259" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNDkHCmRqigm00DPprmdwrlGfb-cbAcxJcPont8GanbxBH8XpCSE-kqcylQzwtWGQ8VTRZB1h7Ab1C-TaBDF2wDfrH7fBFM3K3T36hb4zoeRr813YofFrjg3AX_1nGjgqSnqQ9xKBgJb195c_XLUzLle4RBqvIVO_dLqHNKxG1N0VhhKejrh_sXQBVmqKA/s16000/2025-01-24_12h26_52.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Modification de AIR LIQUIDE</td></tr></tbody></table>
-
-<p>Si vous laissez <span class="text-keyword">"Menu:"</span> vide, l'action AIR LIQUIDE se retrouvera dans la liste des actions <span class="text-keyword">"Non classées"</span>, sinon remplissez ce champ avec <span class="text-keyword">A</span> pour retrouver l'action dans la liste des <span class="text-keyword">A</span>.</p>
-<p>Vous pouvez également mettre par exemple : <span class="text-keyword">Mes nouvelles actions à analyser</span>, AIR LIQUIDE se retrouvera dans une nouvelle liste nommée : <span class="text-keyword">Mes nouvelles actions à analyser</span>.</p>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s466/2025-01-24_12h34_38.png" style="margin-left: auto; margin-right: auto;"><img alt="Liste crée &quot;Mes nouvelles actions à analyser&quot;" border="0" data-original-height="466" data-original-width="356" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s16000/2025-01-24_12h34_38.png" title="Liste crée &quot;Mes nouvelles actions à analyser&quot;" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Liste crée "Mes nouvelles actions à analyser"</td></tr></tbody></table>
-
-<p>Vous pouvez ainsi créer autant de listes dans le Menu en choisissant le libellé que vous souhaitez.</p>
-<h3 id="filtrer">Filtrer<a class="headerlink" href="#filtrer" title="Permanent link">&para;</a></h3>
-<p>Vous ne savez plus où vous avez rangé l'action, il vous suffit de cliquer sur le menu :</p>
-<ul>
-<li><span class="text-keyword">"Stocks"</span> -&gt; <span class="text-keyword">"Gestion des stocks"</span></li>
-</ul>
-<p>et de vous servir de la partie <span class="text-keyword">"Filter:"</span> qui filtre aussi bien par <span class="text-keyword">Nom</span> par <span class="text-keyword">Symbol</span> ou par <span class="text-keyword">Menu</span>.</p>
-<figure style="text-align: center;">
-    <a href="/TradingInPython-doc/images/gestion-stocks-filter.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Filtrer">
-        <img src="/TradingInPython-doc/images/gestion-stocks-filter.png" alt="" />
-    </a>
-    <figcaption><em>Gestion des Stocks - Filtrer</em></figcaption>
-</figure>
-
-<p>Avec "Aero" je filtre tous les Stocks du domaine de Aerospace-defense.</p>
+<p>Du texte en <span class="text-red">rouge et en bold</span></p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;text-red&quot;</span><span class="p">&gt;</span>rouge et en bold<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Du texte en <span class="text-green">vert et en bold</span></p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;text-red&quot;</span><span class="p">&gt;</span>rouge et en bold<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Du texte en <span class="text-keyword">couleur keyword bold</span></p>
+<div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;text-keyword&quot;</span><span class="p">&gt;</span>vert et en keyword bold<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+</code></pre></div>
+<h2 id="filtres-de-couleur">Filtres de Couleur<a class="headerlink" href="#filtres-de-couleur" title="Permanent link">&para;</a></h2>
+<p>Grâce au @env.filter dans main.py :</p>
+<p><span class="text-keyword">Ce texte est en couleur 'keyword'</span></p>
+<div class="highlight"><pre><span></span><code>{{ &quot;Ce texte est en couleur &#39;keyword&#39;&quot; | keyword }}
+</code></pre></div>
+<p><span class="text-red">Ce texte est en couleur 'red'</span></p>
+<div class="highlight"><pre><span></span><code>{{ &quot;Ce texte est en couleur &#39;red&#39;&quot; | red }}
+</code></pre></div>
 
 
 
@@ -1740,18 +1654,18 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.top", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.top", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
-        <script src="../js/timeago.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="../js/timeago_mkdocs_material.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../js/glightbox.min.js"></script>
+        <script src="../../js/glightbox.min.js"></script>
       
-        <script src="../js/init.js"></script>
+        <script src="../../js/init.js"></script>
       
     
   </body>

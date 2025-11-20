@@ -78,8 +78,9 @@ nav:
       - Images: tests/images.md
       - Titres: tests/titres.md 
       - Notes: tests/notes.md
-      - Syntaxe & Links: tests/syntaxe-links.md
-      - Glossaire: tests/exemple-glossaire.md
+      - Colors: tests/colors.md
+      - Syntaxe: tests/syntaxe.md
+      - Glossaire: tests/glossaire.md
       - Tooltips: tests/tooltips.md
   - Indicateurs Techniques: indicators.md
   - Glossaire: glossaire.md

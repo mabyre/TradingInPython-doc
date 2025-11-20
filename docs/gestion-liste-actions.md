@@ -1,4 +1,4 @@
-Pour gérer la liste des {{ "Actions" | g_tooltip }} vous trouverez le Menu :
+Pour gérer la liste des {{ "actions" | g_tooltip }} vous trouverez le Menu :
 
 - {{ "Stocks" | keywordi }} -> {{ "Gestion des stocks" | keywordi }}
 

@@ -17,7 +17,7 @@ Cet indicateur est particulièrement apprécié pour sa {{ "simplicité visuelle
 
 ## Interface
 
-Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Williams pour une stratégie complète de trading sur les pullback et les breakout.
+Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Williams pour une stratégie complète de trading sur les {{ "pullback" | g_link }} et les {{ "breakout" | g_link }}.
 
 <figure style="text-align: center;">
   <a href="{{ base_url }}/images/strategies/gator-alligator/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie du Gator Alligator de Bill Williams">
@@ -47,7 +47,7 @@ Les lignes de l’Alligator :
 
 La mâchoire (Jaw) est la plus lente, elle représente la tendance principale.
 
-## principe fondamental
+## Principe fondamental
 
 Bill Williams dit :
 
@@ -59,7 +59,7 @@ Pourquoi ?
 Parce que la Jaw représente l’axe de la tendance.
 Si un breakout se produit du bon côté de cette ligne, il est dans le sens de la dynamique dominante.
 
-## Signal d'achat
+## Signaux d'achat
 
 "Acheter une fractale haussière au-dessus de la mâchoire (Jaw)".
 
@@ -80,7 +80,7 @@ Cela évite les achats quand le prix est dans un range ou sous l’Alligator.
 
 ### Exemple graphique
 
-Voici un magnifique breakout haussier sur Air Liquide le 07/01/2025
+Voici un magnifique breakout suivi d'un pullback haussier sur Air Liquide le 07/01/2025 :
 
 <figure style="text-align: center;">
   <a href="{{ base_url }}/images/strategies/gator-alligator/signal-achat.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
@@ -100,7 +100,7 @@ La Fractale Up est au dessus de la machoire.
 
 L'ordre de Buy Stop placé à 160 le 17/01/2025 lors le Gator Alligator ouvre la machoire avec les deux barres vertes de l'histogramme lors qu'il se réveille.
 
-## Signal de vente
+## Signaux de vente
 
 "Vendre une fractale baissière en dessous de la mâchoire".
 
@@ -114,6 +114,22 @@ Si la cassure se produit, la dynamique baissière continue.
 On place un ordr {{ "Sell Stop" | g_tooltip }} sous le plus bas de la fractale.
 
 L’ordre n'est exécuté que si la tendance se prolonge vraiment.
+
+### Exemple graphique vente
+
+Voici un magnifique breakdown suivi d'un pullback baissier sur Air Liquide :
+
+<figure style="text-align: center;">
+  <a href="{{ base_url }}/images/strategies/gator-alligator/signal-vente.png" class="glightbox" data-gallery="galerie" title="Signal de vente selon le Gator Alligator de Bill Williams">
+    <img src="{{ base_url }}/images/strategies/gator-alligator/signal-vente.png" alt="Capture d'écran" class="centered"/>
+  </a>
+  <figcaption><em>Signal de vente confirmation selon le Gator Alligator de Bill Williams</em></figcaption>
+</figure>
+
+- **(1)** La fractale est dessous de la Jaw
+- **(2)** Confirmation par les deux barres rouge du Gator
+
+L'ordre de Sell Stop placé en dessous de la valeur la plus basse de la fractale.
 
 ## Résumé
 

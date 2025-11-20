@@ -72,7 +72,7 @@ Par exemple avec les réglages suivants :
 - SMA 2 = 18
 - EMA = 18
 
-Vous obtenez un {{ Spread | g_tooltip }} de : 9,50
+Vous obtenez un {{ "Spread" | g_tooltip }} de : 9,50
 
 <figure style="text-align: center;">
   <a href="{{ base_url }}/images/strategies/moyennes-mobiles/spread.png" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">

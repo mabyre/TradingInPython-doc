@@ -23,6 +23,7 @@ def define_env( env ):
 
     # keywordi : keyword dans les interfaces
     @env.filter
+    # Des citations entre guillemets
     def keywordi( text ):
         return f'<span class="text-keyword">"{text}"</span>'    
 
@@ -50,14 +51,27 @@ def define_env( env ):
             {{ "RSI" | g_tooltip }}
         Le tooltip n'affiche que la première ligne de la définition du glossaire.
         """
-        definition = glossary.get( term )
-        if definition:
-            term_escaped = escape( term )
-            first_line = definition.strip().split("\n", 1)[0]
-            html = f'<span title="{first_line}" style="border-bottom:1px dotted;cursor:help"><b>{term_escaped}</b></span>'
-            return Markup( html )  # Markup = ne pas échapper à l'affichage
-
-        return f'{term} not in glossary'
+        definition = None
+        
+        for key in glossary:
+            # Compare in lowercase
+            if key.lower() == term.lower():
+                definition = glossary[ key ]
+                break
+            
+            # Compare with 's' at the end
+            if key.lower() + 's' == term.lower():
+                definition = glossary[ key ]
+                break
+    
+        if not definition:
+            return f'{term} not in glossary!'
+        
+        term_escaped = escape( term )
+        first_line = definition.strip().split("\n", 1)[0]
+        html = f'<span title="{first_line}" style="border-bottom:1px dotted;cursor:help"><b>{term_escaped}</b></span>'
+        
+        return Markup( html )  # Markup = ne pas échapper à l'affichage
     
     @env.macro
     def gtooltip( term ):
@@ -79,9 +93,25 @@ def define_env( env ):
         Résultat :
             <a href="{{ base_url }}/glossaire/#rsi">RSI</a>
         """
+        _key = None
+        
+        for key in glossary:
+            # Compare in lowercase
+            if key.lower() == term.lower():
+                _key = key
+                break
+                        
+            # Compare with 's' at the end
+            if key.lower() + 's' == term.lower():
+                _key = key
+                break
+    
+        if not _key:
+            return f'{term} not in glossary!'
+        
         #base_url = env.conf['site_url'] if env.conf.get('site_url') else env.variables.get('base_url', '')
         base_url = env.variables.get('base_url', '')
-        anchor = term.lower().replace(" ", "-")  # pour les ancres typiques Markdown
+        anchor = _key.lower().replace( " ", "-" )  # pour les ancres typiques Markdown
         href = f'{base_url}/glossaire/#{anchor}'
         html = f'<a href="{href}">{term}</a>'
         return Markup( html )
@@ -114,19 +144,64 @@ def define_env( env ):
     
     @env.filter
     def i_tooltip( term ):
-        definition = indicators.get( term )
-        if definition:
-            term_escaped = escape( term )
-            first_line = definition.strip().split("\n", 1)[0]
-            html = f'<span title="{first_line}" style="border-bottom:1px dotted;cursor:help"><b>{term_escaped}</b></span>'
-            return Markup( html )  # Markup = ne pas échapper à l'affichage
-
-        return f'{term} not in indicators'
+        """
+        Crée un span HTML avec tooltip.
+        
+        Exemple d'utilisation dans un fichier Markdown :
+            {{ "RSI" | g_tooltip }}
+        Le tooltip n'affiche que la première ligne de la définition du glossaire.
+        """
+        definition = None
+        
+        for key in indicators:
+            # Compare in lowercase
+            if key.lower() == term.lower():
+                definition = indicators[ key ]
+                break
+            
+            # Compare with 's' at the end
+            if key.lower() + 's' == term.lower():
+                definition = indicators[ key ]
+                break
+    
+        if not definition:
+            return f'{term} not in indicators!'
+        
+        term_escaped = escape( term )
+        first_line = definition.strip().split("\n", 1)[0]
+        html = f'<span title="{first_line}" style="border-bottom:1px dotted;cursor:help"><b>{term_escaped}</b></span>'
+        
+        return Markup( html )  # Markup = ne pas échapper à l'affichage
 
     @env.filter
     def i_link( term ):
-        base_url = env.variables.get('base_url')
-        anchor = term.lower().replace(" ", "-")  # pour les ancres typiques Markdown
+        """
+        Génère un lien Markdown/HTML vers le glossaire.
+        
+        Exemple :
+            {{ gl("RSI") }}
+        Résultat :
+            <a href="{{ base_url }}/glossaire/#rsi">RSI</a>
+        """
+        _key = None
+        
+        for key in indicators:
+            # Compare in lowercase
+            if key.lower() == term.lower():
+                _key = key
+                break
+                        
+            # Compare with 's' at the end
+            if key.lower() + 's' == term.lower():
+                _key = key
+                break
+    
+        if not _key:
+            return f'{term} not in indicators!'
+        
+        #base_url = env.conf['site_url'] if env.conf.get('site_url') else env.variables.get('base_url', '')
+        base_url = env.variables.get('base_url', '')
+        anchor = _key.lower().replace( " ", "-" )  # pour les ancres typiques Markdown
         href = f'{base_url}/indicators/#{anchor}'
         html = f'<a href="{href}">{term}</a>'
         return Markup( html )
