@@ -23,6 +23,15 @@ Breakout: |
 
   Les traders recherchent un breakout accompagné de volume, gage de validité afin de profiter d'un départ de tendance avant tout le monde.
 
+Buy Stop: |
+  Un ordre Buy Stop est un ordre d'achat conditionnel qui s'active uniquement si le prix monte jusqu'à un niveau prédéfini.
+
+  C'est un ordre utilisé pour acheter sur cassure (breakout).
+
+  Si le prix monte au dessus d'un seuil, l'ordre devient un achat au marché.
+
+  La platforme Boursorama ne permet pas de placer des ordres Buy Stop. On placera un ordre à seuil de déclenchement
+
 MatPlotLib: |
   Bibliothèque de visualisation de données en Python, utilisée pour créer des graphiques et des visualisations statiques, animées et interactives.
 
@@ -40,6 +49,11 @@ Pullback: |
 
 Python: |
   Langage de programmation utilisé pour le développement de la plateforme TradingInPython.
+
+Sell Stop: |
+  Un ordre Sell Stop est un ordre de vente conditionnel qui s'active uniquement si le prix descend jusqu'à un niveau prédéfini.
+
+  La platforme Boursorama ne permet pas de placer des ordres Sell Stop. On placera un ordre à seuil de déclenchement.
 
 Slope: |
   Ce terme est utilisé pour désigner la pente de la droite 'a' dans l'équation: y = a.x + b. 
