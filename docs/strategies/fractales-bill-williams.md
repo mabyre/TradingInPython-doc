@@ -1,7 +1,7 @@
 # Fractales de Bill Williams
 
 L'indicateur technique des Fractales de Bill Williams est utilisé pour identifier des points potentiels de {{ "retournement du marché" | keyword }}.
-Une fractale up marque une résistance locale. Une fractale down marque un support local.
+Une {{ "fractale up" | keyword }} marque une résistance locale. Une {{ "fractale down" | keyword }} marque un support local.
 
 ## Algorithme de démonstration
 

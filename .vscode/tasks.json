@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "MkDocs Serve",
+            "label": "MkDocs Serve Local",
             "type": "shell",
             "command": "mkdocs serve",
             "group": "build",
@@ -13,7 +13,7 @@
             "problemMatcher": []
         },
         {
-            "label": "MkDocs Deploy",
+            "label": "MkDocs Deploy GitHub",
             "type": "shell",
             "command": "mkdocs gh-deploy --remote-branch=gh-pages --remote-name=origine",
             "group": "build",
