@@ -2,7 +2,7 @@
 
 Utilisation des réseaux de neurones Keras avec Tensorflow pour la prédition des signaux 2D.
 
-## Implémentation
+## Interface
 
 Notez l'interface de configuration avec les paramètres évoqués dans la [Formation](#formation)
 

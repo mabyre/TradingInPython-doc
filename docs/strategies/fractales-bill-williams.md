@@ -35,7 +35,7 @@ Mettre en évidence la structure du marché.
 
 Fournir des niveaux d'entrée potentiels pour des stratégies de {{ "Breakout" | g_tooltip }} ou de {{ "Pullback" | g_tooltip }}.
 
-## Implémentation
+## Interface
 
 Un paramètre dans la fenêtre de configuration : PERIOD
 

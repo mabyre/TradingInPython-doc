@@ -164,7 +164,7 @@ Exemple pour un interval de 30min et un trade de 2-3 jours :
 
 **volatility_window** = 40 / 2 = 20 périodes
 
-## Implémentaion du filtre de Kalman
+## Interface du filtre de Kalman
 
 Stratégie automatique de trading grâce au filtre de Kalman, implémenté dans la plateforme.
 

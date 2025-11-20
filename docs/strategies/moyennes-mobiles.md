@@ -28,7 +28,7 @@ La EMA donne plus de poids aux prix récents, elle est donc plus réactive aux r
 - Moins efficace en marché sans tendance (en range)
 - Sensible aux faux signaux en période de forte volatilité
 
-## Implémentation
+## Interface
 
 Une fois implémentée et tracer dans le plateforme nous obtenons le graphique suivant :
 
