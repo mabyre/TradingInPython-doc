@@ -46,6 +46,21 @@ Bolls: |
   - Contraction des bandes : Lorsque les bandes se rapprochent, cela indique une diminution de la volatilité. Cela peut précéder un mouvement significatif des prix, souvent appelé "squeeze".
   - Toucher les bandes : Lorsque le prix touche ou dépasse la bande supérieure, cela peut indiquer que l'actif est suracheté, tandis que toucher la bande inférieure peut suggérer qu'il est survendu. Cependant, ces signaux doivent être confirmés par d'autres indicateurs avant de prendre des décisions de trading.  
 
+BOP: |
+  Balance of Power oscillateur technique qui mesure la force relative des acheteurs et des vendeurs sur une période donnée. 
+ 
+  Il a été développé par Igor Livshin et est utilisé pour identifier les tendances du marché et les retournements potentiels.
+
+  ```
+  BOP = ( Prix de clôture - Prix d'ouverture ) / ( Prix haut - Prix bas )
+  ```
+
+  - BOP > 0 : La clôture est plus proche du prix haut de la période, suggérant que les acheteurs sont plus puissants que les vendeurs. domination des acheteurs (pression haussière)
+
+  - BOP < 0 : La clôture est plus proche du prix bas, suggérant que les vendeurs dominent le marché. Domination des vendeurs (pression baissière)
+
+  - BOP proche de 0 : Équilibre équilibre entre acheteurs et vendeurs, entre l’offre et la demande
+
 MACD: |
   Moving Average Convergence Divergence
 
@@ -53,14 +68,37 @@ MACD: |
 
   Cet indicateur ne "travaille" que sur le prix de clôture.
 
-  ```
-  Algorithme
+  Algorithme :
+  ```python
   short_window = 12, long_window = 26, signal_window = 9
   short_ema = data['Close'].moyenne_mobile_exponentielle( short_window )
   long_ema = data['Close'].moyenne_mobile_exponentielle( long_window )
   macd = short_ema - long_ema
   signal_line = macd.moyenne_mobile_exponentielle( signal_window )
   ```
+
+MACD ZL: |
+  MACD Zéro Lag essaye de compenser le retard du MACD en corrigeant les EMA.
+  
+  Corrige les EMA avec des techniques comme les filtrages de type TEMA, DEMA, ou une soustraction dynamique.
+
+  Algorithme :
+  ```python
+  def zero_lag_ema( series, span ):
+    # Calcule une EMA avec correction de retard ( Zéro Lag via DEMA ).
+    ema = series.ewm(span=span, adjust=False).mean()
+    ema_of_ema = ema.ewm(span=span, adjust=False).mean()
+    zlema = 2 * ema - ema_of_ema
+    return zlema
+  ```
+
+  MACD classique : plus lent, plus lissé, plus conservateur.
+
+  MACD Zéro Lag : plus réactif, signale les retournements plus tôt, mais parfois plus sensible au bruit.
+
+  **Avantages :**
+
+  - Réactivité accrue pour du swing ou intraday, conserve la logique du MACD classique.
 
 OBV: |
   On-Balance Volume - Volume en Balance.
@@ -69,8 +107,8 @@ OBV: |
 
   L'OBV est calculé en ajoutant le volume des jours où le prix de clôture est supérieur au prix de clôture précédent et en soustrayant le volume des jours où le prix de clôture est inférieur au prix de clôture précédent.
 
-  ```
-  Algorithme
+  Algorithme :
+  ```python
   OBV = 0
   for i in range(1, len(data)):
       if data['Close'][i] > data['Close'][i-1]:
@@ -180,8 +218,7 @@ VWAP: |
 
   Principalement utilisé pour évaluer si un actif est acheté ou vendu à un prix juste par rapport à son prix moyen pondéré.
 
-  ```
-  Algorithme
+  ```python
   # Calcul du VWAP
   data['VWAP'] = (data['Close'] * data['Volume']).cumsum() / data['Volume'].cumsum()
   ```
