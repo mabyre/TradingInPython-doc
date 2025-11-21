@@ -21,7 +21,7 @@ La stratégie de trading technique choisie est {{ "Ichimoku Kynko Hyo" | keyword
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQX2QWPYA7PgjADA7_QG1wdUGsr4-ngWaFFyeeOQ5zk29iUNOhYxXrCIC9KPWQVTqQ2Dc1pkhu_cJmHvnQ4Rlt9WQCdT4V1hB8CgX0ZZ3rK_pdWJafCZpbFRaURM3eYZFQZ_ZM32V45bfmxZUggzNtS1vbho9C3PUiUCn0YV-qBYzcCXkO7vfojOBOx3l0/s640/2025-06-13_16h31_08.png" style="margin-left: auto; margin-right: auto;"><img alt="Plateforme de trading technique gratuite - TradingInPython" border="0" data-original-height="452" data-original-width="640" height="452" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQX2QWPYA7PgjADA7_QG1wdUGsr4-ngWaFFyeeOQ5zk29iUNOhYxXrCIC9KPWQVTqQ2Dc1pkhu_cJmHvnQ4Rlt9WQCdT4V1hB8CgX0ZZ3rK_pdWJafCZpbFRaURM3eYZFQZ_ZM32V45bfmxZUggzNtS1vbho9C3PUiUCn0YV-qBYzcCXkO7vfojOBOx3l0/w640-h452/2025-06-13_16h31_08.png" title="Plateforme de trading technique gratuite - TradingInPython" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Plateforme de trading technique gratuite - TradingInPython</td></tr></tbody></table>
 
-Un fois ces éléments renseignés, vous cliquez sur le bouton {{ "Graphique" | keyword }} pour afficher l'analyse technique de l'action ({{ "Stock" | g_tooltip }}).
+Un fois ces éléments renseignés, vous cliquez sur le bouton {{ "Graphique" | keyword }} pour afficher l'analyse technique de l'action ({{ "stock" | g_tooltip }}).
 
 Pour ce tour rapide de la Plateforme de Trading Technique, voici une analyse avec {{ "Ichimoku Kynko Hyo" | keyword }}, pour l'action TRIGANO :
 

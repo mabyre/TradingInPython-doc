@@ -23,35 +23,29 @@ Disons que si vous souhaitez {{ "faire une première analyse" | keyword }} de l'
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeJJFyyN-gXmjxgiyN1cnEZNYagH16t4JDJkBJ3LO5RkH3Npyv5zhmCQEAApZttoZZzv71cf2GtacGmFUVDIs900l_mm3k_Mqfw7orf3qkW7zP1fy0tyNYwsWBvkfL-gK44AX63rSXxFxLuwr3kKGz70JnZ1pkgLWTgrF_hYbhaEDlqoj5ssz-c2y7nYAV/s960/2025-01-23_09h55_04.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="600" data-original-width="960" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeJJFyyN-gXmjxgiyN1cnEZNYagH16t4JDJkBJ3LO5RkH3Npyv5zhmCQEAApZttoZZzv71cf2GtacGmFUVDIs900l_mm3k_Mqfw7orf3qkW7zP1fy0tyNYwsWBvkfL-gK44AX63rSXxFxLuwr3kKGz70JnZ1pkgLWTgrF_hYbhaEDlqoj5ssz-c2y7nYAV/w640-h400/2025-01-23_09h55_04.png" title="TradingInPython" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie de l'Ichoku Kinko Hyo</td></tr></tbody></table>
 
-Vous trouverez de la formation et des exemples sur cette stratégie sur ce site même :
+Vous trouverez de la formation et des exemples sur cette stratégie sur ce site :
 
-- <a href="https://www.trading-et-data-analyses.com/2024/10/formation-ichimoku-kinko-hyo.html" target="_blank">Formation - Ichimoku</a>
+- [Ichimoku-Kinko-Hyo - Découvrir](./strategies/ichimoku_kinko_hyo.md)
 
-## Bollinger Bands Multiframes
+## Double Bandes de Bollinger
 
-En complément de l'analyse Ichimoku Kinko Hyo, pour une première analyse, vous pouvez utiliser la stratégie {{ "FTMA Bolls Multiframes (For Timeframes Mobile Average)" | keyword }}, les FTMA Bolls sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.
+C'est une stratégie également comme l'Ichimoku extrêmement graphique pour vous permettre d'affiner votre sentiment de trading et commencer à envisager une entrée (achat).
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhfkrgEgwiId9bNdZHWqlQ0hf8jVqGcsyYgPNOkEmbcwvUPodjZ3PEwoMiObTxBP28q3HhPL0bNEEznlR0pPnzv4Ai0R-2x6MDyNvjUbWq1QcnsdlIj3j1tidp0gdHJg97PSLDvRC_P3CvQBjs9ksq4qBB-NjJ532lgF9v0MWuipBtfxVX2oCIsNedolEI/s1272/2025-05-07_10h34_58.png" style="margin-left: auto; margin-right: auto;"><img alt="Stratégie des FTABolls Multiframes" border="0" data-original-height="741" data-original-width="1272" height="372" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhfkrgEgwiId9bNdZHWqlQ0hf8jVqGcsyYgPNOkEmbcwvUPodjZ3PEwoMiObTxBP28q3HhPL0bNEEznlR0pPnzv4Ai0R-2x6MDyNvjUbWq1QcnsdlIj3j1tidp0gdHJg97PSLDvRC_P3CvQBjs9ksq4qBB-NjJ532lgF9v0MWuipBtfxVX2oCIsNedolEI/w640-h372/2025-05-07_10h34_58.png" title="Stratégie des FTABolls Multiframes" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie des FTMA Bollinger bands Multiframes</td></tr></tbody></table>
+Les dDubles Bandes de Bollinger sont un moyen puissant d'obtenir des entrées et des sorties claires :
 
-Les histogramme vous permettent de visualiser très finement les resserrements des FTMA Bolls qui sont les prémices d'un changement tendance.
-Vous trouverez la Formation aux FTMA Bollinger bands sur ce site :
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
+    </a>
+    <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
+</figure>
 
-- <a href="https://www.trading-et-data-analyses.com/2025/03/formation-ftma-bolls-histogrammes.html" target="_blank">Formation - FTMA Bollinger bands +&nbsp; histogrammes</a>
+Exemple :
 
-Vous avez raté quelque chose, visionnez la vidéo de notre chaîne YouTube :
+- Signaux d'entrée (achat) lorsque le prix sort de la bande de Bollinger 1 σ et 2 σ
+- Signaux de sortie (vente) lorsque le prix touche la Moyenne Mobile
 
-<p style="text-align: center;">
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/zvqHRx_JoUU?si=RJ9WItXxYI_wzOUy" title="YouTube video player" width="560"></iframe>
-</p>
-
-Vous pouvez également trouver sur Internet pléthore de formations aux FTMA Bollinger bands.
-Comment configurer les valeurs des FTMA Bolls en fonction de l'échelle de Temps :
-
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2ANMd43q6msxORMImJY0N_uiVDuLDDRUaHmeTD9oGuh-9oIs7UVQsP1yGisIm0IGBFRPwUKXjJCRjpQksWq2EeZq6XQbKroTjiB4qfKwh83cNczMvGiYPRshJlKQ7EBoBFxoFZ-fFzoksxG4CebZhMb1O7nO08BQca-ndjpy-vxfolpUiEf29RgvzAeRP/s960/2025-01-31_18h12_26.png" style="margin-left: auto; margin-right: auto;"><img alt="Configurer les valeurs de FTMA Bolls" border="0" data-original-height="655" data-original-width="960" height="436" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2ANMd43q6msxORMImJY0N_uiVDuLDDRUaHmeTD9oGuh-9oIs7UVQsP1yGisIm0IGBFRPwUKXjJCRjpQksWq2EeZq6XQbKroTjiB4qfKwh83cNczMvGiYPRshJlKQ7EBoBFxoFZ-fFzoksxG4CebZhMb1O7nO08BQca-ndjpy-vxfolpUiEf29RgvzAeRP/w640-h436/2025-01-31_18h12_26.png" title="Configurer les valeurs de FTMA Bolls" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Configurer les valeurs de FTMA Bolls</td></tr></tbody></table>
-
-Ici avec une échelle de temps de "1h" je positionne mes FTMA Bolls à 8 12 16 24 ainsi la bleu me montre ce qu'il se passe à l'échelle de la journée, la bleu ciel me montre un jour et demi, la rouge à 16 me montre deux jours et la plus grande orange me montre l'évolution sur 3 jours.
-
-- <a href="https://www.trading-et-data-analyses.com/2024/10/formation-ftma-bollinger-bands.html" target="_blank">Formation - FTMA Bollinger bands</a>
+[Double Bandes de Bollinger - Découvrir](../strategies/bollinger-bands/#double-bandes-de-bollinger)
 
 ## Analyse de la pression du flux volumique
 

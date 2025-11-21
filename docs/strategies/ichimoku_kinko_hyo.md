@@ -1,6 +1,6 @@
 # Ichimoku Kinko Hyo & Deeplearning
 
-L'indicateur technique Ichimoku Kinko Hyo est une stratégie à lui tout seul. C'est une analyse technique extrêment graphique qui permet en un coup d'oeil de détecter les grandes tendances du cours de l'action.
+L'indicateur technique {{ "Ichimoku Kinko Hyo" | keyword }} est une stratégie à lui tout seul. C'est une analyse technique extrêment graphique qui permet en un coup d'oeil de détecter les grandes tendances du cours de l'action.
 
 Voici le graphe de l'indicateur technique {{ "Ichimoku-Kinko-Hyo" | keyword }} et sa prédiction {{ "Keras" | keyword }}.
 
