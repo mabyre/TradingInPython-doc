@@ -1432,9 +1432,27 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#bop" class="md-nav__link">
+    <span class="md-ellipsis">
+      BOP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#macd" class="md-nav__link">
     <span class="md-ellipsis">
       MACD
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#macd-zl" class="md-nav__link">
+    <span class="md-ellipsis">
+      MACD ZL
     </span>
   </a>
   
@@ -1615,9 +1633,27 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#bop" class="md-nav__link">
+    <span class="md-ellipsis">
+      BOP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#macd" class="md-nav__link">
     <span class="md-ellipsis">
       MACD
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#macd-zl" class="md-nav__link">
+    <span class="md-ellipsis">
+      MACD ZL
     </span>
   </a>
   
@@ -1752,30 +1788,63 @@
 <li>Contraction des bandes : Lorsque les bandes se rapprochent, cela indique une diminution de la volatilité. Cela peut précéder un mouvement significatif des prix, souvent appelé "squeeze".</li>
 <li>Toucher les bandes : Lorsque le prix touche ou dépasse la bande supérieure, cela peut indiquer que l'actif est suracheté, tandis que toucher la bande inférieure peut suggérer qu'il est survendu. Cependant, ces signaux doivent être confirmés par d'autres indicateurs avant de prendre des décisions de trading.  </li>
 </ul>
+<h2 id="bop">BOP<a class="headerlink" href="#bop" title="Permanent link">&para;</a></h2>
+<p>Balance of Power oscillateur technique qui mesure la force relative des acheteurs et des vendeurs sur une période donnée. </p>
+<p>Il a été développé par Igor Livshin et est utilisé pour identifier les tendances du marché et les retournements potentiels.</p>
+<div class="highlight"><pre><span></span><code>BOP = ( Prix de clôture - Prix d&#39;ouverture ) / ( Prix haut - Prix bas )
+</code></pre></div>
+<ul>
+<li>
+<p>BOP &gt; 0 : La clôture est plus proche du prix haut de la période, suggérant que les acheteurs sont plus puissants que les vendeurs. domination des acheteurs (pression haussière)</p>
+</li>
+<li>
+<p>BOP &lt; 0 : La clôture est plus proche du prix bas, suggérant que les vendeurs dominent le marché. Domination des vendeurs (pression baissière)</p>
+</li>
+<li>
+<p>BOP proche de 0 : Équilibre équilibre entre acheteurs et vendeurs, entre l’offre et la demande</p>
+</li>
+</ul>
 <h2 id="macd">MACD<a class="headerlink" href="#macd" title="Permanent link">&para;</a></h2>
 <p>Moving Average Convergence Divergence</p>
 <p>C'est un indicateur simple qui combine deux moyennes glissantes exponentielles, une courte, une longue et un signal qui est également une moyenne glissante exponentielle entre les deux autres.</p>
 <p>Cet indicateur ne "travaille" que sur le prix de clôture.</p>
-<div class="highlight"><pre><span></span><code>Algorithme
-short_window = 12, long_window = 26, signal_window = 9
-short_ema = data[&#39;Close&#39;].moyenne_mobile_exponentielle( short_window )
-long_ema = data[&#39;Close&#39;].moyenne_mobile_exponentielle( long_window )
-macd = short_ema - long_ema
-signal_line = macd.moyenne_mobile_exponentielle( signal_window )
-</code></pre></div>
+<p>Algorithme :
+<div class="highlight"><pre><span></span><code><span class="n">short_window</span> <span class="o">=</span> <span class="mi">12</span><span class="p">,</span> <span class="n">long_window</span> <span class="o">=</span> <span class="mi">26</span><span class="p">,</span> <span class="n">signal_window</span> <span class="o">=</span> <span class="mi">9</span>
+<span class="n">short_ema</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">moyenne_mobile_exponentielle</span><span class="p">(</span> <span class="n">short_window</span> <span class="p">)</span>
+<span class="n">long_ema</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">moyenne_mobile_exponentielle</span><span class="p">(</span> <span class="n">long_window</span> <span class="p">)</span>
+<span class="n">macd</span> <span class="o">=</span> <span class="n">short_ema</span> <span class="o">-</span> <span class="n">long_ema</span>
+<span class="n">signal_line</span> <span class="o">=</span> <span class="n">macd</span><span class="o">.</span><span class="n">moyenne_mobile_exponentielle</span><span class="p">(</span> <span class="n">signal_window</span> <span class="p">)</span>
+</code></pre></div></p>
+<h2 id="macd-zl">MACD ZL<a class="headerlink" href="#macd-zl" title="Permanent link">&para;</a></h2>
+<p>MACD Zéro Lag essaye de compenser le retard du MACD en corrigeant les EMA.</p>
+<p>Corrige les EMA avec des techniques comme les filtrages de type TEMA, DEMA, ou une soustraction dynamique.</p>
+<p>Algorithme :
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">zero_lag_ema</span><span class="p">(</span> <span class="n">series</span><span class="p">,</span> <span class="n">span</span> <span class="p">):</span>
+  <span class="c1"># Calcule une EMA avec correction de retard ( Zéro Lag via DEMA ).</span>
+  <span class="n">ema</span> <span class="o">=</span> <span class="n">series</span><span class="o">.</span><span class="n">ewm</span><span class="p">(</span><span class="n">span</span><span class="o">=</span><span class="n">span</span><span class="p">,</span> <span class="n">adjust</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+  <span class="n">ema_of_ema</span> <span class="o">=</span> <span class="n">ema</span><span class="o">.</span><span class="n">ewm</span><span class="p">(</span><span class="n">span</span><span class="o">=</span><span class="n">span</span><span class="p">,</span> <span class="n">adjust</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+  <span class="n">zlema</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">ema</span> <span class="o">-</span> <span class="n">ema_of_ema</span>
+  <span class="k">return</span> <span class="n">zlema</span>
+</code></pre></div></p>
+<p>MACD classique : plus lent, plus lissé, plus conservateur.</p>
+<p>MACD Zéro Lag : plus réactif, signale les retournements plus tôt, mais parfois plus sensible au bruit.</p>
+<p><strong>Avantages :</strong></p>
+<ul>
+<li>Réactivité accrue pour du swing ou intraday, conserve la logique du MACD classique.</li>
+</ul>
 <h2 id="obv">OBV<a class="headerlink" href="#obv" title="Permanent link">&para;</a></h2>
 <p>On-Balance Volume - Volume en Balance.</p>
 <p>C'est un indicateur technique qui utilise le volume des transactions pour prédire les changements de prix d'un actif financier. Il a été développé par Joe Granville dans les années 1960.</p>
 <p>L'OBV est calculé en ajoutant le volume des jours où le prix de clôture est supérieur au prix de clôture précédent et en soustrayant le volume des jours où le prix de clôture est inférieur au prix de clôture précédent.</p>
-<div class="highlight"><pre><span></span><code>Algorithme
-OBV = 0
-for i in range(1, len(data)):
-    if data[&#39;Close&#39;][i] &gt; data[&#39;Close&#39;][i-1]:
-        OBV += data[&#39;Volume&#39;][i]
-    elif data[&#39;Close&#39;][i] &lt; data[&#39;Close&#39;][i-1]:
-        OBV -= data[&#39;Volume&#39;][i]
-    # Si le prix est inchangé, l&#39;OBV reste le même
-</code></pre></div>
+<p>Algorithme :
+<div class="highlight"><pre><span></span><code><span class="n">OBV</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">][</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="n">OBV</span> <span class="o">+=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Volume&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+    <span class="k">elif</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">][</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+        <span class="n">OBV</span> <span class="o">-=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Volume&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+    <span class="c1"># Si le prix est inchangé, l&#39;OBV reste le même</span>
+</code></pre></div></p>
 <p>Interprétation :</p>
 <ul>
 <li>
@@ -1865,9 +1934,8 @@ On comprends rapidement que le volume des transactions est d'une importance capi
 <p>Le VWAP est un indicateur de trading qui calcule le prix moyen d'un actif en tenant compte à la fois du prix et du volume des transactions sur une période donnée, 
 généralement intrajournalière.</p>
 <p>Principalement utilisé pour évaluer si un actif est acheté ou vendu à un prix juste par rapport à son prix moyen pondéré.</p>
-<div class="highlight"><pre><span></span><code>Algorithme
-# Calcul du VWAP
-data[&#39;VWAP&#39;] = (data[&#39;Close&#39;] * data[&#39;Volume&#39;]).cumsum() / data[&#39;Volume&#39;].cumsum()
+<div class="highlight"><pre><span></span><code><span class="c1"># Calcul du VWAP</span>
+<span class="n">data</span><span class="p">[</span><span class="s1">&#39;VWAP&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Volume&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span> <span class="o">/</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Volume&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span>
 </code></pre></div>
 <h3 id="interpretation">Interprétation<a class="headerlink" href="#interpretation" title="Permanent link">&para;</a></h3>
 <p>Si le prix est au-dessus du VWAP, cela signifie que l'actif est potentiellement surévalué (souvent un signal pour vendre).</p>
