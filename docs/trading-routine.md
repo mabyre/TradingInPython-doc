@@ -84,32 +84,48 @@ Le {{ "Spread" | keyword }} est un indicateur intéressant car il permet de se r
 
 ## Fractales de Bill Williams + SAR
 
+C'est une stratégie simple parce qu'elle regarde les plus hauts et les plus bas mais sont interprétation est complexe et passe par la compréhension des {{ "breakout" | g_tooltip }} et des {{ "pullback" | g_tooltip }}
+
 Les sommets indiqués en rouge indiquent un possible retournement baissier. Les ceux indiqués en vert indiquent un possible retournement haussier.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCuNRAanPgOjgcyZd71SGYWp-yNBCLQ3rcRfPGRE5z7sthRVtWptTKm-W3i_1GZCp3FEn3eGm5RggRv9ZCAwsZo7q-JnwpeaT-40hHJ67heNRYTGFxCIMKsMyde-YNvWkkeDkj2WVLESvAtZvtHx-SzvjgTYBipnx69paGF2gVuE4Rf-YX6shpQa9bZLJp/s1282/2025-03-27_17h14_24.png" style="margin-left: auto; margin-right: auto;"><img alt="Stratégie des Fractales de Bill Williams" border="0" data-original-height="905" data-original-width="1282" height="452" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCuNRAanPgOjgcyZd71SGYWp-yNBCLQ3rcRfPGRE5z7sthRVtWptTKm-W3i_1GZCp3FEn3eGm5RggRv9ZCAwsZo7q-JnwpeaT-40hHJ67heNRYTGFxCIMKsMyde-YNvWkkeDkj2WVLESvAtZvtHx-SzvjgTYBipnx69paGF2gVuE4Rf-YX6shpQa9bZLJp/w640-h452/2025-03-27_17h14_24.png" title="Stratégie des Fractales de Bill Williams" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie des Fractales de Bill Williams</td></tr></tbody></table>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/routine.png" class="glightbox" data-gallery="galerie" title="routine.png Stratégie des Fractales de Bill Williams">
+        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/routine.png" alt="Copie d'écran" />
+    </a>
+    <figcaption><em>Stratégie des Fractales de Bill Williams</em></figcaption>
+</figure>
 
-Formation sur ce site aux fractales de Bill Williams :
+Utilisé avec la {{ "Gator Alligator" | keyword }} cette routine peut devenir un système de trading complet.
 
-<ul style="text-align: left;"><li><a href="/2024/11/formation-indicateur-fractales-bill-williams.html" target="_blank">Formation - Fractales de Bill Williams</a></li></ul>
+[Fractales de Bill Williams - Découvrir](./strategies/fractales-bill-williams.md)
 
-Le SAR (Stop And Reverse parabolic)&nbsp; est un indicateur de tendance que j'ai intégré dans cette stratégie pour confirmer les signaux donnés par les Fractales de Bill Williams et ainsi pouvoir comparer les deux.
+## Stop And Reverse parabolic
+
+Le SAR (Stop And Reverse parabolic) est un indicateur de tendance que j'ai intégré dans cette stratégie pour confirmer les signaux donnés par les Fractales de Bill Williams et ainsi pouvoir comparer les deux.
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1MPqcDpY4wDsVlFdPe7m039kWVPhXBiP8qiyfbpgBtyfWM9eji-rrbPLW5M1MVGyYZOop4WMgEe6XYhAJ6VtKyHT96J8HhP7PgqF9JQIuoVZf0Fy0asgauQtc6tMFgRGopo5pEQGACfEdAKAjNFSfqVOzWFzyCpeZIJ1kPCSZCnZDOVhrHbZkcBxOQmkF/s1202/2025-05-16_14h40_03.png" style="margin-left: auto; margin-right: auto;"><img alt="SAR Parabolic (Stop And Reverse) Parabolic indicator" border="0" data-original-height="756" data-original-width="1202" height="402" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1MPqcDpY4wDsVlFdPe7m039kWVPhXBiP8qiyfbpgBtyfWM9eji-rrbPLW5M1MVGyYZOop4WMgEe6XYhAJ6VtKyHT96J8HhP7PgqF9JQIuoVZf0Fy0asgauQtc6tMFgRGopo5pEQGACfEdAKAjNFSfqVOzWFzyCpeZIJ1kPCSZCnZDOVhrHbZkcBxOQmkF/w640-h402/2025-05-16_14h40_03.png" title="SAR Parabolic (Stop And Reverse) Parabolic indicator" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">SAR Parabolic (Stop And Reverse) Parabolic indicator</td></tr></tbody></table>
 
 Ici le dernier point est en dessous du cours le plus bas signifiant que la tendance pourrait bien se retourner.
 
-<ul style="text-align: left;">
- <li><a href="/2024/03/Indicateurs-Boursiers.html#SAR_Parabolic" target="_blank">SAR Parabolic</a></li>
- <li><a href="/2025/05/reglages-de-lindicateur-technique-sar.html" target="_blank">Réglage de l'indicateur SAR</a></li>
-</ul>
+- {{ "SAR Parabolic" | i_link }}
+- <a href="https://www.trading-et-data-analyses.com/2025/05/reglages-de-lindicateur-technique-sar.html" target="_blank">Réglage de l'indicateur SAR</a>
 
 ## Stratégie Intraday VWAP + STOCH
 
-Maintenant, passons à l'Intraday au sein de la journée, vous souhaitez suivre le cours de votre action durant la journée pour savoir quels sont les meilleurs moments d'entrée et de sortie, la stratégie VWAP + <a href="/2024/03/Indicateurs-Boursiers.html#STOCH">STOCH</a> Intraday, est adaptée à cette analyse du cours dans la journée :
+Maintenant passons à l'Intraday, au sein de la journée.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9y6KwdzS1ya7opRbp3f915APZoCAaWVF7dGA5wptTLoGWZmoKzc1mZalXV_oV9XXM7UPy1lMWPjK3iVBY5CPHTaeVIwe_kSphGEVt5d1t52gDtLNstUK9q2JsCbT4BoCOEiV1lyFleWEaEHS4KBYitnXaONcvPF69WVe87xgqFWtAtUJXEIxa6TRDJwui/s960/2025-01-23_09h56_38.png" style="margin-left: auto; margin-right: auto;"><img alt="Stratégie VWAP + STOCH Intraday" border="0" data-original-height="600" data-original-width="960" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9y6KwdzS1ya7opRbp3f915APZoCAaWVF7dGA5wptTLoGWZmoKzc1mZalXV_oV9XXM7UPy1lMWPjK3iVBY5CPHTaeVIwe_kSphGEVt5d1t52gDtLNstUK9q2JsCbT4BoCOEiV1lyFleWEaEHS4KBYitnXaONcvPF69WVe87xgqFWtAtUJXEIxa6TRDJwui/w640-h400/2025-01-23_09h56_38.png" title="Stratégie VWAP + STOCH Intraday" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie VWAP + STOCH Intraday</td></tr></tbody></table>
+Vous souhaitez suivre le cours de votre action durant la journée pour savoir quels sont les meilleurs moments d'entrée et de sortie, la stratégie {{ "VWAP" | i_tooltip }} + {{ "STOCH" | i_tooltip }} Intraday, est adaptée à cette analyse du cours dans la journée :
 
-Si le prix est au dessus du <a href="/2024/03/Indicateurs-Boursiers.html#VWAP" target="_blank">VWAP</a> (Volume Weighted Average Price) alors il est surestimé et une correction vers le bas pourrait se produire si au contraire le prix est en dessous, une correction à la hausse pourrait se produire.
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/strategies/intraday-vwap-stoch/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie VWAP + STOCH Intraday">
+        <img src="{{ base_url }}/images/strategies/intraday-vwap-stoch/routine.png" alt="alt" />
+    </a>
+    <figcaption><em>Stratégie VWAP + STOCH Intraday</em></figcaption>
+</figure>
+
+Si le prix est au dessus du {{ "VWAP" | i_tooltip }} (Volume Weighted Average Price) alors il est surestimé et une correction vers le bas pourrait se produire si au contraire le prix est en dessous, une correction à la hausse pourrait se produire.
+
+Notez égalment la présence de deux indicateurs techniques {{ "ATR" | i_tooltip }} et l'{{ "OBV" | i_tooltip }} qui sont pratique pour les entrées ou les sorties dans la journée.
 
 ## Gator Alligator S de Bill Williams
 

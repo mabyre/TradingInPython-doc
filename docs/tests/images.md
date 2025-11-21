@@ -144,7 +144,7 @@ Avec son lien elle devient cliquable :
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
-        <img src="{{ base_url }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
+        <img src="{{ base_url }}/images/trading_in_python_2.png" alt="Copie d'écran" width="200" />
     </a>
     <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>

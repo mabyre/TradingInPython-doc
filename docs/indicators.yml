@@ -23,17 +23,15 @@ ATR: |
 
   Plus l'ATR est élevé, plus le marché est volatile au contraire si l'ATR est bas le cours peut évoluer dans un range étroit.
 
-  L'ATR est une mesure de l'intérêt pour un mouvement à la hausse ou à la baisse. Il mesure donc la force du mouvement.
+  L'ATR est une **mesure de l'intérêt** pour un mouvement à la hausse ou à la baisse. Il mesure donc la force du mouvement.
 
-  Une hausse de l'ATR signale une augmentation de la volatilité, souvent associée à un breakout.
+  - Une hausse de l'ATR signale une augmentation de la volatilité, souvent associée à un breakout.
 
-  Une baisse de l'ATR indique une phase de consolidation ou de faible volatilité.
+  - Une baisse de l'ATR indique une phase de consolidation ou de faible volatilité.
   
-  Placement de stop-loss : utilisation l'ATR pour ajuster leurs stops dynamiquement. 
+  **Placement de stop-loss** : utilisation l'ATR pour ajuster leurs stops dynamiquement. 
 
-  Par exemple :
-
-  StopLoss à X*ATR en dessous (ou au-dessus) du prix d'entrée.
+  Par exemple : StopLoss à X*ATR en dessous (ou au-dessus) du prix d'entrée.
 
 Bolls: |
   Bandes de Bollinger.
@@ -97,6 +95,30 @@ RSI: |
 
   - au-dessus de 70 : surachat
   - en dessous de 30 : survente
+
+SAR Parabolic: |
+  Stop And Reverse parabolic - Parabolic SAR.
+
+  C'est un indicateur technique puissant développé par J. Welles Wilder en 1978. Il est utilisé pour détecter les tendances et définir des points de retournement potentiels sur un graphique.
+
+  Il se présente sous forme de points placés au-dessus ou en dessous du prix :
+
+  - **Si les points sont sous le prix : Tendance haussière.**
+  - **Si les points sont au-dessus du prix : Tendance baissière.**
+
+  Lorsque le prix croise le SAR, cela peut indiquer un changement de tendance.
+
+  - Suivi de tendance : Tant que les points sont bien positionnés par rapport au prix, la tendance reste intacte.
+
+  - Signaux de retournement : Un croisement entre le prix et le SAR peut indiquer un changement de tendance.
+
+  - Utilisation avec d'autres indicateurs : Il est souvent combiné avec des moyennes mobiles, le MACD ou le RSI pour confirmer les signaux.
+
+  **Entrée en position** : Acheter lorsque le SAR passe sous le prix en tendance haussière, vendre lorsqu'il passe au-dessus en tendance baissière.
+
+  **Placement du StopLoss** : Le SAR peut être utilisé comme un stop dynamique, se rapprochant progressivement du prix.
+
+  **Sortie de position** : Une cassure du SAR par le prix peut indiquer une opportunité de clôturer la position.
 
 SMA: |
   Simple Moving Average - Moyenne Mobile Simple est un indicateur technique qui calcule la moyenne des prix d'un actif sur une période donnée.

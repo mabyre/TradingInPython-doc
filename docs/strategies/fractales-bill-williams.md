@@ -33,7 +33,7 @@ Identifier des points de retournement possibles de la tendance.
 
 Mettre en évidence la structure du marché.
 
-Fournir des niveaux d'entrée potentiels pour des stratégies de {{ "Breakout" | g_tooltip }} ou de {{ "Pullback" | g_tooltip }}.
+Fournir des niveaux d'entrée potentiels pour des stratégies de {{ "Breakout" | g_link }} ou de {{ "Pullback" | g_link }}.
 
 ## Interface
 

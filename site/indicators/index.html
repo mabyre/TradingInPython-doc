@@ -1459,6 +1459,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#sar-parabolic" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAR Parabolic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#sma" class="md-nav__link">
     <span class="md-ellipsis">
       SMA
@@ -1633,6 +1642,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#sar-parabolic" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAR Parabolic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#sma" class="md-nav__link">
     <span class="md-ellipsis">
       SMA
@@ -1713,12 +1731,17 @@
 <p>Average True Range, Moyenne de la Vraie Amplitude.</p>
 <p>C'est un indicateur de volatilité développé par J. Welles Wilder qui ne travaille que sur les prix. Il mesure l'amplitude moyenne des mouvements de prix sur une période donnée, sans indiquer la direction du mouvement à la baisse ou à la hausse. </p>
 <p>Plus l'ATR est élevé, plus le marché est volatile au contraire si l'ATR est bas le cours peut évoluer dans un range étroit.</p>
-<p>L'ATR est une mesure de l'intérêt pour un mouvement à la hausse ou à la baisse. Il mesure donc la force du mouvement.</p>
+<p>L'ATR est une <strong>mesure de l'intérêt</strong> pour un mouvement à la hausse ou à la baisse. Il mesure donc la force du mouvement.</p>
+<ul>
+<li>
 <p>Une hausse de l'ATR signale une augmentation de la volatilité, souvent associée à un breakout.</p>
+</li>
+<li>
 <p>Une baisse de l'ATR indique une phase de consolidation ou de faible volatilité.</p>
-<p>Placement de stop-loss : utilisation l'ATR pour ajuster leurs stops dynamiquement. </p>
-<p>Par exemple :</p>
-<p>StopLoss à X*ATR en dessous (ou au-dessus) du prix d'entrée.</p>
+</li>
+</ul>
+<p><strong>Placement de stop-loss</strong> : utilisation l'ATR pour ajuster leurs stops dynamiquement. </p>
+<p>Par exemple : StopLoss à X*ATR en dessous (ou au-dessus) du prix d'entrée.</p>
 <h2 id="bolls">Bolls<a class="headerlink" href="#bolls" title="Permanent link">&para;</a></h2>
 <p>Bandes de Bollinger.</p>
 <p>Les Bandes de Bollinger sont un indicateur technique développé par John Bollinger dans les années 1980. </p>
@@ -1772,6 +1795,29 @@ for i in range(1, len(data)):
 <li>au-dessus de 70 : surachat</li>
 <li>en dessous de 30 : survente</li>
 </ul>
+<h2 id="sar-parabolic">SAR Parabolic<a class="headerlink" href="#sar-parabolic" title="Permanent link">&para;</a></h2>
+<p>Stop And Reverse parabolic - Parabolic SAR.</p>
+<p>C'est un indicateur technique puissant développé par J. Welles Wilder en 1978. Il est utilisé pour détecter les tendances et définir des points de retournement potentiels sur un graphique.</p>
+<p>Il se présente sous forme de points placés au-dessus ou en dessous du prix :</p>
+<ul>
+<li><strong>Si les points sont sous le prix : Tendance haussière.</strong></li>
+<li><strong>Si les points sont au-dessus du prix : Tendance baissière.</strong></li>
+</ul>
+<p>Lorsque le prix croise le SAR, cela peut indiquer un changement de tendance.</p>
+<ul>
+<li>
+<p>Suivi de tendance : Tant que les points sont bien positionnés par rapport au prix, la tendance reste intacte.</p>
+</li>
+<li>
+<p>Signaux de retournement : Un croisement entre le prix et le SAR peut indiquer un changement de tendance.</p>
+</li>
+<li>
+<p>Utilisation avec d'autres indicateurs : Il est souvent combiné avec des moyennes mobiles, le MACD ou le RSI pour confirmer les signaux.</p>
+</li>
+</ul>
+<p><strong>Entrée en position</strong> : Acheter lorsque le SAR passe sous le prix en tendance haussière, vendre lorsqu'il passe au-dessus en tendance baissière.</p>
+<p><strong>Placement du StopLoss</strong> : Le SAR peut être utilisé comme un stop dynamique, se rapprochant progressivement du prix.</p>
+<p><strong>Sortie de position</strong> : Une cassure du SAR par le prix peut indiquer une opportunité de clôturer la position.</p>
 <h2 id="sma">SMA<a class="headerlink" href="#sma" title="Permanent link">&para;</a></h2>
 <p>Simple Moving Average - Moyenne Mobile Simple est un indicateur technique qui calcule la moyenne des prix d'un actif sur une période donnée.</p>
 <p>La SMA est une moyenne arithmétique des prix de clôture d'un actif sur une période donnée.</p>
