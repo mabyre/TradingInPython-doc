@@ -1,6 +1,6 @@
 # Création et gestion des screeners
 
-Les screeners sont des fichiers partagés par les Cartes de chaleur et le Monitor Stock Market.
+Les screeners sont des fichiers partagés par les [Cartes de chaleur](./heatmaps.md) et le [Monitor Stock Market](../monitor-alerts/monitor-stock-market.md).
 
 La Gestion des Screeners vous permet de créer de modifier et de supprimer ces fichiers.
 

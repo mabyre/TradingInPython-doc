@@ -2,9 +2,13 @@
 
 Monitorer le marché grâce aux alertes techniques.
 
-Vous avez créé vos screeners en utilisant le **Sélecteur de stocks** Menu **Screeners** -> [Gestion des screeners]({{ base_url }}/heatmap-screener/screeners/), vous pouvez configurer des Alertes sur les cours de bourse.
+Vous avez créé vos screeners en utilisant le {{ "Sélecteur de stocks" | keywordi }} :
 
-C'est l'**aboutissement de votre analyse technique**, vous avez déterminé que l'objectif de cours à atteindre est de tant, vous allez pouvoir positionner une alerte pour être prévenu lorsque le cours atteindra cette valeur.
+- Menu {{ "Monitoring" | keywordi }} -> ["Gestion des screeners"]({{ base_url }}/heatmap-screener/screeners/)
+
+Vous pouvez maintenant configurer des Alertes sur les cours de bourse.
+
+C'est l'{{ "aboutissement de votre analyse technique" | keyword }}, vous avez déterminé que l'objectif de cours à atteindre est de tant, vous allez pouvoir positionner une alerte pour être prévenu lorsque le cours atteindra cette valeur.
 
 Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre événement qui peut se produire sur la stock c'est l'objet du Monitor Stock Market : mettre le marché sous surveillance.
 
@@ -15,13 +19,13 @@ Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre év
     <figcaption><em>Monitor Stock Market Alertes</em></figcaption>
 </figure>
 
-L'onglet **Monitoring** vous permet de visualiser les alertes qui ont été déclenchées.
+L'onglet {{ "Monitoring" | keywordi }} vous permet de visualiser les alertes qui ont été déclenchées.
 
 Vous allez pouvoir recevoir un email avec l'ensemble des alertes que vous avez positionné et qui se sont déclenchées.
 
 ## Alertes simples en prix et en volume
 
-- **(1)** Double cliquez sur l'une de ligne représentant une action que vous souhaitez monitorer
+Positionnez des alertes sur les prix et les volumes.
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/monitor-stock-market/edition-alerte.png" class="glightbox" data-gallery="galerie" title="Positionnez une alerte simple">
@@ -30,14 +34,14 @@ Vous allez pouvoir recevoir un email avec l'ensemble des alertes que vous avez p
     <figcaption><em>Monitor Stock Market - Positionnez une alerte simple</em></figcaption>
 </figure>
 
+- **(1)** Double cliquez sur l'une de ligne représentant une action que vous souhaitez monitorer
 - **(2)** Fenêtre pour éditer les alertes de l'action
 
 Temps de réarmement (minutes) : pour ne pas avoir cette chaque minute dans le compte rendu des alertes déclenchée vous spécifiez un temps au bout duquel l'alerte sera réarmée.
 
-## Tableau de bord les colonnes du Monitor Stocks Market Alertes
+## Tableau de bord du Monitor Stocks Market Alertes
 
-- **(1)** L'indication du Prix Achat ou PRU (prix de revient unitaire) vous permet de savoir où vous en êtes à la hausse ou à la baisse.
-- **(2)** Prix courant récupéré en temps réel.
+Les colonnes du Monitor Stocks Market :
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/monitor-stock-market/tableau-de-bord.png" class="glightbox" data-gallery="galerie" title="Tableau de bord du Monitor Stock Market">
@@ -46,6 +50,8 @@ Temps de réarmement (minutes) : pour ne pas avoir cette chaque minute dans le c
     <figcaption><em>Tableau de bord du Monitor Stock Market</em></figcaption>
 </figure>
 
+- **(1)** L'indication du Prix Achat ou PRU (prix de revient unitaire) vous permet de savoir où vous en êtes à la hausse ou à la baisse.
+- **(2)** Prix courant récupéré en temps réel.
 - **(3) Prix %** : l'écart calculé avec la dernière valeur du cours et la première valeur de la séquence de données ici : période 5d donc le Prix % est l'écart entre la dernière valeur du cours et le cours il y a 5 jours.
 
 <figure style="text-align: center;">

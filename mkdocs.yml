@@ -71,7 +71,7 @@ nav:
   - Interface & Configuration: 
       - Configuration: interface-configuration/ui-configuration.md
       - Gestion automatisée des fenêtres: interface-configuration/windows-management.md
-      - Mode sombre: interface-configuration/dark-mode.md
+      - Mode sombre (dark mode): interface-configuration/dark-mode.md
       - Console en bas à droite: interface-configuration/console-bottom-right.md
   - Open Software & Logiciel: open-software.md
   - Notes:
