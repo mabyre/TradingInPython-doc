@@ -1,10 +1,12 @@
-# Monitor Stock Market - Alertes techniques avancées
+# Alertes techniques avancées
 
-Il s'agit de placer des alertes sur les cours des actions, en utilisant les indicateurs techniques. 
+Il s'agit de placer des alertes sur les cours des actions, en utilisant les {{ "indicateurs techniques" | keyword }}.
 
 Les indicateurs techniques sont calculés à intervalle régulier et les alertes sont vérifiées pour prévenir l'utilisateur.
 
-On sait que quand l'indicateur RSI (Relative Strength Index, Indice de force relative) est inférieur à 30, il indique que la stock est survendue ce qui peut entrainer une baisse de son cours et l'action peut devenir une opportunité d'achat.
+On sait que quand l'indicateur RSI (Relative Strength Index, Indice de force relative) est inférieur à 30, il indique que la stock est survendue ce qui peut entrainer une baisse du cours et l'action peut devenir une opportunité d'achat.
+
+- Menu {{ "Monitoring" | keywordi }} choisissez {{ "Monitor stock market" | keywordi }}
 
 Dans le Monitor Stock Market Alertes, je vais pouvoir positionner une alerte RSI survendu (30) pour surveiller la stock FORTINET et déclencher une alerte lorsque le calcul de son RSI donne un résultat < 30 :
 
@@ -42,9 +44,13 @@ Maintenant ma stock FORTINET ne pleut plus échapper à mes alertes. Ainsi alert
 
 ## Vous avez raté quelque chose ?
 
-Voici la une vidéo rapide pour vous présenter les Alertes de la plateforme :
+Voici la une vidéo rapide pour vous présenter les Alertes techniques avancéés de la plateforme :
 
-_à compléter_
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/monitor-stock-market/alertes-techniques-avancees.gif" class="glightbox" data-gallery="galerie" title="Placer une alerte technique RSI oversold">
+        <img src="{{ base_url }}/images/monitor-stock-market/alertes-techniques-avancees.gif"/>
+    </a>
+    <figcaption><em>Comment placer une alerte technique RSI oversold</em></figcaption>
+</figure>
 
-Découvrez rapidement comment vous allez pouvoir placer une alerte technique sur le seuil RSI à 30 afin de détecter sir une action est survendue. Comment vous allez pouvoir tester cette alerte afin de la déclencher dans le Monitor Stock Market.
-
+Découvrez rapidement comment vous allez pouvoir placer une alerte technique sur le seuil RSI à 30 afin de détecter si une action est survendue. Comment vous allez pouvoir tester cette alerte afin de la déclencher dans le Monitor Stock Market.
