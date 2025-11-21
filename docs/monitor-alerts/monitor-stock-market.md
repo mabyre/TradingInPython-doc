@@ -50,8 +50,8 @@ Les colonnes du Monitor Stocks Market :
     <figcaption><em>Tableau de bord du Monitor Stock Market</em></figcaption>
 </figure>
 
-- **(1)** L'indication du Prix Achat ou PRU (prix de revient unitaire) vous permet de savoir où vous en êtes à la hausse ou à la baisse.
-- **(2)** Prix courant récupéré en temps réel.
+- **(1)** L'indication du **Prix Achat** ou PRU (prix de revient unitaire) vous permet de savoir où vous en êtes à la hausse ou à la baisse.
+- **(2)** **Prix courant** récupéré en temps réel.
 - **(3) Prix %** : l'écart calculé avec la dernière valeur du cours et la première valeur de la séquence de données ici : période 5d donc le Prix % est l'écart entre la dernière valeur du cours et le cours il y a 5 jours.
 
 <figure style="text-align: center;">
@@ -66,3 +66,16 @@ Les colonnes du Monitor Stocks Market :
 La période est calculé en fonction de l'Intervalle choisi pour avoir assez de données. Le choix de l'intervalle est important pour les alertes en volume.
 
 Pour positionner une alerte en volume les colonnes Vol, Vol Tot, et Vol Max sont calculées en utilisant cet intervalle.
+
+## Vous avez raté quelque chose ?
+
+Voici la une vidéo rapide pour vous présenter les Alertes de la plateforme :
+
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/monitor-stock-market/alertes-techniques.gif" class="glightbox" data-gallery="galerie" title="Placer une alerte technique">
+        <img src="{{ base_url }}/images/monitor-stock-market/alertes-techniques.gif"/>
+    </a>
+    <figcaption><em>Comment placer une alerte technique</em></figcaption>
+</figure>
+
+Découvrez rapidement comment vous allez pouvoir placer une alerte afin de la déclencher dans le Monitor Stock Market.

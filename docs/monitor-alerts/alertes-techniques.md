@@ -42,8 +42,9 @@ Maintenant ma stock FORTINET ne pleut plus échapper à mes alertes. Ainsi alert
 
 ## Vous avez raté quelque chose ?
 
-Voici la une vidéo rapide pour vous présenter les Alertes avancées sur les indicateurs techniques de la plateforme :
+Voici la une vidéo rapide pour vous présenter les Alertes de la plateforme :
 
-<div class="separator" style="clear: both; text-align: center;"><object class="BLOG_video_class" contentid="7659d8ec920abf7b" height="420" id="BLOG_video-7659d8ec920abf7b" width="650"></object></div>
+_à compléter_
 
 Découvrez rapidement comment vous allez pouvoir placer une alerte technique sur le seuil RSI à 30 afin de détecter sir une action est survendue. Comment vous allez pouvoir tester cette alerte afin de la déclencher dans le Monitor Stock Market.
+

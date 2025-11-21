@@ -1,6 +1,6 @@
 Pour gérer la liste des {{ "actions" | g_tooltip }} vous trouverez le Menu :
 
-- {{ "Stocks" | keywordi }} -> {{ "Gestion des stocks" | keywordi }}
+- Menu {{ "Stocks" | keywordi }} -> {{ "Gestion des stocks" | keywordi }}
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/menu-stocks.png" class="glightbox" data-gallery="galerie" title="Menu Stocks -> Gestion des Stocks">
@@ -20,7 +20,7 @@ Avec la Liste des Actions à trader :
 
 Sélectionnez une Actions, choisissez une Stratégie, cliquez sur {{ "Graphique" | keywordi }} le graphique de l'action s'affiche.
 
-Notez les trois boutons Ajouter, Modifier, Supprimer.
+Notez les trois boutons {{ "Ajouter" | keywordi }}, {{ "Modifier" | keywordi }}, {{ "Supprimer" | keywordi }}.
 
 ## Ajouter
 
@@ -70,4 +70,4 @@ et de vous servir de la partie {{ "Filter:" | keywordi }} qui filtre aussi bien 
     <figcaption><em>Gestion des Stocks - Filtrer</em></figcaption>
 </figure>
 
-Avec "Aero" je filtre tous les Stocks du domaine de Aerospace-defense.
+Avec {{ "Aero" | keywordi }} je filtre tous les Stocks du domaine de Aerospace-defense.
