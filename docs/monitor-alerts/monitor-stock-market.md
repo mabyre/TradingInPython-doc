@@ -72,10 +72,10 @@ Pour positionner une alerte en volume les colonnes Vol, Vol Tot, et Vol Max sont
 Voici la une vidéo rapide pour vous présenter les Alertes de la plateforme :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/monitor-stock-market/alertes-techniques.gif" class="glightbox" data-gallery="galerie" title="Placer une alerte technique">
+    <a href="{{ base_url }}/images/monitor-stock-market/alertes-techniques.gif" class="glightbox" data-gallery="galerie" title="Placer une alerte">
         <img src="{{ base_url }}/images/monitor-stock-market/alertes-techniques.gif"/>
     </a>
-    <figcaption><em>Comment placer une alerte technique</em></figcaption>
+    <figcaption><em>Comment placer une alerte</em></figcaption>
 </figure>
 
 Découvrez rapidement comment vous allez pouvoir placer une alerte afin de la déclencher dans le Monitor Stock Market.
