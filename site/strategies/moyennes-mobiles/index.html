@@ -520,9 +520,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#signaux-achatsvente" class="md-nav__link">
+  <a href="#signaux-dachats" class="md-nav__link">
     <span class="md-ellipsis">
-      Signaux achats/vente
+      Signaux d'achats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#signaux-de-ventes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Signaux de ventes
     </span>
   </a>
   
@@ -588,6 +597,15 @@
   <a href="#algorithme" class="md-nav__link">
     <span class="md-ellipsis">
       Algorithme
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo Youtube
     </span>
   </a>
   
@@ -1588,9 +1606,18 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#signaux-achatsvente" class="md-nav__link">
+  <a href="#signaux-dachats" class="md-nav__link">
     <span class="md-ellipsis">
-      Signaux achats/vente
+      Signaux d'achats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#signaux-de-ventes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Signaux de ventes
     </span>
   </a>
   
@@ -1662,6 +1689,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#video-youtube" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo Youtube
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#conclusion" class="md-nav__link">
     <span class="md-ellipsis">
       Conclusion
@@ -1690,17 +1726,16 @@
 
 
 <h1 id="moyennes-mobiles">Moyennes Mobiles<a class="headerlink" href="#moyennes-mobiles" title="Permanent link">&para;</a></h1>
-<p>C'est une stratégie des plus <span class="text-keyword">simples mais pas simpliste</span> car elle permet d'appréhender ce que sont les stratégies automatiques de trading, des algorithmes qui délivrent des signaux d'achats et de ventes sur les cours de bourse. La stratégie des moyennes mobiles calcule le <span title="Désigne la fourchette entre le prix d'achat (offre/bid) pour entrer sur le marché et le prix de vente (demande/ask) pour sortir de position sur le marché d'une action." style="border-bottom:1px dotted;cursor:help"><b>Spread</b></span></p>
-<p>Nous allons détailler la stratégie des moyennes mobiles à l'aide de deux SMA (Simple Mobile Average) et d'une EMA (Esponential Moving Average).</p>
-<p>La stratégie automatique de trading avec 2 SMA et 1 EMA repose sur la détection des croisements des moyennes pour générer des signaux d’achat ou de vente. Elle est simple à implémenter et efficace pour capter les tendances.</p>
+<p>C'est une stratégie des plus <span class="text-keyword">simples mais pas simpliste</span> car elle permet d'appréhender ce que sont les stratégies automatiques de trading, des algorithmes qui délivrent des signaux d'achats et de ventes sur les cours de bourse. La stratégie des moyennes mobiles calcule le <a href="/TradingInPython-doc/glossaire/#spread">Spread</a></p>
+<p>Nous allons détailler la stratégie des moyennes mobiles à l'aide de deux <a href="/TradingInPython-doc/indicators/#sma">SMA</a> (Simple Mobile Average) et d'une EMA (Esponential Moving Average).</p>
+<p>La stratégie automatique de trading avec 2 SMA et 1 EMA repose sur la <span class="text-keyword">détection des croisements des moyennes</span> pour générer des signaux d’achat ou de vente. Elle est simple à implémenter et efficace pour capter les tendances.</p>
 <h2 id="principes">Principes<a class="headerlink" href="#principes" title="Permanent link">&para;</a></h2>
 <p>Deux SMA de longueur différentes vont se croiser et sont lentes à réagir aux changements rapides.</p>
 <p>La EMA donne plus de poids aux prix récents, elle est donc plus réactive aux retournements de tendance.</p>
-<h3 id="signaux-achatsvente">Signaux achats/vente<a class="headerlink" href="#signaux-achatsvente" title="Permanent link">&para;</a></h3>
-<ul>
-<li><span class="text-keyword">Achat</span> : la SMA courte passe au-dessus de la SMA longue <strong>ET</strong> que le prix est au-dessus de l’EMA.</li>
-<li><span class="text-keyword">Vente</span>: la SMA courte passe en dessous de la SMA longue <strong>ET</strong> que le prix est en dessous de l’EMA.</li>
-</ul>
+<h3 id="signaux-dachats">Signaux d'achats<a class="headerlink" href="#signaux-dachats" title="Permanent link">&para;</a></h3>
+<p>Lorsque la moyenne mobile <span class="text-keyword">SMA</span> courte passe au dessous de <span class="text-keyword">SMA</span> longue et que l'exponentielle est au dessus des deux Moyennes Mobiles c'est un signal d'achat <span class="text-green">(triangle vert)</span> une tendance haussière débute.</p>
+<h3 id="signaux-de-ventes">Signaux de ventes<a class="headerlink" href="#signaux-de-ventes" title="Permanent link">&para;</a></h3>
+<p>Inversement, lorsque  <span class="text-keyword">SMA</span> courte passe en dessous de <span class="text-keyword">SMA</span> longue et que l'exponentielle est en dessous des deux Moyennes Mobiles c'est un signal de vente <span class="text-red">(triangle rouge)</span> une tendance baissière débute.</p>
 <h3 id="avantages">Avantages<a class="headerlink" href="#avantages" title="Permanent link">&para;</a></h3>
 <ul>
 <li>C'est une stratégie Facile à comprendre et à implémenter</li>
@@ -1770,6 +1805,15 @@
 <ul>
 <li><a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategy_sma12e.py" target="_blank">Stratégie automatique des Moyennes Mobiles</a></li>
 </ul>
+<h2 id="video-youtube">Vidéo Youtube<a class="headerlink" href="#video-youtube" title="Permanent link">&para;</a></h2>
+<p>Vous avez raté quelque chose, vous pouvez visionner la vidéo de la chaîne YouTube :</p>
+<p style="text-align: center;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/AXSUW7PHJnE?si=_rf6vhipza5IkwjH" title="YouTube video player" width="560"></iframe>
+</p>
+
+<p>N'hésitez pas à vous abonner pour ne rien rater des évolutions de la plateforme.Autre vidéo sur les moyennes mobiles avec les graphes dynamiques :</p>
+<ul style="text-align: left;"><li><a href="https://www.trading-et-data-analyses.com/2025/04/graphes-dynamiques-strategie-des.html">Vidéo de démo - Stratégie des moyennes mobiles</a></li></ul>
+<p>Vous avez raté quelque chose, vous pouvez visionner la vidéo de la chaîne YouTube :</p>
 <h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
 <p>Cette stratégie est primodiale pour caractériser une action (stock) afin de déterminer s'il est intéressant de la trader. </p>
 <p>Elle vous donne une indication sur combien vous pourriez gagner, si vous effectuez tous les trades indiqués par la stratégie sur cette action.</p>
@@ -1794,7 +1838,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="20 novembre 2025 17:42:02 UTC"><span class="timeago" datetime="2025-11-20T17:42:02+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="20 novembre 2025 17:42:02 UTC">2025-11-20</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="21 novembre 2025 10:02:34 UTC"><span class="timeago" datetime="2025-11-21T10:02:34+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="21 novembre 2025 10:02:34 UTC">2025-11-21</span>
   </span>
 
     

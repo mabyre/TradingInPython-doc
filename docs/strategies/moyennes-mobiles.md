@@ -1,10 +1,10 @@
 # Moyennes Mobiles
 
-C'est une stratégie des plus {{ "simples mais pas simpliste" | keyword }} car elle permet d'appréhender ce que sont les stratégies automatiques de trading, des algorithmes qui délivrent des signaux d'achats et de ventes sur les cours de bourse. La stratégie des moyennes mobiles calcule le {{ "Spread" | g_tooltip }}
+C'est une stratégie des plus {{ "simples mais pas simpliste" | keyword }} car elle permet d'appréhender ce que sont les stratégies automatiques de trading, des algorithmes qui délivrent des signaux d'achats et de ventes sur les cours de bourse. La stratégie des moyennes mobiles calcule le {{ "Spread" | g_link }}
 
-Nous allons détailler la stratégie des moyennes mobiles à l'aide de deux SMA (Simple Mobile Average) et d'une EMA (Esponential Moving Average).
+Nous allons détailler la stratégie des moyennes mobiles à l'aide de deux {{ "SMA" | i_link }} (Simple Mobile Average) et d'une EMA (Esponential Moving Average).
 
-La stratégie automatique de trading avec 2 SMA et 1 EMA repose sur la détection des croisements des moyennes pour générer des signaux d’achat ou de vente. Elle est simple à implémenter et efficace pour capter les tendances.
+La stratégie automatique de trading avec 2 SMA et 1 EMA repose sur la {{ "détection des croisements des moyennes" | keyword }} pour générer des signaux d’achat ou de vente. Elle est simple à implémenter et efficace pour capter les tendances.
 
 ## Principes
 
@@ -12,10 +12,13 @@ Deux SMA de longueur différentes vont se croiser et sont lentes à réagir aux 
 
 La EMA donne plus de poids aux prix récents, elle est donc plus réactive aux retournements de tendance.
 
-### Signaux achats/vente
+### Signaux d'achats
 
-- {{ "Achat" | keyword }} : la SMA courte passe au-dessus de la SMA longue **ET** que le prix est au-dessus de l’EMA.
-- {{ "Vente" | keyword }}: la SMA courte passe en dessous de la SMA longue **ET** que le prix est en dessous de l’EMA.
+Lorsque la moyenne mobile {{ "SMA" | keyword }} courte passe au dessous de {{ "SMA" | keyword }} longue et que l'exponentielle est au dessus des deux Moyennes Mobiles c'est un signal d'achat {{ "(triangle vert)" | green }} une tendance haussière débute.
+
+### Signaux de ventes
+
+Inversement, lorsque  {{ "SMA" | keyword }} courte passe en dessous de {{ "SMA" | keyword }} longue et que l'exponentielle est en dessous des deux Moyennes Mobiles c'est un signal de vente {{ "(triangle rouge)" | red }} une tendance baissière débute.
 
 ### Avantages
 
@@ -99,6 +102,18 @@ Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :
 Open Software, d'écouvrez l'implémentation de la stratégie des moyennes mobiles au sein de la plateforme :
 
 - <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategy_sma12e.py" target="_blank">Stratégie automatique des Moyennes Mobiles</a>
+
+## Vidéo Youtube
+
+Vous avez raté quelque chose, vous pouvez visionner la vidéo de la chaîne YouTube :
+
+<p style="text-align: center;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/AXSUW7PHJnE?si=_rf6vhipza5IkwjH" title="YouTube video player" width="560"></iframe>
+</p>
+
+N'hésitez pas à vous abonner pour ne rien rater des évolutions de la plateforme.Autre vidéo sur les moyennes mobiles avec les graphes dynamiques :
+
+<ul style="text-align: left;"><li><a href="https://www.trading-et-data-analyses.com/2025/04/graphes-dynamiques-strategie-des.html">Vidéo de démo - Stratégie des moyennes mobiles</a></li></ul>Vous avez raté quelque chose, vous pouvez visionner la vidéo de la chaîne YouTube :
 
 ## Conclusion
 
