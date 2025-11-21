@@ -21,7 +21,14 @@ Les stratégies de la plateforme sont là pour déterminer la tendance et faire 
 Disons que si vous souhaitez {{ "faire une première analyse" | keyword }} de l'action que vous venez de trouver, pour dégager des tendances globales, l'
 {{ "Ichimoku Kinko Hyo" | keyword }} est une stratégie idéale pour dégager de grandes tendances fortes :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeJJFyyN-gXmjxgiyN1cnEZNYagH16t4JDJkBJ3LO5RkH3Npyv5zhmCQEAApZttoZZzv71cf2GtacGmFUVDIs900l_mm3k_Mqfw7orf3qkW7zP1fy0tyNYwsWBvkfL-gK44AX63rSXxFxLuwr3kKGz70JnZ1pkgLWTgrF_hYbhaEDlqoj5ssz-c2y7nYAV/s960/2025-01-23_09h55_04.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="600" data-original-width="960" height="400" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeJJFyyN-gXmjxgiyN1cnEZNYagH16t4JDJkBJ3LO5RkH3Npyv5zhmCQEAApZttoZZzv71cf2GtacGmFUVDIs900l_mm3k_Mqfw7orf3qkW7zP1fy0tyNYwsWBvkfL-gK44AX63rSXxFxLuwr3kKGz70JnZ1pkgLWTgrF_hYbhaEDlqoj5ssz-c2y7nYAV/w640-h400/2025-01-23_09h55_04.png" title="TradingInPython" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie de l'Ichoku Kinko Hyo</td></tr></tbody></table>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/strategies/ichimoku/routine.png" class="glightbox" data-gallery="galerie"  title="Stratégie de l'Ichoku Kinko Hyo">
+        <img src="{{ base_url }}/images/strategies/ichimoku/routine.png"/>
+    </a>
+    <figcaption><em>Stratégie de l'Ichoku Kinko Hyo</em></figcaption>
+</figure>
+
+Cette stratégie est à utiliser sur de grandes échelles de temps.
 
 Vous trouverez de la formation et des exemples sur cette stratégie sur ce site :
 
@@ -31,7 +38,7 @@ Vous trouverez de la formation et des exemples sur cette stratégie sur ce site 
 
 C'est une stratégie également comme l'Ichimoku extrêmement graphique pour vous permettre d'affiner votre sentiment de trading et commencer à envisager une entrée (achat).
 
-Les dDubles Bandes de Bollinger sont un moyen puissant d'obtenir des entrées et des sorties claires :
+Les Doubles Bandes de Bollinger sont un moyen puissant d'obtenir des entrées et des sorties claires :
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
@@ -44,6 +51,8 @@ Exemple :
 
 - Signaux d'entrée (achat) lorsque le prix sort de la bande de Bollinger 1 σ et 2 σ
 - Signaux de sortie (vente) lorsque le prix touche la Moyenne Mobile
+
+Ces signaux sont clairs en tendance haussière uniquement.
 
 [Double Bandes de Bollinger - Découvrir](../strategies/bollinger-bands/#double-bandes-de-bollinger)
 
@@ -89,7 +98,7 @@ C'est une stratégie simple parce qu'elle regarde les plus hauts et les plus bas
 Les sommets indiqués en rouge indiquent un possible retournement baissier. Les ceux indiqués en vert indiquent un possible retournement haussier.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/routine.png" class="glightbox" data-gallery="galerie" title="routine.png Stratégie des Fractales de Bill Williams">
+    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie des Fractales de Bill Williams">
         <img src="{{ base_url }}/images/strategies/fractale-bill-williams/routine.png" alt="Copie d'écran" />
     </a>
     <figcaption><em>Stratégie des Fractales de Bill Williams</em></figcaption>
@@ -103,7 +112,12 @@ Utilisé avec la {{ "Gator Alligator" | keyword }} cette routine peut devenir un
 
 Le SAR (Stop And Reverse parabolic) est un indicateur de tendance que j'ai intégré dans cette stratégie pour confirmer les signaux donnés par les Fractales de Bill Williams et ainsi pouvoir comparer les deux.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1MPqcDpY4wDsVlFdPe7m039kWVPhXBiP8qiyfbpgBtyfWM9eji-rrbPLW5M1MVGyYZOop4WMgEe6XYhAJ6VtKyHT96J8HhP7PgqF9JQIuoVZf0Fy0asgauQtc6tMFgRGopo5pEQGACfEdAKAjNFSfqVOzWFzyCpeZIJ1kPCSZCnZDOVhrHbZkcBxOQmkF/s1202/2025-05-16_14h40_03.png" style="margin-left: auto; margin-right: auto;"><img alt="SAR Parabolic (Stop And Reverse) Parabolic indicator" border="0" data-original-height="756" data-original-width="1202" height="402" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1MPqcDpY4wDsVlFdPe7m039kWVPhXBiP8qiyfbpgBtyfWM9eji-rrbPLW5M1MVGyYZOop4WMgEe6XYhAJ6VtKyHT96J8HhP7PgqF9JQIuoVZf0Fy0asgauQtc6tMFgRGopo5pEQGACfEdAKAjNFSfqVOzWFzyCpeZIJ1kPCSZCnZDOVhrHbZkcBxOQmkF/w640-h402/2025-05-16_14h40_03.png" title="SAR Parabolic (Stop And Reverse) Parabolic indicator" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">SAR Parabolic (Stop And Reverse) Parabolic indicator</td></tr></tbody></table>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/routine-sar.png" class="glightbox" data-gallery="galerie" title="SAR Parabolic (Stop And Reverse) Parabolic indicator">
+        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/routine-sar.png" alt="Copie d'écran" />
+    </a>
+    <figcaption><em>SAR Parabolic (Stop And Reverse) Parabolic indicator</em></figcaption>
+</figure>
 
 Ici le dernier point est en dessous du cours le plus bas signifiant que la tendance pourrait bien se retourner.
 
@@ -127,11 +141,16 @@ Si le prix est au dessus du {{ "VWAP" | i_tooltip }} (Volume Weighted Average Pr
 
 Notez égalment la présence de deux indicateurs techniques {{ "ATR" | i_tooltip }} et l'{{ "OBV" | i_tooltip }} qui sont pratique pour les entrées ou les sorties dans la journée.
 
-## Gator Alligator S de Bill Williams
+## Gator Alligator de Bill Williams
 
-Voici maintenant le Gator Alligator S de Bill Williams et ses histogrammes :
+Voici maintenant le Gator Alligator de Bill Williams et ses histogrammes :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgehTiHFmBzK5lKjEpMwU_wQy8kxroCZTlrh_aAgr69ND-VUc4ePQqr3mn0f3KS9lPsyD450AB_ITxnqQoqPND9upBsAwb0Gc2uP9KR21SFFYQwUYFjjGTz2vgZgU8XH_-U46iC1aWlKwl4x3kVLpDWozLAj0pfKgM04J31EugySZIfDwNzFp_po16NoU0G/s1282/2025-02-24_16h38_18.png" style="margin-left: auto; margin-right: auto;"><img alt="Stratégie Gator Alligator S de Bill Williams" border="0" data-original-height="905" data-original-width="1282" height="452" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgehTiHFmBzK5lKjEpMwU_wQy8kxroCZTlrh_aAgr69ND-VUc4ePQqr3mn0f3KS9lPsyD450AB_ITxnqQoqPND9upBsAwb0Gc2uP9KR21SFFYQwUYFjjGTz2vgZgU8XH_-U46iC1aWlKwl4x3kVLpDWozLAj0pfKgM04J31EugySZIfDwNzFp_po16NoU0G/w640-h452/2025-02-24_16h38_18.png" title="Stratégie Gator Alligator S de Bill Williams" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie Gator Alligator S de Bill Williams</td></tr></tbody></table>
+<figure style="text-align: center;">
+    <a href="{{ base_url }}/images/strategies/gator-alligator/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie Gator Alligator de Bill Williams">
+        <img src="{{ base_url }}/images/strategies/gator-alligator/routine.png" alt="alt" />
+    </a>
+    <figcaption><em>Stratégie Gator Alligator de Bill Williams</em></figcaption>
+</figure>
 
 Selon la métaphore de l'alligator de Bill Williams le marché évolue en quatre phases :
 
@@ -141,12 +160,13 @@ Selon la métaphore de l'alligator de Bill Williams le marché évolue en quatre
  <li>Gator en chasse : Deux barres vertes → tendance forte.</li><li>Gator rassasié : Une barre devient rouge → ralentissement de la tendance.</li>
 </ul>
 
-<ul style="text-align: left;"><li><a href="/2024/10/formation-bill-williams-alligator-gator.html" target="_blank">Formation - Alligator Gator</a></li></ul>
+- [Alligator Gator de Bill Williams - Découvrir](./strategies/gator-alligator.md)
+- <a href="https://www.trading-et-data-analyses.com/2024/10/formation-bill-williams-alligator-gator.html" target="_blank">Gator Alligator - Généralités</a>
 
-## Vidéo YouTube
+## Conclusion
 
-Vous avez raté quelque chose :
+Vous venez de parcourir les stratégies de trading de la plateforme. Vous pouvez découvrir l'utilisation de ces stratégies afin de peaufiner votre propre routine de trading suivant que vous souhaitez faire de l'intraday, du scalping, du swing trading ou de l'investissement.
 
-<div align="center" class="md-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z4gIwwcPSW4?si=X_mP1gMcAAO3n87s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+Abonnez-vous à TradingInPython :
+
+- <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">TradingInPython</a>

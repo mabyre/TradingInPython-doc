@@ -139,3 +139,11 @@ L'ordre de Sell Stop placé en dessous de la valeur la plus basse de la fractale
 | Fractale haussière **en dessous** de la Jaw | Non                  |
 | Fractale baissière **sous** la Jaw          | Oui (trade baissier) |
 | Fractale baissière **au-dessus** de la Jaw  | Non                  |
+
+## Vidéo YouTube
+
+Vous avez raté quelque chose :
+
+<div align="center" class="md-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z4gIwwcPSW4?si=X_mP1gMcAAO3n87s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
