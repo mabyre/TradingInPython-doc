@@ -1,6 +1,6 @@
 # Gator Alligator de Bill Williams
 
-L'indicateur technique {{ "Alligator" | keyword }} et son histogramme le Gator est inventé par Bill Williams en 1995.
+L'indicateur technique {{ "Alligator" | keyword }} et son histogramme le {{ "Gator" | keyword }} est inventé par Bill Williams en 1995.
 
 C'est la fameuse {{ "parabole du marché" | keyword }} par Bill Williams, le marché se comporte comme un Alligator :
 
