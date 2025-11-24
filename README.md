@@ -1,4 +1,4 @@
-# TradingInPtyhon Trading Technical Plateforme
+# TradingInPtyhon Plateforme de Trading Technique
 
 ## Documentation
 
