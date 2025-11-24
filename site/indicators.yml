@@ -66,7 +66,7 @@ MACD: |
 
   C'est un indicateur simple qui combine deux moyennes glissantes exponentielles, une courte, une longue et un signal qui est également une moyenne glissante exponentielle entre les deux autres.
 
-  Cet indicateur ne "travaille" que sur le prix de clôture.
+  Cet indicateur ne "travaille" que sur le prix de clôture :
 
   Algorithme :
   ```python
@@ -76,6 +76,28 @@ MACD: |
   macd = short_ema - long_ema
   signal_line = macd.moyenne_mobile_exponentielle( signal_window )
   ```
+
+  **Signification**
+
+  Lorsque le MACD est au-dessus de sa ligne de signal, cela indique généralement une tendance à la hausse dans le marché. Cette configuration est souvent considérée comme un signal d'achat ou comme une confirmation que la tendance à la hausse pourrait se poursuivre.
+
+  Lorsque le MACD (Moving Average Convergence Divergence) est inférieur à sa ligne de signal, cela indique généralement une tendance à la baisse dans le marché. Cette configuration est souvent considérée comme un signal de vente ou comme une confirmation que la tendance à la baisse pourrait se poursuivre.
+
+  **Croisements**
+
+  Haussier (Bullish crossover) : Lorsque la ligne MACD croise au-dessus de la ligne de signal, cela peut indiquer que le momentum devient haussier, suggérant un signal d'achat.
+
+  Baissier (Bearish crossover) : Lorsque le MACD croise en dessous de sa ligne de signal depuis le haut, cela peut indiquer un renforcement de la dynamique baissière.
+
+  **Divergences**
+
+  Signaux de retournement potentiel, les divergences entre le MACD et les prix sont des indicateurs puissants de retournements de tendance.
+
+  Haussière (Bullish divergence) : Si le prix forme des creux plus bas tandis que le MACD forme des creux plus hauts, cela peut indiquer un retournement haussier imminent, car cela suggère que la force vendeuse diminue.
+
+  Baissière (Bearish divergence) : Si le prix forme des sommets plus hauts tandis que le MACD forme des sommets plus bas, cela peut indiquer un retournement baissier imminent, car la force acheteuse s'affaiblit.
+
+  Le MACD ne devrait pas être utilisé seul ...
 
 MACD ZL: |
   MACD Zéro Lag essaye de compenser le retard du MACD en corrigeant les EMA.
@@ -129,10 +151,17 @@ OBV: |
 RSI: |
   Relative Strength Index : mesure la force du mouvement d'un actif.
 
-  Valeurs extrêmes :
+  Evaluer la force ou la faiblesse d'un actif financier en comparant les gains et les pertes récents sur une période spécifique. 
+  Il a été développé par l'analyste financier J. Welles Wilder.
 
-  - au-dessus de 70 : surachat
-  - en dessous de 30 : survente
+  Le RSI est généralement calculé sur une période de 14 jours et oscille entre 0 et 100.
+
+  - Les valeurs **supérieures à 70** indiquent que l'actif est suracheté, ce qui signifie qu'il pourrait être dû pour une correction à la baisse.
+  - Les valeurs **inférieures à 30** indiquent souvent que l'actif est survendu, ce qui peut suggérer une opportunité d'achat.
+
+  Cependant, il est important de noter que le RSI est un indicateur de momentum et ne doit pas être utilisé seul pour prendre des décisions d'investissement.
+
+  Un indicateur de momentum évalue la vitesse ou la force du mouvement des prix dans une direction donnée. Il fournit une information sur la force d'un tendance.
 
 SAR Parabolic: |
   Stop And Reverse parabolic - Parabolic SAR.
@@ -223,7 +252,7 @@ VWAP: |
   data['VWAP'] = (data['Close'] * data['Volume']).cumsum() / data['Volume'].cumsum()
   ```
 
-  ### Interprétation
+  **Interprétation**
 
   Si le prix est au-dessus du VWAP, cela signifie que l'actif est potentiellement surévalué (souvent un signal pour vendre).
 

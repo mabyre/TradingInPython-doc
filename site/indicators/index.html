@@ -1510,21 +1510,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="VWAP">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#interpretation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Interprétation
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -1711,21 +1696,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="VWAP">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#interpretation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Interprétation
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -1807,7 +1777,7 @@
 <h2 id="macd">MACD<a class="headerlink" href="#macd" title="Permanent link">&para;</a></h2>
 <p>Moving Average Convergence Divergence</p>
 <p>C'est un indicateur simple qui combine deux moyennes glissantes exponentielles, une courte, une longue et un signal qui est également une moyenne glissante exponentielle entre les deux autres.</p>
-<p>Cet indicateur ne "travaille" que sur le prix de clôture.</p>
+<p>Cet indicateur ne "travaille" que sur le prix de clôture :</p>
 <p>Algorithme :
 <div class="highlight"><pre><span></span><code><span class="n">short_window</span> <span class="o">=</span> <span class="mi">12</span><span class="p">,</span> <span class="n">long_window</span> <span class="o">=</span> <span class="mi">26</span><span class="p">,</span> <span class="n">signal_window</span> <span class="o">=</span> <span class="mi">9</span>
 <span class="n">short_ema</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">moyenne_mobile_exponentielle</span><span class="p">(</span> <span class="n">short_window</span> <span class="p">)</span>
@@ -1815,6 +1785,17 @@
 <span class="n">macd</span> <span class="o">=</span> <span class="n">short_ema</span> <span class="o">-</span> <span class="n">long_ema</span>
 <span class="n">signal_line</span> <span class="o">=</span> <span class="n">macd</span><span class="o">.</span><span class="n">moyenne_mobile_exponentielle</span><span class="p">(</span> <span class="n">signal_window</span> <span class="p">)</span>
 </code></pre></div></p>
+<p><strong>Signification</strong></p>
+<p>Lorsque le MACD est au-dessus de sa ligne de signal, cela indique généralement une tendance à la hausse dans le marché. Cette configuration est souvent considérée comme un signal d'achat ou comme une confirmation que la tendance à la hausse pourrait se poursuivre.</p>
+<p>Lorsque le MACD (Moving Average Convergence Divergence) est inférieur à sa ligne de signal, cela indique généralement une tendance à la baisse dans le marché. Cette configuration est souvent considérée comme un signal de vente ou comme une confirmation que la tendance à la baisse pourrait se poursuivre.</p>
+<p><strong>Croisements</strong></p>
+<p>Haussier (Bullish crossover) : Lorsque la ligne MACD croise au-dessus de la ligne de signal, cela peut indiquer que le momentum devient haussier, suggérant un signal d'achat.</p>
+<p>Baissier (Bearish crossover) : Lorsque le MACD croise en dessous de sa ligne de signal depuis le haut, cela peut indiquer un renforcement de la dynamique baissière.</p>
+<p><strong>Divergences</strong></p>
+<p>Signaux de retournement potentiel, les divergences entre le MACD et les prix sont des indicateurs puissants de retournements de tendance.</p>
+<p>Haussière (Bullish divergence) : Si le prix forme des creux plus bas tandis que le MACD forme des creux plus hauts, cela peut indiquer un retournement haussier imminent, car cela suggère que la force vendeuse diminue.</p>
+<p>Baissière (Bearish divergence) : Si le prix forme des sommets plus hauts tandis que le MACD forme des sommets plus bas, cela peut indiquer un retournement baissier imminent, car la force acheteuse s'affaiblit.</p>
+<p>Le MACD ne devrait pas être utilisé seul ...</p>
 <h2 id="macd-zl">MACD ZL<a class="headerlink" href="#macd-zl" title="Permanent link">&para;</a></h2>
 <p>MACD Zéro Lag essaye de compenser le retard du MACD en corrigeant les EMA.</p>
 <p>Corrige les EMA avec des techniques comme les filtrages de type TEMA, DEMA, ou une soustraction dynamique.</p>
@@ -1859,11 +1840,15 @@
 </ul>
 <h2 id="rsi">RSI<a class="headerlink" href="#rsi" title="Permanent link">&para;</a></h2>
 <p>Relative Strength Index : mesure la force du mouvement d'un actif.</p>
-<p>Valeurs extrêmes :</p>
+<p>Evaluer la force ou la faiblesse d'un actif financier en comparant les gains et les pertes récents sur une période spécifique. 
+Il a été développé par l'analyste financier J. Welles Wilder.</p>
+<p>Le RSI est généralement calculé sur une période de 14 jours et oscille entre 0 et 100.</p>
 <ul>
-<li>au-dessus de 70 : surachat</li>
-<li>en dessous de 30 : survente</li>
+<li>Les valeurs <strong>supérieures à 70</strong> indiquent que l'actif est suracheté, ce qui signifie qu'il pourrait être dû pour une correction à la baisse.</li>
+<li>Les valeurs <strong>inférieures à 30</strong> indiquent souvent que l'actif est survendu, ce qui peut suggérer une opportunité d'achat.</li>
 </ul>
+<p>Cependant, il est important de noter que le RSI est un indicateur de momentum et ne doit pas être utilisé seul pour prendre des décisions d'investissement.</p>
+<p>Un indicateur de momentum évalue la vitesse ou la force du mouvement des prix dans une direction donnée. Il fournit une information sur la force d'un tendance.</p>
 <h2 id="sar-parabolic">SAR Parabolic<a class="headerlink" href="#sar-parabolic" title="Permanent link">&para;</a></h2>
 <p>Stop And Reverse parabolic - Parabolic SAR.</p>
 <p>C'est un indicateur technique puissant développé par J. Welles Wilder en 1978. Il est utilisé pour détecter les tendances et définir des points de retournement potentiels sur un graphique.</p>
@@ -1937,7 +1922,7 @@ généralement intrajournalière.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Calcul du VWAP</span>
 <span class="n">data</span><span class="p">[</span><span class="s1">&#39;VWAP&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Close&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Volume&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span> <span class="o">/</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Volume&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span>
 </code></pre></div>
-<h3 id="interpretation">Interprétation<a class="headerlink" href="#interpretation" title="Permanent link">&para;</a></h3>
+<p><strong>Interprétation</strong></p>
 <p>Si le prix est au-dessus du VWAP, cela signifie que l'actif est potentiellement surévalué (souvent un signal pour vendre).</p>
 <p>Si le prix est en dessous du VWAP, cela peut signifier qu'il est sous-évalué (souvent un signal pour acheter).</p>
 <p>Le VWAP est aussi utile pour déterminer des niveaux de support et de résistance intrajournaliers, et il est souvent utilisé dans des stratégies de trading intra-journalier pour évaluer la tendance d'un actif au cours de la journée.</p>

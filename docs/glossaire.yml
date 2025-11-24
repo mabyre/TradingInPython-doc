@@ -30,6 +30,13 @@ Buy Stop: |
 MatPlotLib: |
   Bibliothèque de visualisation de données en Python, utilisée pour créer des graphiques et des visualisations statiques, animées et interactives.
 
+Momentum: |
+  Le momentum est une mesure de la vitesse ou la force du mouvement des prix d'un actif financier.
+
+  Un momentum élevé indique que les prix augmentent rapidement, tandis qu'un momentum faible suggère une tendance plus lente ou une possible inversion de tendance.
+
+  Le MACD est un indicateur de momentum.
+
 Pullback: |
   Un pullback (retour sur cassure) est un mouvement où, après un breakout :
 
