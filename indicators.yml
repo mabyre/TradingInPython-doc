@@ -77,19 +77,19 @@ MACD: |
   signal_line = macd.moyenne_mobile_exponentielle( signal_window )
   ```
 
-  ### Signification
+  **Signification**
 
   Lorsque le MACD est au-dessus de sa ligne de signal, cela indique généralement une tendance à la hausse dans le marché. Cette configuration est souvent considérée comme un signal d'achat ou comme une confirmation que la tendance à la hausse pourrait se poursuivre.
 
   Lorsque le MACD (Moving Average Convergence Divergence) est inférieur à sa ligne de signal, cela indique généralement une tendance à la baisse dans le marché. Cette configuration est souvent considérée comme un signal de vente ou comme une confirmation que la tendance à la baisse pourrait se poursuivre.
 
-  ### Croisements
+  **Croisements**
 
   Haussier (Bullish crossover) : Lorsque la ligne MACD croise au-dessus de la ligne de signal, cela peut indiquer que le momentum devient haussier, suggérant un signal d'achat.
 
   Baissier (Bearish crossover) : Lorsque le MACD croise en dessous de sa ligne de signal depuis le haut, cela peut indiquer un renforcement de la dynamique baissière.
 
-  ### Divergences
+  **Divergences**
 
   Signaux de retournement potentiel, les divergences entre le MACD et les prix sont des indicateurs puissants de retournements de tendance.
 
@@ -161,7 +161,7 @@ RSI: |
 
   Cependant, il est important de noter que le RSI est un indicateur de momentum et ne doit pas être utilisé seul pour prendre des décisions d'investissement.
 
-  Un "indicateur de momentum" évalue la vitesse ou la force du mouvement des prix dans une direction donnée. Il fournit une information sur la force d'un tendance.
+  Un indicateur de momentum évalue la vitesse ou la force du mouvement des prix dans une direction donnée. Il fournit une information sur la force d'un tendance.
 
 SAR Parabolic: |
   Stop And Reverse parabolic - Parabolic SAR.
@@ -252,7 +252,7 @@ VWAP: |
   data['VWAP'] = (data['Close'] * data['Volume']).cumsum() / data['Volume'].cumsum()
   ```
 
-  ### Interprétation
+  **Interprétation**
 
   Si le prix est au-dessus du VWAP, cela signifie que l'actif est potentiellement surévalué (souvent un signal pour vendre).
 
