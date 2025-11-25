@@ -1,6 +1,6 @@
 # Cartes de chaleur & Performances
 
-Vous avez créé vos screeners en utilisant le {{ "Sélecteur de stocks" | keyword }} Menu {{ "Screeners" | keyword }} -> [Gestion des screeners]({{ base_url }}/heatmap-screener/screeners/), vous pouvez afficher des Cartes de chaleur.
+Vous avez créé vos screeners en utilisant le {{ "Sélecteur de stocks" | keyword }} Menu {{ "Screeners" | keyword }} -> [Gestion des screeners](./screeners.md), vous pouvez afficher des Cartes de chaleur.
 
 Surveillez facilement et rapidement {{ "des dizaines d'actions" | keyword }}, grâce aux indicateurs techniques dans une Carte graphique de couleurs (chaleur).
 

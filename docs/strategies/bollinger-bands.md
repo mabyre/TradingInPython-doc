@@ -42,7 +42,7 @@ Exemple : Vous pouvez entrer lors que le cours sort de la bande 1 sigma (flêche
 Vous pouvez également ajuster votre {{ "StopLoss" | g_tooltip }} sur la moyenne mobile.
 
 ATTENTION : Uniquement en tendance haussière
- 
+
 ## Bollinger Bandes Multiframes + histogramme
 
 Stratégie FTMA Bolls Multiframes (For Timeframes Mobile Average), les FTMA Bolls sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.

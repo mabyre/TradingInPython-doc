@@ -4,7 +4,7 @@ Monitorer le marché grâce aux alertes techniques.
 
 Vous avez créé vos screeners en utilisant le {{ "Sélecteur de stocks" | keywordi }} :
 
-- Menu {{ "Monitoring" | keywordi }} -> ["Gestion des screeners"]({{ base_url }}/heatmap-screener/screeners/)
+- Menu {{ "Monitoring" | keywordi }} -> ["Gestion des screeners"](../heatmap-screener/screeners.md)
 
 Vous pouvez maintenant configurer des Alertes sur les cours de bourse.
 

@@ -16,4 +16,4 @@ Certaines stratégies permettent une {{ "analyse large de la tendance" | keyword
 
 L'ensemble de ces stratégies de trading sont présentées dans la routine de trading.
 
-- [Routine de trading]({{ base_url }}/trading-routine/)
+- [Routine de trading](../trading-routine.md)

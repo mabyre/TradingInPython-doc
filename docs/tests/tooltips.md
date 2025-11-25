@@ -2,13 +2,28 @@
 
 [MkDocs - Material - Tooltips](https://squidfunk.github.io/mkdocs-material/reference/tooltips/)
 
-
 [Hover me](https://example.com "I'm a tooltip!")
 
 ```
 {% raw %}
 [Hover me](https://example.com "I'm a tooltip!")
 {% endraw %}
+```
+
+[Tooltip en html](#html "I'm a tooltip to go to html!")
+
+```
+{% raw %}
+[Tooltip en html](#html "I'm a tooltip to go to html!")
+{% endraw %}
+```
+
+## Html
+
+Voici un texte avec un <span title="Ceci est un tooltip en langage naturel.">tooltip</span>.
+
+```html
+Voici un texte avec un <span title="Ceci est un tooltip en langage naturel.">tooltip</span>.
 ```
 
 **Ne fonctionne pas :**
@@ -21,9 +36,8 @@ The HTML specification is maintained by the W3C.
 
 *[W3C]: World Wide Web Consortium
 
-
 [Subscribe to our newsletter](#){ .md-button .md-button--primary }
 
 ## Tooltip & Glossaire
 
-[Tooltip](./exemple-glossaire.md)
+[Glossaire](glossaire.md)

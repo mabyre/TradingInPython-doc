@@ -78,24 +78,39 @@ Utilisation du filter **i_link** {{ "Pas_Dans_Indicators" | i_link }}
 
 ## A la main
 
-Création de Tooltip "à la main" [RSI]({{ base_url }}/glossaire/#rsi).
+Création de Link "à la main" [RSI](#rsi).
 
-Voir la définition de [ICI]({{ base_url }}/glossaire/#ici).
+Voir la définition de [ICI](#ici).
 
-Voir la définition de [ICI]({{ base_url }}/glossaire/#ICI).
+Voir la définition de [ici](#ici_1).
 
-Voir la définition de [Ici c'est là]({{ base_url }}/glossaire/#ici-cest-la).
+Voir la définition de [Ici c'est là](#ici-cest-la).
 
-### Macro gtooltip
+
+### Macro gtooltip pour le fun !
 
 Utilisation de la macro **gtooltip** {{ gtooltip("MatPlotLib") }}
 
 Utilisation de la macro **gtooltip** {{ gtooltip("matplotlibs") }}
 
-Utilisation de la macro **gtooltip** {{ gtooltip("Pas_Dans_Glossaire") }}
+Utilisation de la macro avec un truc pas dans le glossaire **gtooltip** {{ gtooltip("Pas_Dans_Glossaire") }}
 
 ```
 {% raw %}
 {{ "MatPlotLib" | g_link }}
 {% endraw %}
 ```
+
+## RSI
+
+coucou
+
+## ICI
+
+## ici
+
+et là on est où ?
+
+### Ici c'est là
+
+et là on est ici
