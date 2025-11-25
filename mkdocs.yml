@@ -30,10 +30,12 @@ theme:
     repo: fontawesome/brands/github
 
 extra_javascript:
+  #- https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js
   - js/glightbox.min.js
-  - js/init.js
+  - js/glightbox-init.js  # init GLightbox
 
 extra_css:
+  #- https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css
   - css/glightbox.min.css
   - css/extra.css
   - css/summary.css
