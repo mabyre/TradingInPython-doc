@@ -91,7 +91,7 @@ def define_env( env ):
         Exemple :
             {{ gl("RSI") }}
         Résultat :
-            <a href="{{ base_url }}/glossaire/#rsi">RSI</a>
+            <a href="/glossaire/#rsi">RSI</a>
         """
         _key = None
         
@@ -181,7 +181,7 @@ def define_env( env ):
         Exemple :
             {{ gl("RSI") }}
         Résultat :
-            <a href="{{ base_url }}/glossaire/#rsi">RSI</a>
+            <a href="/glossaire/#rsi">RSI</a>
         """
         _key = None
         

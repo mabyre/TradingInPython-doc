@@ -116,7 +116,6 @@ plugins:
       type: timeago
 
 extra:
-  base_url: "" # /TradingInPython-doc # utiliser {{ base_url }} dans <img src="{{ base_url }}/images/..."
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/sodevlog

@@ -22,8 +22,8 @@ Disons que si vous souhaitez {{ "faire une première analyse" | keyword }} de l'
 {{ "Ichimoku Kinko Hyo" | keyword }} est une stratégie idéale pour dégager de grandes tendances fortes :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/ichimoku/routine.png" class="glightbox" data-gallery="galerie"  title="Stratégie de l'Ichoku Kinko Hyo">
-        <img src="{{ base_url }}/images/strategies/ichimoku/routine.png"/>
+    <a href="/images/strategies/ichimoku/routine.png" class="glightbox" data-gallery="galerie"  title="Stratégie de l'Ichoku Kinko Hyo">
+        <img src="/images/strategies/ichimoku/routine.png"/>
     </a>
     <figcaption><em>Stratégie de l'Ichoku Kinko Hyo</em></figcaption>
 </figure>
@@ -41,8 +41,8 @@ C'est une stratégie également comme l'Ichimoku extrêmement graphique pour vou
 Les Doubles Bandes de Bollinger sont un moyen puissant d'obtenir des entrées et des sorties claires :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
-        <img src="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
+    <a href="/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
     </a>
     <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
 </figure>
@@ -98,8 +98,8 @@ C'est une stratégie simple parce qu'elle regarde les plus hauts et les plus bas
 Les sommets indiqués en rouge indiquent un possible retournement baissier. Les ceux indiqués en vert indiquent un possible retournement haussier.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie des Fractales de Bill Williams">
-        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/routine.png" alt="Copie d'écran" />
+    <a href="/images/strategies/fractale-bill-williams/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie des Fractales de Bill Williams">
+        <img src="/images/strategies/fractale-bill-williams/routine.png" alt="Copie d'écran" />
     </a>
     <figcaption><em>Stratégie des Fractales de Bill Williams</em></figcaption>
 </figure>
@@ -113,8 +113,8 @@ Utilisé avec la {{ "Gator Alligator" | keyword }} cette routine peut devenir un
 Le SAR (Stop And Reverse parabolic) est un indicateur de tendance que j'ai intégré dans cette stratégie pour confirmer les signaux donnés par les Fractales de Bill Williams et ainsi pouvoir comparer les deux.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/routine-sar.png" class="glightbox" data-gallery="galerie" title="SAR Parabolic (Stop And Reverse) Parabolic indicator">
-        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/routine-sar.png" alt="Copie d'écran" />
+    <a href="/images/strategies/fractale-bill-williams/routine-sar.png" class="glightbox" data-gallery="galerie" title="SAR Parabolic (Stop And Reverse) Parabolic indicator">
+        <img src="/images/strategies/fractale-bill-williams/routine-sar.png" alt="Copie d'écran" />
     </a>
     <figcaption><em>SAR Parabolic (Stop And Reverse) Parabolic indicator</em></figcaption>
 </figure>
@@ -131,8 +131,8 @@ Maintenant passons à l'Intraday, au sein de la journée.
 Vous souhaitez suivre le cours de votre action durant la journée pour savoir quels sont les meilleurs moments d'entrée et de sortie, la stratégie {{ "VWAP" | i_tooltip }} + {{ "STOCH" | i_tooltip }} Intraday, est adaptée à cette analyse du cours dans la journée :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/intraday-vwap-stoch/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie VWAP + STOCH Intraday">
-        <img src="{{ base_url }}/images/strategies/intraday-vwap-stoch/routine.png" alt="alt" />
+    <a href="/images/strategies/intraday-vwap-stoch/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie VWAP + STOCH Intraday">
+        <img src="/images/strategies/intraday-vwap-stoch/routine.png" alt="alt" />
     </a>
     <figcaption><em>Stratégie VWAP + STOCH Intraday</em></figcaption>
 </figure>
@@ -146,8 +146,8 @@ Notez égalment la présence de deux indicateurs techniques {{ "ATR" | i_tooltip
 Voici maintenant le Gator Alligator de Bill Williams et ses histogrammes :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/gator-alligator/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie Gator Alligator de Bill Williams">
-        <img src="{{ base_url }}/images/strategies/gator-alligator/routine.png" alt="alt" />
+    <a href="/images/strategies/gator-alligator/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie Gator Alligator de Bill Williams">
+        <img src="/images/strategies/gator-alligator/routine.png" alt="alt" />
     </a>
     <figcaption><em>Stratégie Gator Alligator de Bill Williams</em></figcaption>
 </figure>

@@ -5,8 +5,8 @@ Sur le Net, la documentation sur les {{ "Bandes de Bollinger" | keyword }} est p
 Voici la stratégie des {{ "Bandes de Bollinger" | keyword }} sur quatre horizons de temps différents :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/bollinger-bands/interface.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger">
-        <img src="{{ base_url }}/images/strategies/bollinger-bands/interface.png"/>
+    <a href="/images/strategies/bollinger-bands/interface.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger">
+        <img src="/images/strategies/bollinger-bands/interface.png"/>
     </a>
     <figcaption><em>Bandes de Bollinger</em></figcaption>
 </figure>
@@ -14,8 +14,8 @@ Voici la stratégie des {{ "Bandes de Bollinger" | keyword }} sur quatre horizon
 L'interface de Configuration vous permet de modifier les horizons des Four Times Mobile Average (FTA) les moyennes mobiles des Bandes de Bollinger.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/bollinger-bands/config.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger - Configuration">
-        <img src="{{ base_url }}/images/strategies/bollinger-bands/config.png"/>
+    <a href="/images/strategies/bollinger-bands/config.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger - Configuration">
+        <img src="/images/strategies/bollinger-bands/config.png"/>
     </a>
     <figcaption><em>Bandes de Bollinger - Configuration</em></figcaption>
 </figure>
@@ -25,8 +25,8 @@ L'interface de Configuration vous permet de modifier les horizons des Four Times
 Le bouton {{ "Double Bandes de Bollinger" | keyword }} permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
-        <img src="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
+    <a href="/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
     </a>
     <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
 </figure>
@@ -48,8 +48,8 @@ ATTENTION : Uniquement en tendance haussière
 Stratégie FTMA Bolls Multiframes (For Timeframes Mobile Average), les FTMA Bolls sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/bollinger-bands/multiframes.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
-        <img src="{{ base_url }}/images/strategies/bollinger-bands/multiframes.png"/>
+    <a href="/images/strategies/bollinger-bands/multiframes.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="/images/strategies/bollinger-bands/multiframes.png"/>
     </a>
     <figcaption><em>Bandes de Bollinger Multiframes + Histogramme</em></figcaption>
 </figure>

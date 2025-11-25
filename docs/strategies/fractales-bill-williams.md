@@ -40,8 +40,8 @@ Fournir des niveaux d'entrée potentiels pour des stratégies de {{ "Breakout" |
 Un paramètre dans la fenêtre de configuration : PERIOD
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe1.png" class="glightbox" data-gallery="galerie" title="Fractales de Bill Williams">
-        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe1.png" alt="Fractales de Bill Williams"/>
+    <a href="/images/strategies/fractale-bill-williams/graphe1.png" class="glightbox" data-gallery="galerie" title="Fractales de Bill Williams">
+        <img src="/images/strategies/fractale-bill-williams/graphe1.png" alt="Fractales de Bill Williams"/>
     </a>
     <figcaption><em>Implémentation</em></figcaption>
 </figure>
@@ -56,8 +56,8 @@ Un paramètre dans la fenêtre de configuration : PERIOD
 Choix de la période : 2
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" class="glightbox" data-gallery="galerie" title="Fractale Up">
-        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe2.png" alt="Fractale Up"/>
+    <a href="/images/strategies/fractale-bill-williams/graphe2.png" class="glightbox" data-gallery="galerie" title="Fractale Up">
+        <img src="/images/strategies/fractale-bill-williams/graphe2.png" alt="Fractale Up"/>
     </a>
     <figcaption><em>Fractale Up</em></figcaption>
 </figure>
@@ -69,8 +69,8 @@ La {{ "Fractale Up" | keyword }} nous indique un retournement du marché à la B
 Choix de la période : 5
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe3.png" class="glightbox" data-gallery="galerie" title="Fractale Down">
-        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe3.png" alt="Fractale Down"/>
+    <a href="/images/strategies/fractale-bill-williams/graphe3.png" class="glightbox" data-gallery="galerie" title="Fractale Down">
+        <img src="/images/strategies/fractale-bill-williams/graphe3.png" alt="Fractale Down"/>
     </a>
     <figcaption><em>Fractale Down</em></figcaption>
 </figure>
@@ -80,8 +80,8 @@ La {{ "Fractale Down" | keyword }} nous indique un retournement du marché à la
 ## Fractale PERIOD 5
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/fractale-bill-williams/graphe4.png" class="glightbox" data-gallery="galerie" title="Fractale PERIOD 5">
-        <img src="{{ base_url }}/images/strategies/fractale-bill-williams/graphe4.png"/>
+    <a href="/images/strategies/fractale-bill-williams/graphe4.png" class="glightbox" data-gallery="galerie" title="Fractale PERIOD 5">
+        <img src="/images/strategies/fractale-bill-williams/graphe4.png"/>
     </a>
     <figcaption><em>Fractale PERIOD 5</em></figcaption>
 </figure>

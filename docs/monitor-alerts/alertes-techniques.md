@@ -11,8 +11,8 @@ On sait que quand l'indicateur RSI (Relative Strength Index, Indice de force rel
 Dans le Monitor Stock Market Alertes, je vais pouvoir positionner une alerte RSI survendu (30) pour surveiller la stock FORTINET et déclencher une alerte lorsque le calcul de son RSI donne un résultat < 30 :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/monitor-stock-market/alertes-avancees.png" class="glightbox" data-gallery="galerie" title="Stock Monitor Alertes - RSI survendu">
-        <img src="{{ base_url }}/images/monitor-stock-market/alertes-avancees.png" />
+    <a href="/images/monitor-stock-market/alertes-avancees.png" class="glightbox" data-gallery="galerie" title="Stock Monitor Alertes - RSI survendu">
+        <img src="/images/monitor-stock-market/alertes-avancees.png" />
     </a>
     <figcaption><em>Stock Monitor Alertes - RSI survendu</em></figcaption>
 </figure>
@@ -32,8 +32,8 @@ Je vais ainsi pouvoir placer plusieurs alertes techniques sur les stocks de mon 
 Je vais pouvoir les combiner, sur le modèle de ces alertes génériques, je vais pouvoir ajouter des alertes personnalisées :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/monitor-stock-market/alertes-techniques-personnalisees.png" class="glightbox" data-gallery="galerie" title="Alertes techniques personnalisées">
-        <img src="{{ base_url }}/images/monitor-stock-market/alertes-techniques-personnalisees.png" />
+    <a href="/images/monitor-stock-market/alertes-techniques-personnalisees.png" class="glightbox" data-gallery="galerie" title="Alertes techniques personnalisées">
+        <img src="/images/monitor-stock-market/alertes-techniques-personnalisees.png" />
     </a>
     <figcaption><em>Alertes techniques personnalisées</em></figcaption>
 </figure>
@@ -47,8 +47,8 @@ Maintenant ma stock FORTINET ne pleut plus échapper à mes alertes. Ainsi alert
 Voici la une vidéo rapide pour vous présenter les Alertes techniques avancéés de la plateforme :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/monitor-stock-market/alertes-techniques-avancees.gif" class="glightbox" data-gallery="galerie" title="Placer une alerte technique RSI oversold">
-        <img src="{{ base_url }}/images/monitor-stock-market/alertes-techniques-avancees.gif"/>
+    <a href="/images/monitor-stock-market/alertes-techniques-avancees.gif" class="glightbox" data-gallery="galerie" title="Placer une alerte technique RSI oversold">
+        <img src="/images/monitor-stock-market/alertes-techniques-avancees.gif"/>
     </a>
     <figcaption><em>Comment placer une alerte technique RSI oversold</em></figcaption>
 </figure>

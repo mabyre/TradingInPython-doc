@@ -7,8 +7,8 @@ Le gestionnaire de portefeuilles est l'outil indispensable du trader afin de cen
 Ouvrir le gestionnaire de portefeuilles dans le **Menu Monitoring** -> **Portefeuilles**
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/portfolio/menu.png" class="glightbox" data-gallery="galerie" title="Portfolio - Gestionnaire de Portefeuilles">
-        <img src="{{ base_url }}/images/portfolio/menu.png" alt="Image 2"/>
+    <a href="/images/portfolio/menu.png" class="glightbox" data-gallery="galerie" title="Portfolio - Gestionnaire de Portefeuilles">
+        <img src="/images/portfolio/menu.png" alt="Image 2"/>
     </a>
     <figcaption><em>Portfolio - Gestionnaire de Portefeuilles</em></figcaption>
 </figure>
@@ -16,8 +16,8 @@ Ouvrir le gestionnaire de portefeuilles dans le **Menu Monitoring** -> **Portefe
 Créer votre premier portefeuille :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/portfolio/creer.png" class="glightbox" data-gallery="galerie" title="Portfolio - Gestionnaire de Portefeuilles">
-        <img src="{{ base_url }}/images/portfolio/creer.png" alt="Image 2"/>
+    <a href="/images/portfolio/creer.png" class="glightbox" data-gallery="galerie" title="Portfolio - Gestionnaire de Portefeuilles">
+        <img src="/images/portfolio/creer.png" alt="Image 2"/>
     </a>
     <figcaption><em>Créer votre premier portefeuille</em></figcaption>
 </figure>
@@ -25,8 +25,8 @@ Créer votre premier portefeuille :
 Si vous êtes positionné dans les Screeners remontez vers le répertoire **"_internal"** pour choisir le répertoire "portfolios" :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/portfolio/trouver.png" class="glightbox" data-gallery="galerie" title="Portfolio - Gestionnaire de Portefeuilles">
-        <img src="{{ base_url }}/images/portfolio/trouver.png" alt="Image 2"/>
+    <a href="/images/portfolio/trouver.png" class="glightbox" data-gallery="galerie" title="Portfolio - Gestionnaire de Portefeuilles">
+        <img src="/images/portfolio/trouver.png" alt="Image 2"/>
     </a>
     <figcaption><em>Trouvez le répertoire <b>portfolios</b></em></figcaption>
 </figure>
@@ -34,8 +34,8 @@ Si vous êtes positionné dans les Screeners remontez vers le répertoire **"_in
 Sélectionnez ce répertoire, cliquez sur le bouton **"Enregistrer"** :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/portfolio/enregistrer.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
-        <img src="{{ base_url }}/images/portfolio/enregistrer.png" alt="Image 2"/>
+    <a href="/images/portfolio/enregistrer.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
+        <img src="/images/portfolio/enregistrer.png" alt="Image 2"/>
     </a>
     <figcaption><em>Enregistrez votre premier portefeuille</em></figcaption>
 </figure>
@@ -43,8 +43,8 @@ Sélectionnez ce répertoire, cliquez sur le bouton **"Enregistrer"** :
 La création de votre portefeuille est un succès :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/portfolio/creation-succes.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
-        <img src="{{ base_url }}/images/portfolio/creation-succes.png" alt="Image 2"/>
+    <a href="/images/portfolio/creation-succes.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
+        <img src="/images/portfolio/creation-succes.png" alt="Image 2"/>
     </a>
     <figcaption><em>Création succès</em></figcaption>
 </figure>
@@ -54,8 +54,8 @@ La création de votre portefeuille est un succès :
 Remplissez une Nouvelle transaction :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/portfolio/transaction.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
-        <img src="{{ base_url }}/images/portfolio/transaction.png" alt="Image 2"/>
+    <a href="/images/portfolio/transaction.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
+        <img src="/images/portfolio/transaction.png" alt="Image 2"/>
     </a>
     <figcaption><em>Transaction</em></figcaption>
 </figure>
@@ -81,8 +81,8 @@ Sans lui vous êtes perdu.
 Je consolide tous mes achats/ventes dans le Volet Transactions :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/portfolio/tableau-de-bord.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
-        <img src="{{ base_url }}/images/portfolio/tableau-de-bord.png" alt="Image 2"/>
+    <a href="/images/portfolio/tableau-de-bord.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
+        <img src="/images/portfolio/tableau-de-bord.png" alt="Image 2"/>
     </a>
     <figcaption><em>Le tableau de bord</em></figcaption>
 </figure>

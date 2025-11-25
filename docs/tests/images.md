@@ -5,36 +5,36 @@
 - css style **img.centered**
 
 <p align="center">
-  <img src="{{ base_url }}/images/trading_in_python.png" alt="Trading In Python" class="centered"/>
+  <img src="/images/trading_in_python.png" alt="Trading In Python" class="centered"/>
 </p>
 
 ```html
 <p align="center">
-  <img src="{{ '{{ base_url }}' }}/images/trading_in_python.png" alt="Trading In Python" class="centered"/>
+  <img src="{{ '' }}/images/trading_in_python.png" alt="Trading In Python" class="centered"/>
 </p>
 ```
 
 - css class **noborder**
 
 <p align="center">
-  <img src="{{ base_url }}/images/trading_in_python.png" alt="Trading In Python" class="noborder"/>
+  <img src="/images/trading_in_python.png" alt="Trading In Python" class="noborder"/>
 </p>
 
 ```html
 <p align="center">
-  <img src="{{ '{{ base_url }}' }}/images/trading_in_python.png" alt="Trading In Python" class="noborder"/>
+  <img src="{{ '' }}/images/trading_in_python.png" alt="Trading In Python" class="noborder"/>
 </p>
 ```
 
 - css class **noborder** + **tooltip**
 
 <p align="center" title="Ici le tooltip">
-  <img src="{{ base_url }}/images/trading_in_python.png" alt="Trading In Python" class="noborder"/>
+  <img src="/images/trading_in_python.png" alt="Trading In Python" class="noborder"/>
 </p>
 
 ```html
 <p align="center" title="Ici le tooltip">
-  <img src="{{ '{{ base_url }}' }}/images/trading_in_python.png" alt="Trading In Python" class="noborder"/>
+  <img src="{{ '' }}/images/trading_in_python.png" alt="Trading In Python" class="noborder"/>
 </p>
 ```
 
@@ -49,13 +49,13 @@ img.noborder dans :
 Noter le sous-titre, pas cliquable si cela ne sert à rien
 
 <figure style="text-align: center;" title="Ici le tooltip">
-  <img src="{{ base_url }}/images/trading_in_python.png" class="noborder" width="600" />
+  <img src="/images/trading_in_python.png" class="noborder" width="600" />
   <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
 </figure>
 
 ```html
 <figure style="text-align: center;" title="Ici le tooltip">
-  <img src="{{ '{{ base_url }}' }}/images/trading_in_python.png" class="noborder" width="600" />
+  <img src="{{ '' }}/images/trading_in_python.png" class="noborder" width="600" />
   <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
 </figure>
 ```
@@ -66,7 +66,7 @@ On clique et il y a un lien :
 
 <figure style="text-align: center;">
   <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
-    <img src="{{ base_url }}/images/trading_in_python.png" class="noborder" width="450" />
+    <img src="/images/trading_in_python.png" class="noborder" width="450" />
     <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
   </a>
 </figure>
@@ -74,7 +74,7 @@ On clique et il y a un lien :
 ```html
 <figure style="text-align: center;">
   <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
-    <img src="{{ '{{ base_url }}' }}/images/trading_in_python.png" class="noborder" width="450" />
+    <img src="{{ '' }}/images/trading_in_python.png" class="noborder" width="450" />
     <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
   </a>
 </figure>
@@ -85,16 +85,16 @@ On clique et il y a un lien :
 Avec son lien elle devient cliquable :
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/trading_in_python.png" target="_blank">
-    <img src="{{ base_url }}/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
+  <a href="/images/trading_in_python.png" target="_blank">
+    <img src="/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
   </a>
   <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>
 
 ```html
 <figure style="text-align: center;">
-  <a href="{{ '{{ base_url }}' }}/images/trading_in_python.png" target="_blank" title="Titre de l'image">
-    <img src="{{ '{{ base_url }}' }}/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
+  <a href="{{ '' }}/images/trading_in_python.png" target="_blank" title="Titre de l'image">
+    <img src="{{ '' }}/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
   </a>
   <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>
@@ -103,16 +103,16 @@ Avec son lien elle devient cliquable :
 - css class **noborder** + **tooltip**
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/trading_in_python.png" target="_blank" title="Titre de l'image">
-    <img src="{{ base_url }}/images/trading_in_python.png" alt="Capture d'écran" class="noborder" width="450" />
+  <a href="/images/trading_in_python.png" target="_blank" title="Titre de l'image">
+    <img src="/images/trading_in_python.png" alt="Capture d'écran" class="noborder" width="450" />
   </a>
   <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>
 
 ```html
 <figure style="text-align: center;">
-  <a href="{{ '{{ base_url }}' }}/images/trading_in_python.png" target="_blank" title="Titre de l'image">
-    <img src="{{ '{{ base_url }}' }}/images/trading_in_python.png" alt="Capture d'écran" class="noborder" width="450" />
+  <a href="{{ '' }}/images/trading_in_python.png" target="_blank" title="Titre de l'image">
+    <img src="{{ '' }}/images/trading_in_python.png" alt="Capture d'écran" class="noborder" width="450" />
   </a>
   <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>
@@ -125,34 +125,34 @@ Avec son lien elle devient cliquable :
 - Caroussel d'images
 - Le comportement de la flèche du navigateur est différent
 
-<a href="{{ base_url }}/images/trading_in_python.png" class="glightbox" data-gallery="galerie">
-  <img src="{{ base_url }}/images/trading_in_python.png" alt="Image 1" width="200" />
+<a href="/images/trading_in_python.png" class="glightbox" data-gallery="galerie">
+  <img src="/images/trading_in_python.png" alt="Image 1" width="200" />
 </a>
 
-<a href="{{ base_url }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie">
-  <img src="{{ base_url }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
+<a href="/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie">
+  <img src="/images/trading_in_python_2.png" alt="Image 2" width="200" />
 </a>
 
 
 ```html
-<a href="{{ '{{ base_url }}' }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie">
-  <img src="{{ '{{ base_url }}' }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
+<a href="{{ '' }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie">
+  <img src="{{ '' }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
 </a>
 ```
 
 ### Lightbox la plus utilisée
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
-        <img src="{{ base_url }}/images/trading_in_python_2.png" alt="Copie d'écran" width="200" />
+    <a href="/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
+        <img src="/images/trading_in_python_2.png" alt="Copie d'écran" width="200" />
     </a>
     <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>
 
 ```html
 <figure style="text-align: center;">
-    <a href="{{ '{{ base_url }}' }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
-        <img src="{{ '{{ base_url }}' }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
+    <a href="{{ '' }}/images/trading_in_python_2.png" class="glightbox" data-gallery="galerie" title="Titre de l'image">
+        <img src="{{ '' }}/images/trading_in_python_2.png" alt="Image 2" width="200" />
     </a>
     <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>
@@ -161,8 +161,8 @@ Avec son lien elle devient cliquable :
 ## Test ultime
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/trading_in_python.png" target="_blank" title="Titre de l'image">
-    <img src="{{ base_url }}/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
+  <a href="/images/trading_in_python.png" target="_blank" title="Titre de l'image">
+    <img src="/images/trading_in_python.png" alt="Capture d'écran" class="centered" width="450" />
   </a>
   <figcaption><em>Figure 1 – Cliquez pour agrandir</em></figcaption>
 </figure>

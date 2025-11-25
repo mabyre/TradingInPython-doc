@@ -13,8 +13,8 @@ C'est l'{{ "aboutissement de votre analyse technique" | keyword }}, vous avez d�
 Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre événement qui peut se produire sur la stock c'est l'objet du Monitor Stock Market : mettre le marché sous surveillance.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/monitor-stock-market/interface.png" class="glightbox" data-gallery="galerie" title="Monitor Stock Market Alertes">
-        <img src="{{ base_url }}/images/monitor-stock-market/interface.png" />
+    <a href="/images/monitor-stock-market/interface.png" class="glightbox" data-gallery="galerie" title="Monitor Stock Market Alertes">
+        <img src="/images/monitor-stock-market/interface.png" />
     </a>
     <figcaption><em>Monitor Stock Market Alertes</em></figcaption>
 </figure>
@@ -28,8 +28,8 @@ Vous allez pouvoir recevoir un email avec l'ensemble des alertes que vous avez p
 Positionnez des alertes sur les prix et les volumes.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/monitor-stock-market/edition-alerte.png" class="glightbox" data-gallery="galerie" title="Positionnez une alerte simple">
-        <img src="{{ base_url }}/images/monitor-stock-market/edition-alerte.png" />
+    <a href="/images/monitor-stock-market/edition-alerte.png" class="glightbox" data-gallery="galerie" title="Positionnez une alerte simple">
+        <img src="/images/monitor-stock-market/edition-alerte.png" />
     </a>
     <figcaption><em>Monitor Stock Market - Positionnez une alerte simple</em></figcaption>
 </figure>
@@ -44,8 +44,8 @@ Temps de réarmement (minutes) : pour ne pas avoir cette chaque minute dans le c
 Les colonnes du Monitor Stocks Market :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/monitor-stock-market/tableau-de-bord.png" class="glightbox" data-gallery="galerie" title="Tableau de bord du Monitor Stock Market">
-        <img src="{{ base_url }}/images/monitor-stock-market/tableau-de-bord.png" />
+    <a href="/images/monitor-stock-market/tableau-de-bord.png" class="glightbox" data-gallery="galerie" title="Tableau de bord du Monitor Stock Market">
+        <img src="/images/monitor-stock-market/tableau-de-bord.png" />
     </a>
     <figcaption><em>Tableau de bord du Monitor Stock Market</em></figcaption>
 </figure>
@@ -55,8 +55,8 @@ Les colonnes du Monitor Stocks Market :
 - **(3) Prix %** : l'écart calculé avec la dernière valeur du cours et la première valeur de la séquence de données ici : période 5d donc le Prix % est l'écart entre la dernière valeur du cours et le cours il y a 5 jours.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/monitor-stock-market/valeur-prix.png" class="glightbox" data-gallery="galerie" title="Valeur du Prix % sur les cinq derniers jours">
-        <img src="{{ base_url }}/images/monitor-stock-market/valeur-prix.png" />
+    <a href="/images/monitor-stock-market/valeur-prix.png" class="glightbox" data-gallery="galerie" title="Valeur du Prix % sur les cinq derniers jours">
+        <img src="/images/monitor-stock-market/valeur-prix.png" />
     </a>
     <figcaption><em>Valeur du Prix % sur les cinq derniers jours</em></figcaption>
 </figure>
@@ -72,8 +72,8 @@ Pour positionner une alerte en volume les colonnes Vol, Vol Tot, et Vol Max sont
 Voici la une vidéo rapide pour vous présenter les Alertes de la plateforme :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/monitor-stock-market/alertes-techniques.gif" class="glightbox" data-gallery="galerie" title="Placer une alerte">
-        <img src="{{ base_url }}/images/monitor-stock-market/alertes-techniques.gif"/>
+    <a href="/images/monitor-stock-market/alertes-techniques.gif" class="glightbox" data-gallery="galerie" title="Placer une alerte">
+        <img src="/images/monitor-stock-market/alertes-techniques.gif"/>
     </a>
     <figcaption><em>Comment placer une alerte</em></figcaption>
 </figure>

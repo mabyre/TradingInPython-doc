@@ -171,8 +171,8 @@ Stratégie automatique de trading grâce au filtre de Kalman, implémenté dans 
 En implémentant cette stratégie dans la plateforme, j'obtiens les graphes suivants :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/kalman-filter/interface.png" class="glightbox" data-gallery="galerie" title="Calcul de la tendance par le filtre de Kalman">
-        <img src="{{ base_url }}/images/strategies/kalman-filter/interface.png"/>
+    <a href="/images/strategies/kalman-filter/interface.png" class="glightbox" data-gallery="galerie" title="Calcul de la tendance par le filtre de Kalman">
+        <img src="/images/strategies/kalman-filter/interface.png"/>
     </a>
     <figcaption><em>Calcul de la tendance par le filtre de Kalman</em></figcaption>
 </figure>
@@ -182,8 +182,8 @@ Notez l'interface de Configuration qui vous permet de configurer les paramètres
 Avec les calculs complémentaires affichés dans la console :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/kalman-filter/console.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="{{ base_url }}/images/strategies/kalman-filter/console.png"/>
+    <a href="/images/strategies/kalman-filter/console.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
+        <img src="/images/strategies/kalman-filter/console.png"/>
     </a>
     <figcaption><em>Statistiques calculées par le filtre de Kalman</em></figcaption>
 </figure>
@@ -200,8 +200,8 @@ Ils ont calculés à l'aide de :
 - et l'incertitude normalisée
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/kalman-filter/signaux-achat-vente.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="{{ base_url }}/images/strategies/kalman-filter/signaux-achat-vente.png"/>
+    <a href="/images/strategies/kalman-filter/signaux-achat-vente.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
+        <img src="/images/strategies/kalman-filter/signaux-achat-vente.png"/>
     </a>
     <figcaption><em>Filtre de Kalman - signaux d'achat et de vente</em></figcaption>
 </figure>
@@ -215,8 +215,8 @@ On implémentera deux façons de régler le seuil de vélocité qui indique un s
 L'incertitude de Kalman converge très vite vers une valeur et faire graphe avec, ce n'est pas très utile. Vous retrouverez, dans l'implémentation au sein de la plateforme sans doute le RSI (momentum) du Cycle.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/kalman-filter/incertitude-kalman.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="{{ base_url }}/images/strategies/kalman-filter/incertitude-kalman.png"/>
+    <a href="/images/strategies/kalman-filter/incertitude-kalman.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
+        <img src="/images/strategies/kalman-filter/incertitude-kalman.png"/>
     </a>
     <figcaption><em>Filtre de Kalman - signaux d'achat et de vente</em></figcaption>
 </figure>
@@ -263,8 +263,8 @@ Cette analyse est particulièrement utile pour décomposer une série en ses él
 ### Vélocité et Accélération de la Tendance
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/kalman-filter/velocite-acceleration-tendance.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="{{ base_url }}/images/strategies/kalman-filter/velocite-acceleration-tendance.png"/>
+    <a href="/images/strategies/kalman-filter/velocite-acceleration-tendance.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
+        <img src="/images/strategies/kalman-filter/velocite-acceleration-tendance.png"/>
     </a>
     <figcaption><em>Vélocité et Accélération de la Tendance</em></figcaption>
 </figure>
@@ -321,8 +321,8 @@ Ce type d'analyse permet d'aller au-delà de la simple observation de la tendanc
 ### Volatilité du marché et Confiance des Signaux
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/kalman-filter/velocite-confiance.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
-        <img src="{{ base_url }}/images/strategies/kalman-filter/velocite-confiance.png"/>
+    <a href="/images/strategies/kalman-filter/velocite-confiance.png" class="glightbox" data-gallery="galerie" title="Statistiques calculées par le filtre de Kalman">
+        <img src="/images/strategies/kalman-filter/velocite-confiance.png"/>
     </a>
     <figcaption><em>Vélocité et Accélération de la Tendance</em></figcaption>
 </figure>

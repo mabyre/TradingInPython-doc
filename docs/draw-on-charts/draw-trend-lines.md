@@ -3,8 +3,8 @@
 Un élément important pour le trader rigoureux, c'est le {{ "Slope" | g_link }} qui vous permet de calculer instantanément la rentabilité de l'action avec son corollaire : il est inutile de trader des actions avec un très faible rendement.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/draw-on-charts/tendance.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE">
-        <img src="{{ base_url }}/images/draw-on-charts/tendance.png"/>
+    <a href="/images/draw-on-charts/tendance.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE">
+        <img src="/images/draw-on-charts/tendance.png"/>
     </a>
     <figcaption><em>AIR LIQUIDE</em></figcaption>
 </figure>

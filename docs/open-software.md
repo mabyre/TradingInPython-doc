@@ -6,7 +6,7 @@ Et pourquoi pas, vous pouvez coder vos propres indicateurs techniques.
 
 <figure style="text-align: center;">
   <a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/_internal/digitsignalprocessing" target="_blank" title="GitHub - Digital signal processing">
-    <img src="{{ base_url }}/images/git-hub.png" alt="Capture d'écran" class="noborder" width="450" />
+    <img src="/images/git-hub.png" alt="Capture d'écran" class="noborder" width="450" />
   </a>
   <figcaption><em>Figure 1 – GitHub - Digital signal processing</em></figcaption>
 </figure>
@@ -30,8 +30,8 @@ Le Python est un langage qui permet soit d'exécuter un script soit ce même scr
 Vous souhaitez modifier le code de la stratégie automatique des moyennes mobiles c'est très simple :
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/open-software/sources-python.png" target="_blank" title="Titre de l'image">
-    <img src="{{ base_url }}/images/open-software/sources-python.png" alt="Capture d'écran" class="noborder"/>
+  <a href="/images/open-software/sources-python.png" target="_blank" title="Titre de l'image">
+    <img src="/images/open-software/sources-python.png" alt="Capture d'écran" class="noborder"/>
   </a>
   <figcaption><em>TradingInPython - Open Software</em></figcaption>
 </figure>

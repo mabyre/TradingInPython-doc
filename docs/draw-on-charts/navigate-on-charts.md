@@ -6,8 +6,8 @@ C'est à dire vous déplacer dans le graphe, déplacer le graphe, zoomer à l'in
 Pour la navigation dans le graphique, une bonne part est faite par la tool barre de la fenêtre {{ "MatPlotLib" | g_tooltip }} :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/draw-on-charts/matplot-toolbar.png" class="glightbox" data-gallery="galerie" title="ToolBarre Matplotlib">
-        <img src="{{ base_url }}/images/draw-on-charts/matplot-toolbar.png"/>
+    <a href="/images/draw-on-charts/matplot-toolbar.png" class="glightbox" data-gallery="galerie" title="ToolBarre Matplotlib">
+        <img src="/images/draw-on-charts/matplot-toolbar.png"/>
     </a>
     <figcaption><em>ToolBarre Matplotlib</em></figcaption>
 </figure>
@@ -18,7 +18,7 @@ Accédez En cliquant sur l'image, vous trouverez les raccourcis clavier :
 
 <figure style="text-align: center;">
   <a href="https://matplotlib.org/3.2.2/users/navigation_toolbar.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
-    <img src="{{ base_url }}/images/draw-on-charts/matplotlib.png" class="noborder"/>
+    <img src="/images/draw-on-charts/matplotlib.png" class="noborder"/>
   </a>
   <figcaption><em>Explications sur la Barre de Matplotlib</em></figcaption>
 </figure>

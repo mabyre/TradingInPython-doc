@@ -13,8 +13,8 @@ La Carte de chaleur calcule des {{ "indicateurs techniques" | keyword }} pour ch
 Dans le menu {{ "Monitoring" | keyword }} choisissez {{ "Performace Heatmap" | keyword }} (Carte de chaleur et de performances).
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/heatmap/menu-gestion-screeners.png" class="glightbox" data-gallery="galerie" title="Menu Monitoring">
-        <img src="{{ base_url }}/images/heatmap/menu-gestion-screeners.png" />
+    <a href="/images/heatmap/menu-gestion-screeners.png" class="glightbox" data-gallery="galerie" title="Menu Monitoring">
+        <img src="/images/heatmap/menu-gestion-screeners.png" />
     </a>
     <figcaption><em>Menu Monitoring -> Performance heatmap</em></figcaption>
 </figure>
@@ -27,8 +27,8 @@ Une Heatmap ou carte de chaleur représente les performances des actions sous fo
 Créez vos screeners en sélectionnant les actions que vous souhaitez mettre sous surveillance, ouvrez le [Sélecteur de Stocks](screeners.md), choisissez dans la liste des actions de la plateforme celle que vous souhaitez voir dans la Heatmap (Carte de chaleur) :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/heatmap/heatmap.png" class="glightbox" data-gallery="galerie" title="Menu screeners">
-        <img src="{{ base_url }}/images/heatmap/heatmap.png" />
+    <a href="/images/heatmap/heatmap.png" class="glightbox" data-gallery="galerie" title="Menu screeners">
+        <img src="/images/heatmap/heatmap.png" />
     </a>
     <figcaption><em>Carte de chaleur et de performance</em></figcaption>
 </figure>
@@ -46,8 +46,8 @@ Lancez l'exécution des calculs pour les actions sélectionnées.
 Cliquez sur le bouton {{ "Exécuter" | keywordi }} pour afficher la carte de Performance :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/heatmap/heatmap-quantique.png" class="glightbox" data-gallery="galerie" title="Carte de chaleur du marché de l'informatique quantique">
-        <img src="{{ base_url }}/images/heatmap/heatmap-quantique.png"/>
+    <a href="/images/heatmap/heatmap-quantique.png" class="glightbox" data-gallery="galerie" title="Carte de chaleur du marché de l'informatique quantique">
+        <img src="/images/heatmap/heatmap-quantique.png"/>
     </a>
     <figcaption><em>Carte de chaleur du marché de l'informatique quantique</em></figcaption>
 </figure>
@@ -62,8 +62,8 @@ Pour comprendre les couleurs de la carte, ouvrez la fiche technique de l'action.
 Par exemple pour D-Wave Quantum (QBTS), en maintenant la touche {{ "Ctrl+ Clique" | keyword }} sur la Case de couleur de QBTS :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/heatmap/fiche-technique.png" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
-        <img src="{{ base_url }}/images/heatmap/fiche-technique.png"/>
+    <a href="/images/heatmap/fiche-technique.png" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
+        <img src="/images/heatmap/fiche-technique.png"/>
     </a>
     <figcaption><em>Fiche technique de l'action</em></figcaption>
 </figure>
@@ -83,8 +83,8 @@ Ces Screeners alertes vous permettent de mettre des dizaines d'actions sous surv
 Le côté pratique de la {{ "Carte de Performances" | keyword }}, c'est que vous pouvez, en cliquant sur les carrés d'une stock, synchroniser avec l'action à trader pour afficher le graphe d'une analyse technique.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/heatmap/synchro-analyse-technique.gif" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
-        <img src="{{ base_url }}/images/heatmap/synchro-analyse-technique.gif"/>
+    <a href="/images/heatmap/synchro-analyse-technique.gif" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
+        <img src="/images/heatmap/synchro-analyse-technique.gif"/>
     </a>
     <figcaption><em>Fiche technique de l'action</em></figcaption>
 </figure>

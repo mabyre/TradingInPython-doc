@@ -3,8 +3,8 @@ Pour gérer la liste des {{ "actions" | g_tooltip }} vous trouverez le Menu :
 - Menu {{ "Stocks" | keywordi }} -> {{ "Gestion des stocks" | keywordi }}
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/menu-stocks.png" class="glightbox" data-gallery="galerie" title="Menu Stocks -> Gestion des Stocks">
-        <img src="{{ base_url }}/images/menu-stocks.png" alt="" />
+    <a href="/images/menu-stocks.png" class="glightbox" data-gallery="galerie" title="Menu Stocks -> Gestion des Stocks">
+        <img src="/images/menu-stocks.png" alt="" />
     </a>
     <figcaption><em>Menu Stocks -> Gestion des Stocks</em></figcaption>
 </figure>
@@ -12,8 +12,8 @@ Pour gérer la liste des {{ "actions" | g_tooltip }} vous trouverez le Menu :
 Avec la Liste des Actions à trader :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/gestion-stocks.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks">
-        <img src="{{ base_url }}/images/gestion-stocks.png" alt="" width="550"/>
+    <a href="/images/gestion-stocks.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks">
+        <img src="/images/gestion-stocks.png" alt="" width="550"/>
     </a>
     <figcaption><em>Gestion des Stocks - Listes des Actions à analyser</em></figcaption>
 </figure>
@@ -31,8 +31,8 @@ Pour ajouter une action, vous devez vous enquérir du {{ "Nom" | keyword }} et d
 Cliquez sur Ajouter :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/gestion-stocks-add.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Ajouter">
-        <img src="{{ base_url }}/images/gestion-stocks-add.png" alt="" />
+    <a href="/images/gestion-stocks-add.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Ajouter">
+        <img src="/images/gestion-stocks-add.png" alt="" />
     </a>
     <figcaption><em>Gestion des Stocks - Ajouter une Stock</em></figcaption>
 </figure>
@@ -64,8 +64,8 @@ Vous ne savez plus où vous avez rangé l'action, il vous suffit de cliquer sur 
 et de vous servir de la partie {{ "Filter:" | keywordi }} qui filtre aussi bien par {{ "Nom" | keyword }} par {{ "Symbol" | keyword }} ou par {{ "Menu" | keyword }}.
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/gestion-stocks-filter.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Filtrer">
-        <img src="{{ base_url }}/images/gestion-stocks-filter.png" alt="" />
+    <a href="/images/gestion-stocks-filter.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Filtrer">
+        <img src="/images/gestion-stocks-filter.png" alt="" />
     </a>
     <figcaption><em>Gestion des Stocks - Filtrer</em></figcaption>
 </figure>

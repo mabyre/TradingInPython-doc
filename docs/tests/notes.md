@@ -14,11 +14,11 @@ Obsolète !!!
 
 ## Macro
 
-{{ base_url }}
+
 
 ```
 {% raw %}
-{{ base_url }}
+
 {% endraw %}
 ```
 

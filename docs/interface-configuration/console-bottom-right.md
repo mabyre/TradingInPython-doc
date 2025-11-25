@@ -9,7 +9,7 @@ Lorsque vous avez positionné un raccourci sur votre bureau pour accéder à {{ 
 Vous pouvez faire la même chose sur l'icône du programme TradingInPython.
 
 <figure style="text-align: center;" title="Mettre la console en bas à droite">
-  <img src="{{ base_url }}/images/interface-configuration/console-bottom-right.png" class="noborder"/>
+  <img src="/images/interface-configuration/console-bottom-right.png" class="noborder"/>
   <figcaption><em>Mettre la console en bas à droite</em></figcaption>
 </figure>
 

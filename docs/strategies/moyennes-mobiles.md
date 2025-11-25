@@ -36,8 +36,8 @@ Inversement, lorsque  {{ "SMA" | keyword }} courte passe en dessous de {{ "SMA" 
 Une fois implémentée et tracer dans le plateforme nous obtenons le graphique suivant :
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/strategies/moyennes-mobiles/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie automatique de trading des Moyennes Mobiles">
-    <img src="{{ base_url }}/images/strategies/moyennes-mobiles/interface.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/moyennes-mobiles/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie automatique de trading des Moyennes Mobiles">
+    <img src="/images/strategies/moyennes-mobiles/interface.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Stratégie automatique de trading des Moyennes Mobiles</em></figcaption>
 </figure>
@@ -57,8 +57,8 @@ Grâce à l'[algorithme en Python](#algorithme), la détection des croisements e
 Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorithme calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/strategies/moyennes-mobiles/console.png" class="glightbox" data-gallery="galerie" title="Les spread de l'algorithme des moyennes mobiles">
-    <img src="{{ base_url }}/images/strategies/moyennes-mobiles/console.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/moyennes-mobiles/console.png" class="glightbox" data-gallery="galerie" title="Les spread de l'algorithme des moyennes mobiles">
+    <img src="/images/strategies/moyennes-mobiles/console.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Les spread de l'algorithme des moyennes mobiles</em></figcaption>
 </figure>
@@ -78,8 +78,8 @@ Par exemple avec les réglages suivants :
 Vous obtenez un {{ "Spread" | g_tooltip }} de : 9,50
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/strategies/moyennes-mobiles/spread.png" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
-    <img src="{{ base_url }}/images/strategies/moyennes-mobiles/spread.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/moyennes-mobiles/spread.png" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
+    <img src="/images/strategies/moyennes-mobiles/spread.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Optimisation du Spread par les Moyennes Mobiles</em></figcaption>
 </figure>
@@ -91,8 +91,8 @@ Vous avez à votre disposition un outil d'optimisation de votre stratégie autom
 Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
-    <img src="{{ base_url }}/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
+    <img src="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Stratégie automatique des Moyennes Mobiles</em></figcaption>
 </figure>

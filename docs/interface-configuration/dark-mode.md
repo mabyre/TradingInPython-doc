@@ -3,7 +3,7 @@
 Mise en mode sombre de plateforme ou en {{ "dark mode" | keywordi }} pour ceux qui préfèrent les écrans sombres.
 
 <figure style="text-align: center;" title="Ici le tooltip">
-  <img src="{{ base_url }}/images/interface-configuration/configuration-mode-sombre.png" class="noborder"/>
+  <img src="/images/interface-configuration/configuration-mode-sombre.png" class="noborder"/>
   <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
 </figure>
 
@@ -14,7 +14,7 @@ Mise en mode sombre de plateforme ou en {{ "dark mode" | keywordi }} pour ceux q
 Et vous passé votre la graphe du cours de l'action en mode sombre.
 
 <figure style="text-align: center;" title="Ici le tooltip">
-  <img src="{{ base_url }}/images/interface-configuration/mode-sombre.png" class="noborder"/>
+  <img src="/images/interface-configuration/mode-sombre.png" class="noborder"/>
   <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
 </figure>
 

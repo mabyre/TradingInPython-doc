@@ -7,8 +7,8 @@ Utilisation des réseaux de neurones Keras avec Tensorflow pour la prédition de
 Notez l'interface de configuration avec les paramètres évoqués dans la [Formation](#formation)
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/prediction-keras/keras-tensorflow.png" class="glightbox" data-gallery="galerie" title="Prédiction avec Keras et TensorFlow">
-        <img src="{{ base_url }}/images/strategies/prediction-keras/keras-tensorflow.png"/>
+    <a href="/images/strategies/prediction-keras/keras-tensorflow.png" class="glightbox" data-gallery="galerie" title="Prédiction avec Keras et TensorFlow">
+        <img src="/images/strategies/prediction-keras/keras-tensorflow.png"/>
     </a>
     <figcaption><em>Prédiction avec Keras et TensorFlow</em></figcaption>
 </figure>

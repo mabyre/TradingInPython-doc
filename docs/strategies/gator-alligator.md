@@ -20,8 +20,8 @@ Cet indicateur est particulièrement apprécié pour sa {{ "simplicité visuelle
 Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Williams pour une stratégie complète de trading sur les {{ "pullback" | g_link }} et les {{ "breakout" | g_link }}.
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/strategies/gator-alligator/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie du Gator Alligator de Bill Williams">
-    <img src="{{ base_url }}/images/strategies/gator-alligator/interface.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie du Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/interface.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Stratégie du Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -31,8 +31,8 @@ Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Wil
 Vous configurer la {{ "PERIOD" | keywordi }} des fractales, et les trois Moyennes Mobiles de l'Alligator :
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/strategies/gator-alligator/configuration.png" class="glightbox" data-gallery="galerie" title="Configuration du Gator Alligator de Bill Williams">
-    <img src="{{ base_url }}/images/strategies/gator-alligator/configuration.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/configuration.png" class="glightbox" data-gallery="galerie" title="Configuration du Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/configuration.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Configuration du Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -85,8 +85,8 @@ Cela évite les achats quand le prix est dans un range ou sous l’Alligator.
 Voici un magnifique breakout suivi d'un pullback haussier sur Air Liquide le 07/01/2025 :
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/strategies/gator-alligator/signal-achat.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
-    <img src="{{ base_url }}/images/strategies/gator-alligator/signal-achat.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/signal-achat.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/signal-achat.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Signal d'achat selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -94,8 +94,8 @@ Voici un magnifique breakout suivi d'un pullback haussier sur Air Liquide le 07/
 La Fractale Up est au dessus de la machoire.
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/strategies/gator-alligator/signal-achat2.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
-    <img src="{{ base_url }}/images/strategies/gator-alligator/signal-achat2.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/signal-achat2.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/signal-achat2.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Signal d'achat confirmation selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -122,8 +122,8 @@ L’ordre n'est exécuté que si la tendance se prolonge vraiment.
 Voici un magnifique breakdown suivi d'un pullback baissier sur Air Liquide :
 
 <figure style="text-align: center;">
-  <a href="{{ base_url }}/images/strategies/gator-alligator/signal-vente.png" class="glightbox" data-gallery="galerie" title="Signal de vente selon le Gator Alligator de Bill Williams">
-    <img src="{{ base_url }}/images/strategies/gator-alligator/signal-vente.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/signal-vente.png" class="glightbox" data-gallery="galerie" title="Signal de vente selon le Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/signal-vente.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Signal de vente confirmation selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>

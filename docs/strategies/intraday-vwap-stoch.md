@@ -5,8 +5,8 @@ Maintenant, passons à l'Intraday, le trading au sein de la journée.
 Vous souhaitez suivre le cours de votre action durant la journée pour savoir quels sont les meilleurs moments d'entrée et de sortie, la stratégie {{ "VWAP" | i_link }} + {{ "STOCH" | i_link }} Intraday, est adaptée à cette analyse du cours dans la journée :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/strategies/intraday-vwap-stoch/interface.png" class="glightbox" data-gallery="galerie" title="Intraday VWAP + STOCH">
-        <img src="{{ base_url }}/images/strategies/intraday-vwap-stoch/interface.png"/>
+    <a href="/images/strategies/intraday-vwap-stoch/interface.png" class="glightbox" data-gallery="galerie" title="Intraday VWAP + STOCH">
+        <img src="/images/strategies/intraday-vwap-stoch/interface.png"/>
     </a>
     <figcaption><em>Intraday VWAP + STOCH</em></figcaption>
 </figure>

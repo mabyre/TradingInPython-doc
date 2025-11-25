@@ -3,8 +3,8 @@
 Vous avez deux types d'annotations dynamiques qui suivent la souris :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/draw-on-charts/annote-graph.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE">
-        <img src="{{ base_url }}/images/draw-on-charts/annote-graph.png"/>
+    <a href="/images/draw-on-charts/annote-graph.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE">
+        <img src="/images/draw-on-charts/annote-graph.png"/>
     </a>
     <figcaption><em>AIR LIQUIDE</em></figcaption>
 </figure>
@@ -14,8 +14,8 @@ La première en cliquant la case à cocher **"ANNOTE"** une annotation suit votr
 La deuxième en cliquant sur **"CROSS"** annotation en croix, projette le cours et la date sur les bords du graphe à l'endroit de votre souris :
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/draw-on-charts/annote-graph-2.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE">
-        <img src="{{ base_url }}/images/draw-on-charts/annote-graph-2.png"/>
+    <a href="/images/draw-on-charts/annote-graph-2.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE">
+        <img src="/images/draw-on-charts/annote-graph-2.png"/>
     </a>
     <figcaption><em>AIR LIQUIDE</em></figcaption>
 </figure>
@@ -33,8 +33,8 @@ Pour stopper les annotations, **décochez** simplement les cases à cocher.
 Cochez les deux case pour avoir à la fois le prix qui suit la souris et la date
 
 <figure style="text-align: center;">
-    <a href="{{ base_url }}/images/draw-on-charts/annote-cross.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE - ANNOTE & CROSS">
-        <img src="{{ base_url }}/images/draw-on-charts/annote-cross.png"/>
+    <a href="/images/draw-on-charts/annote-cross.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE - ANNOTE & CROSS">
+        <img src="/images/draw-on-charts/annote-cross.png"/>
     </a>
     <figcaption><em>AIR LIQUIDE</em></figcaption>
 </figure>
