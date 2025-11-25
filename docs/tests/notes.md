@@ -1,5 +1,7 @@
 # Notes
 
+## CNAME
+
 A propos du CNAME écrasé à chaque publication :
 
 - avec fork postionnement dans gh-pages
@@ -14,6 +16,12 @@ A propos du CNAME écrasé à chaque publication :
 </figure>
 
 Le CNAME de Site est écrasé car il n'y a pas de CNAME dans /docks
+
+Ce que publie la commande mkdocs gh-deploy --remote-branch=gh-pages --remote-name=origine c'est de /docs dans /site
+
+Donc si le CNAME est mal placé et ne se trouve pas dans /docs alors il est effacé de /site avant la plublication
+
+Si 
 
 ## Localize MkDocs
 
