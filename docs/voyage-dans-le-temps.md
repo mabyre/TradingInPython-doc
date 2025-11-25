@@ -2,7 +2,7 @@ Le voyage dans le temps est d'une importance cruciale pour le trader. Il faut ma
 
 Vous vous rendez bien compte qu'observer le cours d'une action {{ "à la milliseconde dans la journée" | keyword }} ou à l'échelle {{ "1 mois sur dix ans" | keyword }} vous n'aurez pas le même ressenti du cours de l'action.
 
-Sur la plateforme <a href="/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>, le voyage dans le temps s'effectue à l'aide de boite de dialogue {{ "Strategy Automation" |keywordi }}.
+Sur la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>, le voyage dans le temps s'effectue à l'aide de boite de dialogue {{ "Strategy Automation" |keywordi }}.
 
 Cette boite de dialogue permet de configurer toutes les possibilités de récupération des données de bourse dans le temps par périodes ou nombre de jours ou entre deux dates.
 
