@@ -1,8 +1,10 @@
 # Bandes de Bollinger
 
-Sur le Net, la documentation sur les {{ "Bandes de Bollinger" | keyword }} est plétorique, voici la mise en oeuvre des {{ "Bolls" | g_link }} dans la plateforme.
+Sur le Net, la documentation sur les {{ "Bandes de Bollinger" | keyword }} est plétorique, voici la mise en oeuvre des {{ "Bolls" | i_link }} dans la plateforme.
 
-Voici la stratégie des {{ "Bandes de Bollinger" | keyword }} sur quatre horizons de temps différents :
+## Interface FTMA Bollinger Bands
+
+Voici la stratégie des {{ "Bandes de Bollinger" | keyword }} sur quatre horizons de temps différents : Four Times frame Mobile Average Bollinger Bandes :
 
 <figure style="text-align: center;">
     <a href="/images/strategies/bollinger-bands/interface.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger">
@@ -11,7 +13,13 @@ Voici la stratégie des {{ "Bandes de Bollinger" | keyword }} sur quatre horizon
     <figcaption><em>Bandes de Bollinger</em></figcaption>
 </figure>
 
-L'interface de Configuration vous permet de modifier les horizons des Four Times Mobile Average (FTA) les moyennes mobiles des Bandes de Bollinger.
+Quand elles s'alignent, cela indique généralement une tendance claire. Quand elles se contractent c'est souvent avant un mouvement fort.
+
+## Configuration
+
+L'interface de Configuration vous permet de modifier les horizons des Four Times Mobile Average (FTMA), les moyennes mobiles des Bandes de Bollinger.
+
+Le Slider vous permet de les déplacer toutes les quatre.
 
 <figure style="text-align: center;">
     <a href="/images/strategies/bollinger-bands/config.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger - Configuration">
@@ -20,9 +28,14 @@ L'interface de Configuration vous permet de modifier les horizons des Four Times
     <figcaption><em>Bandes de Bollinger - Configuration</em></figcaption>
 </figure>
 
+Vous choisissez les valeurs des FTA 1, 2, 3, 4 et le bouton {{ "Save" | keywordi }} vous permet de sauver ces valeurs pour l'action en cours.
+
+- {{ "Read" | keywordi }} pour relire les valeurs sauvegardées.
+- {{ "Default" | keywordi }} pour remettre les valeurs par défaut.
+
 ## Double Bandes de Bollinger
 
-Le bouton {{ "Double Bandes de Bollinger" | keyword }} permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :
+Le bouton {{ "Double Bandes de Bollinger" | keywordi }} permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :
 
 <figure style="text-align: center;">
     <a href="/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
@@ -41,7 +54,7 @@ Exemple : Vous pouvez entrer lors que le cours sort de la bande 1 sigma (flêche
 
 Vous pouvez également ajuster votre {{ "StopLoss" | g_tooltip }} sur la moyenne mobile.
 
-ATTENTION : Uniquement en tendance haussière
+ATTENTION : A utiliser uniquement en tendance haussière.
 
 ## Bollinger Bandes Multiframes + histogramme
 

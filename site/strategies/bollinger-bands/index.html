@@ -533,6 +533,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#interface-ftma-bollinger-bands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interface FTMA Bollinger Bands
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#double-bandes-de-bollinger" class="md-nav__link">
     <span class="md-ellipsis">
       Double Bandes de Bollinger
@@ -1521,6 +1539,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#interface-ftma-bollinger-bands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interface FTMA Bollinger Bands
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#double-bandes-de-bollinger" class="md-nav__link">
     <span class="md-ellipsis">
       Double Bandes de Bollinger
@@ -1576,8 +1612,9 @@
 
 
 <h1 id="bandes-de-bollinger">Bandes de Bollinger<a class="headerlink" href="#bandes-de-bollinger" title="Permanent link">&para;</a></h1>
-<p>Sur le Net, la documentation sur les <span class="text-keyword">Bandes de Bollinger</span> est plétorique, voici la mise en oeuvre des Bolls not in glossary! dans la plateforme.</p>
-<p>Voici la stratégie des <span class="text-keyword">Bandes de Bollinger</span> sur quatre horizons de temps différents :</p>
+<p>Sur le Net, la documentation sur les <span class="text-keyword">Bandes de Bollinger</span> est plétorique, voici la mise en oeuvre des <a href="/indicators/#bolls">Bolls</a> dans la plateforme.</p>
+<h2 id="interface-ftma-bollinger-bands">Interface FTMA Bollinger Bands<a class="headerlink" href="#interface-ftma-bollinger-bands" title="Permanent link">&para;</a></h2>
+<p>Voici la stratégie des <span class="text-keyword">Bandes de Bollinger</span> sur quatre horizons de temps différents : Four Times frame Mobile Average Bollinger Bandes :</p>
 <figure style="text-align: center;">
     <a href="/images/strategies/bollinger-bands/interface.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger">
         <img src="/images/strategies/bollinger-bands/interface.png"/>
@@ -1585,7 +1622,10 @@
     <figcaption><em>Bandes de Bollinger</em></figcaption>
 </figure>
 
-<p>L'interface de Configuration vous permet de modifier les horizons des Four Times Mobile Average (FTA) les moyennes mobiles des Bandes de Bollinger.</p>
+<p>Quand elles s'alignent, cela indique généralement une tendance claire. Quand elles se contractent c'est souvent avant un mouvement fort.</p>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
+<p>L'interface de Configuration vous permet de modifier les horizons des Four Times Mobile Average (FTMA), les moyennes mobiles des Bandes de Bollinger.</p>
+<p>Le Slider vous permet de les déplacer toutes les quatre.</p>
 <figure style="text-align: center;">
     <a href="/images/strategies/bollinger-bands/config.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger - Configuration">
         <img src="/images/strategies/bollinger-bands/config.png"/>
@@ -1593,8 +1633,13 @@
     <figcaption><em>Bandes de Bollinger - Configuration</em></figcaption>
 </figure>
 
+<p>Vous choisissez les valeurs des FTA 1, 2, 3, 4 et le bouton <span class="text-keyword">"Save"</span> vous permet de sauver ces valeurs pour l'action en cours.</p>
+<ul>
+<li><span class="text-keyword">"Read"</span> pour relire les valeurs sauvegardées.</li>
+<li><span class="text-keyword">"Default"</span> pour remettre les valeurs par défaut.</li>
+</ul>
 <h2 id="double-bandes-de-bollinger">Double Bandes de Bollinger<a class="headerlink" href="#double-bandes-de-bollinger" title="Permanent link">&para;</a></h2>
-<p>Le bouton <span class="text-keyword">Double Bandes de Bollinger</span> permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :</p>
+<p>Le bouton <span class="text-keyword">"Double Bandes de Bollinger"</span> permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :</p>
 <figure style="text-align: center;">
     <a href="/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
         <img src="/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
@@ -1609,7 +1654,7 @@
 <p>L'avantage de cette stratégie c'est qu'elle donne des entrées et des sorties claires.</p>
 <p>Exemple : Vous pouvez entrer lors que le cours sort de la bande 1 sigma (flêches vertes) et sortir (flêche rouges) lorsque le cours passe la Moyenne Mobile par le haut.</p>
 <p>Vous pouvez également ajuster votre <span title="Ordre de vente automatique placé pour limiter les pertes sur une position ouverte." style="border-bottom:1px dotted;cursor:help"><b>StopLoss</b></span> sur la moyenne mobile.</p>
-<p>ATTENTION : Uniquement en tendance haussière</p>
+<p>ATTENTION : A utiliser uniquement en tendance haussière.</p>
 <h2 id="bollinger-bandes-multiframes-histogramme">Bollinger Bandes Multiframes + histogramme<a class="headerlink" href="#bollinger-bandes-multiframes-histogramme" title="Permanent link">&para;</a></h2>
 <p>Stratégie FTMA Bolls Multiframes (For Timeframes Mobile Average), les FTMA Bolls sont un puissant moyen d'analyse mais des plus complexe à manœuvrer, cette stratégie permet de dégager les grandes tendances mais également d'affiner pour des entrées et des sorties propres.</p>
 <figure style="text-align: center;">
