@@ -1,8 +1,8 @@
 # Bandes de Bollinger
 
-Sur le Net, la documentation sur les **Bandes de Bollinger** est plétorique, voici la mise en oeuvre des {{ "Bolls" | g_link }} dans la plateforme.
+Sur le Net, la documentation sur les {{ "Bandes de Bollinger" | keyword }} est plétorique, voici la mise en oeuvre des {{ "Bolls" | g_link }} dans la plateforme.
 
-Voici la stratégie des **Bandes de Bollinger** sur quatre horizons de temps différents :
+Voici la stratégie des {{ "Bandes de Bollinger" | keyword }} sur quatre horizons de temps différents :
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/strategies/bollinger-bands/interface.png" class="glightbox" data-gallery="galerie"  title="Bandes de Bollinger">
@@ -22,7 +22,7 @@ L'interface de Configuration vous permet de modifier les horizons des Four Times
 
 ## Double Bandes de Bollinger
 
-Le bouton **Double Bandes de Bollinger** permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :
+Le bouton {{ "Double Bandes de Bollinger" | keyword }} permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger, cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :
 
 <figure style="text-align: center;">
     <a href="{{ base_url }}/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
@@ -32,8 +32,8 @@ Le bouton **Double Bandes de Bollinger** permet de changer de stratégie et de p
 </figure>
 
 
-- **1 σ** pour la première bande **StdDev DBB1**
-- **2 σ** pour la deuxièmes bande **StdDev DBB2**
+- **1 σ** pour la première bande {{ "StdDev DBB1" | keyword }}
+- **2 σ** pour la deuxièmes bande {{ "StdDev DBB2" | keyword }}
 
 L'avantage de cette stratégie c'est qu'elle donne des entrées et des sorties claires.
 

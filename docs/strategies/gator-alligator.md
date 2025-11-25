@@ -49,6 +49,8 @@ La mâchoire (Jaw) est la plus lente, elle représente la tendance principale.
 
 ## Principe fondamental
 
+Voici le principe foncdamentale de la stratégie de trading sur Breakout + Pullback :
+
 Bill Williams dit :
 
 - On ne doit acheter que si la fractale haussière est au-dessus de la Jaw.
@@ -131,7 +133,7 @@ Voici un magnifique breakdown suivi d'un pullback baissier sur Air Liquide :
 
 L'ordre de Sell Stop placé en dessous de la valeur la plus basse de la fractale.
 
-## Résumé
+## Résumé de la stratégie
 
 | Situation                                   | Autoriser un trade ? |
 | ------------------------------------------- | -------------------- |
@@ -139,6 +141,21 @@ L'ordre de Sell Stop placé en dessous de la valeur la plus basse de la fractale
 | Fractale haussière **en dessous** de la Jaw | Non                  |
 | Fractale baissière **sous** la Jaw          | Oui (trade baissier) |
 | Fractale baissière **au-dessus** de la Jaw  | Non                  |
+
+## Autres stratégie de trading
+
+Il existe un dizaines de stratégie de trading que l'on peut expérimenter frâce aux fractales + l'alligator de Bill Williams.
+
+| Stratégie           | Type                   | Description                       |
+| ------------------- | ---------------------- | --------------------------------- |
+| Breakout + Pullback | Entrée                 | Cassure d’une fractale + retour   |
+| First Wise Man      | Pré-entrée             | Barre divergente                  |
+| Second Wise Man     | Renfort                | AO Saucer                         |
+| Third Wise Man      | Renfort                | Fractales successives             |
+| Gator + fractales   | Filtre                 | Confirme qualité de la tendance   |
+| Range + fractale    | Entrée contre-tendance | Alligator endormi                 |
+| Trend riding        | Sortie                 | Sortie quand Alligator se ferme   |
+| Trailing fractal    | Gestion                | Stop dynamique basé sur fractales |
 
 ## Vidéo YouTube
 

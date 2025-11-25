@@ -1,6 +1,6 @@
 # Mode sombre (dark mode)
 
-Mise en mode sombre de plateforme ou en mode dark pour ceux qui préfèrent les écrans sombres.
+Mise en mode sombre de plateforme ou en {{ "dark mode" | keywordi }} pour ceux qui préfèrent les écrans sombres.
 
 <figure style="text-align: center;" title="Ici le tooltip">
   <img src="{{ base_url }}/images/interface-configuration/configuration-mode-sombre.png" class="noborder"/>
@@ -9,7 +9,7 @@ Mise en mode sombre de plateforme ou en mode dark pour ceux qui préfèrent les 
 
 - **(1)** Menu Aide -> Paramètres
 - **(2)** Dans MODE cocher dark
-- **(3)** Sauver
+- **(3)** Cliquer sur Sauver
 
 Et vous passé votre la graphe du cours de l'action en mode sombre.
 
@@ -17,6 +17,8 @@ Et vous passé votre la graphe du cours de l'action en mode sombre.
   <img src="{{ base_url }}/images/interface-configuration/mode-sombre.png" class="noborder"/>
   <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
 </figure>
+
+## Vidéo YouTube
 
 Si vous avez raté quelque chose, vous pouvez visionner la vidéo de la chaîne <a href="https://www.youtube.com/@sodevlog" target="_blank">YouTube</a> :</p>
 <p style="text-align: center;">
