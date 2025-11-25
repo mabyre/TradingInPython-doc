@@ -12,7 +12,7 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/strategies/moyennes-mobiles/">
+        <link rel="canonical" href="https://trading-in-python.sodevlog.com/strategies/moyennes-mobiles/">
       
       
         <link rel="prev" href="../ichimoku_kinko_hyo/">
@@ -1726,8 +1726,8 @@
 
 
 <h1 id="moyennes-mobiles">Moyennes Mobiles<a class="headerlink" href="#moyennes-mobiles" title="Permanent link">&para;</a></h1>
-<p>C'est une stratégie des plus <span class="text-keyword">simples mais pas simpliste</span> car elle permet d'appréhender ce que sont les stratégies automatiques de trading, des algorithmes qui délivrent des signaux d'achats et de ventes sur les cours de bourse. La stratégie des moyennes mobiles calcule le <a href="/TradingInPython-doc/glossaire/#spread">Spread</a></p>
-<p>Nous allons détailler la stratégie des moyennes mobiles à l'aide de deux <a href="/TradingInPython-doc/indicators/#sma">SMA</a> (Simple Mobile Average) et d'une EMA (Esponential Moving Average).</p>
+<p>C'est une stratégie des plus <span class="text-keyword">simples mais pas simpliste</span> car elle permet d'appréhender ce que sont les stratégies automatiques de trading, des algorithmes qui délivrent des signaux d'achats et de ventes sur les cours de bourse. La stratégie des moyennes mobiles calcule le <a href="/glossaire/#spread">Spread</a></p>
+<p>Nous allons détailler la stratégie des moyennes mobiles à l'aide de deux <a href="/indicators/#sma">SMA</a> (Simple Mobile Average) et d'une EMA (Esponential Moving Average).</p>
 <p>La stratégie automatique de trading avec 2 SMA et 1 EMA repose sur la <span class="text-keyword">détection des croisements des moyennes</span> pour générer des signaux d’achat ou de vente. Elle est simple à implémenter et efficace pour capter les tendances.</p>
 <h2 id="principes">Principes<a class="headerlink" href="#principes" title="Permanent link">&para;</a></h2>
 <p>Deux SMA de longueur différentes vont se croiser et sont lentes à réagir aux changements rapides.</p>
@@ -1750,8 +1750,8 @@
 <h2 id="interface">Interface<a class="headerlink" href="#interface" title="Permanent link">&para;</a></h2>
 <p>Une fois implémentée et tracer dans le plateforme nous obtenons le graphique suivant :</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie automatique de trading des Moyennes Mobiles">
-    <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/interface.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/moyennes-mobiles/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie automatique de trading des Moyennes Mobiles">
+    <img src="/images/strategies/moyennes-mobiles/interface.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Stratégie automatique de trading des Moyennes Mobiles</em></figcaption>
 </figure>
@@ -1767,13 +1767,13 @@
 <p>Grâce à l'<a href="#algorithme">algorithme en Python</a>, la détection des croisements est marquée par les signaux d'achat <span class="text-green">triangles verts</span> et les signaux de ventes <span class="text-red">triangles rouges</span>.</p>
 <p>Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorithme calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/console.png" class="glightbox" data-gallery="galerie" title="Les spread de l'algorithme des moyennes mobiles">
-    <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/console.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/moyennes-mobiles/console.png" class="glightbox" data-gallery="galerie" title="Les spread de l'algorithme des moyennes mobiles">
+    <img src="/images/strategies/moyennes-mobiles/console.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Les spread de l'algorithme des moyennes mobiles</em></figcaption>
 </figure>
 
-<p>On obtient ainsi pour l'action Air Liquide un <a href="/TradingInPython-doc/glossaire/#spread">Spread</a> affiché dans le Titre de : <strong>5,180</strong>.</p>
+<p>On obtient ainsi pour l'action Air Liquide un <a href="/glossaire/#spread">Spread</a> affiché dans le Titre de : <strong>5,180</strong>.</p>
 <p>Cela signifie que si vous aviez suivi tous ces signaux d'achat et de ventre vous auriez gagné : 5,18.</p>
 <p>Dans le Graph de la stratégie des moyennes mobiles, vous allez pouvoir ajuster SMA 1, SMA 2, et EMA pour optimiser ce spread.</p>
 <p>Par exemple avec les réglages suivants :</p>
@@ -1784,8 +1784,8 @@
 </ul>
 <p>Vous obtenez un <span title="Désigne la fourchette entre le prix d'achat (offre/bid) pour entrer sur le marché et le prix de vente (demande/ask) pour sortir de position sur le marché d'une action." style="border-bottom:1px dotted;cursor:help"><b>Spread</b></span> de : 9,50</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/spread.png" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
-    <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/spread.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/moyennes-mobiles/spread.png" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
+    <img src="/images/strategies/moyennes-mobiles/spread.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Optimisation du Spread par les Moyennes Mobiles</em></figcaption>
 </figure>
@@ -1794,8 +1794,8 @@
 <h2 id="strategie-en-action">Stratégie en action<a class="headerlink" href="#strategie-en-action" title="Permanent link">&para;</a></h2>
 <p>Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
-    <img src="/TradingInPython-doc/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
+    <img src="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Stratégie automatique des Moyennes Mobiles</em></figcaption>
 </figure>

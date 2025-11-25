@@ -12,7 +12,7 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://mabyre.github.io/TradingInPython-doc/strategies/gator-alligator/">
+        <link rel="canonical" href="https://trading-in-python.sodevlog.com/strategies/gator-alligator/">
       
       
         <link rel="prev" href="../fractales-bill-williams/">
@@ -1720,10 +1720,10 @@
 <p>Il permettet de visualiser rapidement les phases d'expansion et de contraction de la tendance.</p>
 <p>Cet indicateur est particulièrement apprécié pour sa <span class="text-keyword">simplicité visuelle</span> et son efficacité à identifier les périodes de trading favorables.</p>
 <h2 id="interface">Interface<a class="headerlink" href="#interface" title="Permanent link">&para;</a></h2>
-<p>Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Williams pour une stratégie complète de trading sur les <a href="/TradingInPython-doc/glossaire/#pullback">pullback</a> et les <a href="/TradingInPython-doc/glossaire/#breakout">breakout</a>.</p>
+<p>Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Williams pour une stratégie complète de trading sur les <a href="/glossaire/#pullback">pullback</a> et les <a href="/glossaire/#breakout">breakout</a>.</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/gator-alligator/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie du Gator Alligator de Bill Williams">
-    <img src="/TradingInPython-doc/images/strategies/gator-alligator/interface.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie du Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/interface.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Stratégie du Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -1731,8 +1731,8 @@
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
 <p>Vous configurer la <span class="text-keyword">"PERIOD"</span> des fractales, et les trois Moyennes Mobiles de l'Alligator :</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/gator-alligator/configuration.png" class="glightbox" data-gallery="galerie" title="Configuration du Gator Alligator de Bill Williams">
-    <img src="/TradingInPython-doc/images/strategies/gator-alligator/configuration.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/configuration.png" class="glightbox" data-gallery="galerie" title="Configuration du Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/configuration.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Configuration du Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -1769,22 +1769,22 @@ Si un breakout se produit du bon côté de cette ligne, il est dans le sens de l
 <li>La fractale identifie une résistance en zone de tendance.</li>
 </ul>
 <p>Si un breakout casse cette fractale, le marché accélère dans le sens du mouvement dominant.</p>
-<p>On place un ordre <a href="/TradingInPython-doc/glossaire/#buy-stop">Buy Stop</a> juste au-dessus du plus haut de la fractale.</p>
+<p>On place un ordre <a href="/glossaire/#buy-stop">Buy Stop</a> juste au-dessus du plus haut de la fractale.</p>
 <p>L’entrée n’est déclenchée que si la tendance continue réellement.</p>
 <p>Cela évite les achats quand le prix est dans un range ou sous l’Alligator.</p>
 <h3 id="exemple-graphique">Exemple graphique<a class="headerlink" href="#exemple-graphique" title="Permanent link">&para;</a></h3>
 <p>Voici un magnifique breakout suivi d'un pullback haussier sur Air Liquide le 07/01/2025 :</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/gator-alligator/signal-achat.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
-    <img src="/TradingInPython-doc/images/strategies/gator-alligator/signal-achat.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/signal-achat.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/signal-achat.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Signal d'achat selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>
 
 <p>La Fractale Up est au dessus de la machoire.</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/gator-alligator/signal-achat2.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
-    <img src="/TradingInPython-doc/images/strategies/gator-alligator/signal-achat2.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/signal-achat2.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/signal-achat2.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Signal d'achat confirmation selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -1803,8 +1803,8 @@ Si un breakout se produit du bon côté de cette ligne, il est dans le sens de l
 <h3 id="exemple-graphique-vente">Exemple graphique vente<a class="headerlink" href="#exemple-graphique-vente" title="Permanent link">&para;</a></h3>
 <p>Voici un magnifique breakdown suivi d'un pullback baissier sur Air Liquide :</p>
 <figure style="text-align: center;">
-  <a href="/TradingInPython-doc/images/strategies/gator-alligator/signal-vente.png" class="glightbox" data-gallery="galerie" title="Signal de vente selon le Gator Alligator de Bill Williams">
-    <img src="/TradingInPython-doc/images/strategies/gator-alligator/signal-vente.png" alt="Capture d'écran" class="centered"/>
+  <a href="/images/strategies/gator-alligator/signal-vente.png" class="glightbox" data-gallery="galerie" title="Signal de vente selon le Gator Alligator de Bill Williams">
+    <img src="/images/strategies/gator-alligator/signal-vente.png" alt="Capture d'écran" class="centered"/>
   </a>
   <figcaption><em>Signal de vente confirmation selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>

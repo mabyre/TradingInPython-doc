@@ -1,7 +1,7 @@
 site_name: TradingInPython
 site_description: Documentation officielle de la plateforme TradingInPython
 site_author: Bruno Raby
-site_url: https://mabyre.github.io/TradingInPython-doc/
+site_url: https://trading-in-python.sodevlog.com # site_url: https://mabyre.github.io/TradingInPython-doc/
 use_directory_urls: true
 
 repo_name: TradingInPython
@@ -114,7 +114,7 @@ plugins:
       type: timeago
 
 extra:
-  base_url: /TradingInPython-doc   # utiliser {{ base_url }} dans <img src="{{ base_url }}/images/..." 
+  base_url: "" # /TradingInPython-doc # utiliser {{ base_url }} dans <img src="{{ base_url }}/images/..."
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/sodevlog
