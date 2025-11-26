@@ -366,7 +366,7 @@ Ce graphe est essentiellement un indicateur de qualité qui vous aide à disting
 
 Retrouvez les codes source de ces travaux sur le Filtre de Kalman comme indicateur technique boursier pour la stratégie automatique trading Kalman sur le GitHub de la plateforme TradingInPython :
 
-- [SoDevLog PyTrading TradingInPython - kalman_filter_forcast.py](https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategies/kalman_filter_forcast.py)
+- <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategies/kalman_filter_forcast.py" target="_blank">SoDevLog PyTrading TradingInPython - kalman_filter_forcast.py</a>
 
 Retrouvez les algorithmes en python de la plateforme téléchargez et installez le logiciel.
 
