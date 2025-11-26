@@ -21,7 +21,7 @@ Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Wil
 
 <figure style="text-align: center;">
   <a href="/images/strategies/gator-alligator/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie du Gator Alligator de Bill Williams">
-    <img src="/images/strategies/gator-alligator/interface.png" alt="Capture d'écran" class="centered"/>
+    <img src="/images/strategies/gator-alligator/interface.png" alt="Capture d'écran"/>
   </a>
   <figcaption><em>Stratégie du Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -32,7 +32,7 @@ Vous configurer la {{ "PERIOD" | keywordi }} des fractales, et les trois Moyenne
 
 <figure style="text-align: center;">
   <a href="/images/strategies/gator-alligator/configuration.png" class="glightbox" data-gallery="galerie" title="Configuration du Gator Alligator de Bill Williams">
-    <img src="/images/strategies/gator-alligator/configuration.png" alt="Capture d'écran" class="centered"/>
+    <img src="/images/strategies/gator-alligator/configuration.png" alt="Capture d'écran"/>
   </a>
   <figcaption><em>Configuration du Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -86,7 +86,7 @@ Voici un magnifique breakout suivi d'un pullback haussier sur Air Liquide le 07/
 
 <figure style="text-align: center;">
   <a href="/images/strategies/gator-alligator/signal-achat.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
-    <img src="/images/strategies/gator-alligator/signal-achat.png" alt="Capture d'écran" class="centered"/>
+    <img src="/images/strategies/gator-alligator/signal-achat.png" alt="Capture d'écran"/>
   </a>
   <figcaption><em>Signal d'achat selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -95,7 +95,7 @@ La Fractale Up est au dessus de la machoire.
 
 <figure style="text-align: center;">
   <a href="/images/strategies/gator-alligator/signal-achat2.png" class="glightbox" data-gallery="galerie" title="Signal d'achat selon le Gator Alligator de Bill Williams">
-    <img src="/images/strategies/gator-alligator/signal-achat2.png" alt="Capture d'écran" class="centered"/>
+    <img src="/images/strategies/gator-alligator/signal-achat2.png" alt="Capture d'écran"/>
   </a>
   <figcaption><em>Signal d'achat confirmation selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>
@@ -123,7 +123,7 @@ Voici un magnifique breakdown suivi d'un pullback baissier sur Air Liquide :
 
 <figure style="text-align: center;">
   <a href="/images/strategies/gator-alligator/signal-vente.png" class="glightbox" data-gallery="galerie" title="Signal de vente selon le Gator Alligator de Bill Williams">
-    <img src="/images/strategies/gator-alligator/signal-vente.png" alt="Capture d'écran" class="centered"/>
+    <img src="/images/strategies/gator-alligator/signal-vente.png" alt="Capture d'écran"/>
   </a>
   <figcaption><em>Signal de vente confirmation selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>
