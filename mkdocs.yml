@@ -15,6 +15,8 @@ theme:
     primary: blue grey
     accent: indigo
   features:
+    - content.icon
+    #- navigation.tabs # onglets de navigation en haut
     #- navigation.expand # tout déplié au départ
     - navigation.instant
     #- navigation.sections
@@ -28,17 +30,6 @@ theme:
   icon:
     logo: material/chart-line
     repo: fontawesome/brands/github
-
-extra_javascript:
-  #- https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js
-  - js/glightbox.min.js
-  - js/glightbox-init.js  # init GLightbox
-
-extra_css:
-  #- https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css
-  - css/glightbox.min.css
-  - css/extra.css
-  - css/summary.css
 
 nav:
   - Accueil: index.md
@@ -58,19 +49,19 @@ nav:
       - Gator Alligator: strategies/gator-alligator.md
       - Filtre de Kalman: strategies/kalman-filter.md
       - Prédiction IA (Keras/Tensorflow/JAX): strategies/prediction_ai.md
-  - Heatmap & Screeners: 
+  - Heatmap & Screeners:
       - Création des Screeners: heatmap-screener/screeners.md
       - Cartes de Chaleurs & Performances: heatmap-screener/heatmaps.md
-  - Monitor & Alertes: 
+  - Monitor & Alertes:
       - Monitorer le marché: monitor-alerts/monitor-stock-market.md
       - Alertes techniques: monitor-alerts/alertes-techniques.md
   - Gestionnaire de Portefeuilles: portfolio-manager.md
-  - Dessiner sur les Graphes: 
+  - Dessiner sur les Graphes:
       - Naviguer dans le graphique: draw-on-charts/navigate-on-charts.md
       - Tracer des tendances: draw-on-charts/draw-trend-lines.md
       - Annoter des prix/dates: draw-on-charts/annote-price-date.md
       - Annoter les graphes: draw-on-charts/annotate-charts.md
-  - Interface & Configuration: 
+  - Interface & Configuration:
       - Configuration: interface-configuration/ui-configuration.md
       - Gestion automatisée des fenêtres: interface-configuration/windows-management.md
       - Mode sombre (dark mode): interface-configuration/dark-mode.md
@@ -78,15 +69,28 @@ nav:
   - Open Software & Logiciel: open-software.md
   - Notes:
       - Images: tests/images.md
-      - Titres: tests/titres.md 
+      - Titres: tests/titres.md
       - Notes: tests/notes.md
       - Colors: tests/colors.md
       - Syntaxe: tests/syntaxe.md
       - Glossaire: tests/glossaire.md
       - Tooltips: tests/tooltips.md
+      - Material: tests/material.md
   - Indicateurs Techniques: indicators.md
   - Glossaire: glossaire.md
   - Support & FAQ: support-faq.md
+
+extra_javascript:
+  #- https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js
+  - js/glightbox.min.js
+  - js/glightbox-init.js # init GLightbox
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+  #- https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css
+  - css/glightbox.min.css
+  - css/extra.css
+  - css/summary.css
 
 markdown_extensions:
   - toc:

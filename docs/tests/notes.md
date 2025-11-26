@@ -1,5 +1,7 @@
 # Notes
 
+- [mkdocs-material/reference/admonitions/](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types)
+
 ## CNAME
 
 A propos du CNAME écrasé à chaque publication :
@@ -46,4 +48,13 @@ Obsolète !!!
 
 {% endraw %}
 ```
+
+## Carrousel d'images
+
+- [GLightBox](https://biati-digital.github.io/glightbox/)
+
+- [PhotosWipe](<https://photoswipe.com/getting-started/> "PhotosWipe show room" )
+
+
+## Note
 

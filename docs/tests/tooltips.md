@@ -1,6 +1,6 @@
 # Essai avec le thème Material
 
-[MkDocs - Material - Tooltips](https://squidfunk.github.io/mkdocs-material/reference/tooltips/)
+- [MkDocs - Material - Tooltips](https://squidfunk.github.io/mkdocs-material/reference/tooltips/)
 
 [Hover me](https://example.com "I'm a tooltip!")
 
@@ -17,6 +17,17 @@
 [Tooltip en html](#html "I'm a tooltip to go to html!")
 {% endraw %}
 ```
+
+## Lien avec Tootip
+
+- [PhotosWipe](https://photoswipe.com/getting-started/ "PhotosWipe show room" )
+
+```
+{% raw %}
+- [PhotosWipe](https://photoswipe.com/getting-started/ "PhotosWipe show room" )
+{% endraw %}
+```
+
 
 ## Html
 

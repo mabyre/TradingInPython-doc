@@ -8,8 +8,8 @@ Voici le graphe de l'indicateur technique {{ "Ichimoku-Kinko-Hyo" | keyword }} e
 
 Dans le Menu {{ "Stratégie" | keyword }} choisissez {{ "Ichimoku-Kinko-Hyo" | keyword }} :
 
-<figure style="text-align: center;" title="Interface de l'Ichimoku-Kinko-Hyo">
-  <a href="/images/strategies/ichimoku/ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie">
+<figure style="text-align: center;">
+  <a href="/images/strategies/ichimoku/ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie" title="Interface de l'Ichimoku-Kinko-Hyo">
     <img src="/images/strategies/ichimoku/ichimoku-kinko-hyo.png" width="6500"/>
   </a>
   <figcaption><em>Interface - Stratégie Ichimoku-Kinko-Hyo</em></figcaption>
@@ -19,8 +19,8 @@ Dans le Menu {{ "Stratégie" | keyword }} choisissez {{ "Ichimoku-Kinko-Hyo" | k
 
 Remarquez l'interface de configuration avec trois parties :
 
-<figure style="text-align: center;" title="Configuration de l'Ichimoku-Kinko-Hyo">
-  <a href="/images/strategies/ichimoku/config-ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie">
+<figure style="text-align: center;">
+  <a href="/images/strategies/ichimoku/config-ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie" title="Configuration de l'Ichimoku-Kinko-Hyo">
     <img src="/images/strategies/ichimoku/config-ichimoku-kinko-hyo.png"/>
   </a>
   <figcaption><em>Configuration - Stratégie Ichimoku-Kinko-Hyo</em></figcaption>
@@ -45,8 +45,8 @@ Avec notre implémentation ce modèle possède deux paramètres vus au point **(
 
 ### Calculer la Prédiction
 
-<figure style="text-align: center;"  title="Ichimoku-Kinko-Hyo signal prédiction">
-  <a href="/images/strategies/ichimoku/ichimoky-prediction.png" class="glightbox" data-gallery="galerie">
+<figure style="text-align: center;">
+  <a href="/images/strategies/ichimoku/ichimoky-prediction.png" class="glightbox" data-gallery="galerie" title="Ichimoku-Kinko-Hyo signal prédiction">
     <img src="/images/strategies/ichimoku/ichimoky-prediction.png"/>
   </a>
   <figcaption><em>Ichimoku-Kinko-Hyo Calculer la prédiction</em></figcaption>
@@ -61,8 +61,8 @@ Ici AIR LIQUIDE est à l'achat.
 ### Lire le signal de prédiction
 
 <figure style="text-align: center;">
-  <a href="/images/strategies/ichimoku/ichimoky-prediction-signal.png" title="Ichimoku-Kinko-Hyo prédiction" target="_blank">
-    <img src="/images/strategies/ichimoku/ichimoky-prediction-signal.png" class="glightbox" data-gallery="galerie"/>
+  <a href="/images/strategies/ichimoku/ichimoky-prediction-signal.png"  class="glightbox" data-gallery="galerie" title="Ichimoku-Kinko-Hyo prédiction">
+    <img src="/images/strategies/ichimoku/ichimoky-prediction-signal.png"/>
   </a>
   <figcaption><em>Ichimoku-Kinko-Hyo Lire le signal de prédiction</em></figcaption>
 </figure>
@@ -75,7 +75,7 @@ Avec l'outil zoom je fais un zoom sur la fin du graphe, je peux lire le signal d
 ### Les trois états du signal
 
 <figure style="text-align: center;">
-  <a href="/images/strategies/ichimoku/ichimoku-signal-zoom.png" title="Ichimoku-Kinko-Hyo lecture du signal" target="_blank">
+  <a href="/images/strategies/ichimoku/ichimoku-signal-zoom.png" title="Ichimoku-Kinko-Hyo lecture du signal">
     <img src="/images/strategies/ichimoku/ichimoku-signal-zoom.png" class="glightbox" data-gallery="galerie"/>
   </a>
   <figcaption><em>Ichimoku-Kinko-Hyo Lire le signal de prédiction</em></figcaption>

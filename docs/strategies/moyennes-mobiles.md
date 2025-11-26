@@ -37,7 +37,7 @@ Une fois implémentée et tracer dans le plateforme nous obtenons le graphique s
 
 <figure style="text-align: center;">
   <a href="/images/strategies/moyennes-mobiles/interface.png" class="glightbox" data-gallery="galerie" title="Stratégie automatique de trading des Moyennes Mobiles">
-    <img src="/images/strategies/moyennes-mobiles/interface.png" alt="Capture d'écran" class="centered"/>
+    <img src="/images/strategies/moyennes-mobiles/interface.png" alt="Capture d'écran"/>
   </a>
   <figcaption><em>Stratégie automatique de trading des Moyennes Mobiles</em></figcaption>
 </figure>
@@ -58,7 +58,7 @@ Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorit
 
 <figure style="text-align: center;">
   <a href="/images/strategies/moyennes-mobiles/console.png" class="glightbox" data-gallery="galerie" title="Les spread de l'algorithme des moyennes mobiles">
-    <img src="/images/strategies/moyennes-mobiles/console.png" alt="Capture d'écran" class="centered"/>
+    <img src="/images/strategies/moyennes-mobiles/console.png" alt="Capture d'écran"/>
   </a>
   <figcaption><em>Les spread de l'algorithme des moyennes mobiles</em></figcaption>
 </figure>
@@ -79,7 +79,7 @@ Vous obtenez un {{ "Spread" | g_tooltip }} de : 9,50
 
 <figure style="text-align: center;">
   <a href="/images/strategies/moyennes-mobiles/spread.png" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
-    <img src="/images/strategies/moyennes-mobiles/spread.png" alt="Capture d'écran" class="centered"/>
+    <img src="/images/strategies/moyennes-mobiles/spread.png" alt="Capture d'écran"/>
   </a>
   <figcaption><em>Optimisation du Spread par les Moyennes Mobiles</em></figcaption>
 </figure>
@@ -92,7 +92,7 @@ Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :
 
 <figure style="text-align: center;">
   <a href="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
-    <img src="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" alt="Capture d'écran" class="centered"/>
+    <img src="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" alt="Capture d'écran"/>
   </a>
   <figcaption><em>Stratégie automatique des Moyennes Mobiles</em></figcaption>
 </figure>
