@@ -53,6 +53,13 @@ Pullback: |
 Python: |
   Langage de programmation utilisé pour le développement de la plateforme TradingInPython.
 
+Range: |
+  Un range est une période où le prix d'un actif oscille entre un niveau de support et un niveau de résistance sans tendance claire.
+
+  Dans un range, les acheteurs et les vendeurs sont en équilibre, ce qui entraîne des mouvements de prix latéraux.
+
+  Les traders peuvent exploiter les ranges en achetant près du support et en vendant près de la résistance.
+
 Sell Stop: |
   Un ordre Sell Stop est un ordre de vente conditionnel qui s'active uniquement si le prix descend jusqu'à un niveau prédéfini.
 
@@ -66,7 +73,7 @@ Slope: |
   Il est inutile de trader des actions avec un Slope trop faible.
 
 Spread: |
-  Désigne la fourchette entre le prix d'achat (offre/bid) pour entrer sur le marché et le prix de vente (demande/ask) pour sortir de position sur le marché d'une action.  
+  Désigne la fourchette entre le prix d'achat (offre/bid) pour entrer sur le marché et le prix de vente (demande/ask) pour sortir de position sur le marché d'une action.
 
 Stock: |
   Terme anglais pour 'action', représentant une part du capital d'une entreprise.
