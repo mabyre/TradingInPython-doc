@@ -42,7 +42,12 @@ nav:
       - Vue d'ensemble: strategies/index.md
       - Ichimoku & Deep Learning: strategies/ichimoku_kinko_hyo.md
       - Moyennes Mobiles: strategies/moyennes-mobiles.md
-      - Bandes de Bollinger: strategies/bollinger-bands.md
+      - Bandes de Bollinger:
+          - Vue d'ensemble: strategies/bollinger-bands/index.md
+          - Bandes de Bollinger FTMA: strategies/bollinger-bands/bollinger-bands-ftma.md
+          - Trader avec les FTMA Bolls: strategies/bollinger-bands/bollinger-bands-ftma-trading.md
+          - Doubles Bandes de Bollinger: strategies/bollinger-bands/bollinger-bands-double.md
+          - Bandes de Bollinger FTMA + histogramme: strategies/bollinger-bands/bollinger-bands-ftma-histogramme.md
       - Intraday VWAP + Stoch: strategies/intraday-vwap-stoch.md
       - Analyse Volumique: strategies/analyse-pression-volumique.md
       - Fractales de Bill Williams: strategies/fractales-bill-williams.md

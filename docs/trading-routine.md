@@ -54,7 +54,7 @@ Exemple :
 
 Ces signaux sont clairs en tendance haussière uniquement.
 
-- [Double Bandes de Bollinger - Découvrir](strategies/bollinger-bands.md#double-bandes-de-bollinger)
+- [Double Bandes de Bollinger - Découvrir](./strategies/bollinger-bands/bollinger-bands-double.md)
 
 ## Analyse de la pression du flux volumique
 
