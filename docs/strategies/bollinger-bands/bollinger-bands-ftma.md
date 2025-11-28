@@ -2,8 +2,7 @@
 
 Ce sont les {{ "Bandes de Bollinger" | keyword }} Four Times frame Mobile Average {{ "FTMA" | keyword }} sur quatre horizons de temps différents.
 
-L'intérêt des Bandes de Bollinger sur des horizons de temps différents, 
-c'est que cet outil mathématique peut être considérer comme une décomposition temporelle (ou fréquentielle : {{ "f = 1/T" | keyword }}).
+Les Bandes de Bollinger, utilisées sur plusieurs horizons temporels, offrent une décomposition temporelle des dynamiques de marché, chaque échelle (T) correspondant à une fréquence d’analyse ({{ "f = 1/T" | keyword }}).
 
 Cet outil de trading technique va donc nous donner énormément d'informations sur le signal (cours de l'action à trader).
 
