@@ -1,7 +1,5 @@
 # Analyse de la Pression Volumique
 
-Plus simplement, l'analyse des volumes en trading fait couler beaucoup d'encre.
-
 Considèrons que les volumes d'achats exercent une pression {{ "à la hausse" | keyword }} alors que les volumes de ventes exercent une pression {{ "à la baisse" | keyword }}.
 
 Au sein de la plateforme, l'analyse de la pression volumique des flux vous permet de savoir si {{ "les acheteurs sont à la manoeuvre" | keyword }} ou si ce sont {{ "les vendeurs" | keyword }}.
