@@ -34,7 +34,11 @@ def define_env( env ):
     @env.filter
     def red( text ):
         return f'<span class="text-red">{text}</span>'
-        
+
+    @env.filter
+    def blue( text ):
+        return f'<span class="text-blue">{text}</span>'
+            
     #
     # Filters_for_glossary_tooltips_and_links
     #

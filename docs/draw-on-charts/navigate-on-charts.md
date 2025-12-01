@@ -1,7 +1,7 @@
 
 # Naviguer dans le graphique
 
-C'est à dire vous déplacer dans le graphe, déplacer le graphe, zoomer à l'intérieur, revenir en arrière, sauver l'image du graphe.
+Naviguer dans le graphe, c'est à dire vous déplacer dans le graphe, déplacer le graphe, zoomer à l'intérieur, revenir en arrière, sauver l'image du graphe.
 
 Pour la navigation dans le graphique, une bonne part est faite par la tool barre de la fenêtre {{ "MatPlotLib" | g_tooltip }} :
 
@@ -25,4 +25,4 @@ Accédez En cliquant sur l'image, vous trouverez les raccourcis clavier :
 
 C'est vraiment très facile et intuitif à utiliser.
 
-Vous pouvez également **zoomer dans les graphes grâce à la molette de la souris**.
+Vous pouvez également {{ "zoomer dans les graphes grâce à la molette de la souris" | keyword }}.
