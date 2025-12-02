@@ -78,6 +78,8 @@ Vous positionnez deux annotations et vous cliquez sur le bouton {{ "Set" | keywo
 
 L'interface de récupération des données a été "settée" avec vos deux dates.
 
+La touche {{ "Now" | keywordi }} vous permet de remettre la date du jour dans le champs {{ "Date de fin" | keywordi }}.
+
 Pour terminer, cliquez sur le bouton {{ "Graphique" | keywordi }} et vous obtenez le graphique d'action TESLA pour les deux dates que vous avez choisies :
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_Eed6ehwBoYWKRsqdxJSpgBIlA9A4LQ-hTNQ6t0KSHceaV8RbQ5R9bkFs_7dPd-0NzmtEJXc-zMjGWcoHEJP7RkuD8k1deGt4ZGnUWt7m46cm7KaeRR6z-CbpAzU9K26lBR51Bbu_7-xJdNWSMwfxMPwiTsRAZUjehBEdPDh7qwSrevYfGVv3NMXwR8bN/s1205/2025-03-27_11h55_55.png" style="margin-left: auto; margin-right: auto;"><img alt="Voyage dans le temps entre deux dates" border="0" data-original-height="757" data-original-width="1205" height="402" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_Eed6ehwBoYWKRsqdxJSpgBIlA9A4LQ-hTNQ6t0KSHceaV8RbQ5R9bkFs_7dPd-0NzmtEJXc-zMjGWcoHEJP7RkuD8k1deGt4ZGnUWt7m46cm7KaeRR6z-CbpAzU9K26lBR51Bbu_7-xJdNWSMwfxMPwiTsRAZUjehBEdPDh7qwSrevYfGVv3NMXwR8bN/w640-h402/2025-03-27_11h55_55.png" title="Voyage dans le temps entre deux dates" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">
