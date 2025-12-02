@@ -23,7 +23,15 @@ Fonctionne :
 
 ## Admonitions
 
-[mkdocs-material/reference/admonitions/#supported-types](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types)
+- <a href="https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types" target="_blank">mkdocs-material/reference/admonitions/#supported-types</a>
+
+!!! note
+
+    Ceci est une note qui n'est pas rétractable
+
+```
+!!! note
+```
 
 ??? note
 
@@ -34,10 +42,20 @@ Fonctionne :
 ??? note
 ```
 
+
+
 ???+ warning
 
     Ceci est une note rétractable
 
 ```
 ???+ warning
+```
+
+!!! danger "ATTENTION DANGER"
+
+    Là il faut faire très attention
+
+```
+!!! danger "ATTENTION DANGER"
 ```

@@ -1,0 +1,8 @@
+{
+    // 1. Toujours insérer des espaces, jamais de tabulations
+    "editor.insertSpaces": true,
+    // 2. Laisser VS Code détecter automatiquement l’indentation du fichier
+    "editor.detectIndentation": true,
+    // (optionnel) taille par défaut si détection impossible
+    "editor.tabSize": 2
+}
