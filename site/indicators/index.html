@@ -1577,6 +1577,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ao" class="md-nav__link">
+    <span class="md-ellipsis">
+      AO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#atr" class="md-nav__link">
     <span class="md-ellipsis">
       ATR
@@ -1772,6 +1781,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#ao" class="md-nav__link">
+    <span class="md-ellipsis">
+      AO
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#atr" class="md-nav__link">
     <span class="md-ellipsis">
       ATR
@@ -1914,6 +1932,27 @@
 <li>Identifier la force de la tendance : Un ADX croissant indique une tendance qui se renforce, tandis qu'un ADX décroissant suggère une tendance qui s'affaiblit.</li>
 <li>Filtrer les signaux de trading : Les traders peuvent utiliser l'ADX pour confirmer les signaux d'achat ou de vente générés par d'autres indicateurs techniques. Par exemple, un signal d'achat peut être plus fiable si l'ADX est supérieur à 20.</li>
 </ul>
+<h2 id="ao">AO<a class="headerlink" href="#ao" title="Permanent link">&para;</a></h2>
+<p>Awesome Oscillator - Oscillateur et Accélérateur.</p>
+<p>C'est un indicateur technique développé par Bill Williams qui mesure le momentum du marché en comparant une moyenne mobile courte à une moyenne mobile longue.</p>
+<p>Algorithme :
+<div class="highlight"><pre><span></span><code><span class="n">short_window</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">long_window</span> <span class="o">=</span> <span class="mi">34</span>
+<span class="n">data</span><span class="p">[</span><span class="s1">&#39;Median_Price&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;High&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Low&#39;</span><span class="p">])</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="n">ao</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Median_Price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span><span class="n">window</span><span class="o">=</span><span class="n">short_window</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span> <span class="o">-</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Median_Price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span><span class="n">window</span><span class="o">=</span><span class="n">long_window</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+</code></pre></div></p>
+<p>Où Median_Price = (Prix Haut + Prix Bas) / 2</p>
+<p>Interprétation :</p>
+<ul>
+<li><strong>AO &gt; 0</strong> : Le momentum à court terme est supérieur au momentum à long terme, suggérant une pression haussière.</li>
+<li><strong>AO &lt; 0</strong> : Le momentum à court terme est inférieur au momentum à long terme, suggérant une pression baissière.</li>
+</ul>
+<p>Signaux de trading :</p>
+<ul>
+<li>Zéro Line Crossover : Un croisement au-dessus de la ligne zéro peut être un signal d'achat, tandis qu'un croisement en dessous peut être un signal de vente.</li>
+<li>Twin Peaks : Deux sommets ou creux consécutifs peuvent indiquer des retournements potentiels.</li>
+<li>Saucer : Un changement de direction dans l'oscillateur peut signaler un changement de tendance imminent.</li>
+</ul>
 <h2 id="atr">ATR<a class="headerlink" href="#atr" title="Permanent link">&para;</a></h2>
 <p>Average True Range, Moyenne de la Vraie Amplitude.</p>
 <p>C'est un indicateur de volatilité développé par J. Welles Wilder qui ne travaille que sur les prix. Il mesure l'amplitude moyenne des mouvements de prix sur une période donnée, sans indiquer la direction du mouvement à la baisse ou à la hausse. </p>
@@ -1937,7 +1976,7 @@
 <ul>
 <li>Expansion des bandes : Lorsque les bandes s'écartent, cela indique une augmentation de la volatilité du marché. Cela peut signaler le début d'une nouvelle tendance.</li>
 <li>Contraction des bandes : Lorsque les bandes se rapprochent, cela indique une diminution de la volatilité. Cela peut précéder un mouvement significatif des prix, souvent appelé "squeeze".</li>
-<li>Toucher les bandes : Lorsque le prix touche ou dépasse la bande supérieure, cela peut indiquer que l'actif est suracheté, tandis que toucher la bande inférieure peut suggérer qu'il est survendu. Cependant, ces signaux doivent être confirmés par d'autres indicateurs avant de prendre des décisions de trading.  </li>
+<li>Toucher les bandes : Lorsque le prix touche ou dépasse la bande supérieure, cela peut indiquer que l'actif est suracheté, tandis que toucher la bande inférieure peut suggérer qu'il est survendu. Cependant, ces signaux doivent être confirmés par d'autres indicateurs avant de prendre des décisions de trading.</li>
 </ul>
 <h2 id="bop">BOP<a class="headerlink" href="#bop" title="Permanent link">&para;</a></h2>
 <p>Balance of Power oscillateur technique qui mesure la force relative des acheteurs et des vendeurs sur une période donnée. </p>
