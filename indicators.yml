@@ -10,11 +10,37 @@ ADX: |
   - ADX < 20 : Tendance faible ou marché en range.
   - 20 ≤ ADX < 40 : Tendance modérée.
   - ADX ≥ 40 : Tendance forte.
-  
+
   Utilisation :
 
   - Identifier la force de la tendance : Un ADX croissant indique une tendance qui se renforce, tandis qu'un ADX décroissant suggère une tendance qui s'affaiblit.
   - Filtrer les signaux de trading : Les traders peuvent utiliser l'ADX pour confirmer les signaux d'achat ou de vente générés par d'autres indicateurs techniques. Par exemple, un signal d'achat peut être plus fiable si l'ADX est supérieur à 20.
+
+AO: |
+  Awesome Oscillator - Oscillateur et Accélérateur.
+
+  C'est un indicateur technique développé par Bill Williams qui mesure le momentum du marché en comparant une moyenne mobile courte à une moyenne mobile longue.
+
+  Algorithme :
+  ```python
+  short_window = 5
+  long_window = 34
+  data['Median_Price'] = (data['High'] + data['Low']) / 2
+  ao = data['Median_Price'].rolling(window=short_window).mean() - data['Median_Price'].rolling(window=long_window).mean()
+  ```
+
+  Où Median_Price = (Prix Haut + Prix Bas) / 2
+
+  Interprétation :
+
+  - **AO > 0** : Le momentum à court terme est supérieur au momentum à long terme, suggérant une pression haussière.
+  - **AO < 0** : Le momentum à court terme est inférieur au momentum à long terme, suggérant une pression baissière.
+
+  Signaux de trading :
+
+  - Zéro Line Crossover : Un croisement au-dessus de la ligne zéro peut être un signal d'achat, tandis qu'un croisement en dessous peut être un signal de vente.
+  - Twin Peaks : Deux sommets ou creux consécutifs peuvent indiquer des retournements potentiels.
+  - Saucer : Un changement de direction dans l'oscillateur peut signaler un changement de tendance imminent.
 
 ATR: |
   Average True Range, Moyenne de la Vraie Amplitude.
@@ -28,7 +54,7 @@ ATR: |
   - Une hausse de l'ATR signale une augmentation de la volatilité, souvent associée à un breakout.
 
   - Une baisse de l'ATR indique une phase de consolidation ou de faible volatilité.
-  
+
   **Placement de stop-loss** : utilisation l'ATR pour ajuster leurs stops dynamiquement. 
 
   Par exemple : StopLoss à X*ATR en dessous (ou au-dessus) du prix d'entrée.
@@ -37,18 +63,18 @@ Bolls: |
   Bandes de Bollinger.
 
   Les Bandes de Bollinger sont un indicateur technique développé par John Bollinger dans les années 1980. 
-  
+
   Elles se composent de trois lignes tracées sur un graphique de prix : une moyenne mobile simple (SMA) au centre, et deux bandes situées à une distance égale (généralement deux écarts-types) au-dessus et en dessous de cette moyenne mobile.
 
   Interprétation des Bandes de Bollinger :
 
   - Expansion des bandes : Lorsque les bandes s'écartent, cela indique une augmentation de la volatilité du marché. Cela peut signaler le début d'une nouvelle tendance.
   - Contraction des bandes : Lorsque les bandes se rapprochent, cela indique une diminution de la volatilité. Cela peut précéder un mouvement significatif des prix, souvent appelé "squeeze".
-  - Toucher les bandes : Lorsque le prix touche ou dépasse la bande supérieure, cela peut indiquer que l'actif est suracheté, tandis que toucher la bande inférieure peut suggérer qu'il est survendu. Cependant, ces signaux doivent être confirmés par d'autres indicateurs avant de prendre des décisions de trading.  
+  - Toucher les bandes : Lorsque le prix touche ou dépasse la bande supérieure, cela peut indiquer que l'actif est suracheté, tandis que toucher la bande inférieure peut suggérer qu'il est survendu. Cependant, ces signaux doivent être confirmés par d'autres indicateurs avant de prendre des décisions de trading.
 
 BOP: |
   Balance of Power oscillateur technique qui mesure la force relative des acheteurs et des vendeurs sur une période donnée. 
- 
+
   Il a été développé par Igor Livshin et est utilisé pour identifier les tendances du marché et les retournements potentiels.
 
   ```
@@ -101,7 +127,7 @@ MACD: |
 
 MACD ZL: |
   MACD Zéro Lag essaye de compenser le retard du MACD en corrigeant les EMA.
-  
+
   Corrige les EMA avec des techniques comme les filtrages de type TEMA, DEMA, ou une soustraction dynamique.
 
   Algorithme :
