@@ -553,6 +553,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#zoomez-et-recalculer-la-pression" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zoomez et recalculer la pression
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#renversement-de-tendance" class="md-nav__link">
     <span class="md-ellipsis">
       Renversement de tendance
@@ -1720,6 +1729,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#zoomez-et-recalculer-la-pression" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zoomez et recalculer la pression
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#renversement-de-tendance" class="md-nav__link">
     <span class="md-ellipsis">
       Renversement de tendance
@@ -1788,14 +1806,19 @@
     <figcaption><em>Analyse de la pression du flux volumique</em></figcaption>
 </figure>
 
-<p>Au centre le graphe du cours et un indicateurs technique du flux volumique qui est l'intégrale des volumes de vente et des volumes d'achats.</p>
-<p>A droite toutes les statistiques sur les volumes d'<span class="text-green">achat</span> et de <span class="text-red">vente</span>.</p>
+<p>Au centre le graphe, le cours et un indicateurs technique du flux volumique qui est l'intégrale des volumes de vente et des volumes d'achats.</p>
+<p>A droite, toutes les statistiques sur les volumes d'<span class="text-green">achat</span> et de <span class="text-red">vente</span>.</p>
+<ul>
+<li>Un volume d'achat est <span class="text-green">vert</span> si à la fin de la séance, ce volume d'échange de titres, fait monter le prix.</li>
+<li>Un volume d'achat est <span class="text-red">rouge</span> si à la fin de la séance il fait baisser le prix.</li>
+</ul>
 <p>Vous pouvez voir ici que sur le cours de l'action TESLA, ces deux derniers jours la pression de vente de <span class="text-red">17,54 %</span> c'est à dire que les vendeurs vendent plus que les acheteurs de 17,54 %.</p>
 <p>Vous savez qu'une séance d'achat et de vente dans la chambre de compensation se termine par un achat (une barre verte) si le pris de clôture est supérieur au prix d'ouverture et une vente (barre rouge) si le pris de clôture est inférieur au pris d'ouverture.</p>
 <h2 id="volume-incertain">Volume incertain<a class="headerlink" href="#volume-incertain" title="Permanent link">&para;</a></h2>
 <p>Mais que se passe t-il lorsque le prix d'ouverture est égale au prix de clôture ? Et bien c'est là que la colonne <span class="text-keyword">"Uncertain"</span> intervient, on a ainsi une vision précise des séances et celles qui sont incertaines ne sont comptabilisées ni comme achat ni comme vente.</p>
 <p>C'est l'objet de la case à cocher <span class="text-keyword">"Algo 1/2"</span> vous permettre de visualiser l'incertitude des acheteurs et des vendeurs.</p>
-<p>La fonction de ZOOM (Loupe dans la barre <span title="Bibliothèque de visualisation de données en Python, utilisée pour créer des graphiques et des visualisations statiques, animées et interactives." style="border-bottom:1px dotted;cursor:help"><b>MatPlotLib</b></span>) vous permet de refaire les calculs pour la zone que vous choisissez :</p>
+<h2 id="zoomez-et-recalculer-la-pression">Zoomez et recalculer la pression<a class="headerlink" href="#zoomez-et-recalculer-la-pression" title="Permanent link">&para;</a></h2>
+<p>La fonction de ZOOM (Loupe dans la barre <span title="Bibliothèque de visualisation de données en Python, utilisée pour créer des graphiques et des visualisations statiques, animées et interactives." style="border-bottom:1px dotted;cursor:help"><b>MatPlotLib</b></span>) vous permet de refaire les calculs pour la zone que vous choisissez avec ce zoom :</p>
 <p>Avec la fonction ZOOM, je focalise sur la partie droite du graphe :</p>
 <figure style="text-align: center;">
     <a href="/images/strategies/volume-pression/tesla.png" class="glightbox" data-gallery="galerie" title="TESLA - Zoom sur la partie droite du graphe">
