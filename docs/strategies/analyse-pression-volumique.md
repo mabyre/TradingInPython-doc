@@ -19,9 +19,12 @@ Voici l'outil d'analyse de la pression volumique des flux d'achats et de ventes 
     <figcaption><em>Analyse de la pression du flux volumique</em></figcaption>
 </figure>
 
-Au centre le graphe du cours et un indicateurs technique du flux volumique qui est l'intégrale des volumes de vente et des volumes d'achats.
+Au centre le graphe, le cours et un indicateurs technique du flux volumique qui est l'intégrale des volumes de vente et des volumes d'achats.
 
-A droite toutes les statistiques sur les volumes d'{{ "achat" | green }} et de {{ "vente" | red }}.
+A droite, toutes les statistiques sur les volumes d'{{ "achat" | green }} et de {{ "vente" | red }}.
+
+- Un volume d'achat est {{ "vert" | green }} si à la fin de la séance, ce volume d'échange de titres, fait monter le prix.
+- Un volume d'achat est {{ "rouge" | red }} si à la fin de la séance, il fait baisser le prix.
 
 Vous pouvez voir ici que sur le cours de l'action TESLA, ces deux derniers jours la pression de vente de {{ "17,54 %" | red }} c'est à dire que les vendeurs vendent plus que les acheteurs de 17,54 %.
 
@@ -33,9 +36,11 @@ Mais que se passe t-il lorsque le prix d'ouverture est égale au prix de clôtur
 
 C'est l'objet de la case à cocher {{ "Algo 1/2" | keywordi }} vous permettre de visualiser l'incertitude des acheteurs et des vendeurs.
 
-La fonction de ZOOM (Loupe dans la barre {{ "MatPlotLib" | g_tooltip }}) vous permet de refaire les calculs pour la zone que vous choisissez :
+## Zoomez pour recalculer la pression volumique
 
-Avec la fonction ZOOM, je focalise sur la partie droite du graphe :
+La fonction de {{ "ZOOM" | keyword }}, la loupe dans la tool barre [MatPlotLib](../draw-on-charts/navigate-on-charts.md#toolbar-matplotlib]) vous permet de refaire les calculs pour la zone que vous choisissez avec ce zoom :
+
+Avec la fonction {{ "ZOOM" | keyword }}, je focalise sur la partie droite du graphe :
 
 <figure style="text-align: center;">
     <a href="/images/strategies/volume-pression/tesla.png" class="glightbox" data-gallery="galerie" title="TESLA - Zoom sur la partie droite du graphe">
@@ -44,7 +49,7 @@ Avec la fonction ZOOM, je focalise sur la partie droite du graphe :
     <figcaption><em>TESLA - Zoom sur la partie droite du graphe</em></figcaption>
 </figure>
 
-Pour cette partie du graphe, la pression de vente est de {{ "23,11 %" | red }} recalculée à chaque ZOOM.
+Pour cette partie du graphe, la pression de vente est de {{ "23,11 %" | red }} recalculée à chaque zoom.
 
 Vous pouvez donc voir instantanément que la pression de vente sur le cours de l'action TESLA augmente c'est derniers temps.
 

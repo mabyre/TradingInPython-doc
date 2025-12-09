@@ -3,7 +3,7 @@
 
 Naviguer dans le graphe, c'est à dire vous déplacer dans le graphe, déplacer le graphe, zoomer à l'intérieur, revenir en arrière, sauver l'image du graphe.
 
-Pour la navigation dans le graphique, une bonne part est faite par la tool barre de la fenêtre {{ "MatPlotLib" | g_tooltip }} :
+Pour ces fonctionnalités de navigation dans le graphique, une bonne part est réalisée par la tool barre de la fenêtre {{ "MatPlotLib" | g_tooltip }} :
 
 <figure style="text-align: center;">
     <a href="/images/draw-on-charts/matplot-toolbar.png" class="glightbox" data-gallery="galerie" title="ToolBarre Matplotlib">
@@ -14,7 +14,9 @@ Pour la navigation dans le graphique, une bonne part est faite par la tool barre
 
 Qui vous permet de déplacer le graph, de zoomer dans le graph, de régler les bordures de sauver l'image.
 
-Accédez En cliquant sur l'image, vous trouverez les raccourcis clavier :
+## Toolbar MatPlotLib
+
+Accédez à la documentation en cliquant sur l'image, vous trouverez les raccourcis clavier :
 
 <figure style="text-align: center;">
   <a href="https://matplotlib.org/3.2.2/users/navigation_toolbar.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
