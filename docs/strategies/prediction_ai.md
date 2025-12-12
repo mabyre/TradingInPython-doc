@@ -1,6 +1,6 @@
 # Prediction IA
 
-Utilisation des réseaux de neurones Keras avec Tensorflow pour la prédition des signaux 2D.
+Utilisation des réseaux de neurones {{ "Keras" | keyword }} avec {{ "Tensorflow" | keyword }} pour la prédiction des signaux 2D au sein de la plateforme {{ "TradingInPython" | keyword }}.
 
 ## Interface
 
@@ -13,11 +13,11 @@ Notez l'interface de configuration avec les paramètres évoqués dans la [Forma
     <figcaption><em>Prédiction avec Keras et TensorFlow</em></figcaption>
 </figure>
 
-- Days in past
-- Days in futur
-- EPOCHS
-- LSMT UNITS
-- Drop Out
+- {{ "Days in past" | keyword }} : Entrainement du modèle x_train contient des séquences de DAYS_IN_PAST jours.
+- {{ "Days in futur" | keyword }}  : Nombre de jours de prédiction
+- {{ "EPOCHS" | keyword }}  : Un epoch signifie une itération complète à travers le jeu de données d'entraînement.
+- {{ "LSMT UNITS" | keyword }}  : Types de couches dans le réseau de neurones.
+- {{ "Drop Out" | keyword }}  : Empêche le surapprentissage en désactivant aléatoirement une fraction des unités.
 
 ## Formation
 
@@ -33,7 +33,7 @@ Retrouvez les articles du blog sur la formation à Tensorflow :
 
 ## Abonnement
 
-Pour utiliser pleinement cette stratégie au sein de la plateforme, il vous faut vous abonner.
+Pour utiliser pleinement cette stratégie au sein de la plateforme, il vous faut vous abonner :
 
 - <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">TradingInPython - Abonnement</a>
 
