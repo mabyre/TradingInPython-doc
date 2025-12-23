@@ -1,6 +1,6 @@
 # Monitor Stock Market
 
-Monitorer le marché grâce aux alertes techniques.
+Monitorez le marché grâce aux alertes techniques et mettez le marché sous surveillance.
 
 Vous avez créé vos screeners en utilisant le {{ "Sélecteur de stocks" | keywordi }} :
 
