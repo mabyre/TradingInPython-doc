@@ -5,7 +5,7 @@ Richard D. Wyckoff (années 1900–1930) a posé les base du trading de la Smart
 Michael J. Huddleston reprend les bases pour les struturer en Smart Money Concept (SMC) :
 
 - {{ "BOS" | keyword }} : Break Of Structure
-- {{ "CHoCH" | keyword }} : Change Of Carater
+- {{ "CHoCH" | keyword }} : Change Of Character
 - {{ "Liquidity grabs" | keyword }} : Prises de liquidités
 - {{ "FVG" | keyword }} : Fair Value Gap
 - {{ "OTE" | keyword }} : Optimal Trade Entry / Premium-Discount
