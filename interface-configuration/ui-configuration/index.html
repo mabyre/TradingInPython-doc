@@ -1251,6 +1251,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#partager-la-liste-des-stocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Partager la liste des Stocks
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1688,6 +1697,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#partager-la-liste-des-stocks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Partager la liste des Stocks
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1708,8 +1726,9 @@
 
 
 <h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h1>
-<p>Au sein de la plateforme vous allez trouver un certain nombre de facilités, pour gérer les fenêtres pour configurer les valeurs par défaut de vos indicateurs techniques.</p>
-<p>Menu <strong>Aide</strong> -&gt; <strong>Paramètres</strong></p>
+<p>Au sein de la plateforme vous allez trouver un certain nombre de facilités, pour <a href="../windows-management/">gérer les fenêtres</a> pour configurer les valeurs par défaut de vos indicateurs techniques.</p>
+<h2 id="parametrage-des-indicateurs-techniques">Paramètrage des indicateurs techniques<a class="headerlink" href="#parametrage-des-indicateurs-techniques" title="Permanent link">&para;</a></h2>
+<p>Menu <span class="text-keyword">Aide</span> -&gt; <span class="text-keyword">Paramètres</span></p>
 <figure style="text-align: center;">
     <a href="/images/interface-configuration/parametres.png" class="glightbox" data-gallery="galerie" title="Paramètres">
         <img src="/images/interface-configuration/parametres.png" title="Mofidier les parmètres"/>
@@ -1717,13 +1736,27 @@
     <figcaption><em>Modifier les paramètres</em></figcaption>
 </figure>
 
-<h2 id="parametrage-des-indicateurs-techniques">Paramètrage des indicateurs techniques<a class="headerlink" href="#parametrage-des-indicateurs-techniques" title="Permanent link">&para;</a></h2>
 <p>Tous les indicateurs techniques sont paramètrables ou configurales.</p>
 <p>Il vous suffit de modifier la valeurs d'un paramètre de l'indicateur.</p>
 <p>Vous avez un bouton <span class="text-keyword">"Graphique"</span> vous voir l'effet immédiat de votre paramètres.</p>
 <p>Et <span class="text-keyword">"Sauver"</span> si cela vous convient.</p>
 <p>Pour chaque indicateur un bouton <span class="text-keyword">"Réinitialiser"</span> vous permet de remettre la valeur par défaut pour ce paramètre.</p>
 <p><span class="text-keyword">"Réinitialiser"</span> vous permet de remettre toutes les valeurs par défaut.</p>
+<h2 id="partager-la-liste-des-stocks">Partager la liste des Stocks<a class="headerlink" href="#partager-la-liste-des-stocks" title="Permanent link">&para;</a></h2>
+<p>Vous avez installé <span class="text-keyword">TradingInPtyhon</span> sur plusieurs ordinateurs et vous souhaitez partager la liste des stocks entre ces ordinateurs.</p>
+<p>Vous allez pouvoir sauver par exemple dans le <span class="text-keyword">Cloud OneDrive</span> la liste de vos stocks pour la partager entre plusieurs ordinateurs.</p>
+<p>Cela se passe dans le fichier :</p>
+<ul>
+<li><strong>C:\Users\{UserName}\AppData\Local\TradingInPython\config\fetch_data.json</strong></li>
+</ul>
+<p>à la clef <span class="text-keyword">"LIST_STOCKS_FILE_NAME_PATH"</span> vide pour l'instant :</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&quot;LIST_STOCKS_FILE_NAME_PATH&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+</code></pre></div>
+<p>Copiez le chemin d'accès vers votre fichier dans le Cloud ou autre et copiez le dans la clef comme ceci :</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&quot;LIST_STOCKS_FILE_NAME_PATH&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;C:\\Users\\UserName\\OneDrive\\TradingInPython\\stocks\\list_stocks_watching.json&quot;</span>
+</code></pre></div>
+<p>Prenez soin de remplacer <span class="text-keyword">UserName</span> par votre nom d'utilisateur.</p>
+<p>Ainsi les modifications faites à la <a href="../../gestion-liste-actions/">liste des stocks</a> seront répercutées pour tous vos ordinateurs.</p>
 
 
 
