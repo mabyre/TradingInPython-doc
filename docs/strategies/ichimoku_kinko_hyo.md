@@ -10,7 +10,7 @@ Dans le Menu {{ "Stratégie" | keyword }} choisissez {{ "Ichimoku-Kinko-Hyo" | k
 
 <figure style="text-align: center;">
   <a href="/images/strategies/ichimoku/ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie" title="Interface de l'Ichimoku-Kinko-Hyo">
-    <img src="/images/strategies/ichimoku/ichimoku-kinko-hyo.png" width="6500"/>
+    <img src="/images/strategies/ichimoku/ichimoku-kinko-hyo.png"/>
   </a>
   <figcaption><em>Interface - Stratégie Ichimoku-Kinko-Hyo</em></figcaption>
 </figure>

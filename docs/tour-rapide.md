@@ -19,19 +19,34 @@ Dans cet exemple, on récupère les données du cours de TRIGANO pour la périod
 
 La stratégie de trading technique choisie est {{ "Ichimoku Kynko Hyo" | keyword }} :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQX2QWPYA7PgjADA7_QG1wdUGsr4-ngWaFFyeeOQ5zk29iUNOhYxXrCIC9KPWQVTqQ2Dc1pkhu_cJmHvnQ4Rlt9WQCdT4V1hB8CgX0ZZ3rK_pdWJafCZpbFRaURM3eYZFQZ_ZM32V45bfmxZUggzNtS1vbho9C3PUiUCn0YV-qBYzcCXkO7vfojOBOx3l0/s640/2025-06-13_16h31_08.png" style="margin-left: auto; margin-right: auto;"><img alt="Plateforme de trading technique gratuite - TradingInPython" border="0" data-original-height="452" data-original-width="640" height="452" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQX2QWPYA7PgjADA7_QG1wdUGsr4-ngWaFFyeeOQ5zk29iUNOhYxXrCIC9KPWQVTqQ2Dc1pkhu_cJmHvnQ4Rlt9WQCdT4V1hB8CgX0ZZ3rK_pdWJafCZpbFRaURM3eYZFQZ_ZM32V45bfmxZUggzNtS1vbho9C3PUiUCn0YV-qBYzcCXkO7vfojOBOx3l0/w640-h452/2025-06-13_16h31_08.png" title="Plateforme de trading technique gratuite - TradingInPython" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Plateforme de trading technique gratuite - TradingInPython</td></tr></tbody></table>
+<figure style="text-align: center;">
+  <a href="/images/tour-rapide/ichimoku.png" class="glightbox" data-gallery="galerie" title="Interface de l'Ichimoku-Kinko-Hyo">
+    <img src="/images/tour-rapide/ichimoku.png"/>
+  </a>
+  <figcaption><em>Plateforme de trading technique gratuite - TradingInPython</em></figcaption>
+</figure>
 
 Un fois ces éléments renseignés, vous cliquez sur le bouton {{ "Graphique" | keyword }} pour afficher l'analyse technique de l'action ({{ "stock" | g_tooltip }}).
 
 Pour ce tour rapide de la Plateforme de Trading Technique, voici une analyse avec {{ "Ichimoku Kynko Hyo" | keyword }}, pour l'action TRIGANO :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3GNfq2pdW70XQ1WJ3maEW4cN_bt38teRC6fbPGeOMQBH6_EAJNMbPmaIny0h7yvRg4vJijnOBWhUOsRK3-QYL-jK67rDiRwvEIX1Du4NZnE4jJ9p5sHTASB2lRi_pxJC60vuclb0fucZTymzgNy6n8pu_7Glkr9U3sGlmRdgZgZMuTLG-dgzBvuSVhQGB/s639/2024-12-11_10h36_08.png" style="margin-left: auto; margin-right: auto;"><img alt="Plateforme de Trading and Data Analyse" border="0" data-original-height="398" data-original-width="639" height="398" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3GNfq2pdW70XQ1WJ3maEW4cN_bt38teRC6fbPGeOMQBH6_EAJNMbPmaIny0h7yvRg4vJijnOBWhUOsRK3-QYL-jK67rDiRwvEIX1Du4NZnE4jJ9p5sHTASB2lRi_pxJC60vuclb0fucZTymzgNy6n8pu_7Glkr9U3sGlmRdgZgZMuTLG-dgzBvuSVhQGB/w640-h398/2024-12-11_10h36_08.png" title="Plateforme de Trading and Data Analyse" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Plateforme de Trading and Data Analyse</td></tr></tbody></table>
+<figure style="text-align: center;">
+  <a href="/images/tour-rapide/ichimoku-2.png" class="glightbox" data-gallery="galerie" title="Interface de l'Ichimoku-Kinko-Hyo">
+    <img src="/images/tour-rapide/ichimoku-2.png"/>
+  </a>
+  <figcaption><em>Plateforme de Trading and Data Analyse</em></figcaption>
+</figure>
 
 - **(1)** Vous reconnaissez l'Interface de [récupération des données](recuperation-des-data.md).
 - **(2)** C'est l'interface de configuration spécifique de la Stratégie choisie par l'utilisateur
 - **(3)** C'est la possibilité d'afficher un graphe secondaire avec l'indicateur de votre choix :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO4UTZBRSw6k-kGKl4oqOSUzUJx29qUh51o9iNo70akXvoqBN3lks98kIKESkAZx5xRLhv0Ni5yNIKWgVZJhCYVMDKR10d2nXyCXmdPgv8NUgbIKqe4gnoSKxw01VvgIZYmM8QwoVn5iWz9HfKvvqT2T-NhwGihOFy8zGPanXHo5r8TZaQYClXxbqC8rz8/s640/2024-12-11_11h09_55.png" style="margin-left: auto; margin-right: auto;"><img alt="Afficher un graphique secondaire" border="0" data-original-height="397" data-original-width="640" height="398" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO4UTZBRSw6k-kGKl4oqOSUzUJx29qUh51o9iNo70akXvoqBN3lks98kIKESkAZx5xRLhv0Ni5yNIKWgVZJhCYVMDKR10d2nXyCXmdPgv8NUgbIKqe4gnoSKxw01VvgIZYmM8QwoVn5iWz9HfKvvqT2T-NhwGihOFy8zGPanXHo5r8TZaQYClXxbqC8rz8/w640-h398/2024-12-11_11h09_55.png" title="Afficher un graphique secondaire" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Afficher un graphique secondaire</td></tr></tbody></table>
+<figure style="text-align: center;">
+  <a href="/images/tour-rapide/ichimoku-3.png" class="glightbox" data-gallery="galerie" title="Interface de l'Ichimoku-Kinko-Hyo">
+    <img src="/images/tour-rapide/ichimoku-3.png"/>
+  </a>
+  <figcaption><em>Afficher un graphique secondaire</em></figcaption>
+</figure>
 
 Ici j'ai cliqué sur l'indicateur {{ "MACD" | i_link }}, il apparaît dans un graphe secondaire sous le graphe de la Stratégie pour venir la confirmer. Vous pouvez afficher sous le graphe de stratégie un second, un troisième, indicateur et ainsi de suite.
 
@@ -81,7 +96,12 @@ Pour découvrir la routine de trading que vous pouvez réaliser avec la platefor
 
 En mode screen, vous pouvez parcourir toutes vos actions, avec par exemple la stratégie des <a href="https://www.trading-et-data-analyses.com/2024/11/formation-indicateur-fractales-bill-williams.html" target="_blank">Fractales de Bill Williams</a>, pour découvrir les signaux d'achat ou de vente de cette stratégie automatique de trading :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOU2vtN3bb4zkLAUH7PsYs8kFG5xuGyMtbj8eTt4ttBO9QrRvWnSBMv3KxSP7nHrTFPiUmnUYkQnsgsAHbrKCGzl49SBMAVrlefMOkMxqAV4oR2IFs-Yu9MhvGvLmOzIpLdNmZF_Y5VajgnzIXYxcsqgjlc5WgYBKsbbEjsqKr5i53dKcCPCmDOTtZmt9z/s639/2025-04-04_11h28_59.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="338" data-original-width="639" height="338" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOU2vtN3bb4zkLAUH7PsYs8kFG5xuGyMtbj8eTt4ttBO9QrRvWnSBMv3KxSP7nHrTFPiUmnUYkQnsgsAHbrKCGzl49SBMAVrlefMOkMxqAV4oR2IFs-Yu9MhvGvLmOzIpLdNmZF_Y5VajgnzIXYxcsqgjlc5WgYBKsbbEjsqKr5i53dKcCPCmDOTtZmt9z/w640-h338/2025-04-04_11h28_59.png" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">TradingInPython - Mode Screener</td></tr></tbody></table>
+<figure style="text-align: center;">
+  <a href="/images/tour-rapide/mode-screener.png" class="glightbox" data-gallery="galerie" title="TradingInPython - Mode Screener">
+    <img src="/images/tour-rapide/mode-screener.png"/>
+  </a>
+  <figcaption><em>TradingInPython - Mode Screener</em></figcaption>
+</figure>
 
 Ce chapître pour montrer la facilité avec laquelle vous aurez le loisir de parcourir vos actions (stocks) et de réaliser des analyses techniques.
 
@@ -89,7 +109,12 @@ Ce chapître pour montrer la facilité avec laquelle vous aurez le loisir de par
 
 Découvrez le moyen de surveiller des dizaines d'actions d'un seul coup d'œil avec la Heatmap Performance ou "Carte de chaleur" et ses couleurs pour vous permettre de détecter, les actions qui croissent et sont à la hausse ou qui décroissent et sont à la baisse, par leurs performances :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgGMa7viI6SHcPulcBO5xbLHWvsaDYorTdmAxVIuFR4LHHFDkiq-Y_MNp_CQFC5A-Ma937nQwhfATgK7VuC64TIylBJ7FbFAvnp29sNj2hVKlCQ0_JVT2hMgW_plBfKd528xBZq3jVYlNMYbP6xKikYMjkBD-KabkvQwdNtUkCH1q1UIF-Vwvf5x2NzcQ30" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython - Heatmap Performance surveiller des dizaines d'actions" data-original-height="679" data-original-width="1048" height="414" src="https://blogger.googleusercontent.com/img/a/AVvXsEgGMa7viI6SHcPulcBO5xbLHWvsaDYorTdmAxVIuFR4LHHFDkiq-Y_MNp_CQFC5A-Ma937nQwhfATgK7VuC64TIylBJ7FbFAvnp29sNj2hVKlCQ0_JVT2hMgW_plBfKd528xBZq3jVYlNMYbP6xKikYMjkBD-KabkvQwdNtUkCH1q1UIF-Vwvf5x2NzcQ30=w640-h414" title="TradingInPython - Heatmap Performance surveiller des dizaines d'actions" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">TradingInPython - Heatmap Performance surveiller des dizaines d'actions</td></tr></tbody></table>
+<figure style="text-align: center;">
+  <a href="/images/tour-rapide/carte-chaleur.png" class="glightbox" data-gallery="galerie" title="TradingInPython - Heatmap Performance surveiller des dizaines d'actions">
+    <img src="/images/tour-rapide/carte-chaleur.png"/>
+  </a>
+  <figcaption><em>TradingInPython - Heatmap Performance surveiller des dizaines d'actions</em></figcaption>
+</figure>
 
 Pour chaque actions tous les indicateurs techniques sont calculés et présentés dans une fenêtre de détails pour vous permettre de prendre les bonnes décisions de trading.
 
@@ -99,7 +124,12 @@ Pour chaque actions tous les indicateurs techniques sont calculés et présenté
 
 Mettez le marché sous surveillance grâce au Monitoring Stock qui vous permet de placer des alertes sur le cours des actions et d'être prévenu par email :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizsUwUGRQGgi7MIEHDF2HL4JtUBiGeVJhdu9TGhVdsskXTcyQETSPFbmjyhMzZ56qg6I5obhbaGyhAism4dka8rItT62go7Z-vxsV0bb8FDIPwlxdbGhPdIGPCEGzTuNgJAaHeeA94aDKi37gNnYrNHW6YOjH-3tSgCkwfOv-EtV2kN6CPVxRBBSdbsZgI/s639/2025-07-17_17h26_01%20(1).png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython - Monitoring stock market alertes" border="0" data-original-height="382" data-original-width="639" height="382" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizsUwUGRQGgi7MIEHDF2HL4JtUBiGeVJhdu9TGhVdsskXTcyQETSPFbmjyhMzZ56qg6I5obhbaGyhAism4dka8rItT62go7Z-vxsV0bb8FDIPwlxdbGhPdIGPCEGzTuNgJAaHeeA94aDKi37gNnYrNHW6YOjH-3tSgCkwfOv-EtV2kN6CPVxRBBSdbsZgI/w640-h382/2025-07-17_17h26_01%20(1).png" title="TradingInPython - Monitoring stock market alertes" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">TradingInPython - Monitoring stock market alertes</td></tr></tbody></table>
+<figure style="text-align: center;">
+  <a href="/images/tour-rapide/monitor-stock-market.png" class="glightbox" data-gallery="galerie" title="TradingInPython - Monitoring stock market alertes">
+    <img src="/images/tour-rapide/monitor-stock-market.png"/>
+  </a>
+  <figcaption><em>TradingInPython - Monitoring stock market alertes</em></figcaption>
+</figure>
 
 Un système d'alertes efficace pour être prévenu lorsqu'un cours franchit une résistance ou un support, ou encore, que le marché dépasse un certain volume de transactions et pouvoir ainsi agir et maîtriser totalement votre trading.
 
@@ -113,7 +143,12 @@ Par exemple, vous réalisez vos analyses techniques le matin vous positionnez vo
 
 Le portfolio ou gestionnaire de portefeuille est l'outil indispensable du trader efficace. Il vous permet de centraliser tous vos achats/ventes et de les consolider dans un tableau de bord afin de connaitre le rendement réel de vos trades sur les Cryptos, Actions, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#ETF"  target="_blank">ETF</a>, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#Futures" target="_blank">Futures</a>, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#FOREX" target="_blank">Forex</a>, etc.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgLpg24TmZDv7Q61OtbkNECtSck3c91UHE9naH1K62BJF4kQZLm8vq9sfBY198SBWOlBSpeFNGbfTkB7ND2oXIA0825oNkCVc_VD2XNCsA2JxH8Lbesw8yhHdX09JMYgvQ3YetID-t1YTTAmceXzVw2t8T5HTpIecPhGOXztGbLxK0acD_bTuusnJyZEsTF" style="margin-left: auto; margin-right: auto;"><img alt="" data-original-height="745" data-original-width="1037" height="460" src="https://blogger.googleusercontent.com/img/a/AVvXsEgLpg24TmZDv7Q61OtbkNECtSck3c91UHE9naH1K62BJF4kQZLm8vq9sfBY198SBWOlBSpeFNGbfTkB7ND2oXIA0825oNkCVc_VD2XNCsA2JxH8Lbesw8yhHdX09JMYgvQ3YetID-t1YTTAmceXzVw2t8T5HTpIecPhGOXztGbLxK0acD_bTuusnJyZEsTF=w640-h460" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">TradingInPython - Le portfolio ou Gestionnaire de Portefeuilles</td></tr></tbody></table>
+<figure style="text-align: center;">
+  <a href="/images/tour-rapide/portefolio.png" class="glightbox" data-gallery="galerie" title="TradingInPython - Le portfolio ou Gestionnaire de Portefeuilles">
+    <img src="/images/tour-rapide/portefolio.png"/>
+  </a>
+  <figcaption><em>TradingInPython - Le portfolio ou Gestionnaire de Portefeuilles</em></figcaption>
+</figure>
 
 La plateforme TradingInPython vous permet de gérer autant de portefeuilles que vous le souhaitez et de calculer ainsi l'efficacité réelle de vos trades.
 
