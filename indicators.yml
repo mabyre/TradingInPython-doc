@@ -16,10 +16,12 @@ ADX: |
   - Identifier la force de la tendance : Un ADX croissant indique une tendance qui se renforce, tandis qu'un ADX décroissant suggère une tendance qui s'affaiblit.
   - Filtrer les signaux de trading : Les traders peuvent utiliser l'ADX pour confirmer les signaux d'achat ou de vente générés par d'autres indicateurs techniques. Par exemple, un signal d'achat peut être plus fiable si l'ADX est supérieur à 20.
 
-AO: |
-  Awesome Oscillator - Oscillateur et Accélérateur.
+AO/AC: |
+  Awesome Oscillator (AO) et Accelerator Oscillator (AC)
 
   C'est un indicateur technique développé par Bill Williams qui mesure le momentum du marché en comparant une moyenne mobile courte à une moyenne mobile longue.
+
+  AO : Différentiel de momentum entre court et long terme
 
   Algorithme :
   ```python
@@ -41,6 +43,22 @@ AO: |
   - Zéro Line Crossover : Un croisement au-dessus de la ligne zéro peut être un signal d'achat, tandis qu'un croisement en dessous peut être un signal de vente.
   - Twin Peaks : Deux sommets ou creux consécutifs peuvent indiquer des retournements potentiels.
   - Saucer : Un changement de direction dans l'oscillateur peut signaler un changement de tendance imminent.
+
+  AC : Mesure l'accélération ou la décélération du momentum.
+
+  ```python
+  ao = df[ 'AO' ]
+  sma_ao = ao.rolling( window=period, min_periods=1 ).mean()
+  ac = ao - sma_ao
+  ```
+
+  Interprétation de l'AC :
+
+  - **AC > 0** : accélération du momentum
+  - **AC < 0** : décélération du momentum
+  - **AC = 0** : Le momentum est stable.
+
+  AC accompagne l'interprétation de AO.
 
 ATR: |
   Average True Range, Moyenne de la Vraie Amplitude.
