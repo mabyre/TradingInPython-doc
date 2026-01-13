@@ -1600,9 +1600,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ao" class="md-nav__link">
+  <a href="#aoac" class="md-nav__link">
     <span class="md-ellipsis">
-      AO
+      AO/AC
     </span>
   </a>
   
@@ -1804,9 +1804,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ao" class="md-nav__link">
+  <a href="#aoac" class="md-nav__link">
     <span class="md-ellipsis">
-      AO
+      AO/AC
     </span>
   </a>
   
@@ -1955,9 +1955,10 @@
 <li>Identifier la force de la tendance : Un ADX croissant indique une tendance qui se renforce, tandis qu'un ADX décroissant suggère une tendance qui s'affaiblit.</li>
 <li>Filtrer les signaux de trading : Les traders peuvent utiliser l'ADX pour confirmer les signaux d'achat ou de vente générés par d'autres indicateurs techniques. Par exemple, un signal d'achat peut être plus fiable si l'ADX est supérieur à 20.</li>
 </ul>
-<h2 id="ao">AO<a class="headerlink" href="#ao" title="Permanent link">&para;</a></h2>
-<p>Awesome Oscillator - Oscillateur et Accélérateur.</p>
+<h2 id="aoac">AO/AC<a class="headerlink" href="#aoac" title="Permanent link">&para;</a></h2>
+<p>Awesome Oscillator (AO) et Accelerator Oscillator (AC)</p>
 <p>C'est un indicateur technique développé par Bill Williams qui mesure le momentum du marché en comparant une moyenne mobile courte à une moyenne mobile longue.</p>
+<p>AO : Différentiel de momentum entre court et long terme</p>
 <p>Algorithme :
 <div class="highlight"><pre><span></span><code><span class="n">short_window</span> <span class="o">=</span> <span class="mi">5</span>
 <span class="n">long_window</span> <span class="o">=</span> <span class="mi">34</span>
@@ -1976,6 +1977,18 @@
 <li>Twin Peaks : Deux sommets ou creux consécutifs peuvent indiquer des retournements potentiels.</li>
 <li>Saucer : Un changement de direction dans l'oscillateur peut signaler un changement de tendance imminent.</li>
 </ul>
+<p>AC : Mesure l'accélération ou la décélération du momentum.</p>
+<div class="highlight"><pre><span></span><code><span class="n">ao</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span> <span class="s1">&#39;AO&#39;</span> <span class="p">]</span>
+<span class="n">sma_ao</span> <span class="o">=</span> <span class="n">ao</span><span class="o">.</span><span class="n">rolling</span><span class="p">(</span> <span class="n">window</span><span class="o">=</span><span class="n">period</span><span class="p">,</span> <span class="n">min_periods</span><span class="o">=</span><span class="mi">1</span> <span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">ac</span> <span class="o">=</span> <span class="n">ao</span> <span class="o">-</span> <span class="n">sma_ao</span>
+</code></pre></div>
+<p>Interprétation de l'AC :</p>
+<ul>
+<li><strong>AC &gt; 0</strong> : accélération du momentum</li>
+<li><strong>AC &lt; 0</strong> : décélération du momentum</li>
+<li><strong>AC = 0</strong> : Le momentum est stable.</li>
+</ul>
+<p>AC accompagne l'interprétation de AO.</p>
 <h2 id="atr">ATR<a class="headerlink" href="#atr" title="Permanent link">&para;</a></h2>
 <p>Average True Range, Moyenne de la Vraie Amplitude.</p>
 <p>C'est un indicateur de volatilité développé par J. Welles Wilder qui ne travaille que sur les prix. Il mesure l'amplitude moyenne des mouvements de prix sur une période donnée, sans indiquer la direction du mouvement à la baisse ou à la hausse. </p>
