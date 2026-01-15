@@ -9,9 +9,9 @@ Vous avez deux types d'annotations dynamiques qui suivent la souris :
     <figcaption><em>AIR LIQUIDE</em></figcaption>
 </figure>
 
-La première en cliquant la case à cocher **"ANNOTE"** une annotation suit votre souris pour vous indiquer la date et le cours de l'action à l'endroit de votre souris.
+La première en cliquant la case à cocher {{ "ANNOTE" | keywordi }} une annotation suit votre souris pour vous indiquer la date et le cours de l'action à l'endroit de votre souris.
 
-La deuxième en cliquant sur **"CROSS"** annotation en croix, projette le cours et la date sur les bords du graphe à l'endroit de votre souris :
+La deuxième en cliquant sur {{ "CROSS" | keywordi }} annotation en croix, projette le cours et la date sur les bords du graphe à l'endroit de votre souris :
 
 <figure style="text-align: center;">
     <a href="/images/draw-on-charts/annote-graph-2.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE">
@@ -24,9 +24,9 @@ La deuxième en cliquant sur **"CROSS"** annotation en croix, projette le cours 
 
 - **(2)** La barre verticale se poursuit dans les graphes secondaires.
 
-En utilisant la **touche 'V'** comme dans [Annoter les prix/dates](./annote-price-date.md) vous pouvez marquer les résistances et les support du cours de l'action.
+En utilisant la {{ "touche 'V'" | keyword }} comme dans [Annoter les prix/dates](./annote-price-date.md) vous pouvez marquer les résistances et les support du cours de l'action.
 
-Pour stopper les annotations, **décochez** simplement les cases à cocher.
+Pour stopper les annotations, {{ "décochez" | keyword }} simplement les cases à cocher.
 
 ## Annotation Prix / Date
 
