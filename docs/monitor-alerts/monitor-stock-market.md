@@ -21,8 +21,6 @@ Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre év
 
 L'onglet {{ "Monitoring" | keywordi }} vous permet de visualiser les alertes qui ont été déclenchées.
 
-Vous allez pouvoir recevoir un email avec l'ensemble des alertes que vous avez positionné et qui se sont déclenchées.
-
 ## Alertes simples en prix et en volume
 
 Positionnez des alertes sur les prix et les volumes.
@@ -37,7 +35,11 @@ Positionnez des alertes sur les prix et les volumes.
 - **(1)** Double cliquez sur l'une de ligne représentant une action que vous souhaitez monitorer
 - **(2)** Fenêtre pour éditer les alertes de l'action
 
-Temps de réarmement (minutes) : pour ne pas avoir cette chaque minute dans le compte rendu des alertes déclenchée vous spécifiez un temps au bout duquel l'alerte sera réarmée.
+Temps de réarmement (minutes) : Spécifiez un temps au bout duquel l'alarme sera réarmée (retestée) pour ne pas avoir cette alerte toutes les minutes dans le compte rendu des alertes déclenchées.
+
+## Alertes à date
+
+Vous pouvez déclencher un message dans le volet monitoring à une date que vous spécifiez comme par exemple : effectuer une nouvelle analyse technique ou bien que les dividendes sur ce cours arrivent.
 
 ## Tableau de bord du Monitor Stocks Market Alertes
 
@@ -66,6 +68,36 @@ Les colonnes du Monitor Stocks Market :
 La période est calculé en fonction de l'Intervalle choisi pour avoir assez de données. Le choix de l'intervalle est important pour les alertes en volume.
 
 Pour positionner une alerte en volume les colonnes Vol, Vol Tot, et Vol Max sont calculées en utilisant cet intervalle.
+
+- **Monitor** : Décochez cette case pour ne plus recevoir les alertes concernant ce titre, remarquez que le {{ "Prix Courant" | keywordi }} est à zéro pour les titres qui ne sont pas monitorés.
+
+## Recevoir les alertes par email
+
+Afin de recevoir les alertes du Monitor Stock Market vous devez au préalable avoir renseigné votre email dans le Menu {{ "Aide -> Smtp" | keyword }}
+
+<figure style="text-align: center;">
+    <a href="/images/monitor-stock-market/smtp.png" class="glightbox" data-gallery="galerie" title="Renseignez votre email pour recevoir les alertes">
+        <img src="/images/monitor-stock-market/smtp.png" />
+    </a>
+    <figcaption><em>Renseignez votre email pour recevoir les alertes</em></figcaption>
+</figure>
+
+En suite, cochez la case {{ "Envoyer emails" | keywordi }}
+
+Vous allez pouvoir recevoir un email avec l'ensemble des alertes que vous avez positionné et qui se sont déclenchées.
+
+### Couleurs des lignes
+
+Pour voir si vous avez positionné une alerte sur un titre, la ligne correspondante est colorée, en {{ "vert clair" | keyword }} s'il s'agit d'une alerte simple, en {{ "vert foncé" | keyword }} s'il s'agit d'une alerte technique (avancées).
+
+<figure style="text-align: center;">
+    <a href="/images/monitor-stock-market/couleurs-lignes.png" class="glightbox" data-gallery="galerie" title="Indication de couleur des alertes">
+        <img src="/images/monitor-stock-market/couleurs-lignes.png"/>
+    </a>
+    <figcaption><em>Indication de couleur des alertes</em></figcaption>
+</figure>
+
+Pour éditer une alerte avancée, vous avez le bouton {{ "Alertes Avancées" | keywordi }} mais vous pouvez également maintenir la touche {{ "Ctrl" | keyword }} en cliquant sur la ligne du titre concerné.
 
 ## Vous avez raté quelque chose ?
 
