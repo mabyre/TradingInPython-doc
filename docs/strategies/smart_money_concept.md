@@ -4,13 +4,13 @@ Richard D. Wyckoff (années 1900–1930) a posé les base du trading de la Smart
 
 Michael J. Huddleston reprend les bases pour les struturer en Smart Money Concept (SMC) :
 
+- {{ "Structure" | keyword }} : Dow's waves - bearish: LH, LL, LH - bullish: HH, HL, HH
 - {{ "BOS" | keyword }} : Break Of Structure
 - {{ "CHoCH" | keyword }} : Change Of Character
-- {{ "Liquidity grabs" | keyword }} : Prises de liquidités
+- {{ "Order Blocks" | keyword }} :  Zones où de grands ordres ont été exécutés
+- {{ "Liquidity grabs" | keyword }} : Prises de liquidités par la Smart Money
 - {{ "FVG" | keyword }} : Fair Value Gap
 - {{ "OTE" | keyword }} : Optimal Trade Entry / Premium-Discount
-- {{ "Order Blocks" | keyword }} :  Zones où de grands ordres ont été exécutés
-- etc.
 
 Michael J. Huddleston est l'Inner Circle Trader, ICT est devenu son pseudo.
 
