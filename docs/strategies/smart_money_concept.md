@@ -30,7 +30,7 @@ Ce sont eux qui génèrent la majorité du volume et de la liquidité. Alors leu
 
 Article sur Trading et Data Analyses :
 
-- <a href="https://www.trading-et-data-analyses.com/2025/12/comment-decoder-la-structure-du-marche.html" target="_blank">Comment décoder la structure du marché ?</a>
+- <a href="https://www.trading-et-data-analyses.com/2025/12/decoder-structure-du-marche-en-langage-python.html" target="_blank">Comment décoder la structure du marché ?</a>
 
 <figure style="text-align: center;">
     <a href="/images/strategies/smart-money-concept/interface.png" class="glightbox" data-gallery="galerie" title="Interface - Smart Money Concept - Trading ICT">
