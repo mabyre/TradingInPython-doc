@@ -26,7 +26,7 @@ Les acteurs de la {{ "Smart Money" | keyword }} sont :
 
 Ce sont eux qui génèrent la majorité du volume et de la liquidité. Alors leurs actions laissent des traces dans les cours et le trading ICT consiste à détecter ces traces pour faire un trading astucieux et finalement suivre la smart money.
 
-## Développement de l'application
+## Stratégie du trading de la Smart Money
 
 Article sur Trading et Data Analyses :
 
