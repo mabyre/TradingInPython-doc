@@ -9,9 +9,11 @@ et
 
 Certaines stratégies permettent une {{ "analyse large de la tendance" | keyword }} afin de comprendre comment évolu le cours de l'action, d'autres sont {{ "plus fines" | keyword }} pour délivrer une tendance future du cours de l'action.
 
-<figure style="text-align: center;" title="Les stratégies de la plateforme">
-  <img src="/images/strategies/strategies.png" class="noborder" alt="" />
-  <figcaption><em>Les stratégies de la plateforme</em></figcaption>
+<figure style="text-align: center;">
+    <a href="/images/strategies/strategies.png" class="glightbox" data-gallery="galerie" title="Choix de la Stratégie pour l'analyse des données">
+        <img src="/images/strategies/strategies.png" alt="Choix de la Stratégie pour l'analyse des données"/>
+    </a>
+    <figcaption><em>Choix de la Stratégie pour l'analyse des données</em></figcaption>
 </figure>
 
 L'ensemble de ces stratégies de trading sont présentées dans la routine de trading.

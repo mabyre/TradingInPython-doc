@@ -12,7 +12,12 @@ Vous avez choisi l'intervalle et la période de temps de votre analyse, pour une
 
 Vous avez maintenant le choix entre toutes les stratégies proposées par la Plateforme :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGem7o-Ol9vkLbInCDF2YRrqRp6uf3uiWI42FdfMKvm0pCTI45cjauAqsq2ygN6x9rsT3kiJd-JOoECE3dpRkHZfKJJxqMPKbxt0bgB02IYcAmYh2tgu9KlqH6vfr3E54TKhcOO0cW5XzBysgbE5Moc7cBUXVUDnz7rHaoSWqOCk1_J-eOxLaFz5qhB0Rr/s458/2025-08-29_10h20_02.png" style="margin-left: auto; margin-right: auto;"><img alt="Choix de la Stratégie pour l'analyse des données" border="0" data-original-height="458" data-original-width="307" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGem7o-Ol9vkLbInCDF2YRrqRp6uf3uiWI42FdfMKvm0pCTI45cjauAqsq2ygN6x9rsT3kiJd-JOoECE3dpRkHZfKJJxqMPKbxt0bgB02IYcAmYh2tgu9KlqH6vfr3E54TKhcOO0cW5XzBysgbE5Moc7cBUXVUDnz7rHaoSWqOCk1_J-eOxLaFz5qhB0Rr/s16000/2025-08-29_10h20_02.png" title="Choix de la Stratégie pour l'analyse des données" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Choix de la Stratégie pour l'analyse des données</td></tr></tbody></table>
+<figure style="text-align: center;">
+    <a href="/images/strategies/strategies.png" class="glightbox" data-gallery="galerie" title="Choix de la Stratégie pour l'analyse des données">
+        <img src="/images/strategies/strategies.png" alt="Choix de la Stratégie pour l'analyse des données"/>
+    </a>
+    <figcaption><em>Choix de la Stratégie pour l'analyse des données</em></figcaption>
+</figure>
 
 Les stratégies de la plateforme sont là pour déterminer la tendance et faire des entrées et des sorties propres.
 
@@ -66,7 +71,12 @@ C'est une stratégie exclusive sur la plateforme {{ "TradingInPython" | keyword 
 
 En vous abonnant vous aurez accès à la formation complète sur cette stratégie.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiziOuCr9w3t5mb87P3vQQNPFM9jK8FVvII7QO_KtSxMjkGCp_m3mFuY_hFExP2VjZ49DrZUHMr_kWrzBbYMWIOQooFvk_W3Ig8h4HadWuwGv63tjpgzELF7T-6AEW10TXW2ufW9-zbH4N6B6ISJl196EBMXGw1fm06sR7jKObEBlVnF31TmtLzLRYRUQrd/s1050/2025-01-23_09h56_15.png" style="margin-left: auto; margin-right: auto;"><img alt="Analyse des flux volumiques d'achats et de vente" border="0" data-original-height="450" data-original-width="1050" height="274" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiziOuCr9w3t5mb87P3vQQNPFM9jK8FVvII7QO_KtSxMjkGCp_m3mFuY_hFExP2VjZ49DrZUHMr_kWrzBbYMWIOQooFvk_W3Ig8h4HadWuwGv63tjpgzELF7T-6AEW10TXW2ufW9-zbH4N6B6ISJl196EBMXGw1fm06sR7jKObEBlVnF31TmtLzLRYRUQrd/w640-h274/2025-01-23_09h56_15.png" title="Analyse des flux volumiques d'achats et de vente" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Analyse des flux volumiques d'achats et de vente</td></tr></tbody></table>
+<figure style="text-align: center;">
+    <a href="/images/strategies/volume-pression/nvidia.png" class="glightbox" data-gallery="galerie" title="Analyse des flux volumiques d'achats et de vente">
+        <img src="/images/strategies/volume-pression/nvidia.png" alt="alt" />
+    </a>
+    <figcaption><em>Analyse des flux volumiques d'achats et de vente</em></figcaption>
+</figure>
 
 Ici la pression de vente qui s'exerce sur LEGRAND est de 0.53 %. La pression du flux volumique est à la vente mais le prix monte c'est probablement le moment d'entrer en position.
 
@@ -79,7 +89,12 @@ Maintenant si vous décidez d'entrer ou de sortir de position, les deux stratég
 
 C'est la fameuse stratégie automatique par les deux moyennes mobiles et la moyenne exponentielle. Cette stratégie est certainement à utiliser au début de la découverte d'une nouvelle action pour calculer son {{ "Spread" | g_tooltip }}.
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfVM99yyWNGvwdgPSQEoj08vSzbmgPNvgfEIq3EN6LK45TN-Gc-XEaKm1arhNLmJdnQ_evX0yOAfhm2Zyf9lOlSxB2RuHJZjG9-dhJ7cCLOdAf1Klvtfk-smsgkhiMrLBiFBTZSLS9hbh2JkyMZu_MICYOUmvPfM3bNXNFacfIaMBflfnqhzJ5KXDGYl0q/s1194/2025-04-30_11h38_17.png" style="margin-left: auto; margin-right: auto;"><img alt="Stratégie automatique de trading par les moyennes mobiles" border="0" data-original-height="752" data-original-width="1194" height="404" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfVM99yyWNGvwdgPSQEoj08vSzbmgPNvgfEIq3EN6LK45TN-Gc-XEaKm1arhNLmJdnQ_evX0yOAfhm2Zyf9lOlSxB2RuHJZjG9-dhJ7cCLOdAf1Klvtfk-smsgkhiMrLBiFBTZSLS9hbh2JkyMZu_MICYOUmvPfM3bNXNFacfIaMBflfnqhzJ5KXDGYl0q/w640-h404/2025-04-30_11h38_17.png" title="Stratégie automatique de trading par les moyennes mobiles" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Stratégie automatique de trading par les moyennes mobiles</td></tr></tbody></table>
+<figure style="text-align: center;">
+    <a href="/images/strategies/moyennes-mobiles/interface.png" class="glightbox" data-gallery="galerie" title="Analyse des flux volumiques d'achats et de vente">
+        <img src="/images/strategies/moyennes-mobiles/interface.png" alt="alt" />
+    </a>
+    <figcaption><em>Analyse des flux volumiques d'achats et de vente</em></figcaption>
+</figure>
 
 Lorsque la moyenne mobile {{ "Moyenne Mobile courte" | keyword }} passe au dessous de {{ "Moyenne Mobile longue" | keyword }} et que l'exponentielle est au dessus des deux moyennes mobiles c'est un signal d'achat {{ "(triangle vert)" | green }} une tendance haussière débute.
 

@@ -28,9 +28,7 @@ Ce sont eux qui génèrent la majorité du volume et de la liquidité. Alors leu
 
 ## Stratégie du trading de la Smart Money
 
-Article sur Trading et Data Analyses :
-
-- <a href="https://www.trading-et-data-analyses.com/2025/12/decoder-structure-du-marche-en-langage-python.html" target="_blank">Comment décoder la structure du marché ?</a>
+Voici comment se présente l'interface de cette stratégie :
 
 <figure style="text-align: center;">
     <a href="/images/strategies/smart-money-concept/interface.png" class="glightbox" data-gallery="galerie" title="Interface - Smart Money Concept - Trading ICT">
@@ -38,6 +36,161 @@ Article sur Trading et Data Analyses :
     </a>
     <figcaption><em>Smart Money Concept - Trading ICT</em></figcaption>
 </figure>
+
+## Concepts ICT de la Smart Money
+
+Voici trois formations essentielles à la compréhension du trading de la Smart Money :
+
+- <a href="https://www.trading-et-data-analyses.com/2026/01/trading-de-la-smart-money-structure-du-marche.html" target="_blank">Structure du marché en vagues de Dow</a>
+
+- <a href="https://www.trading-et-data-analyses.com/2026/01/trading-de-la-smart-money-cassure-de-structure.html" target="_blank">Cassure de structure CHoCH - BoS</a>
+
+- <a href="https://www.trading-et-data-analyses.com/2026/01/trading-de-la-smart-money-concept-de-liquidity.html" target="_blank">La prise de liquidité</a>
+
+Un fois que vous avez en têtes ces différents concepts de l'ICT, voici comment les enchaîner pour faire une lecture efficace du trading de la Smart Money :
+
+- <a href="https://www.trading-et-data-analyses.com/2026/01/comment-enchainer-les-concepts-du-trading-smart-money.html" target="_blank">Structure du marché en vagues de Dow</a>
+
+## Paramètrage des concepts ICT
+
+Voici les paramètres de la Smart Money, ils permettent d'ajuster la finesse des concepts de l'ICT :
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/interface.png" class="glightbox" data-gallery="galerie" title="Interface - Smart Money Concept - Trading ICT">
+        <img src="/images/strategies/smart-money-concept/interface.png" alt="" />
+    </a>
+    <figcaption><em>Smart Money Concept - Trading ICT</em></figcaption>
+</figure>
+
+### Swing with
+
+Régler la largeur des swings, les swings ce sont les hauts et les bas qui permettent de déterminer les vagues de Dow.
+
+Un swning haut est déterminé par un plus haut au milieu de plus bas autour de lui, un swing de 3 signifie que le plus haut est entouré de 3 plus bas à droite et trois plus bat à gauche.
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/swing-3.png" class="glightbox" data-gallery="galerie" title="Swing de 3">
+        <img src="/images/strategies/smart-money-concept/swing-3.png" alt="" />
+    </a>
+    <figcaption><em>Swing de 3</em></figcaption>
+</figure>
+
+Si maintenant je clique pour augmenter le Swing with à 4 :
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/swing-4.png" class="glightbox" data-gallery="galerie" title="Swing de 4">
+        <img src="/images/strategies/smart-money-concept/swing-4.png" alt="" />
+    </a>
+    <figcaption><em>Swing de 4</em></figcaption>
+</figure>
+
+Au moins 4 bougies autour de ce plus haut HH sont plus basses que lui.
+
+Vous pouvez constater que le réglage du swing modifie notablement la structure.
+
+Vous allez pouvoir régler le swing graphiquement en voyant les vagues de Dow se former ou non.
+
+### Liquidity threshold
+
+Le Liquidity threshold ou {{ "Seuil de liquidité" | keyword }}, cette fois le graphe n'est pas redessiné lorsque vous modifiez le Liquidity threshold, pour redessiner le graphe avec un nouveau seuil cliquez sur le bouton {{ "Apply" | keywordi }}.
+
+- Seuil de liquidité à 0.005 :
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/liquidity-005.png" class="glightbox" data-gallery="galerie" title="Seuil de liquidité à 0.005">
+        <img src="/images/strategies/smart-money-concept/liquidity-005.png" alt="" />
+    </a>
+    <figcaption><em>Seuil de liquidité à 0.005</em></figcaption>
+</figure>
+
+- Seuil de liquidité à 0.015 :
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/liquidity-015.png" class="glightbox" data-gallery="galerie" title="Seuil de liquidité à 0.015">
+        <img src="/images/strategies/smart-money-concept/liquidity-015.png" alt="" />
+    </a>
+    <figcaption><em>Seuil de liquidité à 0.015</em></figcaption>
+</figure>
+
+Les prises de liquidité de la Smart Money se font en générale sur des bougies prochent les unes des autres. Là encore vous pouvez régler graphiquement se paramètre.
+
+### ATR period
+
+l'ATR c'est l'indicateur technique {{ "ATR" | g_link }} qui permet de valider le BoS (Break Of Structure) c'est à dire l'engouement du marché pour un mouvement puissant du prix d'où la rupture de la tendance en cours. 14 est la valeur de réglage qui convient mais certains traders préféreront une autre valeur.
+
+### Displacement ratio
+
+Ou ratio de déplacement, sous entendu de déplacement du prix, ce paramètre est un éléments clef du trading de la Smart Money, il détermine la force du mouvement du prix en mesurant la force de la bougie. Cette force se trouve en calculant un ratio entre sont corps (Open - Close) et la longeur des mèches.
+
+Avec un {{ "Displacement ratio" | keyword }} de 0.70 vous ne voyez que les bougies très fortes :
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/displacement-070.png" class="glightbox" data-gallery="galerie" title="Seuil de déplacement à 0.7">
+        <img src="/images/strategies/smart-money-concept/displacement-070.png" alt="" />
+    </a>
+    <figcaption><em>Seuil de déplacement à 0.7</em></figcaption>
+</figure>
+
+Notez au dessus des bougie un triangle rouge avec la valeur du displacement (déplacement). Vous pouvez ainsi juger des bougies les plus fortes.
+
+En passant ce seuil à 0.35 et en cliquant sur {{ "Apply" | keywordi }} pour redessiner le graphe, vous voyez beaucoup plus de bougies.
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/displacement-035.png" class="glightbox" data-gallery="galerie" title="Seuil de déplacement à 0.35">
+        <img src="/images/strategies/smart-money-concept/displacement-035.png" alt="" />
+    </a>
+    <figcaption><em>Seuil de déplacement à 0.35</em></figcaption>
+</figure>
+
+Les {{ "CHoCH" | keyword }} et les {{ "BoS" | keyword }} sont validés et sont de vrais signaux s'ils se produisent sur de forts déplacements. Vous comprenez que pour casser une structure baissière, il va falloir une hausse conséquente surtout si c'est la Smart Money qui est à la manoeuvre.
+
+### FVG displacement ATR
+
+Fair Value Gap, appelé également "inbalance" car il reflète un déséquilibre, voici ce qu'est un FVG :
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/fvg.png" class="glightbox" data-gallery="galerie" title="Fair Value Gap">
+        <img src="/images/strategies/smart-money-concept/fvg.png" alt="" />
+    </a>
+    <figcaption><em>Fair Value Gap</em></figcaption>
+</figure>
+
+C'est quand les mèches de deux bougies, séparées par une troisième, ne se recouvrent pas. On dit qu'il y a un désiquilibre du cours.
+
+Le paramètre {{ "FVG displacement ATR" | keyword }} permet de mesurer la force des FVG et de ne tenir compte que des FVG puissants.
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/fvg-30.png" class="glightbox" data-gallery="galerie" title="Seuil de FVG 0.30">
+        <img src="/images/strategies/smart-money-concept/fvg-30.png" alt="" />
+    </a>
+    <figcaption><em>Seuil de FVG 0.30</em></figcaption>
+</figure>
+
+Vous voyez plein de FVG, ils n'ont pas tous la même importance.
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/fvg-70.png" class="glightbox" data-gallery="galerie" title="Seuil de déplacement à 0.70">
+        <img src="/images/strategies/smart-money-concept/fvg-70.png" alt="" />
+    </a>
+    <figcaption><em>Seuil de FVG à 0.70</em></figcaption>
+</figure>
+
+Avec un seuil de 0.70 vous ne voyez plus que les Fair Value Gap puissants, il y a un fort mouvement du prix dans cette zone. Les FVG permettent de valider la force du BoS de la cassure de la structure avec force.
+
+## Trading de la Smart Money
+
+Vous avez maintenant entre les mains une stratégie qui vous permet de lire les graphes du trading de la Smart Money.
+
+Vous voyez également sur ce graphe affichés les OTE (Optimal Trade Entry) les points d'entrée optimum :
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/smart-money.png" class="glightbox" data-gallery="galerie" title="Lecture du trading de la Smart Money">
+        <img src="/images/strategies/smart-money-concept/smart-money.png" alt="" />
+    </a>
+    <figcaption><em>Lecture du trading de la Smart Money</em></figcaption>
+</figure>
+
+Vous avez la possiblité de placer sur le graphe vos des Order Blocks {{ "à la main" | keywordi }} pour venir affiner votre stratégie et votre lecture de la Smart Money.
 
 ## Code en Python
 
