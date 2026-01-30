@@ -66,7 +66,7 @@ Voici les paramètres de la Smart Money, ils permettent d'ajuster la finesse des
 
 Régler la largeur des swings, les swings ce sont les hauts et les bas qui permettent de déterminer les vagues de Dow.
 
-Un swning haut est déterminé par un plus haut au milieu de plus bas autour de lui, un swing de 3 signifie que le plus haut est entouré de 3 plus bas à droite et trois plus bat à gauche.
+Un swning haut est déterminé par un plus haut au milieu de plus bas autour de lui, un swing de 3 signifie que le plus haut est entouré de 3 plus bas à droite et trois plus bas à gauche.
 
 <figure style="text-align: center;">
     <a href="/images/strategies/smart-money-concept/swing-3.png" class="glightbox" data-gallery="galerie" title="Swing de 3">
