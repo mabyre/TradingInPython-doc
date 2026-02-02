@@ -12,13 +12,13 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://trading-in-python.sodevlog.com/strategies/smart_money_concept/">
+        <link rel="canonical" href="https://trading-in-python.sodevlog.com/strategies/ichimoku-kinko-hyo/">
       
       
-        <link rel="prev" href="../prediction_ai/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../../heatmap-screener/screeners/">
+        <link rel="next" href="../moyennes-mobiles/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Smart Money Concept ICT - TradingInPython</title>
+        <title>Ichimoku & Deep Learning - TradingInPython</title>
       
     
     
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#smart-money-concept-et-trading-ict" class="md-skip">
+        <a href="#ichimoku-kinko-hyo-deeplearning" class="md-skip">
           Aller au contenu
         </a>
       
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Smart Money Concept ICT
+              Ichimoku & Deep Learning
             
           </span>
         </div>
@@ -436,10 +436,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../ichimoku_kinko_hyo/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Ichimoku & Deep Learning
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -450,6 +472,113 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prediction-keras-et-tensorflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prédiction keras et tensorflow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Prédiction keras et tensorflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-du-modele-de-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration du modèle de prédiction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculer-la-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculer la Prédiction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lire-le-signal-de-prediction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lire le signal de prédiction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-trois-etats-du-signal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les trois états du signal
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#algorithme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Algorithme
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -781,32 +910,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Smart Money Concept ICT
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../smart-money-concept/" class="md-nav__link">
         
   
   
@@ -817,122 +924,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#strategie-du-trading-de-la-smart-money" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stratégie du trading de la Smart Money
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#concepts-ict-de-la-smart-money" class="md-nav__link">
-    <span class="md-ellipsis">
-      Concepts ICT de la Smart Money
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#parametrage-des-concepts-ict" class="md-nav__link">
-    <span class="md-ellipsis">
-      Paramètrage des concepts ICT
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Paramètrage des concepts ICT">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#swing-with" class="md-nav__link">
-    <span class="md-ellipsis">
-      Swing with
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#liquidity-threshold" class="md-nav__link">
-    <span class="md-ellipsis">
-      Liquidity threshold
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#atr-period" class="md-nav__link">
-    <span class="md-ellipsis">
-      ATR period
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#displacement-ratio" class="md-nav__link">
-    <span class="md-ellipsis">
-      Displacement ratio
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fvg-displacement-atr" class="md-nav__link">
-    <span class="md-ellipsis">
-      FVG displacement ATR
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trading-de-la-smart-money" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trading de la Smart Money
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#code-en-python" class="md-nav__link">
-    <span class="md-ellipsis">
-      Code en Python
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1767,73 +1758,64 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#strategie-du-trading-de-la-smart-money" class="md-nav__link">
+  <a href="#interface" class="md-nav__link">
     <span class="md-ellipsis">
-      Stratégie du trading de la Smart Money
+      Interface
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#concepts-ict-de-la-smart-money" class="md-nav__link">
+  <a href="#configuration" class="md-nav__link">
     <span class="md-ellipsis">
-      Concepts ICT de la Smart Money
+      Configuration
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#parametrage-des-concepts-ict" class="md-nav__link">
+  <a href="#prediction-keras-et-tensorflow" class="md-nav__link">
     <span class="md-ellipsis">
-      Paramètrage des concepts ICT
+      Prédiction keras et tensorflow
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Paramètrage des concepts ICT">
+    <nav class="md-nav" aria-label="Prédiction keras et tensorflow">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#swing-with" class="md-nav__link">
+  <a href="#configuration-du-modele-de-prediction" class="md-nav__link">
     <span class="md-ellipsis">
-      Swing with
+      Configuration du modèle de prédiction
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#liquidity-threshold" class="md-nav__link">
+  <a href="#calculer-la-prediction" class="md-nav__link">
     <span class="md-ellipsis">
-      Liquidity threshold
+      Calculer la Prédiction
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#atr-period" class="md-nav__link">
+  <a href="#lire-le-signal-de-prediction" class="md-nav__link">
     <span class="md-ellipsis">
-      ATR period
+      Lire le signal de prédiction
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#displacement-ratio" class="md-nav__link">
+  <a href="#les-trois-etats-du-signal" class="md-nav__link">
     <span class="md-ellipsis">
-      Displacement ratio
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fvg-displacement-atr" class="md-nav__link">
-    <span class="md-ellipsis">
-      FVG displacement ATR
+      Les trois états du signal
     </span>
   </a>
   
@@ -1845,18 +1827,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#trading-de-la-smart-money" class="md-nav__link">
+  <a href="#formation" class="md-nav__link">
     <span class="md-ellipsis">
-      Trading de la Smart Money
+      Formation
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#code-en-python" class="md-nav__link">
+  <a href="#algorithme" class="md-nav__link">
     <span class="md-ellipsis">
-      Code en Python
+      Algorithme
     </span>
   </a>
   
@@ -1881,174 +1863,91 @@
   
 
 
-<h1 id="smart-money-concept-et-trading-ict">Smart Money Concept et Trading ICT<a class="headerlink" href="#smart-money-concept-et-trading-ict" title="Permanent link">&para;</a></h1>
-<p>Richard D. Wyckoff (années 1900–1930) a posé les base du trading de la Smart Money, elles ont été reprises reprises par Michael J. Huddleston dont il n’existe pas d’information publique fiable sur la date de naissance précise, il serait probablement né dans les années 1960–1970.</p>
-<p>Michael J. Huddleston reprend les bases pour les struturer en Smart Money Concept (SMC) :</p>
-<ul>
-<li><span class="text-keyword">Structure</span> : Dow's waves - bearish: LH, LL, LH - bullish: HH, HL, HH</li>
-<li><span class="text-keyword">BOS</span> : Break Of Structure</li>
-<li><span class="text-keyword">CHoCH</span> : Change Of Character</li>
-<li><span class="text-keyword">Order Blocks</span> :  Zones où de grands ordres ont été exécutés</li>
-<li><span class="text-keyword">Liquidity grabs</span> : Prises de liquidités par la Smart Money</li>
-<li><span class="text-keyword">FVG</span> : Fair Value Gap</li>
-<li><span class="text-keyword">OTE</span> : Optimal Trade Entry / Premium-Discount</li>
-</ul>
-<p>Michael J. Huddleston est l'Inner Circle Trader, ICT est devenu son pseudo.</p>
-<p>Le trading de la Smart Money s'attache a repérer dans le cours des actions, les grands cycles de la smart money.</p>
-<p>Les acteurs de la <span class="text-keyword">Smart Money</span> sont :</p>
-<ul>
-<li>Banques d’investissement (J.P. Morgan, Goldman Sachs, Morgan Stanley…)</li>
-<li>Market Makers (Citadel Securities, Virtu Financial…)</li>
-<li>Hedge Funds (Bridgewater, Renaissance Technologies, Two Sigma…)</li>
-<li>Institutions financières (fonds de pension, assurances, fonds souverains)</li>
-<li>Grosses prop firms (Jane Street, Jump Trading, DRW…)</li>
-</ul>
-<p>Ce sont eux qui génèrent la majorité du volume et de la liquidité. Alors leurs actions laissent des traces dans les cours et le trading ICT consiste à détecter ces traces pour faire un trading astucieux et finalement suivre la smart money.</p>
-<h2 id="strategie-du-trading-de-la-smart-money">Stratégie du trading de la Smart Money<a class="headerlink" href="#strategie-du-trading-de-la-smart-money" title="Permanent link">&para;</a></h2>
-<p>Voici comment se présente l'interface de cette stratégie :</p>
+<h1 id="ichimoku-kinko-hyo-deeplearning">Ichimoku Kinko Hyo &amp; Deeplearning<a class="headerlink" href="#ichimoku-kinko-hyo-deeplearning" title="Permanent link">&para;</a></h1>
+<p>L'indicateur technique <span class="text-keyword">Ichimoku Kinko Hyo</span> est une stratégie à lui tout seul. C'est une analyse technique extrêment graphique qui permet en un coup d'oeil de détecter les grandes tendances du cours de l'action.</p>
+<p>Voici le graphe de l'indicateur technique <span class="text-keyword">Ichimoku-Kinko-Hyo</span> et sa prédiction <span class="text-keyword">Keras</span>.</p>
+<h2 id="interface">Interface<a class="headerlink" href="#interface" title="Permanent link">&para;</a></h2>
+<p>Dans le Menu <span class="text-keyword">Stratégie</span> choisissez <span class="text-keyword">Ichimoku-Kinko-Hyo</span> :</p>
 <figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/interface.png" class="glightbox" data-gallery="galerie" title="Interface - Smart Money Concept - Trading ICT">
-        <img src="/images/strategies/smart-money-concept/interface.png" alt="" />
-    </a>
-    <figcaption><em>Smart Money Concept - Trading ICT</em></figcaption>
+  <a href="/images/strategies/ichimoku/ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie" title="Interface de l'Ichimoku-Kinko-Hyo">
+    <img src="/images/strategies/ichimoku/ichimoku-kinko-hyo.png"/>
+  </a>
+  <figcaption><em>Interface - Stratégie Ichimoku-Kinko-Hyo</em></figcaption>
 </figure>
 
-<h2 id="concepts-ict-de-la-smart-money">Concepts ICT de la Smart Money<a class="headerlink" href="#concepts-ict-de-la-smart-money" title="Permanent link">&para;</a></h2>
-<p>Voici trois formations essentielles à la compréhension du trading de la Smart Money :</p>
-<ul>
-<li>
-<p><a href="https://www.trading-et-data-analyses.com/2026/01/trading-de-la-smart-money-structure-du-marche.html" target="_blank">Structure du marché en vagues de Dow</a></p>
-</li>
-<li>
-<p><a href="https://www.trading-et-data-analyses.com/2026/01/trading-de-la-smart-money-cassure-de-structure.html" target="_blank">Cassure de structure CHoCH - BoS</a></p>
-</li>
-<li>
-<p><a href="https://www.trading-et-data-analyses.com/2026/01/trading-de-la-smart-money-concept-de-liquidity.html" target="_blank">La prise de liquidité</a></p>
-</li>
-</ul>
-<p>Un fois que vous avez en têtes ces différents concepts de l'ICT, voici comment les enchaîner pour faire une lecture efficace du trading de la Smart Money :</p>
-<ul>
-<li><a href="https://www.trading-et-data-analyses.com/2026/01/comment-enchainer-les-concepts-du-trading-smart-money.html" target="_blank">Structure du marché en vagues de Dow</a></li>
-</ul>
-<h2 id="parametrage-des-concepts-ict">Paramètrage des concepts ICT<a class="headerlink" href="#parametrage-des-concepts-ict" title="Permanent link">&para;</a></h2>
-<p>Voici les paramètres de la Smart Money, ils permettent d'ajuster la finesse des concepts de l'ICT :</p>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
+<p>Remarquez l'interface de configuration avec trois parties :</p>
 <figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/interface.png" class="glightbox" data-gallery="galerie" title="Interface - Smart Money Concept - Trading ICT">
-        <img src="/images/strategies/smart-money-concept/interface.png" alt="" />
-    </a>
-    <figcaption><em>Smart Money Concept - Trading ICT</em></figcaption>
-</figure>
-
-<h3 id="swing-with">Swing with<a class="headerlink" href="#swing-with" title="Permanent link">&para;</a></h3>
-<p>Régler la largeur des swings, les swings ce sont les hauts et les bas qui permettent de déterminer les vagues de Dow.</p>
-<p>Un swning haut est déterminé par un plus haut au milieu de plus bas autour de lui, un swing de 3 signifie que le plus haut est entouré de 3 plus bas à droite et trois plus bas à gauche.</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/swing-3.png" class="glightbox" data-gallery="galerie" title="Swing de 3">
-        <img src="/images/strategies/smart-money-concept/swing-3.png" alt="" />
-    </a>
-    <figcaption><em>Swing de 3</em></figcaption>
-</figure>
-
-<p>Si maintenant je clique pour augmenter le Swing with à 4 :</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/swing-4.png" class="glightbox" data-gallery="galerie" title="Swing de 4">
-        <img src="/images/strategies/smart-money-concept/swing-4.png" alt="" />
-    </a>
-    <figcaption><em>Swing de 4</em></figcaption>
-</figure>
-
-<p>Au moins 4 bougies autour de ce plus haut HH sont plus basses que lui.</p>
-<p>Vous pouvez constater que le réglage du swing modifie notablement la structure.</p>
-<p>Vous allez pouvoir régler le swing graphiquement en voyant les vagues de Dow se former ou non.</p>
-<h3 id="liquidity-threshold">Liquidity threshold<a class="headerlink" href="#liquidity-threshold" title="Permanent link">&para;</a></h3>
-<p>Le Liquidity threshold ou <span class="text-keyword">Seuil de liquidité</span>, cette fois le graphe n'est pas redessiné lorsque vous modifiez le Liquidity threshold, pour redessiner le graphe avec un nouveau seuil cliquez sur le bouton <span class="text-keyword">"Apply"</span>.</p>
-<ul>
-<li>Seuil de liquidité à 0.005 :</li>
-</ul>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/liquidity-005.png" class="glightbox" data-gallery="galerie" title="Seuil de liquidité à 0.005">
-        <img src="/images/strategies/smart-money-concept/liquidity-005.png" alt="" />
-    </a>
-    <figcaption><em>Seuil de liquidité à 0.005</em></figcaption>
+  <a href="/images/strategies/ichimoku/config-ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie" title="Configuration de l'Ichimoku-Kinko-Hyo">
+    <img src="/images/strategies/ichimoku/config-ichimoku-kinko-hyo.png"/>
+  </a>
+  <figcaption><em>Configuration - Stratégie Ichimoku-Kinko-Hyo</em></figcaption>
 </figure>
 
 <ul>
-<li>Seuil de liquidité à 0.015 :</li>
+<li><strong>(1)</strong> Longueur des moyennes mobiles de la Tenken, Kijun et Senkou</li>
+<li><strong>(2)</strong> Configuration du nombre de jours prédiction</li>
+<li><strong>(3)</strong> Choix prédéfinis des longueurs pour les signaux Tenken, Kijun et Senkou</li>
 </ul>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/liquidity-015.png" class="glightbox" data-gallery="galerie" title="Seuil de liquidité à 0.015">
-        <img src="/images/strategies/smart-money-concept/liquidity-015.png" alt="" />
-    </a>
-    <figcaption><em>Seuil de liquidité à 0.015</em></figcaption>
-</figure>
-
-<p>Les prises de liquidité de la Smart Money se font en générale sur des bougies prochent les unes des autres. Là encore vous pouvez régler graphiquement se paramètre.</p>
-<h3 id="atr-period">ATR period<a class="headerlink" href="#atr-period" title="Permanent link">&para;</a></h3>
-<p>l'ATR c'est l'indicateur technique ATR not in glossary! qui permet de valider le BoS (Break Of Structure) c'est à dire l'engouement du marché pour un mouvement puissant du prix d'où la rupture de la tendance en cours. 14 est la valeur de réglage qui convient mais certains traders préféreront une autre valeur.</p>
-<h3 id="displacement-ratio">Displacement ratio<a class="headerlink" href="#displacement-ratio" title="Permanent link">&para;</a></h3>
-<p>Ou ratio de déplacement, sous entendu de déplacement du prix, ce paramètre est un éléments clef du trading de la Smart Money, il détermine la force du mouvement du prix en mesurant la force de la bougie. Cette force se trouve en calculant un ratio entre sont corps (Open - Close) et la longeur des mèches.</p>
-<p>Avec un <span class="text-keyword">Displacement ratio</span> de 0.70 vous ne voyez que les bougies très fortes :</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/displacement-070.png" class="glightbox" data-gallery="galerie" title="Seuil de déplacement à 0.7">
-        <img src="/images/strategies/smart-money-concept/displacement-070.png" alt="" />
-    </a>
-    <figcaption><em>Seuil de déplacement à 0.7</em></figcaption>
-</figure>
-
-<p>Notez au dessus des bougie un triangle rouge avec la valeur du displacement (déplacement). Vous pouvez ainsi juger des bougies les plus fortes.</p>
-<p>En passant ce seuil à 0.35 et en cliquant sur <span class="text-keyword">"Apply"</span> pour redessiner le graphe, vous voyez beaucoup plus de bougies.</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/displacement-035.png" class="glightbox" data-gallery="galerie" title="Seuil de déplacement à 0.35">
-        <img src="/images/strategies/smart-money-concept/displacement-035.png" alt="" />
-    </a>
-    <figcaption><em>Seuil de déplacement à 0.35</em></figcaption>
-</figure>
-
-<p>Les <span class="text-keyword">CHoCH</span> et les <span class="text-keyword">BoS</span> sont validés et sont de vrais signaux s'ils se produisent sur de forts déplacements. Vous comprenez que pour casser une structure baissière, il va falloir une hausse conséquente surtout si c'est la Smart Money qui est à la manoeuvre.</p>
-<h3 id="fvg-displacement-atr">FVG displacement ATR<a class="headerlink" href="#fvg-displacement-atr" title="Permanent link">&para;</a></h3>
-<p>Fair Value Gap, appelé également "inbalance" car il reflète un déséquilibre, voici ce qu'est un FVG :</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/fvg.png" class="glightbox" data-gallery="galerie" title="Fair Value Gap">
-        <img src="/images/strategies/smart-money-concept/fvg.png" alt="" />
-    </a>
-    <figcaption><em>Fair Value Gap</em></figcaption>
-</figure>
-
-<p>C'est quand les mèches de deux bougies, séparées par une troisième, ne se recouvrent pas. On dit qu'il y a un désiquilibre du cours.</p>
-<p>Le paramètre <span class="text-keyword">FVG displacement ATR</span> permet de mesurer la force des FVG et de ne tenir compte que des FVG puissants.</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/fvg-30.png" class="glightbox" data-gallery="galerie" title="Seuil de FVG 0.30">
-        <img src="/images/strategies/smart-money-concept/fvg-30.png" alt="" />
-    </a>
-    <figcaption><em>Seuil de FVG 0.30</em></figcaption>
-</figure>
-
-<p>Vous voyez plein de FVG, ils n'ont pas tous la même importance.</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/fvg-70.png" class="glightbox" data-gallery="galerie" title="Seuil de déplacement à 0.70">
-        <img src="/images/strategies/smart-money-concept/fvg-70.png" alt="" />
-    </a>
-    <figcaption><em>Seuil de FVG à 0.70</em></figcaption>
-</figure>
-
-<p>Avec un seuil de 0.70 vous ne voyez plus que les Fair Value Gap puissants, il y a un fort mouvement du prix dans cette zone. Les FVG permettent de valider la force du BoS de la cassure de la structure avec force.</p>
-<h2 id="trading-de-la-smart-money">Trading de la Smart Money<a class="headerlink" href="#trading-de-la-smart-money" title="Permanent link">&para;</a></h2>
-<p>Vous avez maintenant entre les mains une stratégie qui vous permet de lire les graphes du trading de la Smart Money.</p>
-<p>Vous voyez également sur ce graphe affichés les OTE (Optimal Trade Entry) les points d'entrée optimum :</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/smart-money.png" class="glightbox" data-gallery="galerie" title="Lecture du trading de la Smart Money">
-        <img src="/images/strategies/smart-money-concept/smart-money.png" alt="" />
-    </a>
-    <figcaption><em>Lecture du trading de la Smart Money</em></figcaption>
-</figure>
-
-<p>Vous avez la possiblité de placer sur le graphe vos des Order Blocks <span class="text-keyword">"à la main"</span> pour venir affiner votre stratégie et votre lecture de la Smart Money.</p>
-<h2 id="code-en-python">Code en Python<a class="headerlink" href="#code-en-python" title="Permanent link">&para;</a></h2>
-<p>Pour les développeurs en langage <span title="Langage de programmation utilisé pour le développement de la plateforme TradingInPython." style="border-bottom:1px dotted;cursor:help"><b>Python</b></span> sur le GitHub de PyTrading :</p>
+<h2 id="prediction-keras-et-tensorflow">Prédiction keras et tensorflow<a class="headerlink" href="#prediction-keras-et-tensorflow" title="Permanent link">&para;</a></h2>
+<p>Avec cette stratégie vous avez la possibilité de vous faire aider par l'IA, un signal automatique d'achat et de vente est alors affiché sur le graphique.</p>
+<h3 id="configuration-du-modele-de-prediction">Configuration du modèle de prédiction<a class="headerlink" href="#configuration-du-modele-de-prediction" title="Permanent link">&para;</a></h3>
+<p>Le modèle de prédiction <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html" target="_blank">LogisticRegression de sci-learn</a> est utile pour prédire les signaux d'une stratégie binaire comme à l'achat (1) ou bien à la vente (0)</p>
+<p>Avec notre implémentation ce modèle possède deux paramètres vus au point <strong>(2)</strong> :</p>
 <ul>
-<li><a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/Z-Integration/indicator/smart_money_concept" target="_blank">Smart Money Concept et Trading ICT</a></li>
+<li>Nombre de jours de la prédiction</li>
+<li>Nombre de jours la fenêtre de prédiction (largeur de la fenêtre mobile)</li>
 </ul>
-<p><em>Cette stratégie de trading technique sera <strong>bientôt disponible</strong> dans la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html">TradingInPython</a></em></p>
+<h3 id="calculer-la-prediction">Calculer la Prédiction<a class="headerlink" href="#calculer-la-prediction" title="Permanent link">&para;</a></h3>
+<figure style="text-align: center;">
+  <a href="/images/strategies/ichimoku/ichimoky-prediction.png" class="glightbox" data-gallery="galerie" title="Ichimoku-Kinko-Hyo signal prédiction">
+    <img src="/images/strategies/ichimoku/ichimoky-prediction.png"/>
+  </a>
+  <figcaption><em>Ichimoku-Kinko-Hyo Calculer la prédiction</em></figcaption>
+</figure>
+
+<ul>
+<li><strong>(1)</strong> Cochez la case <span class="text-keyword">Forcasting</span> pour afficher le signal de prédiction.</li>
+<li><strong>(2)</strong> Un signal à trois états, achat de vente et neutre, est généré par l'entrainement de l'IA.</li>
+<li><strong>(3)</strong> Un réseau de neurones <span class="text-keyword">Keras</span> est entrainé sur les données du passé pour délivrer sa prédiction.</li>
+</ul>
+<p>Ici AIR LIQUIDE est à l'achat.</p>
+<h3 id="lire-le-signal-de-prediction">Lire le signal de prédiction<a class="headerlink" href="#lire-le-signal-de-prediction" title="Permanent link">&para;</a></h3>
+<figure style="text-align: center;">
+  <a href="/images/strategies/ichimoku/ichimoky-prediction-signal.png"  class="glightbox" data-gallery="galerie" title="Ichimoku-Kinko-Hyo prédiction">
+    <img src="/images/strategies/ichimoku/ichimoky-prediction-signal.png"/>
+  </a>
+  <figcaption><em>Ichimoku-Kinko-Hyo Lire le signal de prédiction</em></figcaption>
+</figure>
+
+<ul>
+<li><strong>(1)</strong> - L'outil Zoom de Matplotlib</li>
+<li><strong>(2)</strong> - Le signal de prédiction</li>
+</ul>
+<p>Avec l'outil zoom je fais un zoom sur la fin du graphe, je peux lire le signal de prédiction qui possède trois états.</p>
+<h3 id="les-trois-etats-du-signal">Les trois états du signal<a class="headerlink" href="#les-trois-etats-du-signal" title="Permanent link">&para;</a></h3>
+<figure style="text-align: center;">
+  <a href="/images/strategies/ichimoku/ichimoku-signal-zoom.png" title="Ichimoku-Kinko-Hyo lecture du signal">
+    <img src="/images/strategies/ichimoku/ichimoku-signal-zoom.png" class="glightbox" data-gallery="galerie"/>
+  </a>
+  <figcaption><em>Ichimoku-Kinko-Hyo Lire le signal de prédiction</em></figcaption>
+</figure>
+
+<ul>
+<li><strong>(1)</strong> Vente</li>
+<li><strong>(2)</strong> Neutre</li>
+<li><strong>(3)</strong> Achat</li>
+</ul>
+<p>Bien sûr avec Safran en ce moment ce signal est à l'achat.</p>
+<h2 id="formation">Formation<a class="headerlink" href="#formation" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.trading-et-data-analyses.com/2024/10/formation-ichimoku-kinko-hyo.html" target="_blank">Formation à l'Ichimoky Kinko Hyo</a></li>
+</ul>
+<h2 id="algorithme">Algorithme<a class="headerlink" href="#algorithme" title="Permanent link">&para;</a></h2>
+<p>Découvrez l'implémentation <span title="Langage de programmation utilisé pour le développement de la plateforme TradingInPython." style="border-bottom:1px dotted;cursor:help"><b>Python</b></span> de cet indicateur technique au sein de la plateforme :</p>
+<ul>
+<li><a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/digitsignalprocessing/ichimoku_kinko_hyo.py" target="_blank">GitHub - Digital Signal Processing - Ichimoku Kinko Hyo</a></li>
+</ul>
 
 
 
@@ -2069,7 +1968,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="30 janvier 2026 16:50:05 UTC"><span class="timeago" datetime="2026-01-30T16:50:05+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="30 janvier 2026 16:50:05 UTC">2026-01-30</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2 février 2026 07:46:02 UTC"><span class="timeago" datetime="2026-02-02T07:46:02+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2 février 2026 07:46:02 UTC">2026-02-02</span>
   </span>
 
     
