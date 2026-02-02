@@ -1,6 +1,6 @@
 # Smart Money Concept et Trading ICT
 
-Richard D. Wyckoff (années 1900–1930) a posé les base du trading de la Smart Money, elles ont été reprises reprises par Michael J. Huddleston dont il n’existe pas d’information publique fiable sur la date de naissance précise, il serait probablement né dans les années 1960–1970.
+Richard D. Wyckoff (années 1900–1930) a posé les base du trading de la Smart Money, elles ont été reprises par Michael J. Huddleston dont il n’existe pas d’information publique fiable sur la date de naissance précise, il serait probablement né dans les années 1960–1970.
 
 Michael J. Huddleston reprend les bases pour les struturer en Smart Money Concept (SMC) :
 
@@ -14,7 +14,7 @@ Michael J. Huddleston reprend les bases pour les struturer en Smart Money Concep
 
 Michael J. Huddleston est l'Inner Circle Trader, ICT est devenu son pseudo.
 
-Le trading de la Smart Money s'attache a repérer dans le cours des actions, les grands cycles de la smart money.
+Le trading de la Smart Money s'attache à repérer dans le cours des actions, les grands cycles de la smart money.
 
 Les acteurs de la {{ "Smart Money" | keyword }} sont :
 
@@ -47,7 +47,7 @@ Voici trois formations essentielles à la compréhension du trading de la Smart 
 
 - <a href="https://www.trading-et-data-analyses.com/2026/01/trading-de-la-smart-money-concept-de-liquidity.html" target="_blank">La prise de liquidité</a>
 
-Un fois que vous avez en têtes ces différents concepts de l'ICT, voici comment les enchaîner pour faire une lecture efficace du trading de la Smart Money :
+Une fois que vous avez en tête ces différents concepts de l'ICT, voici comment les enchaîner pour faire une lecture efficace du trading de la Smart Money :
 
 - <a href="https://www.trading-et-data-analyses.com/2026/01/comment-enchainer-les-concepts-du-trading-smart-money.html" target="_blank">Structure du marché en vagues de Dow</a>
 
@@ -66,7 +66,7 @@ Voici les paramètres de la Smart Money, ils permettent d'ajuster la finesse des
 
 Régler la largeur des swings, les swings ce sont les hauts et les bas qui permettent de déterminer les vagues de Dow.
 
-Un swning haut est déterminé par un plus haut au milieu de plus bas autour de lui, un swing de 3 signifie que le plus haut est entouré de 3 plus bas à droite et trois plus bas à gauche.
+Un swing haut est déterminé par un plus haut au milieu de plus bas autour de lui, un swing de 3 signifie que le plus haut est entouré de 3 plus bas à droite et trois plus bas à gauche.
 
 <figure style="text-align: center;">
     <a href="/images/strategies/smart-money-concept/swing-3.png" class="glightbox" data-gallery="galerie" title="Swing de 3">
@@ -112,15 +112,15 @@ Le Liquidity threshold ou {{ "Seuil de liquidité" | keyword }}, cette fois le g
     <figcaption><em>Seuil de liquidité à 0.015</em></figcaption>
 </figure>
 
-Les prises de liquidité de la Smart Money se font en générale sur des bougies prochent les unes des autres. Là encore vous pouvez régler graphiquement se paramètre.
+Les prises de liquidité de la Smart Money se font en général sur des bougies proches les unes des autres. Là encore vous pouvez régler graphiquement ce paramètre.
 
 ### ATR period
 
-l'ATR c'est l'indicateur technique {{ "ATR" | g_link }} qui permet de valider le BoS (Break Of Structure) c'est à dire l'engouement du marché pour un mouvement puissant du prix d'où la rupture de la tendance en cours. 14 est la valeur de réglage qui convient mais certains traders préféreront une autre valeur.
+l'ATR c'est l'indicateur technique {{ "ATR" | g_link }} qui permet de valider le BoS (Break Of Structure) c'est-à-dire l'engouement du marché pour un mouvement puissant du prix d'où la rupture de la tendance en cours. 14 est la valeur de réglage qui convient mais certains traders préféreront une autre valeur.
 
 ### Displacement ratio
 
-Ou ratio de déplacement, sous entendu de déplacement du prix, ce paramètre est un éléments clef du trading de la Smart Money, il détermine la force du mouvement du prix en mesurant la force de la bougie. Cette force se trouve en calculant un ratio entre sont corps (Open - Close) et la longeur des mèches.
+Ou ratio de déplacement, sous entendu de déplacement du prix, ce paramètre est un élément clef du trading de la Smart Money, il détermine la force du mouvement du prix en mesurant la force de la bougie. Cette force se trouve en calculant un ratio entre son corps (Open - Close) et la longueur des mèches.
 
 Avec un {{ "Displacement ratio" | keyword }} de 0.70 vous ne voyez que les bougies très fortes :
 
@@ -131,7 +131,7 @@ Avec un {{ "Displacement ratio" | keyword }} de 0.70 vous ne voyez que les bougi
     <figcaption><em>Seuil de déplacement à 0.7</em></figcaption>
 </figure>
 
-Notez au dessus des bougie un triangle rouge avec la valeur du displacement (déplacement). Vous pouvez ainsi juger des bougies les plus fortes.
+Notez au-dessus des bougies un triangle rouge avec la valeur du displacement (déplacement). Vous pouvez ainsi juger des bougies les plus fortes.
 
 En passant ce seuil à 0.35 et en cliquant sur {{ "Apply" | keywordi }} pour redessiner le graphe, vous voyez beaucoup plus de bougies.
 
@@ -155,7 +155,7 @@ Fair Value Gap, appelé également "inbalance" car il reflète un déséquilibre
     <figcaption><em>Fair Value Gap</em></figcaption>
 </figure>
 
-C'est quand les mèches de deux bougies, séparées par une troisième, ne se recouvrent pas. On dit qu'il y a un désiquilibre du cours.
+C'est quand les mèches de deux bougies, séparées par une troisième, ne se recouvrent pas. On dit qu'il y a un déséquilibre du cours.
 
 Le paramètre {{ "FVG displacement ATR" | keyword }} permet de mesurer la force des FVG et de ne tenir compte que des FVG puissants.
 
@@ -190,7 +190,7 @@ Vous voyez également sur ce graphe affichés les OTE (Optimal Trade Entry) les 
     <figcaption><em>Lecture du trading de la Smart Money</em></figcaption>
 </figure>
 
-Vous avez la possiblité de placer sur le graphe vos des Order Blocks {{ "à la main" | keywordi }} pour venir affiner votre stratégie et votre lecture de la Smart Money.
+Vous avez la possibilité de placer sur le graphe vos des Order Blocks {{ "à la main" | keywordi }} pour venir affiner votre stratégie et votre lecture de la Smart Money.
 
 ## Code en Python
 
@@ -198,4 +198,4 @@ Pour les développeurs en langage {{ "Python" | g_tooltip }} sur le GitHub de Py
 
 - <a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/Z-Integration/indicator/smart_money_concept" target="_blank">Smart Money Concept et Trading ICT</a>
 
-_Cette stratégie de trading technique sera **bientôt disponible** dans la plateforme [TradingInPython](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html)_
+Utilisez dès maintenant cette stratégie de trading technique disponible dans la plateforme [TradingInPython](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html)

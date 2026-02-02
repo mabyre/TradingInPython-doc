@@ -38,7 +38,7 @@ C'est l'objet de la case à cocher {{ "Algo 1/2" | keywordi }} vous permettre de
 
 ## Zoomez pour recalculer la pression volumique
 
-La fonction de {{ "ZOOM" | keyword }}, la loupe dans la tool barre [MatPlotLib](../draw-on-charts/navigate-on-charts.md#toolbar-matplotlib]) vous permet de refaire les calculs pour la zone que vous choisissez avec ce zoom :
+La fonction de {{ "ZOOM" | keyword }}, la loupe dans la tool barre [MatPlotLib](../draw-on-charts/navigate-on-charts.md#toolbar-matplotlib) vous permet de refaire les calculs pour la zone que vous choisissez avec ce zoom :
 
 Avec la fonction {{ "ZOOM" | keyword }}, je focalise sur la partie droite du graphe :
 
