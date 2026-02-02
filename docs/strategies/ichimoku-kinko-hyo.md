@@ -89,7 +89,7 @@ Bien sûr avec Safran en ce moment ce signal est à l'achat.
 
 ## Formation
 
-- <a href="https://www.trading-et-data-analyses.com/2024/10/formation-ichimoku-kinko-hyo.html" target="_blank">Formation à l'Ichimoky Kinko Hyo</a>
+- <a href="https://www.trading-et-data-analyses.com/2024/10/formation-ichimoku-kinko-hyo.html" target="_blank">Guide complet de Formation à l'Ichimoky Kinko Hyo</a>
 
 
 ## Algorithme
