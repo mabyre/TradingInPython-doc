@@ -24,7 +24,7 @@ Les acteurs de la {{ "Smart Money" | keyword }} sont :
 - Institutions financières (fonds de pension, assurances, fonds souverains)
 - Grosses prop firms (Jane Street, Jump Trading, DRW…)
 
-Ce sont eux qui génèrent la majorité du volume et de la liquidité. Alors leurs actions laissent des traces dans les cours et le trading ICT consiste à détecter ces traces pour faire un trading astucieux et finalement suivre la smart money.
+Ce sont eux qui génèrent la majorité du volume et de la liquidité. Alors leurs actions laissent des traces dans les cours et le trading {{ "ICT" | g_tooltip }} consiste à détecter ces traces pour faire un trading astucieux et finalement suivre la smart money.
 
 ## Stratégie du trading de la Smart Money
 
@@ -53,14 +53,18 @@ Une fois que vous avez en tête ces différents concepts de l'ICT, voici comment
 
 ## Paramètrage des concepts ICT
 
-Voici les paramètres de la Smart Money, ils permettent d'ajuster la finesse des concepts de l'ICT :
+### Configuration
+
+Voici les paramètres de la Smart Money, ils permettent d'ajuster la finesse des concepts de l'{{ "ICT" | g_tooltip }} :
 
 <figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/interface.png" class="glightbox" data-gallery="galerie" title="Interface - Smart Money Concept - Trading ICT">
-        <img src="/images/strategies/smart-money-concept/interface.png" alt="" />
+    <a href="/images/strategies/smart-money-concept/configuration.png" class="glightbox" data-gallery="galerie" title="Configuration - Smart Money Concept - Trading ICT">
+        <img src="/images/strategies/smart-money-concept/configuration.png" alt="" />
     </a>
-    <figcaption><em>Smart Money Concept - Trading ICT</em></figcaption>
+    <figcaption><em>Configuration Smart Money Concept - Trading ICT</em></figcaption>
 </figure>
+
+Vous pourrez configurer ces paramètres graphiquement, nous allons détailler les effets de chacun d'entre eux sur les concepts de l'{{ "ICT" | g_tooltip }}.
 
 ### Swing with
 
