@@ -12,9 +12,9 @@ Michael J. Huddleston reprend les bases pour les struturer en Smart Money Concep
 - {{ "FVG" | keyword }} : Fair Value Gap
 - {{ "OTE" | keyword }} : Optimal Trade Entry / Premium-Discount
 
-Michael J. Huddleston est l'Inner Circle Trader, ICT est devenu son pseudo.
+Michael J. Huddleston est l'Inner Circle Trader, {{ "ICT" | g_tooltip }} est devenu son pseudo.
 
-Le trading de la Smart Money s'attache à repérer dans le cours des actions, les grands cycles de la smart money.
+Le trading de la Smart Money s'attache à repérer dans le cours des actions, les grands cycles de la Smart Money.
 
 Les acteurs de la {{ "Smart Money" | keyword }} sont :
 
@@ -24,7 +24,7 @@ Les acteurs de la {{ "Smart Money" | keyword }} sont :
 - Institutions financières (fonds de pension, assurances, fonds souverains)
 - Grosses prop firms (Jane Street, Jump Trading, DRW…)
 
-Ce sont eux qui génèrent la majorité du volume et de la liquidité. Alors leurs actions laissent des traces dans les cours et le trading {{ "ICT" | g_tooltip }} consiste à détecter ces traces pour faire un trading astucieux et finalement suivre la smart money.
+Ce sont eux qui génèrent la majorité du volume et de la liquidité. Alors leurs actions laissent des traces dans les cours et le trading {{ "ICT" | g_tooltip }} consiste à détecter ces traces pour faire un trading astucieux et finalement suivre la Smart Money.
 
 ## Stratégie du trading de la Smart Money
 
@@ -55,7 +55,7 @@ Une fois que vous avez en tête ces différents concepts de l'ICT, voici comment
 
 ### Configuration
 
-Voici les paramètres de la Smart Money, ils permettent d'ajuster la finesse des concepts de l'{{ "ICT" | g_tooltip }} :
+Voici les paramètres de la Smart Money, ils permettent d'ajuster la finesse des concepts de l'ICT :
 
 <figure style="text-align: center;">
     <a href="/images/strategies/smart-money-concept/configuration.png" class="glightbox" data-gallery="galerie" title="Configuration - Smart Money Concept - Trading ICT">
@@ -64,7 +64,7 @@ Voici les paramètres de la Smart Money, ils permettent d'ajuster la finesse des
     <figcaption><em>Configuration Smart Money Concept - Trading ICT</em></figcaption>
 </figure>
 
-Vous pourrez configurer ces paramètres graphiquement, nous allons détailler les effets de chacun d'entre eux sur les concepts de l'{{ "ICT" | g_tooltip }}.
+Vous pourrez configurer ces paramètres graphiquement, nous allons détailler les effets de chacun d'entre eux sur les concepts de l'ICT.
 
 ### Swing with
 
@@ -120,7 +120,11 @@ Les prises de liquidité de la Smart Money se font en général sur des bougies 
 
 ### ATR period
 
-l'ATR c'est l'indicateur technique {{ "ATR" | g_link }} qui permet de valider le BoS (Break Of Structure) c'est-à-dire l'engouement du marché pour un mouvement puissant du prix d'où la rupture de la tendance en cours. 14 est la valeur de réglage qui convient mais certains traders préféreront une autre valeur.
+C'est le réglage de la période de l'indicateur technique {{ "ATR" | i_link }}.
+
+Cet indicateur permet de valider le BoS (Break Of Structure) c'est-à-dire l'engouement du marché pour un mouvement puissant du prix ou une rupture de la tendance en cours.
+
+La valeur de réglage par défaut est 14, c'est la valeur qui convient mais certains traders préféreront utiliser une autre valeur.
 
 ### Displacement ratio
 
@@ -194,12 +198,29 @@ Vous voyez également sur ce graphe affichés les OTE (Optimal Trade Entry) les 
     <figcaption><em>Lecture du trading de la Smart Money</em></figcaption>
 </figure>
 
-Vous avez la possibilité de placer sur le graphe vos des Order Blocks {{ "à la main" | keywordi }} pour venir affiner votre stratégie et votre lecture de la Smart Money.
+### Placer vos Order Blocks
+
+Les Order Blocks les plus significatifs sont calculés par l'algorithmes.
+
+Vous avez également la possibilité de placer sur le graphe vos des Order Blocks {{ "à la main" | keywordi }} pour venir affiner votre stratégie et votre lecture de la Smart Money :
+
+#### Instructions
+
+- Pour tracer un Order Block maintenir la touche 'b' enfoncée
+- Clic gauche: Order Block haussier (vert)
+- Clic droit: Order Block baissier (rouge)
+- Appuyez sur 'r' pour supprimer le dernier Order Block
+- Appuyez sur 'c' pour tout effacer
+- Appuyez sur '+' ou '-' pour ajuster la largeur
+- Maintenir la touche 'r' et cliquez pour supprimer un élément graphique.
+- Maintenir la touche 'e' et cliquez pour afficher un élément supprimé.
 
 ## Code en Python
 
 Pour les développeurs en langage {{ "Python" | g_tooltip }} sur le GitHub de PyTrading :
 
 - <a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/Z-Integration/indicator/smart_money_concept" target="_blank">Smart Money Concept et Trading ICT</a>
+
+## Plateforme de trading
 
 Utilisez dès maintenant cette stratégie de trading technique disponible dans la plateforme [TradingInPython](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html)

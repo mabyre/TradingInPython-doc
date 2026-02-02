@@ -38,7 +38,7 @@ Dans cette stratégie vous avez également deux autres indicateurs l'{{ "ATR" | 
 
 ## Suivi en temps réel
 
-Dans la fenêtre indicateurs secondaires la case à cocher {{ "AUTO" | keywordi }} (fetch data en mode automatique) vous permet de relancer l'acquisition des données toutes les minutes en foonction de l'échelle de temps choisie.
+Dans la fenêtre indicateurs secondaires la case à cocher {{ "AUTO" | keywordi }} (fetch data en mode automatique) vous permet de relancer l'acquisition des données toutes les minutes en fonction de l'échelle de temps choisie.
 
 Pour suivre le cours des actions en temps réel :
 
