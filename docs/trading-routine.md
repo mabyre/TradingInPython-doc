@@ -37,7 +37,7 @@ Cette stratégie est à utiliser sur de grandes échelles de temps.
 
 Vous trouverez de la formation et des exemples sur cette stratégie sur ce site :
 
-- [Ichimoku-Kinko-Hyo - Découvrir](./strategies/ichimoku_kinko_hyo.md)
+- [Ichimoku-Kinko-Hyo - Découvrir](./strategies/ichimoku-kinko-hyo.md)
 
 ## Double Bandes de Bollinger
 
@@ -63,7 +63,7 @@ Ces signaux sont clairs en tendance haussière uniquement.
 
 ## Analyse de la pression du flux volumique
 
-Après une analyse globale et rapide du titre grâce à l'[Ichimoku Kinko Hyo](./strategies/ichimoku_kinko_hyo.md), vous souhaitez peaufiner votre analyse par exemple en découvrant si en ce moment les {{ "acheteurs sont à la manœuvre" | keyword }} ou si ce sont plutôt les {{ "vendeurs qui manœuvrent" | keyword }}.
+Après une analyse globale et rapide du titre grâce à l'[Ichimoku Kinko Hyo](./strategies/ichimoku-kinko-hyo.md), vous souhaitez peaufiner votre analyse par exemple en découvrant si en ce moment les {{ "acheteurs sont à la manœuvre" | keyword }} ou si ce sont plutôt les {{ "vendeurs qui manœuvrent" | keyword }}.
 
 L'analyse des flux volumiques par la stratégie {{ "Volume Buy/Sell" | keyword }} est idéale pour ce genre d'analyse.
 

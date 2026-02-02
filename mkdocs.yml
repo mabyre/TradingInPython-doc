@@ -40,7 +40,7 @@ nav:
   - Routine de Trading: trading-routine.md
   - Stratégies de Trading:
       - Vue d'ensemble: strategies/index.md
-      - Ichimoku & Deep Learning: strategies/ichimoku_kinko_hyo.md
+      - Ichimoku & Deep Learning: strategies/ichimoku-kinko-hyo.md
       - Moyennes Mobiles: strategies/moyennes-mobiles.md
       - Analyse Volumique: strategies/analyse-pression-volumique.md
       - Bandes de Bollinger:
@@ -54,7 +54,7 @@ nav:
       - Gator Alligator: strategies/gator-alligator.md
       - Filtre de Kalman: strategies/kalman-filter.md
       - Prédiction IA (Keras/Tensorflow/JAX): strategies/prediction_ai.md
-      - Smart Money Concept ICT: strategies/smart_money_concept.md
+      - Smart Money Concept ICT: strategies/smart-money-concept.md
   - Heatmap & Screeners:
       - Création des Screeners: heatmap-screener/screeners.md
       - Cartes de Chaleurs & Performances: heatmap-screener/heatmaps.md
