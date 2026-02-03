@@ -18,7 +18,7 @@ Avec la Liste des Actions à trader :
     <figcaption><em>Gestion des Stocks - Listes des Actions à analyser</em></figcaption>
 </figure>
 
-Sélectionnez une Actions, choisissez une Stratégie, cliquez sur {{ "Graphique" | keywordi }} le graphique de l'action s'affiche.
+Sélectionnez une Action, choisissez une Stratégie, cliquez sur {{ "Graphique" | keywordi }} le graphique de l'action s'affiche.
 
 Notez les trois boutons {{ "Ajouter" | keywordi }}, {{ "Modifier" | keywordi }}, {{ "Supprimer" | keywordi }}.
 
@@ -37,7 +37,7 @@ Cliquez sur Ajouter :
     <figcaption><em>Gestion des Stocks - Ajouter une Stock</em></figcaption>
 </figure>
 
-Notez le {{ "Menu:" | keywordi }} avec {{ "autocomplétion" | keyword }}, tapez un seul 'a' et vous avez la liste de tous les menu commançants par un 'a'.
+Notez le {{ "Menu:" | keywordi }} avec {{ "autocomplétion" | keyword }}, tapez un seul 'a' et vous avez la liste de tous les menu commençants par un 'a'.
 
 Vous sélectionnez un Menu préexisant par les touches {{ "flêche haut" | keyword }}, {{ "flêche bas" | keyword }} puis {{ "entrer" | keyword }}.
 

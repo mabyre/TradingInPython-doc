@@ -67,7 +67,7 @@ Après une analyse globale et rapide du titre grâce à l'[Ichimoku Kinko Hyo](.
 
 L'analyse des flux volumiques par la stratégie {{ "Volume Buy/Sell" | keyword }} est idéale pour ce genre d'analyse.
 
-C'est une stratégie exclusive sur la plateforme {{ "TradingInPython" | keyword }} et que vous ne trouverez pas sur d'autre plateforme.
+C'est une stratégie exclusive sur la plateforme {{ "TradingInPython" | keyword }} et que vous ne trouverez pas sur d'autres plateformes.
 
 En vous abonnant vous aurez accès à la formation complète sur cette stratégie.
 
@@ -154,7 +154,7 @@ Vous souhaitez suivre le cours de votre action durant la journée pour savoir qu
 
 Si le prix est au dessus du {{ "VWAP" | i_tooltip }} (Volume Weighted Average Price) alors il est surestimé et une correction vers le bas pourrait se produire si au contraire le prix est en dessous, une correction à la hausse pourrait se produire.
 
-Notez égalment la présence de deux indicateurs techniques {{ "ATR" | i_tooltip }} et l'{{ "OBV" | i_tooltip }} qui sont pratique pour les entrées ou les sorties dans la journée.
+Notez également la présence de deux indicateurs techniques {{ "ATR" | i_tooltip }} et l'{{ "OBV" | i_tooltip }} qui sont pratiques pour les entrées ou les sorties dans la journée.
 
 ## Gator Alligator de Bill Williams
 

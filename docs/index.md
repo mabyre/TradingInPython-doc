@@ -8,7 +8,7 @@ L'important pour le trader c'est de {{ "se forger une conviction" | keyword }} e
 
 {{ "Inutile de savoir coder en Python" | keyword }}, tout est déjà prêt, il vous suffit de télécharger gratuitement la plateforme de trading technique TradingInPython.
 
-- Téléchargez la dernière version du logiciel de la plateforme - [TradingInPython v1.7.3](https://github.com/SoDevLog/PyTrading/releases/download/v1.7.3/tradinginpython_setup.zip)
+- Téléchargez la dernière version du logiciel de la plateforme - [TradingInPython v1.8.0](https://github.com/SoDevLog/PyTrading/releases/download/v1.8.0/tradinginpython_setup.zip)
 - Suivi des versions logicielles - <a href="https://github.com/SoDevLog/PyTrading/releases" target="_blank">Releases</a>
 - Vous avez des problèmes pour déziper ou intaller - <a href="https://github.com/SoDevLog/PyTrading/wiki/Installation" target="_blank">Installation</a>
 - Vous souhaitez nous rejoindre - <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">Abonnement</a>

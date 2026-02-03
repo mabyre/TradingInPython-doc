@@ -1,11 +1,20 @@
 """ 
-    Define the function to add glossary terms as link & tooltips
+    Define the function to add glossaire.json terms as link & tooltips
     - Filters_for_glossary_tooltips_and_links
+        - g_tooltip : Le tooltip n'affiche que la première ligne de la définition du glossaire.
+        - g_link : génère un lien avec un # vers l'ancre dans le glossaire
     
-    Define the function to add indicators terms as link & tooltips
+    Define the function to add indicators.json terms as link & tooltips
     - Filters_for_indicators
+        - i_tooltip : Le tooltip n'affiche que la première ligne
+        - i_link : génère un lien avec un # vers l'ancre dans les indicators
     
     - Text_color_filters
+        - keyword : donne la couleur keyword
+        - keywordi : couleur keyword pour les mots clés dans l'interfaces avec guillemets
+        - green
+        - red
+        - blue
 """
 from email.mime import text
 import yaml

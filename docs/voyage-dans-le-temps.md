@@ -76,7 +76,7 @@ Vous positionnez deux annotations et vous cliquez sur le bouton {{ "Set" | keywo
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv0uUAFFU_42OaZy5pir9IQm8URKp1vgFvhD4NjRiYT5EsrVaiQn6xtDb2oKjxJ6DBu5I-GuVRdr1FpyHAg46XRa3HY9Xanf1dWCmbZ5EF6_AiTZ2mfuSQ8RPATZ4k2p8o2dyHPoi8xyGp_R9hxKqHRpK7MuPC6OFdRzUE5qcv73LWZ6siepCGLbjn82DZ/s439/2025-03-27_11h46_08.png" style="margin-left: auto; margin-right: auto;"><img alt="Voyage dans le temps entre deux dates" border="0" data-original-height="439" data-original-width="272" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv0uUAFFU_42OaZy5pir9IQm8URKp1vgFvhD4NjRiYT5EsrVaiQn6xtDb2oKjxJ6DBu5I-GuVRdr1FpyHAg46XRa3HY9Xanf1dWCmbZ5EF6_AiTZ2mfuSQ8RPATZ4k2p8o2dyHPoi8xyGp_R9hxKqHRpK7MuPC6OFdRzUE5qcv73LWZ6siepCGLbjn82DZ/s16000/2025-03-27_11h46_08.png" title="Voyage dans le temps entre deux dates" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><span Voyage dans le temps entre deux dates</span></td></tr></tbody></table>
 
-L'interface de récupération des données a été "settée" avec vos deux dates.
+L'interface de récupération des données a été "settée" (configurée) avec vos deux dates.
 
 La touche {{ "Now" | keywordi }} vous permet de remettre la date du jour dans le champs {{ "Date de fin" | keywordi }}.
 

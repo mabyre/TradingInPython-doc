@@ -117,8 +117,10 @@ N'hésitez pas à vous abonner pour ne rien rater des évolutions de la platefor
 
 ## Conclusion
 
-Cette stratégie est primodiale pour caractériser une action (stock) afin de déterminer s'il est intéressant de la trader. 
+Cette stratégie est primodiale pour caractériser une action (stock) afin de déterminer s'il est intéressant de la trader.
 
 Elle vous donne une indication sur combien vous pourriez gagner, si vous effectuez tous les trades indiqués par la stratégie sur cette action.
+
+Mais le {{ "Repainting" | g_link }} en fait une stratégie peu utilisable en pratique car elle peut présenter des singaux qui vont changer d'état.
 
 N'hésitez plus venez faire vos analyses techniques avec la plateforme [TradingInPython](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html).

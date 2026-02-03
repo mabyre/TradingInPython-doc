@@ -52,7 +52,7 @@ Ici j'ai cliqué sur l'indicateur {{ "MACD" | i_link }}, il apparaît dans un gr
 
 - **(4)** C'est le Graphique Ichimoku pour l'action TRIGANO
 
-Vous remarquerez une série de case à cocher également spécifique à la Stratégie Ichimoku. Pour chacune des stratégies, il y a des éléments spécifiques qui viendront s'afficher à cet endroit, des paramètres que vous pourrez manipuler.
+Vous remarquerez une série de cases à cocher également spécifique à la Stratégie Ichimoku. Pour chacune des stratégies, il y a des éléments spécifiques qui viendront s'afficher à cet endroit, des paramètres que vous pourrez manipuler.
 
 Vous pourrez cliquer sur la case {{ "Forcast" | keyword }} (prédiction) pour faire une prédiction du signal d'achat/vente calculée par le réseau de neurones {{ "Keras et Jax" | keyword }} (équivalent de Tensorflow) entraîné sur les données.
 
@@ -62,7 +62,7 @@ Retrouvez les analyses faites de l'action <a href="https://www.trading-et-data-a
 
 Vous venez de découvrir l'une des nombreuses stratégies de trading technique de la plateforme.
 
-Voici toutes les stratégies que vous pouvez utiliser et qui sont intégrées dans la plateforme mais vous pouvez également facilement de développer d'autres stratégies d'analyse technique que vous pourrez intégrer dans le menu des stratégies d'analyse.
+Voici toutes les stratégies que vous pouvez utiliser et qui sont intégrées dans la plateforme mais vous pouvez également facilement développer d'autres stratégies d'analyse technique que vous pourrez intégrer dans le menu des stratégies d'analyse.
 
 Vous avez actuellement le choix entre les stratégies suivantes pour analyser vos données :
 
@@ -76,7 +76,7 @@ Vous avez actuellement le choix entre les stratégies suivantes pour analyser vo
     <li>VWAP + STOCH - Volume Weighted Average Price - Intraday follows thanks to VWAP</li>
     <li>Fractales Bill Williams - Le fameux Bill Williams pour des signaux automatiques de Trading</li>
     <li>Gator Alligator S from Bill Williams</li>
-    <li>Filtre de Kalman - Le fameux filtre pour la détection des tendance et de la volatilité</li>
+    <li>Filtre de Kalman - Le fameux filtre pour la détection des tendances et de la volatilité</li>
     <li>Prédiction Keras - utilisation du réseau de neurones keras deeplearning avec Jax</li>
 </ul>
 
@@ -116,7 +116,7 @@ Découvrez le moyen de surveiller des dizaines d'actions d'un seul coup d'œil a
   <figcaption><em>TradingInPython - Heatmap Performance surveiller des dizaines d'actions</em></figcaption>
 </figure>
 
-Pour chaque actions tous les indicateurs techniques sont calculés et présentés dans une fenêtre de détails pour vous permettre de prendre les bonnes décisions de trading.
+Pour chaque action tous les indicateurs techniques sont calculés et présentés dans une fenêtre de détails pour vous permettre de prendre les bonnes décisions de trading.
 
 - [Heatmap cartes de chaleur - Découvrir](./heatmap-screener/heatmaps.md)
 
@@ -141,7 +141,7 @@ Par exemple, vous réalisez vos analyses techniques le matin vous positionnez vo
 
 ## Votre Gestionnaire de Portefeuilles
 
-Le portfolio ou gestionnaire de portefeuille est l'outil indispensable du trader efficace. Il vous permet de centraliser tous vos achats/ventes et de les consolider dans un tableau de bord afin de connaitre le rendement réel de vos trades sur les Cryptos, Actions, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#ETF"  target="_blank">ETF</a>, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#Futures" target="_blank">Futures</a>, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#FOREX" target="_blank">Forex</a>, etc.
+Le portfolio ou gestionnaire de portefeuilles est l'outil indispensable du trader efficace. Il vous permet de centraliser tous vos achats/ventes et de les consolider dans un tableau de bord afin de connaitre le rendement réel de vos trades sur les Cryptos, Actions, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#ETF"  target="_blank">ETF</a>, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#Futures" target="_blank">Futures</a>, <a href="https://www.trading-et-data-analyses.com/2024/01/termes-boursiers.html#FOREX" target="_blank">Forex</a>, etc.
 
 <figure style="text-align: center;">
   <a href="/images/tour-rapide/portefolio.png" class="glightbox" data-gallery="galerie" title="TradingInPython - Le portfolio ou Gestionnaire de Portefeuilles">
