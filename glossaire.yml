@@ -63,6 +63,13 @@ Range: |
 
   Les traders peuvent exploiter les ranges en achetant près du support et en vendant près de la résistance.
 
+Repainting: |
+  Terme utilisé pour décrire un indicateur technique qui modifie ses valeurs passées en fonction des données futures.
+
+  Cela peut donner une fausse impression de précision, car les signaux générés par l'indicateur peuvent sembler plus fiables qu'ils ne le sont réellement.
+
+  Les traders doivent être prudents lorsqu'ils utilisent des indicateurs repainting, car ils peuvent conduire à des décisions de trading erronées.
+
 Sell Stop: |
   Un ordre Sell Stop est un ordre de vente conditionnel qui s'active uniquement si le prix descend jusqu'à un niveau prédéfini.
 
