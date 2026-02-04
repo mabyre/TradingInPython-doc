@@ -32,17 +32,17 @@ Retrouvez les formation sur le Blog Trading et Data Analyses :
 
 - <a href="https://www.trading-et-data-analyses.com/2025/10/strategie-de-trading-des-doubles-bandes-de-bollinger.html" target="_blank">Stratégie de trading des Doubles Bandes de Bollinger</a>
 
-## Détection des Squeeze
+## Détection des Squeezes
 
 Un Squeeze se forme lorsque le marché est en {{ "forte compression" | keyword }} juste avant un mouvement brusque et une tendance forte.
 
 Réglage de la stratégie :
 
 <figure style="text-align: center;">
-    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" class="glightbox" data-gallery="galerie"  title="Détecter les Squeeze">
-        <img src="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" alt="Détecter les Squeeze"/>
+    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" class="glightbox" data-gallery="galerie"  title="Détecter les Squeezes">
+        <img src="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" alt="Détecter les Squeezes"/>
     </a>
-    <figcaption><em>Bandes de Bollinger pour détecter les Squeeze</em></figcaption>
+    <figcaption><em>Bandes de Bollinger pour détecter les Squeezes</em></figcaption>
 </figure>
 
 N'afficher que la FTA 2 avec une standard déviation de **2 σ** et le Canal de Keltner (période 20 et {{ "ATR" | i_tooltip }} x 1,5)
@@ -56,12 +56,12 @@ D'une façon générale les Bandes de Bollinger sont peu affactées par le {{ "R
 Pour voir ce qu'il se passe exactement lors de cette séquence et grâce au fonctions de {{ "Backtesing" | keyword }} vous pouvez regarder cette annimation :
 
 <figure style="text-align: center;">
-    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner-squeeze.gif" class="glightbox" data-gallery="galerie" title="Détection des Squeeze">
+    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner-squeeze.gif" class="glightbox" data-gallery="galerie" title="Détection des Squeezes">
         <img src="/images/strategies/bollinger-bands//ftma-bolls-keltner-squeeze.gif" alt=""/>
     </a>
-    <figcaption><em>Détection des Squeeze</em></figcaption>
+    <figcaption><em>Détection des Squeezes</em></figcaption>
 </figure>
 
-On voit la Bande 2 σ rentrer dans le Canal de Keltner formant un Squeeez juste avant la poussée haussière.
+On voit la Bande 2 σ rentrer dans le Canal de Keltner formant un Squeese juste avant la poussée haussière.
 
-Il faut avouer que sans cette stratégie de Bandes et Bollinger et de la détection de Squeeze, il était difficile de prévoir le cours avec une si forte hausse.
+Il faut avouer que sans cette stratégie de Bandes et Bollinger et de la détection de Squeezes, il était difficile de prévoir le cours avec une si forte hausse.

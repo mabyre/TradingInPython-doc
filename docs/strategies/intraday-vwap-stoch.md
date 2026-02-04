@@ -1,6 +1,6 @@
 # Intraday VWAP + STOCH
 
-Maintenant, passons à l'{{ "Intraday" | keyword }}, c'est à dire le trading au sein de la journée, le suivi minutes par minute du cours des actions.
+Maintenant, passons à l'{{ "Intraday" | keyword }}, c'est à dire le trading au sein de la journée, le suivi minutes par minute du cours des actions pour entrer et sortir des trades.
 
 ## Interface
 

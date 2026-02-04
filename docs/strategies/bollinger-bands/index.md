@@ -1,6 +1,6 @@
 # Bandes de Bollinger
 
-Vous trouverez facilement sur le Net de la documentation sur les {{ "Bandes de Bollinger" | keyword }}, elle est plétorique, voici la mise en oeuvre des {{ "Bolls" | i_link }} dans la plateforme {{ "TradingInPython" | keyword }}.
+Vous trouverez facilement sur le Net de la documentation sur les {{ "Bandes de Bollinger" | keyword }}, elle est plétorique, voici la mise en oeuvre des indicateurs techniques {{ "Bolls" | i_link }} dans la plateforme {{ "TradingInPython" | keyword }}.
 
 {{ "John Bollinger" | keyword }}, un analyste technique américain, a créé les Bandes de Bollinger au début des années 1980. Il cherchait un moyen de mesurer si les prix étaient relativement hauts ou bas par rapport à leurs niveaux récents en utilisant la volatilité comme référence plutôt que des pourcentages fixes.
 
@@ -10,7 +10,7 @@ Bollinger a officiellement publié sa méthode en 1983, et elle est rapidement d
 
 L'ironie ? Bollinger lui-même insiste toujours sur le fait que ses bandes ne doivent jamais être utilisées seules comme système de trading, mais plutôt combinées avec d'autres indicateurs - exactement comme dans la stratégie FTMA que tu nous allons explorer !
 
-Cette technique est utilisée pour tous les marchés : forex, crypto, matières premières, indices...
+Cette technique est utilisée pour trader sur tous les marchés : forex, crypto, matières premières, indices...
 
 Sur la plateforme nous avons implémenté les stratégies de trading suivantes :
 
