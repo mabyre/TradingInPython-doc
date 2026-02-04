@@ -649,6 +649,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Bandes de Bollinger FTMA + histogramme
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -660,6 +673,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#video-de-demonstration-des-ftma-bolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo de démonstration des FTMA Bolls
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1634,6 +1675,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#video-de-demonstration-des-ftma-bolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vidéo de démonstration des FTMA Bolls
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1652,10 +1710,43 @@
 
 
 <h1 id="bool-ftma-histogramme">Bool FTMA + histogramme<a class="headerlink" href="#bool-ftma-histogramme" title="Permanent link">&para;</a></h1>
-<p>Cette fois intéressons nous à l'histogrammme formé par les Bandes de Bollinger.</p>
-<ul>
-<li><a href="https://www.trading-et-data-analyses.com/2025/03/formation-ftma-bolls-histogrammes.html" target="_blank">Formation - FTMA Bolls + histogramme</a></li>
-</ul>
+<p>La Stratégie des FTMA Bolls + histogrammes est basée sur les Bandes de Bollinger pour <span class="text-keyword">4 échelles de temps</span> que l'on peut voir sur la légende du graphe, et 4 moyennes glissantes dont les valeurs sont affichées dans le titre du graphe, par défaut ici on a : 26 32 39 46.</p>
+<p>C'est donc quatre composantes du temps qui mettent en évidence les mouvements du cours de l'action c'est donc bien une décomposition temporelle comparable à une décomposition en série de <a href="https://www.trading-et-data-analyses.com/p/trading-et-data-analyses-en-langage.html#Analyse_Spectrale" target="_blank">Fourier</a>.</p>
+<p>Les deux <span class="text-keyword">histogrammes</span> du bas représentent les <span class="text-keyword">différences cumulées entre les 4 courbes</span>. Dans le carré rouge où se développe une magnifique bulle haussière de Bollinger que l'on peut observer avec les trois couleurs superposées en positif sur l'histogramme de haut et du bas. Puis cette bulle haussière se termine par le croisement des FTMA Bolls, la bleu foncé qui croise la bleu ciel.</p>
+<p>Voici un graphe typique obtenu avec la stratégie FTMA Bolls + histogrammes :</p>
+<figure style="text-align: center;">
+  <a href="/images/strategies/bollinger-bands/ftma-bolls-histogramme-001.png" class="glightbox" data-gallery="galerie" title="DASSAULT AVIATION sous les wonderful FTMA Bolls">
+    <img src="/images/strategies/bollinger-bands/ftma-bolls-histogramme-001.png" alt="Capture d'écran"/>
+  </a>
+  <figcaption><em>DASSAULT AVIATION sous les wonderful FTMA Bolls</em></figcaption>
+</figure>
+
+<p>Cette stratégie permet de détecter très tôt les changements de tendance ou de voir si la tendance va se poursuivre. C'est comme si la courbe du prix était sous observation et que chaque mouvement du prix soit décomposé pour mettre en avant les conséquences de ce petit mouvement sur la tendance.</p>
+<p><span class="text-red">(1)</span> : Resserrement des FTMA Bolls : Après un mouvement haussier ou baissier les FTMAs se resserrent autour du cours pour indiquer la force d'un nouveau mouvement en préparation.</p>
+<p>Dans ce cas la tendance est haussière et l'on peut chercher à entrer lors du resserrement de la ftmaboll bleu foncé marqué par le rond <span class="text-red">(1)</span> et les deux flèches sur le premier graphique.</p>
+<p>Autre exemple de graphe obtenu avec cette stratégie :</p>
+<figure style="text-align: center;">
+  <a href="/images/strategies/bollinger-bands/ftma-bolls-histogramme-002.png" class="glightbox" data-gallery="galerie" title="DASSAULT AVIATION avec les wonderfull FTMA Bolls">
+    <img src="/images/strategies/bollinger-bands/ftma-bolls-histogramme-002.png" alt="Capture d'écran"/>
+  </a>
+  <figcaption><em>DASSAULT AVIATION avec les wonderfull FTMA Bolls</em></figcaption>
+</figure>
+
+<p>La bulle de Bollinger haussière se repère par les quatre FTA bolls qui sont dans l'ordre bleu foncé, bleu ciel, rouge, et orange. Cela se traduit sur l'histogramme par les barres positives en haut et en bas.</p>
+<p>Un autre exemple de magnifiques FTMA Bolls et de swing haussiers avec WALMART :</p>
+<figure style="text-align: center;">
+  <a href="/images/strategies/bollinger-bands/ftma-bolls-histogramme-003.png" class="glightbox" data-gallery="galerie" title="FTMA Bolls swing haussiers">
+    <img src="/images/strategies/bollinger-bands/ftma-bolls-histogramme-003.png" alt="Capture d'écran"/>
+  </a>
+  <figcaption><em>FTMA Bolls swing haussiers</em></figcaption>
+</figure>
+
+<p>Les swings haussier se succèdent les uns après les autres, on peut observer les barres des histogrammes dans l'ordre indiquant un hausse prolongée et puissante et à la toute fin du graphe cela se dégrade.</p>
+<p>Je ne vous en dis pas plus, venez utiliser cette stratégie redoutable pour sécuriser votre trading en utilisant la plateforme.</p>
+<h2 id="video-de-demonstration-des-ftma-bolls">Vidéo de démonstration des FTMA Bolls<a class="headerlink" href="#video-de-demonstration-des-ftma-bolls" title="Permanent link">&para;</a></h2>
+<p style="text-align: center;">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/zvqHRx_JoUU?si=wP3sQ8hZ54XdrKBU" title="YouTube video player" width="560"></iframe>
+</p>
 
 
 

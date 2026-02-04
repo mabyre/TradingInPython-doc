@@ -667,9 +667,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#singaux-dentree-et-de-sortie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Singaux d'entrée et de sortie
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#formation" class="md-nav__link">
     <span class="md-ellipsis">
       Formation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detection-des-squeeze" class="md-nav__link">
+    <span class="md-ellipsis">
+      Détection des Squeeze
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pas-de-repainting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas de Repainting
     </span>
   </a>
   
@@ -1682,9 +1709,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#singaux-dentree-et-de-sortie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Singaux d'entrée et de sortie
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#formation" class="md-nav__link">
     <span class="md-ellipsis">
       Formation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detection-des-squeeze" class="md-nav__link">
+    <span class="md-ellipsis">
+      Détection des Squeeze
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pas-de-repainting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pas de Repainting
     </span>
   </a>
   
@@ -1710,31 +1764,56 @@
 
 
 <h1 id="double-bandes-de-bollinger">Double Bandes de Bollinger<a class="headerlink" href="#double-bandes-de-bollinger" title="Permanent link">&para;</a></h1>
-<p>Dans l'<a href="../bollinger-bands-ftma/#interface">interface</a> de la stratégie des Bandes de Bollinger, le bouton <span class="text-keyword">"Double Bandes de Bollinger"</span> permet de changer de stratégie et de passer en stratégie des Doubles Bandes de Bollinger.</p>
-<p>Cette fois les horizons de temps sont identiques pour les deux bandes ce qui change c'est l'équart type StdDev (Standard Déviation) :</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
-        <img src="/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
-    </a>
-    <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
-</figure>
-
+<p>Dans l'<a href="../bollinger-bands-ftma/#interface">interface</a> de la stratégie des Bandes de Bollinger, le bouton <span class="text-keyword">"Double Bandes de Bollinger"</span> permet de configurer la stratégie et de passer en Doubles Bandes de Bollinger.</p>
+<p>Cette fois les horizons de temps sont identiques pour les deux bandes, ce qui change c'est l'équart type StdDev (Standard Déviation) :</p>
 <ul>
 <li><strong>1 σ</strong> pour la première bande <span class="text-keyword">StdDev DBB1</span></li>
 <li><strong>2 σ</strong> pour la deuxièmes bande <span class="text-keyword">StdDev DBB2</span></li>
 </ul>
-<p>L'avantage de cette stratégie c'est qu'elle donne des entrées et des sorties claires facilement exploitables.</p>
-<p>Exemple : Vous pouvez entrer lors que le cours sort de la bande 1 sigma (flêches vertes) et sortir (flêche rouges) lorsque le cours passe la Moyenne Mobile par le haut.</p>
-<p>Vous pouvez également ajuster votre <span title="Ordre de vente automatique placé pour limiter les pertes sur une position ouverte." style="border-bottom:1px dotted;cursor:help"><b>StopLoss</b></span> sur la moyenne mobile.</p>
+<figure style="text-align: center;">
+    <a href="/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="/images/strategies/bollinger-bands/double-bandes-bollinger.png" alt="Doubles Bandes de Bollinger"/>
+    </a>
+    <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
+</figure>
+
+<p>L'avantage de cette stratégie c'est qu'elle donne des entrées et des sorties claires et facilement exploitables.</p>
+<h2 id="singaux-dentree-et-de-sortie">Singaux d'entrée et de sortie<a class="headerlink" href="#singaux-dentree-et-de-sortie" title="Permanent link">&para;</a></h2>
+<p>Vous pouvez entrer lors que le cours sort de la bande 1 sigma <span class="text-green">flêches vertes</span> et sortir <span class="text-red">flêche rouges</span> lorsque le cours passe la Moyenne Mobile par le haut. La moyenne mobile étant le signal <span class="text-blue">bleu</span> au milieu des deux bandes de Bollinger.</p>
+<p>Vous pouvez également ajuster votre <span title="Ordre de vente automatique placé pour limiter les pertes sur une position ouverte." style="border-bottom:1px dotted;cursor:help"><b>StopLoss</b></span> sur le niveau de la moyenne mobile.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p><span class="text-red">A utiliser uniquement en tendance haussière.</span></p>
+<p><b>Les signaux sont clairs uniquement en tendance haussière.</b></p>
 </div>
 <h2 id="formation">Formation<a class="headerlink" href="#formation" title="Permanent link">&para;</a></h2>
 <p>Retrouvez les formation sur le Blog Trading et Data Analyses :</p>
 <ul>
 <li><a href="https://www.trading-et-data-analyses.com/2025/10/strategie-de-trading-des-doubles-bandes-de-bollinger.html" target="_blank">Stratégie de trading des Doubles Bandes de Bollinger</a></li>
 </ul>
+<h2 id="detection-des-squeeze">Détection des Squeeze<a class="headerlink" href="#detection-des-squeeze" title="Permanent link">&para;</a></h2>
+<p>Un Squeeze se forme lorsque le marché est en <span class="text-keyword">forte compression</span> juste avant un mouvement brusque et une tendance forte.</p>
+<p>Réglage de la stratégie :</p>
+<figure style="text-align: center;">
+    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" class="glightbox" data-gallery="galerie"  title="Détecter les Squeeze">
+        <img src="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" alt="Détecter les Squeeze"/>
+    </a>
+    <figcaption><em>Bandes de Bollinger pour détecter les Squeeze</em></figcaption>
+</figure>
+
+<p>N'afficher que la FTA 2 avec une standard déviation de <strong>2 σ</strong> et le Canal de Keltner (période 20 et <span title="Average True Range, Moyenne de la Vraie Amplitude." style="border-bottom:1px dotted;cursor:help"><b>ATR</b></span> x 1,5)</p>
+<p>En <span class="text-red">(3)</span> vous avez un Squeeze juste avant une très forte tendance haussière.</p>
+<h2 id="pas-de-repainting">Pas de Repainting<a class="headerlink" href="#pas-de-repainting" title="Permanent link">&para;</a></h2>
+<p>D'une façon générale les Bandes de Bollinger sont peu affactées par le <span title="Terme utilisé pour décrire un indicateur technique qui modifie ses valeurs passées en fonction des données futures." style="border-bottom:1px dotted;cursor:help"><b>Repainting</b></span>, en effet ce sont des moyennes assez longues qui sont peu modifiées par les valeurs futures du cours de l'action.</p>
+<p>Pour voir ce qu'il se passe exactement lors de cette séquence et grâce au fonctions de <span class="text-keyword">Backtesing</span> vous pouvez regarder cette annimation :</p>
+<figure style="text-align: center;">
+    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner-squeeze.gif" class="glightbox" data-gallery="galerie" title="Détection des Squeeze">
+        <img src="/images/strategies/bollinger-bands//ftma-bolls-keltner-squeeze.gif" alt=""/>
+    </a>
+    <figcaption><em>Détection des Squeeze</em></figcaption>
+</figure>
+
+<p>On voit la Bande 2 σ rentrer dans le Canal de Keltner formant un Squeeez juste avant la poussée haussière.</p>
+<p>Il faut avouer que sans cette stratégie de Bandes et Bollinger et de la détection de Squeeze, il était difficile de prévoir le cours avec une si forte hausse.</p>
 
 
 
