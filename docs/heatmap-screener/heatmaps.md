@@ -14,11 +14,10 @@ Dans le menu {{ "Monitoring" | keyword }} choisissez {{ "Performace Heatmap" | k
 
 <figure style="text-align: center;">
     <a href="/images/heatmap/menu-gestion-screeners.png" class="glightbox" data-gallery="galerie" title="Menu Monitoring">
-        <img src="/images/heatmap/menu-gestion-screeners.png" />
+        <img src="/images/heatmap/menu-gestion-screeners.png" alt="Menu Monitoring"/>
     </a>
     <figcaption><em>Menu Monitoring -> Performance heatmap</em></figcaption>
 </figure>
-
 
 Une Heatmap ou carte de chaleur représente les performances des actions sous forme de couleurs avec des couleurs plus ou moins vertes pour les actions à tendance haussière et plus ou moins rouge pour les actions à tendance baissière.
 
@@ -28,12 +27,12 @@ Créez vos screeners en sélectionnant les actions que vous souhaitez mettre sou
 
 <figure style="text-align: center;">
     <a href="/images/heatmap/heatmap.png" class="glightbox" data-gallery="galerie" title="Menu screeners">
-        <img src="/images/heatmap/heatmap.png" />
+        <img src="/images/heatmap/heatmap.png" alt"" />
     </a>
     <figcaption><em>Carte de chaleur et de performance</em></figcaption>
 </figure>
 
-Cliquez sur le bouton {{ "Ouvrir" | keywordi }} pour choisir un fichier screeners (format .json). 
+Cliquez sur le bouton {{ "Ouvrir" | keywordi }} pour choisir un fichier screeners (format .json).
 
 Ici on est avec {{ "info-quantique.json" | keyword }} il y a 5 actoins du marché de l'informatique Quantique :
 
@@ -47,7 +46,7 @@ Cliquez sur le bouton {{ "Exécuter" | keywordi }} pour afficher la carte de Per
 
 <figure style="text-align: center;">
     <a href="/images/heatmap/heatmap-quantique.png" class="glightbox" data-gallery="galerie" title="Carte de chaleur du marché de l'informatique quantique">
-        <img src="/images/heatmap/heatmap-quantique.png"/>
+        <img src="/images/heatmap/heatmap-quantique.png" alt=""/>
     </a>
     <figcaption><em>Carte de chaleur du marché de l'informatique quantique</em></figcaption>
 </figure>
@@ -63,7 +62,7 @@ Par exemple pour D-Wave Quantum (QBTS), en maintenant la touche {{ "Ctrl+ Clique
 
 <figure style="text-align: center;">
     <a href="/images/heatmap/fiche-technique.png" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
-        <img src="/images/heatmap/fiche-technique.png"/>
+        <img src="/images/heatmap/fiche-technique.png" alt=""/>
     </a>
     <figcaption><em>Fiche technique de l'action</em></figcaption>
 </figure>
@@ -84,7 +83,7 @@ Le côté pratique de la {{ "Carte de Performances" | keyword }}, c'est que vous
 
 <figure style="text-align: center;">
     <a href="/images/heatmap/synchro-analyse-technique.gif" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
-        <img src="/images/heatmap/synchro-analyse-technique.gif"/>
+        <img src="/images/heatmap/synchro-analyse-technique.gif" alt="Fiche technique de l'action"/>
     </a>
     <figcaption><em>Fiche technique de l'action</em></figcaption>
 </figure>

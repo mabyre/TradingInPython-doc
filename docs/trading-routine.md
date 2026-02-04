@@ -28,7 +28,7 @@ Disons que si vous souhaitez {{ "faire une première analyse" | keyword }} de l'
 
 <figure style="text-align: center;">
     <a href="/images/strategies/ichimoku/routine.png" class="glightbox" data-gallery="galerie"  title="Stratégie de l'Ichoku Kinko Hyo">
-        <img src="/images/strategies/ichimoku/routine.png"/>
+        <img src="/images/strategies/ichimoku/routine.png" alt="Stratégie de l'Ichoku Kinko Hyo"/>
     </a>
     <figcaption><em>Stratégie de l'Ichoku Kinko Hyo</em></figcaption>
 </figure>
@@ -47,7 +47,7 @@ Les Doubles Bandes de Bollinger sont un moyen puissant d'obtenir des entrées et
 
 <figure style="text-align: center;">
     <a href="/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
-        <img src="/images/strategies/bollinger-bands/double-bandes-bollinger.png"/>
+        <img src="/images/strategies/bollinger-bands/double-bandes-bollinger.png" alt="Doubles Bandes de Bollinger"/>
     </a>
     <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
 </figure>
