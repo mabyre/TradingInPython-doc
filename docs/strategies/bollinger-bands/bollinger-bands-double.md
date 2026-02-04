@@ -45,7 +45,8 @@ Réglage de la stratégie :
     <figcaption><em>Bandes de Bollinger pour détecter les Squeezes</em></figcaption>
 </figure>
 
-N'afficher que la FTA 2 avec une standard déviation de **2 σ** et le Canal de Keltner (période 20 et {{ "ATR" | i_tooltip }} x 1,5)
+- {{ "(1)" | red }} : N'afficher que la FTA 2 avec une standard déviation de **2 σ**
+- {{ "(2)" | red }} : Et le Canal de Keltner (période 20 et {{ "ATR" | i_tooltip }} x 1,5)
 
 En {{ "(3)" | red }} vous avez un Squeeze juste avant une très forte tendance haussière.
 

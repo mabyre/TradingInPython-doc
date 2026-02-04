@@ -685,9 +685,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#detection-des-squeeze" class="md-nav__link">
+  <a href="#detection-des-squeezes" class="md-nav__link">
     <span class="md-ellipsis">
-      Détection des Squeeze
+      Détection des Squeezes
     </span>
   </a>
   
@@ -1727,9 +1727,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#detection-des-squeeze" class="md-nav__link">
+  <a href="#detection-des-squeezes" class="md-nav__link">
     <span class="md-ellipsis">
-      Détection des Squeeze
+      Détection des Squeezes
     </span>
   </a>
   
@@ -1790,30 +1790,33 @@
 <ul>
 <li><a href="https://www.trading-et-data-analyses.com/2025/10/strategie-de-trading-des-doubles-bandes-de-bollinger.html" target="_blank">Stratégie de trading des Doubles Bandes de Bollinger</a></li>
 </ul>
-<h2 id="detection-des-squeeze">Détection des Squeeze<a class="headerlink" href="#detection-des-squeeze" title="Permanent link">&para;</a></h2>
+<h2 id="detection-des-squeezes">Détection des Squeezes<a class="headerlink" href="#detection-des-squeezes" title="Permanent link">&para;</a></h2>
 <p>Un Squeeze se forme lorsque le marché est en <span class="text-keyword">forte compression</span> juste avant un mouvement brusque et une tendance forte.</p>
 <p>Réglage de la stratégie :</p>
 <figure style="text-align: center;">
-    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" class="glightbox" data-gallery="galerie"  title="Détecter les Squeeze">
-        <img src="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" alt="Détecter les Squeeze"/>
+    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" class="glightbox" data-gallery="galerie"  title="Détecter les Squeezes">
+        <img src="/images/strategies/bollinger-bands/ftma-bolls-keltner.png" alt="Détecter les Squeezes"/>
     </a>
-    <figcaption><em>Bandes de Bollinger pour détecter les Squeeze</em></figcaption>
+    <figcaption><em>Bandes de Bollinger pour détecter les Squeezes</em></figcaption>
 </figure>
 
-<p>N'afficher que la FTA 2 avec une standard déviation de <strong>2 σ</strong> et le Canal de Keltner (période 20 et <span title="Average True Range, Moyenne de la Vraie Amplitude." style="border-bottom:1px dotted;cursor:help"><b>ATR</b></span> x 1,5)</p>
+<ul>
+<li><span class="text-red">(1)</span> : N'afficher que la FTA 2 avec une standard déviation de <strong>2 σ</strong></li>
+<li><span class="text-red">(2)</span> : Et le Canal de Keltner (période 20 et <span title="Average True Range, Moyenne de la Vraie Amplitude." style="border-bottom:1px dotted;cursor:help"><b>ATR</b></span> x 1,5)</li>
+</ul>
 <p>En <span class="text-red">(3)</span> vous avez un Squeeze juste avant une très forte tendance haussière.</p>
 <h2 id="pas-de-repainting">Pas de Repainting<a class="headerlink" href="#pas-de-repainting" title="Permanent link">&para;</a></h2>
 <p>D'une façon générale les Bandes de Bollinger sont peu affactées par le <span title="Terme utilisé pour décrire un indicateur technique qui modifie ses valeurs passées en fonction des données futures." style="border-bottom:1px dotted;cursor:help"><b>Repainting</b></span>, en effet ce sont des moyennes assez longues qui sont peu modifiées par les valeurs futures du cours de l'action.</p>
 <p>Pour voir ce qu'il se passe exactement lors de cette séquence et grâce au fonctions de <span class="text-keyword">Backtesing</span> vous pouvez regarder cette annimation :</p>
 <figure style="text-align: center;">
-    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner-squeeze.gif" class="glightbox" data-gallery="galerie" title="Détection des Squeeze">
+    <a href="/images/strategies/bollinger-bands/ftma-bolls-keltner-squeeze.gif" class="glightbox" data-gallery="galerie" title="Détection des Squeezes">
         <img src="/images/strategies/bollinger-bands//ftma-bolls-keltner-squeeze.gif" alt=""/>
     </a>
-    <figcaption><em>Détection des Squeeze</em></figcaption>
+    <figcaption><em>Détection des Squeezes</em></figcaption>
 </figure>
 
-<p>On voit la Bande 2 σ rentrer dans le Canal de Keltner formant un Squeeez juste avant la poussée haussière.</p>
-<p>Il faut avouer que sans cette stratégie de Bandes et Bollinger et de la détection de Squeeze, il était difficile de prévoir le cours avec une si forte hausse.</p>
+<p>On voit la Bande 2 σ rentrer dans le Canal de Keltner formant un Squeese juste avant la poussée haussière.</p>
+<p>Il faut avouer que sans cette stratégie de Bandes et Bollinger et de la détection de Squeezes, il était difficile de prévoir le cours avec une si forte hausse.</p>
 
 
 
@@ -1834,7 +1837,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="27 novembre 2025 16:26:55 UTC"><span class="timeago" datetime="2025-11-27T16:26:55+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="27 novembre 2025 16:26:55 UTC">2025-11-27</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="4 février 2026 13:28:32 UTC"><span class="timeago" datetime="2026-02-04T13:28:32+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="4 février 2026 13:28:32 UTC">2026-02-04</span>
   </span>
 
     
