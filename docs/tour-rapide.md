@@ -1,6 +1,6 @@
 # Tour rapide
 
-Découvrez rapidement les grands modules que vous trouverez dans {{ "TradingInPython" | keyword }}, la plateforme dédiée au trading technique.
+Découvrez rapidement les grands modules que vous pourrez utiliser avec {{ "TradingInPython" | keyword }}, la plateforme dédiée au trading technique.
 
 La plateforme {{ "TradingInPython" | keyword }} est un ensemble complet de trading avec :
 
