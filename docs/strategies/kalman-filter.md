@@ -1,6 +1,6 @@
 # Indicateur technique boursier filtre de Kalman
 
-En traitement numérique du signal le filtre de Kalman est un **"must have"**, un outil mathématique à essayer.
+En traitement numérique du signal le filtre de Kalman est un **"must have"**, un outil mathématique à essayer absolument
 
 Rudolf E. Kalman, un ingénieur hongrois-américain, publie en 1960 son article fondateur : "A New Approach to Linear Filtering and Prediction Problems".
 
