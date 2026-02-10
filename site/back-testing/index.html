@@ -12,28 +12,28 @@
         <meta name="author" content="Bruno Raby">
       
       
-        <link rel="canonical" href="https://trading-in-python.sodevlog.com/strategies/prediction_ai/">
+        <link rel="canonical" href="https://trading-in-python.sodevlog.com/back-testing/">
       
       
-        <link rel="prev" href="../kalman-filter/">
+        <link rel="prev" href="../portfolio-manager/">
       
       
-        <link rel="next" href="../smart-money-concept/">
+        <link rel="next" href="../draw-on-charts/navigate-on-charts/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
-        <title>Prédiction IA (Keras/Tensorflow/JAX) - TradingInPython</title>
+        <title>Backtesting - TradingInPython</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,17 +52,17 @@
       
     
     
-      <link rel="stylesheet" href="../../css/timeago.css">
+      <link rel="stylesheet" href="../css/timeago.css">
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-      <link rel="stylesheet" href="../../css/glightbox.min.css">
+      <link rel="stylesheet" href="../css/glightbox.min.css">
     
-      <link rel="stylesheet" href="../../css/extra.css">
+      <link rel="stylesheet" href="../css/extra.css">
     
-      <link rel="stylesheet" href="../../css/summary.css">
+      <link rel="stylesheet" href="../css/summary.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#prediction-ia" class="md-skip">
+        <a href="#interface-de-backtesting" class="md-skip">
           Aller au contenu
         </a>
       
@@ -102,7 +102,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="../.." title="TradingInPython" class="md-header__button md-logo" aria-label="TradingInPython" data-md-component="logo">
+    <a href=".." title="TradingInPython" class="md-header__button md-logo" aria-label="TradingInPython" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -122,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Prédiction IA (Keras/Tensorflow/JAX)
+              Backtesting
             
           </span>
         </div>
@@ -214,7 +214,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="TradingInPython" class="md-nav__button md-logo" aria-label="TradingInPython" data-md-component="logo">
+    <a href=".." title="TradingInPython" class="md-nav__button md-logo" aria-label="TradingInPython" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -244,7 +244,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -266,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tour-rapide/" class="md-nav__link">
+      <a href="../tour-rapide/" class="md-nav__link">
         
   
   
@@ -288,7 +288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recuperation-des-data/" class="md-nav__link">
+      <a href="../recuperation-des-data/" class="md-nav__link">
         
   
   
@@ -310,7 +310,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../voyage-dans-le-temps/" class="md-nav__link">
+      <a href="../voyage-dans-le-temps/" class="md-nav__link">
         
   
   
@@ -332,7 +332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gestion-liste-actions/" class="md-nav__link">
+      <a href="../gestion-liste-actions/" class="md-nav__link">
         
   
   
@@ -354,7 +354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../trading-routine/" class="md-nav__link">
+      <a href="../trading-routine/" class="md-nav__link">
         
   
   
@@ -373,20 +373,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -402,7 +400,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Stratégies de Trading
@@ -416,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../strategies/" class="md-nav__link">
         
   
   
@@ -439,7 +437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ichimoku-kinko-hyo/" class="md-nav__link">
+      <a href="../strategies/ichimoku-kinko-hyo/" class="md-nav__link">
         
   
   
@@ -462,7 +460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../moyennes-mobiles/" class="md-nav__link">
+      <a href="../strategies/moyennes-mobiles/" class="md-nav__link">
         
   
   
@@ -485,7 +483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../analyse-pression-volumique/" class="md-nav__link">
+      <a href="../strategies/analyse-pression-volumique/" class="md-nav__link">
         
   
   
@@ -546,7 +544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bollinger-bands/" class="md-nav__link">
+      <a href="../strategies/bollinger-bands/" class="md-nav__link">
         
   
   
@@ -569,7 +567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bollinger-bands/bollinger-bands-ftma/" class="md-nav__link">
+      <a href="../strategies/bollinger-bands/bollinger-bands-ftma/" class="md-nav__link">
         
   
   
@@ -592,7 +590,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bollinger-bands/bollinger-bands-ftma-trading/" class="md-nav__link">
+      <a href="../strategies/bollinger-bands/bollinger-bands-ftma-trading/" class="md-nav__link">
         
   
   
@@ -615,7 +613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bollinger-bands/bollinger-bands-double/" class="md-nav__link">
+      <a href="../strategies/bollinger-bands/bollinger-bands-double/" class="md-nav__link">
         
   
   
@@ -638,7 +636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bollinger-bands/bollinger-bands-ftma-histogramme/" class="md-nav__link">
+      <a href="../strategies/bollinger-bands/bollinger-bands-ftma-histogramme/" class="md-nav__link">
         
   
   
@@ -669,7 +667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../intraday-vwap-stoch/" class="md-nav__link">
+      <a href="../strategies/intraday-vwap-stoch/" class="md-nav__link">
         
   
   
@@ -692,7 +690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../fractales-bill-williams/" class="md-nav__link">
+      <a href="../strategies/fractales-bill-williams/" class="md-nav__link">
         
   
   
@@ -715,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gator-alligator/" class="md-nav__link">
+      <a href="../strategies/gator-alligator/" class="md-nav__link">
         
   
   
@@ -738,7 +736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../kalman-filter/" class="md-nav__link">
+      <a href="../strategies/kalman-filter/" class="md-nav__link">
         
   
   
@@ -758,32 +756,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Prédiction IA (Keras/Tensorflow/JAX)
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../strategies/prediction_ai/" class="md-nav__link">
         
   
   
@@ -794,71 +770,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#interface" class="md-nav__link">
-    <span class="md-ellipsis">
-      Interface
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#formation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Formation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#video-youtube" class="md-nav__link">
-    <span class="md-ellipsis">
-      Vidéo YouTube
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#abonnement" class="md-nav__link">
-    <span class="md-ellipsis">
-      Abonnement
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Questions
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -871,7 +782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../smart-money-concept/" class="md-nav__link">
+      <a href="../strategies/smart-money-concept/" class="md-nav__link">
         
   
   
@@ -939,7 +850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../heatmap-screener/screeners/" class="md-nav__link">
+      <a href="../heatmap-screener/screeners/" class="md-nav__link">
         
   
   
@@ -962,7 +873,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../heatmap-screener/heatmaps/" class="md-nav__link">
+      <a href="../heatmap-screener/heatmaps/" class="md-nav__link">
         
   
   
@@ -1030,7 +941,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../monitor-alerts/monitor-stock-market/" class="md-nav__link">
+      <a href="../monitor-alerts/monitor-stock-market/" class="md-nav__link">
         
   
   
@@ -1053,7 +964,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../monitor-alerts/alertes-techniques/" class="md-nav__link">
+      <a href="../monitor-alerts/alertes-techniques/" class="md-nav__link">
         
   
   
@@ -1083,7 +994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../portfolio-manager/" class="md-nav__link">
+      <a href="../portfolio-manager/" class="md-nav__link">
         
   
   
@@ -1102,10 +1013,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../back-testing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Backtesting
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1116,6 +1047,33 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#interface-de-backtesting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interface de backtesting
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1165,7 +1123,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../draw-on-charts/navigate-on-charts/" class="md-nav__link">
+      <a href="../draw-on-charts/navigate-on-charts/" class="md-nav__link">
         
   
   
@@ -1188,7 +1146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../draw-on-charts/draw-trend-lines/" class="md-nav__link">
+      <a href="../draw-on-charts/draw-trend-lines/" class="md-nav__link">
         
   
   
@@ -1211,7 +1169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../draw-on-charts/annote-price-date/" class="md-nav__link">
+      <a href="../draw-on-charts/annote-price-date/" class="md-nav__link">
         
   
   
@@ -1234,7 +1192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../draw-on-charts/annotate-charts/" class="md-nav__link">
+      <a href="../draw-on-charts/annotate-charts/" class="md-nav__link">
         
   
   
@@ -1302,7 +1260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../interface-configuration/ui-configuration/" class="md-nav__link">
+      <a href="../interface-configuration/ui-configuration/" class="md-nav__link">
         
   
   
@@ -1325,7 +1283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../interface-configuration/windows-management/" class="md-nav__link">
+      <a href="../interface-configuration/windows-management/" class="md-nav__link">
         
   
   
@@ -1348,7 +1306,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../interface-configuration/dark-mode/" class="md-nav__link">
+      <a href="../interface-configuration/dark-mode/" class="md-nav__link">
         
   
   
@@ -1371,7 +1329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../interface-configuration/console-bottom-right/" class="md-nav__link">
+      <a href="../interface-configuration/console-bottom-right/" class="md-nav__link">
         
   
   
@@ -1401,7 +1359,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../open-software/" class="md-nav__link">
+      <a href="../open-software/" class="md-nav__link">
         
   
   
@@ -1461,7 +1419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/images/" class="md-nav__link">
+      <a href="../tests/images/" class="md-nav__link">
         
   
   
@@ -1484,7 +1442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/titres/" class="md-nav__link">
+      <a href="../tests/titres/" class="md-nav__link">
         
   
   
@@ -1507,7 +1465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/notes/" class="md-nav__link">
+      <a href="../tests/notes/" class="md-nav__link">
         
   
   
@@ -1530,7 +1488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/colors/" class="md-nav__link">
+      <a href="../tests/colors/" class="md-nav__link">
         
   
   
@@ -1553,7 +1511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/syntaxe/" class="md-nav__link">
+      <a href="../tests/syntaxe/" class="md-nav__link">
         
   
   
@@ -1576,7 +1534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/glossaire/" class="md-nav__link">
+      <a href="../tests/glossaire/" class="md-nav__link">
         
   
   
@@ -1599,7 +1557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/tooltips/" class="md-nav__link">
+      <a href="../tests/tooltips/" class="md-nav__link">
         
   
   
@@ -1622,7 +1580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tests/material/" class="md-nav__link">
+      <a href="../tests/material/" class="md-nav__link">
         
   
   
@@ -1652,7 +1610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../indicators/" class="md-nav__link">
+      <a href="../indicators/" class="md-nav__link">
         
   
   
@@ -1674,7 +1632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../glossaire/" class="md-nav__link">
+      <a href="../glossaire/" class="md-nav__link">
         
   
   
@@ -1696,7 +1654,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../support-faq/" class="md-nav__link">
+      <a href="../support-faq/" class="md-nav__link">
         
   
   
@@ -1728,8 +1686,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1738,45 +1694,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#interface" class="md-nav__link">
+  <a href="#interface-de-backtesting" class="md-nav__link">
     <span class="md-ellipsis">
-      Interface
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#formation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Formation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#video-youtube" class="md-nav__link">
-    <span class="md-ellipsis">
-      Vidéo YouTube
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#abonnement" class="md-nav__link">
-    <span class="md-ellipsis">
-      Abonnement
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Questions
+      Interface de backtesting
     </span>
   </a>
   
@@ -1801,44 +1721,25 @@
   
 
 
-<h1 id="prediction-ia">Prediction IA<a class="headerlink" href="#prediction-ia" title="Permanent link">&para;</a></h1>
-<p>Utilisation des réseaux de neurones <span class="text-keyword">Keras</span> avec <span class="text-keyword">Tensorflow</span> pour la prédiction des signaux 2D au sein de la plateforme <span class="text-keyword">TradingInPython</span>.</p>
-<h2 id="interface">Interface<a class="headerlink" href="#interface" title="Permanent link">&para;</a></h2>
-<p>Notez l'interface de configuration avec les paramètres évoqués dans la <a href="#formation">Formation</a></p>
+  <h1>Backtesting</h1>
+
+<p>Vous pouvez avoir envie de voir en temps réel l'animation du cours et les indicateurs techniques se recalculer pour valider ou non votre stratégie de trading.</p>
+<h2 id="interface-de-backtesting">Interface de backtesting<a class="headerlink" href="#interface-de-backtesting" title="Permanent link">&para;</a></h2>
 <figure style="text-align: center;">
-    <a href="/images/strategies/prediction-keras/keras-tensorflow.png" class="glightbox" data-gallery="galerie" title="Prédiction avec Keras et TensorFlow">
-        <img src="/images/strategies/prediction-keras/keras-tensorflow.png"/>
+    <a href="/images/back-testing-interface.png" class="glightbox" data-gallery="galerie" title="Fonctionnalités de Back Testing">
+        <img src="/images/back-testing-interface.png" alt="Fonctionnalités de Back Testing"/>
     </a>
-    <figcaption><em>Prédiction avec Keras et TensorFlow</em></figcaption>
+    <figcaption><em>Fonctionnalités de Back Testing</em></figcaption>
 </figure>
 
 <ul>
-<li><span class="text-keyword">Days in past</span> : Entrainement du modèle x_train contient des séquences de DAYS_IN_PAST jours.</li>
-<li><span class="text-keyword">Days in futur</span>  : Nombre de jours de prédiction</li>
-<li><span class="text-keyword">EPOCHS</span>  : Un epoch signifie une itération complète à travers le jeu de données d'entraînement.</li>
-<li><span class="text-keyword">LSMT UNITS</span>  : Types de couches dans le réseau de neurones.</li>
-<li><span class="text-keyword">Drop Out</span>  : Empêche le surapprentissage en désactivant aléatoirement une fraction des unités.</li>
+<li><span class="text-red">(1)</span> : Period à none pour utiliser <span class="text-keyword">"Date de fin"</span> et <span class="text-keyword">"Date de début"</span></li>
+<li><span class="text-red">(2)</span> : Les dates seront utilisées</li>
+<li><span class="text-red">(3)</span> : Boutons <span class="text-keyword">"+ 1"</span> et <span class="text-keyword">"- 1"</span></li>
 </ul>
-<h2 id="formation">Formation<a class="headerlink" href="#formation" title="Permanent link">&para;</a></h2>
-<p>Retrouvez les articles du blog sur la formation à Tensorflow :</p>
-<ul>
-<li><a href="https://www.trading-et-data-analyses.com/search/label/TensorFlow" target="_blank">Trading et Data Analyses - Tensorflow</a></li>
-</ul>
-<h2 id="video-youtube">Vidéo YouTube<a class="headerlink" href="#video-youtube" title="Permanent link">&para;</a></h2>
-<div align="center" class="md-video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vyCHZOKIokg?si=xK4dVqW1k6323_Xv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<h2 id="abonnement">Abonnement<a class="headerlink" href="#abonnement" title="Permanent link">&para;</a></h2>
-<p>Pour utiliser pleinement cette stratégie au sein de la plateforme, il vous faut vous abonner :</p>
-<ul>
-<li><a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">TradingInPython - Abonnement</a></li>
-</ul>
-<h2 id="questions">Questions<a class="headerlink" href="#questions" title="Permanent link">&para;</a></h2>
-<p>Vous avez des questions n'hésitez pas, nous sommes là pour tout vous expliquer.</p>
-<ul>
-<li><a href="../../support-faq/">Support &amp; FAQ</a></li>
-</ul>
+<p>Les boutons <span class="text-keyword">"+ 1"</span> et <span class="text-keyword">"- 1"</span> permettent d'ajouter ou de retirer 1 à la <span class="text-keyword">"Date de fin"</span>, en tenant compte des jours ouvrés, c'est à dire que vous aurez toujours de nouvelles data même si les dates tombent dans les week-end ou les jours non tradés.</p>
+<p>Le graphe est affiché et les indicateurs techniques sont recalculés avec les nouvelles valeurs.</p>
+<p>Vous aurez ainsi la possibilité de voir dans une situation réelle particulière du passé qu'elle décision de trading vous auriez prise en fonction de votre stratégie de trading et des indicateurs techniques choisis.</p>
 
 
 
@@ -1859,7 +1760,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="12 décembre 2025 10:04:27 UTC"><span class="timeago" datetime="2025-12-12T10:04:27+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="12 décembre 2025 10:04:27 UTC">2025-12-12</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="10 février 2026 18:14:16 UTC"><span class="timeago" datetime="2026-02-10T18:14:16+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="10 février 2026 18:14:16 UTC">2026-02-10</span>
   </span>
 
     
@@ -1959,18 +1860,18 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["content.icon", "navigation.instant", "navigation.top", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["content.icon", "navigation.instant", "navigation.top", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
-        <script src="../../js/timeago.min.js"></script>
+        <script src="../js/timeago.min.js"></script>
       
-        <script src="../../js/timeago_mkdocs_material.js"></script>
+        <script src="../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../js/glightbox.min.js"></script>
+        <script src="../js/glightbox.min.js"></script>
       
-        <script src="../../js/glightbox-init.js"></script>
+        <script src="../js/glightbox-init.js"></script>
       
     
   </body>

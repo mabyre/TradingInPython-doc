@@ -62,6 +62,7 @@ nav:
       - Monitorer le marché: monitor-alerts/monitor-stock-market.md
       - Alertes techniques: monitor-alerts/alertes-techniques.md
   - Gestionnaire de Portefeuilles: portfolio-manager.md
+  - Backtesting: back-testing.md
   - Dessiner sur les Graphes:
       - Naviguer dans le graphique: draw-on-charts/navigate-on-charts.md
       - Tracer des tendances: draw-on-charts/draw-trend-lines.md
