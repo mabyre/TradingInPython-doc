@@ -41,7 +41,7 @@ Grâce à l'interface :
 - `interval : 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 4h, 1d, 5d, 1wk, 1mo, 3mo`.
 
 > Note : Les données intraday (ex : 1 m, 2 m) ne peuvent pas s’étendre sur une période trop ancienne.
-> Vous risquez alors de voir un message {{ "NO DATA" | keyword }} afficher sur l'interface.
+> Vous risquez alors de voir un message {{ "NO DATA" | keyword }} s'afficher sur l'interface.
 
 Vous choisissez ensuite parmi les stratégies d'analyses proposées par la plateforme de trading.
 
