@@ -6,9 +6,9 @@ Avoir une routine bien rodée, c'est la clef d'un bon trader. Pour trader correc
 
 Voici une routine de trading que vous pouvez suivre en <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">vous abonnant à la plateforme TradingInPython</a>.
 
-Vous allez chercher les informations sur les actions que vous souhaitez analyser sur les grandes plateformes d'informations boursières comme Boursorama, Yahoo, Investing.com, etc.
+Vous [choisissez une actions](./recuperation-des-data.md) que vous souhaitez analyser.
 
-Vous avez choisi l'intervalle et la période de temps de votre analyse, pour une première analyse choisissez une échelle grande de temps Interval: `1d` un jour et analysez sur les 6 dernier mois Period: `6mo`. Encore mieux avec une échelle de temps `1w` et la période à `max`.
+Vous choisissez l'[intervalle et la période de temps](./recuperation-des-data.md#choisir-lintervalle-et-la-periode) de votre analyse, pour une première analyse choisissez une échelle grande de temps Interval: `1d` un jour et analysez sur les 6 dernier mois Period: `6mo` ou encore mieux avec une échelle de temps `1w` et la période à `max` (weekly max).
 
 Vous avez maintenant le choix entre toutes les stratégies proposées par la Plateforme :
 

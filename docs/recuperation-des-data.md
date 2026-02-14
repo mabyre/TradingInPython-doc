@@ -22,6 +22,8 @@ Vous vous retrouvez avec les actions (stocks) du secteur de l'aérospatial-défe
 
 Vous choisissez l'action que vous souhaitez trader parmi ce secteur.
 
+Vous ne trouvez pas l'action que vous souhaitez trader, il vous faut trouver son "ticker" sur les grandes plateformes d'informations boursières comme Boursorama, Yahoo, Investing.com, etc. Et l'ajouter à la [liste des actions](./gestion-liste-actions.md).
+
 ## Choisir l’intervalle et la période  
 
 Vous observez le cours des actions qui vous intéressent en sélectionnant un intervalle de temps et une  période sur laquelle vous souhaitez analyser le cours de ces actions.
