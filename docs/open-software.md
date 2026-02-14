@@ -53,3 +53,9 @@ Vous modifiez {{ "strategy_sma12e.py" | keyword }}, vous supprimez {{ "strategy_
     Avant de faire cela, il est conseillé de faire une sauvegarde complète de votre installation.
 
     Vous pouvez également faire un **Clône du GitHub** du répertoire : [PyTrading](https://github.com/SoDevLog/PyTrading)
+
+## Développez votre stratégie de trading technique
+
+Vous souhaitez profiter de l'éco-système {{ "TradingInPython" | keyword }} pour développer votre propre stratégie de trading technique, n'hésitez pas contactez nous :
+
+- <a href="https://www.trading-et-data-analyses.com/p/formulaire-de-contact.html" target="_blank">Contactez le support de la plateforme</a>

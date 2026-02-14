@@ -56,45 +56,50 @@ Vous remarquerez une série de cases à cocher également spécifique à la Stra
 
 Vous pourrez cliquer sur la case {{ "Forcast" | keyword }} (prédiction) pour faire une prédiction du signal d'achat/vente calculée par le réseau de neurones {{ "Keras et Jax" | keyword }} (équivalent de Tensorflow) entraîné sur les données.
 
-Retrouvez les analyses faites de l'action <a href="https://www.trading-et-data-analyses.com/2024/10/trigano.html#Ichikomu_Kinko_Hyo" target="_blank">TRIGANO</a>.
+Vous venez de découvrir l'une des nombreuses stratégies de trading technique de la plateforme.
 
 ### Les stratégies de trading technique
 
-Vous venez de découvrir l'une des nombreuses stratégies de trading technique de la plateforme.
-
-Voici toutes les stratégies que vous pouvez utiliser et qui sont intégrées dans la plateforme mais vous pouvez également facilement développer d'autres stratégies d'analyse technique que vous pourrez intégrer dans le menu des stratégies d'analyse.
+Voici maintenant toutes les stratégies intégrées dans la plateforme mais vous pouvez également [développer d'autres stratégies](open-software.md) d'analyse technique que vous pourrez intégrer dans le menu des stratégies d'analyse.
 
 Vous avez actuellement le choix entre les stratégies suivantes pour analyser vos données :
 
 <ul>
-    <li><span style="color: #38761d;">Ichimoku Kinko Hyo Modernised</span> + prédiction grâce à keras et tensorflow</li>
-    <li><span style="color: #38761d;">Moyennes mobiles et Exponetielle</span> - Simple Mobile Average 1 et 2 and Exponential</li>
-    <li>Volume Buy/Sell - Analyse de la pression volumique des flux d'achats et de ventes</li>
-    <li>Bollinger bands - Les bandes de Bollinger, appliquées à plusieurs horizons temporels différents.</li>
-    <li>Double Bandes de Bollinger - Une stratégie puissante pour trader les momentums haussiers.</li>
-    <li>Bollinger bands multiframes + histogrammes - détecteur de changement de tendance</li>
-    <li>VWAP + STOCH - Volume Weighted Average Price - Intraday follows thanks to VWAP</li>
-    <li>Fractales Bill Williams - Le fameux Bill Williams pour des signaux automatiques de Trading</li>
-    <li>Gator Alligator S from Bill Williams</li>
-    <li>Filtre de Kalman - Le fameux filtre pour la détection des tendances et de la volatilité</li>
-    <li>Prédiction Keras - utilisation du réseau de neurones keras deeplearning avec Jax</li>
+    <li>{{ "Ichimoku Kinko Hyo Modernised" | green }} + prédiction grâce à keras et tensorflow</li>
+    <li>{{ "Moyennes mobiles et Exponetielle"  | green }} - Simple Mobile Average 1 et 2 and Exponential</li>
+    <li>{{ "Volume Buy/Sell" | keyword }} - Analyse de la pression volumique des flux d'achats et de ventes</li>
+    <li>{{ "Bollinger bands" | keyword }} - Les bandes de Bollinger, appliquées à plusieurs horizons temporels différents.</li>
+    <li>{{ "Double Bandes de Bollinger" | keyword }} - Une stratégie puissante pour trader les momentums haussiers.</li>
+    <li>{{ "Bollinger bands multiframes + histogrammes" | keyword }} - Détecteur de changement de tendance</li>
+    <li>{{ "VWAP + STOCH - Volume Weighted Average Price" | keyword }} - Intraday follows thanks to VWAP</li>
+    <li>{{ "Fractales Bill Williams" | keyword }} - Le fameux Bill Williams pour des signaux automatiques de Trading</li>
+    <li>{{ "Gator Alligator S from Bill Williams" | keyword }}</li>
+    <li>{{ "Filtre de Kalman" | keyword }} - Le fameux filtre pour la détection des tendances et de la volatilité</li>
+    <li>{{ "Prédiction Keras" | keyword }} - Utilisation du réseau de neurones keras deeplearning avec Jax</li>
+    <li>{{ "Smart Money Concept ICT" | keyword }} - Décoder le trading des grands acteurs du marché</li>
 </ul>
 
-Quand vous installez la plateforme **les stratégies en <span style="color: #38761d;">vert</span> sont gratuites**.
-
-Pour découvrir comment utiliser ces stratégies pour élaborer votre **routine de trading** :
-
-- [Abonnez-vous](https://www.trading-et-data-analyses.com/p/abonnement.html)
+Quand vous installez la plateforme **les stratégies en {{ "vert" | green }} sont gratuites**.
 
 ### Votre routine de trading
 
-Pour découvrir la routine de trading que vous pouvez réaliser avec la plateforme :
+Pour trader correctement et avoir une chance de gagner en bourse, vous devez avoir une démarche proactive et régulière vis à vis des marchés et mettre en place votre routine de trading.
 
-- [Routine de trading](trading-routine.md)
+- Exemple de routine, vous démarrez la découverte d'une nouvelle {{ "stock" | g_tooltip }} par une analyse Ichimoku à l'échelle weekly/max.
+
+- Ensuite vous affinez avec les Bandes Bollinger puis vous utilisez les Moyennes Mobiles pour découvrir son {{ "Spread" | g_tooltip }}.
+
+- Vous déterminez les points d'entrée et de sortie ainsi que le {{ "Stoploss" | g_tooltip }} pour enfin placer des alertes.
+
+L'ensemble de ces stratégies de trading technique vous permet d'élaborer votre propre routine de trading :
+
+- [Découvrir votre routine de trading avec TradingInPython](trading-routine.md)
 
 ## Mode Screener
 
-En mode screen, vous pouvez parcourir toutes vos actions, avec par exemple la stratégie des <a href="https://www.trading-et-data-analyses.com/2024/11/formation-indicateur-fractales-bill-williams.html" target="_blank">Fractales de Bill Williams</a>, pour découvrir les signaux d'achat ou de vente de cette stratégie automatique de trading :
+Pour vous montrer la facilité avec laquelle vous aurez le loisir de parcourir vos actions ({{ "stock" | g_tooltip }}) et de réaliser des analyses techniques.
+
+En mode screener, vous pouvez parcourir toutes vos actions, avec par exemple la stratégie des [Fractales de Bill Williams](strategies/fractales-bill-williams.md), pour découvrir les signaux d'achat ou de vente de cette stratégie automatique de trading :
 
 <figure style="text-align: center;">
   <a href="/images/tour-rapide/mode-screener.png" class="glightbox" data-gallery="galerie" title="TradingInPython - Mode Screener">
@@ -102,8 +107,6 @@ En mode screen, vous pouvez parcourir toutes vos actions, avec par exemple la st
   </a>
   <figcaption><em>TradingInPython - Mode Screener</em></figcaption>
 </figure>
-
-Ce chapître pour montrer la facilité avec laquelle vous aurez le loisir de parcourir vos actions (stocks) et de réaliser des analyses techniques.
 
 ## Cartes de chaleur (heatmap) & Performance
 
@@ -118,7 +121,7 @@ Découvrez le moyen de surveiller des dizaines d'actions d'un seul coup d'œil a
 
 Pour chaque action tous les indicateurs techniques sont calculés et présentés dans une fenêtre de détails pour vous permettre de prendre les bonnes décisions de trading.
 
-- [Heatmap cartes de chaleur - Découvrir](./heatmap-screener/heatmaps.md)
+- [Découvrir les Heatmap cartes de chaleur](heatmap-screener/heatmaps.md)
 
 ## Monitoring Stock Market Alertes
 
@@ -137,7 +140,7 @@ Les alertes avancées vous permettent de mettre des alertes sur les indicateurs 
 
 Par exemple, vous réalisez vos analyses techniques le matin vous positionnez vos alertes et vous être prévenu dans la journée lorsque quelque chose se passe ...
 
-- [Mise sous surveillance du Marché - Découvrir](./monitor-alerts/monitor-stock-market.md)
+- [Découvrir la Mise sous surveillance du Marché](monitor-alerts/monitor-stock-market.md)
 
 ## Votre Gestionnaire de Portefeuilles
 
@@ -152,12 +155,16 @@ Le portfolio ou gestionnaire de portefeuilles est l'outil indispensable du trade
 
 La plateforme TradingInPython vous permet de gérer autant de portefeuilles que vous le souhaitez et de calculer ainsi l'efficacité réelle de vos trades.
 
-- [Gestionnaire de portefeuilles - Découvrir](./portfolio-manager.md)
+- [Découvrir le Gestionnaire de portefeuilles](portfolio-manager.md)
 
-## Conclusion
+## Téléchargement et abonnement
 
-Vous venez de faire un Tour rapide des fonctionnalités de la plateforme {{ "TradingInPython" | keyword }}.
+Vous venez de faire un {{ "Tour rapide" | keyword }} des fonctionnalités de la plateforme {{ "TradingInPython" | keyword }}.
 
-Téléchargez le logiciel, abonnez vous :
+Vous pensez que ce logiciel est fait pour vous et que vous allez pouvoir utiliser ces stratégies afin d'élaborer votre {{ "routine de trading" | keyword }} :
 
-- <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html"  target="_blank">TradingInPython</a>
+- <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html"  target="_blank">Téléchargez et abonnez-vous au logiciel TradingInPython</a>
+
+Vous souhaitez nous laisser un message, une remarque, une question :
+
+- <a href="https://www.trading-et-data-analyses.com/p/formulaire-de-contact.html"  target="_blank">Contactez-nous</a>
