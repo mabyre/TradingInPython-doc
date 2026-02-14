@@ -34,10 +34,10 @@ theme:
 nav:
   - Accueil: index.md
   - Tour rapide: tour-rapide.md
+  - Routine de Trading: trading-routine.md
   - Récupération des données: recuperation-des-data.md
   - Voyager dans le temps: voyage-dans-le-temps.md
   - Gérer la liste des actions: gestion-liste-actions.md
-  - Routine de Trading: trading-routine.md
   - Stratégies de Trading:
       - Vue d'ensemble: strategies/index.md
       - Ichimoku & Deep Learning: strategies/ichimoku-kinko-hyo.md

@@ -1,8 +1,8 @@
 # Votre routine de trading au quotidien
 
-Nous allons aborder rapidement chacune des stratégies de la plateforme et leur mise en oeuvre dans un l'ensemble global qu'est la {{ "routine de trading" | keyword }}.
+Nous allons aborder rapidement chacune des stratégies de la plateforme et leur mise en oeuvre dans l'ensemble global qu'est la {{ "routine de trading" | keyword }}.
 
-Avoir une routine bien rodée, c'est la clef d'un bon trader. Pour trader correctement et avoir une chance de gagner, vous devez avoir une démarche proactive et régulière vis à vis des marchés.
+Avoir une routine bien rodée, c'est la clef d'un bon trader. Pour trader correctement et avoir une {{ "chance de gagner" | keyword }}, vous devez avoir une démarche proactive et régulière vis à vis des marchés.
 
 Voici une routine de trading que vous pouvez suivre en <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">vous abonnant à la plateforme TradingInPython</a>.
 
@@ -19,12 +19,11 @@ Vous avez maintenant le choix entre toutes les stratégies proposées par la Pla
     <figcaption><em>Choix de la Stratégie pour l'analyse des données</em></figcaption>
 </figure>
 
-Les stratégies de la plateforme sont là pour déterminer la tendance et faire des entrées et des sorties propres.
+Les stratégies de trading technique de la plateforme sont là pour déterminer la tendance, faire des entrées et des sorties propres et placer vos {{ "Stoploss" | g_tooltip }}.
 
 ## Première analyse avec Ichimoku Kinko Hyo
 
-Disons que si vous souhaitez {{ "faire une première analyse" | keyword }} de l'action que vous venez de trouver, pour dégager des tendances globales, l'
-{{ "Ichimoku Kinko Hyo" | keyword }} est une stratégie idéale pour dégager de grandes tendances fortes :
+Disons que si vous souhaitez {{ "faire une première analyse" | keyword }} de l'action que vous venez de trouver, pour dégager des tendances globales, l' {{ "Ichimoku Kinko Hyo" | keyword }} est une stratégie idéale pour dégager de grandes tendances fortes :
 
 <figure style="text-align: center;">
     <a href="/images/strategies/ichimoku/routine.png" class="glightbox" data-gallery="galerie"  title="Stratégie de l'Ichoku Kinko Hyo">
@@ -33,11 +32,11 @@ Disons que si vous souhaitez {{ "faire une première analyse" | keyword }} de l'
     <figcaption><em>Stratégie de l'Ichoku Kinko Hyo</em></figcaption>
 </figure>
 
-Cette stratégie est à utiliser sur de grandes échelles de temps.
+Cette stratégie est à utiliser sur de grandes échelles de temps comme weekly max.
 
 Vous trouverez de la formation et des exemples sur cette stratégie sur ce site :
 
-- [Ichimoku-Kinko-Hyo - Découvrir](./strategies/ichimoku-kinko-hyo.md)
+- [Découvrir : Ichimoku-Kinko-Hyo](./strategies/ichimoku-kinko-hyo.md)
 
 ## Double Bandes de Bollinger
 
@@ -59,7 +58,7 @@ Exemple :
 
 Ces signaux sont clairs en tendance haussière uniquement.
 
-- [Double Bandes de Bollinger - Découvrir](./strategies/bollinger-bands/bollinger-bands-double.md)
+- [Découvrir : Double Bandes de Bollinger](./strategies/bollinger-bands/bollinger-bands-double.md)
 
 ## Analyse de la pression du flux volumique
 
@@ -104,7 +103,7 @@ L'intérêt de cette stratégie c'est qu'elle permet de calculer la rentabilité
 
 Le {{ "Spread" | keyword }} est un indicateur intéressant car il permet de se rendre compte du rendement de l'action, il est en général, peu intéressant de trader des actions avec peu de Spread.
 
-[Stratégie des Moyennes Mobiles - Découvrir](./strategies/moyennes-mobiles.md)
+- [Découvrir : Stratégie des Moyennes Mobiles](./strategies/moyennes-mobiles.md)
 
 ## Fractales de Bill Williams + SAR
 
@@ -121,7 +120,7 @@ Les sommets indiqués en rouge indiquent un possible retournement baissier. Les 
 
 Utilisé avec la {{ "Gator Alligator" | keyword }} cette routine peut devenir un système de trading complet.
 
-[Fractales de Bill Williams - Découvrir](./strategies/fractales-bill-williams.md)
+- [Découvrir : Fractales de Bill Williams](./strategies/fractales-bill-williams.md)
 
 ## Stop And Reverse parabolic
 
@@ -175,8 +174,25 @@ Selon la métaphore de l'alligator de Bill Williams le marché évolue en quatre
  <li>Gator en chasse : Deux barres vertes → tendance forte.</li><li>Gator rassasié : Une barre devient rouge → ralentissement de la tendance.</li>
 </ul>
 
-- [Alligator Gator de Bill Williams - Découvrir](./strategies/gator-alligator.md)
+- [Découvrir : Alligator Gator de Bill Williams](./strategies/gator-alligator.md)
 - <a href="https://www.trading-et-data-analyses.com/2024/10/formation-bill-williams-alligator-gator.html" target="_blank">Gator Alligator - Généralités</a>
+
+## Trading de la Smart Money Concept ICT
+
+La stratégie de trading de la Smart Money, ou comment remarquer les traces du trading de la Smart Money (les grands acteurs du marché). 
+
+Si vous familier des concept {{ "ICT" | g_link }}, vous pouvez utiliser cette stratégie seule dans une routine complète.
+
+Sinon il est bon de temps en temps de tester sur une action si la Smart Money n'est pas en train d'effectuer une manipulation du cours de l'action car il ne faut pas aller contre la Smart Money mais s'en servir pour suivre la tendance.
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/smart-money-concept/smart-money.png" class="glightbox" data-gallery="galerie" title="Lecture du trading de la Smart Money">
+        <img src="/images/strategies/smart-money-concept/smart-money.png" alt="" />
+    </a>
+    <figcaption><em>Lecture du trading de la Smart Money</em></figcaption>
+</figure>
+
+- [Découvrir : Le trading de la Smart Money](./strategies/smart-money-concept.md)
 
 ## Conclusion
 

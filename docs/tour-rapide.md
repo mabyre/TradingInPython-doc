@@ -93,7 +93,7 @@ Pour trader correctement et avoir une chance de gagner en bourse, vous devez avo
 
 L'ensemble de ces stratégies de trading technique vous permet d'élaborer votre propre routine de trading :
 
-- [Découvrir votre routine de trading avec TradingInPython](trading-routine.md)
+- [Découvrir : Votre routine de trading avec TradingInPython](trading-routine.md)
 
 ## Mode Screener
 
@@ -121,7 +121,7 @@ Découvrez le moyen de surveiller des dizaines d'actions d'un seul coup d'œil a
 
 Pour chaque action tous les indicateurs techniques sont calculés et présentés dans une fenêtre de détails pour vous permettre de prendre les bonnes décisions de trading.
 
-- [Découvrir les Heatmap cartes de chaleur](heatmap-screener/heatmaps.md)
+- [Découvrir : Les Cartes de chaleur (heatmap)](heatmap-screener/heatmaps.md)
 
 ## Monitoring Stock Market Alertes
 
@@ -140,7 +140,7 @@ Les alertes avancées vous permettent de mettre des alertes sur les indicateurs 
 
 Par exemple, vous réalisez vos analyses techniques le matin vous positionnez vos alertes et vous être prévenu dans la journée lorsque quelque chose se passe ...
 
-- [Découvrir la Mise sous surveillance du Marché](monitor-alerts/monitor-stock-market.md)
+- [Découvrir : La Mise sous surveillance du Marché](monitor-alerts/monitor-stock-market.md)
 
 ## Votre Gestionnaire de Portefeuilles
 
@@ -155,7 +155,7 @@ Le portfolio ou gestionnaire de portefeuilles est l'outil indispensable du trade
 
 La plateforme TradingInPython vous permet de gérer autant de portefeuilles que vous le souhaitez et de calculer ainsi l'efficacité réelle de vos trades.
 
-- [Découvrir le Gestionnaire de portefeuilles](portfolio-manager.md)
+- [Découvrir : Le Gestionnaire de portefeuilles](portfolio-manager.md)
 
 ## Téléchargement et abonnement
 
