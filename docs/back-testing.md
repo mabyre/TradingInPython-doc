@@ -1,3 +1,9 @@
+---
+title: "Découvrez comment backtester vos stratégies de trading technique"
+description: "Le backtesting est une fonctionnalité importante pour la validation de vos stratégies de trading technique"
+keywords: "backtesting, trading, technique"
+---
+
 Vous pouvez avoir envie de voir en temps réel l'animation du cours et les indicateurs techniques se recalculer pour valider ou non votre stratégie de trading.
 
 ## Interface de backtesting

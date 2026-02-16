@@ -1,3 +1,8 @@
+---
+description: "Découvrez comment utiliser l'indicateur Ichimoku Kinko Hyo avec une prédiction IA (Keras/TensorFlow) dans TradingInPython."
+keywords: "ichimoku, ichimoku kinko hyo, trading technique, deep learning, keras, tensorflow"
+---
+
 # Ichimoku Kinko Hyo & Deeplearning
 
 L'indicateur technique {{ "Ichimoku Kinko Hyo" | keyword }} est une stratégie à lui tout seul. C'est une analyse technique extrêment graphique qui permet en un coup d'oeil de détecter les grandes tendances du cours de l'action.

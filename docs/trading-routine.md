@@ -1,3 +1,8 @@
+---
+description: "Découvrez comment créer votre routine de trading"
+keywords: "trading, technique, routine"
+---
+
 # Votre routine de trading au quotidien
 
 Nous allons aborder rapidement chacune des stratégies de la plateforme et leur mise en oeuvre dans l'ensemble global qu'est la {{ "routine de trading" | keyword }}.

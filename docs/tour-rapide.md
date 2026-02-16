@@ -1,3 +1,8 @@
+---
+description: "Présentation rapide de la plateforme de trading technique et de ses stratégies"
+keywords: "trading, technique, stratégie, deep learning, keras, tensorflow"
+---
+
 # Tour rapide
 
 Découvrez rapidement les grands modules que vous pourrez utiliser avec {{ "TradingInPython" | keyword }}, la plateforme dédiée au trading technique.

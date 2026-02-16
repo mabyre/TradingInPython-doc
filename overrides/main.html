@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{{ super() }}
+
+{# Récupération des metas #}
+{% set meta_title = page.title ~ " - " ~ config.site_name %}
+{% set meta_description = "" %}
+{% set meta_keywords = "" %}
+{% set meta_author = "" %}
+{% set meta_image = "" %}
+{% set meta_locale = "fr_FR" %}
+
+{% if page and page.meta %}
+{% if page.meta.description %}{% set meta_description = page.meta.description %}{% endif %}
+{% if page.meta.keywords %}{% set meta_keywords = page.meta.keywords %}{% endif %}
+{% if page.meta.author %}{% set meta_author = page.meta.author %}{% endif %}
+{% if page.meta.image %}{% set meta_image = page.meta.image %}{% endif %}
+{% if page.meta.locale %}{% set meta_locale = page.meta.locale %}{% endif %}
+{% endif %}
+
+{# Keywords (optionnel) #}
+{% if meta_keywords %}
+<meta name="keywords" content="{{ meta_keywords | e }}">
+{% endif %}
+
+{# OpenGraph (Facebook/LinkedIn) #}
+<meta property="og:locale" content="{{ meta_locale | e }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ meta_title | e }}">
+
+{% if meta_description %}
+<meta property="og:description" content="{{ meta_description | e }}">
+{% endif %}
+
+{% if page and page.canonical_url %}
+<meta property="og:url" content="{{ page.canonical_url | e }}">
+{% endif %}
+
+<meta property="og:site_name" content="{{ config.site_name | e }}">
+
+{% if meta_image %}
+<meta property="og:image" content="{{ meta_image | e }}">
+{% endif %}
+
+{# Twitter cards #}
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:title" content="{{ meta_title | e }}">
+
+{% if meta_description %}
+<meta name="twitter:description" content="{{ meta_description | e }}">
+{% endif %}
+
+{% if meta_image %}
+<meta name="twitter:image" content="{{ meta_image | e }}">
+{% endif %}
+
+{% endblock %}

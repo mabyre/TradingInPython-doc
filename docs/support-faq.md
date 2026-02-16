@@ -1,3 +1,9 @@
+---
+title: "FAQ & Support de la plate forme de trading technique"
+description: "Un problème une question comment contacter le support"
+keywords: "faq, support, trading, technique"
+---
+
 ## FAQ
 
 Retrouvez les réponses aux questions que vous pouvez vous poser à propos de <a href="https://www.trading-et-data-analyses.com/2025/08/tradinginpython-plateforme-ouverte-pour-le-trading-technique.html" target="_blank">TradingInPython</a>

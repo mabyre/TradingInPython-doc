@@ -1,5 +1,5 @@
 site_name: TradingInPython
-site_description: Documentation officielle de la plateforme TradingInPython
+site_description: Documentation technique de la plateforme open software de trading algorithmique en Python
 site_author: Bruno Raby
 site_url: https://trading-in-python.sodevlog.com # site_url: https://mabyre.github.io/TradingInPython-doc/
 use_directory_urls: true
@@ -30,6 +30,8 @@ theme:
   icon:
     logo: material/chart-line
     repo: fontawesome/brands/github
+  favicon: images/favicon.png
+  custom_dir: overrides
 
 nav:
   - Accueil: index.md
@@ -134,6 +136,7 @@ extra:
       link: https://www.linkedin.com/in/bruno-raby
     - icon: fontawesome/brands/webflow
       link: https://www.trading-et-data-analyses.com
+  social_locale: fr_FR
 
 copyright: >
   © 2025 <a href="https://www.trading-et-data-analyses.com">Trading et Data Analyses</a> – 

@@ -1,3 +1,8 @@
+---
+description: "Récupération des données de bourse en temps réel"
+keywords: "trading, technique, data, yfinance"
+---
+
 # Récupération des données du cours de bourse
 
 Il s'agit de récupérer des données au près des plateformes {{ "open data" | keyword }} reliées aux grandes bourses du monde entier. Ces plateformes donnent accès aux cours de la bourse par des API que nous utilisons grâce au langage Python.
