@@ -55,7 +55,7 @@ nav:
       - Fractales de Bill Williams: strategies/fractales-bill-williams.md
       - Gator Alligator: strategies/gator-alligator.md
       - Filtre de Kalman: strategies/kalman-filter.md
-      - Prédiction IA (Keras/Tensorflow/JAX): strategies/prediction_ai.md
+      - Prédiction IA (Keras/Tensorflow/JAX): strategies/prediction-keras-ai.md
       - Smart Money Concept ICT: strategies/smart-money-concept.md
   - Heatmap & Screeners:
       - Création des Screeners: heatmap-screener/screeners.md
