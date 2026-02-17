@@ -1873,13 +1873,14 @@
 
 <h1 id="monitor-stock-market">Monitor Stock Market<a class="headerlink" href="#monitor-stock-market" title="Permanent link">&para;</a></h1>
 <p>Monitorez le marché grâce aux alertes techniques et mettez le marché sous surveillance.</p>
-<p>Vous avez créé vos screeners en utilisant le <span class="text-keyword">"Sélecteur de stocks"</span> :</p>
+<p>Vous avez créé vos screeners (liste des actions à mettre sous surveillance) en utilisant le <span class="text-keyword">"Sélecteur de stocks"</span> :</p>
 <ul>
 <li>Menu <span class="text-keyword">"Monitoring"</span> -&gt; <a href="../../heatmap-screener/screeners/">"Gestion des screeners"</a></li>
 </ul>
 <p>Vous pouvez maintenant configurer des Alertes sur les cours de bourse.</p>
-<p>C'est l'<span class="text-keyword">aboutissement de votre analyse technique</span>, vous avez déterminé que l'objectif de cours à atteindre est de tant, vous allez pouvoir positionner une alerte pour être prévenu lorsque le cours atteindra cette valeur.</p>
-<p>Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre événement qui peut se produire sur la stock c'est l'objet du Monitor Stock Market : mettre le marché sous surveillance.</p>
+<p>C'est l'<span class="text-keyword">aboutissement de votre analyse technique</span>, vous avez déterminé que l'objectif de cours à atteindre pour entrer ou sortir de position est de tant, vous allez pouvoir positionner une alerte pour être prévenu lorsque le cours atteindra cette valeur.</p>
+<p>Votre analyse technique montre qu'il faut que la stock sorte de la zone de surachat pour entrer en position, vous mettez une <a href="../alertes-techniques/">alerte technique</a> sur le niveau du <a href="/indicators/#rsi">RSI</a>.</p>
+<p>Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre événement qui peut se produire sur la stock c'est l'objet du Monitor Stock Market : <span class="text-keyword">mettre le marché sous surveillance</span>.</p>
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/interface.png" class="glightbox" data-gallery="galerie" title="Monitor Stock Market Alertes">
         <img src="/images/monitor-stock-market/interface.png" />
@@ -1889,7 +1890,7 @@
 
 <p>L'onglet <span class="text-keyword">"Monitoring"</span> vous permet de visualiser les alertes qui ont été déclenchées.</p>
 <h2 id="alertes-simples-en-prix-et-en-volume">Alertes simples en prix et en volume<a class="headerlink" href="#alertes-simples-en-prix-et-en-volume" title="Permanent link">&para;</a></h2>
-<p>Positionnez des alertes sur les prix et les volumes.</p>
+<p>Positionnez des alertes sur les prix et les volumes :</p>
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/edition-alerte.png" class="glightbox" data-gallery="galerie" title="Positionnez une alerte simple">
         <img src="/images/monitor-stock-market/edition-alerte.png" />
@@ -1898,10 +1899,14 @@
 </figure>
 
 <ul>
-<li><strong>(1)</strong> Double cliquez sur l'une de ligne représentant une action que vous souhaitez monitorer</li>
-<li><strong>(2)</strong> Fenêtre pour éditer les alertes de l'action</li>
+<li><span class="text-red">(1)</span> : Double cliquez sur l'une de ligne représentant une action que vous souhaitez monitorer</li>
+<li>
+<p><span class="text-red">(2)</span> : Fenêtre pour éditer les alertes de l'action</p>
+</li>
+<li>
+<p><span class="text-blue">Temps de réarmement (minutes)</span> : Spécifiez un temps au bout duquel l'alarme sera réarmée (retestée) pour ne pas avoir cette alerte toutes les minutes dans le compte rendu des alertes déclenchées.</p>
+</li>
 </ul>
-<p>Temps de réarmement (minutes) : Spécifiez un temps au bout duquel l'alarme sera réarmée (retestée) pour ne pas avoir cette alerte toutes les minutes dans le compte rendu des alertes déclenchées.</p>
 <h2 id="alertes-a-date">Alertes à date<a class="headerlink" href="#alertes-a-date" title="Permanent link">&para;</a></h2>
 <p>Vous pouvez déclencher un message dans le volet monitoring à une date que vous spécifiez comme par exemple : effectuer une nouvelle analyse technique ou bien que les dividendes sur ce cours arrivent.</p>
 <h2 id="tableau-de-bord-du-monitor-stocks-market-alertes">Tableau de bord du Monitor Stocks Market Alertes<a class="headerlink" href="#tableau-de-bord-du-monitor-stocks-market-alertes" title="Permanent link">&para;</a></h2>
@@ -1914,9 +1919,9 @@
 </figure>
 
 <ul>
-<li><strong>(1)</strong> L'indication du <strong>Prix Achat</strong> ou PRU (prix de revient unitaire) vous permet de savoir où vous en êtes à la hausse ou à la baisse.</li>
-<li><strong>(2)</strong> <strong>Prix courant</strong> récupéré en temps réel.</li>
-<li><strong>(3) Prix %</strong> : l'écart calculé avec la dernière valeur du cours et la première valeur de la séquence de données ici : période 5d donc le Prix % est l'écart entre la dernière valeur du cours et le cours il y a 5 jours.</li>
+<li><span class="text-red">(1)</span> : L'indication du <span class="text-keyword">"Prix Achat"</span> ou PRU (prix de revient unitaire) vous permet de savoir où vous en êtes à la hausse ou à la baisse.</li>
+<li><span class="text-red">(2)</span> : <span class="text-keyword">"Prix courant"</span> récupéré en temps réel.</li>
+<li><span class="text-red">(3)</span> : <span class="text-keyword">"Prix %"</span> l'écart calculé avec la dernière valeur du cours et la première valeur de la séquence de données ici : période 5d donc le Prix % est l'écart entre la dernière valeur du cours et le cours il y a 5 jours.</li>
 </ul>
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/valeur-prix.png" class="glightbox" data-gallery="galerie" title="Valeur du Prix % sur les cinq derniers jours">
@@ -1926,15 +1931,22 @@
 </figure>
 
 <ul>
-<li><strong>Tr</strong> : Temps de réarmement</li>
+<li><span class="text-keyword">"Tr"</span> : Temps de réarmement</li>
 </ul>
 <p>La période est calculé en fonction de l'Intervalle choisi pour avoir assez de données. Le choix de l'intervalle est important pour les alertes en volume.</p>
 <p>Pour positionner une alerte en volume les colonnes Vol, Vol Tot, et Vol Max sont calculées en utilisant cet intervalle.</p>
 <ul>
-<li><strong>Monitor</strong> : Décochez cette case pour ne plus recevoir les alertes concernant ce titre, remarquez que le <span class="text-keyword">"Prix Courant"</span> est à zéro pour les titres qui ne sont pas monitorés.</li>
+<li><span class="text-keyword">"Monitor"</span> : Décochez cette case pour ne plus recevoir les alertes concernant ce titre, remarquez que le <span class="text-keyword">"Prix Courant"</span> est à zéro pour les titres qui ne sont pas monitorés.</li>
 </ul>
 <h2 id="couleurs-des-lignes-dalertes">Couleurs des lignes d'alertes<a class="headerlink" href="#couleurs-des-lignes-dalertes" title="Permanent link">&para;</a></h2>
-<p>Pour voir si vous avez positionné une alerte sur un titre, la ligne correspondante est colorée, en <span class="text-keyword">vert clair</span> s'il s'agit d'une alerte simple, en <span class="text-keyword">vert foncé</span> s'il s'agit d'une alerte technique (avancées).</p>
+<p>Pour voir graphiquement si vous avez positionné une alerte sur un titre, la ligne correspondante est colorée :</p>
+<ul>
+<li><span style="color: #f1f1f1; font-weight: bold;">en blanc</span> : pas d'alerte positionné sur la valeur</li>
+<li><span style="color: #dfdfdf; font-weight: bold;">en gris</span> : seule une alerte de date est posiionnée</li>
+<li><span style="color: #bcdfc4; font-weight: bold;">en vert clair</span> : une alerte simple en prix ou en volume est positionnée</li>
+<li><span style="color: #b4d7dd; font-weight: bold;">en bleu clair</span> : une alerte technique avec indicateur positionnée</li>
+<li><span style="color: #83b39c; font-weight: bold;">en vert foncé clair</span> : à la fois une alerte simple et une alarte technique</li>
+</ul>
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/couleurs-lignes.png" class="glightbox" data-gallery="galerie" title="Indication de couleur des alertes">
         <img src="/images/monitor-stock-market/couleurs-lignes.png"/>
