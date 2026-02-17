@@ -1,3 +1,8 @@
+---
+description: "Déclenhez des alertes sur les cours de bourse en utilisant les indicateurs techniques"
+keywords: "stock, alertes, trading, technique, monitor, market"
+---
+
 # Alertes techniques avancées
 
 Il s'agit de placer des alertes sur les cours des actions, en utilisant les {{ "indicateurs techniques" | keyword }}.

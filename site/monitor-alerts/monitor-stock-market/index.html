@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Documentation technique de la plateforme open software de trading algorithmique en Python">
+        <meta name="description" content="Mettez les marchés financiers sous surveillance, voici le monitor stock market">
       
       
         <meta name="author" content="Bruno Raby">
@@ -89,12 +89,16 @@
 
 
 
+<meta name="keywords" content="stock, alertes, trading, technique, monitor, market">
+
 
 
 <meta property="og:locale" content="fr_FR">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Monitorer le marché - TradingInPython">
 
+
+<meta property="og:description" content="Mettez les marchés financiers sous surveillance, voici le monitor stock market">
 
 
 
@@ -110,6 +114,8 @@
 
 <meta name="twitter:title" content="Monitorer le marché - TradingInPython">
 
+
+<meta name="twitter:description" content="Mettez les marchés financiers sous surveillance, voici le monitor stock market">
 
 
 
@@ -1066,26 +1072,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#couleurs-des-lignes-dalertes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Couleurs des lignes d'alertes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#recevoir-les-alertes-par-email" class="md-nav__link">
     <span class="md-ellipsis">
       Recevoir les alertes par email
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Recevoir les alertes par email">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#couleurs-des-lignes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Couleurs des lignes
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1826,26 +1826,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#couleurs-des-lignes-dalertes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Couleurs des lignes d'alertes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#recevoir-les-alertes-par-email" class="md-nav__link">
     <span class="md-ellipsis">
       Recevoir les alertes par email
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Recevoir les alertes par email">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#couleurs-des-lignes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Couleurs des lignes
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1879,13 +1873,14 @@
 
 <h1 id="monitor-stock-market">Monitor Stock Market<a class="headerlink" href="#monitor-stock-market" title="Permanent link">&para;</a></h1>
 <p>Monitorez le marché grâce aux alertes techniques et mettez le marché sous surveillance.</p>
-<p>Vous avez créé vos screeners en utilisant le <span class="text-keyword">"Sélecteur de stocks"</span> :</p>
+<p>Vous avez créé vos screeners (liste des actions à mettre sous surveillance) en utilisant le <span class="text-keyword">"Sélecteur de stocks"</span> :</p>
 <ul>
 <li>Menu <span class="text-keyword">"Monitoring"</span> -&gt; <a href="../../heatmap-screener/screeners/">"Gestion des screeners"</a></li>
 </ul>
 <p>Vous pouvez maintenant configurer des Alertes sur les cours de bourse.</p>
-<p>C'est l'<span class="text-keyword">aboutissement de votre analyse technique</span>, vous avez déterminé que l'objectif de cours à atteindre est de tant, vous allez pouvoir positionner une alerte pour être prévenu lorsque le cours atteindra cette valeur.</p>
-<p>Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre événement qui peut se produire sur la stock c'est l'objet du Monitor Stock Market : mettre le marché sous surveillance.</p>
+<p>C'est l'<span class="text-keyword">aboutissement de votre analyse technique</span>, vous avez déterminé que l'objectif de cours à atteindre pour entrer ou sortir de position est de tant, vous allez pouvoir positionner une alerte pour être prévenu lorsque le cours atteindra cette valeur.</p>
+<p>Votre analyse technique montre qu'il faut que la stock sorte de la zone de surachat pour entrer en position, vous mettez une <a href="../alertes-techniques/">alerte technique</a> sur le niveau du <a href="/indicators/#rsi">RSI</a>.</p>
+<p>Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre événement qui peut se produire sur la stock c'est l'objet du Monitor Stock Market : <span class="text-keyword">mettre le marché sous surveillance</span>.</p>
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/interface.png" class="glightbox" data-gallery="galerie" title="Monitor Stock Market Alertes">
         <img src="/images/monitor-stock-market/interface.png" />
@@ -1895,7 +1890,7 @@
 
 <p>L'onglet <span class="text-keyword">"Monitoring"</span> vous permet de visualiser les alertes qui ont été déclenchées.</p>
 <h2 id="alertes-simples-en-prix-et-en-volume">Alertes simples en prix et en volume<a class="headerlink" href="#alertes-simples-en-prix-et-en-volume" title="Permanent link">&para;</a></h2>
-<p>Positionnez des alertes sur les prix et les volumes.</p>
+<p>Positionnez des alertes sur les prix et les volumes :</p>
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/edition-alerte.png" class="glightbox" data-gallery="galerie" title="Positionnez une alerte simple">
         <img src="/images/monitor-stock-market/edition-alerte.png" />
@@ -1904,10 +1899,14 @@
 </figure>
 
 <ul>
-<li><strong>(1)</strong> Double cliquez sur l'une de ligne représentant une action que vous souhaitez monitorer</li>
-<li><strong>(2)</strong> Fenêtre pour éditer les alertes de l'action</li>
+<li><span class="text-red">(1)</span> : Double cliquez sur l'une de ligne représentant une action que vous souhaitez monitorer</li>
+<li>
+<p><span class="text-red">(2)</span> : Fenêtre pour éditer les alertes de l'action</p>
+</li>
+<li>
+<p><span class="text-blue">Temps de réarmement (minutes)</span> : Spécifiez un temps au bout duquel l'alarme sera réarmée (retestée) pour ne pas avoir cette alerte toutes les minutes dans le compte rendu des alertes déclenchées.</p>
+</li>
 </ul>
-<p>Temps de réarmement (minutes) : Spécifiez un temps au bout duquel l'alarme sera réarmée (retestée) pour ne pas avoir cette alerte toutes les minutes dans le compte rendu des alertes déclenchées.</p>
 <h2 id="alertes-a-date">Alertes à date<a class="headerlink" href="#alertes-a-date" title="Permanent link">&para;</a></h2>
 <p>Vous pouvez déclencher un message dans le volet monitoring à une date que vous spécifiez comme par exemple : effectuer une nouvelle analyse technique ou bien que les dividendes sur ce cours arrivent.</p>
 <h2 id="tableau-de-bord-du-monitor-stocks-market-alertes">Tableau de bord du Monitor Stocks Market Alertes<a class="headerlink" href="#tableau-de-bord-du-monitor-stocks-market-alertes" title="Permanent link">&para;</a></h2>
@@ -1920,9 +1919,9 @@
 </figure>
 
 <ul>
-<li><strong>(1)</strong> L'indication du <strong>Prix Achat</strong> ou PRU (prix de revient unitaire) vous permet de savoir où vous en êtes à la hausse ou à la baisse.</li>
-<li><strong>(2)</strong> <strong>Prix courant</strong> récupéré en temps réel.</li>
-<li><strong>(3) Prix %</strong> : l'écart calculé avec la dernière valeur du cours et la première valeur de la séquence de données ici : période 5d donc le Prix % est l'écart entre la dernière valeur du cours et le cours il y a 5 jours.</li>
+<li><span class="text-red">(1)</span> : L'indication du <span class="text-keyword">"Prix Achat"</span> ou PRU (prix de revient unitaire) vous permet de savoir où vous en êtes à la hausse ou à la baisse.</li>
+<li><span class="text-red">(2)</span> : <span class="text-keyword">"Prix courant"</span> récupéré en temps réel.</li>
+<li><span class="text-red">(3)</span> : <span class="text-keyword">"Prix %"</span> l'écart calculé avec la dernière valeur du cours et la première valeur de la séquence de données ici : période 5d donc le Prix % est l'écart entre la dernière valeur du cours et le cours il y a 5 jours.</li>
 </ul>
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/valeur-prix.png" class="glightbox" data-gallery="galerie" title="Valeur du Prix % sur les cinq derniers jours">
@@ -1932,13 +1931,30 @@
 </figure>
 
 <ul>
-<li><strong>Tr</strong> : Temps de réarmement</li>
+<li><span class="text-keyword">"Tr"</span> : Temps de réarmement</li>
 </ul>
 <p>La période est calculé en fonction de l'Intervalle choisi pour avoir assez de données. Le choix de l'intervalle est important pour les alertes en volume.</p>
 <p>Pour positionner une alerte en volume les colonnes Vol, Vol Tot, et Vol Max sont calculées en utilisant cet intervalle.</p>
 <ul>
-<li><strong>Monitor</strong> : Décochez cette case pour ne plus recevoir les alertes concernant ce titre, remarquez que le <span class="text-keyword">"Prix Courant"</span> est à zéro pour les titres qui ne sont pas monitorés.</li>
+<li><span class="text-keyword">"Monitor"</span> : Décochez cette case pour ne plus recevoir les alertes concernant ce titre, remarquez que le <span class="text-keyword">"Prix Courant"</span> est à zéro pour les titres qui ne sont pas monitorés.</li>
 </ul>
+<h2 id="couleurs-des-lignes-dalertes">Couleurs des lignes d'alertes<a class="headerlink" href="#couleurs-des-lignes-dalertes" title="Permanent link">&para;</a></h2>
+<p>Pour voir graphiquement si vous avez positionné une alerte sur un titre, la ligne correspondante est colorée :</p>
+<ul>
+<li><span style="color: #f1f1f1; font-weight: bold;">en blanc</span> : pas d'alerte positionné sur la valeur</li>
+<li><span style="color: #dfdfdf; font-weight: bold;">en gris</span> : seule une alerte de date est posiionnée</li>
+<li><span style="color: #bcdfc4; font-weight: bold;">en vert clair</span> : une alerte simple en prix ou en volume est positionnée</li>
+<li><span style="color: #b4d7dd; font-weight: bold;">en bleu clair</span> : une alerte technique avec indicateur positionnée</li>
+<li><span style="color: #83b39c; font-weight: bold;">en vert foncé clair</span> : à la fois une alerte simple et une alarte technique</li>
+</ul>
+<figure style="text-align: center;">
+    <a href="/images/monitor-stock-market/couleurs-lignes.png" class="glightbox" data-gallery="galerie" title="Indication de couleur des alertes">
+        <img src="/images/monitor-stock-market/couleurs-lignes.png"/>
+    </a>
+    <figcaption><em>Indication de couleur des alertes</em></figcaption>
+</figure>
+
+<p>Pour éditer une alerte avancée, vous avez le bouton <span class="text-keyword">"Alertes Avancées"</span> mais vous pouvez également maintenir la touche <span class="text-keyword">Ctrl</span> en cliquant sur la ligne du titre concerné.</p>
 <h2 id="recevoir-les-alertes-par-email">Recevoir les alertes par email<a class="headerlink" href="#recevoir-les-alertes-par-email" title="Permanent link">&para;</a></h2>
 <p>Afin de recevoir les alertes du Monitor Stock Market vous devez au préalable avoir renseigné votre email dans le Menu <span class="text-keyword">Aide -&gt; Smtp</span></p>
 <figure style="text-align: center;">
@@ -1950,16 +1966,6 @@
 
 <p>En suite, cochez la case <span class="text-keyword">"Envoyer emails"</span></p>
 <p>Vous allez pouvoir recevoir un email avec l'ensemble des alertes que vous avez positionné et qui se sont déclenchées.</p>
-<h3 id="couleurs-des-lignes">Couleurs des lignes<a class="headerlink" href="#couleurs-des-lignes" title="Permanent link">&para;</a></h3>
-<p>Pour voir si vous avez positionné une alerte sur un titre, la ligne correspondante est colorée, en <span class="text-keyword">vert clair</span> s'il s'agit d'une alerte simple, en <span class="text-keyword">vert foncé</span> s'il s'agit d'une alerte technique (avancées).</p>
-<figure style="text-align: center;">
-    <a href="/images/monitor-stock-market/couleurs-lignes.png" class="glightbox" data-gallery="galerie" title="Indication de couleur des alertes">
-        <img src="/images/monitor-stock-market/couleurs-lignes.png"/>
-    </a>
-    <figcaption><em>Indication de couleur des alertes</em></figcaption>
-</figure>
-
-<p>Pour éditer une alerte avancée, vous avez le bouton <span class="text-keyword">"Alertes Avancées"</span> mais vous pouvez également maintenir la touche <span class="text-keyword">Ctrl</span> en cliquant sur la ligne du titre concerné.</p>
 <h2 id="vous-avez-rate-quelque-chose">Vous avez raté quelque chose ?<a class="headerlink" href="#vous-avez-rate-quelque-chose" title="Permanent link">&para;</a></h2>
 <p>Voici la une vidéo rapide pour vous présenter les Alertes de la plateforme :</p>
 <figure style="text-align: center;">
@@ -1990,7 +1996,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="15 janvier 2026 10:28:29 UTC"><span class="timeago" datetime="2026-01-15T10:28:29+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="15 janvier 2026 10:28:29 UTC">2026-01-15</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="17 février 2026 11:29:05 UTC"><span class="timeago" datetime="2026-02-17T11:29:05+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="17 février 2026 11:29:05 UTC">2026-02-17</span>
   </span>
 
     
