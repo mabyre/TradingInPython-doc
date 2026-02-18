@@ -9,6 +9,8 @@ Découvrez la puissance de notre plateforme de trading technique et de ses strat
 
 L'important pour le trader c'est de {{ "se forger une conviction" | keyword }} et de {{ "valider cette conviction par l'analyse technique" | keyword }} pour être certain de gagner de l'argent, c'est l'objectif de notre Plateforme de Trading Technique.
 
+[Support & FAQ](./support-faq.md)
+
 ## Liens utiles
 
 {{ "Inutile de savoir coder en Python" | keyword }}, tout est déjà prêt, il vous suffit de télécharger gratuitement la plateforme de trading technique TradingInPython.
