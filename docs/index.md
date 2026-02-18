@@ -1,3 +1,8 @@
+---
+description: "Documentation officielle de TradingInPython, la plateforme de trading technique et d’analyse des marchés – stratégies, indicateurs et IA."
+keywords: "trading, technique, monitor, market, python"
+---
+
 # Plateforme de Trading Technique
 
 Découvrez la puissance de notre plateforme de trading technique et de ses stratégies automatisées. {{ "TradingInPython" | keyword }} intègre toutes les stratégies d'analyse technique, nécessaires et suffisantes pour effectuer votre trading au quotidien et sécuriser vos investissements.

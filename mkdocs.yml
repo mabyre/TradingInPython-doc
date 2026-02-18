@@ -1,5 +1,5 @@
 site_name: TradingInPython - Plateforme de trading pour l'analyse technique
-site_description: Documentation technique de la plateforme open software de trading algorithmique en Python
+site_description: Documentation technique de la plateforme open software de trading algorithmique des marchés financiers, avec des stratégies de trading, des outils d'analyse technique, et des ressources pour les traders.
 site_author: Bruno Raby
 site_url: https://trading-in-python.sodevlog.com # site_url: https://mabyre.github.io/TradingInPython-doc/
 use_directory_urls: true
