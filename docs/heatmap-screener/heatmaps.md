@@ -1,3 +1,8 @@
+---
+description: "Vous pouvez surveiller les marchés boursiers à l'aide de cartes de chaleur qui délivre une tendance du cours de l'action"
+keywords: "heatmap, stock, trading, technique, monitor, market"
+---
+
 # Cartes de chaleur & Performances
 
 Vous avez créé vos screeners en utilisant le {{ "Sélecteur de stocks" | keyword }} Menu {{ "Screeners" | keyword }} -> [Gestion des screeners](./screeners.md), vous pouvez afficher des Cartes de chaleur.
