@@ -14,6 +14,8 @@ Pour toutes vos demandes, vos questions :
 
 - [Blog - Formulaire de contact](https://www.trading-et-data-analyses.com/p/formulaire-de-contact.html)
 
+## Rapportez un Bug
+
 Un problème, un bug, une question avec la plateforme :
 
 _Pour envoyez un message vous devez avoir un compte GitHub ..._

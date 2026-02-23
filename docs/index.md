@@ -9,8 +9,6 @@ Découvrez la puissance de notre plateforme de trading technique et de ses strat
 
 L'important pour le trader c'est de {{ "se forger une conviction" | keyword }} et de {{ "valider cette conviction par l'analyse technique" | keyword }} pour être certain de gagner de l'argent, c'est l'objectif de notre Plateforme de Trading Technique.
 
-[Support & FAQ](./support-faq.md)
-
 ## Liens utiles
 
 {{ "Inutile de savoir coder en Python" | keyword }}, tout est déjà prêt, il vous suffit de télécharger gratuitement la plateforme de trading technique TradingInPython.
@@ -19,12 +17,13 @@ L'important pour le trader c'est de {{ "se forger une conviction" | keyword }} e
 - Suivi des versions logicielles - <a href="https://github.com/SoDevLog/PyTrading/releases" target="_blank">Releases</a>
 - Vous avez des problèmes pour déziper ou intaller - <a href="https://github.com/SoDevLog/PyTrading/wiki/Installation" target="_blank">Installation</a>
 - Vous souhaitez nous rejoindre - <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">Abonnement</a>
+- [Support & FAQ](./support-faq.md)
 
 TradingInPython utilise un réseau de neurones et le {{ "deep learning" | keyword }} des modules {{ "Keras" | keyword }} et {{ "Tensorflow" | keyword }} pour délivrer des signaux automatiques d'achat et de vente.
 
 <figure style="text-align: center;">
   <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
-    <img src="images/trading_in_python.png" class="noborder" width="450" />
+    <img src="images/trading_in_python.png" class="noborder" width="450" alt="Palteforme de Tading Technique" />
   </a>
 </figure>
 
