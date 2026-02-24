@@ -1,6 +1,23 @@
 # Notes
 
+## Debug
+
+Le pluging :
+
+plugins:
+
+- minify:
+      minify_html: true
+
+rend le debug "Afficher la source de la page html" difficile le mettre à false pour déboguer.
+
+## Admonitions
+
 - [mkdocs-material/reference/admonitions/](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types)
+
+Tests :
+
+[Admonitions](./material.md#admonitions)
 
 ## CNAME
 
@@ -23,7 +40,7 @@ Ce que publie la commande mkdocs gh-deploy --remote-branch=gh-pages --remote-nam
 
 Donc si le CNAME est mal placé et ne se trouve pas dans /docs alors il est effacé de /site avant la plublication
 
-Si 
+Emplacement correcte : docs\CNAME
 
 ## Localize MkDocs
 
@@ -54,7 +71,3 @@ Obsolète !!!
 - [GLightBox](https://biati-digital.github.io/glightbox/)
 
 - [PhotosWipe](<https://photoswipe.com/getting-started/> "PhotosWipe show room" )
-
-
-## Note
-
