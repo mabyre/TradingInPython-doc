@@ -92,12 +92,12 @@ Avec l'outil zoom je fais un zoom sur la fin du graphe, je peux lire le signal d
 
 Bien sûr avec Safran en ce moment ce signal est à l'achat.
 
-## Formation
+## Formation guide complet
 
 - <a href="https://www.trading-et-data-analyses.com/2024/10/formation-ichimoku-kinko-hyo.html" target="_blank">Guide complet de Formation à l'Ichimoky Kinko Hyo</a>
 
 
-## Algorithme
+## Algorithme en langage Python
 
 Découvrez l'implémentation {{ "Python" | g_tooltip }} de cet indicateur technique au sein de la plateforme :
 
