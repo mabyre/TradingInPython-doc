@@ -1,3 +1,8 @@
+---
+description: "Stratégie de trading technique des Bandes de Bollinger"
+keywords: "bandes de bollinger, indicateur, trading, technique"
+---
+
 # Bandes de Bollinger
 
 Vous trouverez facilement sur le Net de la documentation sur les {{ "Bandes de Bollinger" | keyword }}, elle est plétorique, voici la mise en oeuvre des indicateurs techniques {{ "Bolls" | i_link }} dans la plateforme {{ "TradingInPython" | keyword }}.

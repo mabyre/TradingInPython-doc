@@ -1,3 +1,8 @@
+---
+description: "Stratégie de trading technique des bandes de Bollinger"
+keywords: "bandes de bollinger, indicateur, trading, technique"
+---
+
 # Trader avec les Bandes de Bollinger FTMA
 
 Comment utiliser les Bandes de Bollinger FTMA en situation de trading pour trouver les points d'entrée et les sorties ainsi que le {{ "StopLoss" | g_tooltip }}.

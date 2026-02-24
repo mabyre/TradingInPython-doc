@@ -1,5 +1,5 @@
 site_name: TradingInPython - Plateforme de trading pour l'analyse technique
-site_description: Documentation technique de la plateforme open software de trading algorithmique des marchés financiers, avec des stratégies de trading, des outils d'analyse technique, et des ressources pour les traders.
+site_description: Plateforme open software de trading algorithmique des marchés financiers, stratégies de trading, outils d'analyse technique et ressources pour les traders.
 site_author: Bruno Raby
 site_url: https://trading-in-python.sodevlog.com # site_url: https://mabyre.github.io/TradingInPython-doc/
 use_directory_urls: true
@@ -62,7 +62,8 @@ nav:
       - Cartes de Chaleurs & Performances: heatmap-screener/heatmaps.md
   - Monitor & Alertes:
       - Monitorer le marché: monitor-alerts/monitor-stock-market.md
-      - Alertes techniques: monitor-alerts/alertes-techniques.md
+      - Alertes indicateurs techniques: monitor-alerts/alertes-trading-techniques.md
+      - Alertes canal graphique: monitor-alerts/alertes-canal-graphique.md
   - Gestionnaire de Portefeuilles: portfolio-manager.md
   - Backtesting: back-testing.md
   - Dessiner sur les Graphes:

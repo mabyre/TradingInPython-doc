@@ -1,3 +1,8 @@
+---
+description: "Stratégie de trading technique par l'analyse des flux volumiques"
+keywords: "volume, indicateur, trading, technique"
+---
+
 # Analyse de la Pression Volumique
 
 Considèrons que les volumes d'achats exercent une pression {{ "à la hausse" | keyword }} alors que les volumes de ventes exercent une pression {{ "à la baisse" | keyword }}.

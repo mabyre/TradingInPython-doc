@@ -1,3 +1,8 @@
+---
+description: "Stratégie de trading technique des Bandes de Bollinger Four Times frame Mobile Average et de leur histogramme"
+keywords: "bandes de bollinger, indicateur, trading, technique, histogramme"
+---
+
 # Bool FTMA + histogramme
 
 La Stratégie des FTMA Bolls + histogrammes est basée sur les Bandes de Bollinger pour {{ "4 échelles de temps" | keyword }} que l'on peut voir sur la légende du graphe, et 4 moyennes glissantes dont les valeurs sont affichées dans le titre du graphe, par défaut ici on a : 26 32 39 46.

@@ -1,3 +1,8 @@
+---
+description: "Stratégie de trading de la Smart Money, décoder le trading des grands acteurs des marchés financiers"
+keywords: "smartmoney, trading, ICT"
+---
+
 # Smart Money Concept et Trading ICT
 
 Richard D. Wyckoff (années 1900–1930) a posé les base du trading de la Smart Money, elles ont été reprises par Michael J. Huddleston dont il n’existe pas d’information publique fiable sur la date de naissance précise, il serait probablement né dans les années 1960–1970.

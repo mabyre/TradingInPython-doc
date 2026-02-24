@@ -1,3 +1,8 @@
+---
+description: "Stratégie de trading technique des Bandes de Bollinger Four Times frame Mobile Average"
+keywords: "bandes de bollinger, indicateur, trading, technique"
+---
+
 # Bandes de Bollinger FTMA
 
 Ce sont les {{ "Bandes de Bollinger" | keyword }} Four Times frame Mobile Average {{ "FTMA" | keyword }} sur quatre horizons de temps différents.

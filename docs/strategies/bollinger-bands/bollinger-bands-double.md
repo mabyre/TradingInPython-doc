@@ -1,3 +1,8 @@
+---
+description: "Stratégie de trading des doubles bandes de Bollinger, déterminez vos entrée et vos sortie ainsi que vos StopLoss"
+keywords: "bandes de bollinger, double, stoploss"
+---
+
 # Double Bandes de Bollinger
 
 Dans l'[interface](bollinger-bands-ftma.md#interface) de la stratégie des Bandes de Bollinger, le bouton {{ "Double Bandes de Bollinger" | keywordi }} permet de configurer la stratégie et de passer en Doubles Bandes de Bollinger.
