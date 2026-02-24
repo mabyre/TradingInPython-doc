@@ -20,6 +20,10 @@ Comme suit :
 
 Vous souhaitez supprimer ce Canal cliquez sur la touche {{ "'x'" | keyword }}.
 
+Le {{ "Monitor Stock Market" | keyword }} recalcule à chaque tour les projections des droites du Canal pour alerter si le cours s'approche (Touche) le Canal en Haut ou en Bas ou si le cours le cours Casse le Canal en Haut ou en Bas.
+
+Tout se passe comme si à chaque tour vous réajustiez un seuil limite qui se déplacerait le long de la droite.
+
 ## Interface de configuration
 
 Dans le [Monitor Stock Market](./monitor-stock-market.md), le bouton {{ "Alertes Canal" | keywordi }} vous permet d'afficher la fenêtre d'édition de l'Alerte Canal.
@@ -33,7 +37,7 @@ Dans le [Monitor Stock Market](./monitor-stock-market.md), le bouton {{ "Alertes
 
 Vous avez la possiblité de ne plus utiliser cette alerte en décochant la case {{ "Activer l'alerte" | keywordi }}.
 
-Vous configurer la {{ "Tolérance du Canal" | keywordi }}. Vous aurez deux types d'alertes, une alerte {{ "Touche" | keyword }} quand le prix touche le canal ou s'en approche avec cette valeur de la Tolérance canal vous configurez ce type d'alerte, et une alerte {{ "Casse" | keyword }} lorsque le canal est cassé.
+Vous configurer la {{ "Tolérance du Canal" | keywordi }} pour distinguer deux types d'alertes, une alerte {{ "Touche" | keyword }} quand le prix touche le canal ou s'en approche et une alerte lorsque le cours {{ "Casse" | keyword }} le canal.
 
 Vous pouvez ainsi avec le même canal configurer un Retest suivi d'un Pullback du cours de l'action.
 
