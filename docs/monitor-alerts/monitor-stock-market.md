@@ -5,7 +5,7 @@ keywords: "stock, alertes, trading, technique, monitor, market, canal"
 
 # Monitor Stock Market
 
-Monitorez le marché grâce aux alertes de trading qui vous permettent de {{ "mettre le marché sous surveillance" | keyword }}.
+Le Moniteur des marchés financiers vous permet grâce aux alertes de trading de {{ "mettre le marché sous surveillance" | keyword }}.
 
 Vous avez créé vos screeners (liste des actions à mettre sous surveillance) en utilisant le {{ "Sélecteur de stocks" | keywordi }} :
 

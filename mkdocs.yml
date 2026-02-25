@@ -61,9 +61,9 @@ nav:
       - Création des Screeners: heatmap-screener/screeners.md
       - Cartes de Chaleurs & Performances: heatmap-screener/heatmaps.md
   - Monitor & Alertes:
-      - Monitorer le marché: monitor-alerts/monitor-stock-market.md
-      - Alertes indicateurs techniques: monitor-alerts/alertes-trading-techniques.md
-      - Alertes canal graphique: monitor-alerts/alertes-canal-graphique.md
+      - Moniteur des marchés financiers: monitor-alerts/monitor-stock-market.md
+      - Alertes Indicateurs techniques: monitor-alerts/alertes-trading-techniques.md
+      - Alertes Canal graphique: monitor-alerts/alertes-canal-graphique.md
   - Gestionnaire de Portefeuilles: portfolio-manager.md
   - Backtesting: back-testing.md
   - Dessiner sur les Graphes:
@@ -72,7 +72,7 @@ nav:
       - Annoter des prix/dates: draw-on-charts/annote-price-date.md
       - Annoter les graphes: draw-on-charts/annotate-charts.md
   - Interface & Configuration:
-      - Configuration: interface-configuration/ui-configuration.md
+      - Configuration & Settings: interface-configuration/ui-configuration.md
       - Gestion automatisée des fenêtres: interface-configuration/windows-management.md
       - Mode sombre (dark mode): interface-configuration/dark-mode.md
       - Console en bas à droite: interface-configuration/console-bottom-right.md

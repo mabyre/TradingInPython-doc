@@ -7,11 +7,11 @@ En trading technique le résultat de vos analyse techniques c'est le positionnem
 
 Sur la stratégie de trading technique [Bollinger Bands FTMA](../strategies/bollinger-bands/bollinger-bands-ftma.md) vous allez tracer un canal d'alertes.
 
-D'abord la ligne {{ "UPPER" | green }} en maintenant la touche {{ "'u'" | keyword }} enfoncée.
+D'abord la ligne {{ "UPPER" | green }} en maintenant la touche {{ "'u'" | keyword }} enfoncée et en déplaçant la souris pour tracer votre canal.
 
-Puis la ligne {{ "LOWER" | red }} en maintenant la touche {{ "'l'" | keyword }} enfoncée.
+Puis la ligne {{ "LOWER" | red }} en maintenant la touche {{ "'l'" | keyword }} enfoncée et en déplaçant la souris.
 
-Comme suit :
+Vous devez obtenir le graphique suivant :
 
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/canal-graphique-alertes.png" class="glightbox" data-gallery="galerie" title="Positionnez graphiquement un canal d'alertes">
@@ -22,11 +22,15 @@ Comme suit :
 
 Vous souhaitez supprimer ce Canal cliquez sur la touche {{ "'x'" | keyword }}.
 
-Le {{ "Monitor Stock Market" | keyword }} recalcule à chaque tour les projections des droites du Canal pour alerter si le cours s'approche (Touche) le Canal en Haut ou en Bas ou si le cours le cours Casse le Canal en Haut ou en Bas.
+## Monitorez votre alerte canal
 
-Tout se passe comme si à chaque tour vous réajustiez un seuil limite qui se déplacerait le long de la droite.
+Le {{ "Monitor Stock Market" | keyword }} recalcule, à chaque tour, les projections des droites du Canal pour alerter si le cours s'approche {{ "Touche" | keyword }} le Canal en Haut ou en Bas ou si le cours le cours {{ "Casse" | keyword }} le Canal en Haut ou en Bas.
 
-## Interface de configuration
+Tout se passe comme si à chaque tour vous réajustiez le seuil limite qui se déplacerait le long de la droite {{ "UPPER" | green }} et {{ "LOWER" | red }}. Plus besoin de d'ajuster un seuil de prix, si le cours sort du canal une alerte est déclenchée.
+
+Retrouvez votre alerte canal dans le [Moniteur des marchés financiers](../monitor-alerts/monitor-stock-market.md).
+
+### Interface de configuration
 
 Dans le [Monitor Stock Market](./monitor-stock-market.md), le bouton {{ "Alertes Canal" | keywordi }} vous permet d'afficher la fenêtre d'édition de l'Alerte Canal.
 
