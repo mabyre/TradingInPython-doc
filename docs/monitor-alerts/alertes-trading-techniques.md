@@ -5,7 +5,7 @@ keywords: "stock, alertes, trading, technique, monitor, market"
 
 # Alertes de trading grâce aux indicateurs techniques
 
-Il s'agit de placer des alertes sur les cours des actions, en utilisant les {{ "indicateurs techniques" | keyword }}.
+Il s'agit de placer des alertes sur les cours des actions, en utilisant les [indicateurs techniques](../indicators.md).
 
 Les indicateurs techniques sont calculés à intervalle régulier et les alertes sont vérifiées pour prévenir l'utilisateur.
 

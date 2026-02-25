@@ -8,7 +8,7 @@ La stratégie automatique de trading avec 2 SMA et 1 EMA repose sur la {{ "déte
 
 ## Principes
 
-Deux SMA de longueur différentes vont se croiser et sont lentes à réagir aux changements rapides.
+Deux SMA de longueur différente vont se croiser et sont lentes à réagir aux changements rapides.
 
 La EMA donne plus de poids aux prix récents, elle est donc plus réactive aux retournements de tendance.
 
@@ -65,7 +65,7 @@ Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorit
 
 On obtient ainsi pour l'action Air Liquide un {{ "Spread" | g_link }} affiché dans le Titre de : **5,180**.
 
-Cela signifie que si vous aviez suivi tous ces signaux d'achat et de ventre vous auriez gagné : 5,18.
+Cela signifie que si vous aviez suivi tous ces signaux d'achat et de vente vous auriez gagné : 5,18.
 
 Dans le Graph de la stratégie des moyennes mobiles, vous allez pouvoir ajuster SMA 1, SMA 2, et EMA pour optimiser ce spread.
 
@@ -111,7 +111,7 @@ Vous avez raté quelque chose, vous pouvez visionner la vidéo de la chaîne You
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/AXSUW7PHJnE?si=_rf6vhipza5IkwjH" title="YouTube video player" width="560"></iframe>
 </p>
 
-N'hésitez pas à vous abonner pour ne rien rater des évolutions de la plateforme.Autre vidéo sur les moyennes mobiles avec les graphes dynamiques :
+N'hésitez pas à vous abonner pour ne rien perdre des évolutions de la plateforme.Autre vidéo sur les moyennes mobiles avec les graphes dynamiques :
 
 <ul style="text-align: left;"><li><a href="https://www.trading-et-data-analyses.com/2025/04/graphes-dynamiques-strategie-des.html">Vidéo de démo - Stratégie des moyennes mobiles</a></li></ul>Vous avez raté quelque chose, vous pouvez visionner la vidéo de la chaîne YouTube :
 
@@ -121,6 +121,6 @@ Cette stratégie est primodiale pour caractériser une action (stock) afin de d�
 
 Elle vous donne une indication sur combien vous pourriez gagner, si vous effectuez tous les trades indiqués par la stratégie sur cette action.
 
-Mais le {{ "Repainting" | g_link }} en fait une stratégie peu utilisable en pratique car elle peut présenter des singaux qui vont changer d'état.
+Mais le {{ "Repainting" | g_link }} en fait une stratégie peu utilisable en pratique car elle peut présenter des signaux qui vont changer d'état.
 
-N'hésitez plus venez faire vos analyses techniques avec la plateforme [TradingInPython](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html).
+N'hésitez plus, venez faire vos analyses techniques avec la plateforme [TradingInPython](https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html).

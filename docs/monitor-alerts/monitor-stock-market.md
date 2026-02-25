@@ -7,17 +7,17 @@ keywords: "stock, alertes, trading, technique, monitor, market, canal"
 
 Le Moniteur des marchés financiers vous permet grâce aux alertes de trading de {{ "mettre le marché sous surveillance" | keyword }}.
 
+Le Monitoring du marché est l'{{ "aboutissement de votre analyse technique" | keyword }}, vous avez déterminé que l'objectif de cours à atteindre pour entrer ou sortir de position est de telle valeur du cours, vous allez pouvoir positionner une alerte pour être prévenu lorsque le cours atteindra cette valeur.
+
+Votre analyse technique montre qu'il faut que la stock sorte de la zone de surachat pour entrer en position, vous mettez une [alerte technique](./alertes-trading-techniques.md) sur le niveau du {{ "RSI" | i_link }}.
+
+Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre événement qui peut se produire sur la stock, c'est l'objet du Monitor Stock Market de {{ "mettre le marché sous surveillance" | keyword }}.
+
 Vous avez créé vos screeners (liste des actions à mettre sous surveillance) en utilisant le {{ "Sélecteur de stocks" | keywordi }} :
 
 - Menu {{ "Monitoring" | keywordi }} -> ["Gestion des screeners"](../heatmap-screener/screeners.md)
 
 Vous pouvez maintenant pouvoir configurer des Alertes sur les cours de bourse.
-
-Le Monitoring du marché est l'{{ "aboutissement de votre analyse technique" | keyword }}, vous avez déterminé que l'objectif de cours à atteindre pour entrer ou sortir de position est de telle valeur, vous allez pouvoir positionner une alerte pour être prévenu lorsque le cours atteindra cette valeur.
-
-Votre analyse technique montre qu'il faut que la stock sorte de la zone de surachat pour entrer en position, vous mettez une [alerte technique](./alertes-trading-techniques.md) sur le niveau du {{ "RSI" | i_link }}.
-
-Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre événement qui peut se produire sur la stock, c'est l'objet du Monitor Stock Market : {{ "mettre le marché sous surveillance" | keyword }}.
 
 ## Tableau de bord du Monitor Stocks Market Alertes
 
@@ -50,7 +50,7 @@ Positionnez des alertes sur les prix et les volumes :
 
 - {{ "Temps de réarmement (minutes)" | blue }} : Spécifiez un temps au bout duquel l'alarme sera réarmée (retestée) pour ne pas avoir cette alerte toutes les minutes dans le compte rendu des alertes déclenchées.
 
-## Alertes à date
+## Alertes à une date
 
 Vous pouvez déclencher un message dans le volet monitoring à une date que vous spécifiez comme par exemple : effectuer une nouvelle analyse technique ou bien que les dividendes sur ce cours arrivent.
 
@@ -66,9 +66,9 @@ Sur le graphique d'une stratégie vous allez pouvoir tracer un canal pour être 
 
 - [Alertes canal graphique](./alertes-canal-graphique.md)
 
-## Onglet Editeur d'Alertes
+## Onglet "Éditeur d'Alertes"
 
-Les colonnes de l'onglet {{ "Editeur d'Alertes" | keywordi }} du Monitor Stocks Market :
+Les colonnes de l'onglet {{ "Éditeur d'Alertes" | keywordi }} du Monitor Stocks Market :
 
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/tableau-de-bord.png" class="glightbox" data-gallery="galerie" title="Tableau de bord du Monitor Stock Market">

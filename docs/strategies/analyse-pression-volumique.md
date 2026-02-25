@@ -24,7 +24,7 @@ Voici l'outil d'analyse de la pression volumique des flux d'achats et de ventes 
     <figcaption><em>Analyse de la pression du flux volumique</em></figcaption>
 </figure>
 
-Au centre le graphe, le cours et un indicateurs technique du flux volumique qui est l'intégrale des volumes de vente et des volumes d'achats.
+Au centre le graphe, le cours et un indicateur technique du flux volumique qui est l'intégrale des volumes de vente et des volumes d'achats.
 
 A droite, toutes les statistiques sur les volumes d'{{ "achat" | green }} et de {{ "vente" | red }}.
 
