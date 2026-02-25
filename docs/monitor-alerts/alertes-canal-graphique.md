@@ -3,7 +3,9 @@ description: "Tracez un canal sur le graphique pour être alerté quand le cours
 keywords: "stock, alertes, trading, technique, monitor, market, canal"
 ---
 
-Sur la stratégie de trading technique {{ "Bollinger Bands FTMA" | keywordi }} vous allez tracer un canal d'alertes.
+En trading technique le résultat de vos analyse techniques c'est le positionnement d'alertes avec l'alerte canal vous allez pouvoir tracer un canal qui va devenir une alerte.
+
+Sur la stratégie de trading technique [Bollinger Bands FTMA](../strategies/bollinger-bands/bollinger-bands-ftma.md) vous allez tracer un canal d'alertes.
 
 D'abord la ligne {{ "UPPER" | green }} en maintenant la touche {{ "'u'" | keyword }} enfoncée.
 
