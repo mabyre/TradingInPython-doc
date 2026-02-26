@@ -5,7 +5,7 @@ keywords: "trading, technique, monitor, market, python"
 
 # Plateforme de Trading Technique
 
-Découvrez la puissance de notre plateforme de trading technique et de ses stratégies automatisées. {{ "TradingInPython" | keyword }} intègre toutes les stratégies d'analyse technique, nécessaires et suffisantes pour effectuer votre trading au quotidien et sécuriser vos investissements.
+Découvrez la puissance de notre plateforme de trading technique et de ses stratégies automatisées. {{ "TradingInPython" | keyword }} est un logiciel qui intègre toutes les stratégies d'analyse technique, nécessaires et suffisantes pour effectuer votre trading au quotidien et sécuriser vos investissements.
 
 L'important pour le trader c'est de {{ "se forger une conviction" | keyword }} et de {{ "valider cette conviction par l'analyse technique" | keyword }} pour être certain de gagner de l'argent, c'est l'objectif de notre Plateforme de Trading Technique.
 

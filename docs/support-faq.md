@@ -16,11 +16,11 @@ Pour toutes vos demandes, vos questions :
 
 ## Rapportez un Bug
 
-Un problème, un bug, une question avec la plateforme :
+Un problème, un bug, une question avec la plateforme logicielle :
 
 _Pour envoyez un message vous devez avoir un compte GitHub ..._
 
-Cliquez sur le bouton {{ "New isue" | green }}
+Cliquez sur le bouton "{{ "New isue" | green }}"
 
 - [GitHub - TradingInPython remarques](https://github.com/SoDevLog/PyTrading/issues)
 
