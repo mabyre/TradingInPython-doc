@@ -20,7 +20,7 @@ Vous devez obtenir le graphique suivant :
     <figcaption><em>Positionnez graphiquement un canal d'alertes</em></figcaption>
 </figure>
 
-Vous souhaitez supprimer ce Canal cliquez sur la touche {{ "'x'" | keyword }}.
+Vous souhaitez supprimer ce Canal tapez sur la touche {{ "'x'" | keyword }}.
 
 ## Monitorez votre alerte canal
 
