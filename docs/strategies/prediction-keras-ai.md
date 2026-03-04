@@ -1,4 +1,4 @@
-# Prédiction des singaux 2D avec Keras
+# Prédiction des signaux 2D avec Keras
 
 Utilisation des réseaux de neurones {{ "Keras" | keyword }} avec {{ "Tensorflow" | keyword }} pour la prédiction des signaux 2D au sein de la plateforme {{ "TradingInPython" | keyword }}.
 

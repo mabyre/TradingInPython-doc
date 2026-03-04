@@ -21,7 +21,7 @@ Cette fois les horizons de temps sont identiques pour les deux bandes, ce qui ch
 
 L'avantage de cette stratégie c'est qu'elle donne des entrées et des sorties claires et facilement exploitables.
 
-## Singaux d'entrée et de sortie
+## Signaux d'entrée et de sortie
 
 Vous pouvez entrer lors que le cours sort de la bande 1 sigma {{ "flêches vertes" | green }} et sortir {{ "flêche rouges" | red }} lorsque le cours passe la Moyenne Mobile par le haut. La moyenne mobile étant le signal {{ "bleu" | blue }} au milieu des deux bandes de Bollinger.
 
