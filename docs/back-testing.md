@@ -24,3 +24,15 @@ Les boutons {{ "+ 1" | keywordi }} et {{ "- 1" | keywordi }} permettent d'ajoute
 Le graphe est affiché et les indicateurs techniques sont recalculés avec les nouvelles valeurs.
 
 Vous aurez ainsi la possibilité de voir dans une situation réelle particulière du passé qu'elle décision de trading vous auriez prise en fonction de votre stratégie de trading et des indicateurs techniques choisis.
+
+## Les datas
+
+Il est donc inutile de généréer des données synthétiques de trading, vous pouvez backtester votre stratégie de trading sur tous les cours en choisissant de partir d'une date donnée de prendre vos décisions de trading en effectuant votre analyse technique en temps réel.
+
+Ainsi, vous backtestez sur des données réelles en situation réelle.
+
+## Moteur de backtesting
+
+Vous l'aurez compris, il ne s'agit pas d'un véritable moteur de backtesting mais plutôt d'un mode replay bar-by-bar.
+
+Mais si des besoins de la communauté des utilisateurs se font sentir au delà du mode replay, en langage Python ce sera rapide à développer.
