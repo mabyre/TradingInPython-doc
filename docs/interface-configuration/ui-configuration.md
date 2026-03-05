@@ -90,3 +90,12 @@ Copiez le chemin d'accès vers votre fichier dans le Cloud ou autre et copiez le
 Prenez soin de remplacer {{ "UserName" | keyword }} par votre nom d'utilisateur.
 
 Ainsi les modifications faites à la [liste des stocks](../gestion-liste-actions.md) seront répercutées pour tous vos ordinateurs.
+
+!!! warning
+
+    Il s'agit d'une opération délicate, le moindre caractère de travers et la plateforme risque de ne plus fonctionner.
+
+    Si vous avez un soucis vous pouvez toujours reprendre le fichier original qui se trouve dans le {{ "GitHub" | g_tooltip }} :
+
+    - [original fetch_data.json](https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/config/fetch_data.json)
+
