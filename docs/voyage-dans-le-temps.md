@@ -8,9 +8,9 @@ Le voyage dans le temps est d'une importance cruciale pour le trader. Il lui fau
 
 Vous vous rendez bien compte que d'observer le cours d'une action {{ "à la milliseconde dans la journée" | keyword }} ou à l'échelle {{ "1 mois sur dix ans" | keyword }}, vous n'aurez pas le même ressenti du cours de l'action.
 
-Sur la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>, le voyage dans le temps s'effectue à l'aide de boite de dialogue {{ "Strategy Automation" | keywordi }}.
+Sur la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>, le voyage dans le temps s'effectue à l'aide de la boite de dialogue {{ "Strategy Automation" | keywordi }}.
 
-Cette boite de dialogue permet de configurer toutes les possibilités de récupération des données de bourse dans le temps par périodes ou nombre de jours ou entre deux dates.
+Cette boite de dialogue permet de configurer toutes les possibilités de récupération des données de bourse dans le temps par périodes ou nombre de jours ou entre deux dates à toutes les échelles de temps.
 
 <figure style="text-align: center;">
     <a href="/images/voyage-dans-le-temps/configuration.png" class="glightbox" data-gallery="galerie" title="Interface de récupération des données de bourse">
@@ -80,8 +80,8 @@ Dans la {{ "partie (3)" | red }} vous pouvez souhaiter configurer deux dates de 
 
 Pour spécifier deux dates, vous devez mettre zéro dans les deux cases :
 
-- {{ "Jours dans le passé" | keywordi }} = 0
-- {{ "Jours avant la fin" | keywordi }} = 0
+- "{{ "Jours dans le passé" | red }}" = 0
+- "{{ "Jours avant la fin" | red }}" = 0
 
 Sur le boite de dialogue {{ "Strategy Automotion" | keywordi }} {{ "(1)" | red }} :
 
@@ -160,10 +160,9 @@ Pour terminer, cliquez sur le bouton {{ "Graphique" | keywordi }} et vous obtene
     <a href="/images/voyage-dans-le-temps/entre-deux-dates-2.png" class="glightbox" data-gallery="galerie" title="Voyage entre deux dates">
         <img src="/images/voyage-dans-le-temps/entre-deux-dates-2.png" alt="Image" />
     </a>
-    <figcaption><em>Voyage dans le temps entre deux dates</em></figcaption>
+    <figcaption><em>Voyage dans le temps entre deux dates positionnées graphiquement</em></figcaption>
 </figure>
 
-<span style="text-align: left;">Voyage dans le temps entre deux dates<br /></span></td></tr></tbody></table>
 Voilà, vous savez tout sur le voyage dans le temps grâce à la plateforme d'analyse technique :
 
 - <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html">TradingInPython</a>
