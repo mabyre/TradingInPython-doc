@@ -1,4 +1,8 @@
-# Comment gérer les images 
+# Comment gérer les images
+
+Lightbox pour défiler les images de la page :
+
+[La plus employée](#lightbox-la-plus-utilisee)
 
 ## Exemple d'image centrée
 
@@ -49,24 +53,24 @@ img.noborder dans :
 Noter le sous-titre, pas cliquable si cela ne sert à rien
 
 <figure style="text-align: center;" title="Ici le tooltip">
-  <img src="/images/trading_in_python.png" class="noborder" width="600" />
+  <img src="/images/trading_in_python.png" class="noborder" width="600" alt="Style d'image le plus employé" />
   <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
 </figure>
 
 ```html
 <figure style="text-align: center;" title="Ici le tooltip">
-  <img src="/images/trading_in_python.png" class="noborder" width="600" />
+  <img src="/images/trading_in_python.png" class="noborder" width="600" alt="Style d'image le plus employé" />
   <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
 </figure>
 ```
 
-### Image Bouton
+### Image Bouton lien cliquable
 
 On clique et il y a un lien :
 
 <figure style="text-align: center;">
   <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
-    <img src="/images/trading_in_python.png" class="noborder" width="450" />
+    <img src="/images/trading_in_python.png" class="noborder" width="450"  alt="Style d'image le plus employé" />
     <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
   </a>
 </figure>
@@ -74,7 +78,7 @@ On clique et il y a un lien :
 ```html
 <figure style="text-align: center;">
   <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
-    <img src="/images/trading_in_python.png" class="noborder" width="450" />
+    <img src="/images/trading_in_python.png" class="noborder" width="450" alt="Style d'image le plus employé"/>
     <figcaption><em>Figure 1 – Le style le plus employé</em></figcaption>
   </a>
 </figure>
