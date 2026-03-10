@@ -62,8 +62,8 @@ nav:
       - Cartes de Chaleurs & Performances: heatmap-screener/heatmaps.md
   - Monitor & Alertes:
       - Moniteur des marchés financiers: monitor-alerts/monitor-stock-market.md
-      - Alertes Indicateurs techniques: monitor-alerts/alertes-trading-techniques.md
-      - Alertes Canal graphique: monitor-alerts/alertes-canal-graphique.md
+      - Alertes Indicateurs Techniques: monitor-alerts/alertes-trading-techniques.md
+      - Alertes Canal Graphique: monitor-alerts/alertes-canal-graphique.md
   - Gestionnaire de Portefeuilles: portfolio-manager.md
   - Backtesting: back-testing.md
   - Dessiner sur les Graphes:
