@@ -27,7 +27,7 @@ Vous aurez ainsi la possibilité de voir dans une situation réelle particulièr
 
 ## Les datas
 
-Il est donc inutile de généréer des données synthétiques de trading, vous pouvez backtester votre stratégie de trading sur tous les cours en choisissant de partir d'une date donnée de prendre vos décisions de trading en effectuant votre analyse technique en temps réel.
+Il est donc inutile de générer des données synthétiques de trading, vous pouvez backtester votre stratégie de trading sur tous les cours en choisissant de partir d'une date donnée de prendre vos décisions de trading en effectuant votre analyse technique en temps réel.
 
 Ainsi, vous backtestez sur des données réelles en situation réelle.
 

@@ -15,7 +15,7 @@ Déplacez la souris pour dessiner votre droite, puis appuyez sur la touche **'T'
 
 Si vous n'avez pas l'habitude c'est une manipe délicate, si ce que vous faites ne fonctionne pas alors relisez et modifiez votre geste.
 
-Si vous n'êtes pas satisfait de la position de ventre droite, vous pouvez la reprendre en saisissant avec votre souris en cliquant autour d'une extrémité pour la déplacée, relâchez là où vous voulez qu'elle soit positionné.
+Si vous n'êtes pas satisfait de la position de ventre droite, vous pouvez la reprendre en saisissant avec votre souris en cliquant autour d'une extrémité pour la déplacée, relâchez là où vous voulez qu'elle soit positionnée.
 
 Pour effacer une ligne ou une annotation : **clique droit** aux environs de la ligne ou de l'annotation.
 
