@@ -84,8 +84,8 @@ En vous abonnant vous aurez accès à la formation complète sur cette stratégi
 
 Ici la pression de vente qui s'exerce sur LEGRAND est de 0.53 %. La pression du flux volumique est à la vente mais le prix monte c'est probablement le moment d'entrer en position.
 
-- <a href="https://www.trading-et-data-analyses.com/2025/02/formation-analyse-pression-volumiques-des-flux.html" target="_blank">Formation - Analyse de la pression volumique</a>
-- <a href="https://www.trading-et-data-analyses.com/2025/04/analyse-de-pression-volumique.html" target="_blank">Vidéo de démo - Analyse de la pression volumique</a>
+- [Découvrir : l'Analyse de la pression volumique](./strategies/analyse-pression-volumique.md)
+- [Vidéo de démo - Analyse de la pression volumique](./strategies/analyse-pression-volumique.md#vidéo-youtube)
 
 Maintenant si vous décidez d'entrer ou de sortir de position, les deux stratégies {{ "Moyennes Mobiles 1/2/E" | keyword }} et les {{ "Fractales Bill Williams" | keyword }} sont indiquées pour lire dans les signaux automatiques d'achat et de vente. Là encore vous trouverez de la formation et des exemples sur ce site et ailleurs.
 
@@ -129,7 +129,7 @@ Utilisé avec la {{ "Gator Alligator" | keyword }} cette routine peut devenir un
 
 ## Stop And Reverse parabolic
 
-Le SAR (Stop And Reverse parabolic) est un indicateur de tendance que j'ai intégré dans cette stratégie pour confirmer les signaux donnés par les Fractales de Bill Williams et ainsi pouvoir comparer les deux.
+Le SAR ({{ "Stop And Reverse Parabolic" | i_link }}) est un indicateur de tendance que j'ai intégré dans cette stratégie pour confirmer les signaux donnés par les Fractales de Bill Williams et ainsi pouvoir comparer les deux.
 
 <figure style="text-align: center;">
     <a href="/images/strategies/fractale-bill-williams/routine-sar.png" class="glightbox" data-gallery="galerie" title="SAR Parabolic (Stop And Reverse) Parabolic indicator">
@@ -140,8 +140,7 @@ Le SAR (Stop And Reverse parabolic) est un indicateur de tendance que j'ai inté
 
 Ici le dernier point est en dessous du cours le plus bas signifiant que la tendance pourrait bien se retourner.
 
-- {{ "SAR Parabolic" | i_link }}
-- <a href="https://www.trading-et-data-analyses.com/2025/05/reglages-de-lindicateur-technique-sar.html" target="_blank">Réglage de l'indicateur SAR</a>
+- [Découvrir l'indicateur technique : Stop And Reverse Parabolic](./strategies/stop-and-reverse-parabolic.md)
 
 ## Stratégie Intraday VWAP + STOCH
 
@@ -173,14 +172,14 @@ Voici maintenant le Gator Alligator de Bill Williams et ses histogrammes :
 
 Selon la métaphore de l'alligator de Bill Williams le marché évolue en quatre phases :
 
-<ul style="text-align: left;">
- <li>Gator dort : Les barres des deux côtés sont rouges → pas de tendance.</li>
- <li>Gator se réveille : Une barre rouge et une barre verte → début de tendance.</li>
- <li>Gator en chasse : Deux barres vertes → tendance forte.</li><li>Gator rassasié : Une barre devient rouge → ralentissement de la tendance.</li>
-</ul>
+- Gator dort : Les barres des deux côtés sont rouges → pas de tendance.
+- Gator se réveille : Une barre rouge et une barre verte → début de tendance.
+- Gator en chasse : Deux barres vertes → tendance forte.
+- Gator rassasié : Une barre devient rouge → ralentissement de la tendance.
 
-- [Découvrir : Alligator Gator de Bill Williams](./strategies/gator-alligator.md)
-- <a href="https://www.trading-et-data-analyses.com/2024/10/formation-bill-williams-alligator-gator.html" target="_blank">Gator Alligator - Généralités</a>
+C'est une stratégie de trading puissante qui conbine l'utilisation de trois moyenne mobiles avec un histogramme.
+
+- [Découvrir la stratégie : Alligator Gator de Bill Williams](./strategies/gator-alligator.md)
 
 ## Trading de la Smart Money Concept ICT
 
@@ -196,6 +195,8 @@ Sinon il est bon de temps en temps de tester sur une action si la Smart Money n'
     </a>
     <figcaption><em>Lecture du trading de la Smart Money</em></figcaption>
 </figure>
+
+C'est une stratégie qui sort de l'utilisation des indicateurs technique pour se focaliser sur les concepts de l'ICT.
 
 - [Découvrir : Le trading de la Smart Money](./strategies/smart-money-concept.md)
 

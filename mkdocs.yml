@@ -44,7 +44,7 @@ nav:
       - Vue d'ensemble: strategies/index.md
       - Ichimoku & Deep Learning: strategies/ichimoku-kinko-hyo.md
       - Moyennes Mobiles: strategies/moyennes-mobiles.md
-      - Analyse Volumique: strategies/analyse-pression-volumique.md
+      - Analyse de la pression Volumique: strategies/analyse-pression-volumique.md
       - Bandes de Bollinger:
           - Vue d'ensemble: strategies/bollinger-bands/index.md
           - Bandes de Bollinger FTMA: strategies/bollinger-bands/bollinger-bands-ftma.md
