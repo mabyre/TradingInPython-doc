@@ -9,13 +9,13 @@ L'indicateur technique {{ "Ichimoku Kinko Hyo" | keyword }} est une stratégie �
 
 Voici le graphe de l'indicateur technique {{ "Ichimoku-Kinko-Hyo" | keyword }} et sa prédiction {{ "Keras" | keyword }}.
 
-## Interface
+## Interface graphique
 
 Dans le Menu {{ "Stratégie" | keyword }} choisissez {{ "Ichimoku-Kinko-Hyo" | keyword }} :
 
 <figure style="text-align: center;">
   <a href="/images/strategies/ichimoku/ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie" title="Interface de l'Ichimoku-Kinko-Hyo">
-    <img src="/images/strategies/ichimoku/ichimoku-kinko-hyo.png"/>
+    <img src="/images/strategies/ichimoku/ichimoku-kinko-hyo.png" alt="Ichimoku-Kinko-Hyo"/>
   </a>
   <figcaption><em>Interface - Stratégie Ichimoku-Kinko-Hyo</em></figcaption>
 </figure>
@@ -26,14 +26,14 @@ Remarquez l'interface de configuration avec trois parties :
 
 <figure style="text-align: center;">
   <a href="/images/strategies/ichimoku/config-ichimoku-kinko-hyo.png" class="glightbox" data-gallery="galerie" title="Configuration de l'Ichimoku-Kinko-Hyo">
-    <img src="/images/strategies/ichimoku/config-ichimoku-kinko-hyo.png"/>
+    <img src="/images/strategies/ichimoku/config-ichimoku-kinko-hyo.png" alt="Ichimoku-Kinko-Hyo"/>
   </a>
   <figcaption><em>Configuration - Stratégie Ichimoku-Kinko-Hyo</em></figcaption>
 </figure>
 
-- **(1)** Longueur des moyennes mobiles de la Tenken, Kijun et Senkou
-- **(2)** Configuration du nombre de jours prédiction
-- **(3)** Choix prédéfinis des longueurs pour les signaux Tenken, Kijun et Senkou
+- {{ "(1)" | red }} Longueur des moyennes mobiles de la Tenken, Kijun et Senkou
+- {{ "(2)" | red }} Configuration du nombre de jours prédiction
+- {{ "(3)" | red }} Choix prédéfinis des longueurs pour les signaux Tenken, Kijun et Senkou
 
 ## Prédiction keras et tensorflow
 
@@ -43,7 +43,7 @@ Avec cette stratégie vous avez la possibilité de vous faire aider par l'IA, un
 
 Le modèle de prédiction <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html" target="_blank">LogisticRegression de sci-learn</a> est utile pour prédire les signaux d'une stratégie binaire comme à l'achat (1) ou bien à la vente (0)
 
-Avec notre implémentation ce modèle possède deux paramètres vus au point **(2)** :
+Avec notre implémentation ce modèle possède deux paramètres vus au point {{ "(2)" | red }} :
 
 - Nombre de jours de la prédiction
 - Nombre de jours la fenêtre de prédiction (largeur de la fenêtre mobile)
@@ -52,14 +52,14 @@ Avec notre implémentation ce modèle possède deux paramètres vus au point **(
 
 <figure style="text-align: center;">
   <a href="/images/strategies/ichimoku/ichimoky-prediction.png" class="glightbox" data-gallery="galerie" title="Ichimoku-Kinko-Hyo signal prédiction">
-    <img src="/images/strategies/ichimoku/ichimoky-prediction.png"/>
+    <img src="/images/strategies/ichimoku/ichimoky-prediction.png" alt="Ichimoku-Kinko-Hyo"/>
   </a>
   <figcaption><em>Ichimoku-Kinko-Hyo Calculer la prédiction</em></figcaption>
 </figure>
 
-- **(1)** Cochez la case {{ "Forcasting" | keyword }} pour afficher le signal de prédiction.
-- **(2)** Un signal à trois états, achat de vente et neutre, est généré par l'entrainement de l'IA.
-- **(3)** Un réseau de neurones {{ "Keras" | keyword }} est entrainé sur les données du passé pour délivrer sa prédiction.
+- {{ "(1)" | red }} Cochez la case {{ "Forcasting" | keyword }} pour afficher le signal de prédiction.
+- {{ "(2)" | red }} Un signal à trois états, achat de vente et neutre, est généré par l'entrainement de l'IA.
+- {{ "(3)" | red }} Un réseau de neurones {{ "Keras" | keyword }} est entrainé sur les données du passé pour délivrer sa prédiction.
 
 Ici AIR LIQUIDE est à l'achat.
 
@@ -67,13 +67,13 @@ Ici AIR LIQUIDE est à l'achat.
 
 <figure style="text-align: center;">
   <a href="/images/strategies/ichimoku/ichimoky-prediction-signal.png"  class="glightbox" data-gallery="galerie" title="Ichimoku-Kinko-Hyo prédiction">
-    <img src="/images/strategies/ichimoku/ichimoky-prediction-signal.png"/>
+    <img src="/images/strategies/ichimoku/ichimoky-prediction-signal.png" alt="Ichimoku-Kinko-Hyo"/>
   </a>
   <figcaption><em>Ichimoku-Kinko-Hyo Lire le signal de prédiction</em></figcaption>
 </figure>
 
-- **(1)** - L'outil Zoom de Matplotlib
-- **(2)** - Le signal de prédiction
+- {{ "(1)" | red }} L'outil Zoom de Matplotlib
+- {{ "(2)" | red }} Le signal de prédiction
 
 Avec l'outil zoom je fais un zoom sur la fin du graphe, je peux lire le signal de prédiction qui possède trois états.
 
@@ -86,9 +86,9 @@ Avec l'outil zoom je fais un zoom sur la fin du graphe, je peux lire le signal d
   <figcaption><em>Ichimoku-Kinko-Hyo Lire le signal de prédiction</em></figcaption>
 </figure>
 
-- **(1)** Vente
-- **(2)** Neutre
-- **(3)** Achat
+- {{ "(1)" | red }} Vente
+- {{ "(2)" | red }} Neutre
+- {{ "(3)" | red }} Achat
 
 Bien sûr avec Safran en ce moment ce signal est à l'achat.
 

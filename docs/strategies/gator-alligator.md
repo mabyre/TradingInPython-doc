@@ -15,7 +15,7 @@ Il permettet de visualiser rapidement les phases d'expansion et de contraction d
 
 Cet indicateur est particulièrement apprécié pour sa {{ "simplicité visuelle" | keyword }} et son efficacité à identifier les périodes de trading favorables.
 
-## Interface
+## Interface graphique
 
 Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Williams pour une stratégie complète de trading sur les {{ "pullback" | g_link }} et les {{ "breakout" | g_link }}.
 
@@ -128,8 +128,8 @@ Voici un magnifique breakdown suivi d'un pullback baissier sur Air Liquide :
   <figcaption><em>Signal de vente confirmation selon le Gator Alligator de Bill Williams</em></figcaption>
 </figure>
 
-- **(1)** La fractale est dessous de la Jaw
-- **(2)** Confirmation par les deux barres rouge du Gator
+- {{ "(1)" | red }} La fractale est dessous de la Jaw
+- {{ "(2)" | red }} Confirmation par les deux barres rouge du Gator
 
 L'ordre de Sell Stop placé en dessous de la valeur la plus basse de la fractale.
 

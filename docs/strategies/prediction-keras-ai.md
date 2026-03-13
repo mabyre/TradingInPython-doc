@@ -2,7 +2,7 @@
 
 Utilisation des réseaux de neurones {{ "Keras" | keyword }} avec {{ "Tensorflow" | keyword }} pour la prédiction des signaux 2D au sein de la plateforme {{ "TradingInPython" | keyword }}.
 
-## Interface
+## Interface graphique
 
 Notez l'interface de configuration avec les paramètres évoqués dans la [Formation](#formation)
 

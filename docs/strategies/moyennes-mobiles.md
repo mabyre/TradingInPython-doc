@@ -31,7 +31,7 @@ Inversement, lorsque  {{ "SMA" | keyword }} courte passe en dessous de {{ "SMA" 
 - Moins efficace en marché sans tendance (en range)
 - Sensible aux faux signaux en période de forte volatilité
 
-## Interface
+## Interface graphique
 
 Une fois implémentée et tracer dans le plateforme nous obtenons le graphique suivant :
 
@@ -97,9 +97,9 @@ Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :
   <figcaption><em>Stratégie automatique des Moyennes Mobiles</em></figcaption>
 </figure>
 
-## Algorithme
+## Algorithme en Python
 
-Open Software, d'écouvrez l'implémentation de la stratégie des moyennes mobiles au sein de la plateforme :
+Open Software, d'écouvrez l'implémentation de la stratégie des Moyennes Mobiles au sein de la plateforme :
 
 - <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategy_sma12e.py" target="_blank">Stratégie automatique des Moyennes Mobiles</a>
 

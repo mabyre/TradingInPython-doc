@@ -2,7 +2,7 @@
 
 Maintenant, passons à l'{{ "Intraday" | keyword }}, c'est à dire le trading au sein de la journée, le suivi minutes par minute du cours des actions pour entrer et sortir des trades.
 
-## Interface
+## Interface graphique
 
 Vous souhaitez suivre le cours de votre action durant la journée pour savoir quels sont les meilleurs moments d'entrée et de sortie, la stratégie {{ "VWAP" | i_link }} + {{ "STOCH" | i_link }} Intraday, est adaptée à cette analyse du cours dans la journée :
 

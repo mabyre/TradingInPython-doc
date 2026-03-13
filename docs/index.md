@@ -1,5 +1,5 @@
 ---
-description: "Documentation officielle de TradingInPython, la plateforme de trading technique et d’analyse des marchés – stratégies, indicateurs et IA."
+description: "Documentation officielle de TradingInPython, la plateforme logicielle de trading technique et d’analyse des marchés – stratégies, indicateurs et IA."
 keywords: "trading, technique, monitor, market, python, ia"
 ---
 

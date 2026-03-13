@@ -1,3 +1,8 @@
+---
+description: "Découvrez comment utiliser l'indicateur technique de trading technique des fractales de Bill Willimas dans TradingInPython."
+keywords: "fractales, bill williams, trading technique, logiciel"
+---
+
 # Fractales de Bill Williams
 
 L'indicateur technique des Fractales de Bill Williams est utilisé pour identifier des points potentiels de {{ "retournement du marché" | keyword }}.
@@ -27,7 +32,7 @@ Low[n] < Low[n+1]
 Low[n] < Low[n+2]
 ```
 
-## Ojectifs
+## Objectifs
 
 Identifier des points de retournement possibles de la tendance.
 
@@ -35,9 +40,11 @@ Mettre en évidence la structure du marché.
 
 Fournir des niveaux d'entrée potentiels pour des stratégies de {{ "Breakout" | g_link }} ou de {{ "Pullback" | g_link }}.
 
-## Interface
+## Interface graphique
 
-Un paramètre dans la fenêtre de configuration : PERIOD
+Menu {{ "Stratégies" | keyword }} -> {{ "Fractables Bill Williams + SAR" | keyword }}
+
+Nous venons de voir que la stratégie des fractales de Bill Williams ne possède qu'un paramètre la période : {{ "PERIOD" | keyword }}
 
 <figure style="text-align: center;">
     <a href="/images/strategies/fractale-bill-williams/graphe1.png" class="glightbox" data-gallery="galerie" title="Fractales de Bill Williams">
@@ -46,10 +53,10 @@ Un paramètre dans la fenêtre de configuration : PERIOD
     <figcaption><em>Implémentation</em></figcaption>
 </figure>
 
-- **(1)** L'algorithme travaille sur les prix Haut (High) et Bas (Low) qui sont affichés
-- **(2)** Choix de la PERIOD des fractales = 5
-- **(3)** {{ "Fractale Up" | keyword }} les croix montrent des prix plus haut à cinq de distance -> retournement baissier
-- **(4)** {{ "Fractale Down" | keyword }} les croix montrent des prix plus bas à cinq de distance -> retournement haussier
+- {{ "(1)" | red }} L'algorithme travaille sur les prix Haut (High) et Bas (Low) qui sont affichés
+- {{ "(2)" | red }} Choix de la PERIOD des fractales = 5
+- {{ "(3)" | red }} {{ "Fractale Up" | keyword }} les croix montrent des prix plus haut à cinq de distance -> retournement baissier
+- {{ "(4)" | red }} {{ "Fractale Down" | keyword }} les croix montrent des prix plus bas à cinq de distance -> retournement haussier
 
 ## Fractale Up
 
@@ -87,18 +94,6 @@ La {{ "Fractale Down" | keyword }} nous indique un retournement du marché à la
 </figure>
 
 Avec une période égale à 5 vous voyez les fractales {{ "consolider les supports" | keyword }} et {{ "les résitances" | keyword }} du cours.
-
-## Combinaison avec l'Alligator
-
-- Filtre directionnel avec l'Alligator
-
-Stratégie originale de Bill Williams :
-
-- **acheter** uniquement au-dessus des fractales up situées au-dessus de la mâchoire de l’Alligator,
-
-- **vendre** uniquement sous les fractales down situées sous la mâchoire.
-
-Cela évite les faux signaux dans les phases de range.
 
 ## Fractales pour valider un breakout
 
@@ -149,3 +144,25 @@ Donc, si le prix casse une fractale puis revient dessus, ce niveau devient :
 | ------------------ | ----------------- | ------------------------------------------------ |
 | Fractale Up        | Résistance locale | Achat sur breakout au-dessus / achat sur retest  |
 | Fractale Down      | Support local     | Vente sur breakout en dessous / vente sur retest |
+
+## Algorithme en python
+
+Open Software, d'écouvrez l'indicateur technique des fractales de Bill Williams :
+
+- <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/digitsignalprocessing/indicators.py" target="_blank">Indicateur technique des fractales de Bill Williams</a>
+
+## Combinaison avec l'Alligator
+
+- Filtre directionnel avec l'Alligator
+
+Stratégie originale de Bill Williams :
+
+- {{ "acheter" | keyword }} uniquement au-dessus des fractales up situées au-dessus de la mâchoire de l’Alligator,
+
+- {{ "vendre" | keyword }} uniquement sous les fractales down situées sous la mâchoire.
+
+Cela évite les faux signaux dans les phases de range.
+
+Retrouvez l'utilisation des fractales de Bill Williams dans la stratégie du Gator Alligator :
+
+- [Gator Alligator de Bill Williams](./gator-alligator.md)
