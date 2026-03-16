@@ -99,21 +99,21 @@ Valeurs à considérer :
 
 ## Pourquoi ajuster ces paramètres
 
-Adaptation aux différents instruments financiers :
+{{ "Adaptation aux différents instruments financiers :" | keyword }}
 
 - Chaque actif a sa propre signature de volatilité.
 
-Adaptation aux timeframes :
+{{ "Adaptation aux timeframes :" | keyword }}
 
 - Timeframes courts (minutes, heures): paramètres plus réactifs
 - Timeframes longs (jours, semaines): paramètres plus conservateurs
 
-Personnalisation selon votre style de trading :
+{{ "Personnalisation selon votre style de trading :" | keyword }}
 
 - Trading de tendance: paramètres plus conservateurs pour rester dans la tendance
 - Trading de contre-tendance: paramètres plus réactifs pour capturer les inversions
 
-Adaptation aux conditions de marché changeantes :
+{{ "Adaptation aux conditions de marché changeantes :" | keyword }}
 
 - La volatilité des marchés évolue avec le temps, rendant nécessaire l'ajustement périodique des paramètres.
 
@@ -128,13 +128,15 @@ L'avantage majeur du {{ "SAR avec facteur d'accélération dynamique" | keyword 
 
 ## Importance du paramètre VOLATILITY WINDOW
 
-Ce paramètre définit la période sur laquelle la volatilité est calculée (nombre de bougies/périodes utilisées). Il influence directement:
+Ce paramètre définit la période sur laquelle la volatilité est calculée (nombre de bougies/périodes utilisées). 
 
-La sensibilité au changement de volatilité: Plus la fenêtre est courte, plus l'indicateur réagit rapidement aux changements de volatilité.
+Il influence directement:
 
-La stabilité des signaux: Plus la fenêtre est longue, plus la mesure de volatilité est stable (mais potentiellement moins réactive).
+- La sensibilité au changement de volatilité: Plus la fenêtre est courte, plus l'indicateur réagit rapidement aux changements de volatilité.
 
-La qualité des signaux: Un réglage optimal filtre les faux signaux tout en captant les mouvements significatifs.
+- La stabilité des signaux: Plus la fenêtre est longue, plus la mesure de volatilité est stable (mais potentiellement moins réactive).
+
+- La qualité des signaux: Un réglage optimal filtre les faux signaux tout en captant les mouvements significatifs.
 
 ### Recommandations de réglage selon le contexte
 
@@ -247,7 +249,7 @@ Sous la dénomination : {{ "calculate_sar_with_dynamic_af" | keyword }}
 
 ## En définitive
 
-Dans la pratique avec la plateforme logicielle TradingInPython, vous aurez des indications contextuelles qui vous donneront des valeurs pour ces trois paramètres.
+Dans la pratique, avec la plateforme logicielle TradingInPython, vous aurez des indications contextuelles qui vous donneront des valeurs pour ces trois paramètres.
 
 Regardez l'interface de [Configuration](#configuration) vous avez un bouton {{ "Save" | keyword }} pour sauvegarder vos réglages pour l'action en cours.
 

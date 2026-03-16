@@ -49,7 +49,7 @@ Maintenant ma stock FORTINET ne pleut plus échapper à mes alertes. Ainsi alert
 
 ## Vous avez raté quelque chose ?
 
-Voici la une vidéo rapide pour vous présenter les Alertes techniques avancéés de la plateforme :
+Voici la une vidéo rapide pour vous présenter les Alertes techniques avancées de la plateforme :
 
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/alertes-techniques-avancees.gif" class="glightbox" data-gallery="galerie" title="Placer une alerte technique RSI oversold">
