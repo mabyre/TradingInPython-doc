@@ -134,9 +134,9 @@ Afin de recevoir les alertes du Monitor Stock Market vous devez au préalable av
     <figcaption><em>Renseignez votre email pour recevoir les alertes</em></figcaption>
 </figure>
 
-En suite, cochez la case {{ "Envoyer emails" | keywordi }}
+En suite, cochez la case {{ "Envoyer emails" | keywordi }} dans le [tableau de bord principal](#tableau-de-bord-du-monitor-stocks-market-alertes).
 
-Vous allez pouvoir recevoir un email avec l'ensemble des alertes que vous avez positionné et qui se sont déclenchées. Cet email ressemblera au contenu des alertes dans l'onglet {{ "Monitoring" | keyword }}.
+Vous allez pouvoir recevoir un email avec l'ensemble des alertes que vous avez positionnées et qui se sont déclenchées. Cet email ressemblera au contenu des alertes dans l'onglet {{ "Monitoring" | keyword }}.
 
 ## Vous avez raté quelque chose ?
 
