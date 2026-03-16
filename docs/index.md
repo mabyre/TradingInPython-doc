@@ -17,6 +17,8 @@ Téléchargez la dernière version du logiciel de la plateforme :
 
 - [TradingInPython v1.8.1](https://github.com/SoDevLog/PyTrading/releases/download/v1.8.1/tradinginpython_setup.zip)
 
+_Une fois l'archive {{ "tradinginpython_setup.zip" | keyword}} téléchargée, dézippez la pour exécuter l'installeur {{ "tradinginpython_setup.exe" | keyword}}._
+
 Vous avez des problèmes pour déziper ou intaller :
 
 - <a href="https://github.com/SoDevLog/PyTrading/wiki/Installation" target="_blank">Aide à l'installation</a>

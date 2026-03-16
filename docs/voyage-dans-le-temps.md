@@ -98,7 +98,7 @@ C'est un  peu fastidieux alors ces dates peuvent être choisies graphiquement.
 
 ## Aide graphique à la sélection des dates
 
-### Sélectionez une date dans le passé
+### Sélectionnez une date dans le passé
 
 Marquez une annotation date en maintenant la touche {{ "d" | keywordi }} et en cliquant sur le graphe. Une barre verticale se déssine avec la date en bas du graphe sur l'axe des abscisses :
 
@@ -124,7 +124,7 @@ Cliquez sur le bouton {{ "Graphique" | keywordi }}  :
     <figcaption><em>Sélectionnez une date cliquez sur Graphique</em></figcaption>
 </figure>
 
-### Sélectionez deux dates
+### Sélectionnez deux dates
 
 Pour seletionner une plage de temps, vous pouvez "setter" les deux dates de votre voyage dans le temps par l'interface graphique, de la façon suivante :
 
