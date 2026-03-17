@@ -2,6 +2,10 @@
 
 Maintenant, passons à l'{{ "Intraday" | keyword }}, c'est à dire le trading au sein de la journée, le suivi minutes par minute du cours des actions pour entrer et sortir des trades.
 
+Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Intraday STOCH + VWAP ++" | keywordi }}. 
+
+Le "++" est là pour indiquer que vous aurez également à votre disposition, les indicateurs technique {{ "OBV" | i_tooltip }} et {{ "ATR" | i_tooltip }} pour le trading Intraday.
+
 ## Interface graphique
 
 Vous souhaitez suivre le cours de votre action durant la journée pour savoir quels sont les meilleurs moments d'entrée et de sortie, la stratégie {{ "VWAP" | i_link }} + {{ "STOCH" | i_link }} Intraday, est adaptée à cette analyse du cours dans la journée :

@@ -15,6 +15,8 @@ Il permettet de visualiser rapidement les phases d'expansion et de contraction d
 
 Cet indicateur est particulièrement apprécié pour sa {{ "simplicité visuelle" | keyword }} et son efficacité à identifier les périodes de trading favorables.
 
+Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Gator Alligator" | keywordi }}
+
 ## Interface graphique
 
 Voici l'interface de cet indicateur. Ici on a affiché les Fractales de Bill Williams pour une stratégie complète de trading sur les {{ "pullback" | g_link }} et les {{ "breakout" | g_link }}.

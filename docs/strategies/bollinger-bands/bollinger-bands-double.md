@@ -5,12 +5,31 @@ keywords: "bandes de bollinger, double, stoploss"
 
 # Double Bandes de Bollinger
 
-Dans l'[interface](bollinger-bands-ftma.md#interface) de la stratégie des Bandes de Bollinger, le bouton {{ "Double Bandes de Bollinger" | keywordi }} permet de configurer la stratégie et de passer en Doubles Bandes de Bollinger.
-
-Cette fois les horizons de temps sont identiques pour les deux bandes, ce qui change c'est l'équart type StdDev (Standard Déviation) :
+Pour la stratégie de trading technique des Doubles Bandes de Bollinger, on prend deux Bandes de Bollinger avec des horizons de temps identiques et ce sont les équarts type StdDev (Standard Déviation) qui sont différents :
 
 - **1 σ** pour la première bande {{ "StdDev DBB1" | keyword }}
 - **2 σ** pour la deuxièmes bande {{ "StdDev DBB2" | keyword }}
+
+Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Bollinger Bands FTMA" | keywordi }}
+
+## Interface graphique
+
+La configuration Double Bandes de Bollinger s'obtient en cliquant sur le bouton {{ "Double Bandes de Bollinger" | keywordi }} en {{ "(1)" | red }} :
+
+<figure style="text-align: center;">
+    <a href="/images/strategies/bollinger-bands/interface-doubles-bandes.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
+        <img src="/images/strategies/bollinger-bands/interface-doubles-bandes.png" alt="Doubles Bandes de Bollinger"/>
+    </a>
+    <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
+</figure>
+
+- {{ "(1)" | red }} Configurez les Doubles Bandes de Bollinger ou les FTMA Bolls et les Standard Déviations (StdDev)
+- {{ "(2)" | red }} Afficher le Canal de Keltner
+- {{ "(3)" | red }} Pour plus de clareté affacer la FTA 1 ou (Bande Std1) pour détecter les Squeezes
+
+## Stratégie de trading technique
+
+C'est une stratégie de trading complète.
 
 <figure style="text-align: center;">
     <a href="/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
@@ -33,7 +52,7 @@ Vous pouvez également ajuster votre {{ "StopLoss" | g_tooltip }} sur le niveau 
 
 ## Formation
 
-Retrouvez les formation sur le Blog Trading et Data Analyses :
+Retrouvez les formation gratuire sur le Blog Trading et Data Analyses :
 
 - <a href="https://www.trading-et-data-analyses.com/2025/10/strategie-de-trading-des-doubles-bandes-de-bollinger.html" target="_blank">Stratégie de trading des Doubles Bandes de Bollinger</a>
 

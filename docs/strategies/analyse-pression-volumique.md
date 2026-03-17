@@ -11,6 +11,8 @@ Au sein de la plateforme, l'analyse de la pression volumique des flux vous perme
 
 Nous avons poussé cette analyse technique à son niveau le plus haut ...
 
+Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Volume BUY/SELL" | keywordi }}
+
 ## Interface graphique
 
 C'est un outil {{ "exclusif" | keyword }} de notre plateforme, le résultat d'analyses mathématiques et algorithmiques des indicateurs sur les volumes, pour arriver à un outil pratique qui vous permette à coup sûr de savoir si ce sont les acheteurs ou bien si ce sont les vendeurs qui sont à la manœuvre.

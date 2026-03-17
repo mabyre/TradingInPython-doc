@@ -94,7 +94,7 @@ Pour trader correctement et avoir une chance de gagner en bourse, vous devez avo
 
 - Ensuite vous affinez avec les Bandes Bollinger puis vous utilisez les Moyennes Mobiles pour découvrir son {{ "Spread" | g_tooltip }}.
 
-- Vous déterminez les points d'entrée et de sortie ainsi que le {{ "Stoploss" | g_tooltip }} pour enfin placer des alertes.
+- Vous déterminez les points d'entrée et de sortie ainsi que le {{ "StopLoss" | g_tooltip }} pour enfin placer des alertes.
 
 L'ensemble de ces stratégies de trading technique vous permet d'élaborer votre propre routine de trading :
 

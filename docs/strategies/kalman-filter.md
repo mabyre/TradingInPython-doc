@@ -14,6 +14,8 @@ Cela permet :
 
 Le filtre de Kalman résout élégamment ce problème : comment estimer l'état d'un système dynamique à partir de mesures bruitées ?
 
+Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Kalman FILTER" | keywordi }}
+
 ## Définition générale
 
 Le filtre de Kalman est un algorithme récursif d’estimation qui permet de prédire et de corriger la valeur d’un système dynamique bruité (incertain), à partir de mesures elles-mêmes bruitées.

@@ -17,9 +17,9 @@ Téléchargez la dernière version du logiciel de la plateforme :
 
 - [TradingInPython v1.8.1](https://github.com/SoDevLog/PyTrading/releases/download/v1.8.1/tradinginpython_setup.zip)
 
-_Une fois l'archive {{ "tradinginpython_setup.zip" | keyword}} téléchargée, dézippez la pour exécuter l'installeur {{ "tradinginpython_setup.exe" | keyword}}._
+_Une fois l'archive {{ "tradinginpython_setup.zip" | keyword}} téléchargée, dézippez la pour exécuter l'installeur {{ "tradinginpython_setup.exe" | keyword}} qui se trouve dans l'archive._
 
-Vous avez des problèmes pour déziper ou intaller :
+Vous avez des problèmes pour déziper ou installer :
 
 - <a href="https://github.com/SoDevLog/PyTrading/wiki/Installation" target="_blank">Aide à l'installation</a>
 
@@ -31,7 +31,9 @@ Vous souhaitez vous tenir au courant, suivre les évolutions et les nouvelles fo
 
 ## Vous souhaitez participer
 
-Vous souhaitez nous rejoindre et participer au trading technique avec le l'IA dedans ? Abonnez-vous pour bénéficier automatiquement de toutes les fonctionnalités et de toutes les mises à jour du logiciel :
+Vous souhaitez nous rejoindre et participer au trading technique {{ "avec le l'IA dedans" | keyword }} ?
+
+Abonnez-vous pour bénéficier automatiquement de toutes les fonctionnalités et de toutes les mises à jour du logiciel :
 
 - <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">Abonnez-vous</a>
 

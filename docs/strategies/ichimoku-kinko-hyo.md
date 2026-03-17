@@ -9,6 +9,8 @@ L'indicateur technique {{ "Ichimoku Kinko Hyo" | keyword }} est une stratégie �
 
 Voici le graphe de l'indicateur technique {{ "Ichimoku-Kinko-Hyo" | keyword }} et sa prédiction {{ "Keras" | keyword }}.
 
+Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Ichimoku Kinko Hyo" | keywordi }}
+
 ## Interface graphique
 
 Dans le Menu {{ "Stratégie" | keyword }} choisissez {{ "Ichimoku-Kinko-Hyo" | keyword }} :

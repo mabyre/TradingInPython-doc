@@ -6,6 +6,8 @@ Nous allons détailler la stratégie des moyennes mobiles à l'aide de deux {{ "
 
 La stratégie automatique de trading avec 2 SMA et 1 EMA repose sur la {{ "détection des croisements des moyennes" | keyword }} pour générer des signaux d’achat ou de vente. Elle est simple à implémenter et efficace pour capter les tendances.
 
+Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Moyennes Mobiles 1/2/E" | keywordi }}
+
 ## Principes
 
 Deux SMA de longueur différente vont se croiser et sont lentes à réagir aux changements rapides.

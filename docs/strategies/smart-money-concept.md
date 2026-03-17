@@ -31,6 +31,8 @@ Les acteurs de la {{ "Smart Money" | keyword }} sont :
 
 Ce sont eux qui génèrent la majorité du volume et de la liquidité. Alors leurs actions laissent des traces dans les cours et le trading {{ "ICT" | g_tooltip }} consiste à détecter ces traces pour faire un trading astucieux et finalement suivre la Smart Money.
 
+Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Smart Money" | keywordi }}
+
 ## Stratégie du trading de la Smart Money
 
 Voici comment se présente l'interface de cette stratégie :

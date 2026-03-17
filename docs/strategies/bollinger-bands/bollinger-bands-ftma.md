@@ -11,6 +11,8 @@ Les Bandes de Bollinger, utilisées sur plusieurs horizons temporels, offrent un
 
 Cet outil de trading technique va donc nous donner énormément d'informations sur le signal (cours de l'action à trader).
 
+Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Bollinger Bands FTMA" | keywordi }}
+
 ## Interface graphique
 
 Voici l'interface qui permet de piloter cette stratégie :
