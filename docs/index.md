@@ -5,7 +5,7 @@ keywords: "trading python, trading automatique, stratégie trading python, analy
 
 # Plateforme de Trading Technique
 
-{{ "TradingInPython" | keyword }} est un logiciel de trading technique, conçu comme une plateforme complète de trading automatique qui vous permet d’analyser les marchés financiers et de générer des signaux d’achat et de vente.
+{{ "TradingInPython" | keyword }} est un logiciel de trading technique, conçu comme une plateforme complète de trading automatique en python qui vous permet d’analyser les marchés financiers et de générer des signaux d’achat et de vente.
 
 Grâce à ses {{ "stratégies d’analyse technique intégrées" | keyword }}, vous disposez d’un environnement complet pour structurer votre trading et prendre des décisions plus rationnelles.
 
