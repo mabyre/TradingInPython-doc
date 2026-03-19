@@ -65,7 +65,7 @@ Vous venez de découvrir l'une des nombreuses stratégies de trading technique d
 
 ### Les stratégies de trading technique
 
-Voici maintenant toutes les stratégies intégrées dans la plateforme mais vous pouvez également [développer d'autres stratégies](open-software.md) d'analyse technique que vous pourrez intégrer dans le menu des stratégies d'analyse.
+Voici maintenant toutes les stratégies intégrées dans la plateforme mais vous pouvez également [développer votre stratégie](open-software.md) d'analyse technique que vous pourrez intégrer dans le menu des stratégies d'analyse.
 
 Vous avez actuellement le choix entre les stratégies suivantes pour analyser vos données :
 
