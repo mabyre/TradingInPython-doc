@@ -8,7 +8,7 @@ keywords: "faq, support, trading, technique"
 
 Retrouvez les réponses aux questions les plus fréquentes que vous pouvez vous poser à propos de
 
-- <a href="https://www.trading-et-data-analyses.com/2025/08/tradinginpython-plateforme-ouverte-pour-le-trading-technique.html" target="_blank">TradingInPython</a>
+- <a href="https://www.trading-et-data-analyses.com/2025/08/tradinginpython-plateforme-ouverte-pour-le-trading-technique.html" target="_blank">FAQ - TradingInPython</a>
 
 ## Support
 
