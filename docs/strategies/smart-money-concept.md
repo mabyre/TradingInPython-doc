@@ -56,7 +56,7 @@ Voici trois formations essentielles à la compréhension du trading de la Smart 
 
 Une fois que vous avez en tête ces différents concepts de l'ICT, voici comment les enchaîner pour faire une lecture efficace du trading de la Smart Money :
 
-- <a href="https://www.trading-et-data-analyses.com/2026/01/comment-enchainer-les-concepts-du-trading-smart-money.html" target="_blank">Structure du marché en vagues de Dow</a>
+- <a href="https://www.trading-et-data-analyses.com/2026/01/comment-enchainer-les-concepts-du-trading-smart-money.html" target="_blank">Comment enchaîner les concepts du trading de la Smart Money</a>
 
 ## Paramètrage des concepts ICT
 
