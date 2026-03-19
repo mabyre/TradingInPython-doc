@@ -1,7 +1,7 @@
 site_name: TradingInPython - Plateforme de trading pour l'analyse technique
 site_description: Plateforme open software de trading algorithmique des marchés financiers, stratégies de trading, outils d'analyse technique et ressources pour les traders.
 site_author: Bruno Raby
-site_url: https://trading-in-python.sodevlog.com
+site_url: https://trading-in-python.sodevlog.com/
 use_directory_urls: true
 
 repo_name: TradingInPython
