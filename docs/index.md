@@ -9,9 +9,9 @@ keywords: "trading python, trading automatique, stratégie trading python, analy
 
 Grâce à ses {{ "stratégies d’analyse technique intégrées" | keyword }}, vous disposez d’un environnement complet pour structurer votre trading et prendre des décisions plus rationnelles.
 
-L'important pour le trader c'est de {{ "se forger une conviction" | keyword }} et de {{ "valider cette conviction par l'analyse technique" | keyword }} pour prendre des décisions de trading plus rationnelles et plus structurées, c'est l'objectif de notre Plateforme de Trading Technique.
+L'important pour le trader est de {{ "se forger une conviction" | keyword }} et de {{ "valider cette conviction grâce à l'analyse technique" | keyword }} pour prendre des décisions de trading plus rationnelles et structurées, c'est l'objectif de notre Plateforme de Trading Technique.
 
-{{ "Inutile de savoir coder en Python" | keyword }}, tout est déjà prêt, il vous suffit de télécharger gratuitement le logigiel de la plateforme de trading technique TradingInPython.
+{{ "Inutile de savoir coder en Python" | keyword }}, tout est déjà prêt, il vous suffit de télécharger gratuitement le logiciel de la plateforme de trading technique TradingInPython.
 
 <figure style="text-align: center;">
     <a href="/images/accueil.png" class="glightbox" data-gallery="galerie" title="Stratégie de trading des doubles bandes de Bollinger et détection des Squeezes">
@@ -28,15 +28,15 @@ Téléchargez la dernière version du logiciel de la plateforme :
 
 _Une fois l'archive {{ "tradinginpython_setup.zip" | keyword}} téléchargée, dézippez la pour exécuter l'installeur {{ "tradinginpython_setup.exe" | keyword}} qui se trouve dans l'archive._
 
-Vous avez des problèmes pour déziper ou installer :
+Vous avez des problèmes pour dézipper ou installer :
 
 - <a href="https://github.com/SoDevLog/PyTrading/wiki/Installation" target="_blank">Aide à l'installation</a>
 
 ## Suivi des évolutions
 
-Vous souhaitez vous tenir au courant, suivre les évolutions et les nouvelles fonctionalités :
+Vous souhaitez vous tenir au courant, suivre les évolutions et les nouvelles fonctionnalités :
 
-- <a href="https://github.com/SoDevLog/PyTrading/releases" target="_blank">Version logicielles - Releases</a>
+- <a href="https://github.com/SoDevLog/PyTrading/releases" target="_blank">Versions logicielles - Releases</a>
 
 ## Vous souhaitez participer
 
@@ -54,13 +54,13 @@ Vous avez un souci, une question, voici les questions les plus fréquentes et l'
 
 ## Intégration avec l'IA
 
-TradingInPython utilise un réseau de neurones et le {{ "deep learning" | keyword }} des modules {{ "Keras" | keyword }} et {{ "Tensorflow" | keyword }} pour délivrer des signaux automatiques d'achat et de vente.
+TradingInPython intègre des modèles de {{ "deep learning" | keyword }} basés sur les modules {{ "Keras" | keyword }} et {{ "Tensorflow" | keyword }} pour analyser les données de marché et générer des signaux de trading automatiques.
 
 - [Plongez dans la prédiction des signaux 2D](./strategies/prediction-keras-ai.md)
 
 ## Le Blog
 
-Sur le site du Blog {{ "Trading Technique et Data Analyses" | keyword }} vous trouverez des articles, de la formation gratuite sur le trading technique, ajoutez vos commentaire, vos likes, n'hésitez pas à participer :
+Sur le site du Blog {{ "Trading Technique et Data Analyses" | keyword }} vous trouverez des articles, de la formation gratuite sur le trading technique, ajoutez vos commentaires, vos likes, n'hésitez pas à participer :
 
 <figure style="text-align: center;">
   <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank" title="Palteforme de Tading Technique - Le Blog">
@@ -70,7 +70,7 @@ Sur le site du Blog {{ "Trading Technique et Data Analyses" | keyword }} vous tr
 
 Vous pouvez vous former facilement avec les articles et les formations gratuites du blog.
 
-Vous avez plein des exemples d'utilisation des stratégies de trading technique en situation réelle et tout un tas d'{{ "analyses techniques gratuites" | keyword }}.
+Vous avez de nombreux exemples d'utilisation des stratégies de trading technique en situation réelle et tout un tas d'{{ "analyses techniques gratuites" | keyword }}.
 
 ## Licence gratuite
 
