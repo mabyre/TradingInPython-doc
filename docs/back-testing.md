@@ -4,7 +4,18 @@ description: "Le backtesting est une fonctionnalité importante pour la validati
 keywords: "backtesting, trading, technique"
 ---
 
-Vous pouvez avoir envie de voir en temps réel l'animation du cours et les indicateurs techniques se recalculer pour valider ou non votre stratégie de trading.
+Le backtesting est une étape essentielle en trading algorithmique. Il permet de tester une stratégie de trading sur des données historiques afin d’en évaluer la performance avant toute mise en production.
+
+Le module de backtesting de TradingInPython propose une approche simple et open source pour simuler des stratégies en Python. Il permet d’analyser les résultats, de visualiser les signaux et d’itérer rapidement sur ses modèles.
+
+Cette documentation présente le fonctionnement du backtesting dans TradingInPython, les options disponibles ainsi que des exemples d’utilisation concrets.
+
+## Fonctionnalités principales
+
+- Simulation de stratégies de trading sur les données historiques
+- Visualisation des performances de vos trades
+- Analyse des signaux d’achat et de vente en situation réelle
+- Intégration avec les indicateurs techniques
 
 ## Interface de backtesting
 
@@ -36,3 +47,7 @@ Ainsi, vous backtestez sur des données réelles en situation réelle.
 Vous l'aurez compris, il ne s'agit pas d'un véritable moteur de backtesting mais plutôt d'un mode replay bar-by-bar.
 
 Mais si des besoins de la communauté des utilisateurs se font sentir au delà du mode replay, en langage Python ce sera rapide à développer.
+
+## Pour aller plus loin
+
+Pour aller plus loin, vous pouvez consulter la section sur les [indicateurs techniques](./indicators.md) et la [création de stratégies personnalisées](./open-software.md).
