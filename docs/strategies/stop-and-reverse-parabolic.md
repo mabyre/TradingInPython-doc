@@ -1,6 +1,6 @@
 ---
 description: "Découvrez comment utiliser l'indicateur technique de trading Stop And Reverse Parabolic"
-keywords: "indicateur, technique, sar, stop and reverse, parabolic"
+keywords: "indicateur, technique, sar, stop and reverse, parabolic, trading"
 ---
 
 Le Parabolic Stop And Reverse (Parabolic SAR) est un indicateur technique très populaire, développé par J. Welles Wilder et décrit dans son livre _"New Concepts in Technical Trading Systems"_ publié en 1978.
