@@ -1,17 +1,26 @@
 ---
-description: "Documentation officielle de TradingInPython, la plateforme logicielle de trading technique et d’analyse des marchés – stratégies, indicateurs et IA."
-keywords: "trading, technique, monitor, market, python, ia"
+description: "TradingInPython : plateforme de trading automatique en Python avec analyse technique, stratégies, indicateurs avancés et intelligence artificielle."
+keywords: "trading python, trading automatique, stratégie trading python, analyse technique, trading algorithmique, indicateurs techniques, ia trading"
 ---
 
 # Plateforme de Trading Technique
 
-Découvrez la puissance de notre plateforme de trading technique et de ses stratégies automatisées. {{ "TradingInPython" | keyword }} est un logiciel qui intègre toutes les stratégies d'analyse technique, nécessaires et suffisantes pour effectuer votre trading au quotidien et sécuriser vos investissements.
+{{ "TradingInPython" | keyword }} est un logiciel de trading technique, conçu comme une plateforme complète de trading automatique qui vous permet d’analyser les marchés financiers et de générer des signaux d’achat et de vente.
 
-L'important pour le trader c'est de {{ "se forger une conviction" | keyword }} et de {{ "valider cette conviction par l'analyse technique" | keyword }} pour être certain de gagner de l'argent, c'est l'objectif de notre Plateforme de Trading Technique.
+Grâce à ses {{ "stratégies d’analyse technique intégrées" | keyword }}, vous disposez d’un environnement complet pour structurer votre trading et prendre des décisions plus rationnelles.
+
+L'important pour le trader c'est de {{ "se forger une conviction" | keyword }} et de {{ "valider cette conviction par l'analyse technique" | keyword }} pour prendre des décisions de trading plus rationnelles et plus structurées, c'est l'objectif de notre Plateforme de Trading Technique.
 
 {{ "Inutile de savoir coder en Python" | keyword }}, tout est déjà prêt, il vous suffit de télécharger gratuitement le logigiel de la plateforme de trading technique TradingInPython.
 
-## Téléchargez le logiciel
+<figure style="text-align: center;">
+    <a href="/images/accueil.png" class="glightbox" data-gallery="galerie" title="Stratégie de trading des doubles bandes de Bollinger et détection des Squeezes">
+        <img src="/images/accueil.png" alt="Stratégie de trading des doubles bandes de Bollinger et détection des Squeezes"/>
+    </a>
+    <figcaption><em>Stratégie de trading des doubles bandes de Bollinger Indicateurs technique des Multiframes Bollinger Bands (MTF)</em></figcaption>
+</figure>
+
+## Téléchargez le logiciel gratuitement
 
 Téléchargez la dernière version du logiciel de la plateforme :
 
