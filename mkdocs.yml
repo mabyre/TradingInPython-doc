@@ -27,6 +27,7 @@ theme:
     #- toc.integrate # intègre la table des matières dans la page -> c'est pas joli !!!
     #- toc.follow # fait défiler la table des matières avec le contenu
     #- toc.number # active la numérotation automatique des titres ne fonctionne pas !!!
+    #- navigation.footer # placer le html dans overrides/partials/footer.html
   icon:
     logo: material/chart-line
     repo: fontawesome/brands/github
@@ -90,6 +91,7 @@ nav:
   - Indicateurs Techniques: indicators.md
   - Glossaire: glossaire.md
   - Support & FAQ: support-faq.md
+  - Mentions légales: mentions-legales.md
 
 extra_javascript:
   #- https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js
@@ -129,19 +131,23 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
       type: timeago
-  - minify:
-      minify_html: true
+  # - minify:
+  #     minify_html: true
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/sodevlog
+      link: https://github.com/SoDevLog/PyTrading
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/bruno-raby
     - icon: fontawesome/brands/webflow
       link: https://www.trading-et-data-analyses.com
+    - icon: fontawesome/solid/envelope
+      link: mailto:plateforme@sodevlog.com
+    - icon: fontawesome/solid/file
+      link: /mentions-legales/
   social_locale: fr_FR
 
 copyright: >
-  © 2025 <a href="https://www.trading-et-data-analyses.com">Trading et Data Analyses</a> – 
-  Propulsé par <a href="https://www.mkdocs.org">MkDocs</a> et <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>.
+  © 2026 <a href="https://www.trading-et-data-analyses.com">Trading et Data Analyses</a> – 
+  <a href="/mentions-legales/">Mentions légales</a>
