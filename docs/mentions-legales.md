@@ -6,8 +6,10 @@ Le site **TradingInPython** accessible à l’adresse
 <https://trading-in-python.sodevlog.com/>
 est édité par :
 
-* **Entreprise** : SoDevLog
-* **Statut** : Éditeur indépendant
+* **Entreprise éditrice** : SoDevLog
+* **Statut** : Société à Responsabilité Limité
+* **SIRET** : 488 203 456 00014 RCS Montpellier
+* **Responsable de la publication** : Bruno Raby
 * **Email** : <plateforme@sodevlog.com>
 * **Site principal** : <https://www.sodevlog.com>
 
