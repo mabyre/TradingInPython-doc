@@ -6,12 +6,12 @@ Le site **TradingInPython** accessible à l’adresse
 <https://trading-in-python.sodevlog.com/>
 est édité par :
 
-* **Nom / Prénom** : Bruno Raby
+* **Entreprise** : SoDevLog
 * **Statut** : Éditeur indépendant
 * **Email** : <plateforme@sodevlog.com>
 * **Site principal** : <https://www.sodevlog.com>
 
-TradingInPython est un logiciel de trading technique développé et édité par SoDevLog, dans le cadre des activités de Bruno Raby.
+TradingInPython est un logiciel de trading technique développé et édité par la SoDevLog.
 
 Il s’agit d’un outil d’analyse permettant d’explorer les marchés financiers à l’aide d’indicateurs techniques et de traitements de données.
 
