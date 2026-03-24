@@ -71,7 +71,7 @@ nav:
   - Dessiner sur les Graphes:
       - Naviguer dans le graphique: draw-on-charts/navigate-on-charts.md
       - Tracer des tendances: draw-on-charts/draw-trend-lines.md
-      - Annoter des prix/dates: draw-on-charts/annote-price-date.md
+      - Annoter des prix et des dates: draw-on-charts/annote-price-date.md
       - Annoter les graphes: draw-on-charts/annotate-charts.md
   - Interface & Configuration:
       - Configuration & Settings: interface-configuration/ui-configuration.md

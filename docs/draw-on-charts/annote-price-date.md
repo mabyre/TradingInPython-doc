@@ -9,9 +9,13 @@ Vous pouvez marquer un prix horizontalement ou une date verticalement.
     <figcaption><em>AIR LIQUIDE</em></figcaption>
 </figure>
 
-{{ "Marquer un prix" | keyword }} : vous pointez la souris vous enfoncez la {{ "touche 'V'" | keyword }} pendant que vous cliquer une barre horizontale après avec le prix en annotation.
+## Annoter un prix
 
-{{ "Marquer une date" | keyword }} : vous pointez la souris vous enfoncez la {{ "touche 'D'" | keyword }} pendant que vous cliquer une barre horizontale après avec le prix en annotation.
+Pour marquez un prix, vous pointez la souris là où vous souhaitez marquer le prix puis vous enfoncez la {{ "touche 'v'" | keyword }} (v comme valeur) pendant que vous cliquez, une barre horizontale après avec le prix en annotation.
+
+## Annoter une date
+
+Pour marquez une date, vous pointez la souris là où vous souhaitez marquer une date puis vous enfoncez la {{ "touche 'd'" | keyword }} (d comme date) pendant que vous cliquez, une barre horizontale après avec le prix en annotation.
 
 Pour supprimer une barre d'annotation {{ "cliquez droit" | keyword }} aux endroits très précisément indiqués par les flèches rouges ci-dessous :
 
@@ -22,4 +26,6 @@ Pour supprimer une barre d'annotation {{ "cliquez droit" | keyword }} aux endroi
     <figcaption><em>Supprimer des annotations - clique droit à l'endroit indiqué</em></figcaption>
 </figure>
 
+## Supprimer toutes les annotations
 
+Pour supprimer toutes les annotation, en ayant votre souris positionnée sur le graphique, tapez {{ "'Ctrl+d'" | keyword }}.

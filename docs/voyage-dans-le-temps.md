@@ -124,6 +124,8 @@ Cliquez sur le bouton {{ "Graphique" | keywordi }}  :
     <figcaption><em>Sélectionnez une date cliquez sur Graphique</em></figcaption>
 </figure>
 
+Le graphique s'affiche alors depuis la date sélectionnée.
+
 ### Sélectionnez deux dates
 
 Pour seletionner une plage de temps, vous pouvez "setter" les deux dates de votre voyage dans le temps par l'interface graphique, de la façon suivante :
@@ -162,6 +164,14 @@ Pour terminer, cliquez sur le bouton {{ "Graphique" | keywordi }} et vous obtene
     </a>
     <figcaption><em>Voyage dans le temps entre deux dates positionnées graphiquement</em></figcaption>
 </figure>
+
+## Supprimer les annotations
+
+Vous avez placé trop d'annotations pour pouvoir les {{ "Setter" | keyword }} comme dates afni de tracer un graphique. Le message de la fenêtre {{ "Strategy Automation" | keywordi }} vous l'indique.
+
+Placez votre souris sur le graphe concerné et tapez {{ "Ctrl-d" | keywordi }} pour effacer les annotations.
+
+## Plateforme de trading technique
 
 Voilà, vous savez tout sur le voyage dans le temps grâce à la plateforme d'analyse technique :
 
