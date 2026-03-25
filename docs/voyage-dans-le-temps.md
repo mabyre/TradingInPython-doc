@@ -19,9 +19,16 @@ Cette boite de dialogue permet de configurer toutes les possibilités de récup�
     <figcaption><em>Interface de récupération des données de bourse</em></figcaption>
 </figure>
 
+<figure style="text-align: center;">
+    <a href="/images/voyage-dans-le-temps/configuration.png" class="glightbox" data-gallery="galerie" title="Interface de récupération des données de bourse">
+        <img src="/images/voyage-dans-le-temps/configuration.png" alt="Configuration" />
+    </a>
+    <figcaption><em>Interface de récupération des données de bourse</em></figcaption>
+</figure>
+
 Cette interface se compose trois parties, voici comment voyager dans le temps.
 
-## Period et Interval
+## Période et Intervalle
 
 Le voyage dans le temps s'effectue grâce à la configuration d'un {{ "intervalle" | keyword }} et d'une {{ "période" | keyword }} de temps.
 
@@ -35,6 +42,17 @@ C'est ce que l'on voit {{ "dans la partie (1)" | red }}, vous avez la possibilit
 </figure>
 
 Mais ces valeurs ne conviennent pas à toutes les analyses techniques, loin delà. Il y a donc deux autres parties pour vous permettre de configurer votre voyage dans le temps.
+
+Nous avons une nouvelle interface de configuration de l'Intervalle et de la Période :
+
+<figure style="text-align: center;">
+    <a href="/images/voyage-dans-le-temps/configuration-2.png" class="glightbox" data-gallery="galerie" title="Période et Intervalle">
+        <img src="/images/voyage-dans-le-temps/configuration-2.png" alt="Période et Intervalle" />
+    </a>
+    <figcaption><em>Configuration du voyage dans le temps période et intervalle</em></figcaption>
+</figure>
+
+C'est une interface plus UX plus pratique pour les utilisateurs que nous sommes.
 
 ## Jours dans le passé et Jours avant la fin
 

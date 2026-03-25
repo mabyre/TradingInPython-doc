@@ -35,12 +35,17 @@ Vous observez le cours des actions qui vous intéressent en sélectionnant un in
 
 Le choix de l'intervalle et de la période se fait parmi les valeurs suivantes :
 
-- L’{{ "intervalle de temps" | keyword }} (Interval) pour l’échantillonnage (1 m, 2 m, 5 m, 15 m, 30 m, 60 m, 1h, 4h, 1d, …)
-- La {{ "période d’analyse" | keyword }} (Period) ou bien des dates de début et de fin.
+- L’{{ "intervalle de temps" | keyword }} (Intervalle) pour l’échantillonnage (1 m, 2 m, 5 m, 15 m, 30 m, 60 m, 1h, 4h, 1d, …)
+- La {{ "période d’analyse" | keyword }} (Période) ou bien des dates de début et de fin.
 
 Grâce à l'interface :
 
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD_7q2X-Ee4TwywyhcC0AFeh90036CqVw6KCfA-h0UXc7DnIMwr8TV3okxiyRhNSYclOd82vUXRs1FWtAHKnzJ_OalUXr3oqOmWsl58eShURV7kuRfFY8M0xjbqMlh_79q-zAvMh8XBKAYzn6BZNdzt9uzWX9sjPIRgg5ct4UXFczMcOzeRsSogsX_XgiS/s458/2025-01-27_15h08_47.png" style="margin-left: auto; margin-right: auto;"><img alt="TradingInPython" border="0" data-original-height="458" data-original-width="272" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD_7q2X-Ee4TwywyhcC0AFeh90036CqVw6KCfA-h0UXc7DnIMwr8TV3okxiyRhNSYclOd82vUXRs1FWtAHKnzJ_OalUXr3oqOmWsl58eShURV7kuRfFY8M0xjbqMlh_79q-zAvMh8XBKAYzn6BZNdzt9uzWX9sjPIRgg5ct4UXFczMcOzeRsSogsX_XgiS/s16000/2025-01-27_15h08_47.png" title="TradingInPython" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Sélection de l'action et de la période d'analyse</td></tr></tbody></table>
+<figure style="text-align: center;">
+  <a href="/images/recuperation-des-data/recuperation-datas.png" class="glightbox" data-gallery="galerie" title="Sélection de l'action et de la période d'analyse">
+    <img src="/images/recuperation-des-data/recuperation-datas.png"/>
+  </a>
+  <figcaption><em>Sélection de l'action et de la période d'analyse</em></figcaption>
+</figure>
 
 ### Paramètres supportés  
 
@@ -84,9 +89,11 @@ Pour chacune des stratégies, vous avez la case {{ "AUTO" | keywordi }} dans la 
 pour récupérer les données en {{ "temps réel" | keyword }}, à intervalle de temps régulier,
 ainsi vous pouvez voir les graphiques du cours de l'action se dessiner au fil du temps.
 
-<figure style="text-align: center;" title="Récupération des datas en temps réel">
-  <img src="/images/recuperation-des-data/mode-auto.png" class="noborder"/>
-  <figcaption><em>Récupération des data en temps réel</em></figcaption>
+<figure style="text-align: center;">
+  <a href="/images/recuperation-des-data/mode-auto.png" class="glightbox" data-gallery="galerie" title="Récupération des datas en temps réel">
+    <img src="/images/recuperation-des-data/mode-auto.png"/>
+  </a>
+  <figcaption><em>Récupération des datas en temps réel</em></figcaption>
 </figure>
 
 Vous avez la possibilité de suivre le cours de l’action minute par minute :  
@@ -96,9 +103,11 @@ Vous avez la possibilité de suivre le cours de l’action minute par minute :
 
 La console vous prévient que le mode Automatique a démarré :
 
-<figure style="text-align: center;" title="Console indication mode AUTO">
-  <img src="/images/recuperation-des-data/console-mode-auto.png" class="noborder"/>
-  <figcaption><em>Console indication mode AUTO</em></figcaption>
+<figure style="text-align: center;">
+  <a href="/images/recuperation-des-data/console-mode-auto.png" class="glightbox" data-gallery="galerie" title="Console indication du mode AUTOMATIQUE">
+    <img src="/images/recuperation-des-data/console-mode-auto.png"/>
+  </a>
+  <figcaption><em>Console indication du mode AUTOMATIQUE</em></figcaption>
 </figure>
 
 La console affiche le message "Auto started ...".
