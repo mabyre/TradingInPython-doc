@@ -1,5 +1,5 @@
 ADX: |
-  Average Directional Index - Indice Directionnel Moyen.
+  **Average Directional Index - Indice Directionnel Moyen**
 
   C'est un indicateur technique développé par J. Welles Wilder qui mesure la force d'une tendance, qu'elle soit haussière ou baissière.
 
@@ -17,7 +17,7 @@ ADX: |
   - Filtrer les signaux de trading : Les traders peuvent utiliser l'ADX pour confirmer les signaux d'achat ou de vente générés par d'autres indicateurs techniques. Par exemple, un signal d'achat peut être plus fiable si l'ADX est supérieur à 20.
 
 AO/AC: |
-  Awesome Oscillator (AO) et Accelerator Oscillator (AC)
+  **Awesome Oscillator (AO) et Accelerator Oscillator (AC)**
 
   C'est un indicateur technique développé par Bill Williams qui mesure le momentum du marché en comparant une moyenne mobile courte à une moyenne mobile longue.
 
@@ -61,7 +61,7 @@ AO/AC: |
   AC accompagne l'interprétation de AO.
 
 ATR: |
-  Average True Range, Moyenne de la Vraie Amplitude.
+  **Average True Range - Moyenne de la Vraie Amplitude**
 
   C'est un indicateur de volatilité développé par J. Welles Wilder qui ne travaille que sur les prix. Il mesure l'amplitude moyenne des mouvements de prix sur une période donnée, sans indiquer la direction du mouvement à la baisse ou à la hausse. 
 
@@ -78,7 +78,7 @@ ATR: |
   Par exemple : StopLoss à X*ATR en dessous (ou au-dessus) du prix d'entrée.
 
 Bolls: |
-  Bandes de Bollinger.
+  **Bandes de Bollinger**
 
   Les Bandes de Bollinger sont un indicateur technique développé par John Bollinger dans les années 1980. 
 
@@ -91,7 +91,9 @@ Bolls: |
   - Toucher les bandes : Lorsque le prix touche ou dépasse la bande supérieure, cela peut indiquer que l'actif est suracheté, tandis que toucher la bande inférieure peut suggérer qu'il est survendu. Cependant, ces signaux doivent être confirmés par d'autres indicateurs avant de prendre des décisions de trading.
 
 BOP: |
-  Balance of Power oscillateur technique qui mesure la force relative des acheteurs et des vendeurs sur une période donnée. 
+  **Balance of Power**
+
+  Oscillateur technique qui mesure la force relative des acheteurs et des vendeurs sur une période donnée. 
 
   Il a été développé par Igor Livshin et est utilisé pour identifier les tendances du marché et les retournements potentiels.
 
@@ -103,10 +105,24 @@ BOP: |
 
   - BOP < 0 : La clôture est plus proche du prix bas, suggérant que les vendeurs dominent le marché. Domination des vendeurs (pression baissière)
 
-  - BOP proche de 0 : Équilibre équilibre entre acheteurs et vendeurs, entre l’offre et la demande
+  - BOP proche de 0 : Équilibre équilibre entre acheteurs et vendeurs, entre l'offre et la demande
+
+DAS: |
+  **Directional Action Strength**
+
+  C'est un oscillateur hybride qui combine le momentum du prix et l'intensité du volume pour mesurer la "force réelle" d'un mouvement de marché. 
+
+  Il repose sur l'écart entre deux Exponential Moving Average EMA (rapide et lente) afin de capter la direction et la vitesse du prix, puis pondère ce signal par un volume 
+  normalisé pour ne conserver que les mouvements soutenus par une participation significative. 
+
+  Le résultat est ensuite lissé en deux lignes (rapide et lente), dont la différence forme un histogramme similaire à une MACD enrichie. 
+
+  Cet indicateur s'utilise pour identifier des impulsions solides lorsque le score est élevé avec un volume supérieur à la moyenne, valider une tendance lorsque 
+  les lignes sont alignées (rapide au-dessus de lente pour un biais haussier), et détecter les retournements via les croisements ou les divergences entre le prix 
+  et l'histogramme.
 
 MACD: |
-  Moving Average Convergence Divergence
+  **Moving Average Convergence Divergence**
 
   C'est un indicateur simple qui combine deux moyennes glissantes exponentielles, une courte, une longue et un signal qui est également une moyenne glissante exponentielle entre les deux autres.
 
@@ -144,7 +160,9 @@ MACD: |
   Le MACD ne devrait pas être utilisé seul ...
 
 MACD ZL: |
-  MACD Zéro Lag essaye de compenser le retard du MACD en corrigeant les EMA.
+  **MACD Zéro Lag**
+
+  Cet indicateur technique essaye de compenser le retard du MACD en corrigeant les EMA.
 
   Corrige les EMA avec des techniques comme les filtrages de type TEMA, DEMA, ou une soustraction dynamique.
 
@@ -166,8 +184,21 @@ MACD ZL: |
 
   - Réactivité accrue pour du swing ou intraday, conserve la logique du MACD classique.
 
+MTF-Z: |
+  **Multi-Timeframes Bollinger Bands Z-score**
+
+  Cet indicateur technique utilise deux séries de Bandes de Bollinger sur trois horizons (timeframes)  différents. est un oscillateur technique qui mesure la position du prix par rapport à sa moyenne mobile, normalisée par la volatilité via un Z-score issu des Bandes de Bollinger.
+
+  Il permet de capturer simultanément les dynamiques court, moyen et long terme dans un seul indicateur.
+
+  Il s'utilise pour détecter les phases de surachat (> +2) et de survente (< -2).
+
+  Il identifie la force d'une tendance lorsque les courbes sont alignées (rapide > intermédiaire haussière), 
+
+  Il repére les phases de compression (lignes rapprochées) annonçant un mouvement imminent.
+
 OBV: |
-  On-Balance Volume - Volume en Balance.
+  **On-Balance Volume - Volume en Balance**
 
   C'est un indicateur technique qui utilise le volume des transactions pour prédire les changements de prix d'un actif financier. Il a été développé par Joe Granville dans les années 1960.
 
@@ -193,7 +224,9 @@ OBV: |
   - Les divergences entre l'OBV et le prix peuvent signaler des retournements potentiels du marché.
 
 RSI: |
-  Relative Strength Index : mesure la force du mouvement d'un actif.
+  **Relative Strength Index**
+
+  Indicateur qui mesure la force du mouvement d'un actif.
 
   Evaluer la force ou la faiblesse d'un actif financier en comparant les gains et les pertes récents sur une période spécifique. 
   Il a été développé par l'analyste financier J. Welles Wilder.
@@ -208,7 +241,7 @@ RSI: |
   Un indicateur de momentum évalue la vitesse ou la force du mouvement des prix dans une direction donnée. Il fournit une information sur la force d'un tendance.
 
 SAR Parabolic: |
-  Stop And Reverse parabolic - Parabolic SAR.
+  **Stop And Reverse parabolic - Parabolic SAR**
 
   C'est un indicateur technique puissant développé par J. Welles Wilder en 1978. Il est utilisé pour détecter les tendances et définir des points de retournement potentiels sur un graphique.
 
@@ -232,7 +265,9 @@ SAR Parabolic: |
   **Sortie de position** : Une cassure du SAR par le prix peut indiquer une opportunité de clôturer la position.
 
 SMA: |
-  Simple Moving Average - Moyenne Mobile Simple est un indicateur technique qui calcule la moyenne des prix d'un actif sur une période donnée.
+  **Simple Moving Average - Moyenne Mobile Simple**
+
+  Est un indicateur technique qui calcule la moyenne des prix d'un actif sur une période donnée.
 
   La SMA est une moyenne arithmétique des prix de clôture d'un actif sur une période donnée.
 
@@ -252,7 +287,7 @@ SMA: |
   - Signaux de trading : Les croisements entre différentes SMA (par exemple, une SMA courte croisant au-dessus d'une SMA longue) peuvent générer des signaux d'achat ou de vente.
 
 STOCH: |
-  Stochastic Oscillator - Oscillateur stochastique. Ne travaille que sur le prix.
+  **Stochastic Oscillator - Oscillateur stochastique - Ne travaille que sur le prix**
 
   Le Stochastic Oscillator est un indicateur d'élan qui compare le prix de clôture actuel d'un actif à sa fourchette de prix (plus haut et plus bas) sur une période donnée, généralement 14 périodes. Il oscille entre 0 et 100 et est utilisé pour identifier les conditions de surachat et de survente, ainsi que pour anticiper des retournements potentiels de tendance du coup plus évolué que le RSI.
 
@@ -284,7 +319,7 @@ STOCH: |
   Il faut donc utiliser des indicateurs travaillant sur le volume.
 
 VWAP: |
-  Volume Weighted Average Price - Prix moyen pondéré par les volumes.
+  **Volume Weighted Average Price - Prix moyen pondéré par les volumes**
 
   Le VWAP est un indicateur de trading qui calcule le prix moyen d'un actif en tenant compte à la fois du prix et du volume des transactions sur une période donnée, 
   généralement intrajournalière.
