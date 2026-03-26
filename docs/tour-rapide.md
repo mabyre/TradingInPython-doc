@@ -9,10 +9,10 @@ Découvrez rapidement les grands modules que vous pourrez utiliser avec {{ "Trad
 
 La plateforme {{ "TradingInPython" | keyword }} est un ensemble complet de trading avec :
 
-- des analyses techniques,
-- des cartes chaleurs et de performance pour surveiller des marchés,
-- des alertes techniques pour mettre les marchés sous surveillance,
-- le gestionnaire de portefeuille vous donne en temps réel la performance de votre trading.
+- des [analyses techniques](#les-strategies-de-trading-technique),
+- des [cartes chaleurs](#cartes-de-chaleur-heatmap-performance) et de performance pour surveiller des marchés,
+- des [alertes techniques](#monitoring-stock-market-alertes) pour mettre les marchés sous surveillance,
+- le [gestionnaire de portefeuille](#votre-gestionnaire-de-portefeuilles) vous donne en temps réel la performance de votre trading.
 
 ## Présentation des stratégies de trading technique
 
