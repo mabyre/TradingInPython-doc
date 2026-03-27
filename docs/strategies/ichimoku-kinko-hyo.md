@@ -22,6 +22,8 @@ Dans le Menu {{ "Stratégie" | keyword }} choisissez {{ "Ichimoku-Kinko-Hyo" | k
   <figcaption><em>Interface - Stratégie Ichimoku-Kinko-Hyo</em></figcaption>
 </figure>
 
+Les cases à cocher vous permettent d'afficher ou non les différents signaux pour plus de clareté dans votre analyse technique.
+
 ## Configuration
 
 Remarquez l'interface de configuration avec trois parties :
@@ -36,6 +38,21 @@ Remarquez l'interface de configuration avec trois parties :
 - {{ "(1)" | red }} Longueur des moyennes mobiles de la Tenken, Kijun et Senkou
 - {{ "(2)" | red }} Configuration du nombre de jours prédiction
 - {{ "(3)" | red }} Choix prédéfinis des longueurs pour les signaux Tenken, Kijun et Senkou
+
+### Paramètres de l'Ichimoku Kinko Hyo
+
+En {{ "(1)" | red }} vous trouvez le moyen de paramétrer les différents signaux de l'indicateur technique Ichimoku.
+
+### Paramètres de la prédiction
+
+En {{ "(2)" | red }} paramétrez la prédiction avec le nombre de jours que vous souhaitez dans le futur et le nombre de jours où l'algorithme regarde dans le passé pour faire sa prédiction.
+
+### Boutons de sauvegarde et de récupération
+
+En {{ "(3)" | red }} différentes configurations des moyennes préprogrammées Short et Long.
+
+- {{ "Read" | keywordi }} Relire les paramètres sauvegardés, s'ils y en a.
+- {{ "Save" | keywordi }} Sauvegarde des paramètres de l'utilisateur pour l'action (Stock) en cours.
 
 ## Prédiction keras et tensorflow
 

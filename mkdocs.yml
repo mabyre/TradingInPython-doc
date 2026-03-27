@@ -53,7 +53,7 @@ nav:
           - Doubles Bandes de Bollinger: strategies/bollinger-bands/bollinger-bands-double.md
           - Bandes de Bollinger FTMA + histogramme: strategies/bollinger-bands/bollinger-bands-ftma-histogramme.md
       - Intraday VWAP + Stoch: strategies/intraday-vwap-stoch.md
-      - Stop & Reverse Parabolic: strategies/stop-and-reverse-parabolic.md
+      - Stop & Reverse Parabolic SAR: strategies/stop-and-reverse-parabolic.md
       - Fractales de Bill Williams: strategies/fractales-bill-williams.md
       - Gator Alligator Bill Williams: strategies/gator-alligator.md
       - Filtre de Kalman: strategies/kalman-filter.md

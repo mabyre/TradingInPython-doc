@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Découvrez comment utiliser l'indicateur technique de trading Stop And Reverse Parabolic">
+        <meta name="description" content="Découvrez comment utiliser l'indicateur technique de trading Stop And Reverse Parabolic SAR">
       
       
         <meta name="author" content="SoDevLog">
@@ -26,7 +26,7 @@
     
     
       
-        <title>Stop & Reverse Parabolic - TradingInPython - Plateforme de trading pour l'analyse technique</title>
+        <title>Stop & Reverse Parabolic SAR - TradingInPython - Plateforme de trading pour l'analyse technique</title>
       
     
     
@@ -122,11 +122,11 @@
 
 <meta property="og:locale" content="fr_FR">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Stop &amp; Reverse Parabolic - TradingInPython - Plateforme de trading pour l&#39;analyse technique">
+<meta property="og:title" content="Stop &amp; Reverse Parabolic SAR - TradingInPython - Plateforme de trading pour l&#39;analyse technique">
 <meta property="og:site_name" content="TradingInPython - Plateforme de trading pour l&#39;analyse technique">
 
 
-<meta property="og:description" content="Découvrez comment utiliser l&#39;indicateur technique de trading Stop And Reverse Parabolic">
+<meta property="og:description" content="Découvrez comment utiliser l&#39;indicateur technique de trading Stop And Reverse Parabolic SAR">
 
 
 
@@ -138,10 +138,10 @@
 
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Stop &amp; Reverse Parabolic - TradingInPython - Plateforme de trading pour l&#39;analyse technique">
+<meta name="twitter:title" content="Stop &amp; Reverse Parabolic SAR - TradingInPython - Plateforme de trading pour l&#39;analyse technique">
 
 
-<meta name="twitter:description" content="Découvrez comment utiliser l&#39;indicateur technique de trading Stop And Reverse Parabolic">
+<meta name="twitter:description" content="Découvrez comment utiliser l&#39;indicateur technique de trading Stop And Reverse Parabolic SAR">
 
 
 
@@ -200,7 +200,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Stop & Reverse Parabolic
+              Stop & Reverse Parabolic SAR
             
           </span>
         </div>
@@ -782,7 +782,7 @@
   
   
   <span class="md-ellipsis">
-    Stop & Reverse Parabolic
+    Stop & Reverse Parabolic SAR
     
   </span>
   
@@ -795,7 +795,7 @@
   
   
   <span class="md-ellipsis">
-    Stop & Reverse Parabolic
+    Stop & Reverse Parabolic SAR
     
   </span>
   
@@ -830,6 +830,30 @@
       Configuration
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametres-du-sar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paramètres du SAR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boutons-de-sauvegarde-et-de-recuperation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boutons de sauvegarde et de récupération
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1986,6 +2010,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parametres-du-sar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paramètres du SAR
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boutons-de-sauvegarde-et-de-recuperation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Boutons de sauvegarde et de récupération
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -2127,7 +2175,7 @@
   
 
 
-  <h1>Stop & Reverse Parabolic</h1>
+  <h1>Stop & Reverse Parabolic SAR</h1>
 
 <p>Le Parabolic Stop And Reverse (Parabolic SAR) est un indicateur technique très populaire, développé par J. Welles Wilder et décrit dans son livre <em>"New Concepts in Technical Trading Systems"</em> publié en 1978.</p>
 <p>Cet indiateur de trading technique est conçu pour suivre la tendance et surtout pour déterminer des niveaux dynamiques de <span title="Ordre de vente automatique placé pour limiter les pertes sur une position ouverte." style="border-bottom:1px dotted;cursor:help"><b>StopLoss</b></span>. </p>
@@ -2148,6 +2196,9 @@
   <figcaption><em>Interface graphique de l'indicateur Stop-And-Reverse-Parabolic</em></figcaption>
 </figure>
 
+<ul>
+<li><span class="text-red">(1)</span> Passer du mode SAR (Stop and Reverse Parabolic) au mode <a href="../fractales-bill-williams/">Fractales de Bill Williams</a></li>
+</ul>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
 <p>Cet un indicateur technique qui nécessite des réglages fins en fonction de la volatilité du marché, aussi lorsque vous <span class="text-keyword">passez la souris sur les paramètres</span> de configuration vous verrez quelques indications concernant le réglage de ces paramètres :</p>
 <figure style="text-align: center;">
@@ -2157,10 +2208,18 @@
   <figcaption><em>Configuration - l'indicateur Stop-And-Reverse-Parabolic</em></figcaption>
 </figure>
 
+<p>Notez le tooltip d'aide à la décision qui vous indique des valeurs pour le paramètres.</p>
+<h3 id="parametres-du-sar">Paramètres du SAR<a class="headerlink" href="#parametres-du-sar" title="Permanent link">&para;</a></h3>
 <ul>
-<li><span class="text-keyword">BASE STEP</span> : Détermine la vitesse minimale à laquelle le SAR se rapproche du prix</li>
-<li><span class="text-keyword">MAX STEP</span> : Limite la vitesse maximale à laquelle le SAR peut s'accélérer</li>
-<li><span class="text-keyword">VOLATILITY WINDOW</span> : Détermine comment la volatilité historique est calculée</li>
+<li><span class="text-keyword">BASE STEP</span> Détermine la vitesse minimale à laquelle le SAR se rapproche du prix.</li>
+<li><span class="text-keyword">MAX STEP</span> Limite la vitesse maximale à laquelle le SAR peut s'accélérer.</li>
+<li><span class="text-keyword">VOLATILITY WINDOW</span> Détermine comment la volatilité historique est calculée.</li>
+</ul>
+<h3 id="boutons-de-sauvegarde-et-de-recuperation">Boutons de sauvegarde et de récupération<a class="headerlink" href="#boutons-de-sauvegarde-et-de-recuperation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><span class="text-keyword">"Default"</span> Reprendre les valeurs par défaut</li>
+<li><span class="text-keyword">"Read"</span> Relire les paramètres sauvegardés, s'ils y en a</li>
+<li><span class="text-keyword">"Save"</span> Sauvegarde des paramètres de l'utilisateur pour l'action (Stock) en cours</li>
 </ul>
 <h2 id="interpretation">Interprétation<a class="headerlink" href="#interpretation" title="Permanent link">&para;</a></h2>
 <p>L'indicateur technique Stop And Reverse Parabolic comporte deux signaux formés de petits carrés <span class="text-red">rouge</span> pour le <span class="text-red">SAR bearich</span> (tendance baissière) et <span class="text-green">vert</span> pour le <span class="text-green">SAR bullish</span> (tendance haussière).</p>

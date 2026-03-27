@@ -1,5 +1,5 @@
 ---
-description: "Découvrez comment utiliser l'indicateur technique de trading Stop And Reverse Parabolic"
+description: "Découvrez comment utiliser l'indicateur technique de trading Stop And Reverse Parabolic SAR"
 keywords: "indicateur, technique, sar, stop and reverse, parabolic, trading"
 ---
 
@@ -28,6 +28,8 @@ Dans le Menu {{ "Stratégie" | keyword }} choisissez {{ "Fractales de Bill Willi
   <figcaption><em>Interface graphique de l'indicateur Stop-And-Reverse-Parabolic</em></figcaption>
 </figure>
 
+- {{ "(1)" | red }} Passer du mode SAR (Stop and Reverse Parabolic) au mode [Fractales de Bill Williams](./fractales-bill-williams.md)
+
 ## Configuration
 
 Cet un indicateur technique qui nécessite des réglages fins en fonction de la volatilité du marché, aussi lorsque vous {{ "passez la souris sur les paramètres" | keyword }} de configuration vous verrez quelques indications concernant le réglage de ces paramètres :
@@ -39,9 +41,19 @@ Cet un indicateur technique qui nécessite des réglages fins en fonction de la 
   <figcaption><em>Configuration - l'indicateur Stop-And-Reverse-Parabolic</em></figcaption>
 </figure>
 
-- {{ "BASE STEP" | keyword }} : Détermine la vitesse minimale à laquelle le SAR se rapproche du prix
-- {{ "MAX STEP" | keyword }} : Limite la vitesse maximale à laquelle le SAR peut s'accélérer
-- {{ "VOLATILITY WINDOW" | keyword }} : Détermine comment la volatilité historique est calculée
+Notez le tooltip d'aide à la décision qui vous indique des valeurs pour le paramètres.
+
+### Paramètres du SAR
+
+- {{ "BASE STEP" | keyword }} Détermine la vitesse minimale à laquelle le SAR se rapproche du prix.
+- {{ "MAX STEP" | keyword }} Limite la vitesse maximale à laquelle le SAR peut s'accélérer.
+- {{ "VOLATILITY WINDOW" | keyword }} Détermine comment la volatilité historique est calculée.
+
+### Boutons de sauvegarde et de récupération
+
+- {{ "Default" | keywordi }} Reprendre les valeurs par défaut
+- {{ "Read" | keywordi }} Relire les paramètres sauvegardés, s'ils y en a
+- {{ "Save" | keywordi }} Sauvegarde des paramètres de l'utilisateur pour l'action (Stock) en cours
 
 ## Interprétation
 
