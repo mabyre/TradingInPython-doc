@@ -1941,7 +1941,7 @@
 
   <h1>Backtesting</h1>
 
-<p>Le backtesting est une étape essentielle en trading algorithmique. Il permet de tester une stratégie de trading sur des données historiques afin d’en évaluer la performance avant toute mise en production.</p>
+<p>Le backtesting est une étape essentielle en trading algorithmique. Il permet de tester une stratégie de trading sur des données historiques afin d’en évaluer la performance avant toute mise en production ou essai en conditions réelles.</p>
 <p>Le module de backtesting de TradingInPython propose une approche simple et open source pour simuler des stratégies en Python. Il permet d’analyser les résultats, de visualiser les signaux et d’itérer rapidement sur ses modèles.</p>
 <p>Cette documentation présente le fonctionnement du backtesting dans TradingInPython, les options disponibles ainsi que des exemples d’utilisation concrets.</p>
 <h2 id="fonctionnalites-principales">Fonctionnalités principales<a class="headerlink" href="#fonctionnalites-principales" title="Permanent link">&para;</a></h2>
@@ -1960,18 +1960,19 @@
 </figure>
 
 <ul>
-<li><span class="text-red">(1)</span> : Period à none pour utiliser <span class="text-keyword">"Date de fin"</span> et <span class="text-keyword">"Date de début"</span></li>
-<li><span class="text-red">(2)</span> : Les dates seront utilisées</li>
-<li><span class="text-red">(3)</span> : Boutons <span class="text-keyword">"+ 1"</span> et <span class="text-keyword">"- 1"</span></li>
+<li><span class="text-red">(1)</span> : Sélectionnez <span class="text-keyword">"Période"</span> à none pour utiliser <span class="text-keyword">"Date de fin"</span> et <span class="text-keyword">"Date de début"</span></li>
+<li><span class="text-keyword">"Jours dans le passé"</span> et <span class="text-keyword">"Jours avant la fin :"</span> sont à 0</li>
+<li><span class="text-red">(2)</span> : Les dates seront utilisées pour backtester</li>
+<li><span class="text-red">(3)</span> : Boutons <span class="text-keyword">"+ 1"</span> et <span class="text-keyword">"- 1"</span> permettent d'ajouter un de retirer un intervalle de temps.</li>
 </ul>
-<p>Les boutons <span class="text-keyword">"+ 1"</span> et <span class="text-keyword">"- 1"</span> permettent d'ajouter ou de retirer 1 à la <span class="text-keyword">"Date de fin"</span>, en tenant compte des jours ouvrés, c'est à dire que vous aurez toujours de nouvelles data même si les dates tombent dans les week-end ou les jours non tradés.</p>
+<p>Les boutons <span class="text-keyword">"+ 1"</span> et <span class="text-keyword">"- 1"</span> permettent d'ajouter ou de retirer 1 Intervalle de temps à la <span class="text-keyword">"Date de fin"</span>, en tenant compte des jours ouvrés, c'est à dire que vous aurez toujours de nouvelles data même si les dates tombent dans les week-end ou les jours non tradés.</p>
 <p>Le graphe est affiché et les indicateurs techniques sont recalculés avec les nouvelles valeurs.</p>
 <p>Vous aurez ainsi la possibilité de voir dans une situation réelle particulière du passé qu'elle décision de trading vous auriez prise en fonction de votre stratégie de trading et des indicateurs techniques choisis.</p>
 <h2 id="les-datas">Les datas<a class="headerlink" href="#les-datas" title="Permanent link">&para;</a></h2>
 <p>Il est donc inutile de générer des données synthétiques de trading, vous pouvez backtester votre stratégie de trading sur tous les cours en choisissant de partir d'une date donnée de prendre vos décisions de trading en effectuant votre analyse technique en temps réel.</p>
 <p>Ainsi, vous backtestez sur des données réelles en situation réelle.</p>
 <h2 id="moteur-de-backtesting">Moteur de backtesting<a class="headerlink" href="#moteur-de-backtesting" title="Permanent link">&para;</a></h2>
-<p>Vous l'aurez compris, il ne s'agit pas d'un véritable moteur de backtesting mais plutôt d'un mode replay bar-by-bar.</p>
+<p>Vous l'aurez compris, il ne s'agit pas d'un véritable moteur de backtesting mais plutôt d'un mode replay bar-by-bar. Elle permet de contaster on non le <a href="/glossaire/#repainting">repainting</a> de votre stratégie. Elle permet de tester vos stratégies sur tous les horizons de temps différents.</p>
 <p>Mais si des besoins de la communauté des utilisateurs se font sentir au delà du mode replay, en langage Python ce sera rapide à développer.</p>
 <h2 id="pour-aller-plus-loin">Pour aller plus loin<a class="headerlink" href="#pour-aller-plus-loin" title="Permanent link">&para;</a></h2>
 <p>Pour aller plus loin, vous pouvez consulter la section sur les <a href="../indicators/">indicateurs techniques</a> et la <a href="../open-software/">création de stratégies personnalisées</a>.</p>
