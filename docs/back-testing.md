@@ -4,7 +4,7 @@ description: "Le backtesting est une fonctionnalité importante pour la validati
 keywords: "backtesting, trading, technique"
 ---
 
-Le backtesting est une étape essentielle en trading algorithmique. Il permet de tester une stratégie de trading sur des données historiques afin d’en évaluer la performance avant toute mise en production.
+Le backtesting est une étape essentielle en trading algorithmique. Il permet de tester une stratégie de trading sur des données historiques afin d’en évaluer la performance avant toute mise en production ou essai en conditions réelles.
 
 Le module de backtesting de TradingInPython propose une approche simple et open source pour simuler des stratégies en Python. Il permet d’analyser les résultats, de visualiser les signaux et d’itérer rapidement sur ses modèles.
 
@@ -26,11 +26,12 @@ Cette documentation présente le fonctionnement du backtesting dans TradingInPyt
     <figcaption><em>Fonctionnalités de Back Testing</em></figcaption>
 </figure>
 
-- {{ "(1)" | red }} : Period à none pour utiliser {{ "Date de fin" | keywordi }} et {{ "Date de début" | keywordi }}
-- {{ "(2)" | red }} : Les dates seront utilisées
-- {{ "(3)" | red }} : Boutons {{ "+ 1" | keywordi }} et {{ "- 1" | keywordi }}
+- {{ "(1)" | red }} : Sélectionnez {{ "Période" | keywordi }} à none pour utiliser {{ "Date de fin" | keywordi }} et {{ "Date de début" | keywordi }}
+- {{ "Jours dans le passé" | keywordi }} et {{ "Jours avant la fin :" | keywordi }} sont à 0
+- {{ "(2)" | red }} : Les dates seront utilisées pour backtester
+- {{ "(3)" | red }} : Boutons {{ "+ 1" | keywordi }} et {{ "- 1" | keywordi }} permettent d'ajouter un de retirer un intervalle de temps.
 
-Les boutons {{ "+ 1" | keywordi }} et {{ "- 1" | keywordi }} permettent d'ajouter ou de retirer 1 à la {{ "Date de fin" | keywordi }}, en tenant compte des jours ouvrés, c'est à dire que vous aurez toujours de nouvelles data même si les dates tombent dans les week-end ou les jours non tradés.
+Les boutons {{ "+ 1" | keywordi }} et {{ "- 1" | keywordi }} permettent d'ajouter ou de retirer 1 Intervalle de temps à la {{ "Date de fin" | keywordi }}, en tenant compte des jours ouvrés, c'est à dire que vous aurez toujours de nouvelles data même si les dates tombent dans les week-end ou les jours non tradés.
 
 Le graphe est affiché et les indicateurs techniques sont recalculés avec les nouvelles valeurs.
 
@@ -44,9 +45,9 @@ Ainsi, vous backtestez sur des données réelles en situation réelle.
 
 ## Moteur de backtesting
 
-Vous l'aurez compris, il ne s'agit pas d'un véritable moteur de backtesting mais plutôt d'un mode replay bar-by-bar.
+Vous l'aurez compris, il ne s'agit pas d'un véritable moteur de backtesting mais plutôt d'un mode replay bar-by-bar. Elle permet de contaster ou non le {{ "repainting" | g_link }} de votre stratégie. Elle permet de tester vos stratégies sur tous les horizons de temps différents rapidement et graphiquement.
 
-Mais si des besoins de la communauté des utilisateurs se font sentir au delà du mode replay, en langage Python ce sera rapide à développer.
+Si des besoins de la communauté des utilisateurs se font sentir au delà du mode replay, en langage Python ce sera rapide à développer.
 
 ## Pour aller plus loin
 
