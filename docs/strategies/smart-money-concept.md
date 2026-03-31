@@ -10,12 +10,13 @@ Richard D. Wyckoff (années 1900–1930) a posé les base du trading de la Smart
 Michael J. Huddleston reprend les bases pour les struturer en Smart Money Concept (SMC) :
 
 - {{ "Structure" | keyword }} : Dow's waves - bearish: LH, LL, LH - bullish: HH, HL, HH
-- {{ "BOS" | keyword }} : Break Of Structure
-- {{ "CHoCH" | keyword }} : Change Of Character
+- {{ "Displacement" | keyword }} : Détection des bougies fortes avec un grand corps et de relatives petites mèches
+- {{ "CHoCH" | keyword }} : Change Of Character la structure bearish ou bullish est rompue
+- {{ "BOS" | keyword }} : Break Of Structure - Confirme la cassure de la structure
 - {{ "Order Blocks" | keyword }} :  Zones où de grands ordres ont été exécutés
 - {{ "Liquidity grabs" | keyword }} : Prises de liquidités par la Smart Money
-- {{ "FVG" | keyword }} : Fair Value Gap
-- {{ "OTE" | keyword }} : Optimal Trade Entry / Premium-Discount
+- {{ "FVG" | keyword }} : Fair Value Gap - Confirme la force du mouvement
+- {{ "OTE" | keyword }} : Optimal Trade Entry / Premium-Discount - Moment optimum pour trader
 
 Michael J. Huddleston est l'Inner Circle Trader, {{ "ICT" | g_tooltip }} est devenu son pseudo.
 
