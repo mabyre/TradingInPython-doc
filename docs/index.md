@@ -26,7 +26,9 @@ Téléchargez la dernière version du logiciel de la plateforme :
 
 - [TradingInPython v1.8.2](https://github.com/SoDevLog/PyTrading/releases/download/v1.8.2/tradinginpython_setup.zip)
 
-_Une fois l'archive {{ "tradinginpython_setup.zip" | keyword}} téléchargée, dézippez la pour exécuter l'installeur {{ "tradinginpython_setup.exe" | keyword}} qui se trouve dans l'archive._
+### Installation
+
+Une fois l'archive {{ "tradinginpython_setup.zip" | keyword}} téléchargée, vous dézippez l'archive pour exécuter l'installeur {{ "tradinginpython_setup.exe" | keyword}} qui se trouve dans cette archive.
 
 Vous avez des problèmes pour dézipper ou installer :
 
@@ -46,9 +48,11 @@ Par exemple dans le {{ "Aide" | keyword }} -> {{ "Aide" | keyword }} : Version 1
 
 Si ce numéro est plus anciens (inférieur) à la version proposée sur cette page, vous téléchargez le nouveau fichier zip.
 
-Vous dézippez pour trouver le fichier {{ "tradinginpython_setup.exe" | keyword }} pour l'exécuter et installer la nouvelle version sur votre poste de travail.
+Vous faites une nouvelle installation comme au chapitre :
 
-C'est tout, vos fichiers de données utilisateurs (screeners) et votre licence ne sont pas impactés.
+- [Installation](#installation)
+
+C'est tout, vos fichiers de données utilisateurs (screeners, etc.) et votre licence ne sont pas impactés par cette nouvelle installation.
 
 ## Vous souhaitez participer
 
