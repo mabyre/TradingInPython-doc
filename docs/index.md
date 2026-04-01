@@ -32,11 +32,23 @@ Vous avez des problèmes pour dézipper ou installer :
 
 - <a href="https://github.com/SoDevLog/PyTrading/wiki/Installation" target="_blank">Aide à l'installation</a>
 
-## Suivi des évolutions
+## Suivi des évolutions & Mises à jour
 
 Vous souhaitez vous tenir au courant, suivre les évolutions et les nouvelles fonctionnalités :
 
 - <a href="https://github.com/SoDevLog/PyTrading/releases" target="_blank">Versions logicielles - Releases</a>
+
+### Mises à jour
+
+Vous repérez le numéro de votre version installée : v1.8.x
+
+Par exemple dans le {{ "Aide" | keyword }} -> {{ "Aide" | keyword }} : Version 1.8.x
+
+Si ce numéro est plus anciens (inférieur) à la version proposée sur cette page, vous téléchargez le nouveau fichier zip.
+
+Vous dézippez pour trouver le fichier {{ "tradinginpython_setup.exe" | keyword }} pour l'exécuter et installer la nouvelle version sur votre poste de travail.
+
+C'est tout, vos fichiers de données utilisateurs (screeners) et votre licence ne sont pas impactés.
 
 ## Vous souhaitez participer
 
