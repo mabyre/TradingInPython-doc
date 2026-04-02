@@ -13,9 +13,10 @@ Une stratégie de trading est un ensemble de règles basées sur des indicateurs
 
 Une stratégie de trading repose sur :
 
-- des indicateurs techniques (moyennes mobiles, volatilité, oscillateurs…)
-- des règles d’entrée et de sortie
-- une logique d’analyse de tendance ou de retournement
+- Des indicateurs techniques (moyennes mobiles, volatilité, oscillateurs…),
+- Des règles d’entrée et de sortie,
+- Une logique d’analyse de tendance ou de retournement,
+- Un ensemble de signaux et de conditions qui contituent un {{ "setup" | g_link }}.
 
 L’objectif est de transformer l’analyse technique des marchés en un processus automatisé, exploitable.
 

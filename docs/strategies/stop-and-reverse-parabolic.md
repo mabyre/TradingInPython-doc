@@ -15,6 +15,10 @@ L’objectif du Parabolic SAR est d’indiquer à la fois :
 - Un niveau de stop progressif, qui se rapproche du prix au fur et à mesure que la tendance avance,
 - Et un signal potentiel de retournement, lorsque les points “changent de côté” (Stop And Reverse).
 
+## Comment tiliser le SAR en trading
+
+- <a href="https://www.trading-et-data-analyses.com/2025/03/indicateur-de-trading-technique-le-sar.html" target="_blank">Indicateur Parabolic SAR : Comprendre et utiliser le SAR en trading</a>
+
 ## Interface graphique
 
 Cet indicateur technique a été développé dans la plateforme pour être utilisé avec les Fractales de Bill Williams donc, c'est sur le même graphique :
@@ -255,11 +259,11 @@ La valeur idéale dépend fortement du contexte spécifique de trading et peut n
 
 Open Software, d'écouvrez les codes source de l'indicateur technique Stop and Reverse Parabolic :
 
-- <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/digitsignalprocessing/indicators.py" target="_blank">Indicateur technique Stop And Reverse Parabolic</a>
+- <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/digitsignalprocessing/indicators.py" target="_blank">Indicateur technique Stop And Reverse Parabolic en Python</a>
 
 Sous la dénomination : {{ "calculate_sar_with_dynamic_af" | keyword }}
 
-## En définitive
+## En pratique
 
 Dans la pratique, avec la plateforme logicielle TradingInPython, vous aurez des indications contextuelles qui vous donneront des valeurs pour ces trois paramètres.
 
