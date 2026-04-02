@@ -78,6 +78,13 @@ Sell Stop: |
 
   La platforme Boursorama ne permet pas de placer des ordres Sell Stop. On placera un ordre à seuil de déclenchement.
 
+Setup: |
+  C'est un ensemble de conditions de marché réunies qui indique une opportunité de trading potentielle.
+
+  Les setups peuvent être basés sur des analyses techniques, des modèles graphiques, des indicateurs ou d'autres critères définis par le trader.
+
+  Un setup bien défini aide les traders à identifier des points d'entrée et de sortie potentiels pour leurs transactions.
+
 Slope: |
   Ce terme est utilisé pour désigner la pente de la droite 'a' dans l'équation: y = a.x + b. 
 
