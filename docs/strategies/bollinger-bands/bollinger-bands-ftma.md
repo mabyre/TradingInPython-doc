@@ -26,6 +26,8 @@ Voici l'interface qui permet de piloter cette stratégie :
 
 Quand les Bandes de Bollinger s'alignent, cela indique généralement une tendance claire. Quand elles se contractent c'est souvent avant un mouvement fort.
 
+La case à cocher {{ "Style" | keywordi }} vous permet de changer les styles du graphe pour passer de "on s'intéresse au Bollinger Bands" à "on met le focus sur les moyennes mobiles support des bandes de Bollinger".
+
 ## Configuration
 
 L'interface de Configuration vous permet de modifier les horizons des Four Times Mobile Average (FTMA), les moyennes mobiles des Bandes de Bollinger.
@@ -47,7 +49,11 @@ Les boutons vous permettent de choisir parmi trois choix différents :
 
 Vous pouvez choisir des valeurs pour chacune des FTA 1, 2, 3, 4 et le bouton {{ "Save" | keywordi }} vous permet de sauver ces valeurs pour l'action en cours.
 
-- {{ "Read" | keywordi }} pour relire les valeurs sauvegardées.
+- {{ "Read" | keywordi }} pour relire les valeurs sauvegardées pour cette action.
+
+Pour passer du mode 4 FTMA au mode Double Bandes de Bollinger en configurant l'interface vous avez le boutons :
+
+- {{ "Doubles Bandes de Bollinger" | keywordi }} n'utiliser que FTA 1 et 2 avec StdDev 1 et 2
 
 ## Comment trader
 
