@@ -62,6 +62,22 @@ Abonnez-vous pour bénéficier automatiquement de toutes les fonctionnalités et
 
 - <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">Abonnez-vous</a>
 
+### Apportez votre contribution
+
+Venez échanger avec nous, participez aux dicussions :
+
+- <a href="https://github.com/SoDevLog/PyTrading/discussions" target="_blank">Discussions</a>
+
+Vous souhaitez nous rapporter un bug un problème :
+
+- <a href="https://github.com/SoDevLog/PyTrading/issues" target="_blank">Bug ou problème</a>
+
+Pour ce faire, vous devrez vous créer un compte {{ "GitHub" | keyword }} mais cela ne prend que quelques secondes :
+
+- <a href="https://github.com/signup" target="_blank">GitHub - Créer un compte</a>
+
+_En contribuant efficacement vous pouvez gagner des jours de licence gratuits._
+
 ## Vous avez une question
 
 Vous avez un souci, une question, voici les questions les plus fréquentes et l'accès au support de la plateforme :
