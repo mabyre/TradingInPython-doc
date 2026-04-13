@@ -1,14 +1,16 @@
-Il existait des scripts d'analyse financière donc d'analyse fondamentale, un accès à l'open data des sociétés côtés en bourse donné par Yahoo Finance mais pas seulement on trouve le moyen d'obtenir des clefs d'API par exemple du côté de la FRED pour obtenir des données économiques que l'on peut par la suite exploiter dans un script python.
+Il existait des scripts d'analyse financière donc d'analyse fondamentale, un accès à l'open data des sociétés côtés en bourse donné par Yahoo Finance mais pas seulement, on trouve le moyen d'obtenir des clefs d'API par exemple du côté de la FRED pour obtenir des données économiques que l'on peut par la suite exploiter dans un script python.
 
-Des exemple de scripts python d'analyse financière :
+Voici des exemples de scripts python d'analyse financière que vous pouvez exécuter avec la plateforme :
 
 - <a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/Z-Integration/yfinance" target="_blank">TradingInPython/Z-Integration/yfinance</a>
 
 Version > 1.8.2
 
-La plateforme permet maintenant d'exécuter ces scripts. L'utilisateur peut maintenant exécuter ces scripts sans [installation](./index.md#téléchargez-le-logiciel-gratuitement) supplémentaire que la plateforme.
+La plateforme permet maintenant d'exécuter ces scripts. L'utilisateur peut maintenant exécuter ces scripts sans [installation](./index.md#téléchargez-le-logiciel-gratuitement) supplémentaire que la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>.
 
 ## Interface d'exécution des scripts python
+
+L'interpréteur de script python est accessible dans le Menu {{"Monitoring"|keyword}} -> {{"Scripts"|keyword}}
 
 C'est une fonctionnalité toute simple :
 
@@ -63,19 +65,21 @@ if __name__ == "__main__":
     main()
 ```
 
-Vous trouverez plein d'exemples dans le répertoire :
+## Exemples de scripts à exécuter
 
-- **C:\Users\{UserName}\AppData\Local\TradingInPython\user_scripts**
+Vous trouverez d'autres scripts à exécuter dans le GitHub de la solution à l'endroit suivant :
 
-Pour vous inspirer.
+- [SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts](https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts)
+
+Pour télécharger un de ces scripts, vous cliquez dessus puis dans les {{"..."|keywordi}}, cliquez sur Download (télécharger).
 
 ## Conclusion
 
 On va dire que cette fonctionnalité est en Beta (c'est à dire encore en test) même si elle fonctionne correctement, il va y avoir des améliorations.
 
-Si vous l'utilisez de façon intensive vous pourrez voir que vous avez accès au code de TradingInPython, certains script font appel à des modules interne de la plateforme. C'est donc une porte ouverte au code déjà écris pour la plateforme et que vous pouvez utiliser.
+Si vous l'utilisez de façon intensive, vous pourrez voir que vous avez accès au code de TradingInPython, certains script font appel à des modules interne de la plateforme. C'est donc une porte ouverte au code déjà écris pour la plateforme et que vous pouvez utiliser.
 
-Il y aura donc une description des modules publiés que vous pourrez utiliser.
+Il y aura donc une description des modules publiés que vous pourrez utiliser et très certainement par la suite une API vous permettant de faire des choses plus complexes.
 
 That's All Folks!
 

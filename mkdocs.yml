@@ -68,7 +68,7 @@ nav:
       - Alertes Canal Graphique: monitor-alerts/alertes-canal-graphique.md
   - Gestionnaire de Portefeuilles: portfolio-manager.md
   - Backtesting: back-testing.md
-  - Interpréteur de Scripts: script-interpreter.md
+  - Interpréteur de Scripts Python: script-interpreter.md
   - Dessiner sur les Graphes:
       - Naviguer dans le graphique: draw-on-charts/navigate-on-charts.md
       - Tracer des tendances: draw-on-charts/draw-trend-lines.md
