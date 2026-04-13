@@ -42,6 +42,17 @@ Le résultat de l'exécution du script se passe dans la console comme vous pouve
 
 Vous pouvez voir dans la console la formule de Greenblatt exécutée pour certaines sociétées des GAFAM et Gartner, Inc. sort avec le meilleur score de 2.0, c'est donc l'action à plus fort potentiel en ce moment selon Greenblatt.
 
+Mais vos scripts peuvent aussi afficher des graphiques. Voici l'analyse de la santé économique de la France par un indice macro-éconmique proche de celui utilisé par l'ISM (Institute for Supply Management) :
+
+<figure style="text-align: center;">
+  <a href="/images/script-interpreter/indice-ism-macro-france.png" class="glightbox" data-gallery="galerie" title="Santé économique de la France">
+    <img src="/images/script-interpreter/indice-ism-macro-france.png" alt="Santé économique de la France"/>
+  </a>
+  <figcaption><em>Santé économique de la France</em></figcaption>
+</figure>
+
+Vous pouvez afficher ce graph grâce au script Python : [indice-fred-france.py](https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/user_scripts/indice-fred-france.py)
+
 ## Votre clef d'API
 
 Pour l'exécution de certains scripts qui vont chercher des données au près des grands sites open data, il faut aller vous enregistrer au près du fournisseur de data afin d'obtenir ce que l'on appel une clef d'API.
