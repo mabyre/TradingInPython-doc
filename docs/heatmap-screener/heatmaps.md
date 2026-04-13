@@ -24,7 +24,7 @@ Dans le menu {{ "Monitoring" | keyword }} choisissez {{ "Performace Heatmap" | k
     <figcaption><em>Menu Monitoring -> Performance heatmap</em></figcaption>
 </figure>
 
-Une Heatmap ou carte de chaleur représente les performances des actions sous forme de couleurs avec des couleurs plus ou moins vertes pour les actions à tendance haussière et plus ou moins rouge pour les actions à tendance baissière.
+Une Heatmap ou carte de chaleur représente les performances des actions sous forme de couleurs avec des couleurs plus ou moins vertes pour les actions à {{"tendance haussière"|green}} et plus ou moins rouge pour les actions à {{"tendance baissière"|red}}.
 
 ## Choisir un fichier
 
@@ -84,7 +84,7 @@ Ces Screeners alertes vous permettent de mettre des dizaines d'actions sous surv
 
 ## Synchronisation avec l'analyse technique
 
-Le côté pratique de la {{ "Carte de Performances" | keyword }}, c'est que vous pouvez, en cliquant sur les carrés d'une stock, synchroniser avec l'action à trader pour afficher le graphe d'une analyse technique.
+Le côté pratique de la {{ "Carte de Performances" | keyword }}, c'est que vous pouvez, en cliquant sur les carrés d'une stock, synchroniser avec l'action à trader pour afficher le graphe d'une analyse technique :
 
 <figure style="text-align: center;">
     <a href="/images/heatmap/synchro-analyse-technique.gif" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">
@@ -99,6 +99,19 @@ Notez deux choses dans cette animation :
 2. Sur la partie droite, dans {{ "Stratégie Automation" | keywordi }} l'action est modifiée quand vous cliquez sur le bouton de la carte.
 
 C'est pratique pour lancer une analyse technique de l'action que vous avez dans votre carte.
+
+## Surveillez les indices des marchés financiers
+
+Déjà, en version > v1.8.1 vous verrez le symbol affiché plutôt que le ticker !
+
+Avec le screener {{"indices.json"|keyword}} vous avez la possibilité de surveiller les indices des marchés :
+
+<figure style="text-align: center;">
+    <a href="/images/heatmap/indices-marchés.png" class="glightbox" data-gallery="galerie" title="Surveiller les indices des marchés">
+        <img src="/images/heatmap/indices-marchés.png" alt="Surveiller les indices des marchés"/>
+    </a>
+    <figcaption><em>Surveiller les indices des marchés</em></figcaption>
+</figure>
 
 ## Vidéo YouTube
 
