@@ -7,12 +7,19 @@ keywords: "trading, technique, stratégie, deep learning, keras, tensorflow"
 
 Découvrez rapidement les grands modules que vous pourrez utiliser avec {{ "TradingInPython" | keyword }}, la plateforme dédiée au trading technique.
 
-La plateforme {{ "TradingInPython" | keyword }} est un ensemble complet de trading avec :
+La plateforme {{ "TradingInPython" | keyword }} est un ensemble complet de trading technique avec :
 
 - des [analyses techniques](#les-strategies-de-trading-technique),
 - des [cartes chaleurs](#cartes-de-chaleur-heatmap-performance) et de performance pour surveiller des marchés,
 - des [alertes techniques](#monitoring-stock-market-alertes) pour mettre les marchés sous surveillance,
 - le [gestionnaire de portefeuille](#votre-gestionnaire-de-portefeuilles) vous donne en temps réel la performance de votre trading.
+
+<figure style="text-align: center;">
+  <a href="/images/tour-rapide.png" class="glightbox" data-gallery="galerie" title="Tableau de bord TradingInPython">
+    <img src="/images/tour-rapide.png" alt="Tableau de bord TradingInPython"/>
+  </a>
+  <figcaption><em>Tableau de bord TradingInPython</em></figcaption>
+</figure>
 
 ## Présentation des stratégies de trading technique
 
