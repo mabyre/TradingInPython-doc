@@ -4,7 +4,11 @@ Maintenant, passons à l'{{ "Intraday" | keyword }}, c'est à dire le trading au
 
 Cette stratégie est accéssible {{ "Menu" | keyword }} {{ "Stratégie" | keywordi }} -> {{ "Intraday STOCH + VWAP ++" | keywordi }}. 
 
-Le "++" est là pour indiquer que vous aurez également à votre disposition, les indicateurs technique {{ "OBV" | i_tooltip }} et {{ "ATR" | i_tooltip }} pour le trading Intraday.
+Le "++" est là pour indiquer que vous aurez également à votre disposition, les indicateurs technique {{ "OBV" | i_link }} et {{ "ATR" | i_link }} pour le trading Intraday.
+
+L'{{"OBV"|keyword}} valide par les volumes la force du mouvement en cours.
+
+L'{{"ATR"|keyword}} mesure la volatilité, c'est à dire l'intérêt des investisseurs pour le mouvement en cours.
 
 ## Interface graphique
 
@@ -38,9 +42,7 @@ Vous avez également le choix des valeurs K% D% et Smooth que vous pouvez sauveg
 
 Si le prix est au dessus du {{ "VWAP" | i_tooltip }} alors il est surestimé et une correction vers le bas pourrait se produire, si au contraire le prix est en dessous, une correction à la hausse pourrait se produire.
 
-Dans cette stratégie vous avez également deux autres indicateurs l'{{ "ATR" | i_link }} et le {{ "OBV" | i_link }}.
-
-## Suivi en temps réel
+## Suivi du cours en temps réel
 
 Dans la fenêtre indicateurs secondaires la case à cocher {{ "AUTO" | keywordi }} (fetch data en mode automatique) vous permet de relancer l'acquisition des données toutes les minutes en fonction de l'échelle de temps choisie.
 
