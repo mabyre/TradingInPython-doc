@@ -184,8 +184,8 @@ MACD ZL: |
 
   - Réactivité accrue pour du swing ou intraday, conserve la logique du MACD classique.
 
-MTF-Z: |
-  **Multi-Timeframes Bollinger Bands Z-score**
+MTF-Z + DAS: |
+  **Multi-Timeframes Bollinger Bands Z-score + DAS**
 
   Cet indicateur technique utilise deux séries de Bandes de Bollinger sur trois horizons (timeframes)  différents. est un oscillateur technique qui mesure la position du prix par rapport à sa moyenne mobile, normalisée par la volatilité via un Z-score issu des Bandes de Bollinger.
 
@@ -196,6 +196,16 @@ MTF-Z: |
   Il identifie la force d'une tendance lorsque les courbes sont alignées (rapide > intermédiaire haussière), 
 
   Il repére les phases de compression (lignes rapprochées) annonçant un mouvement imminent.
+
+  **DAS (Direction Action Strength)**
+
+  Ce sont deux EMA (Exponential Moving Average) une rapide et une lente normalisées par les volumes, dont la différence forme un histogramme mesurant l'accélération du momentum.
+
+  C'est deux indicateurs se complètent pour détecter les signaux d'entrée et de sortie, en confirmant les impulsions fortes (DAS élevé) ou en signalant les retournements via les croisements ou divergences entre le prix et l'histogramme.
+
+  Retrouvez l'article complet sur le MTF-Z et le DAS Comment trader efficacement avec ces indicateurs :
+
+  - <a href="https://www.trading-et-data-analyses.com/2026/03/mtf-z-das-strategy-guide-complet-pour-trader.html" target="_blank">MTF-Z + DAS Strategy : Guide complet pour trader efficacement</a>
 
 OBV: |
   **On-Balance Volume - Volume en Balance**
