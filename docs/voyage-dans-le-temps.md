@@ -187,7 +187,7 @@ Pour terminer, cliquez sur le bouton {{ "Graphique" | keywordi }} et vous obtene
 
 Vous avez placé trop d'annotations pour pouvoir les {{ "Setter" | keyword }} comme dates afni de tracer un graphique. Le message de la fenêtre {{ "Strategy Automation" | keywordi }} vous l'indique.
 
-Placez votre souris sur le graphe concerné et tapez {{ "Ctrl-d" | keywordi }} pour effacer les annotations.
+Placez votre souris sur le graphe concerné et tapez {{ "Ctrl+D" | keywordi }} pour effacer les annotations.
 
 ## Plateforme de trading technique
 

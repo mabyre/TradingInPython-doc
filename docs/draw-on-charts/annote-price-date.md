@@ -28,4 +28,4 @@ Pour supprimer une barre d'annotation {{ "cliquez droit" | keyword }} aux endroi
 
 ## Supprimer toutes les annotations
 
-Pour supprimer toutes les annotation, en ayant votre souris positionnée sur le graphique, tapez {{ "'Ctrl+d'" | keyword }}.
+Pour supprimer toutes les annotation, en ayant votre souris positionnée sur le graphique, tapez **'Ctrl+D'**.
