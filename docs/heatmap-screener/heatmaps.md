@@ -63,7 +63,7 @@ Cliquez sur le bouton {{ "Exécuter" | keywordi }} pour afficher la carte de Per
 
 Pour comprendre les couleurs de la carte, ouvrez la fiche technique de l'action.
 
-Par exemple pour D-Wave Quantum (QBTS), en maintenant la touche {{ "Ctrl+ Clic" | keyword }} sur la Case de couleur de QBTS :
+Par exemple pour D-Wave Quantum (QBTS), en maintenant la touche <kbd>Ctrl</kbd> + <kbd>Clic</kbd> sur la Case de couleur de QBTS :
 
 <figure style="text-align: center;">
     <a href="/images/heatmap/fiche-technique.png" class="glightbox" data-gallery="galerie" title="Fiche technique de l'action">

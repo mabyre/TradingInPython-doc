@@ -231,6 +231,11 @@
       </label>
       <nav class="md-search__options" aria-label="Recherche">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
@@ -1963,8 +1968,8 @@
 <p>Un canal c'est simplement deux lignes entre lesquels le cours du titre va être observé (monitoré) pour savoir s'il le dépasse <span class="text-keyword">"TOUCH"</span> ou le franchit <span class="text-keyword">"BREAK"</span>.</p>
 <h2 id="tracez-un-canal-dalertes">Tracez un canal d'alertes<a class="headerlink" href="#tracez-un-canal-dalertes" title="Permanent link">&para;</a></h2>
 <p>Sur la stratégie de trading technique <a href="../../strategies/bollinger-bands/bollinger-bands-ftma/">Bollinger Bands FTMA</a> vous allez tracer un canal d'alertes.</p>
-<p>Vous tracez la ligne <span class="text-green">UPPER</span> en maintenant la touche <span class="text-keyword">'u'</span> enfoncée et en déplaçant la souris pour tracer votre ligne.</p>
-<p>Vous tracez ensuite la ligne <span class="text-red">LOWER</span> en maintenant la touche <span class="text-keyword">'l'</span> enfoncée et en déplaçant la souris.</p>
+<p>Vous tracez la ligne <span class="text-green">UPPER</span> en maintenant la touche : <kbd>U</kbd> (U comme Upper) enfoncée et en déplaçant la souris pour tracer votre ligne.</p>
+<p>Vous tracez ensuite la ligne <span class="text-red">LOWER</span> en maintenant la touche <kbd>L</kbd> (L comme Lower) enfoncée et en déplaçant la souris.</p>
 <p>Vous devez obtenir le graphique suivant :</p>
 <figure style="text-align: center;">
     <a href="/images/monitor-stock-market/canal-graphique-alertes.png" class="glightbox" data-gallery="galerie" title="Positionnez graphiquement un canal d'alertes">
@@ -1973,13 +1978,13 @@
     <figcaption><em>Positionnez graphiquement un canal d'alertes</em></figcaption>
 </figure>
 
-<p>Cela ne vous convient pas, vous souhaitez recommencer à tracer votre canal, cliquez sur <span class="text-keyword">'Echap'</span> pour effacer le canal en cours de tracé.</p>
-<p>Vous souhaitez supprimer ce canal, tapez sur la touche <span class="text-keyword">'x'</span> pour tout supprimer.</p>
-<p>Une fois le canal tracé, vous pouvez retourner en mode édition par la touche <span class="text-keyword">'s'</span> pour retoucher, déplacer les extrémités des lignes du canal.</p>
+<p>Cela ne vous convient pas, vous souhaitez recommencer à tracer votre canal, cliquez sur : <kbd>Echap</kbd> pour effacer le canal en cours de tracé.</p>
+<p>Vous souhaitez supprimer ce canal, tapez sur la touche : <kbd>X</kbd> pour tout supprimer.</p>
+<p>Une fois le canal tracé, vous pouvez retourner en mode édition par la touche : <kbd>S</kbd> pour retoucher, déplacer les extrémités des lignes du canal.</p>
 <p>Le canal est <span class="text-keyword">sauver automatiquement</span> quand vous avez terminé de le tracer.</p>
 <h2 id="monitorez-votre-canal-dalertes">Monitorez votre canal d'alertes<a class="headerlink" href="#monitorez-votre-canal-dalertes" title="Permanent link">&para;</a></h2>
-<p>Le <span class="text-keyword">Monitor Stock Market</span> recalcule, à chaque tour, les projections des droites du canal pour alerter si le cours s'approche <span class="text-keyword">touche</span> le canal en Haut ou en Bas ou si le cours le cours <span class="text-keyword">casse</span> le canal en Haut ou en Bas.</p>
-<p>Tout se passe comme si à chaque tour vous réajustiez le seuil limite qui se déplacerait le long de la droite <span class="text-green">UPPER</span> et <span class="text-red">LOWER</span>. </p>
+<p>Le <span class="text-keyword">Monitor Stock Market</span> recalcule, à chaque tour, les projections des droites du canal pour alerter si le cours s'approche, <span class="text-keyword">touche</span> le canal en Haut ou en Bas ou si le cours le cours <span class="text-keyword">casse</span> le canal en Haut ou en Bas.</p>
+<p>Tout se passe comme si à chaque tour vous réajustiez le seuil limite qui se déplacerait le long de la droite <span class="text-green">UPPER</span> et <span class="text-red">LOWER</span>.</p>
 <p>Plus besoin de d'ajuster un seuil de prix, si le cours sort du canal, une alerte est déclenchée.</p>
 <p>Retrouvez votre alerte canal dans le <a href="../monitor-stock-market/">Moniteur des marchés financiers</a>.</p>
 <h3 id="interface-de-configuration">Interface de configuration<a class="headerlink" href="#interface-de-configuration" title="Permanent link">&para;</a></h3>
@@ -2151,7 +2156,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["content.icon", "navigation.instant", "navigation.top", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.icon", "navigation.instant", "navigation.top", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>

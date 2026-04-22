@@ -37,7 +37,7 @@ Cliquez sur Ajouter :
     <figcaption><em>Gestion des Stocks - Ajouter une Stock</em></figcaption>
 </figure>
 
-Notez le {{ "Menu:" | keywordi }} avec {{ "autocomplétion" | keyword }}, tapez un seul 'a' et vous avez la liste de tous les menu commençants par un 'a'.
+Notez le {{ "Menu:" | keywordi }} avec {{ "autocomplétion" | keyword }}, tapez un seul <kbd>a</kbd> et vous avez la liste de tous les menu commençants par un <kbd>a</kbd>.
 
 Vous sélectionnez un Menu préexisant par les touches {{ "flêche haut" | keyword }}, {{ "flêche bas" | keyword }} puis {{ "entrer" | keyword }}.
 

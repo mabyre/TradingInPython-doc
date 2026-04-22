@@ -11,9 +11,9 @@ Un canal c'est simplement deux lignes entre lesquels le cours du titre va être 
 
 Sur la stratégie de trading technique [Bollinger Bands FTMA](../strategies/bollinger-bands/bollinger-bands-ftma.md) vous allez tracer un canal d'alertes.
 
-Vous tracez la ligne {{ "UPPER" | green }} en maintenant la touche {{ "'u'" | keyword }} enfoncée et en déplaçant la souris pour tracer votre ligne.
+Vous tracez la ligne {{ "UPPER" | green }} en maintenant la touche : <kbd>U</kbd> (U comme Upper) enfoncée et en déplaçant la souris pour tracer votre ligne.
 
-Vous tracez ensuite la ligne {{ "LOWER" | red }} en maintenant la touche {{ "'l'" | keyword }} enfoncée et en déplaçant la souris.
+Vous tracez ensuite la ligne {{ "LOWER" | red }} en maintenant la touche <kbd>L</kbd> (L comme Lower) enfoncée et en déplaçant la souris.
 
 Vous devez obtenir le graphique suivant :
 
@@ -24,19 +24,19 @@ Vous devez obtenir le graphique suivant :
     <figcaption><em>Positionnez graphiquement un canal d'alertes</em></figcaption>
 </figure>
 
-Cela ne vous convient pas, vous souhaitez recommencer à tracer votre canal, cliquez sur {{ "'Echap'" | keyword }} pour effacer le canal en cours de tracé.
+Cela ne vous convient pas, vous souhaitez recommencer à tracer votre canal, cliquez sur : <kbd>Echap</kbd> pour effacer le canal en cours de tracé.
 
-Vous souhaitez supprimer ce canal, tapez sur la touche {{ "'x'" | keyword }} pour tout supprimer.
+Vous souhaitez supprimer ce canal, tapez sur la touche : <kbd>X</kbd> pour tout supprimer.
 
-Une fois le canal tracé, vous pouvez retourner en mode édition par la touche {{ "'s'" | keyword }} pour retoucher, déplacer les extrémités des lignes du canal.
+Une fois le canal tracé, vous pouvez retourner en mode édition par la touche : <kbd>S</kbd> pour retoucher, déplacer les extrémités des lignes du canal.
 
 Le canal est {{ "sauver automatiquement" | keyword }} quand vous avez terminé de le tracer.
 
 ## Monitorez votre canal d'alertes
 
-Le {{ "Monitor Stock Market" | keyword }} recalcule, à chaque tour, les projections des droites du canal pour alerter si le cours s'approche {{ "touche" | keyword }} le canal en Haut ou en Bas ou si le cours le cours {{ "casse" | keyword }} le canal en Haut ou en Bas.
+Le {{ "Monitor Stock Market" | keyword }} recalcule, à chaque tour, les projections des droites du canal pour alerter si le cours s'approche, {{ "touche" | keyword }} le canal en Haut ou en Bas ou si le cours le cours {{ "casse" | keyword }} le canal en Haut ou en Bas.
 
-Tout se passe comme si à chaque tour vous réajustiez le seuil limite qui se déplacerait le long de la droite {{ "UPPER" | green }} et {{ "LOWER" | red }}. 
+Tout se passe comme si à chaque tour vous réajustiez le seuil limite qui se déplacerait le long de la droite {{ "UPPER" | green }} et {{ "LOWER" | red }}.
 
 Plus besoin de d'ajuster un seuil de prix, si le cours sort du canal, une alerte est déclenchée.
 

@@ -118,7 +118,7 @@ C'est un  peu fastidieux alors ces dates peuvent être choisies graphiquement.
 
 ### Sélectionnez une date dans le passé
 
-Marquez une annotation date en maintenant la touche {{ "d" | keywordi }} et en cliquant sur le graphe. Une barre verticale se déssine avec la date en bas du graphe sur l'axe des abscisses :
+Marquez une annotation date en maintenant la touche <kbd>D</kbd> et en cliquant sur le graphe. Une barre verticale se déssine avec la date en bas du graphe sur l'axe des abscisses :
 
 <figure style="text-align: center;">
     <a href="/images/voyage-dans-le-temps/selecte-une-date.png" class="glightbox" data-gallery="galerie" title="Sélectionnez une date">
@@ -127,7 +127,7 @@ Marquez une annotation date en maintenant la touche {{ "d" | keywordi }} et en c
     <figcaption><em>Sélectionnez une date</em></figcaption>
 </figure>
 
-- {{ "(1)" | red }} Sélectionnez une date avec la touche {{ "d" | keywordi }}
+- {{ "(1)" | red }} Sélectionnez une date avec la touche <kbd>D</kbd>
 
 - {{ "(2)" | red }} Cliquez sur {{ "Set" | keywordi }} pour "setter" la date
 
@@ -157,9 +157,9 @@ Vous positionnez deux annotations et vous cliquez sur le bouton {{ "Set" | keywo
     <figcaption><em>Sélectionnez deux dates</em></figcaption>
 </figure>
 
-- {{ "(1)" | red }} Maintenez la touche {{ "d" | keywordi }} pendant que vous cliquez sur le graphe une première fois.
+- {{ "(1)" | red }} Maintenez la touche <kbd>D</kbd> pendant que vous cliquez sur le graphe une première fois.
 
-- {{ "(2)" | red }} Maintenez la touche {{ "d" | keywordi }} pendant que vous cliquez sur le graphe une deuxième fois
+- {{ "(2)" | red }} Maintenez la touche <kbd>D</kbd> pendant que vous cliquez sur le graphe une deuxième fois
 
 - {{ "(3)" | red }} Cliquez sur le bouton {{ "Set" | keywordi }} :
 
@@ -187,7 +187,7 @@ Pour terminer, cliquez sur le bouton {{ "Graphique" | keywordi }} et vous obtene
 
 Vous avez placé trop d'annotations pour pouvoir les {{ "Setter" | keyword }} comme dates afni de tracer un graphique. Le message de la fenêtre {{ "Strategy Automation" | keywordi }} vous l'indique.
 
-Placez votre souris sur le graphe concerné et tapez {{ "Ctrl+D" | keywordi }} pour effacer les annotations.
+Placez votre souris sur le graphe concerné et tapez les touches : <kbd>Ctrl</kbd>+<kbd>D</kbd> pour effacer les annotations.
 
 ## Plateforme de trading technique
 

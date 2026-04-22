@@ -24,7 +24,7 @@ La deuxième en cliquant sur {{ "CROSS" | keywordi }} annotation en croix, proje
 
 - {{ "(2)" | red }} La barre verticale se poursuit dans les graphes secondaires.
 
-En utilisant la {{ "touche 'v'" | keyword }} comme dans [Annoter les prix et les dates](./annote-price-date.md) vous pouvez marquer les résistances et les supports du cours de l'action.
+En utilisant la touche : <kbd>V</kbd> comme dans [Annoter les prix et les dates](./annote-price-date.md) vous pouvez marquer les résistances et les supports du cours de l'action.
 
 Pour stopper les annotations, {{ "décochez" | keyword }} simplement les cases à cocher.
 

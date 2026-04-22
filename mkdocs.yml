@@ -1,5 +1,7 @@
 site_name: TradingInPython - Plateforme de trading pour l'analyse technique
-site_description: Plateforme open software de trading algorithmique des marchés financiers, stratégies de trading, outils d'analyse technique et ressources pour les traders.
+site_description: Plateforme open software de trading algorithmique des marchés
+  financiers, stratégies de trading, outils d'analyse technique et ressources
+  pour les traders.
 site_author: SoDevLog
 site_url: https://trading-in-python.sodevlog.com/
 use_directory_urls: true
@@ -22,6 +24,8 @@ theme:
     #- navigation.sections
     - navigation.top
     - search.suggest
+    - search.highlight
+    - search.share
     - content.code.copy
     - content.tabs.link
     #- toc.integrate # intègre la table des matières dans la page -> c'est pas joli !!!
@@ -150,5 +154,5 @@ extra:
   social_locale: fr_FR
 
 copyright: >
-  © 2026 <a href="https://www.trading-et-data-analyses.com">Trading et Data Analyses</a> – 
-  <a href="/mentions-legales/">Mentions légales</a>
+  © 2026 <a href="https://www.trading-et-data-analyses.com">Trading et Data
+  Analyses</a> –  <a href="/mentions-legales/">Mentions légales</a>
