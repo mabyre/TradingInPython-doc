@@ -59,6 +59,10 @@ Une fois que vous avez en tête ces différents concepts de l'ICT, voici comment
 
 - <a href="https://www.trading-et-data-analyses.com/2026/01/comment-enchainer-les-concepts-du-trading-smart-money.html" target="_blank">Comment enchaîner les concepts du trading de la Smart Money</a>
 
+Et si vous souhaitez apprendre les concepts de la Smart Money et le tradnig ICT depuis le début :
+
+- <a href="https://www.trading-et-data-analyses.com/p/smart-money-concept-smc-guide-complet.html" target="_blank">Guide complet - Smart Money Concepts ICT</a>
+
 ## Paramètrage des concepts ICT
 
 ### Configuration
