@@ -1039,6 +1039,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#erreur-screener-trop-grand" class="md-nav__link">
+    <span class="md-ellipsis">
+      Erreur screener trop grand
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1221,12 +1230,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../back-testing/" class="md-nav__link">
+      <a href="../../script-interpreter/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Backtesting
+    Interpréteur de Scripts Python
     
   </span>
   
@@ -1243,12 +1252,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../script-interpreter/" class="md-nav__link">
+      <a href="../../back-testing/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Interpréteur de Scripts Python
+    Backtesting
     
   </span>
   
@@ -1933,6 +1942,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#erreur-screener-trop-grand" class="md-nav__link">
+    <span class="md-ellipsis">
+      Erreur screener trop grand
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1957,7 +1975,7 @@
 <p>La Gestion des screeners vous permet de créer, de modifier ou de supprimer ces fichiers.</p>
 <p>Pour configurer un screener, il faut faire une sélection de stocks et la sauvegarder dans le fichier.</p>
 <h2 id="ouvrir-la-gestion-des-screeners">Ouvrir la gestion des screeners<a class="headerlink" href="#ouvrir-la-gestion-des-screeners" title="Permanent link">&para;</a></h2>
-<p>Menu <span class="text-keyword">"Monitoring"</span> article <span class="text-keyword">"Gestion des scrreners"</span>.</p>
+<p>Menu <span class="text-keyword">"Monitoring"</span> article <span class="text-keyword">"Gestion des screeners"</span>.</p>
 <figure style="text-align: center;" title="Création des screeners">
   <img src="/images/heatmap-screener/menu-gestion-screeners.png" alt="" class="noborder"/>
   <figcaption><em>Menu Monitoring -> Gestion des screeners</em></figcaption>
@@ -1996,6 +2014,20 @@
 <p>Vous créez un nouveau screener simplement en changeant le nom du fichier au moment de le sauvegarder.</p>
 <h2 id="utilisez-vos-screener">Utilisez vos screener<a class="headerlink" href="#utilisez-vos-screener" title="Permanent link">&para;</a></h2>
 <p>Un fois vos fichiers de screeners configurés avec les actions que vous souhaitez surveiller, vous pouvez utiliser ces fichiers dans les <a href="../heatmaps/">Cartes de Chaleur</a> et le <a href="../../monitor-alerts/monitor-stock-market/">Monitor Stock Market</a>.</p>
+<h2 id="erreur-screener-trop-grand">Erreur screener trop grand<a class="headerlink" href="#erreur-screener-trop-grand" title="Permanent link">&para;</a></h2>
+<p>Vous avez créé un screener en cochant toutes les <span title="Terme anglais pour 'action', représentant une part du capital d'une entreprise." style="border-bottom:1px dotted;cursor:help"><b>stocks</b></span>, comme par exemple le screener <span class="text-keyword">surveillance_totale.json</span> qui doit comporter aujourd'hui plus d'une centaine d'actions.</p>
+<p>Vous ouvrez le <span class="text-keyword">Monitoring</span> -&gt; <span class="text-keyword">Monitorez le marché</span>. De façon automatique l'application va se lancer dans des tas de calculs sur toutes les stocks du fichier et cela prend trop de temps.</p>
+<p>Seulement voilà, le dernier screener ouvert est enregistré dans les settings (paramètres) donc, même si vous fermez l'application, la fenêtre <span class="text-keyword">Monitorez le marché</span> recommence à s'ouvrir sur le même screener et redémarre ses calculs interminables.</p>
+<p>Pour vous en sortir :</p>
+<ul>
+<li>Fermez l'application en fermant la Console (fenêtre noire) toutes les fenêtres se ferment.</li>
+<li>Ouvrez, non plus <span class="text-keyword">Monitoring</span> -&gt; <span class="text-keyword">Monitorez le marché</span> mais <span class="text-keyword">Monitoring</span> -&gt; <span class="text-keyword">Cartes de chaleur</span>.</li>
+</ul>
+<p>Cette fois les calculs de la fenêtre ne sont pas lancés automtiquement, vous avez la possiblité de modifier le screener en cliquant sur <span class="text-keyword">"Ouvrir"</span> et en choisissant un fichier de screener que vous savez être "calculable" (comportant moins de stocks).</p>
+<ul>
+<li>Fermez la fenêtre <span class="text-keyword">Cartes de chaleur</span></li>
+<li>Ouvrez la fenêtre <span class="text-keyword">Monitorez le marché</span>, elle s'ouvre maintenant avec le nouveau screener "calculable".</li>
+</ul>
 
 
 

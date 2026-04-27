@@ -4,6 +4,10 @@ Voici des exemples de scripts python d'analyse financière que vous pouvez exéc
 
 - <a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/Z-Integration/yfinance" target="_blank">TradingInPython/Z-Integration/yfinance</a>
 
+Les scripts utilisateurs livrés avec l'installation de votre logiciel, sont également ici :
+
+- <a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts" target="_blank">TradingInPython/_internal/user_scripts</a>
+
 Version > 1.8.2
 
 La plateforme permet maintenant d'exécuter ces scripts. L'utilisateur peut maintenant exécuter ces scripts sans [installation](./index.md#téléchargez-le-logiciel-gratuitement) supplémentaire que la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>.
