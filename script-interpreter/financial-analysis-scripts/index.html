@@ -6,34 +6,34 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Découvrez comment créer votre routine de trading">
+        <meta name="description" content="Plateforme open software de trading algorithmique des marchés financiers, stratégies de trading, outils d'analyse technique et ressources pour les traders.">
       
       
         <meta name="author" content="SoDevLog">
       
       
-        <link rel="canonical" href="https://trading-in-python.sodevlog.com/trading-routine/">
+        <link rel="canonical" href="https://trading-in-python.sodevlog.com/script-interpreter/financial-analysis-scripts/">
       
       
-        <link rel="prev" href="../tour-rapide/">
+        <link rel="prev" href="../interface/">
       
       
-        <link rel="next" href="../recuperation-des-data/">
+        <link rel="next" href="../../back-testing/">
       
       
-      <link rel="icon" href="../images/favicon.png">
+      <link rel="icon" href="../../images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
-        <title>Routine de Trading - TradingInPython - Plateforme de trading pour l'analyse technique</title>
+        <title>Scripts d'analyse financière - TradingInPython - Plateforme de trading pour l'analyse technique</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,17 +52,17 @@
       
     
     
-      <link rel="stylesheet" href="../css/timeago.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-      <link rel="stylesheet" href="../css/glightbox.min.css">
+      <link rel="stylesheet" href="../../css/glightbox.min.css">
     
-      <link rel="stylesheet" href="../css/extra.css">
+      <link rel="stylesheet" href="../../css/extra.css">
     
-      <link rel="stylesheet" href="../css/summary.css">
+      <link rel="stylesheet" href="../../css/summary.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -112,25 +112,21 @@
 
 
 
-<meta name="keywords" content="trading, technique, routine">
-
-
-
 
 
 
 
 <meta property="og:locale" content="fr_FR">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Routine de Trading - TradingInPython - Plateforme de trading pour l&#39;analyse technique">
+<meta property="og:title" content="Scripts d&#39;analyse financière - TradingInPython - Plateforme de trading pour l&#39;analyse technique">
 <meta property="og:site_name" content="TradingInPython - Plateforme de trading pour l&#39;analyse technique">
 
 
-<meta property="og:description" content="Découvrez comment créer votre routine de trading">
+<meta property="og:description" content="Plateforme open software de trading algorithmique des marchés financiers, stratégies de trading, outils d&#39;analyse technique et ressources pour les traders.">
 
 
 
-<meta property="og:url" content="https://trading-in-python.sodevlog.com/trading-routine/">
+<meta property="og:url" content="https://trading-in-python.sodevlog.com/script-interpreter/financial-analysis-scripts/">
 
 
 
@@ -138,10 +134,10 @@
 
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Routine de Trading - TradingInPython - Plateforme de trading pour l&#39;analyse technique">
+<meta name="twitter:title" content="Scripts d&#39;analyse financière - TradingInPython - Plateforme de trading pour l&#39;analyse technique">
 
 
-<meta name="twitter:description" content="Découvrez comment créer votre routine de trading">
+<meta name="twitter:description" content="Plateforme open software de trading algorithmique des marchés financiers, stratégies de trading, outils d&#39;analyse technique et ressources pour les traders.">
 
 
 
@@ -164,7 +160,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#votre-routine-de-trading-au-quotidien" class="md-skip">
+        <a href="#comment-utiliser-les-scripts-danalyse-financiere" class="md-skip">
           Aller au contenu
         </a>
       
@@ -180,7 +176,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href=".." title="TradingInPython - Plateforme de trading pour l&#39;analyse technique" class="md-header__button md-logo" aria-label="TradingInPython - Plateforme de trading pour l'analyse technique" data-md-component="logo">
+    <a href="../.." title="TradingInPython - Plateforme de trading pour l&#39;analyse technique" class="md-header__button md-logo" aria-label="TradingInPython - Plateforme de trading pour l'analyse technique" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -200,7 +196,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Routine de Trading
+              Scripts d'analyse financière
             
           </span>
         </div>
@@ -297,7 +293,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="TradingInPython - Plateforme de trading pour l&#39;analyse technique" class="md-nav__button md-logo" aria-label="TradingInPython - Plateforme de trading pour l'analyse technique" data-md-component="logo">
+    <a href="../.." title="TradingInPython - Plateforme de trading pour l&#39;analyse technique" class="md-nav__button md-logo" aria-label="TradingInPython - Plateforme de trading pour l'analyse technique" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg>
@@ -327,7 +323,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -349,7 +345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tour-rapide/" class="md-nav__link">
+      <a href="../../tour-rapide/" class="md-nav__link">
         
   
   
@@ -368,32 +364,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Routine de Trading
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../trading-routine/" class="md-nav__link">
         
   
   
@@ -404,116 +378,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#premiere-analyse-avec-ichimoku-kinko-hyo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Première analyse avec Ichimoku Kinko Hyo
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#double-bandes-de-bollinger" class="md-nav__link">
-    <span class="md-ellipsis">
-      Double Bandes de Bollinger
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#analyse-de-la-pression-du-flux-volumique" class="md-nav__link">
-    <span class="md-ellipsis">
-      Analyse de la pression du flux volumique
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#moyennes-mobiles-12e" class="md-nav__link">
-    <span class="md-ellipsis">
-      Moyennes Mobiles 1/2/E
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fractales-de-bill-williams-sar" class="md-nav__link">
-    <span class="md-ellipsis">
-      Fractales de Bill Williams + SAR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#stop-and-reverse-parabolic" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stop And Reverse parabolic
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#strategie-intraday-vwap-stoch" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stratégie Intraday VWAP + STOCH
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gator-alligator-de-bill-williams" class="md-nav__link">
-    <span class="md-ellipsis">
-      Gator Alligator de Bill Williams
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trading-de-la-smart-money-concept-ict" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trading de la Smart Money Concept ICT
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -525,7 +389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../recuperation-des-data/" class="md-nav__link">
+      <a href="../../recuperation-des-data/" class="md-nav__link">
         
   
   
@@ -547,7 +411,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../voyage-dans-le-temps/" class="md-nav__link">
+      <a href="../../voyage-dans-le-temps/" class="md-nav__link">
         
   
   
@@ -569,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../gestion-liste-actions/" class="md-nav__link">
+      <a href="../../gestion-liste-actions/" class="md-nav__link">
         
   
   
@@ -629,7 +493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/" class="md-nav__link">
+      <a href="../../strategies/" class="md-nav__link">
         
   
   
@@ -652,7 +516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/ichimoku-kinko-hyo/" class="md-nav__link">
+      <a href="../../strategies/ichimoku-kinko-hyo/" class="md-nav__link">
         
   
   
@@ -675,7 +539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/moyennes-mobiles/" class="md-nav__link">
+      <a href="../../strategies/moyennes-mobiles/" class="md-nav__link">
         
   
   
@@ -698,7 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/analyse-pression-volumique/" class="md-nav__link">
+      <a href="../../strategies/analyse-pression-volumique/" class="md-nav__link">
         
   
   
@@ -759,7 +623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/bollinger-bands/" class="md-nav__link">
+      <a href="../../strategies/bollinger-bands/" class="md-nav__link">
         
   
   
@@ -782,7 +646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/bollinger-bands/bollinger-bands-ftma/" class="md-nav__link">
+      <a href="../../strategies/bollinger-bands/bollinger-bands-ftma/" class="md-nav__link">
         
   
   
@@ -805,7 +669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/bollinger-bands/bollinger-bands-ftma-trading/" class="md-nav__link">
+      <a href="../../strategies/bollinger-bands/bollinger-bands-ftma-trading/" class="md-nav__link">
         
   
   
@@ -828,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/bollinger-bands/bollinger-bands-double/" class="md-nav__link">
+      <a href="../../strategies/bollinger-bands/bollinger-bands-double/" class="md-nav__link">
         
   
   
@@ -851,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/bollinger-bands/bollinger-bands-ftma-histogramme/" class="md-nav__link">
+      <a href="../../strategies/bollinger-bands/bollinger-bands-ftma-histogramme/" class="md-nav__link">
         
   
   
@@ -882,7 +746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/intraday-vwap-stoch/" class="md-nav__link">
+      <a href="../../strategies/intraday-vwap-stoch/" class="md-nav__link">
         
   
   
@@ -905,7 +769,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/stop-and-reverse-parabolic/" class="md-nav__link">
+      <a href="../../strategies/stop-and-reverse-parabolic/" class="md-nav__link">
         
   
   
@@ -928,7 +792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/fractales-bill-williams/" class="md-nav__link">
+      <a href="../../strategies/fractales-bill-williams/" class="md-nav__link">
         
   
   
@@ -951,7 +815,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/gator-alligator/" class="md-nav__link">
+      <a href="../../strategies/gator-alligator/" class="md-nav__link">
         
   
   
@@ -974,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/kalman-filter/" class="md-nav__link">
+      <a href="../../strategies/kalman-filter/" class="md-nav__link">
         
   
   
@@ -997,7 +861,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/prediction-keras-ai/" class="md-nav__link">
+      <a href="../../strategies/prediction-keras-ai/" class="md-nav__link">
         
   
   
@@ -1020,7 +884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../strategies/smart-money-concept/" class="md-nav__link">
+      <a href="../../strategies/smart-money-concept/" class="md-nav__link">
         
   
   
@@ -1088,7 +952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../heatmap-screener/screeners/" class="md-nav__link">
+      <a href="../../heatmap-screener/screeners/" class="md-nav__link">
         
   
   
@@ -1111,7 +975,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../heatmap-screener/heatmaps/" class="md-nav__link">
+      <a href="../../heatmap-screener/heatmaps/" class="md-nav__link">
         
   
   
@@ -1179,7 +1043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-alerts/monitor-stock-market/" class="md-nav__link">
+      <a href="../../monitor-alerts/monitor-stock-market/" class="md-nav__link">
         
   
   
@@ -1202,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-alerts/alertes-trading-techniques/" class="md-nav__link">
+      <a href="../../monitor-alerts/alertes-trading-techniques/" class="md-nav__link">
         
   
   
@@ -1225,7 +1089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../monitor-alerts/alertes-canal-graphique/" class="md-nav__link">
+      <a href="../../monitor-alerts/alertes-canal-graphique/" class="md-nav__link">
         
   
   
@@ -1255,7 +1119,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../portfolio-manager/" class="md-nav__link">
+      <a href="../../portfolio-manager/" class="md-nav__link">
         
   
   
@@ -1274,18 +1138,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" checked>
         
           
           <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
@@ -1301,7 +1167,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_11">
             <span class="md-nav__icon md-icon"></span>
             Interpréteur de Scripts Python
@@ -1315,7 +1181,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../script-interpreter/interface/" class="md-nav__link">
+      <a href="../interface/" class="md-nav__link">
         
   
   
@@ -1335,10 +1201,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../script-interpreter/financial-analysis-scripts/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Scripts d'analyse financière
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1349,6 +1235,60 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#comment-utiliser-les-scripts-danalyse-financiere" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comment utiliser les scripts d'analyse financière
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultat-de-lexecution-du-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Résultat de l'exécution du script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#votre-clef-dapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Votre clef d'API
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemples-de-scripts-a-executer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemples de scripts à exécuter
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1368,7 +1308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../back-testing/" class="md-nav__link">
+      <a href="../../back-testing/" class="md-nav__link">
         
   
   
@@ -1428,7 +1368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/navigate-on-charts/" class="md-nav__link">
+      <a href="../../draw-on-charts/navigate-on-charts/" class="md-nav__link">
         
   
   
@@ -1451,7 +1391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/draw-trend-lines/" class="md-nav__link">
+      <a href="../../draw-on-charts/draw-trend-lines/" class="md-nav__link">
         
   
   
@@ -1474,7 +1414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/annote-price-date/" class="md-nav__link">
+      <a href="../../draw-on-charts/annote-price-date/" class="md-nav__link">
         
   
   
@@ -1497,7 +1437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../draw-on-charts/annotate-charts/" class="md-nav__link">
+      <a href="../../draw-on-charts/annotate-charts/" class="md-nav__link">
         
   
   
@@ -1565,7 +1505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/ui-configuration/" class="md-nav__link">
+      <a href="../../interface-configuration/ui-configuration/" class="md-nav__link">
         
   
   
@@ -1588,7 +1528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/windows-management/" class="md-nav__link">
+      <a href="../../interface-configuration/windows-management/" class="md-nav__link">
         
   
   
@@ -1611,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/dark-mode/" class="md-nav__link">
+      <a href="../../interface-configuration/dark-mode/" class="md-nav__link">
         
   
   
@@ -1634,7 +1574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../interface-configuration/console-bottom-right/" class="md-nav__link">
+      <a href="../../interface-configuration/console-bottom-right/" class="md-nav__link">
         
   
   
@@ -1664,7 +1604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../open-software/" class="md-nav__link">
+      <a href="../../open-software/" class="md-nav__link">
         
   
   
@@ -1724,7 +1664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/images/" class="md-nav__link">
+      <a href="../../tests/images/" class="md-nav__link">
         
   
   
@@ -1747,7 +1687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/titres/" class="md-nav__link">
+      <a href="../../tests/titres/" class="md-nav__link">
         
   
   
@@ -1770,7 +1710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/notes/" class="md-nav__link">
+      <a href="../../tests/notes/" class="md-nav__link">
         
   
   
@@ -1793,7 +1733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/colors/" class="md-nav__link">
+      <a href="../../tests/colors/" class="md-nav__link">
         
   
   
@@ -1816,7 +1756,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/syntaxe/" class="md-nav__link">
+      <a href="../../tests/syntaxe/" class="md-nav__link">
         
   
   
@@ -1839,7 +1779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/glossaire/" class="md-nav__link">
+      <a href="../../tests/glossaire/" class="md-nav__link">
         
   
   
@@ -1862,7 +1802,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/tooltips/" class="md-nav__link">
+      <a href="../../tests/tooltips/" class="md-nav__link">
         
   
   
@@ -1885,7 +1825,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tests/material/" class="md-nav__link">
+      <a href="../../tests/material/" class="md-nav__link">
         
   
   
@@ -1915,7 +1855,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../indicators/" class="md-nav__link">
+      <a href="../../indicators/" class="md-nav__link">
         
   
   
@@ -1937,7 +1877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../glossaire/" class="md-nav__link">
+      <a href="../../glossaire/" class="md-nav__link">
         
   
   
@@ -1959,7 +1899,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../support-faq/" class="md-nav__link">
+      <a href="../../support-faq/" class="md-nav__link">
         
   
   
@@ -1981,7 +1921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mentions-legales/" class="md-nav__link">
+      <a href="../../mentions-legales/" class="md-nav__link">
         
   
   
@@ -2013,8 +1953,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2023,90 +1961,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#premiere-analyse-avec-ichimoku-kinko-hyo" class="md-nav__link">
+  <a href="#comment-utiliser-les-scripts-danalyse-financiere" class="md-nav__link">
     <span class="md-ellipsis">
-      Première analyse avec Ichimoku Kinko Hyo
+      Comment utiliser les scripts d'analyse financière
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#double-bandes-de-bollinger" class="md-nav__link">
+  <a href="#resultat-de-lexecution-du-script" class="md-nav__link">
     <span class="md-ellipsis">
-      Double Bandes de Bollinger
+      Résultat de l'exécution du script
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#analyse-de-la-pression-du-flux-volumique" class="md-nav__link">
+  <a href="#votre-clef-dapi" class="md-nav__link">
     <span class="md-ellipsis">
-      Analyse de la pression du flux volumique
+      Votre clef d'API
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#moyennes-mobiles-12e" class="md-nav__link">
+  <a href="#exemples-de-scripts-a-executer" class="md-nav__link">
     <span class="md-ellipsis">
-      Moyennes Mobiles 1/2/E
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fractales-de-bill-williams-sar" class="md-nav__link">
-    <span class="md-ellipsis">
-      Fractales de Bill Williams + SAR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#stop-and-reverse-parabolic" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stop And Reverse parabolic
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#strategie-intraday-vwap-stoch" class="md-nav__link">
-    <span class="md-ellipsis">
-      Stratégie Intraday VWAP + STOCH
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gator-alligator-de-bill-williams" class="md-nav__link">
-    <span class="md-ellipsis">
-      Gator Alligator de Bill Williams
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trading-de-la-smart-money-concept-ict" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trading de la Smart Money Concept ICT
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
+      Exemples de scripts à exécuter
     </span>
   </a>
   
@@ -2131,168 +2015,55 @@
   
 
 
-<h1 id="votre-routine-de-trading-au-quotidien">Votre routine de trading au quotidien<a class="headerlink" href="#votre-routine-de-trading-au-quotidien" title="Permanent link">&para;</a></h1>
-<p>Nous allons aborder rapidement chacune des stratégies de la plateforme et leur mise en oeuvre dans l'ensemble global qu'est la <span class="text-keyword">routine de trading</span>.</p>
-<p>Avoir une routine bien rodée, c'est la clef d'un bon trader. Pour trader correctement et avoir une <span class="text-keyword">chance de gagner</span>, vous devez avoir une démarche proactive et régulière vis à vis des marchés.</p>
-<p>Voici une routine de trading que vous pouvez suivre en <a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">vous abonnant à la plateforme TradingInPython</a>.</p>
-<p>Vous <a href="../recuperation-des-data/">choisissez une actions</a> que vous souhaitez analyser.</p>
-<p>Vous choisissez l'<a href="../recuperation-des-data/#choisir-lintervalle-et-la-periode">intervalle et la période de temps</a> de votre analyse, pour une première analyse choisissez une échelle grande de temps Interval: <code>1d</code> un jour et analysez sur les 6 dernier mois Period: <code>6mo</code> ou encore mieux avec une échelle de temps <code>1w</code> et la période à <code>max</code> (weekly max).</p>
-<p>Vous avez maintenant le choix entre toutes les stratégies proposées par la Plateforme :</p>
+  <h1>Scripts d'analyse financière</h1>
+
+<p>Il existait des scripts d'analyse financière donc d'analyse fondamentale, un accès à l'open data des sociétés côtés en bourse donné par Yahoo Finance mais pas seulement, on trouve le moyen d'obtenir des clefs d'API par exemple du côté de la FRED pour obtenir des données économiques que l'on peut par la suite exploiter dans un script python.</p>
+<p>Voici des exemples de scripts python d'analyse financière que vous pouvez exécuter avec la plateforme :</p>
+<ul>
+<li><a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/Z-Integration/yfinance" target="_blank">TradingInPython/Z-Integration/yfinance</a></li>
+</ul>
+<p>Les scripts utilisateurs livrés avec l'installation de votre logiciel, sont également ici :</p>
+<ul>
+<li><a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts" target="_blank">TradingInPython/_internal/user_scripts</a></li>
+</ul>
+<p>Version &gt; 1.8.2</p>
+<p>La plateforme permet maintenant d'exécuter ces scripts. L'utilisateur peut maintenant exécuter ces scripts sans <a href="../../#téléchargez-le-logiciel-gratuitement">installation</a> supplémentaire que la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>.</p>
+<h2 id="comment-utiliser-les-scripts-danalyse-financiere">Comment utiliser les scripts d'analyse financière<a class="headerlink" href="#comment-utiliser-les-scripts-danalyse-financiere" title="Permanent link">&para;</a></h2>
+<p>Rendez-vous dans la partie <a href="../interface/">Comment utiliser l'interpréteur de scripts</a> pour apprendre comment utiliser les scripts utilisateurs.</p>
+<p>Vous retrouvez ces scripts <a href="../../#téléchargez-le-logiciel-gratuitement">installés</a> sur votre machine à l'endroit suivant sur votre disque dur :</p>
+<ul>
+<li><strong>C:\Users{UserName}\AppData\Local\TradingInPython\user_scripts</strong></li>
+</ul>
+<h2 id="resultat-de-lexecution-du-script">Résultat de l'exécution du script<a class="headerlink" href="#resultat-de-lexecution-du-script" title="Permanent link">&para;</a></h2>
+<p>Le résultat de l'exécution du script se passe dans la console comme vous pouvez le voir ici avec l'exécution du script <span class="text-keyword">greenblatt-000.py</span> :</p>
 <figure style="text-align: center;">
-    <a href="/images/strategies/strategies.png" class="glightbox" data-gallery="galerie" title="Choix de la Stratégie pour l'analyse des données">
-        <img src="/images/strategies/strategies.png" alt="Choix de la Stratégie pour l'analyse des données"/>
-    </a>
-    <figcaption><em>Choix de la Stratégie pour l'analyse des données</em></figcaption>
+  <a href="/images/script-interpreter/execution-greenblatt.png" class="glightbox" data-gallery="galerie" title="Exécution du script de la formule de Greenblatt">
+    <img src="/images/script-interpreter/execution-greenblatt.png" alt="Script runner"/>
+  </a>
+  <figcaption><em>Exécution du script de la formule de Greenblatt</em></figcaption>
 </figure>
 
-<p>Les stratégies de trading technique de la plateforme sont là pour déterminer la tendance, faire des entrées et des sorties propres et placer vos <span title="Ordre de vente automatique placé pour limiter les pertes sur une position ouverte." style="border-bottom:1px dotted;cursor:help"><b>Stoploss</b></span>.</p>
-<h2 id="premiere-analyse-avec-ichimoku-kinko-hyo">Première analyse avec Ichimoku Kinko Hyo<a class="headerlink" href="#premiere-analyse-avec-ichimoku-kinko-hyo" title="Permanent link">&para;</a></h2>
-<p>Disons que si vous souhaitez <span class="text-keyword">faire une première analyse</span> de l'action que vous venez de trouver, pour dégager des tendances globales, l' <span class="text-keyword">Ichimoku Kinko Hyo</span> est une stratégie idéale pour dégager de grandes tendances fortes :</p>
+<p>Vous pouvez voir dans la console la formule de Greenblatt exécutée pour certaines sociétées des GAFAM et Gartner, Inc. sort avec le meilleur score de 2.0, c'est donc l'action à plus fort potentiel en ce moment selon Greenblatt.</p>
+<p>Mais vos scripts peuvent aussi afficher des graphiques. Voici l'analyse de la santé économique de la France par un indice macro-éconmique proche de celui utilisé par l'ISM (Institute for Supply Management) :</p>
 <figure style="text-align: center;">
-    <a href="/images/strategies/ichimoku/routine.png" class="glightbox" data-gallery="galerie"  title="Stratégie de l'Ichoku Kinko Hyo">
-        <img src="/images/strategies/ichimoku/routine.png" alt="Stratégie de l'Ichoku Kinko Hyo"/>
-    </a>
-    <figcaption><em>Stratégie de l'Ichoku Kinko Hyo</em></figcaption>
+  <a href="/images/script-interpreter/indice-ism-macro-france.png" class="glightbox" data-gallery="galerie" title="Santé économique de la France">
+    <img src="/images/script-interpreter/indice-ism-macro-france.png" alt="Santé économique de la France"/>
+  </a>
+  <figcaption><em>Santé économique de la France</em></figcaption>
 </figure>
 
-<p>Cette stratégie est à utiliser sur de grandes échelles de temps comme weekly max.</p>
-<p>Vous trouverez de la formation et des exemples sur cette stratégie sur ce site :</p>
+<p>Vous pouvez afficher ce graph grâce au script Python : <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/user_scripts/indice-fred-france.py">indice-fred-france.py</a></p>
+<h2 id="votre-clef-dapi">Votre clef d'API<a class="headerlink" href="#votre-clef-dapi" title="Permanent link">&para;</a></h2>
+<p>Pour l'exécution de certains scripts qui vont chercher des données au près des grands sites open data, il faut aller vous enregistrer au près du fournisseur de data afin d'obtenir ce que l'on appel une clef d'API.</p>
+<p>Une fois cette clef récupérée vous devez la copier à la place de <span class="text-keyword">YOUR_API_KEY_HERE</span> dans le script.</p>
+<h2 id="exemples-de-scripts-a-executer">Exemples de scripts à exécuter<a class="headerlink" href="#exemples-de-scripts-a-executer" title="Permanent link">&para;</a></h2>
+<p>Vous trouverez d'autres scripts à exécuter dans le GitHub de la solution à l'endroit suivant :</p>
 <ul>
-<li><a href="../strategies/ichimoku-kinko-hyo/">Découvrir : Ichimoku-Kinko-Hyo</a></li>
+<li><a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts">SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts</a></li>
 </ul>
-<h2 id="double-bandes-de-bollinger">Double Bandes de Bollinger<a class="headerlink" href="#double-bandes-de-bollinger" title="Permanent link">&para;</a></h2>
-<p>C'est une stratégie également comme l'Ichimoku extrêmement graphique pour vous permettre d'affiner votre sentiment de trading et commencer à envisager une entrée (achat).</p>
-<p>Les Doubles Bandes de Bollinger sont un moyen puissant d'obtenir des entrées et des sorties claires :</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/bollinger-bands/double-bandes-bollinger.png" class="glightbox" data-gallery="galerie"  title="Doubles Bandes de Bollinger">
-        <img src="/images/strategies/bollinger-bands/double-bandes-bollinger.png" alt="Doubles Bandes de Bollinger"/>
-    </a>
-    <figcaption><em>Doubles Bandes de Bollinger</em></figcaption>
-</figure>
-
-<p>Exemple :</p>
-<ul>
-<li>Signaux d'entrée (achat) lorsque le prix sort de la bande de Bollinger 1 σ et 2 σ</li>
-<li>Signaux de sortie (vente) lorsque le prix touche la Moyenne Mobile</li>
-</ul>
-<p>Ces signaux sont clairs en tendance haussière uniquement.</p>
-<ul>
-<li><a href="../strategies/bollinger-bands/bollinger-bands-double/">Découvrir : Double Bandes de Bollinger</a></li>
-</ul>
-<h2 id="analyse-de-la-pression-du-flux-volumique">Analyse de la pression du flux volumique<a class="headerlink" href="#analyse-de-la-pression-du-flux-volumique" title="Permanent link">&para;</a></h2>
-<p>Après une analyse globale et rapide du titre grâce à l'<a href="../strategies/ichimoku-kinko-hyo/">Ichimoku Kinko Hyo</a>, vous souhaitez peaufiner votre analyse par exemple en découvrant si en ce moment les <span class="text-keyword">acheteurs sont à la manœuvre</span> ou si ce sont plutôt les <span class="text-keyword">vendeurs qui manœuvrent</span>.</p>
-<p>L'analyse des flux volumiques par la stratégie <span class="text-keyword">Volume Buy/Sell</span> est idéale pour ce genre d'analyse.</p>
-<p>C'est une stratégie exclusive sur la plateforme <span class="text-keyword">TradingInPython</span> et que vous ne trouverez pas sur d'autres plateformes.</p>
-<p>En vous abonnant vous aurez accès à la formation complète sur cette stratégie.</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/volume-pression/nvidia.png" class="glightbox" data-gallery="galerie" title="Analyse des flux volumiques d'achats et de vente">
-        <img src="/images/strategies/volume-pression/nvidia.png" alt="alt" />
-    </a>
-    <figcaption><em>Analyse des flux volumiques d'achats et de vente</em></figcaption>
-</figure>
-
-<p>Ici la pression de vente qui s'exerce sur LEGRAND est de 0.53 %. La pression du flux volumique est à la vente mais le prix monte c'est probablement le moment d'entrer en position.</p>
-<ul>
-<li><a href="../strategies/analyse-pression-volumique/">Découvrir : l'Analyse de la pression volumique</a></li>
-<li><a href="../strategies/analyse-pression-volumique/#video-youtube">Vidéo de démo - Analyse de la pression volumique</a></li>
-</ul>
-<p>Maintenant si vous décidez d'entrer ou de sortir de position, les deux stratégies <span class="text-keyword">Moyennes Mobiles 1/2/E</span> et les <span class="text-keyword">Fractales Bill Williams</span> sont indiquées pour lire dans les signaux automatiques d'achat et de vente. Là encore vous trouverez de la formation et des exemples sur ce site et ailleurs.</p>
-<h2 id="moyennes-mobiles-12e">Moyennes Mobiles 1/2/E<a class="headerlink" href="#moyennes-mobiles-12e" title="Permanent link">&para;</a></h2>
-<p>C'est la fameuse stratégie automatique par les deux moyennes mobiles et la moyenne exponentielle. Cette stratégie est certainement à utiliser au début de la découverte d'une nouvelle action pour calculer son <span title="Désigne la fourchette entre le prix d'achat (offre/bid) pour entrer sur le marché et le prix de vente (demande/ask) pour sortir de position sur le marché d'une action." style="border-bottom:1px dotted;cursor:help"><b>Spread</b></span>.</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/moyennes-mobiles/interface.png" class="glightbox" data-gallery="galerie" title="Analyse des flux volumiques d'achats et de vente">
-        <img src="/images/strategies/moyennes-mobiles/interface.png" alt="alt" />
-    </a>
-    <figcaption><em>Analyse des flux volumiques d'achats et de vente</em></figcaption>
-</figure>
-
-<p>Lorsque la moyenne mobile <span class="text-keyword">Moyenne Mobile courte</span> passe au dessous de <span class="text-keyword">Moyenne Mobile longue</span> et que l'exponentielle est au dessus des deux moyennes mobiles c'est un signal d'achat <span class="text-green">(triangle vert)</span> une tendance haussière débute.</p>
-<p>Inversement, lorsque  <span class="text-keyword">Moyenne Mobile courte</span> passe en dessous <span class="text-keyword">Moyenne Mobile longue</span> et que l'exponentielle est en dessous de ma1 et ma2 c'est un signal de vente <span class="text-red">(triangle rouge)</span> une tendance baissière débute.</p>
-<p>L'intérêt de cette stratégie c'est qu'elle permet de calculer la rentabilité d'une action, le <span class="text-keyword">Spread</span> qui est ici pour DASSAULT AVIATION est de 126,50. Cela signifie que si vous aviez suivi tous les signaux d'achat et de vente de cette stratégie, vous auriez gagné le Spread.</p>
-<p>Le <span class="text-keyword">Spread</span> est un indicateur intéressant car il permet de se rendre compte du rendement de l'action, il est en général, peu intéressant de trader des actions avec peu de Spread.</p>
-<ul>
-<li><a href="../strategies/moyennes-mobiles/">Découvrir : Stratégie des Moyennes Mobiles</a></li>
-</ul>
-<h2 id="fractales-de-bill-williams-sar">Fractales de Bill Williams + SAR<a class="headerlink" href="#fractales-de-bill-williams-sar" title="Permanent link">&para;</a></h2>
-<p>C'est une stratégie simple parce qu'elle regarde les plus hauts et les plus bas mais sont interprétation est complexe et passe par la compréhension des <span title="Un breakout (cassure) est un mouvement de prix où l'actif sort d'une zone clé." style="border-bottom:1px dotted;cursor:help"><b>breakout</b></span> et des <span title="Un pullback (retour sur cassure) est un mouvement où, après un breakout :" style="border-bottom:1px dotted;cursor:help"><b>pullback</b></span></p>
-<p>Les sommets indiqués en rouge indiquent un possible retournement baissier. Les ceux indiqués en vert indiquent un possible retournement haussier.</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/fractale-bill-williams/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie des Fractales de Bill Williams">
-        <img src="/images/strategies/fractale-bill-williams/routine.png" alt="Copie d'écran" />
-    </a>
-    <figcaption><em>Stratégie des Fractales de Bill Williams</em></figcaption>
-</figure>
-
-<p>Utilisé avec la <span class="text-keyword">Gator Alligator</span> cette routine peut devenir un système de trading complet.</p>
-<ul>
-<li><a href="../strategies/fractales-bill-williams/">Découvrir : Fractales de Bill Williams</a></li>
-</ul>
-<h2 id="stop-and-reverse-parabolic">Stop And Reverse parabolic<a class="headerlink" href="#stop-and-reverse-parabolic" title="Permanent link">&para;</a></h2>
-<p>Le SAR (Stop And Reverse Parabolic not in indicators!) est un indicateur de tendance que j'ai intégré dans cette stratégie pour confirmer les signaux donnés par les Fractales de Bill Williams et ainsi pouvoir comparer les deux.</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/fractale-bill-williams/routine-sar.png" class="glightbox" data-gallery="galerie" title="SAR Parabolic (Stop And Reverse) Parabolic indicator">
-        <img src="/images/strategies/fractale-bill-williams/routine-sar.png" alt="Copie d'écran" />
-    </a>
-    <figcaption><em>SAR Parabolic (Stop And Reverse) Parabolic indicator</em></figcaption>
-</figure>
-
-<p>Ici le dernier point est en dessous du cours le plus bas signifiant que la tendance pourrait bien se retourner.</p>
-<ul>
-<li><a href="../strategies/stop-and-reverse-parabolic/">Découvrir l'indicateur technique : Stop And Reverse Parabolic</a></li>
-</ul>
-<h2 id="strategie-intraday-vwap-stoch">Stratégie Intraday VWAP + STOCH<a class="headerlink" href="#strategie-intraday-vwap-stoch" title="Permanent link">&para;</a></h2>
-<p>Maintenant passons à l'Intraday, au sein de la journée.</p>
-<p>Vous souhaitez suivre le cours de votre action durant la journée pour savoir quels sont les meilleurs moments d'entrée et de sortie, la stratégie <span title="**Volume Weighted Average Price - Prix moyen pondéré par les volumes**" style="border-bottom:1px dotted;cursor:help"><b>VWAP</b></span> + <span title="**Stochastic Oscillator - Oscillateur stochastique - Ne travaille que sur le prix**" style="border-bottom:1px dotted;cursor:help"><b>STOCH</b></span> Intraday, est adaptée à cette analyse du cours dans la journée :</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/intraday-vwap-stoch/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie VWAP + STOCH Intraday">
-        <img src="/images/strategies/intraday-vwap-stoch/routine.png" alt="alt" />
-    </a>
-    <figcaption><em>Stratégie VWAP + STOCH Intraday</em></figcaption>
-</figure>
-
-<p>Si le prix est au dessus du <span title="**Volume Weighted Average Price - Prix moyen pondéré par les volumes**" style="border-bottom:1px dotted;cursor:help"><b>VWAP</b></span> (Volume Weighted Average Price) alors il est surestimé et une correction vers le bas pourrait se produire si au contraire le prix est en dessous, une correction à la hausse pourrait se produire.</p>
-<p>Notez également la présence de deux indicateurs techniques <span title="**Average True Range - Moyenne de la Vraie Amplitude**" style="border-bottom:1px dotted;cursor:help"><b>ATR</b></span> et l'<span title="**On-Balance Volume - Volume en Balance**" style="border-bottom:1px dotted;cursor:help"><b>OBV</b></span> qui sont pratiques pour les entrées ou les sorties dans la journée.</p>
-<h2 id="gator-alligator-de-bill-williams">Gator Alligator de Bill Williams<a class="headerlink" href="#gator-alligator-de-bill-williams" title="Permanent link">&para;</a></h2>
-<p>Voici maintenant le Gator Alligator de Bill Williams et ses histogrammes :</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/gator-alligator/routine.png" class="glightbox" data-gallery="galerie" title="Stratégie Gator Alligator de Bill Williams">
-        <img src="/images/strategies/gator-alligator/routine.png" alt="alt" />
-    </a>
-    <figcaption><em>Stratégie Gator Alligator de Bill Williams</em></figcaption>
-</figure>
-
-<p>Selon la métaphore de l'alligator de Bill Williams le marché évolue en quatre phases :</p>
-<ul>
-<li>Gator dort : Les barres des deux côtés sont rouges → pas de tendance.</li>
-<li>Gator se réveille : Une barre rouge et une barre verte → début de tendance.</li>
-<li>Gator en chasse : Deux barres vertes → tendance forte.</li>
-<li>Gator rassasié : Une barre devient rouge → ralentissement de la tendance.</li>
-</ul>
-<p>C'est une stratégie de trading puissante qui conbine l'utilisation de trois moyenne mobiles avec un histogramme.</p>
-<ul>
-<li><a href="../strategies/gator-alligator/">Découvrir la stratégie : Alligator Gator de Bill Williams</a></li>
-</ul>
-<h2 id="trading-de-la-smart-money-concept-ict">Trading de la Smart Money Concept ICT<a class="headerlink" href="#trading-de-la-smart-money-concept-ict" title="Permanent link">&para;</a></h2>
-<p>La stratégie de trading de la Smart Money, ou comment remarquer les traces du trading de la Smart Money (les grands acteurs du marché).</p>
-<p>Si vous familier des concept <a href="/glossaire/#ict">ICT</a>, vous pouvez utiliser cette stratégie seule dans une routine complète.</p>
-<p>Sinon il est bon de temps en temps de tester sur une action si la Smart Money n'est pas en train d'effectuer une manipulation du cours de l'action car il ne faut pas aller contre la Smart Money mais s'en servir pour suivre la tendance.</p>
-<figure style="text-align: center;">
-    <a href="/images/strategies/smart-money-concept/smart-money.png" class="glightbox" data-gallery="galerie" title="Lecture du trading de la Smart Money">
-        <img src="/images/strategies/smart-money-concept/smart-money.png" alt="" />
-    </a>
-    <figcaption><em>Lecture du trading de la Smart Money</em></figcaption>
-</figure>
-
-<p>C'est une stratégie qui sort de l'utilisation des indicateurs technique pour se focaliser sur les concepts de l'ICT.</p>
-<ul>
-<li><a href="../strategies/smart-money-concept/">Découvrir : Le trading de la Smart Money</a></li>
-</ul>
-<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
-<p>Vous venez de parcourir les stratégies de trading de la plateforme. Vous pouvez découvrir l'utilisation de ces stratégies afin de peaufiner votre propre routine de trading suivant que vous souhaitez faire de l'intraday, du scalping, du swing trading ou de l'investissement.</p>
-<p>Abonnez-vous à TradingInPython :</p>
-<ul>
-<li><a href="https://www.trading-et-data-analyses.com/p/abonnement.html" target="_blank">TradingInPython</a></li>
-</ul>
+<p>Pour télécharger un de ces scripts, vous cliquez dessus puis dans les <span class="text-keyword">"..."</span>, cliquez sur Download (télécharger).</p>
+<p><em>That's All Folks!</em></p>
+<p><em>Have fun!</em></p>
 
 
 
@@ -2313,7 +2084,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="13 mars 2026 18:01:39 UTC"><span class="timeago" datetime="2026-03-13T18:01:39+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="13 mars 2026 18:01:39 UTC">2026-03-13</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="28 avril 2026 10:25:13 UTC"><span class="timeago" datetime="2026-04-28T10:25:13+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="28 avril 2026 10:25:13 UTC">2026-04-28</span>
   </span>
 
     
@@ -2429,18 +2200,18 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["content.icon", "navigation.instant", "navigation.top", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.icon", "navigation.instant", "navigation.top", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
-        <script src="../js/timeago.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="../js/timeago_mkdocs_material.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../js/glightbox.min.js"></script>
+        <script src="../../js/glightbox.min.js"></script>
       
-        <script src="../js/glightbox-init.js"></script>
+        <script src="../../js/glightbox-init.js"></script>
       
     
   </body>
