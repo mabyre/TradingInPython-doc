@@ -71,7 +71,9 @@ nav:
       - Alertes Indicateurs Techniques: monitor-alerts/alertes-trading-techniques.md
       - Alertes Canal Graphique: monitor-alerts/alertes-canal-graphique.md
   - Gestionnaire de Portefeuilles: portfolio-manager.md
-  - Interpréteur de Scripts Python: script-interpreter.md
+  - Interpréteur de Scripts Python:
+      - Comment utiliser l'interpréteur de scripts: script-interpreter/interface.md
+      - Scripts d'analyse financière: script-interpreter/financial-analysis-scripts.md
   - Backtesting: back-testing.md
   - Dessiner sur les Graphes:
       - Naviguer dans le graphique: draw-on-charts/navigate-on-charts.md

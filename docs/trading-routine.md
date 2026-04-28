@@ -85,7 +85,7 @@ En vous abonnant vous aurez accès à la formation complète sur cette stratégi
 Ici la pression de vente qui s'exerce sur LEGRAND est de 0.53 %. La pression du flux volumique est à la vente mais le prix monte c'est probablement le moment d'entrer en position.
 
 - [Découvrir : l'Analyse de la pression volumique](./strategies/analyse-pression-volumique.md)
-- [Vidéo de démo - Analyse de la pression volumique](./strategies/analyse-pression-volumique.md#vidéo-youtube)
+- [Vidéo de démo - Analyse de la pression volumique](./strategies/analyse-pression-volumique.md#video-youtube)
 
 Maintenant si vous décidez d'entrer ou de sortir de position, les deux stratégies {{ "Moyennes Mobiles 1/2/E" | keyword }} et les {{ "Fractales Bill Williams" | keyword }} sont indiquées pour lire dans les signaux automatiques d'achat et de vente. Là encore vous trouverez de la formation et des exemples sur ce site et ailleurs.
 
@@ -183,7 +183,7 @@ C'est une stratégie de trading puissante qui conbine l'utilisation de trois moy
 
 ## Trading de la Smart Money Concept ICT
 
-La stratégie de trading de la Smart Money, ou comment remarquer les traces du trading de la Smart Money (les grands acteurs du marché). 
+La stratégie de trading de la Smart Money, ou comment remarquer les traces du trading de la Smart Money (les grands acteurs du marché).
 
 Si vous familier des concept {{ "ICT" | g_link }}, vous pouvez utiliser cette stratégie seule dans une routine complète.
 

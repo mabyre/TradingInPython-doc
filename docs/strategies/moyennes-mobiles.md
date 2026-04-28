@@ -54,7 +54,7 @@ Des Sliders vous permettent de configurer les moyennes mobiles :
 - SMA 2 = 15
 - EMA = 15
 
-Grâce à l'[algorithme en Python](#algorithme), la détection des croisements est marquée par les signaux d'achat {{ "triangles verts" | green }} et les signaux de ventes {{ "triangles rouges" | red }}.
+Grâce à l'[algorithme en Python](#algorithme-en-python), la détection des croisements est marquée par les signaux d'achat {{ "triangles verts" | green }} et les signaux de ventes {{ "triangles rouges" | red }}.
 
 Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorithme calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :
 

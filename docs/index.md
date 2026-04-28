@@ -106,7 +106,7 @@ Vous avez de nombreux exemples d'utilisation des stratégies de trading techniqu
 
 ## Licence gratuite
 
-Vous l'avez compris notre solution logicielle de trading technique est quasiment gratuite. 
+Vous l'avez compris notre solution logicielle de trading technique est quasiment gratuite.
 
 Après l'installation du logiciel, les stratégies {{ "Ichimoku + deep learning" | keyword }} et {{ "Moyennes mobiles" | keyword }} sont gratuites.
 
