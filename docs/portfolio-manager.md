@@ -114,7 +114,7 @@ Le Volet Positions vous montre vos positions actuelles avec les pertes et les pr
 
 Ainsi vous avez une vision synthétiques de votre portefeuille d'Actions ETF, forex, Futures etc...
 
-Vous pouvez voir les positions clôturées avec les gains ou les pertes effectuées à l'instant 't'.
+Vous pouvez voir les positions clôturées avec les gains ou les pertes effectuées à l'instant 't' :
 
 <figure style="text-align: center;">
     <a href="/images/portfolio/vos-positions.png" class="glightbox" data-gallery="galerie" title="Portefeuille - Onglet positions">
@@ -123,9 +123,11 @@ Vous pouvez voir les positions clôturées avec les gains ou les pertes effectu�
     <figcaption><em>Portefeuille - Onglet positions</em></figcaption>
 </figure>
 
-Lors de vore routine du matin, vous pouvez par exemple rendre compte de la progression de votre Portefeuille et de vos différentes positions.
+Cliquez sur la case à cocher {{"Position Ouvertes"|keywordi}} pour ne plus voir que les positions en cours.
 
-## Rapport statisitques
+Lors de vore routine, vous pouvez par exemple rendre compte de la progression de votre Portefeuille et de vos différentes positions.
+
+## Rapport statistiques
 
 Un rapport complet sur votre portefeuille d'actions récapitule les statistiques globales, les positions en calculant le coût total des frais bancaires en incluant tout cela dans le rendement global.
 
@@ -138,12 +140,6 @@ Un rapport complet sur votre portefeuille d'actions récapitule les statistiques
 
 ## Open Software
 
-Vous avez besoin d'ouvrir le capot de la machine pas de problème retrouver le code Python du Gestionnaire de Portefeuille dans le GitHub de la solution TradingInPython :
+Vous avez besoin d'ouvrir le capot de la machine pour comprendre exactement comment ça fonctionne, retrouvez le code Python du Gestionnaire de Portefeuille dans le GitHub de la solution <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a> :
 
-[SoDevLog PyTrading/TradingInPython/portfolios/portfolio.py](https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/portfolios/portfolio.py)
-
-[Ancienne documentation - Gestionnnaire de portefeuilles - Généralités](https://www.trading-et-data-analyses.com/p/gestionnaire-de-portefeuilles.html)
-
-[Ancienne documentation - Gestionnnaire de portefeuilles - En action](https://www.trading-et-data-analyses.com/2025/10/portfolio-portefeuille-actions.html)
-
-_Contenu à compléter._
+- <a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/portfolios/portfolio.py" target="_blank">SoDevLog PyTrading/TradingInPython/portfolios/portfolio.py</a>
