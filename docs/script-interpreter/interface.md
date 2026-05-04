@@ -42,7 +42,7 @@ Vous pouvez voir dans la console la formule de Greenblatt exécutée pour certai
 
 ## API scripts
 
-Une api est fournit pour permettre à vos scripts d'utiliser les données de la plateforme, ainsi lorque vous créez un screener (une liste d'actions que vous sélectionnez) cette liste peut être utilisée par votre script.
+Une api est fournie pour permettre à vos scripts d'utiliser les données de la plateforme, ainsi lorsque vous créez un screener (une liste d'actions que vous sélectionnez) cette liste peut être utilisée par votre script.
 
 Voici un script qui vous montre comment utiliser l'API :
 
