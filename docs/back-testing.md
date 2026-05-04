@@ -37,6 +37,8 @@ Le graphe est affiché et les indicateurs techniques sont recalculés avec les n
 
 Vous aurez ainsi la possibilité de voir dans une situation réelle particulière du passé qu'elle décision de trading vous auriez prise en fonction de votre stratégie de trading et des indicateurs techniques choisis.
 
+Si vous avez des difficultés avec la manipulation des intervalles des périodes et des dates, vous pouvez consulter la page : [Voyager dans le temps](./voyage-dans-le-temps.md)
+
 ## Les datas
 
 Il est donc inutile de générer des données synthétiques de trading, vous pouvez backtester votre stratégie de trading sur tous les cours en choisissant de partir d'une date donnée de prendre vos décisions de trading en effectuant votre analyse technique en temps réel.
