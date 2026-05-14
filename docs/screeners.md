@@ -1,6 +1,6 @@
 # Création et gestion des screeners
 
-Les screeners sont des fichiers partagés par les [Cartes de chaleur](./heatmaps.md) et le [Monitor Stock Market](../monitor-alerts/monitor-stock-market.md).
+Les screeners sont des fichiers au format JSon partagés par les [Cartes de chaleur](./heatmap-screener/heatmaps.md), le [Monitor Stock Market](./monitor-alerts/monitor-stock-market.md) et le Calendrier des dividendes.
 
 La Gestion des screeners vous permet de créer, de modifier ou de supprimer ces fichiers.
 
@@ -52,7 +52,7 @@ Vous créez un nouveau screener simplement en changeant le nom du fichier au mom
 
 ## Utilisez vos screener
 
-Un fois vos fichiers de screeners configurés avec les actions que vous souhaitez surveiller, vous pouvez utiliser ces fichiers dans les [Cartes de Chaleur](./heatmaps.md) et le [Monitor Stock Market](../monitor-alerts/monitor-stock-market.md).
+Un fois vos fichiers de screeners configurés avec les actions que vous souhaitez surveiller, vous pouvez utiliser ces fichiers dans les [Cartes de Chaleur](./heatmap-screener/heatmaps.md) et le [Monitor Stock Market](./monitor-alerts/monitor-stock-market.md).
 
 ## Erreur screener trop grand
 

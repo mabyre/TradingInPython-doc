@@ -5,7 +5,7 @@ keywords: "heatmap, stock, trading, technique, monitor, market"
 
 # Cartes de chaleur & Performances
 
-Vous avez créé vos screeners en utilisant le {{ "Sélecteur de stocks" | keyword }} Menu {{ "Screeners" | keyword }} -> [Gestion des screeners](./screeners.md), vous pouvez afficher des Cartes de chaleur.
+Vous avez créé vos screeners en utilisant le {{ "Sélecteur de stocks" | keyword }} Menu {{ "Screeners" | keyword }} -> [Gestion des screeners](../screeners.md), vous pouvez afficher des Cartes de chaleur.
 
 Surveillez facilement et rapidement {{ "des dizaines d'actions" | keyword }}, grâce aux indicateurs techniques dans une Carte graphique de couleurs (chaleur).
 
@@ -28,7 +28,7 @@ Une Heatmap ou carte de chaleur représente les performances des actions sous fo
 
 ## Choisir un fichier
 
-Créez vos screeners en sélectionnant les actions que vous souhaitez mettre sous surveillance, ouvrez le [Sélecteur de Stocks](screeners.md), choisissez dans la liste des actions de la plateforme celle que vous souhaitez voir dans la Heatmap (Carte de chaleur) :
+Créez vos screeners en sélectionnant les actions que vous souhaitez mettre sous surveillance, ouvrez le [Sélecteur de Stocks](../screeners.md), choisissez dans la liste des actions de la plateforme celle que vous souhaitez voir dans la Heatmap (Carte de chaleur) :
 
 <figure style="text-align: center;">
     <a href="/images/heatmap/heatmap.png" class="glightbox" data-gallery="galerie" title="Menu screeners">

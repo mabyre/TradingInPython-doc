@@ -15,7 +15,7 @@ Vous souhaitez être prévenu sur les volumes d'échanges, et sur tout autre év
 
 Vous avez créé vos screeners (liste des actions à mettre sous surveillance) en utilisant le {{ "Sélecteur de stocks" | keywordi }} :
 
-- Menu {{ "Monitoring" | keywordi }} -> ["Gestion des screeners"](../heatmap-screener/screeners.md)
+- Menu {{ "Monitoring" | keywordi }} -> ["Gestion des screeners"](../screeners.md)
 
 Vous pouvez maintenant pouvoir configurer des Alertes sur les cours de bourse.
 

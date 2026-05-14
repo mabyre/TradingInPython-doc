@@ -24,7 +24,7 @@ L'important pour le trader est de {{ "se forger une conviction" | keyword }} et 
 
 Téléchargez la dernière version du logiciel de la plateforme :
 
-- [TradingInPython v1.8.4](https://github.com/SoDevLog/PyTrading/releases/download/v1.8.4/tradinginpython_setup.zip)
+- [TradingInPython - releases](https://github.com/SoDevLog/PyTrading/releases)
 
 ### Installation
 
