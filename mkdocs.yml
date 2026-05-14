@@ -69,7 +69,7 @@ nav:
       - Moniteur d'alertes: monitor-alerts/monitor-stock-market.md
       - Alertes Indicateurs Techniques: monitor-alerts/alertes-trading-techniques.md
       - Alertes Canal Graphique: monitor-alerts/alertes-canal-graphique.md
-  - Création des marchés financiers: market-calendar.md
+  - Calendrier des marchés financiers: market-calendar.md
   - Gestionnaire de Portefeuilles: portfolio-manager.md
   - Interpréteur de Scripts Python:
       - Comment utiliser l'interpréteur de scripts: script-interpreter/interface.md
