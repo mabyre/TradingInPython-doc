@@ -41,6 +41,10 @@ Notez le {{ "Menu:" | keywordi }} avec {{ "autocomplétion" | keyword }}, tapez 
 
 Vous sélectionnez un Menu préexisant par les touches {{ "flêche haut" | keyword }}, {{ "flêche bas" | keyword }} puis {{ "entrer" | keyword }}.
 
+???+ warning
+
+    Les composants graphiques de Tkinter ne vous permettent pas de sélectionner le menu proposé par l'autocomplétion avec la souris, vous devez impérativement utiliser les flêches pour choisir un menu préselectionné.
+
 ## Modifier
 
 Vous souhaitez par exemple modifier l'action AIR LIQUIDE cliquez sur Modifier :
