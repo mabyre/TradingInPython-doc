@@ -2,12 +2,14 @@ Grâce au langage de programmation {{"Python"|g_tooltip}} la plateforme permet d
 
 ## Interface d'exécution des scripts utilisateurs
 
-L'interpréteur de script python est accessible dans le Menu {{"Monitoring"|keyword}} -> {{"Scripts"|keyword}}
+L'interpréteur de script python est accessible dans le Menu :
+
+- {{"Monitoring"|keyword}} -> {{"Scripts"|keyword}}
 
 Deux parties :
 
-- {{"Stocks"|keywordi}} pour les paramètres la listes des actions
-- {{"Script Python"|keywordi}} pour votre script en python
+- {{"Stocks"|keywordi}} : pour les paramètres comme la listes des actions
+- {{"Script Python"|keywordi}} : pour charger votre script en python
 
 <figure style="text-align: center;">
   <a href="/images/script-interpreter/interface.png" class="glightbox" data-gallery="galerie" title="Interface d'exécution des scripts Python">
@@ -21,7 +23,7 @@ Deux parties :
 
 Vous retrouvez ces scripts [installés](../index.md#telechargez-le-logiciel-gratuitement) sur votre machine à l'endroit suivant sur votre disque dur :
 
-- **C:\Users\{UserName}\AppData\Local\TradingInPython\user_scripts**
+- **C:\Users\\{UserName}\AppData\Local\TradingInPython\user_scripts**
 
 Pour exécuter le script :
 
@@ -42,7 +44,7 @@ Vous pouvez voir dans la console la formule de Greenblatt exécutée pour certai
 
 ## API scripts
 
-Une api est fournie pour permettre à vos scripts d'utiliser les données de la plateforme, ainsi lorsque vous créez un screener (une liste d'actions que vous sélectionnez) cette liste peut être utilisée par votre script.
+Une {{"API"|g_tooltip}} est fournie pour permettre à vos scripts d'utiliser les données de la plateforme, ainsi lorsque vous créez un screener (une liste d'actions que vous sélectionnez) cette liste peut être utilisée par votre script.
 
 Voici un script qui vous montre comment utiliser l'API :
 

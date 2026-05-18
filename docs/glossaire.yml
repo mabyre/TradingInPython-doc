@@ -1,6 +1,15 @@
 Action: |
   Titre représentant une part du capital d'une entreprise. Souvent appelé 'stock' en anglais.
 
+API: |
+  Application Programming Interface, elle permet à votre script de récupérer des en provenance de TradingInPython.
+
+  Une API est une Interface de Programmation d'Applications, cela permet aux logiciels de communiquer entre eux.
+
+  Par exemple, l'API de YahooFinance permet à TradingInPython d'accéder aux données de marché.
+
+  Ce concept peut vous paraitre compliqué mais dans le cadre de TradingInPython, l'API vous permet simplement de récupérer les données de marché pour les actions que vous souhaitez trader.
+
 Breakout: |
   Un breakout (cassure) est un mouvement de prix où l'actif sort d'une zone clé.
 

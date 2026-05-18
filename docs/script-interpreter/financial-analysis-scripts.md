@@ -18,7 +18,7 @@ Rendez-vous dans la partie [Comment utiliser l'interpréteur de scripts](interfa
 
 Vous retrouvez ces scripts [installés](../index.md#telechargez-le-logiciel-gratuitement) sur votre machine à l'endroit suivant sur votre disque dur :
 
-- **C:\Users\{UserName}\AppData\Local\TradingInPython\user_scripts**
+- **C:\Users\\{UserName}\AppData\Local\TradingInPython\user_scripts**
 
 ## Résultat de l'exécution du script
 

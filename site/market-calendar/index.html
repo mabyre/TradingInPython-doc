@@ -1122,9 +1122,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#marche-ouvert-ou-ferme" class="md-nav__link">
+  <a href="#le-marche-est-il-ouvert-ou-ferme" class="md-nav__link">
     <span class="md-ellipsis">
-      Marché ouvert ou fermé
+      Le Marché est-il ouvert ou fermé ?
     </span>
   </a>
   
@@ -1142,7 +1142,7 @@
         <li class="md-nav__item">
   <a href="#le-fichier-de-scanning-calendar-dividendesjson" class="md-nav__link">
     <span class="md-ellipsis">
-      Le fichier de scanning calendar-dividendes.json
+      Le fichier de scanning : calendar-dividendes.json
     </span>
   </a>
   
@@ -1958,9 +1958,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#marche-ouvert-ou-ferme" class="md-nav__link">
+  <a href="#le-marche-est-il-ouvert-ou-ferme" class="md-nav__link">
     <span class="md-ellipsis">
-      Marché ouvert ou fermé
+      Le Marché est-il ouvert ou fermé ?
     </span>
   </a>
   
@@ -1978,7 +1978,7 @@
         <li class="md-nav__item">
   <a href="#le-fichier-de-scanning-calendar-dividendesjson" class="md-nav__link">
     <span class="md-ellipsis">
-      Le fichier de scanning calendar-dividendes.json
+      Le fichier de scanning : calendar-dividendes.json
     </span>
   </a>
   
@@ -2031,12 +2031,12 @@
 
 
 <h1 id="calendier-des-marche-financiers">Calendier des marché financiers<a class="headerlink" href="#calendier-des-marche-financiers" title="Permanent link">&para;</a></h1>
-<p>Voici encore une fonctionnalité dont j'ai l'utilité au sein de la palteforme pour ne pas avoir à chercher très loin sur le Web.</p>
-<h2 id="marche-ouvert-ou-ferme">Marché ouvert ou fermé<a class="headerlink" href="#marche-ouvert-ou-ferme" title="Permanent link">&para;</a></h2>
-<p>Si vous êtes pationné de trading, vous avez très certainement vécu cette situtation.</p>
-<p>Vous vous levez avec l'espoir de réussir un coup, vous avez repéré une stock que vous aimeriez trader, seulement voilà à <strong>9:01</strong> il ne se passe toujours rien !</p>
-<p>Le marché semble figé car il est ... fermé et oui on ne vous avait pas prévenu mais aujourd'hui pas Bourse.</p>
-<p>Le Calendrier des marchés est là pour vous donner cette information, le marché va t-il ouvrir ou bien est-ce un jour Off ? Quels sont les prochains jours où le marché est fermé.</p>
+<p>Voici une fonctionnalité dont nous avons l'utilité au sein de la plateforme pour ne pas avoir à chercher trop loin sur le Web.</p>
+<h2 id="le-marche-est-il-ouvert-ou-ferme">Le Marché est-il ouvert ou fermé ?<a class="headerlink" href="#le-marche-est-il-ouvert-ou-ferme" title="Permanent link">&para;</a></h2>
+<p>Si vous êtes pationné de trading, vous avez très certainement vécu cette situation.</p>
+<p>Vous vous levez avec l'espoir de réussir un bon trade, vous avez repéré une stock que vous aimeriez trader, seulement voilà à <strong>9:01</strong> il ne se passe toujours rien !</p>
+<p>Le marché semble figé car il est ... fermé et oui, on ne vous avait pas prévenu mais aujourd'hui pas Bourse pas de trade.</p>
+<p>Pour éviter des déconvenues, le Calendrier des marchés est là pour vous donner cette information, le marché va t-il ouvrir ou bien est-ce un jour Off ? Quels sont les prochains jours où le marché est fermé.</p>
 <figure style="text-align: center;">
     <a href="/images/market-calendar.png" class="glightbox" data-gallery="galerie" title="Calendier des marchés financiers">
         <img src="/images/market-calendar.png" alt="Calendier des marchés financiers"/>
@@ -2063,16 +2063,24 @@
 </ul>
 <h2 id="calendrier-des-dividendes">Calendrier des dividendes<a class="headerlink" href="#calendrier-des-dividendes" title="Permanent link">&para;</a></h2>
 <p>Vous constituez des listes d'actions dont vous souhaitez surveiller les dividendes et le Calendrier vous donne les dates d'exclusion, c'est à dire la date avant laquelle vous devez détenir l'action si vous souhaitez toucher un dividende.</p>
-<p>La liste des Stocks à scanner s'affiche, quand vous cliquez sur le bouton <span class="text-keyword">"Scanner"</span> le scan démarre pour aller cherche les data.</p>
-<h2 id="le-fichier-de-scanning-calendar-dividendesjson">Le fichier de scanning calendar-dividendes.json<a class="headerlink" href="#le-fichier-de-scanning-calendar-dividendesjson" title="Permanent link">&para;</a></h2>
-<p>Il se trouve dans le répertoire :</p>
+<p>La liste des Stocks à scanner s'affiche à l'ouverture du Calendier, quand vous cliquez sur le bouton <span class="text-keyword">"Scanner"</span> le scan démarre pour aller cherche les data :</p>
+<figure style="text-align: center;">
+    <a href="/images/market-calendar-scan.png" class="glightbox" data-gallery="galerie" title="Calendier des marchés financiers - Scan des dividendes">
+        <img src="/images/market-calendar-scan.png" alt="Calendier des marchés financiers - Scan des dividendes"/>
+    </a>
+    <figcaption><em>Calendier des marchés financiers - Scan des dividendes</em></figcaption>
+</figure>
+
+<h2 id="le-fichier-de-scanning-calendar-dividendesjson">Le fichier de scanning : calendar-dividendes.json<a class="headerlink" href="#le-fichier-de-scanning-calendar-dividendesjson" title="Permanent link">&para;</a></h2>
+<p>C'est la liste des actions à scanner qui s'affiche dans la partie <span class="text-keyword">"Stocks :"</span>.</p>
+<p>Ce fichier se trouve dans le répertoire suivant :</p>
 <ul>
-<li><strong>C:\Users{Nom d'utilisateur}\AppData\Local\TradingInPython\screeners\calendar-dividendes.json</strong></li>
+<li><strong>C:\Users\{Nom d'utilisateur}\AppData\Local\TradingInPython\screeners\calendar-dividendes.json</strong></li>
 </ul>
 <p>C'est lui que vous manipulez avec la fonction <a href="../gestion-liste-actions/">Gestion des liste d'actions</a>.</p>
-<p>Vous ouvrez ce fichier pour ajouter ou supprimer des actions à scanner.</p>
+<p>Vous ouvrez ce fichier pour ajouter ou supprimer des actions à scanner pour obtenir les dividendes.</p>
 <h2 id="tickers">Tickers<a class="headerlink" href="#tickers" title="Permanent link">&para;</a></h2>
-<p>Le champ <span class="text-keyword">"Tickers"</span> vous permet de scanner des tickers sans passer par la liste de calendar-dividendes.json pour un scan rapde si vous en avez besoin.</p>
+<p>Le champ <span class="text-keyword">"Tickers"</span> vous permet de scanner également des tickers sans passer par la liste de 'calendar-dividendes.json' pour un scan rapide si vous en avez besoin.</p>
 <h2 id="fichiers-de-sauvegarde-au-format-csv">Fichiers de sauvegarde au format CSV<a class="headerlink" href="#fichiers-de-sauvegarde-au-format-csv" title="Permanent link">&para;</a></h2>
 <p>Deux boutons :</p>
 <ul>
@@ -2081,7 +2089,14 @@
 </ul>
 <p>Ansi si vous avez de très grandes listes d'actions à surveiller vous n'êtes pas obligé de réeffectuer le scan.</p>
 <h2 id="tableau-des-resultats">Tableau des résultats<a class="headerlink" href="#tableau-des-resultats" title="Permanent link">&para;</a></h2>
-<p>Le résultat du scanning affiche les dividendes des actions de la liste.</p>
+<p>Le résultat du scan affiche les dividendes des actions de la liste dans le tableau.</p>
+<ul>
+<li><span class="text-keyword">"Exclu div"</span> : date d'exclusion des divendes, si vous achetez à cette date c'est trop tard pour toucher un dividende.</li>
+<li><span class="text-keyword">"Dans"</span> : affiche le nombre de jours avant le versement.</li>
+<li><span class="text-keyword">"Paiement"</span> : date à laquelle le divende à été versé.</li>
+<li><span class="text-keyword">"Rdt moy 5a"</span> : en pourcentage sur 5 ans la part du dividende.</li>
+</ul>
+<p>En cliquant sur une des lignes du tableau, le calendrier se positionne sur la date.</p>
 
 
 
@@ -2102,7 +2117,7 @@
     <span class="md-icon" title="Dernière mise à jour">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="15 mai 2026 09:00:55 UTC"><span class="timeago" datetime="2026-05-15T09:00:55+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="15 mai 2026 09:00:55 UTC">2026-05-15</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="18 mai 2026 10:23:57 UTC"><span class="timeago" datetime="2026-05-18T10:23:57+00:00" locale="fr"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="18 mai 2026 10:23:57 UTC">2026-05-18</span>
   </span>
 
     
