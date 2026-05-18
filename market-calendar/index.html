@@ -1142,7 +1142,7 @@
         <li class="md-nav__item">
   <a href="#le-fichier-de-scanning-calendar-dividendesjson" class="md-nav__link">
     <span class="md-ellipsis">
-      Le fichier de scanning calendar-dividendes.json
+      Le fichier de scanning : calendar-dividendes.json
     </span>
   </a>
   
@@ -1978,7 +1978,7 @@
         <li class="md-nav__item">
   <a href="#le-fichier-de-scanning-calendar-dividendesjson" class="md-nav__link">
     <span class="md-ellipsis">
-      Le fichier de scanning calendar-dividendes.json
+      Le fichier de scanning : calendar-dividendes.json
     </span>
   </a>
   
@@ -2063,16 +2063,23 @@
 </ul>
 <h2 id="calendrier-des-dividendes">Calendrier des dividendes<a class="headerlink" href="#calendrier-des-dividendes" title="Permanent link">&para;</a></h2>
 <p>Vous constituez des listes d'actions dont vous souhaitez surveiller les dividendes et le Calendrier vous donne les dates d'exclusion, c'est à dire la date avant laquelle vous devez détenir l'action si vous souhaitez toucher un dividende.</p>
-<p>La liste des Stocks à scanner s'affiche, quand vous cliquez sur le bouton <span class="text-keyword">"Scanner"</span> le scan démarre pour aller cherche les data.</p>
-<h2 id="le-fichier-de-scanning-calendar-dividendesjson">Le fichier de scanning calendar-dividendes.json<a class="headerlink" href="#le-fichier-de-scanning-calendar-dividendesjson" title="Permanent link">&para;</a></h2>
-<p>Il se trouve dans le répertoire :</p>
+<p>La liste des Stocks à scanner s'affiche, quand vous cliquez sur le bouton <span class="text-keyword">"Scanner"</span> le scan démarre pour aller cherche les data :</p>
+<figure style="text-align: center;">
+    <a href="/images/market-calendar-scan.png" class="glightbox" data-gallery="galerie" title="Calendier des marchés financiers - Scan des dividendes">
+        <img src="/images/market-calendar-scan.png" alt="Calendier des marchés financiers - Scan des dividendes"/>
+    </a>
+    <figcaption><em>Calendier des marchés financiers - Scan des dividendes</em></figcaption>
+</figure>
+
+<h2 id="le-fichier-de-scanning-calendar-dividendesjson">Le fichier de scanning : calendar-dividendes.json<a class="headerlink" href="#le-fichier-de-scanning-calendar-dividendesjson" title="Permanent link">&para;</a></h2>
+<p>Ce fichier se trouve dans le répertoire suivant :</p>
 <ul>
-<li><strong>C:\Users{Nom d'utilisateur}\AppData\Local\TradingInPython\screeners\calendar-dividendes.json</strong></li>
+<li><strong>C:\Users\{Nom d'utilisateur}\AppData\Local\TradingInPython\screeners\calendar-dividendes.json</strong></li>
 </ul>
 <p>C'est lui que vous manipulez avec la fonction <a href="../gestion-liste-actions/">Gestion des liste d'actions</a>.</p>
-<p>Vous ouvrez ce fichier pour ajouter ou supprimer des actions à scanner.</p>
+<p>Vous ouvrez ce fichier pour ajouter ou supprimer des actions à scanner pour obtenir les dividendes.</p>
 <h2 id="tickers">Tickers<a class="headerlink" href="#tickers" title="Permanent link">&para;</a></h2>
-<p>Le champ <span class="text-keyword">"Tickers"</span> vous permet de scanner des tickers sans passer par la liste de calendar-dividendes.json pour un scan rapde si vous en avez besoin.</p>
+<p>Le champ <span class="text-keyword">"Tickers"</span> vous permet de scanner également des tickers sans passer par la liste de 'calendar-dividendes.json' pour un scan rapide si vous en avez besoin.</p>
 <h2 id="fichiers-de-sauvegarde-au-format-csv">Fichiers de sauvegarde au format CSV<a class="headerlink" href="#fichiers-de-sauvegarde-au-format-csv" title="Permanent link">&para;</a></h2>
 <p>Deux boutons :</p>
 <ul>
@@ -2081,7 +2088,13 @@
 </ul>
 <p>Ansi si vous avez de très grandes listes d'actions à surveiller vous n'êtes pas obligé de réeffectuer le scan.</p>
 <h2 id="tableau-des-resultats">Tableau des résultats<a class="headerlink" href="#tableau-des-resultats" title="Permanent link">&para;</a></h2>
-<p>Le résultat du scanning affiche les dividendes des actions de la liste.</p>
+<p>Le résultat du scan affiche les dividendes des actions de la liste dans le tableau.</p>
+<ul>
+<li><span class="text-keyword">"Exclu div"</span> : date d'exclusion des divendes, si vous achetez à cette date c'est trop tard pour toucher un dividende.</li>
+<li><span class="text-keyword">"Dans"</span> : affiche le nombre de jours avant le versement.</li>
+<li><span class="text-keyword">"Paiement"</span> : date à laquelle le divende à été versé.</li>
+<li><span class="text-keyword">"Rdt moy 5a"</span> : en pourcentage sur 5 ans la part du dividende.</li>
+</ul>
 
 
 
