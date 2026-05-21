@@ -65,7 +65,7 @@ Il consolide l'ensemble de vos achats et de vos ventes d'Actions, d'{{ "ETF, For
 
 Sans lui vous êtes perdu.
 
-Je consolide tous mes achats/ventes dans le Volet Transactions :
+Je consolide tous mes achats/ventes dans le Onglet Transactions :
 
 <figure style="text-align: center;">
     <a href="/images/portfolio/tableau-de-bord.png" class="glightbox" data-gallery="galerie" title="Enregistrez votre premier portefeuille">
@@ -78,16 +78,16 @@ Avec de grandes indications :
 
 - Le {{ "Solde Net Investi" | keywordi }} : Total de vos achats - Total de vos ventes
 - La {{ "Valeur actuelle" | keywordi }} : La quantité de vos positions en cours x pris courant
-- {{ "P&L Réalisé" | keywordi }} : Profit et Pertes (Profit and Loss) réalisé sur les positions clôturées
-- {{ "P&L Non Réalisé" | keywordi }} : Profit et Pertes non réalisé sur les positions en cours
-- {{ "P&L Total" | keywordi }} : Profit et Pertes totales
+- {{ "P&L Réalisé" | keywordi }} : Profits et Pertes (Profit and Loss) réalisé sur les positions clôturées
+- {{ "P&L Non Réalisé" | keywordi }} : Profits et Pertes non réalisé sur les positions en cours
+- {{ "P&L Total" | keywordi }} : Profits et Pertes totales
 - {{ "Rendement" | keywordi }} : Le rendement total de votre portefeuille en temps réel
 
 Le Bouton {{ "Actualiser les prix" | keywordi }} va chercher les prix courants pour actualiser toutes les données de votre portefeuille TradingInPython.
 
-Le Volet Positions calcule sur les transactions les potions en cours et les positions clôturées ainsi vous avez un bilan comptable réel de tous vos trades.
+Le Onglet Positions calcule sur les transactions les potions en cours et les positions clôturées ainsi vous avez un bilan comptable réel de tous vos trades.
 
-Le Volet Rapport reprends tous c'est éléments dans un rapports que vous pouvez enregistrer au format texte.
+Le Onglet Rapport reprends tous c'est éléments dans un rapports que vous pouvez enregistrer au format texte.
 
 ## Enregistrer une transaction
 
@@ -110,7 +110,7 @@ N'oubliez pas les frais c'est très important pour connaitre la performance rée
 
 ## Vos Positions
 
-Le Volet Positions vous montre vos positions actuelles avec les pertes et les profits que vous réalisez en ce moment mis à jour avec les valeurs actuelles du marché en temps réel.
+Le Onglet Positions vous montre vos positions actuelles avec les pertes et les profits que vous réalisez en ce moment mis à jour avec les valeurs actuelles du marché en temps réel.
 
 Ainsi vous avez une vision synthétiques de votre portefeuille d'Actions ETF, forex, Futures etc...
 
@@ -126,6 +126,29 @@ Vous pouvez voir les positions clôturées avec les gains ou les pertes effectu�
 Cliquez sur la case à cocher {{"Position Ouvertes"|keywordi}} pour ne plus voir que les positions en cours.
 
 Lors de vore routine, vous pouvez par exemple rendre compte de la progression de votre Portefeuille et de vos différentes positions.
+
+## Vos Performances de trader
+
+Pour les versions > v1.8.5 : le graphe des performances de votre portefeuille.
+
+Vous pouvez suivre, jour après jour les performances de votre portefeuille en fonction de vos transactions, d'achat et de vente.
+
+<figure style="text-align: center;">
+    <a href="/images/portfolio/onglet-performances.png" class="glightbox" data-gallery="galerie" title="Portefeuille - Onglet Performances">
+        <img src="/images/portfolio/onglet-performances.png" alt="Performances"/>
+    </a>
+    <figcaption><em>Portefeuille - Onglet Performances</em></figcaption>
+</figure>
+
+- {{"Graphe du haut"|keyword}} : il s'agit de votre capital investi en bleu et du prix sur le marché de vos titres détenus en vert.
+
+Si vous gagnez, le vert est au dessus du bleu, par contre si vous perdez, le bleu est au dessus du vert.
+
+- {{"Graphe du bas"|keyword}} : les P&L, les profits et pertes, si vous gagnez la courbe est en vert au dessus de la ligne zéro. Par contre si vous perdez la courbe est en rouge en dessous de zéro.
+
+Ce sont vos performances de trader raisonné, en maintenant ces courbes dans le vert, vous montrez que vous prenez les bonnes décisions de trading.
+
+Vous pouvez créer autant de portefeuilles fictifs que vous le souhaitez pour backtester vos stratégies. Regardez par exemple si vous aviez acheter telle ou telle action combien vous gagneriez ou perdriez aujourd'hui.
 
 ## Rapport statistiques
 
