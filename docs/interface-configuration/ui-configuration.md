@@ -69,7 +69,7 @@ Cet indicateur est calculé grâce à trois moyennes mobiles :
 
 Vous avez installé {{ "TradingInPtyhon" | keyword }} sur plusieurs ordinateurs et vous souhaitez partager la liste des stocks entre ces ordinateurs.
 
-Vous allez pouvoir sauver par exemple dans le {{ "Cloud OneDrive" | keyword }} la liste de vos stocks pour la partager entre plusieurs ordinateurs.
+Vous allez pouvoir sauver, par exemple dans le {{ "Cloud OneDrive" | keyword }} ou un autre cloud, la liste de vos stocks pour la partager entre plusieurs ordinateurs.
 
 Cela se passe dans le fichier :
 
@@ -90,6 +90,12 @@ Copiez le chemin d'accès vers votre fichier dans le Cloud ou autre et copiez le
 Prenez soin de remplacer {{ "UserName" | keyword }} par votre nom d'utilisateur.
 
 Ainsi les modifications faites à la [liste des stocks](../gestion-liste-actions.md) seront répercutées pour tous vos ordinateurs.
+
+!!! note
+
+    Dans un Cloud, la mise à jour peut ne pas être immédiate.
+    
+    Si vous ne trouvez une action que vous avez ajoutée avec un autre ordinateur lié au même Cloud, c'est très certainement à cause de la mise à jour.
 
 !!! warning
 
