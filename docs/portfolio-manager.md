@@ -2,12 +2,6 @@
 
 Le gestionnaire de portefeuilles est l'outil indispensable du trader afin de centraliser les achats les ventes, les gains les pertes et les coûts dans un tableau de bord de calcul du rendement réel de votre trading.
 
-Si vous avez un broker traditionnel, une banque institutionnelle comme la Société Générale ou Boursobank (Boursorama) et si vous ne faites pas une gestion fine de vos achats et de vos ventes pour connaitre réellement la performance de vos portefeuille, ne comptez pas sur eux.
-
-Ce qu'ils sont capables de faire c'est du papier, un papier pour chaque opération récapitulant l'Ordre que vous avez inséré dans leur Carnet d'Ordre de broker mais vous n'aurez pas de consolidation globale de votre Portefeuille d'actions.
-
-Au bout d'un certain temps vous risquez d'être perdu et de devoir retourner faire la liste de vos achats/ventes dans la liste des papiers que vous a fournit votre broker traditionnel.
-
 ## Ouvrir le Gestionnaire de Portefeuilles
 
 Ouvrir le gestionnaire de portefeuilles dans le {{ "Menu Monitoring" | keywordi }} -> {{ "Portefeuilles" | keywordi }}
