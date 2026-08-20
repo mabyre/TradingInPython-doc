@@ -666,6 +666,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#backtesting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backtesting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#strategie-en-action" class="md-nav__link">
     <span class="md-ellipsis">
       Stratégie en action
@@ -2092,6 +2101,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#backtesting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Backtesting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#strategie-en-action" class="md-nav__link">
     <span class="md-ellipsis">
       Stratégie en action
@@ -2180,14 +2198,16 @@
 
 <p>Nous sommes avec l'action Air Liquide à l'échelle de temps 1 jour sur une période de 6 mois. On à le cours de l'action sous forme de bougies (candle). Les moyennes mobiles sont tracées et les surfaces entre, sont matérialisées par des couleurs verte et rouge.</p>
 <h3 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h3>
-<p>Des Sliders vous permettent de configurer les moyennes mobiles :</p>
+<p>Des Sliders de l'interface graphique vous permettent de configurer les différentes moyennes mobiles :</p>
 <ul>
 <li>SMA 1 = 10</li>
 <li>SMA 2 = 15</li>
 <li>EMA = 15</li>
 </ul>
 <p>Grâce à l'<a href="#algorithme-en-python">algorithme en Python</a>, la détection des croisements est marquée par les signaux d'achat <span class="text-green">triangles verts</span> et les signaux de ventes <span class="text-red">triangles rouges</span>.</p>
-<p>Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorithme calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :</p>
+<h2 id="backtesting">Backtesting<a class="headerlink" href="#backtesting" title="Permanent link">&para;</a></h2>
+<p>Cette stratégie est entièrement backtestée c'est à dire que pour chaque graphique les calculs de gains et de pertes sont effectués.</p>
+<p>L'algorithme de TradingInPython calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :</p>
 <figure style="text-align: center;">
   <a href="/images/strategies/moyennes-mobiles/console.png" class="glightbox" data-gallery="galerie" title="Les spread de l'algorithme des moyennes mobiles">
     <img src="/images/strategies/moyennes-mobiles/console.png" alt="Capture d'écran"/>
@@ -2214,7 +2234,7 @@
 
 <p>Vous avez à votre disposition un outil d'optimisation de votre stratégie automatique par les moyennes mobiles qui vous permet de choisir les meilleures valeurs pour les moyennes mobiles SMA1 et 2 et EMA afin d'obtenir le meilleur <span title="Désigne la fourchette entre le prix d'achat (offre/bid) pour entrer sur le marché et le prix de vente (demande/ask) pour sortir de position sur le marché d'une action." style="border-bottom:1px dotted;cursor:help"><b>Spread</b></span> (le meilleur gain).</p>
 <h2 id="strategie-en-action">Stratégie en action<a class="headerlink" href="#strategie-en-action" title="Permanent link">&para;</a></h2>
-<p>Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :</p>
+<p>Voici la Stratégie des moyennes mobiles en action. Pour optimiser votre Spread vous modifiez les valeurs des moyennes mobiles afin de trouver les valeurs qui vous donnerons le plus grand Spread, les calculs sont faite à la volée à chaque modifications des valeurs des moyennes mobiles :</p>
 <figure style="text-align: center;">
   <a href="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
     <img src="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" alt="Capture d'écran"/>

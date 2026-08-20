@@ -48,7 +48,7 @@ Nous sommes avec l'action Air Liquide à l'échelle de temps 1 jour sur une pér
 
 ### Configuration
 
-Des Sliders vous permettent de configurer les moyennes mobiles :
+Des Sliders de l'interface graphique vous permettent de configurer les différentes moyennes mobiles :
 
 - SMA 1 = 10
 - SMA 2 = 15
@@ -56,7 +56,11 @@ Des Sliders vous permettent de configurer les moyennes mobiles :
 
 Grâce à l'[algorithme en Python](#algorithme-en-python), la détection des croisements est marquée par les signaux d'achat {{ "triangles verts" | green }} et les signaux de ventes {{ "triangles rouges" | red }}.
 
-Et là où vous pouvez aller plus loin avec TradingInPython, c'est que l'algorithme calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :
+## Backtesting
+
+Cette stratégie est entièrement backtestée c'est à dire que pour chaque graphique les calculs de gains et de pertes sont effectués.
+
+L'algorithme de TradingInPython calcul les spreads, c'est à dire toutes les différences entre les signaux d'achat et les signaux de vente puis en fait le cumul :
 
 <figure style="text-align: center;">
   <a href="/images/strategies/moyennes-mobiles/console.png" class="glightbox" data-gallery="galerie" title="Les spread de l'algorithme des moyennes mobiles">
@@ -90,7 +94,7 @@ Vous avez à votre disposition un outil d'optimisation de votre stratégie autom
 
 ## Stratégie en action
 
-Voici la Stratégie des moyennes mobiles en action pour optimiser votre Spread :
+Voici la Stratégie des moyennes mobiles en action. Pour optimiser votre Spread vous modifiez les valeurs des moyennes mobiles afin de trouver les valeurs qui vous donnerons le plus grand Spread, les calculs sont faite à la volée à chaque modifications des valeurs des moyennes mobiles :
 
 <figure style="text-align: center;">
   <a href="/images/strategies/moyennes-mobiles/annimation-moyennes-mobiles.gif" class="glightbox" data-gallery="galerie" title="Optimisation du Spread par les Moyennes Mobiles">
