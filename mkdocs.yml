@@ -81,6 +81,7 @@ nav:
       - Annoter des prix et des dates: draw-on-charts/annote-price-date.md
       - Annoter les graphes: draw-on-charts/annotate-charts.md
   - Interface & Configuration:
+      - Styles: interface-configuration/styles.md
       - Configuration & Settings: interface-configuration/ui-configuration.md
       - Gestion automatisée des fenêtres: interface-configuration/windows-management.md
       - Mode sombre (dark mode): interface-configuration/dark-mode.md
