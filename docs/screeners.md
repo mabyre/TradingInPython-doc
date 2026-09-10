@@ -1,6 +1,11 @@
 # Création et gestion des screeners
 
-Les screeners sont des fichiers au format JSon partagés par les [Cartes de chaleur](./heatmap-screener/heatmaps.md), le [Monitor Stock Market](./monitor-alerts/monitor-stock-market.md) et le Calendrier des dividendes.
+Les screeners sont des fichiers au format JSon partagés par :
+
+- les [Cartes de chaleur](./heatmap-screener/heatmaps.md)
+- le [Monitor Stock Market](./monitor-alerts/monitor-stock-market.md)
+- le [Calendrier des dividendes](./market-calendar.md)
+- le [Script Runner](./script-interpreter/interface.md)
 
 La Gestion des screeners vous permet de créer, de modifier ou de supprimer ces fichiers.
 

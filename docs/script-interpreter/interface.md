@@ -2,14 +2,14 @@ Grâce au langage de programmation {{"Python"|g_tooltip}} la plateforme permet d
 
 ## Interface d'exécution des scripts utilisateurs
 
-L'interpréteur de script python est accessible dans le Menu :
+L'interpréteur de script python est accessible par le Menu :
 
 - {{"Monitoring"|keyword}} -> {{"Scripts"|keyword}}
 
-Deux parties :
+L'interface se compose de deux parties :
 
 - {{"Stocks"|keywordi}} : pour les paramètres comme la listes des actions
-- {{"Script Python"|keywordi}} : pour charger votre script en python
+- {{"Script Python"|keywordi}} : pour choisir votre script en python à exécuter
 
 <figure style="text-align: center;">
   <a href="/images/script-interpreter/interface.png" class="glightbox" data-gallery="galerie" title="Interface d'exécution des scripts Python">
@@ -29,9 +29,25 @@ Pour exécuter le script :
 
 - Le bouton {{"Exécuter"|keywordi}} lance l'exécution du script.
 
-## Résultat de l'exécution du script
+## Exemple avec l'exécution du script de la formule de Greenblatt
 
-Le résultat de l'exécution du script se passe dans la console comme vous pouvez le voir ici avec l'exécution du script {{"greenblatt-000.py"|keyword}} :
+1. Choisissez une liste d'actions sur laquelle vous allez exécuter le script :
+
+    Vous allez trouver des listes d'actions dans le répertoire :
+
+    - **C:\Users\\{UserName}\AppData\Local\TradingInPython\screeners**
+
+    Choisissez le fichier : {{"greenblatt-magic-formula.json"|keyword}}
+
+2. Choisissez en suite le script à exécuter :
+
+    Dans le répertoire :
+
+    - **C:\Users\\{UserName}\AppData\Local\TradingInPython\user_scripts**
+
+    Choisissez : {{"greenblatt-000.py"|keyword}}
+
+Le résultat de l'exécution des scripts se passe dans la console :
 
 <figure style="text-align: center;">
   <a href="/images/script-interpreter/execution-greenblatt.png" class="glightbox" data-gallery="galerie" title="Exécution du script de la formule de Greenblatt">
@@ -63,6 +79,20 @@ J'ai cliqué sur {{"Ouvrir"|keywordi}} de la partie {{"Script Python"|keywordi}}
 
 Vous voyez dans la Console s'afficher les paramètres transmis au script {{"use_api.py"|keyword}}, il ne vous suffit plus que de copier/coller ce script pour écrire le votre.
 
+### Rafraichir le context d'exécution du script
+
+Si vous modifiez des valeurs dans la plateforme pour rafraichir ces valeurs dans le contexte d'exécution du script python, recliquer sur :
+
+- {{"Monitoring"|keyword}} -> {{"Scripts"|keyword}}
+
+Vous verrez alors les nouvelles valeurs rafraichies dans l'interface du script runner.
+
+### Mofidier les listes d'actions
+
+Vous pouvez modifier le fichier : {{"greenblatt-magic-formula.json"|keyword}} en utilisant la gestion des screeners :
+
+- [Gestion des screeners](../screeners.md)
+
 ## Règles d'écriture des scripts
 
 Et le plus important sans doute, vous pouvez écrire vos propres scripts en python.
@@ -90,6 +120,6 @@ Pour télécharger un de ces scripts, vous cliquez dessus puis dans les {{"..."|
 
 ## Conclusion
 
-Si vous l'utilisez de façon intensive, vous pourrez voir que vous avez accès au code de TradingInPython, certains script font appel à des modules interne de la plateforme. C'est donc une porte ouverte au code déjà écris pour la plateforme et que vous pouvez utiliser.
+Si vous l'utilisez de façon intensive, vous pourrez voir que vous avez accès au code de **TradingInPython**, certains script font appel à des modules interne de la plateforme. C'est donc une porte ouverte au code déjà écris pour la plateforme et que vous pouvez utiliser.
 
 Dans un futur proche nous allons utiliser les indicateurs de la plateforme pour créer des filtres screener puissants afin de trouver des actions à trader.
