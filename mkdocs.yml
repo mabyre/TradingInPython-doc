@@ -87,6 +87,7 @@ nav:
       - Mode sombre (dark mode): interface-configuration/dark-mode.md
       - Console en bas à droite: interface-configuration/console-bottom-right.md
   - Open Software & Logiciel: open-software.md
+  - TradingInPython vs TradingView: tradinginpython-vs-tradingview.md
   - Notes:
       - Images: tests/images.md
       - Titres: tests/titres.md
