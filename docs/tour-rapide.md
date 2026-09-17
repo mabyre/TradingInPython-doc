@@ -12,7 +12,8 @@ La plateforme {{ "TradingInPython" | keyword }} est un ensemble complet de tradi
 - des [analyses techniques](#les-strategies-de-trading-technique),
 - des [cartes chaleurs](#cartes-de-chaleur-heatmap-performance) et de performance pour surveiller des marchés,
 - des [alertes techniques](#monitoring-stock-market-alertes) pour mettre les marchés sous surveillance,
-- le [gestionnaire de portefeuille](#votre-gestionnaire-de-portefeuilles) vous donne en temps réel la performance de votre trading.
+- le [gestionnaire de portefeuille](#votre-gestionnaire-de-portefeuilles) vous donne en temps réel la performance de votre trading,
+- le [script runner](./script-interpreter/interface.md) pour vous permettre d'exécuter des scripts déjà écris ou de les modifier pour vos besoins.
 
 <figure style="text-align: center;">
   <a href="/images/tour-rapide.png" class="glightbox" data-gallery="galerie" title="Tableau de bord TradingInPython">
