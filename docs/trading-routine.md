@@ -200,9 +200,19 @@ C'est une stratégie qui sort de l'utilisation des indicateurs technique pour se
 
 - [Découvrir : Le trading de la Smart Money](./strategies/smart-money-concept.md)
 
-## Conclusion
+## Votre routine de trading
 
-Vous venez de parcourir les stratégies de trading de la plateforme. Vous pouvez découvrir l'utilisation de ces stratégies afin de peaufiner votre propre routine de trading suivant que vous souhaitez faire de l'intraday, du scalping, du swing trading ou de l'investissement.
+Vous venez de parcourir les stratégies de trading de la plateforme.
+
+Vous pouvez découvrir l'utilisation de ces stratégies afin de peaufiner votre propre routine de trading suivant que vous souhaitez faire de l'intraday, du scalping, du swing trading ou de l'investissement :
+
+- <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html">TradingInPython - Plateforme</a>
+
+## L’Analyse Technique Globale
+
+Elle s’appuie sur ces différentes stratégies de trading technique pour de construire une vision d’ensemble de la configuration technique d’une action et pour évaluer son intérêt potentiel pour le trading :
+
+- <a href="https://www.trading-et-data-analyses.com/2026/08/analyse-technique-globale-comment.html" target="_blank">Découvrez l'Analyse Technique Globale</a>
 
 Abonnez-vous à TradingInPython :
 
