@@ -13,7 +13,7 @@ La plateforme {{ "TradingInPython" | keyword }} est un ensemble complet de tradi
 - des [cartes chaleurs](#cartes-de-chaleur-heatmap-performance) et de performance pour surveiller des marchés,
 - des [alertes techniques](#monitoring-stock-market-alertes) pour mettre les marchés sous surveillance,
 - le [gestionnaire de portefeuille](#votre-gestionnaire-de-portefeuilles) vous donne en temps réel la performance de votre trading,
-- le [script runner](./script-interpreter/interface.md) pour vous permettre d'exécuter des scripts déjà écris ou de les modifier pour vos besoins.
+- le [script runner](#linterpreteur-de-script) pour vous permettre d'exécuter des scripts déjà écris ou de les modifier pour vos besoins.
 
 <figure style="text-align: center;">
   <a href="/images/tour-rapide.png" class="glightbox" data-gallery="galerie" title="Tableau de bord TradingInPython">
@@ -169,6 +169,12 @@ Le portfolio ou gestionnaire de portefeuilles est l'outil indispensable du trade
 La plateforme TradingInPython vous permet de gérer autant de portefeuilles que vous le souhaitez et de calculer ainsi l'efficacité réelle de vos trades.
 
 - [Découvrir : Le Gestionnaire de portefeuilles](portfolio-manager.md)
+
+## L'interpréteur de script
+
+La plateforme est livrée avec un tas d'exemples de scripts à utiliser, {{"vous n'avez pas besoin de savoir programmer en Python"|keyword}} :
+
+- [Comment utiliser l'interpréteur de scripts](./script-interpreter/interface.md)
 
 ## Téléchargement et abonnement
 

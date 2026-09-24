@@ -1,4 +1,17 @@
-Grâce au langage de programmation {{"Python"|g_tooltip}} la plateforme permet d'exécuter vos scripts (les scripts que vous écrivez ou que vous prenez comme exemple) sans [installation](../index.md#telechargez-le-logiciel-gratuitement) supplémentaire que la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>.
+
+{{"TradingInPython"|keyword}} est livrée avec de nombreux exemples de scripts Python. Sans avoir à programmer vous-même, vous pouvez commencer par les explorer et les exécuter.
+
+Pour éxécuter ces scripts, il vous suffit d'[installer](../index.md#telechargez-le-logiciel-gratuitement) la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>.
+
+Que vous souhaitiez expérimenter une stratégie, analyser une liste d'actions ou développer progressivement vos propres outils de trading, ces exemples constituent votre point de départ concret.
+
+Grâce à l'interpréteur Python intégré, vous pouvez ensuite créer vos propres scripts et utiliser les données de la plateforme pour construire vos analyses, à votre rythme.
+
+## Scripts python livrés avec la plateforme
+
+Ces scripts sont livrés avec la plateforme et utilisable sans programmation :
+
+- <a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts" target="_blank">Scripts utilisateur en Python</a>
 
 ## Interface d'exécution des scripts utilisateurs
 
