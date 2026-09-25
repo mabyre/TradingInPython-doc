@@ -21,7 +21,7 @@ L'interpréteur de script python est accessible par le Menu :
 
 L'interface se compose de deux parties :
 
-- {{"Stocks"|keywordi}} : pour les paramètres comme la listes des actions
+- {{"API"|keywordi}} : pour les paramètres transmis par l'API comme le ticker, la listes des actions
 - {{"Script Python"|keywordi}} : pour choisir votre script en python à exécuter
 
 <figure style="text-align: center;">
@@ -31,7 +31,7 @@ L'interface se compose de deux parties :
   <figcaption><em>Interface d'exécution des scripts Python</em></figcaption>
 </figure>
 
-- Le bouton {{"Ouvrir"|keywordi}} de la partie {{"Stocks"|keywordi}} vous permet d'aller chercher une liste d'actions.
+- Le bouton {{"Ouvrir"|keywordi}} de la partie {{"API"|keywordi}} vous permet d'aller chercher une liste d'actions.
 - Le bouton {{"Ouvrir"|keywordi}} de la partie {{"Script Python"|keywordi}} vous permet d'aller chercher un script à exécuter.
 
 Vous retrouvez ces scripts [installés](../index.md#telechargez-le-logiciel-gratuitement) sur votre machine à l'endroit suivant sur votre disque dur :
@@ -125,7 +125,7 @@ if __name__ == "__main__":
 
 ## Exemples de scripts à exécuter
 
-Vous trouverez d'autres scripts à exécuter dans le GitHub de la solution à l'endroit suivant :
+Vous avez les scripts livrés quand vous installez la plateforme et vous trouverez des scripts mis à jour ou d'autres scripts à exécuter dans le GitHub de la solution à l'endroit suivant :
 
 - [SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts](https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts)
 
