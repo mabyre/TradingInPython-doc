@@ -13,6 +13,12 @@ L'important pour le trader est de {{ "se forger une conviction" | keyword }} et 
 
 {{ "Inutile de savoir coder en Python" | keyword }}, tout est déjà prêt, il vous suffit de télécharger gratuitement le logiciel de la plateforme de trading technique TradingInPython.
 
+???+ note "Vous cherchez une information sur le trading technique avec TradingInPyhhon"
+
+    N'hésitez pas à utiliser la barre de recherche en haut avec la loupe. Avec **MkDocs** cette barre est très bien faite et vous permet de **trouver tout ce que vous voulez**. 
+    
+    Dès les permières lettres tapez dans cette barre vous verrez les résultats de ce que vous cherchez.
+
 <figure style="text-align: center;">
     <a href="/images/accueil.png" class="glightbox" data-gallery="galerie" title="Stratégie de trading des doubles bandes de Bollinger et détection des Squeezes">
         <img src="/images/accueil.png" alt="Stratégie de trading des doubles bandes de Bollinger et détection des Squeezes"/>

@@ -44,7 +44,7 @@ nav:
   - Routine de Trading: trading-routine.md
   - Récupération des données: recuperation-des-data.md
   - Voyager dans le temps: voyage-dans-le-temps.md
-  - Gérer la liste des actions: gestion-liste-actions.md
+  - Importer des actions à trader: gestion-liste-actions.md
   - Stratégies de Trading:
       - Vue d'ensemble: strategies/index.md
       - Ichimoku & Deep Learning: strategies/ichimoku-kinko-hyo.md
