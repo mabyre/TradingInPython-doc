@@ -19,6 +19,8 @@ L'important pour le trader est de {{ "se forger une conviction" | keyword }} et 
     
     Dès les permières lettres tapez dans cette barre vous verrez les résultats de ce que vous cherchez.
 
+Voici l'écran principal de plateforme avec une analyse technique des Doubles Bandes de Bollinger. Vous voyez également sur ce graphique un [canal d'alertes](./monitor-alerts/alertes-canal-graphique.md) :
+
 <figure style="text-align: center;">
     <a href="/images/accueil.png" class="glightbox" data-gallery="galerie" title="Stratégie de trading des doubles bandes de Bollinger et détection des Squeezes">
         <img src="/images/accueil.png" alt="Stratégie de trading des doubles bandes de Bollinger et détection des Squeezes"/>

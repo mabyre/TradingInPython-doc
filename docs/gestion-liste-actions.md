@@ -1,6 +1,10 @@
+Lorsque vous venez d'installer la plateforme <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">TradingInPython</a>, elle est livrée avec une liste d'actions à trader mais vous aurez envie de modifier cette liste.
+
+Si vous avez déjà le {{"Nom"|keywordi}} et le {{"Symbole"|keywordi}} de l'action que vous souhaitez analyser techniquement vous pouvez l'[ajouter](#ajouter).
+
 ## Importer des actions
 
-L'import d'actions (de titres, ETF, etc) peut se faire à l'unité ou en masse par {{"L'importateur de stocks"|keyword}} (ations) depuis des sources multiples comme : YahooFinance, le NASDAQ, le marché EURONEXT.
+L'import d'actions (de titres, ETF, etc) peut se faire à l'unité ou en masse par l'{{"Importateur de stocks"|keyword}} (ations) depuis des sources multiples comme : YahooFinance, le NASDAQ, le marché EURONEXT.
 
 - Menu {{ "Stocks" | keywordi }} -> {{ "Impoter des stocks" | keywordi }}
 
@@ -11,7 +15,7 @@ L'import d'actions (de titres, ETF, etc) peut se faire à l'unité ou en masse p
     <figcaption><em>Menu Stocks -> Importer des Stocks</em></figcaption>
 </figure>
 
-Vous ouvrez l'Importateur de stocks multi-sources :
+Vous ouvrez l'{{"Importateur de stocks"|keyword}} multi-sources :
 
 <figure style="text-align: center;">
     <a href="/images/gestion-stocks/import-stocks.png" class="glightbox" data-gallery="galerie" title="Menu Stocks -> Importer des stocks">
@@ -20,7 +24,7 @@ Vous ouvrez l'Importateur de stocks multi-sources :
     <figcaption><em>Menu Stocks -> Importer des Stocks</em></figcaption>
 </figure>
 
-Et vous recherchez parmi des sources à importer une action à trader. Une action à trader, c'est un {{"nom"|keywordi}} et un {{"ticker"|keywordi}} ou numéro ISN d'identification du titre sur les marchés boursier.
+Et vous recherchez parmi des sources à importer une action à trader. Une action à trader, c'est un {{"nom"|keywordi}} et un {{"ticker"|keywordi}} d'identification du titre sur les marchés boursier.
 
 ## Importer plus simplement
 
@@ -39,17 +43,17 @@ Commençons par la source {{ "Yahoo Finance" | keywordi }} le marché français.
     <figcaption><em>Importer des stocks de la source Yahoo</em></figcaption>
 </figure>
 
-En grisé vous avez des actions qui sont déjà importés dans TradingInPtyhon, vous allez pouvoir en importer d'autres.
+En grisé vous avez des actions qui sont déjà importés dans {{"TradingInPtyhon"|keyword}}, vous allez pouvoir en importer beaucoup d'autres.
 
-La recherche de tires à trader n'est pas aussi simple qu'il y parait. Au début de votre trading vous allez chercher des actions chez votre brooker pour trouver le nom et le ticker que vous pourrez importer on va dire "à l'unité" et puis viendra la temps ou vous aurez envie d'analyser techniquement des listes de plus en plus importantes de titres.
+La recherche de tires à trader n'est pas aussi simple qu'il y parait. Au début de votre trading vous allez chercher des actions chez votre brooker pour trouver le {{"nom"|keywordi}} et le {{"ticker"|keywordi}} que vous pourrez importer on va dire "à l'unité" et puis viendra la temps ou vous aurez envie d'analyser techniquement des listes de plus en plus importantes de titres.
 
-Mais il existe des centaines de milliers de produits financiers à trader et même si on arrivait à en faire la liste à un instant donné, il faudrait la mettre à jour cela est bien sûr impossible, nous devons trouver des sources.
+Mais il existe des centaines de milliers de produits financiers à trader et même si on arrivait à en faire la liste à un instant donné, il faudrait la mettre à jour en permance, cela est bien sûr impossible, nous devons trouver des sources qui se chargent de la mise à jour pour nous.
 
-YahooFinance est une source qui vous limite au chargement de 250 titres et ceci pour limiter la bande passante.
+{{"YahooFinance"|keyword}} est une source qui vous limite au chargement de 250 titres par page et ceci pour limiter la bande passante.
 
-Donc l'importateur de titre de TradingInPython s'adapte a cette source mais aussi à d'autres sources plus souple comme le NASDAQ.
+Donc l'importateur de titre de {{"TradingInPython"|keyword}} s'adapte a cette source mais aussi à d'autres sources plus souple comme le NASDAQ avec plus de 10 000 titres à importer.
 
-Donc on y va petit à petit.
+Et donc, on y va petit à petit.
 
 Vous pouvez demandez à YahooFinance un premier classement :
 
@@ -65,13 +69,13 @@ L'importateur de stocks vous donne cette information sur une seconde requête gr
 
 Ce bouton n'est actif que si vous avez déjà effectué un premier chargement de page.
 
-Soit vous cliquez directement de dessus vous allez chercher les champs 'Secteur' et 'Industrie' de tous les stocks chargés. 
+Soit vous cliquez directement de dessus vous allez chercher les champs 'Secteur' et 'Industrie' de tous les stocks chargés.
 
 !!! danger "Attention ça peut être long !"
 
     Et vous risquez de recevoir le message suivant :
 
-    ERROR: YFinance.Ticker: Too Many Requests. Rate limited. Try after a while.
+    **ERROR: YFinance.Ticker: Too Many Requests. Rate limited. Try after a while.**
 
 Mais si vous sélectionnez dans la liste un ensemble d'actions vous obtiendrez les deux champs qui nous manquent.
 
@@ -93,7 +97,9 @@ C'est tout pour le moment, c'est une nouvelle fonctionnalité des versions > v1.
 
 ## Gérer la liste des actions
 
-Pour gérer la liste des {{ "actions" | g_tooltip }}, en ajouter ou en modifier vous trouverez le Menu :
+Maintenant vous pouvez ajouter des actions à trader sans utiliser l'Importateur de stocks.
+
+Pour gérer la liste des {{ "actions" | g_tooltip }}, en ajouter, en modifier ou en supprimer, vous trouverez le Menu :
 
 - Menu {{ "Stocks" | keywordi }} -> {{ "Gestion des stocks" | keywordi }}
 
@@ -121,9 +127,9 @@ Notez les trois boutons en bas de la fenêtre : {{ "Ajouter" | keywordi }}, {{ "
 
 Il y a déjà des centaines d'actions référencées dans la plateforme mais peut être pas celle que vous souhaitez analyser.
 
-Pour ajouter une action, vous devez vous enquérir du {{ "Nom" | keyword }} et du {{ "Symbole" | keyword }} de l'action que vous souhaitez analyser.
+Pour ajouter une action, vous devez vous enquérir du {{ "Nom" | keywordi }} et du {{ "Symbole" | keywordi }} de l'action que vous souhaitez analyser.
 
-Cliquez sur Ajouter :
+- Menu {{"Stocks"|keywordi}} -> {{ "Impoter des stocks"|keywordi}} -> Cliquez sur {{"Ajouter"|keywordi}} :
 
 <figure style="text-align: center;">
     <a href="/images/gestion-stocks/gestion-stocks-add.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Ajouter">
@@ -132,17 +138,19 @@ Cliquez sur Ajouter :
     <figcaption><em>Gestion des Stocks - Ajouter une Stock</em></figcaption>
 </figure>
 
-Notez le {{ "Menu:" | keywordi }} avec {{ "autocomplétion" | keyword }}, tapez un seul <kbd>a</kbd> et vous avez la liste de tous les menu commençants par un <kbd>a</kbd>.
+Le champ {{"Menu:"|keywordi}} c'est une catégorie que vous allez choisir pour l'action sur vous importez. Exemple vous écrivez dans ce champ {{"Action à surveiller"|keywordi}} vous allez retouver dans la liste toutes les actions qui vous avez catégorisé {{"Action à surveiller"|keywordi}}. C'est très souple, c'est vous qui choisissez.
+
+Notez que le champ {{ "Menu:" | keywordi }} est avec {{ "autocomplétion" | keyword }}, cela veut dire que si vous tapez un <kbd>a</kbd>, vous avez la liste de tous les menu commençants par un <kbd>a</kbd> qui va apparaître.
 
 Vous sélectionnez un Menu préexisant par les touches {{ "flêche haut" | keyword }}, {{ "flêche bas" | keyword }} puis {{ "entrer" | keyword }}.
 
-???+ warning "Pour sélectionner menu à l'autocomplétion"
+???+ warning "Pour sélectionner un menu à l'autocomplétion"
 
     Les composants graphiques de Tkinter ne vous permettent pas de sélectionner le menu proposé par l'autocomplétion avec la souris, vous devez impérativement utiliser les flêches pour choisir un menu préselectionné.
 
 ### Modifier
 
-Vous souhaitez par exemple modifier l'action AIR LIQUIDE cliquez sur Modifier :
+Vous souhaitez par exemple modifier l'action AIR LIQUIDE, sélectionnez la dans la liste et cliquez sur {{"Modifier"|keywordi}} (ou double cliquez sur la ligne) pour ouvrir le formulaire :
 
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNDkHCmRqigm00DPprmdwrlGfb-cbAcxJcPont8GanbxBH8XpCSE-kqcylQzwtWGQ8VTRZB1h7Ab1C-TaBDF2wDfrH7fBFM3K3T36hb4zoeRr813YofFrjg3AX_1nGjgqSnqQ9xKBgJb195c_XLUzLle4RBqvIVO_dLqHNKxG1N0VhhKejrh_sXQBVmqKA/s259/2025-01-24_12h26_52.png" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="201" data-original-width="259" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNDkHCmRqigm00DPprmdwrlGfb-cbAcxJcPont8GanbxBH8XpCSE-kqcylQzwtWGQ8VTRZB1h7Ab1C-TaBDF2wDfrH7fBFM3K3T36hb4zoeRr813YofFrjg3AX_1nGjgqSnqQ9xKBgJb195c_XLUzLle4RBqvIVO_dLqHNKxG1N0VhhKejrh_sXQBVmqKA/s16000/2025-01-24_12h26_52.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Modification de AIR LIQUIDE</td></tr></tbody></table>
 
@@ -153,6 +161,16 @@ Vous pouvez également mettre par exemple : {{ "Mes nouvelles actions à analyse
 <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s466/2025-01-24_12h34_38.png" style="margin-left: auto; margin-right: auto;"><img alt="Liste crée &quot;Mes nouvelles actions à analyser&quot;" border="0" data-original-height="466" data-original-width="356" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPfjeP-vAFsi2rp-YDnzEfc0AGSDqiB-rucOMJbQhrYZNm_A5ciT3l8edXR3ZKOl-98Miz0VmLW-osAHGQy_eS-OfMwAGeQ9lDTglfoTrVBLCP-kuIvyE57YRAXKmz2cWx0PVIiINqbZcbqFwUjFfb9J8Iymc1Ugq_ZSRFv6JkI4r4lD0qnISkYELLoUea/s16000/2025-01-24_12h34_38.png" title="Liste crée &quot;Mes nouvelles actions à analyser&quot;" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Liste crée "Mes nouvelles actions à analyser"</td></tr></tbody></table>
 
 Vous pouvez ainsi créer autant de listes dans le Menu en choisissant le libellé que vous souhaitez.
+
+### Supprimer
+
+Vous supprimer une action en la sélectionnant dans la liste et en cliquant sur le bouton {{"Supprimer"|keywordi}}.
+
+Vous pouvez également supprimer une liste d'actions par {{"sélection multiple"|keyword}}, soit en maintenant la touche Maj. ou la touche Ctrl.
+
+???+ warning "Sélection multiple dans une liste"
+
+    Les composants graphiques Tkinter sont au départ livrés avec un minimum d'intéraction utilisateur. La sélection multiple se fait uniquement avec la touche Maj. ou la touche Ctrl.
 
 ### Filtrer
 
@@ -175,7 +193,7 @@ Avec {{ "Aero" | keywordi }} je filtre tous les Stocks du domaine de Aerospace-d
 
 Vous avez déjà sans doute remarqué qu'en sélectionnant une actions dans la liste, la fenêtre principale {{"Strategy Automation"|keywordi}} vous indique un message : {{"Choisissez une stratégie..."|keywordi}}.
 
-Il vous suffit dans le menu Stratégies de choisir par exemple Ichimoku Kynko Hyo pour découvrir l'analyse technique de l'action que vous avez sélectionnée.
+Il vous suffit dans le menu {{"Stratégies"|keyword}} de choisir par exemple {{"Ichimoku Kynko Hyo"|keyword}} pour découvrir l'analyse technique de l'action que vous avez sélectionnée dans la liste.
 
 <figure style="text-align: center;">
     <a href="/images/gestion-stocks/ichimoku.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Filtrer">
