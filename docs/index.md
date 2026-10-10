@@ -9,7 +9,7 @@ keywords: "trading python, trading automatique, stratégie trading python, analy
 
 Grâce à ses {{ "stratégies d’analyse technique intégrées" | keyword }}, vous disposez d’un environnement complet pour structurer votre trading et prendre des décisions plus rationnelles.
 
-L'important pour le trader est de {{ "se forger une conviction" | keyword }} et de {{ "valider cette conviction grâce à l'analyse technique" | keyword }} pour prendre des décisions de trading plus rationnelles et structurées, c'est l'objectif de notre Plateforme de Trading Technique.
+L'important pour le trader est de {{ "se forger une conviction" | keyword }} et de {{ "valider cette conviction grâce à l'analyse technique" | keyword }} pour prendre des décisions de trading plus rationnelles et structurées, c'est l'objectif de notre <a href="https://www.trading-et-data-analyses.com/p/plateforme-de-trading-technique.html" target="_blank">Plateforme de Trading Technique</a>.
 
 {{ "Inutile de savoir coder en Python" | keyword }}, tout est déjà prêt, il vous suffit de télécharger gratuitement le logiciel de la plateforme de trading technique TradingInPython.
 
@@ -32,11 +32,13 @@ Voici l'écran principal de plateforme avec une analyse technique des Doubles Ba
 
 Téléchargez la dernière version du logiciel de la plateforme :
 
-- [TradingInPython - releases](https://github.com/SoDevLog/PyTrading/releases)
+- [TradingInPython - Suivi des versions logicielles](https://github.com/SoDevLog/PyTrading/releases)
 
 ### Installation
 
-Une fois l'archive {{ "tradinginpython_setup.zip" | keyword}} téléchargée, vous dézippez l'archive pour exécuter l'installeur {{ "tradinginpython_setup.exe" | keyword}} qui se trouve dans cette archive.
+Téléchargez le fichier {{ "tradinginpython_setup.zip" | keyword}}, vous dézippez l'archive pour exécuter l'installeur {{ "tradinginpython_setup.exe" | keyword}} qui se trouve dans cette archive.
+
+Pensez à débloquer le fichier zip.
 
 Vous avez des problèmes pour dézipper ou installer :
 
@@ -50,15 +52,11 @@ Vous souhaitez vous tenir au courant, suivre les évolutions et les nouvelles fo
 
 ### Mises à jour
 
-Vous repérez le numéro de votre version installée : v1.8.x
-
-Par exemple dans le {{ "Aide" | keyword }} -> {{ "Aide" | keyword }} : Version 1.8.x
+Pour connaitre le numéro de la version installée, allez dans le menu {{ "Aide" | keyword }} -> {{ "Aide" | keyword }} : Version 1.8.x
 
 Si ce numéro est plus anciens (inférieur) à la version proposée sur cette page, vous téléchargez le nouveau fichier zip.
 
-Vous faites une nouvelle installation comme au chapitre :
-
-- [Installation](#installation)
+Vous faites une nouvelle installation comme au chapitre : [Installation](#installation)
 
 C'est tout, vos fichiers de données utilisateurs (screeners, etc.) et votre licence ne sont pas impactés par cette nouvelle installation.
 
@@ -118,8 +116,8 @@ Vous l'avez compris notre solution logicielle de trading technique est quasiment
 
 Après l'installation du logiciel, les stratégies {{ "Ichimoku + deep learning" | keyword }} et {{ "Moyennes mobiles" | keyword }} sont gratuites.
 
-Pour débloquer toutes les stratégies et toutes les fonctionnalités de la plateforme, afin de les essayer sans contraintes :
+Pour débloquer toutes les stratégies et toutes les fonctionnalités de la plateforme, afin d'essayer sans contraintes :
 
-- [Demandez votre licence gratuite](mailto:plateforme@sodevlog.com?subject=Ma%20licence%20TradingInPython&body=Merci%20de%20m%27envoyer%20ma%20%20licence%20d%27utilisation)
+- <a href="https://www.trading-et-data-analyses.com/p/abonnement.html#Testez_gratuitement" target="_blank">Demandez votre licence gratuite</a>
 
-Si ce lien ne fonctionnait pas, envoyez directement votre email à **<plateforme@sodevlog.com>**
+Remplissez le formulaire avec votre adresse email.

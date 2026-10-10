@@ -5,15 +5,23 @@ keywords: "stock, alertes, trading, technique, monitor, market, canal"
 
 En trading technique, le résultat de vos analyse techniques, c'est le positionnement d'alertes. Avec le canal d'alertes vous allez pouvoir tracer un canal qui va devenir une alerte.
 
-Un canal c'est simplement deux lignes entre lesquels le cours du titre va être observé (monitoré) pour savoir s'il le dépasse {{ "TOUCH" | keywordi }} ou le franchit {{ "BREAK" | keywordi }}.
+Un canal c'est simplement deux lignes entre lesquels le cours du titre va être observé (monitoré) pour savoir s'il le dépasse {{ "touch" | keywordi }} ou le franchit {{ "break" | keywordi }}.
 
 ## Tracez un canal d'alertes
 
-Sur la stratégie de trading technique [Bollinger Bands FTMA](../strategies/bollinger-bands/bollinger-bands-ftma.md) vous allez tracer un canal d'alertes.
+Pour tracer un canal d'alertes vous devez ouvrir le :
 
-Vous tracez la ligne {{ "UPPER" | green }} en maintenant la touche : <kbd>U</kbd> (U comme Upper) enfoncée et en déplaçant la souris pour tracer votre ligne.
+- [Moniteur des marchés financiers (Monitor Stock Market)](../monitor-alerts/monitor-stock-market.md)
 
-Vous tracez ensuite la ligne {{ "LOWER" | red }} en maintenant la touche <kbd>L</kbd> (L comme Lower) enfoncée et en déplaçant la souris.
+afin de {{"sélectionner l'action sur laquelle vous souhaitez placer un canal d'alertes"|keyword}}.
+
+En suite pour {{"déssiner ce canal"|keyword}} vous ouvrez la stratégie de trading technique :
+
+- [Bollinger Bands FTMA](../strategies/bollinger-bands/bollinger-bands-ftma.md).
+
+Vous tracez la ligne {{ "UPPER" | green }} en maintenant la touche : <kbd>u</kbd> (u comme upper) enfoncée et en déplaçant la souris pour tracer votre ligne.
+
+Vous tracez ensuite la ligne {{ "LOWER" | red }} en maintenant la touche <kbd>l</kbd> (l comme Lower) enfoncée et en déplaçant la souris.
 
 Vous devez obtenir le graphique suivant :
 
@@ -26,11 +34,13 @@ Vous devez obtenir le graphique suivant :
 
 Cela ne vous convient pas, vous souhaitez recommencer à tracer votre canal, cliquez sur : <kbd>Echap</kbd> pour effacer le canal en cours de tracé.
 
-Vous souhaitez supprimer ce canal, tapez sur la touche : <kbd>X</kbd> pour tout supprimer.
+Vous souhaitez supprimer ce canal, tapez sur la touche : <kbd>x</kbd> pour tout supprimer.
 
-Une fois le canal tracé, vous pouvez retourner en mode édition par la touche : <kbd>S</kbd> pour retoucher, déplacer les extrémités des lignes du canal.
+Une fois le canal tracé, vous pouvez {{"retourner en mode édition"|keyword}} par la touche : <kbd>s</kbd> vous pouvez alors pour retoucher, déplacer les extrémités des lignes du canal.
 
 Le canal est {{ "sauver automatiquement" | keyword }} quand vous avez terminé de le tracer.
+
+Pour {{"supprimer"|keyword}} le canal vous devrez revenir dans les fenêtre de la stratégie {{"Bollinger Bands FTMA"|keyword}}
 
 ## Monitorez votre canal d'alertes
 
