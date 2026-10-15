@@ -1396,6 +1396,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#annotation-en-delta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Annotation en Delta
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#annotation-en-rectangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Annotation en Rectangle
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1968,6 +1986,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#annotation-en-delta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Annotation en Delta
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#annotation-en-rectangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Annotation en Rectangle
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1988,7 +2024,7 @@
 
 
 <h1 id="annoter-les-graphes">Annoter les graphes<a class="headerlink" href="#annoter-les-graphes" title="Permanent link">&para;</a></h1>
-<p>Vous avez deux types d'annotations dynamiques qui suivent le pointeur de la souris :</p>
+<p>Vous avez trois types d'annotations dynamiques qui suivent le pointeur de la souris :</p>
 <figure style="text-align: center;">
     <a href="/images/draw-on-charts/annote-graph.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE">
         <img src="/images/draw-on-charts/annote-graph.png"/>
@@ -2013,10 +2049,10 @@
 <p><span class="text-red">(2)</span> La barre verticale se poursuit dans les graphes secondaires.</p>
 </li>
 </ul>
-<p>En utilisant la touche : <kbd>V</kbd> comme dans <a href="../annote-price-date/">Annoter les prix et les dates</a> vous pouvez marquer les résistances et les supports du cours de l'action.</p>
+<p>En positionnant la croix exactement à l'endroit où vous le souhaitez et en utilisant la touche : <kbd>V</kbd> comme dans <a href="../annote-price-date/">Annoter les prix et les dates</a> vous pouvez marquer les résistances et les supports du cours de l'action.</p>
 <p>Pour stopper les annotations, <span class="text-keyword">décochez</span> simplement les cases à cocher.</p>
 <h2 id="annotation-prix-et-date">Annotation Prix et Date<a class="headerlink" href="#annotation-prix-et-date" title="Permanent link">&para;</a></h2>
-<p>Cochez les deux cases pour avoir à la fois le prix qui suit la souris et la date</p>
+<p>Cochez les deux cases, pour avoir à la fois le prix qui suit la souris et la date correspondante.</p>
 <figure style="text-align: center;">
     <a href="/images/draw-on-charts/annote-cross.png" class="glightbox" data-gallery="galerie" title="AIR LIQUIDE - ANNOTE & CROSS">
         <img src="/images/draw-on-charts/annote-cross.png" alt="ANNOTE & CROSS"/>
@@ -2029,6 +2065,34 @@
 <li><span class="text-red">(2)</span> La croix prix/date s'affiche sur le graphe.</li>
 <li><span class="text-red">(3)</span> L'annotation OHLC s'affiche sur la bougie.</li>
 </ul>
+<h2 id="annotation-en-delta">Annotation en Delta<a class="headerlink" href="#annotation-en-delta" title="Permanent link">&para;</a></h2>
+<p>Cochez la case <span class="text-keyword">"DELTA"</span> pour afficher une annotion en delta qui vous affiche le delta en date et en prix entre deux points.</p>
+<ul>
+<li>Premier clic droit pour affiche un premier point qui s'aligne sur la courbe de prix.</li>
+<li>Deuxième clic droit, un deuxième point il s'aligne sur la courbe et l'annotation en delta s'affiche.</li>
+</ul>
+<figure style="text-align: center;">
+    <a href="/images/draw-on-charts/annote-delta.png" class="glightbox" data-gallery="galerie" title="SAFRAN - DELTA">
+        <img src="/images/draw-on-charts/annote-delta.png" alt="DELTA"/>
+    </a>
+    <figcaption><em>SAFRAN</em></figcaption>
+</figure>
+
+<p>Pour effacer l'annotation en dalte faites un clic droit</p>
+<details class="warning" open="open">
+<summary>Warning</summary>
+<p>Attention pour les gauchés c'est inversé</p>
+</details>
+<h2 id="annotation-en-rectangle">Annotation en Rectangle<a class="headerlink" href="#annotation-en-rectangle" title="Permanent link">&para;</a></h2>
+<p>Si aucun des outils de la barre d'outils de MatPlotlib n'est coché, vous pouvez avec la souris, sélectionner un rectangle qui affichera une annotion Delta X, Delta Y.</p>
+<p>Rectangle vert pour les hausses.<br />
+Rectangle reouge pour les baisses.</p>
+<figure style="text-align: center;">
+    <a href="/images/draw-on-charts/annote-rectangle.png" class="glightbox" data-gallery="galerie" title="SAFRAN - Rectangle">
+        <img src="/images/draw-on-charts/annote-rectangle.png" alt="Rectangle"/>
+    </a>
+    <figcaption><em>SAFRAN</em></figcaption>
+</figure>
 
 
 
