@@ -23,7 +23,7 @@ Pour supprimer une barre d'annotation {{ "cliquez droit" | keyword }} aux endroi
     <a href="/images/draw-on-charts/delete-annotation.png" class="glightbox" data-gallery="galerie" title="Supprimer des annotations">
         <img src="/images/draw-on-charts/delete-annotation.png"/>
     </a>
-    <figcaption><em>Supprimer des annotations - clique droit à l'endroit indiqué</em></figcaption>
+    <figcaption><em>Supprimer des annotations - clic droit à l'endroit indiqué</em></figcaption>
 </figure>
 
 ## Supprimer toutes les annotations
