@@ -2157,27 +2157,27 @@
 <p>Le répertoire <span class="text-keyword">Digital Signal Processing</span> rassemble des algorithmes écrits en <span title="Langage de programmation utilisé pour le développement de la plateforme TradingInPython." style="border-bottom:1px dotted;cursor:help"><b>Python</b></span> utilisés dans les traitements et les indicateurs de la plateforme :</p>
 <ul>
 <li><a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/_internal/digitsignalprocessing">Consulter le répertoire Digital Signal Processing sur GitHub</a></li>
-<li><a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/digitsignalprocessing/indicators.py">Consulter le fichier <code>indicators.py</code></a>, qui regroupe notamment des implémentations d'indicateurs techniques.</li>
+<li><a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/digitsignalprocessing/indicators.py">Consulter le fichier <code>indicators.py</code></a>, qui regroupe les implémentations des indicateurs techniques.</li>
 </ul>
 <p>Vous pouvez ainsi examiner le code plutôt que de considérer les indicateurs comme des outils opaques. Ces sources constituent également des exemples pour apprendre à construire vos propres traitements de données financières.</p>
 <h2 id="executer-vos-propres-scripts-python-dans-tradinginpython">Exécuter vos propres scripts Python dans TradingInPython<a class="headerlink" href="#executer-vos-propres-scripts-python-dans-tradinginpython" title="Permanent link">&para;</a></h2>
 <p><span class="text-keyword">TradingInPython</span> utilise les possibilités du langage Python pour permettre l'exécution de scripts personnalisés. Les scripts peuvent être exécutés directement par l'environnement Python de la plateforme. Certains composants ou stratégies peuvent également être distribués sous forme de modules compilés avec <span class="text-keyword">Cython</span>.</p>
 <p>Il n'est donc pas nécessaire de modifier les fichiers internes du logiciel pour commencer à développer vos outils. La plateforme intègre un <span class="text-keyword">interpréteur de scripts Python</span> qui permet de lancer des scripts utilisateurs depuis son interface.</p>
-<p>Cette solution permet notamment de :</p>
+<p>Cette solution permet de :</p>
 <ul>
 <li>exécuter les scripts Python fournis avec la plateforme,</li>
 <li>analyser une valeur ou une liste d'actions sélectionnée,</li>
 <li>exploiter les informations transmises par la plateforme à travers son API de scripts,</li>
 <li>afficher les résultats dans la console et produire vos propres analyses.</li>
 </ul>
-<p>Les listes d'actions constituées avec les screeners peuvent notamment servir de données d'entrée à vos scripts. Vous pouvez donc associer sélection de valeurs, analyse financière et programmation Python dans un même environnement.</p>
+<p>Les listes d'actions constituées avec les screeners servent de données d'entrée à vos scripts. Vous pouvez donc associer sélection de valeurs, analyse financière et programmation Python dans un même environnement.</p>
 <p>Pour découvrir le fonctionnement de cette interface, les scripts fournis et l'API disponible, consultez la documentation :</p>
 <ul>
 <li><a href="https://trading-in-python.sodevlog.com/script-interpreter/interface/">Comment utiliser l'interpréteur de scripts Python</a></li>
 <li><a href="https://trading-in-python.sodevlog.com/script-interpreter/financial-analysis-scripts/">Scripts d'analyse financière</a></li>
 <li><a href="https://github.com/SoDevLog/PyTrading/tree/main/TradingInPython/_internal/user_scripts">Exemples de scripts utilisateurs sur GitHub</a></li>
 </ul>
-<p>Sur une installation Windows, les scripts utilisateurs sont notamment regroupés dans le répertoire <code>user_scripts</code> du dossier de données de TradingInPython, sous le profil de l'utilisateur :</p>
+<p>Sur une installation Windows, les scripts utilisateurs sont regroupés dans le répertoire <code>user_scripts</code> du dossier de données de TradingInPython, sous le profil de l'utilisateur :</p>
 <div class="highlight"><pre><span></span><code>C:\Users\{UserName}\AppData\Local\TradingInPython\user_scripts
 </code></pre></div>
 <h2 id="pour-modifier-une-strategie-python-existante">Pour modifier une stratégie Python existante<a class="headerlink" href="#pour-modifier-une-strategie-python-existante" title="Permanent link">&para;</a></h2>
@@ -2190,14 +2190,14 @@
   <figcaption><em>Exemple de fichiers associés à une stratégie Python</em></figcaption>
 </figure>
 
-<p>Le dépôt GitHub contient notamment le fichier source de cette stratégie :</p>
+<p>Le dépôt GitHub contient le fichier source de cette stratégie :</p>
 <ul>
 <li><a href="https://github.com/SoDevLog/PyTrading/blob/main/TradingInPython/_internal/strategy_sma12e.py"><code>strategy_sma12e.py</code></a></li>
 </ul>
 <p>Lorsque votre installation contient à la fois le fichier Python et le module compilé correspondant, le fonctionnement dépend de la version distribuée :</p>
 <ul>
 <li>le fichier <code>.py</code> contient le script Python lisible et modifiable ;</li>
-<li>le fichier <code>.pyd</code> est un module d'extension compilé, notamment à l'aide de Cython.</li>
+<li>le fichier <code>.pyd</code> est un module d'extension compilé à l'aide de Cython.</li>
 </ul>
 <p>Dans le mécanisme utilisé pour cette stratégie, si vous souhaitez tester votre version du script, vous pouvez modifier le fichier <code>.py</code> et mettre temporairement de côté le module <code>.pyd</code> correspondant afin que Python charge le script source à la place.</p>
 <div class="admonition danger">
@@ -2220,7 +2220,7 @@
 <li><a href="https://www.python.org/">Python</a> : langage de programmation utilisé pour les scripts, les traitements de données et les stratégies.</li>
 <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> : environnement de développement (IDE) utilisé pour écrire et déboguer les scripts Python ainsi que pour travailler sur les procédures de construction et d'installation.</li>
 <li><a href="https://fork.dev/">Fork</a> : outil de gestion des versions Git et d'interfaçage avec GitHub.</li>
-<li><a href="https://cython.readthedocs.io/">Cython</a> : outil permettant notamment de compiler certains modules Python en extensions natives.</li>
+<li><a href="https://cython.readthedocs.io/">Cython</a> : outil permettant de compiler les modules Python en extensions natives.</li>
 <li><a href="https://pyinstaller.org/">PyInstaller</a> : outil utilisé pour préparer la distribution de l'application Python en regroupant le programme et ses dépendances.</li>
 <li><a href="https://jrsoftware.org/isinfo.php">Inno Setup</a> : outil de création de l'installateur Windows.</li>
 </ul>
