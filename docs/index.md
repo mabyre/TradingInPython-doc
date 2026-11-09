@@ -32,6 +32,10 @@ Voici l'écran principal de plateforme avec une analyse technique des Doubles Ba
 
 Téléchargez la dernière version du logiciel de la plateforme :
 
+- [TradingInPython - Installeur pour Windows](https://github.com/SoDevLog/PyTrading/releases/latest/download/tradinginpython_setup.zip)
+
+Pour vous tenir au courant des dernières évolutions du logiciel :
+
 - [TradingInPython - Suivi des versions logicielles](https://github.com/SoDevLog/PyTrading/releases)
 
 ### Installation
