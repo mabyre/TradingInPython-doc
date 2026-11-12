@@ -4,9 +4,16 @@ Si vous avez déjà le {{"Nom"|keywordi}} et le {{"Symbole"|keywordi}} de l'acti
 
 ## Importer des actions
 
-L'import d'actions (de titres, ETF, etc) peut se faire à l'unité ou en masse par l'{{"Importateur de stocks"|keyword}} (ations) depuis des sources multiples comme : YahooFinance, le NASDAQ, le marché EURONEXT.
+L'import d'actions (de titres, ETF, etc) peut se faire à l'unité ou en masse par l'{{"Importateur de stocks"|keyword}} (ations) depuis des sources multiples comme :
 
-- Menu {{ "Stocks" | keywordi }} -> {{ "Impoter des stocks" | keywordi }}
+- Yahoo Finance
+- Yahoo ETF
+- le NASDAQ
+- ou le marché EURONEXT
+
+Pour ouvir la fenêtre {{"Importer des actions"|keywordi}} :
+
+- Menu {{"Stocks"|keywordi}} -> {{"Impoter des stocks"|keywordi}}
 
 <figure style="text-align: center;">
     <a href="/images/gestion-stocks/menu-stocks-importer.png" class="glightbox" data-gallery="galerie" title="Menu Stocks -> Importer des stocks">
@@ -24,13 +31,23 @@ Vous ouvrez l'{{"Importateur de stocks"|keyword}} multi-sources :
     <figcaption><em>Menu Stocks -> Importer des Stocks</em></figcaption>
 </figure>
 
-Et vous recherchez parmi des sources à importer une action à trader. Une action à trader, c'est un {{"nom"|keywordi}} et un {{"ticker"|keywordi}} d'identification du titre sur les marchés boursier.
+Choisissez une source puis cliquez sur le bouton {{"Charger"|keywordi}} pour charger une page d'actions dans la liste.
 
-## Importer plus simplement
+!!! note
+
+    Certaines sources qui comportent des listes d'actions très importantes ne permettent que de charger par page, c'est le cas de Yahoo Finance.
+
+C'est pour cela que vous avez un deuxième bouton {{"Charger la suite"|keywordi}} qui vous permet de charger la page suivante.
+
+Vous recherchez alors parmi la liste des actions chargée une action à trader. Une action à trader, c'est un {{"nom"|keywordi}} et un {{"ticker"|keywordi}} d'identification du titre sur les marchés boursier.
+
+Pour trader des ETF vous pouvez choisir la source : {{"Yahoo ETF"|keywordi}}
+
+### Importer plus simplement
 
 Si vous avez déjà le {{"nom de l'action"|keyword}} et son {{"ticker"|keyword}}, vous pouvez importer plus simplement, directement dans la [gestion de la liste des actions](#gerer-la-liste-des-actions).
 
-### Trouver une action à trader
+## Trouver une action à trader
 
 L'importateur de stocks est ouvert sur tous les marchés, trouver une action peut-être fastidieu.
 
@@ -61,7 +78,7 @@ Vous pouvez demandez à YahooFinance un premier classement :
 - Volume moyen : trouver les actions à plus forte volatilité
 - Symbole de A à Z : c'est le classement par ticker
 
-### Afficher le secteur et l'industrie
+## Afficher le secteur et l'industrie
 
 Les champs 'Secteur' et 'Industrie' sont important pour le trader qui cherche des informations sur un marché par exemple celui des semi-conducteurs ou du health-care.
 
@@ -79,13 +96,13 @@ Soit vous cliquez directement de dessus vous allez chercher les champs 'Secteur'
 
 Mais si vous sélectionnez dans la liste un ensemble d'actions vous obtiendrez les deux champs qui nous manquent.
 
-### Importer avec une Catégorie
+## Importer avec une Catégorie
 
 Au moment de cliquer sur le bouton : {{"Importer la sélection"|keywordi}}
 
 Vous pouvez importer avec une Catégorie d'action existant déjà dans TradingInPython.
 
-### Conclusion sur l'importation de stocks
+## Conclusion sur l'importation de stocks
 
 C'est une fonctionnalité qu'il faut manier avec précaution, il faut avoir déjà un peu l'habitude mais vous apprendrez vite à vous en servir.
 
@@ -191,9 +208,11 @@ Avec {{ "Aero" | keywordi }} je filtre tous les Stocks du domaine de Aerospace-d
 
 ## Tradez
 
+Pour trader, veuillez [installer le logiciel](index.md#telechargez-le-logiciel-gratuitement).
+
 Vous avez déjà sans doute remarqué qu'en sélectionnant une actions dans la liste, la fenêtre principale {{"Strategy Automation"|keywordi}} vous indique un message : {{"Choisissez une stratégie..."|keywordi}}.
 
-Il vous suffit dans le menu {{"Stratégies"|keyword}} de choisir par exemple {{"Ichimoku Kynko Hyo"|keyword}} pour découvrir l'analyse technique de l'action que vous avez sélectionnée dans la liste.
+Il vous suffit dans le menu {{"Stratégies"|keyword}} de choisir par exemple {{"Ichimoku Kynko Hyo"|keyword}} pour découvrir l'analyse technique de l'action que vous avez sélectionnée dans la liste :
 
 <figure style="text-align: center;">
     <a href="/images/gestion-stocks/ichimoku.png" class="glightbox" data-gallery="galerie" title="Gestion des Stocks - Filtrer">

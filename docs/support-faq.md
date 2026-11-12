@@ -6,13 +6,13 @@ keywords: "faq, support, trading, technique"
 
 ## FAQ
 
-Retrouvez les réponses aux questions les plus fréquentes que vous pouvez vous poser à propos de
+Retrouvez les réponses aux questions les plus fréquentes que vous pouvez vous poser à propos de la plateforme :
 
 - <a href="https://www.trading-et-data-analyses.com/2025/08/tradinginpython-plateforme-ouverte-pour-le-trading-technique.html" target="_blank">FAQ - TradingInPython</a>
 
 ## Support
 
-Pour toutes vos demandes, vos questions :
+Pour toutes vos demandes, vos questions, vos interrogations, vos remarques :
 
 - [Blog - Formulaire de contact](https://www.trading-et-data-analyses.com/p/formulaire-de-contact.html)
 
@@ -22,7 +22,7 @@ Un problème, un bug, une question avec la plateforme logicielle :
 
 _Pour envoyez un message vous devez avoir un compte GitHub ..._
 
-Cliquez sur le bouton "{{ "New isue" | green }}"
+Cliquez sur le bouton : {{"New isue"|green}}
 
 - [GitHub - TradingInPython remarques](https://github.com/SoDevLog/PyTrading/issues)
 
